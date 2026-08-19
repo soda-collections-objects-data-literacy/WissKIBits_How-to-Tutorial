@@ -33,7 +33,7 @@ LearningResourceType: SODa How-to-Tutorial
 -->
 
 
-# SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+# WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
