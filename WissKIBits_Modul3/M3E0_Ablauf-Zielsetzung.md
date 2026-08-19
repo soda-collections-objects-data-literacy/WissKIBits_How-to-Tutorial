@@ -131,6 +131,8 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 - ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung benennen. (LZ-ID SODa\_02\_005\_0317) 
 - unter Anleitung ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung anwenden. (LZ-ID SODa\_02\_005\_0318)
 
+### 3. Vom Pathbuilder zur Wissensbasis
+
 - die Struktur eines WissKI-Pathbuilders erläutern;
 - Pathbuilder und Ontologie miteinander in Beziehung setzen;
 - die Auswirkungen von Modellierungsentscheidungen auf Dateneingabe und -abfrage erläutern;
@@ -156,13 +158,13 @@ flowchart TD
 
 Das Modul verbindet Aktivierung, angeleitete Modellierung, technische Transformation und Ergebniskontrolle:
 
-* Zu Beginn werden Forschungs- und Abfragefragen aus der Sammlungsperspektive aufgegriffen: Welche Informationen sollen später über semantische Pfade auffindbar und abfragbar sein?
-* Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in den vorherigen Modulen entwickelte Domänenontologie dienen erneut als roter Faden.
-* In Draw.io vervollständigen die Teilnehmenden ein vorbereitetes Diagramm um fehlende Klassen und Eigenschaften.
-* Sie prüfen vollständige Pfade, Knoten-Kanten-Verbindungen, Benennungen und die für die Konvertierung benötigten Attributwerte.
-* Das Diagramm wird als XML-Datei an den Konvertierungsdienst übergeben.
-* Die erzeugte Pathbuilder-XML-Datei wird in WissKI importiert.
-* Abschließend werden Pfade und Pfadgruppen mit dem Ausgangsdiagramm und den fachlichen Abfragewünschen verglichen.
+- Zu Beginn werden Forschungs- und Abfragefragen aus der Sammlungsperspektive aufgegriffen: Welche Informationen sollen später über semantische Pfade auffindbar und abfragbar sein?
+- Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in den vorherigen Modulen entwickelte Domänenontologie dienen erneut als roter Faden.
+- In Draw.io vervollständigen die Teilnehmenden ein vorbereitetes Diagramm um fehlende Klassen und Eigenschaften.
+- Sie prüfen vollständige Pfade, Knoten-Kanten-Verbindungen, Benennungen und die für die Konvertierung benötigten Attributwerte.
+- Das Diagramm wird als XML-Datei an den Konvertierungsdienst übergeben.
+- Die erzeugte Pathbuilder-XML-Datei wird in WissKI importiert.
+- Abschließend werden Pfade und Pfadgruppen mit dem Ausgangsdiagramm und den fachlichen Abfragewünschen verglichen.
 
 Das Ziel ist nicht die vollständige technische Konfiguration einer WissKI-Instanz. Entscheidend ist eine **nachvollziehbare und wiederholbare Verarbeitungskette**, die das semantische Modell in eine nutzbare WissKI-Pfadstruktur überführt.
 
@@ -172,21 +174,21 @@ Das Ziel ist nicht die vollständige technische Konfiguration einer WissKI-Insta
 
 Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse und Arbeitsergebnisse. Die Teilnehmenden sollten …
 
-* Konzepte, Ereignisse und Beziehungen einer Domäne identifizieren können,
-* Klassen, Objekt- und Datentyp-Eigenschaften unterscheiden können,
-* mit dem ereigniszentrierten Modellierungsprinzip und ausgewählten Elementen des CIDOC CRM vertraut sein,
-* Scope Notes für Modellierungsentscheidungen nutzen können,
-* eine formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung kennen,
-* sowie das Grundprinzip von semantischen Pfaden verstanden haben.
+- Konzepte, Ereignisse und Beziehungen einer Domäne identifizieren können,
+- Klassen, Objekt- und Datentyp-Eigenschaften unterscheiden können,
+- mit dem ereigniszentrierten Modellierungsprinzip und ausgewählten Elementen des CIDOC CRM vertraut sein,
+- Scope Notes für Modellierungsentscheidungen nutzen können,
+- eine formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung kennen,
+- sowie das Grundprinzip von semantischen Pfaden verstanden haben.
 
 Für die praktische Anwendung werden benötigt:
 
-* ein Computer mit Internetzugang,
-* Zugriff auf Draw.io beziehungsweise diagrams.net,
-* die vorbereitete Draw.io-XML-Datei,
-* Zugriff auf den Konvertierungsdienst,
-* Zugang zu einer vorbereiteten WissKI-Instanz,
-* sowie die im Tutorial verwendete Domänenontologie und Referenzontologie.
+- ein Computer mit Internetzugang,
+- Zugriff auf Draw.io beziehungsweise diagrams.net,
+- die vorbereitete Draw.io-XML-Datei,
+- Zugriff auf den Konvertierungsdienst,
+- Zugang zu einer vorbereiteten WissKI-Instanz,
+- sowie die im Tutorial verwendete Domänenontologie und Referenzontologie.
 
 ---
 
@@ -194,11 +196,11 @@ Für die praktische Anwendung werden benötigt:
 
 Am Ende von Modul 3 liegen folgende Arbeitsergebnisse vor:
 
-* ein nach den vorgegebenen Regeln vervollständigtes semantisches Draw.io-Diagramm,
-* eine exportierte Draw.io-XML-Datei,
-* eine durch den Konvertierungsdienst erzeugte WissKI-Pathbuilder-XML-Datei,
-* eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
-* sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
+- ein nach den vorgegebenen Regeln vervollständigtes semantisches Draw.io-Diagramm,
+- eine exportierte Draw.io-XML-Datei,
+- eine durch den Konvertierungsdienst erzeugte WissKI-Pathbuilder-XML-Datei,
+- eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
+- sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
 
 Die importierte Pfadstruktur bildet die Grundlage für die Generierung von Bundles, Feldern und Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter Forschungsdaten in WissKI.
 
@@ -213,13 +215,10 @@ Im nächsten Schritt werden aus den importierten Pfaden und Pfadgruppen Eingabes
 ## Redaktionelle Hinweise
 
 * Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt. Da beide Facheinheiten praktische Aufgaben enthalten, sollte die Dauer nach einem Testlauf überprüft werden.
-* Die bisherige Einheit 0 war fälschlich als **Modul 2, Einheit 1** bezeichnet. Die Bezeichnung wurde zu **Modul 3, Einheit 0** vereinheitlicht.
-* Das Lernziel zu relevanten (inter-)nationalen IT-Infrastrukturen (LZ-ID SODa_01_010_0190a) wurde nicht in die Modulziele übernommen, weil es in den vorliegenden Einheiten 1 und 2 nicht durch einen eigenen Inhalt oder eine Aufgabe abgedeckt ist.
-* Für die Lernziele **„Begriff Visualisierung erläutern“**, **„Nutzen von Visualisierungen erläutern“** und **„Kernentitäten einer Objektsammlung benennen“** sind noch verbindliche LZ-IDs festzulegen.
 * Die Schreibweise von **gnm-service**, der genaue Dienstname und die institutionelle Zuordnung sollten einheitlich festgelegt werden.
 * Die Formulierung „syntaktische Gültigkeit anhand der Referenzontologie“ sollte fachlich geprüft werden. Je nach tatsächlichem Prüfungsumfang kann „strukturelle und ontologische Validierung“ präziser sein.
 * Die verwendeten Versionen von CIDOC CRM, Erlangen CRM, Domänenontologie, Draw.io-Vorlage und Konvertierungsdienst sollten für eine reproduzierbare Durchführung dokumentiert werden.
-* Für die Arbeit in WissKI sind eine vorbereitete Instanz, geeignete Zugriffsrechte und eine vorab getestete Importfunktion erforderlich.
+* Für die Arbeit in WissKI sind eine vorbereitete Instanz, geeignete Zugriffsrechte und eine vorab getestete Importfunktion erforderlich / bzw Alternative für "Modul-Selbstnutzung"
 
 
 <!-- alt
