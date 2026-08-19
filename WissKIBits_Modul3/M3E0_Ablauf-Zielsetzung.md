@@ -33,7 +33,7 @@ LearningResourceType: SODa How-to-Tutorial
 -->
 
 
-# SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+# WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
@@ -53,7 +53,7 @@ Lernziel
 ## Begrüßung
 
 
-> Willkommen zu **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**.
+> Willkommen zu **WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**.
 > 
 > Dieses How-to-Tutorial bietet eine praxisorientierte Einführung in die **Arbeit und Analyse mit strukturierten Forschungsdaten** – von der ersten Beschreibung eines Sammlungsobjekts bis zur semantisch belastbaren Modellstruktur (**Datenmodell am Beispiel entwickeln und implementieren**).
 >
