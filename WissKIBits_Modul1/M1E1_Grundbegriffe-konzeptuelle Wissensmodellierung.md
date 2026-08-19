@@ -98,7 +98,7 @@ Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der s
 ## Aktivierung und Input: Wissen einer Sammlung konzeptuell ordnen
 
 **Arbeitsform:** Impulsfrage / Blitzfrage im Plenum / Clustering  
-**Materiel:** keines  
+**Material:** keines  
 **Zeit:** XX Min.  
 
 In dieser Aufgabe geht es darum, Kernkonzepte, -ereignisse und -beziehungen der eigenen Sammlung zu identifizieren.
