@@ -81,7 +81,7 @@ In dieser Einheit wird die **konzeptuelle Wissensmodellierung** innerhalb einer 
 
 Bei der **Konzeptuellen Wissensmodellierung** wird herausgearbeitet welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.
 
-Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der **semantischen Datenmodellierung** versteht man unter Domäne den fachlichen Wissensbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
+Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der **semantischen Datenmodellierung** versteht man unter Domäne den fachlichen Wissens- und Anwendungsbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
 
 Zentralen Elemente der konzeptuellen Wissensmodellierung sind **Konzept, Ereignis und Beziehung**.
 
