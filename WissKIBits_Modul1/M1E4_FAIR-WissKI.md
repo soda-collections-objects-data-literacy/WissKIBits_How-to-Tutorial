@@ -57,9 +57,6 @@ Teilnehmende können...
 
 ---
 
-## (inhalte ergänzen) 
-
-
 ## WissKI in Kürze
 
 **WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist:
@@ -76,9 +73,11 @@ WissKI wird u. a. am **Germanischen Nationalmuseum (GNM)** in Nürnberg eingeset
 
 WissKI ist **nicht nur** eine Sammlungsdatenbank –  es ist ein **semantisches Datenmanagementsystem für Linked Open Data (LOD)**  und unterstützt die FAIR-Prinzipien (**Findable – Accessible – Interoperable – Reusable**).
 
-Ein etabliertes Mittel zur Einordnung von Daten im Hinblick auf **Linked Open Data (LOD)** ist das [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das zugleich einen guten Einstieg in das Verständnis von LOD bietet. [1]
+Ein etabliertes Mittel zur Einordnung von Daten im Hinblick auf **Linked Open Data (LOD)** ist das [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das zugleich einen guten Einstieg in das Verständnis von LOD bietet. [Hausenblast2012lod]
 
-Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [2] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [3] 
+(canan) RDF OWL ...
+
+Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair]] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
 
 ![GNM](../assets/gnm.jpg)
 ![GNM innen](../assets/gnm_2.JPG)
