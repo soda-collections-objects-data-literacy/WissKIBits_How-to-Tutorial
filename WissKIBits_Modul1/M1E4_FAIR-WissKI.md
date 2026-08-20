@@ -40,7 +40,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit 4: **FAIR-Konformität mit WissKI**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~  15 Min.
 
 **Lernziele:**
 
