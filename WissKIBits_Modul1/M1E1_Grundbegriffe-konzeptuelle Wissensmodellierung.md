@@ -69,57 +69,71 @@ In dieser Einheit wird die **konzeptuelle Wissensmodellierung** innerhalb einer 
 - Semantisches Modellieren ist vor allem ein **konzeptueller Prozess**. Er ist disziplinübergreifend und erfordert gleichzeitig **fachwissenschaftliches Wissen und Modellierungskompetenz**. (Fichtner2025paths, S. 86) Die so beschriebenen Konzepte, Begriffe und Relationen werden in semantischen Datenmodellen formal repräsentiert.
 - 
 - Ein **semantisches Datenmodell** ist ein konzeptueller, formaler Rahmen, der die Bedeutung von Daten durch die Definition von Konzepten und Begriffen, ihre Relationen und Regeln innerhalb eines Wissensbereichs beschreibt. Es dient nicht der Darstellung konkreter Daten, sondern stellt dar, wie Daten aus einem bestimmten Wissensbereich und Kontext verstanden, interpretiert und miteinander in Beziehung gesetzt werden.
-- Diese formale Repräsentation bildet die Grundlage für ihre technische Umstzung und maschinelle Verarbeitung.
+<!-- Diese formale Repräsentation bildet die Grundlage für ihre technische Umstzung und maschinelle Verarbeitung.-->
 - Eine Forschungsinfrastruktur, die diesen Prozess unterstützt ist **WissKI** (Wissenschaftliche Kommunikationsinfrastruktur), indem es die konzeptuelle Modellierung eines Wissensbereichs mit der semantischen Erfassung, Verwaltung  und Speicherung von Forschungsdaten verbindet.
 - Die Daten werden auf diese Weise sowohl **inhaltlich als auch technisch langfristig interpretierbar und damit entsprechend wissenschaftlichen Qualitätskritierien nachnutzbar**. (Fichtner2025paths, S. xy)
 
 ---
 
-## Grundbegriffe der konzeptuellen Analyse
+## Grundbegriffe der konzeptuellen ?Analyse?/Wissensmodellierung
 
-Bevor Wissen formal modelliert werden kann, muss zunächst geklärt werden, **welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.** Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung versteht man darunter den fachlichen Wissensbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
+Bevor Wissen formal modelliert werden kann, muss zunächst geklärt werden, **welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.** 
+
+Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. 
+
+In der semantischen Datenmodellierung versteht man darunter den fachlichen Wissensbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
 
 ---
 
-## Begriffsdefinition
+## Begriffsdefinitionen auf konzeptueller Ebene
 
 Auf konzeptueller Ebene lassen sich folgende Elemente innerhalb einer Domäne identifizieren:
 
-- **Konzepte**
-abstrakte Begriffe
-sind zentrale Einheiten einer Domäne. Dazu gehören beispielsweise Objekte, Personen, Orte, Materialien oder Institutionen
-- **Ereignisse** sind Vorgänge, durch die Konzepte miteinander verbunden werden oder durch die sich Informationen über Konzepte ergeben. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung.
-- **Beziehungen** beschreiben die semantische Verknüpfung zwischen Konzepten und Ereignissen. Beispiele sind "wurde hergestellt von", "befindet sich in", "wurde restauriert durch" oder "ist Teil von".
+- **Konzepte** abstrakte Begriffe sind zentrale Einheiten einer Domäne. Dazu gehören beispielsweise Objekte, Personen, Orte, Institutionen.
+- **Ereignisse** sind eine strukturierte Sammlung von Abläufen, Hergängen und Prozessen die kontextbezogene informationen über Konzepte bereitstellen. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objektes.
+- **Beziehungen** beschreiben die semantische Verknüpfung zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind Objekt "wurde hergestellt von" Person und Objekt "wurde hergestellt" bei Herstellung.
 
-Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der semantischen Modellierung. Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden sind, können sie in ein formales Datenmodell überführt werden.
+Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der semantischen Modellierung. 
 
+Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden sind, können sie in einem semantischen Datenmodell dargestellt werden. 
+
+Grafik?
 ---
 
 ## Aktivierung und Input: Wissen einer Sammlung konzeptuell ordnen
-
-**Arbeitsform:** Impulsfrage / Blitzfrage im Plenum / Clustering  
+(überarbeiten) 
+**Arbeitsform:** Modellieren   
 **Material:** keines  
-**Zeit:** XX Min.  
+**Zeit:** 10 Min.  
 
-In dieser Aufgabe geht es darum, Kernkonzepte, -ereignisse und -beziehungen der eigenen Sammlung zu identifizieren.
+In dieser Aufgabe geht es darum, Kernkonzepte, -ereignisse und -beziehungen als Aussagen der eigenen Sammlung zu beschreiben.
 
-1. Blitzrunde im Plenum:
 Denkt an ein typisches Objekt aus eurer Sammlung: Welche Information muss zwingend dokumentiert sein, damit Forschung möglich wird?
 
-2. Clustering:
-Die Aussagen wird sichtbar an einem [Board](https://miro.com/app/board/uXjVGKauOtE=/) in 3 Spalten zugeordnet:
+Die Aussagen werden sichtbar an einem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier skizziert:
 
 - Konzepte (Objekt, Person, Ort, Zeit…)
 - Ereignisse (Herstellung, Nutzung, Erwerb, Fund…)
 - Beziehungen (Rollen, Zugehörigkeiten, Teil-von, identisch mit…)
 
 **Hinweis:**
-- Jede Person nennt genau 1 Punkt: „Für uns ist unverzichtbar, dass …“
-- z.B. „… eine eindeutige Identifizierung durch z. B. Signatur-/Inventarnummer möglich ist.
+- ...
 
 ---
 
 ## Ergebnis
+
+Grafik / Musterergebnis 
+  
+---
+
+## Zusammenfassung
+
+(überarbeiten) 
+
+Anforderungen aus der Sammlungspraxis bilden die Grundlage, um in diesem Modul 1 zentrale Konzepte, Ereignisse und Beziehungen zu identifizieren und daraus ein konsistentes, nachvollziehbares Domänenmodell und -diagramm zu entwickeln. 
+
+Damit können Forschungsfragen an Sammlungen gestellt werden, wie...
 
 - „… der Herstellungs-/Entstehungskontext klar ist.“
 - „… Akteur:innen und Rollen unterscheidbar sind.“
@@ -127,19 +141,12 @@ Die Aussagen wird sichtbar an einem [Board](https://miro.com/app/board/uXjVGKauO
 - „… Ort und Zeit belastbar sind.“
 - „… Unsicherheiten (Hypothesen) abbildbar sind.“
 - „… eine eindeutige Identifizierung durch z. B. Signatur-/Inventarnummer möglich ist.“
-  
----
-
-## Zusammenfassung
-
-
-Anforderungen aus der Sammlungspraxis bilden die Grundlage, um in diesem Modul 1 zentrale Konzepte, Ereignisse und Beziehungen zu identifizieren und daraus ein konsistentes, nachvollziehbares Domänenmodell und -diagramm zu entwickeln. 
 
 ---
 
 ## Ausblick
 
-
+... kurz: wie setzen wir das mit Ontologien nun um?... was haben Ontologien damit zu tun...
 
 ---
 
