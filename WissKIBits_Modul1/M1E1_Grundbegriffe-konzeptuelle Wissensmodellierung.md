@@ -120,13 +120,16 @@ Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstan
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
----
+```mermaid
+flowchart TD
+    A["Fachliche Domäne bestimmen"] --> B["Relevantes Wissen identifizieren"]
+    B --> C["Konzepte, Ereignisse und Beziehungen ordnen"]
+    C --> D["Fachliche Bedeutungszusammenhänge beschreiben"]
+    D --> E["Semantisch modellieren"]
+    E --> F["Semantisches Datenmodell"]
+```
 
-## Von Domäne zum semantischen Datenmodell
-
-Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die Identifikation und Strukturierung relevanter Konzepte, Ereignisse und Beziehungen bis zu ihrer Formalisierung in einem semantischen Datenmodell.
-
-GRAFIK
+> **Abbildung:** Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die konzeptuelle Ordnung des relevanten Wissens bis zum semantischen Datenmodell.
 
 ---
 
