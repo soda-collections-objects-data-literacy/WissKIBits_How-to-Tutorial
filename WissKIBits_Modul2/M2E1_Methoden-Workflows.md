@@ -4,7 +4,7 @@
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
+Modul 2: **Modllieren mit CIDOC CRM – verstehen und anwenden**
 
 Einheit 1: **Methoden und Workflows semantischer Modellierung**  
 
