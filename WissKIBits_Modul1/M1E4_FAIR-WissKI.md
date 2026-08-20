@@ -61,10 +61,10 @@ Teilnehmende können...
 
 **WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist:
 
-* eine freie, quelloffene virtuelle Forschungsumgebung
-* entwickelt für Kulturerbe- und Forschungsdaten
-* basierend auf Semantic-Web-Technologien
-* modular aufgebaut und standardorientiert.
+- eine freie, quelloffene virtuelle Forschungsumgebung
+- entwickelt für Kulturerbe- und Forschungsdaten
+- basierend auf Semantic-Web-Technologien
+- modular aufgebaut und standardorientiert.
 
 ## FAIR-Komformität von WissKI
 
@@ -86,8 +86,8 @@ So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR
 
 WissKI wird u. a. am **Germanischen Nationalmuseum (GNM)** in Nürnberg eingesetzt —
 
-* dem größten kulturhistorischen Museum im deutschsprachigen Raum
-* das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
+- dem größten kulturhistorischen Museum im deutschsprachigen Raum
+- das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair]] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
 
@@ -132,9 +132,9 @@ Der **Pathbuilder** ist das **Herzstück von WissKI**.
 
 Der Pathbuilder definiert:
 
-* **Gruppen** → semantische Entitäten, z.B. Objekt, Person, Ort, Ereignis  
-* **Pfade** → Beziehungen dieser Entitäten, z.B. Objekt → wurde geschaffen von → Person  
-* **Widgets** → automatisch generierte Eingabeformulare, deren Struktur aus der Semantik abgeleitet wird
+- **Gruppen** → semantische Entitäten, z.B. Objekt, Person, Ort, Ereignis
+- **Pfade** → Beziehungen dieser Entitäten, z.B. Objekt → wurde geschaffen von → Person
+- **Widgets** → automatisch generierte Eingabeformulare, deren Struktur aus der Semantik abgeleitet wird
 
 So ist es möglich in WissKI **nicht mit Tabellen**, sondern mit **ontologiebasierten Strukturen** zu arbeiten. 
 
@@ -175,9 +175,9 @@ Objekte werden nicht isoliert beschrieben, sondern über Ereignisse (z.B. Herste
 
 Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF). Informationen werden dabei als sogenannte Tripel gespeichert:
 
-* Subjekt – die beschriebene Ressource
-* Prädikat – ihre Eigenschaft oder Beziehung
-* Objekt – ein Wert oder eine weitere Ressource
+- Subjekt – die beschriebene Ressource
+- Prädikat – ihre Eigenschaft oder Beziehung
+- Objekt – ein Wert oder eine weitere Ressource
 
 Eine Aussage wie:
 
