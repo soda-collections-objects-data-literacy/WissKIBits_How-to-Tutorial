@@ -97,7 +97,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Eb
 | 0 | Willkommen, Zielsetzung und Ablauf | 5 Min. |
 | 1 | Grundbegriffe konzeptueller Wissensmodellierung | 15 Min. |
 | 2 | Grundlagen von Ontologien | 10 Min. |
-| 3 | Einführung in CIDOC CRM | 18 Min. |
+| 3 | Einführung in CIDOC CRM | 15 Min. |
 | 4 | FAIR-Konformität mit WissKI | 12 Min. |
 | Ü | Anwendungsbeispiel Objektsammlungen: Modellskizze „Zelda“ | 15 Min. |
 |  | **Gesamt** | **90 Min.** |
