@@ -139,40 +139,40 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 ### 3. Bausteine von Ontologien
 
-* Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
-* Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
-* Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
-* Begriff Instanzen (Instances) erläutern. (LZ-ID SODa\_03\_007\_0834)
-* Begriff Eigenschaften (Properties) benennen. (LZ-ID SODa\_03\_007\_0831)
-* Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
-* Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
-* Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
+- Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
+- Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
+- Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
+- Begriff Instanzen (Instances) erläutern. (LZ-ID SODa\_03\_007\_0834)
+- Begriff Eigenschaften (Properties) benennen. (LZ-ID SODa\_03\_007\_0831)
+- Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
+- Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
+- Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
  
 ### 4. Einführung in CIDOC CRM
 
-* Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
-* Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
-* Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
-* ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-* Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
-* Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
-* Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
-* Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
-* Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
-* Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
-* Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
-* Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
+- Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
+- Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
+- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
+-  ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
+- Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
+- Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
+- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+- Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 
 ### 5. FAIR, Forschungsinfrastrukturen und WissKI
 
-* für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
-* ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
-* FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
-* geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
-* die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
-* die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
-* Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
-* WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
+- für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
+- ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
+- FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
+- geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
+- die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
+- die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
+- Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
+- WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
 
 ---
 
@@ -193,11 +193,11 @@ flowchart TD
 
 Das Modul verbindet kurze fachliche Inputs mit Aktivierung und Anwendung:
 
-* Begriffe werden anhand typischer Informationen aus Sammlungen eingeführt.
-* Modellierungsentscheidungen werden gemeinsam diskutiert und begründet.
-* Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** dient als roter Faden.
-* In der Übung entwickeln die Teilnehmenden eine kleine Modellskizze und gleichen ausgewählte Konzepte mit CIDOC CRM ab.
-* Die Ergebnisse werden im Plenum gesichert und auf die eigene Sammlungspraxis übertragen.
+- Begriffe werden anhand typischer Informationen aus Sammlungen eingeführt.
+- Modellierungsentscheidungen werden gemeinsam diskutiert und begründet.
+- Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** dient als roter Faden.
+- In der Übung entwickeln die Teilnehmenden eine kleine Modellskizze und gleichen ausgewählte Konzepte mit CIDOC CRM ab.
+- Die Ergebnisse werden im Plenum gesichert und auf die eigene Sammlungspraxis übertragen.
 
 Das Ziel ist kein vollständiges Datenmodell. Entscheidend ist ein **kleiner, konsistenter und begründbarer Modellentwurf**, der später erweitert und technisch umgesetzt werden kann.
 
@@ -209,9 +209,9 @@ Es werden **keine Vorkenntnisse in Ontologien, RDF, OWL, CIDOC CRM oder WissKI**
 
 Hilfreich sind:
 
-* Erfahrungen mit Sammlungs-, Objekt- oder Forschungsdaten,
-* ein Beispielobjekt aus der eigenen Sammlung oder Forschung,
-* typische Forschungsfragen oder Dokumentationsanforderungen aus dem eigenen Arbeitsbereich.
+- Erfahrungen mit Sammlungs-, Objekt- oder Forschungsdaten,
+- ein Beispielobjekt aus der eigenen Sammlung oder Forschung,
+- typische Forschungsfragen oder Dokumentationsanforderungen aus dem eigenen Arbeitsbereich.
 
 ---
 
@@ -219,10 +219,10 @@ Hilfreich sind:
 
 Am Ende von Modul 1 liegt eine erste konzeptuelle Modellskizze vor. Sie zeigt:
 
-* die für das Beispiel relevanten Konzepte und Ereignisse,
-* ihre semantischen Beziehungen,
-* erste Zuordnungen zu Klassen und Eigenschaften des CIDOC CRM,
-* sowie begründete Modellierungsentscheidungen.
+- die für das Beispiel relevanten Konzepte und Ereignisse,
+- ihre semantischen Beziehungen,
+- erste Zuordnungen zu Klassen und Eigenschaften des CIDOC CRM,
+- sowie begründete Modellierungsentscheidungen.
 
 Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung, Visualisierung und Implementierung in WissKI.
 
@@ -240,6 +240,5 @@ Die technische Umsetzung des Modells im WissKI Pathbuilder wird in den weiterfü
 
 ## Redaktionelle Hinweise
 
-* Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
-* Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte für die weiterführenden Module.
-
+- Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
+- Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte für die weiterführenden Module.
