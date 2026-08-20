@@ -46,14 +46,14 @@ Einheit 4: **FAIR-Konformität mit WissKI**
 
 Teilnehmende können...
 
-* für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
-* ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
-* FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
-* geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
-* die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
-* die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
-* Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
-* WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
+- für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
+- ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
+- FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
+- geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
+- die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
+- die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
+- Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
+- WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
 
 ---
 
@@ -66,17 +66,29 @@ Teilnehmende können...
 * basierend auf Semantic-Web-Technologien
 * modular aufgebaut und standardorientiert.
 
+## FAIR-Komformität von WissKI
+
+WissKI ist **nicht nur** eine Sammlungsdatenbank.
+
+Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable**. 
+
+Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt [Hausenblast2012lod].
+
+Technologien wie RDF und die vom W3C standardisierte **Web Ontology Language (OWL)** ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
+
+WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann aber auch andere Ontologien einbinden. 
+
+So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR-Konformität hängt zusätzlich von der Modellierung, Lizenzierung und Bereitstellung ab.
+
+---
+
+## WissKI am GNM
+
 WissKI wird u. a. am **Germanischen Nationalmuseum (GNM)** in Nürnberg eingesetzt —
 
 * dem größten kulturhistorischen Museum im deutschsprachigen Raum
 * das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
-
-WissKI ist **nicht nur** eine Sammlungsdatenbank –  es ist ein **semantisches Datenmanagementsystem für Linked Open Data (LOD)**  und unterstützt die FAIR-Prinzipien (**Findable – Accessible – Interoperable – Reusable**).
-
-Ein etabliertes Mittel zur Einordnung von Daten im Hinblick auf **Linked Open Data (LOD)** ist das [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das zugleich einen guten Einstieg in das Verständnis von LOD bietet. [Hausenblast2012lod]
-
-(canan) RDF OWL ...
-
+  
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair]] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
 
 ![GNM](../assets/gnm.jpg)
@@ -146,20 +158,22 @@ Leitfrage:
 </video>
 
 
-* **Albrecht Dürer** → Person  
-* wurde geboren in → **Nürnberg** (Ort)  
-* zu → **einem bestimmten Zeitpunkt**  
-* hatte eine Mutter → **Barbara Dürer** (Person)  
-* schuf → **Selbstbildnis** (Objekt)
-* **Entstehungszeitpunkt** in einer **Quelle** erwähnt
-* während → **seiner künstlerischen Schaffensperiode**  
-* in → **Nürnberg**
+- **Albrecht Dürer** → Person  
+- wurde geboren in → **Nürnberg** (Ort)  
+- zu → **einem bestimmten Zeitpunkt**  
+- hatte eine Mutter → **Barbara Dürer** (Person)  
+- schuf → **Selbstbildnis** (Objekt)
+- **Entstehungszeitpunkt** in einer **Quelle** erwähnt
+- während → **seiner künstlerischen Schaffensperiode**  
+- in → **Nürnberg**
 
 Diese semantischen Bedeutungsaussagen formen einen Wissensgraphen – also ein Netzwerk miteinander verknüpfter Informationen. 
 
-Grundlage dafür ist das **ereigniszentrierte Modellierungsprinzip des CIDOC CRM**: Objekte werden nicht isoliert beschrieben, sondern über Ereignisse (z.B. Herstellung, Nutzung, Erwerb) und die daran beteiligten Akteur:innen, Orte und Zeiten in einen nachvollziehbaren Zusammenhang gesetzt.
+Grundlage dafür ist das **ereigniszentrierte Modellierungsprinzip des CIDOC CRM**: 
 
-<!--Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF). Informationen werden dabei als sogenannte Tripel gespeichert:
+Objekte werden nicht isoliert beschrieben, sondern über Ereignisse (z.B. Herstellung, Nutzung, Erwerb) und die daran beteiligten Akteur:innen, Orte und Zeiten in einen nachvollziehbaren Zusammenhang gesetzt.
+
+Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF). Informationen werden dabei als sogenannte Tripel gespeichert:
 
 * Subjekt – die beschriebene Ressource
 * Prädikat – ihre Eigenschaft oder Beziehung
@@ -171,8 +185,9 @@ Eine Aussage wie:
 
 wird so als einzelne, eindeutig referenzierbare Beziehung gespeichert. Viele solcher Aussagen verbinden sich zu einem gerichteten Graphen, der komplexe Zusammenhänge maschinenlesbar abbildet. Gemeinsam bilden diese Tripel den Wissensgraphen, den WissKI verwaltet.
 
-Der WissKI Pathbuilder übersetzt dabei ontologische Modelle direkt in solche RDF-Strukturen: Gruppen entsprechen Entitäten, Pfade definieren Beziehungen, und die daraus generierten Formulare erzeugen beim Erfassen automatisch konsistente Aussagen im Wissensgraphen.
--->
+Der WissKI Pathbuilder übersetzt dabei auf CIDOC CRM basierte ontologische Modelle direkt in solche RDF-Strukturen.
+
+Pfadgruppen entsprechen dabei Entitäten, Pfade definieren Beziehungen und die daraus generierten Formulare erzeugen beim Erfassen automatisch konsistente Aussagen im Wissensgraphen.
 
 ---
 
@@ -180,22 +195,22 @@ Der WissKI Pathbuilder übersetzt dabei ontologische Modelle direkt in solche RD
 
 WissKI...
 
-* ermöglicht **wissensbasierte Modellierung** statt starrer Tabellenschemata
-* stellt **Interoperabilität** durch etablierte Ontologien wie **CIDOC CRM** sicher
-* unterstützt die **FAIR-Prinzipien**
-* generiert **Eingabeformulare automatisch** auf Basis semantischer Pfade
-* publiziert Daten als **Linked Open Data**
-* bietet **leistungsfähige SPARQL-Abfragen**
-* verbindet **konzeptionelle Klarheit** mit **technischer Umsetzung**.
+- ermöglicht **wissensbasierte Modellierung** statt starrer Tabellenschemata
+- stellt **Interoperabilität** durch etablierte Ontologien wie **CIDOC CRM** sicher
+- unterstützt die **FAIR-Prinzipien**
+- generiert **Eingabeformulare automatisch** auf Basis semantischer Pfade
+- publiziert Daten als **Linked Open Data**
+- bietet **leistungsfähige SPARQL-Abfragen**
+- verbindet **konzeptionelle Klarheit** mit **technischer Umsetzung**.
 
 ---
 
 ## Die Semantik ist zentral für WissKI
 
-* **CIDOC CRM** definiert Klassen (Entities) und Eigenschaften (Properties)
-* **Semantische Pfade** übersetzen das Modell in eine nutzbare Datenstruktur  
-* **Formulare** sichern konsistente Dateneingabe und reduzieren Interpretationsspielräume  
-* **RDF-Wissensgraph** ermöglicht Austausch, Nachnutzung und LOD-Publikation  
+- **CIDOC CRM** definiert Klassen (Entities) und Eigenschaften (Properties)
+- **Semantische Pfade** übersetzen das Modell in eine nutzbare Datenstruktur  
+- **Formulare** sichern konsistente Dateneingabe und reduzieren Interpretationsspielräume  
+- **RDF-Wissensgraph** ermöglicht Austausch, Nachnutzung und LOD-Publikation  
 
 Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so strukturiert, dass sie langfristig verständlich, interoperabel und maschinenlesbar auswertbar sind.
 
