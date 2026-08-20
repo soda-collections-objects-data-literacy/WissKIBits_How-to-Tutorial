@@ -127,9 +127,8 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 CIDOC CRM ist **ereigniszentriert**, d.h. es beschreibt nicht nur, *was etwas ist*, sondern **was mit ihm passiert**.
 
-Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädikat-Objekt**. Die Triples bilden die **Syntax-Grundlage** für semantische Datenmodellierung und die technologische Basis, Ontologien (wie CIDOC CRM) in maschinenlesbarer Form darzustellen.
+Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädikat-Objekt**. Die Triples bilden die **Syntax-Grundlage** für formalisierte semantische Datenmodellierung und die technologische Basis, Ontologien (wie CIDOC CRM) in maschinenlesbarer Form darzustellen. Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Beschreibung von Aussagen über Ressourcen in From von Triples in WissKI. [W3C2014rdf]
 
-Das **RDF (Resource Description Framework)** ist ein Standard zur Beschreibung von Aussagen über Ressourcen in From von Triples. [W3C2014rdf]  (canan)
 
 **Beispiel: Zelda-Spiel (SNES)**
 
