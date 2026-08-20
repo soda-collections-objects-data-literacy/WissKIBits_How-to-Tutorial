@@ -38,7 +38,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit 4: **Einführung in CIDOC CRM**  
+Einheit 3: **Einführung in CIDOC CRM**  
 
 **Dauer:** ~ 
 
