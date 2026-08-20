@@ -66,10 +66,11 @@ Teilnehmende können...
 
 ---
 
-## Titel des ersten Abschnitts
+## Grundlage von Ontologien
 
 In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen (Instances), Eigenschaften (Properties) und Modellannahmen (Constraints) definiert und erläutert. 
 
+---
 
 ## Warum verwenden wir Ontologien?
 
@@ -79,14 +80,14 @@ Es geht darum eine Domäne standardisiert zu dokumentieren und zu beschreiben, v
 
 Ontologien helfen dabei:
 
-* **Semantik der Daten zu erfassen**
-* **Semantische Beziehungen auszudrücken**
-* **Kontext und Provenienz zu erhalten**
-* **Wissen maschinenlesbar zu machen**
-* **Interoperabilität zwischen Einrichtungen und Systemen sicherzustellen**
-* **Daten mit dem Linked Open Data-Ökosystem zu verbinden**
+- **Semantik der Daten zu erfassen**
+- **Semantische Beziehungen auszudrücken**
+- **Kontext und Provenienz zu erhalten**
+- **Wissen maschinenlesbar zu machen**
+- **Interoperabilität zwischen Einrichtungen und Systemen sicherzustellen**
+- **Daten mit dem Linked Open Data-Ökosystem zu verbinden**
 
-
+---
 
 ## Aspekte von Ontologien (anschauen weil Dopplung mit oben?)
 
@@ -107,23 +108,28 @@ In dieser Einheit .... gehen wir den Schritt von der konzeptuellen Modellierung 
 ## Begriffsdefinitionen
 
 **Klassen (Classes/Concepts)**  
+
 "Klassen repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
 
 **Instanzen (Instances)**    
+
 "Instanzen repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
 
 **Eigenschaften (Properties)**  
+
 Klassen und Instanzen können in ihrer Bedeutung weiter spezifiziert werden.
-Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen.
-Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
+
+Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
+
 1) Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen
-2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden.
-(Weller2013ontologies, S. 208)
+2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden. (Weller2013ontologies, S. 208)
+
 
 **Bedingungen (Constraints)**  
+
 "Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
 
-
+---
 
 ## Begriffsdefinition
 
@@ -171,7 +177,7 @@ Kurzer Übergang zur folgenden Einheit oder zum nächsten Modul.
 
 ## Bibliographie
 
-[W3C2001owl]World Wide Web Consortium. (2012, December 11). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer 
+[W3C2001owl] World Wide Web Consortium. (2012, December 11). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer 
 
 [Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
 
