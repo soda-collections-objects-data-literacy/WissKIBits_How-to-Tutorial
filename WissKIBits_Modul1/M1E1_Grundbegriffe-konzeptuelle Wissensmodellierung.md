@@ -47,15 +47,15 @@ Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**
 
 Teilnehmende können...
 
-* Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder  verschieben in E0
-* Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825) ??? löschen oder  verschieben in E0
-* Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder verschieben in E0
-* Begriff konzeptuelle Wissensmodellierung benennen.
-* Begriff konzeptuelle Wissensmodellierung erläutern.
-* Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
-* Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
-* Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
-* Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
+- Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder  verschieben in E0
+- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825) ??? löschen oder  verschieben in E0
+- Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder verschieben in E0
+- Begriff konzeptuelle Wissensmodellierung benennen.
+- Begriff konzeptuelle Wissensmodellierung erläutern.
+- Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
+- Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
+- Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
+- Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
   
 ---
 
@@ -90,9 +90,9 @@ Eine **Domäne** ist der fachlich abgegrenzte Wissens- und Anwendungsbereich, f�
 
 Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
 
-* **Konzepte** sind abstrakte Vorstellungen oder Begriffe, mit denen relevante Gegenstände und Sachverhalte einer Domäne geordnet werden. Beispiele sind Objekt, Person, Ort oder Institution.
-* **Ereignisse** beschreiben zeitlich und räumlich einordenbare Geschehnisse oder Prozesse, an denen Objekte, Personen oder andere Konzepte beteiligt sein können. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objekts.
-* **Beziehungen** beschreiben bedeutungstragende Verknüpfungen zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind „Person nahm an Herstellung teil“, „Herstellung fand an Ort statt“ oder „Objekt wurde durch Herstellung erzeugt“.
+- **Konzepte** sind abstrakte Vorstellungen oder Begriffe, mit denen relevante Gegenstände und Sachverhalte einer Domäne geordnet werden. Beispiele sind Objekt, Person, Ort oder Institution.
+- **Ereignisse** beschreiben zeitlich und räumlich einordenbare Geschehnisse oder Prozesse, an denen Objekte, Personen oder andere Konzepte beteiligt sein können. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objekts.
+- **Beziehungen** beschreiben bedeutungstragende Verknüpfungen zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind „Person nahm an Herstellung teil“, „Herstellung fand an Ort statt“ oder „Objekt wurde durch Herstellung erzeugt“.
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
@@ -118,7 +118,7 @@ Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der *
 
 Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden und strukturiert sind, können sie in einem semantischen Datenmodell dargestellt werden. 
 
-> **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
+ALTEnde
 
 ```mermaid
 flowchart TD
@@ -169,11 +169,11 @@ Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGK
 
 Prüft eure Auswahl:
 
-* Welche Information ist für das Verständnis des Objekts unverzichtbar?
-* Welche Information beschreibt nur ein Merkmal des Objekts?
-* Welche Information stellt das Objekt in einen größeren Zusammenhang?
-* Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
-* Bleiben wichtige Zusammenhänge noch unausgesprochen?
+- Welche Information ist für das Verständnis des Objekts unverzichtbar?
+- Welche Information beschreibt nur ein Merkmal des Objekts?
+- Welche Information stellt das Objekt in einen größeren Zusammenhang?
+- Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
+- Bleiben wichtige Zusammenhänge noch unausgesprochen?
 
 ---
 
