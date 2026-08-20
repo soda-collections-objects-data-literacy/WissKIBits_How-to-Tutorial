@@ -62,6 +62,16 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 
 ---
 
+## Warum semantisch modellieren?
+
+- Forschungs- und Sammlungsdaten beschreiben nicht nur Objekte und ihre Merkmale, sondern auch historische, kulturelle und soziale Zusammenhänge.
+- Tabellen erfassen vor allem einzelne Eigenschaften. Die fachlichen Bedeutungszusammenhänge zwischen den Daten bleiben dabei häufig implizit.
+- Semantische Modellierung macht relevante Konzepte, Beziehungen und Kontexte explizit und nachvollziehbar.
+- Dadurch bleiben Forschungsdaten langfristig interpretierbar, konsistent verknüpfbar und wissenschaftlich nachnutzbar.
+- WissKI verbindet die konzeptuelle Modellierung eines Wissensbereichs mit der Erfassung und Verwaltung von Forschungsdaten.
+
+---
+
 ## Zielsetzung des Moduls
 
 In Modul 1 wird die konzeptionelle Basis für ein Domänenmodell geschaffen. Aus der Sammlungsperspektive entsteht eine Modellperspektive.
