@@ -46,63 +46,6 @@ Einheit 3: **Bausteine von Ontologien**
 
 Teilnehmende können...
 
-- Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
-- Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
-- Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
-- Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
-- Begriff Instanzen (Instances) erläutern. (LZ-ID SODa\_03\_007\_0834)
-- Begriff Eigenschaften (Properties) benennen. (LZ-ID SODa\_03\_007\_0831)
-- Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
-- Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
-- Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
-
----
-
-## Titel des ersten Abschnitts
-
-In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen (Instances), Eigenschaften (Properties) und Modellannahmen (Constraints) definiert und erläutert. 
-
-## Aspekte von Ontologien (anschauen weil Dopplung mit oben?)
-
-Ontologien bestehen typischerweise aus folgenden Bausteinen:
-
-* **Klassen (Classes/Concepts)** (z.B. Spiel, Person, Organisation, Ereignis)
-* **Eigenschaften (Properties)** (z.B. hat Titel, wurde veröffentlicht von)
-* **Instanzen (Instances)** (konkrete Dinge, z.B. *The Legend of Zelda: A Link to the Past*) 
-* **Modellannahmen (Constraints)** (z.B. welche Beziehungen beschreiben zulässig das Objekt)
-
----
-
-
-## Begriffsdefinitionen
-
-**Klassen (Classes/Concepts)**  
-"Klassen repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
-
-**Instanzen (Instances)**    
-"Instanzen repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
-
-**Eigenschaften (Properties)**  
-Klassen und Instanzen können in ihrer Bedeutung weiter spezifiziert werden.
-Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen.
-Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
-1) Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen
-2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden.
-(Weller2013ontologies, S. 208)
-
-**Bedingungen (Constraints)**  
-"Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
-
-
-## Zusammenfassung
-
-## Bibliografie  
-
-[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
-
-[Stuckenschmidt2011ontology] Stuckenschmidt, H. (2011). *Ontologien. Konzepte, Technologien und Anwendungen*. Springer.
-
-[Weller2013ontologies] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
 
 
