@@ -46,8 +46,8 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Teilnehmende können...
 
-* Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. 	(LZ-ID SODa\_03\_007\_0844)
-* Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808) 
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. 	(LZ-ID SODa\_03\_007\_0844)
+-  Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808) 
 
 
 ---
@@ -58,10 +58,10 @@ Dies ist eine Praxiseinheit. In dieser Einheit wird ein Beispielobjekt aus der D
 
 Am Ende können Lernende...
 
-* zentrale **Konzepte** der Beispiel-Domäne (Computerspiele) benennen (Objekt/Person/Ort/Zeit/Ereignis),
-* diese Konzepte über **bedeutsame Beziehungen** sinnvoll verbinden,
-* und eine erste Zuordnungen der Konzepte zu **CIDOC CRM Klassen (Entities)** benennen,
-* ein erstes **konzeptionelles Datenmodell (Mindmap)** vorbereiten, das später in **Protégé** formalisiert und in **WissKI** importiert wird.
+- zentrale **Konzepte** der Beispiel-Domäne (Computerspiele) benennen (Objekt/Person/Ort/Zeit/Ereignis),
+- diese Konzepte über **bedeutsame Beziehungen** sinnvoll verbinden,
+- und eine erste Zuordnungen der Konzepte zu **CIDOC CRM Klassen (Entities)** benennen,
+- ein erstes **konzeptionelles Datenmodell (Mindmap)** vorbereiten, das später in **Protégé** formalisiert und in **WissKI** importiert wird.
 
 ---
 
@@ -71,9 +71,9 @@ Ausgehend von unserem Beispiel **„Zelda“** identifizieren wir Konzepte, die 
 
 **Ziel ist nicht**, ein vollständiges Spielemodell zu erstellen, sondern ein **minimal konsistentes Kernmodell** als Entwurf:
 
-* verständlich für Menschen,
-* anschlussfähig für semantische Modellierung (CIDOC CRM),
-* erweiterbar für spätere Umsetzung (Protégé/WissKI).
+- verständlich für Menschen,
+- anschlussfähig für semantische Modellierung (CIDOC CRM),
+- erweiterbar für spätere Umsetzung (Protégé/WissKI).
 
 ---
 
@@ -81,11 +81,11 @@ Ausgehend von unserem Beispiel **„Zelda“** identifizieren wir Konzepte, die 
 
 Die Domäne ist didaktisch besonders geeignet, weil sie...
 
-* sowohl **physische** als auch **digitale** Objekte umfasst,
-* gut nachvollziehbare **Produktions- und Veröffentlichungskontexte** besitzt,
-* typische **Ereignisse** enthält (z. B. Release, Portierung, Neuauflage),
-* **Versionen/Editionen** und **Serienzugehörigkeiten** abbildbar macht,
-* klare Identifikatoren und Benennungen verwendet (Titelvarianten, Produktcodes).
+- sowohl **physische** als auch **digitale** Objekte umfasst,
+- gut nachvollziehbare **Produktions- und Veröffentlichungskontexte** besitzt,
+- typische **Ereignisse** enthält (z. B. Release, Portierung, Neuauflage),
+- **Versionen/Editionen** und **Serienzugehörigkeiten** abbildbar macht,
+- klare Identifikatoren und Benennungen verwendet (Titelvarianten, Produktcodes).
 
 ---
 
@@ -93,21 +93,21 @@ Die Domäne ist didaktisch besonders geeignet, weil sie...
 
 Wir konzentrieren uns auf drei Bereiche:
 
-* **Spieltitel** (als Benennung / Appellation)
-* **Spielmerkmale** (characteristics / types)
-* **narrative Elemente** (z.B. Beschreibung, Perspektive, Figuren)
+- **Spieltitel** (als Benennung / Appellation)
+- **Spielmerkmale** (characteristics / types)
+- **narrative Elemente** (z.B. Beschreibung, Perspektive, Figuren)
 
 ### Beispiele für Spielmerkmale
 
-* Plattform (z.B. Nintendo 64, PlayStation, PC)
-* Genre (z.B. Action-Adventure, RPG)
-* Edition oder Version (z.B. Collector’s Edition, Remastered)
+- Plattform (z.B. Nintendo 64, PlayStation, PC)
+- Genre (z.B. Action-Adventure, RPG)
+- Edition oder Version (z.B. Collector’s Edition, Remastered)
 
 ### Beispiele für narrative Elemente
 
-* Perspektive (z.B. First-Person, Third-Person)
-* Spielbeschreibung
-* Charaktere / Figuren (z.B. Zelda)
+- Perspektive (z.B. First-Person, Third-Person)
+- Spielbeschreibung
+- Charaktere / Figuren (z.B. Zelda)
 
 ---
 
