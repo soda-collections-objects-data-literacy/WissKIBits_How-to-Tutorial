@@ -46,14 +46,15 @@ Einheit 3: **Bausteine von Ontologien**
 
 Teilnehmende können...
 
-* Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
-* Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
-* Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
-* Begriff Instanzen (Instances) erläutern. (LZ-ID SODa\_03\_007\_0834)
-* Begriff Eigenschaften (Properties) benennen. (LZ-ID SODa\_03\_007\_0831)
-* Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
-* Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
-* Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
+- Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
+- Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
+- Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
+- Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
+- Begriff Instanzen (Instances) erläutern. (LZ-ID SODa\_03\_007\_0834)
+- Begriff Eigenschaften (Properties) benennen. (LZ-ID SODa\_03\_007\_0831)
+- Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
+- Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
+- Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
 
 ---
 
