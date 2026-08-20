@@ -40,48 +40,24 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit 3: **Einführung in CIDOC CRM**  
 
-**Dauer:** ~ 
+**Dauer:** ~ 15 Min.
 
 **Lernziele:**
 
 Teilnehmende können...
 
-* Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
-* Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
-* Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
-* ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-* Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
-* Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
-* Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
-* Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
-* Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
-* Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
-* Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
-* Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
-
-
----
-
-## (inhalte ergänzen) 
-
-
----
-
-## Warum verwenden wir Ontologien?
-
-Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaften geht es nicht nur darum, Daten zu beschreiben. 
-
-Es geht darum eine Domäne standardisiert zu dokumentieren und zu beschreiben, verfügbar zu machen und zu teilen und technisch und inhaltlich langfristig nutzbar zu halten.
-
-Ontologien helfen dabei:
-
-* **Semantik der Daten zu erfassen**
-* **Semantische Beziehungen auszudrücken**
-* **Kontext und Provenienz zu erhalten**
-* **Wissen maschinenlesbar zu machen**
-* **Interoperabilität zwischen Einrichtungen und Systemen sicherzustellen**
-* **Daten mit dem Linked Open Data-Ökosystem zu verbinden**
-
+- Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
+- Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
+- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
+- ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
+- Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
+- Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
+- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+- Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 
 ---
 
@@ -89,11 +65,11 @@ Ontologien helfen dabei:
 
 [CIDOC CRM](https://cidoc-crm.org/) ist eine **ISO-zertifizierte Ontologie (ISO 21127)**, entwickelt vom **CIDOC-Komitee der ICOM (International Council of Museums)**.
 
-Es ist **kein technischer Standard**, sondern ein **Papierdokument** und wurde speziell für die **Dokumentation kulturellen Erbes** entwickelt. 
+Es ist **kein technischer Standard**, sondern ein **Papierdokument** ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release)) und wurde speziell für die **Dokumentation kulturellen Erbes** entwickelt. 
 
 Es ist eine **formale Repräsentation** von grundlegenden Konzepten, Begriffen und ihren Beziehungen im Bereich des kulturellen Erbes.
 
-Es ist ein **theoretisches und praktisches Werkzeug** zum Strukturieren, Darstellen und Verstehen **evidenzbasierter Phänomene** aus dem Bereich des kulturellen Erbes. [1]
+Es ist ein **theoretisches und praktisches Werkzeug** zum Strukturieren, Darstellen und Verstehen **evidenzbasierter Phänomene** aus dem Bereich des kulturellen Erbes. [SIG2026cidoc]
 
 CIDOC CRM umfasst:
 
@@ -108,9 +84,11 @@ CIDOC CRM umfasst:
 
 CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Informationen **verständlich und interoperabel** zu beschreiben.
 
-WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann jedoch auch andere Ontologien einbinden.
+...vom papiertiger zur nutzung im web und maschinenlesbarkeit und dann in infrastrukturen wie wisski... (canan)
 
-**OWL (Web Ontology Language)** ist eine **formale Sprache zur maschinenlesbaren Darstellung von Ontologien im Web**, standardisiert durch das World Wide Web Consortium (W3C).
+**OWL (Web Ontology Language)** ist eine **formale Sprache zur maschinenlesbaren Darstellung von Ontologien im Web**, standardisiert durch das World Wide Web Consortium (W3C).  (canan)
+
+WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann jedoch auch andere Ontologien einbinden.  (canan)
 
 
 ---
@@ -145,25 +123,11 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 **Scope Notes sind maßgeblich für die korrekte Modellierung.**
 
-![Beispiel E39 Actor](../assets/E39Actor.jpg)
-
 ---
 
-## Modellierungsstrategie im Tutorial
+### Beispiel E39 Actor [S. 83]
 
-Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
-
-* Neue **Subklassen (Entities)** bilden
-* Neue **Eigenschaften (Properties)** definieren
-* **Reine Wiederverwendung** bestehender CIDOC CRM-Klassen (Entities) und -Eigenschaften (Properties)
-* **Kombinationen** der oben genannten Strategien
-
-In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
-
-→ **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**
-→ **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
-
-Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
+![Beispiel E39 Actor](../assets/E39Actor.jpg)
 
 ---
 
@@ -173,7 +137,7 @@ CIDOC CRM ist **ereigniszentriert**, d.h. es beschreibt nicht nur, *was etwas is
 
 Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädikat-Objekt**. Die Triples bilden die **Syntax-Grundlage** für semantische Datenmodellierung und die technologische Basis, Ontologien (wie CIDOC CRM) in maschinenlesbarer Form darzustellen.
 
-Das **RDF (Resource Description Framework)** ist ein Standard zur Beschreibung von Aussagen über Ressourcen in From von Triples. [2]
+Das **RDF (Resource Description Framework)** ist ein Standard zur Beschreibung von Aussagen über Ressourcen in From von Triples. [W3C2014rdf]  (canan)
 
 **Beispiel: Zelda-Spiel (SNES)**
 
@@ -222,6 +186,8 @@ WissKI nutzt CIDOC CRM, weil es …
 [1] [SIG2026cidoc] CIDOC CRM Special Interest Group (o.J.). What is CIDOC CRM? https://cidoc-crm.org/
 
 [2] [W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts/
+
+[]
 
 
 
