@@ -69,6 +69,15 @@ Der fachliche Bedeutungszusammenhang, in dem diese Datenobjekte stehen, bleibt d
 
 Damit Forschungsdaten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss deshalb auch ihre Bedeutung erfasst und formal beschrieben werden (Fichtner2025paths, S. 58). Dazu wird modelliert, wie Daten innerhalb eines bestimmten Wissensbereichs verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21).
 
+ODER ALS LISTE:
+
+- Forschungs- und Sammlungsdaten enthalten komplexe Objekt- und Kontextinformationen.
+- Sie tragen historische, kulturelle und soziale Bedeutungen, zum Beispiel: Provenienz, beteiligte Personen und Institutionen, Ereignisse und Beziehungen, unterschiedliche Interpretationen.
+- Tabellen bilden vor allem Eigenschaften beziehungsweise **Attribute** von Datenobjekten ab (Fischer2010encyclopcompscience, S. 77).
+- Fachliche Bedeutungszusammenhänge bleiben dabei häufig implizit.
+- Für die langfristige Interpretation und Nachnutzung muss daher auch die Bedeutung der Daten formal beschrieben werden (Fichtner2025paths, S. 58).
+- Modelliert wird, wie Daten in einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21). --> kürze den Key doch auf (Schwenk2025forum) 
+
 ---
 
 ## Begriffsdefinitionen der konzeptuellen Wissensmodellierung
