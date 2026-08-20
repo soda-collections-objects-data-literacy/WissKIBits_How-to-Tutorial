@@ -61,11 +61,39 @@ Teilnehmende können...
 
 ## Grundlagen der konzeptuellen Wissensmodellierung
 
-Einleitender Satz zur Einheit
+In den Geistes- und Kulturwissenschaften, in GLAM-Institutionen und in Forschungssammlungen wird mit komplexen Objekt- und Kontextdaten gearbeitet. Diese Daten tragen historische, kulturelle und soziale Bedeutungen, etwa Informationen zu Provenienz, beteiligten Personen, Ereignissen, Beziehungen oder unterschiedlichen Interpretationen.
+
+Tabellen können Daten zwar erfassen und einzelne Eigenschaften beziehungsweise Merkmale – sogenannte Attribute – von Datenobjekten darstellen (Fischer2010encyclopcompscience, S. 77). 
+
+Der fachliche Bedeutungszusammenhang, in dem diese Datenobjekte stehen, bleibt dabei jedoch häufig implizit. Dazu gehören insbesondere die zugrunde liegenden Konzepte, ihre Beziehungen und ihre historischen oder kulturellen Kontexte.
+
+Damit Forschungsdaten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss deshalb auch ihre Bedeutung erfasst und formal beschrieben werden (Fichtner2025paths, S. 58). Dazu wird modelliert, wie Daten innerhalb eines bestimmten Wissensbereichs verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21).
 
 ---
 
 ## Begriffsdefinitionen der konzeptuellen Wissensmodellierung
+
+Vorschlag neu:
+
+Bei der **konzeptuellen Wissensmodellierung** wird herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses Wissen konzeptuell geordnet werden kann.
+
+Eine **Domäne** ist der fachlich abgegrenzte Wissens- und Anwendungsbereich, für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung.
+
+Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
+
+* **Konzepte** sind abstrakte Vorstellungen oder Begriffe, mit denen relevante Gegenstände und Sachverhalte einer Domäne geordnet werden. Beispiele sind Objekt, Person, Ort oder Institution.
+* **Ereignisse** beschreiben zeitlich und räumlich einordenbare Geschehnisse oder Prozesse, an denen Objekte, Personen oder andere Konzepte beteiligt sein können. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objekts.
+* **Beziehungen** beschreiben bedeutungstragende Verknüpfungen zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind „Person nahm an Herstellung teil“, „Herstellung fand an Ort statt“ oder „Objekt wurde durch Herstellung erzeugt“.
+
+Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
+
+**Semantische Modellierung** bezeichnet den konzeptuellen Prozess, die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren, zu strukturieren und zu formalisieren (Schwenk2025sodaforumconservation, S. xy). Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
+
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden.
+
+> **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
+
+alt:
 
 Bei der **Konzeptuellen Wissensmodellierung** wird herausgearbeitet welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.
 
@@ -81,33 +109,71 @@ Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der *
 
 Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden und strukturiert sind, können sie in einem semantischen Datenmodell dargestellt werden. 
 
-Grafik?
+> **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
+
 ---
 
-## Aktivierung und Input: Wissen einer Sammlung konzeptuell ordnen
-(überarbeiten) 
-**Arbeitsform:** Modellieren   
-**Material:** keines  
-**Zeit:** 10 Min.  
+## Von Domäne zum semantischen Datenmodell
 
-In dieser Aufgabe geht es darum, Kernkonzepte, -ereignisse und -beziehungen als Aussagen der eigenen Sammlung zu beschreiben.
+Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die Identifikation und Strukturierung relevanter Konzepte, Ereignisse und Beziehungen bis zu ihrer Formalisierung in einem semantischen Datenmodell.
 
-Denkt an ein typisches Objekt aus eurer Sammlung: Welche Information muss zwingend dokumentiert sein, damit Forschung möglich wird?
+GRAFIK
 
-Die Aussagen werden sichtbar an einem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier skizziert:
+---
 
-- Konzepte (Objekt, Person, Ort, Zeit…)
-- Ereignisse (Herstellung, Nutzung, Erwerb, Fund…)
-- Beziehungen (Rollen, Zugehörigkeiten, Teil-von, identisch mit…)
+## Übung: Wissen einer Sammlung konzeptuell ordnen
+
+**Arbeitsform:** Einzel- oder Kleingruppenarbeit  
+**Material:** Board, Moderationskarten oder Papier  
+**Zeit:** 10 Min.
+
+### Aufgabe
+
+Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
+
+Formuliert zwei bis drei kurze Aussagen, die wichtige Informationen über dieses Objekt enthalten.
 
 **Hinweis:**
-- ...
+
+> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt und 1991 in Japan veröffentlicht.
+
+Untersucht anschließend eure Aussagen:
+
+1. **Konzepte:** Welche Gegenstände oder Sachverhalte kommen vor?
+2. **Ereignisse:** Welche Geschehnisse oder Prozesse werden beschrieben?
+3. **Beziehungen:** Wie sind die Konzepte und Ereignisse miteinander verbunden?
+
+Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
+
+| Konzepte | Ereignisse | Beziehungen |
+|---|---|---|
+| Spiel | Entwicklung | Spiel wurde durch Entwicklung geschaffen |
+| Nintendo | Veröffentlichung | Nintendo war an Entwicklung beteiligt |
+| Japan |  | Veröffentlichung fand in Japan statt |
+| 1991 |  | Veröffentlichung fand 1991 statt |
+
+
+### Leitfragen
+
+Prüft eure Auswahl:
+
+* Welche Information ist für das Verständnis des Objekts unverzichtbar?
+* Welche Information beschreibt nur ein Merkmal des Objekts?
+* Welche Information stellt das Objekt in einen größeren Zusammenhang?
+* Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
+* Bleiben wichtige Zusammenhänge noch unausgesprochen?
 
 ---
 
 ## Ergebnis
 
-Grafik / Musterergebnis 
+Am Ende liegt eine erste fachliche Ordnung eines Wissensbereichs vor:
+
+- relevante Konzepte wurden benannt,
+- Ereignisse wurden identifiziert,
+- Beziehungen wurden als Aussagen formuliert.
+
+Musterbeispiel als Grafik (todo canan)
   
 ---
 
