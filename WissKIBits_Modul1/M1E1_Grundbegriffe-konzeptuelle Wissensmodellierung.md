@@ -59,21 +59,9 @@ Teilnehmende können...
   
 ---
 
-## Einführung: Von der konzeptuellen Analyse und Wissensmodellierung zur semantischen Datenmodellierung
+## Grundlagen der konzeptuellen Wissensmodellierung
 
-In dieser Einheit wird die **konzeptuelle Wissensmodellierung** innerhalb einer Domäne als Grundlage der **semantischen Datenmodellierung** vorgestellt.
-
-- In den Geistes- und Kulturwissenschaften, GLAM-Institutionen und Forschungssammlungen wird mit **komplexen Objekt- und Kontextdaten** gearbeitet, die historische, kulturelle und soziale Bedeutungen tragen (z. B. Provenienz, Beziehungen, Interpretationen).
-- Tabellen können Daten zwar beschreiben und erfassen, stellen aber in erster Linie Eigenschaften bzw. Merkmale (Attribute) (Fischer2010encyclopcompscience, S. 77) von Datenobjekten dar. Der fachliche Bedeutungszusammenhang, in dem diese Datenobjekte stehen, einschließlich der zugrunde liegenden Konzepte, Beziehungen und Kontexte, wird dabei nicht explizit repräsentiert.
-- Damit Daten **inhaltlich langfristig interpretierbar und nachnutzbar** sind, muss die **Bedeutung der Daten** erfasst und formal beschrieben werden. (Fichtner2025paths, S. 58). Dazu muss modelliert werden, wie Daten innerhalb eines bestimmten Wissensbereichs und Kontextes verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Schwenk2025sodaforumconservation, S. 21)
-- 
-- Genau hier wird **semantische (Daten-)modellierung** relevant, der **Prozess, Konzepte, Begriffe und Relationen eines Wissensbereichs zu identifizieren, zu strukturieren und zu formalisieren**. (Schwenk2025sodaforumconservation, S. xy)
-- Semantisches Modellieren ist vor allem ein **konzeptueller Prozess**. Er ist disziplinübergreifend und erfordert gleichzeitig **fachwissenschaftliches Wissen und Modellierungskompetenz**. (Fichtner2025paths, S. 86) Die so beschriebenen Konzepte, Begriffe und Relationen werden in semantischen Datenmodellen formal repräsentiert.
-- 
-- Ein **semantisches Datenmodell** ist ein konzeptueller, formaler Rahmen, der die Bedeutung von Daten durch die Definition von Konzepten und Begriffen, ihre Relationen und Regeln innerhalb eines Wissensbereichs beschreibt. Es dient nicht der Darstellung konkreter Daten, sondern stellt dar, wie Daten aus einem bestimmten Wissensbereich und Kontext verstanden, interpretiert und miteinander in Beziehung gesetzt werden.
-<!-- Diese formale Repräsentation bildet die Grundlage für ihre technische Umstzung und maschinelle Verarbeitung.-->
-- Eine Forschungsinfrastruktur, die diesen Prozess unterstützt ist **WissKI** (Wissenschaftliche Kommunikationsinfrastruktur), indem es die konzeptuelle Modellierung eines Wissensbereichs mit der semantischen Erfassung, Verwaltung  und Speicherung von Forschungsdaten verbindet.
-- Die Daten werden auf diese Weise sowohl **inhaltlich als auch technisch langfristig interpretierbar und damit entsprechend wissenschaftlichen Qualitätskritierien nachnutzbar**. (Fichtner2025paths, S. xy)
+Einleitender Satz zur Einheit
 
 ---
 
