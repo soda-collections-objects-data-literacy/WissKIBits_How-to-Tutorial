@@ -52,20 +52,6 @@ Teilnehmende können...
 
 ---
 
-## (inhalte ergänzen) 
-
-HINWEIS: diese Inhalte in die anderen integrieren...
-
-
-alte Einheit 5: **Domänenanalyse: Kernentitäten, Ereignisse, Kontext - vom Objekt zur Hypothese** 
-jetzt Abgleich mit Modul 2
-
-
-
-
-
----
-
 ## Ziel und Szenario 
 
 Dies ist eine Praxiseinheit. In dieser Einheit wird ein Beispielobjekt aus der Domäne **Computerspiele** analysiert.
