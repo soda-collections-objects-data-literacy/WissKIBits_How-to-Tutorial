@@ -73,12 +73,12 @@ Es ist ein **theoretisches und praktisches Werkzeug** zum Strukturieren, Darstel
 
 CIDOC CRM umfasst:
 
-* Ereignisse  
-* Personen  
-* Objekte  
-* Orte  
-* Zeiträume  
-* und deren semantische Beziehungen
+- Ereignisse  
+- Personen  
+- Objekte  
+- Orte  
+- Zeiträume  
+- und deren semantische Beziehungen
 
 **Kurz gesagt:**  
 
@@ -103,15 +103,15 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
-* **Was sie ausdrückt**
-* **Welche Bedeutung und Grenzen sie hat**
-* **Wann sie verwendet werden sollte**
+- **Was sie ausdrückt**
+- **Welche Bedeutung und Grenzen sie hat**
+- **Wann sie verwendet werden sollte**
 
 **Achtung: Nicht entscheidend sind:**
 
-* der Name der Klasse (Entity),
-* ihre hierarchische Position,
-* oder intuitive Assoziationen.
+- der Name der Klasse (Entity),
+- ihre hierarchische Position,
+- oder intuitive Assoziationen.
 
 **Scope Notes sind maßgeblich für die korrekte Modellierung.**
 
@@ -162,13 +162,13 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 
 WissKI nutzt CIDOC CRM, weil es …
 
-* **eindeutige, maschinenlesbare Bedeutungen** schafft
-* **Begriffsmehrdeutigkeit und Datenisolierung** vermeidet
-* **institutionenübergreifende Interoperabilität** ermöglicht
-* **Ereignisse, Prozesse und Provenienz** systematisch abbildet
-* **FAIR & Linked Open Data** unterstützt
-* **robustes Fundament** für Wissensgraphen bietet 
-* sich vollständig in den **WissKI** integrieren lässt.
+- **eindeutige, maschinenlesbare Bedeutungen** schafft
+- **Begriffsmehrdeutigkeit und Datenisolierung** vermeidet
+- **institutionenübergreifende Interoperabilität** ermöglicht
+- **Ereignisse, Prozesse und Provenienz** systematisch abbildet
+- **FAIR & Linked Open Data** unterstützt
+- **robustes Fundament** für Wissensgraphen bietet 
+- sich vollständig in den **WissKI** integrieren lässt.
 
 ---
 
