@@ -108,7 +108,7 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 * **Definitionen (Scope Notes)** zur semantischen Präzisierung (z.B. in Referenzmodellen wie CIDOC CRM)
 
 ---
-
+<!--
 ## Methoden zur Entwicklung von Ontologien
 
 Die Entwicklung einer Domänenontologie folgt typischerweise einem methodischen, mehrstufigen und iterativen Vorgehen. 
@@ -125,7 +125,7 @@ Ontologien entstehen häufig durch eine Kombination aus:
 * **Iteratives Prototyping:** Es wird ein Modell entworfen → überprüft → kontinuierlich mit Blick auf Konsistenz, Erweiterbarkeit und Abfragbarkeit angepasst.
 
 ---
-
+--> 
 ## Ausblick
 
 Kurzer Übergang zur folgenden Einheit oder zum nächsten Modul.
