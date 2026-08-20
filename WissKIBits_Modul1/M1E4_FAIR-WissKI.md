@@ -38,7 +38,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit 5: **FAIR-Konformität mit WissKI**  
+Einheit 4: **FAIR-Konformität mit WissKI**  
 
 **Dauer:** ~  Min.
 
