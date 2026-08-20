@@ -47,9 +47,11 @@ Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**
 
 Teilnehmende können...
 
-* Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza)
-* Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
-* Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza)
+* Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder  verschieben in E0
+* Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825) ??? löschen oder  verschieben in E0
+* Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder verschieben in E0
+* Begriff konzeptuelle Wissensmodellierung benennen.
+* Begriff konzeptuelle Wissensmodellierung erläutern.
 * Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
 * Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
 * Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
@@ -75,27 +77,21 @@ In dieser Einheit wird die **konzeptuelle Wissensmodellierung** innerhalb einer 
 
 ---
 
-## Grundbegriffe der konzeptuellen ?Analyse?/Wissensmodellierung
+## Begriffsdefinitionen der konzeptuellen Wissensmodellierung
 
-Bevor Wissen formal modelliert werden kann, muss zunächst geklärt werden, **welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.** 
+Bei der **Konzeptuellen Wissensmodellierung** wird herausgearbeitet welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.
 
-Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. 
+Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der **semantischen Datenmodellierung** versteht man unter Domäne den fachlichen Wissensbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
 
-In der semantischen Datenmodellierung versteht man darunter den fachlichen Wissensbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
+Zentralen Elemente der konzeptuellen Wissensmodellierung sind **Konzept, Ereignis und Beziehung**.
 
----
-
-## Begriffsdefinitionen auf konzeptueller Ebene
-
-Auf konzeptueller Ebene lassen sich folgende Elemente innerhalb einer Domäne identifizieren:
-
-- **Konzepte** abstrakte Begriffe sind zentrale Einheiten einer Domäne. Dazu gehören beispielsweise Objekte, Personen, Orte, Institutionen.
+- **Konzepte** sind abstrakte Begriffe, die die zentrale Bausteine einer Domäne bezeichnen. Beispiele sind Objekte, Personen, Orte, Institutionen.
 - **Ereignisse** sind eine strukturierte Sammlung von Abläufen, Hergängen und Prozessen die kontextbezogene informationen über Konzepte bereitstellen. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objektes.
 - **Beziehungen** beschreiben die semantische Verknüpfung zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind Objekt "wurde hergestellt von" Person und Objekt "wurde hergestellt" bei Herstellung.
 
-Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der semantischen Modellierung. 
+Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**. 
 
-Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden sind, können sie in einem semantischen Datenmodell dargestellt werden. 
+Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden und strukturiert sind, können sie in einem semantischen Datenmodell dargestellt werden. 
 
 Grafik?
 ---
