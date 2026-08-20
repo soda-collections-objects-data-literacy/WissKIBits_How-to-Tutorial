@@ -54,6 +54,7 @@ Teilnehmende können...
 
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 
+
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
 - Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
@@ -68,6 +69,24 @@ Teilnehmende können...
 ## Titel des ersten Abschnitts
 
 In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen (Instances), Eigenschaften (Properties) und Modellannahmen (Constraints) definiert und erläutert. 
+
+
+## Warum verwenden wir Ontologien?
+
+Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaften geht es nicht nur darum, Daten zu beschreiben. 
+
+Es geht darum eine Domäne standardisiert zu dokumentieren und zu beschreiben, verfügbar zu machen und zu teilen und technisch und inhaltlich langfristig nutzbar zu halten.
+
+Ontologien helfen dabei:
+
+* **Semantik der Daten zu erfassen**
+* **Semantische Beziehungen auszudrücken**
+* **Kontext und Provenienz zu erhalten**
+* **Wissen maschinenlesbar zu machen**
+* **Interoperabilität zwischen Einrichtungen und Systemen sicherzustellen**
+* **Daten mit dem Linked Open Data-Ökosystem zu verbinden**
+
+
 
 ## Aspekte von Ontologien (anschauen weil Dopplung mit oben?)
 
