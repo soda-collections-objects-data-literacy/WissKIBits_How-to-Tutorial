@@ -61,6 +61,18 @@ Teilnehmende können...
 
 In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen (Instances), Eigenschaften (Properties) und Modellannahmen (Constraints) definiert und erläutert. 
 
+## Aspekte von Ontologien (anschauen weil Dopplung mit oben?)
+
+Ontologien bestehen typischerweise aus folgenden Bausteinen:
+
+* **Klassen (Classes/Concepts)** (z.B. Spiel, Person, Organisation, Ereignis)
+* **Eigenschaften (Properties)** (z.B. hat Titel, wurde veröffentlicht von)
+* **Instanzen (Instances)** (konkrete Dinge, z.B. *The Legend of Zelda: A Link to the Past*) 
+* **Modellannahmen (Constraints)** (z.B. welche Beziehungen beschreiben zulässig das Objekt)
+
+---
+
+
 ## Begriffsdefinitionen
 
 **Klassen (Classes/Concepts)**  
