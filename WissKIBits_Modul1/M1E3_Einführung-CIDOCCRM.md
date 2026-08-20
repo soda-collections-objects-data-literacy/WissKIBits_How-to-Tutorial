@@ -84,13 +84,6 @@ CIDOC CRM umfasst:
 
 CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Informationen **verständlich und interoperabel** zu beschreiben.
 
-...vom papiertiger zur nutzung im web und maschinenlesbarkeit und dann in infrastrukturen wie wisski... (canan)
-
-**OWL (Web Ontology Language)** ist eine **formale Sprache zur maschinenlesbaren Darstellung von Ontologien im Web**, standardisiert durch das World Wide Web Consortium (W3C).  (canan)
-
-WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann jedoch auch andere Ontologien einbinden.  (canan)
-
-
 ---
 
 ## Zentrale Konzepte in CIDOC CRM
@@ -103,7 +96,6 @@ WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologi
 | Ereignis          | **E5 Event**               | Eine Handlung oder Veränderung            |
 | Ort               | **E53 Place**              | Räumlicher Kontext                         |
 | Zeit              | **E52 Time-Span**          | Zeitlicher Rahmen                          |
-
 
 ---
 
