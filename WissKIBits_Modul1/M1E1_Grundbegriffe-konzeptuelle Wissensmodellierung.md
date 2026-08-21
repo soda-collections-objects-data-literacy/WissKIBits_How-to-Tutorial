@@ -143,25 +143,19 @@ flowchart TD
 
 Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
-1. Relevante Informationen auswählen
+**1. Relevante Informationen auswählen:** Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können. Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
 
-Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können. Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
+**2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
 
-2. Konzepte und Ereignis identifizieren
+- Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
 
-Untersucht anschließend eure Aussagen:
+- Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
 
-Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
+**3. Semantische Zusammenhänge formulieren:** Stellt die semantischen Zusammenhänge in folgeder Form dar:
 
-Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
+- **Konzept --> Beziehung --> Konzept**
 
-3. Semantische Zusammenhänge formulieren
-   
-Stellt die semantischen Zusammenhänge in folgeder Form dar:
-
-**Konzept --> Beziehung --> Konzept**
-
-**Konzept --> Beziehung --> Ereignis**
+- **Konzept --> Beziehung --> Ereignis**
 
 **Hinweis:**
 
