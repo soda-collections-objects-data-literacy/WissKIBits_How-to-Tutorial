@@ -143,26 +143,62 @@ flowchart TD
 
 Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
-Formuliert zwei bis drei kurze Aussagen, die wichtige Informationen über dieses Objekt enthalten.
+1. Relevante Informationen auswählen
 
-**Hinweis:**
+Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können. Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
 
-> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt und 1991 in Japan veröffentlicht.
+2. Konzepte und Ereignis identifizieren
 
 Untersucht anschließend eure Aussagen:
 
-1. **Konzepte:** Welche Gegenstände oder Sachverhalte kommen vor?
-2. **Ereignisse:** Welche Geschehnisse oder Prozesse werden beschrieben?
-3. **Beziehungen:** Wie sind die Konzepte und Ereignisse miteinander verbunden?
+Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
+
+Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
+
+3. Semantische Zusammenhänge formulieren
+   
+Stellt die semantischen Zusammenhänge in folgeder Form dar:
+
+**Konzept --> Beziehung --> Konzept**
+
+**Konzept --> Beziehung --> Ereignis**
+
+**Hinweis:**
+
+> 1.  Relevante Informationen auswählen
+
+> Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können:
+
+> z. B. das Objekt ist ein Spiel, Titel des Spiels, Entwickler des Spiels, Entwicklungszeit des Spiels, Veröffentlichungsort des Spiels, Veröffentlichungszeitpunkt des Spiels uvm.
+
+> Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen:
+
+> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt und 1991 in Japan veröffentlicht.
+
+> 2. Konzepte und Ereignis identifizieren
+
+Untersucht anschließend eure Aussagen:
+
+1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
+2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
+3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
 
 Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
 
-| Konzepte | Ereignisse | Beziehungen |
+---
+
+| Konzept | Konzept | Beziehung |
+|---|---|---|
+| Spiel | Titel | Das Spiel hat den Titel "The Legend of Zelda..." |
+
+---
+
+| Konzept | Ereignis | Beziehungen |
 |---|---|---|
 | Spiel | Entwicklung | Spiel wurde durch Entwicklung geschaffen |
 | Nintendo | Veröffentlichung | Nintendo war an Entwicklung beteiligt |
-| Japan |  | Veröffentlichung fand in Japan statt |
-| 1991 |  | Veröffentlichung fand 1991 statt |
+| Japan | Veröffentlichung | Veröffentlichung fand in Japan statt |
+| 1991 | Veröffentlichung  | Veröffentlichung fand 1991 statt |
 
 
 ### Leitfragen
