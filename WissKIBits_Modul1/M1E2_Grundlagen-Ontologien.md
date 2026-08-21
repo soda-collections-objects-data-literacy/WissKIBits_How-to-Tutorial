@@ -164,7 +164,7 @@ Ontologien unterstützen damit die systematische und konsistente Repräsentation
 
 Ontologien bieten die Grundlage, Wissen über Sammlungsobjekte strukturiert und semantisch zu modellieren. Doch wie lässt sich dies konkret auf Informationen zum kulturellen Erbe anwenden?
 
-In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CIDOC CRM) eine Referenzontologie kennen, die speziell für die Modellierung von Kulturerbeinformationen entwickelt wurde.
+In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CIDOC CRM) eine Ontologie kennen, die speziell als Referenz für die Modellierung von Kulturerbeinformationen entwickelt wurde.
 
 ---
 
