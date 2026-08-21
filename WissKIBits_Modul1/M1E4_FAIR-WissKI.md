@@ -47,7 +47,7 @@ Einheit 4: **FAIR-Konformität mit WissKI**
 Teilnehmende können...
 
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
-- ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
+- das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
 - FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
