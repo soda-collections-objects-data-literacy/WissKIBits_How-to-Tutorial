@@ -145,6 +145,7 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 | Produktionsort ist Kyoto | *took place at* → **E53 Place (Kyoto)** |
 | Jahr: 1991 | *has time-span* → **E52 Time-Span (1991)** |
 
+--> Ist Creation noch aktuell oder muss es Production sein (canan)
 ---
 
 ## Top-Level- vs. Domänenontologien
