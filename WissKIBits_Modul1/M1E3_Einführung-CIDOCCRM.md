@@ -138,12 +138,12 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 
 | Natürliche Aussage | CIDOC CRM-Repräsentation |
 |--------------------|--------------------------|
-| Das Spiel ist ein Objekt | **E22 Human-Made Object** |
-| Titel: *The Legend of Zelda: A Link to the Past* | **E22** → *has title* → **E35 Title** |
-| Es wurde hergestellt | **E65 Creation** |
-| Entwickler und Verleger ist Nintendo | **E65 Creation** → *carried out by* → **E74 Group (Nintendo)** |
-| Produktionsort ist Kyoto | *took place at* → **E53 Place (Kyoto)** |
-| Jahr: 1991 | *has time-span* → **E52 Time-Span (1991)** |
+| Das Spiel ist ein Objekt. | **E22 Human-Made Object** |
+| Der Titel lautet: *The Legend of Zelda: A Link to the Past* | **E22** → *has title* → **E35 Title** |
+| Das Spiel wurde prodziert. | **E12 Production** |
+| Entwickler und Verleger ist Nintendo. | **E12 Production** → *carried out by* → **E74 Group (Nintendo)** |
+| Produktionsort ist Kyoto. | *took place at* → **E53 Place (Kyoto)** |
+| Veröffentlichungsjahr ist: 1991 | *has time-span* → **E52 Time-Span (1991)** |
 
 --> Ist Creation noch aktuell oder muss es Production sein (canan)
 ---
