@@ -151,12 +151,12 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
 - Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
 
-> **Note**
+- Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
+
+> **Erinnerungshilfe**
 > 1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
 > 2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
 > 3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
-
-Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
 
 **3. Semantische Zusammenhänge formulieren:** Stellt die semantischen Zusammenhänge in folgeder Form dar:
 
@@ -176,19 +176,9 @@ Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu 
 
 **2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
 
-1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
-2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
-3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
-
-Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
-
----
-
 | Konzept | Konzept | Beziehung |
 |---|---|---|
 | Spiel | Titel | Das Spiel hat den Titel "The Legend of Zelda..." |
-
----
 
 | Konzept | Ereignis | Beziehungen |
 |---|---|---|
