@@ -88,7 +88,7 @@ Ontologien helfen dabei:
 
 ---
 
-## Begriffsdefinition
+## Begriffsdefinitionen
 
 ### Grundbegriffe Ontologien
 
