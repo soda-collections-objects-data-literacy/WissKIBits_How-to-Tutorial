@@ -141,7 +141,7 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 | Das Spiel ist ein Objekt | **E22 Human-Made Object** |
 | Titel: *The Legend of Zelda: A Link to the Past* | **E22** → *has title* → **E35 Title** |
 | Es wurde hergestellt | **E65 Creation** |
-| Hersteller ist Nintendo | **E65 Creation** → *carried out by* → **E74 Group (Nintendo)** |
+| Entwickler/Verleger ist Nintendo | **E65 Creation** → *carried out by* → **E74 Group (Nintendo)** |
 | Produktionsort ist Kyoto | *took place at* → **E53 Place (Kyoto)** |
 | Jahr: 1991 | *has time-span* → **E52 Time-Span (1991)** |
 
