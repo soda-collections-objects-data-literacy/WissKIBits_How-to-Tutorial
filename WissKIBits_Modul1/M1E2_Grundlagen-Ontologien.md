@@ -51,10 +51,7 @@ Teilnehmende können...
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
 - den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
 - den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
-
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
-
-
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
 - Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
@@ -154,10 +151,6 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 ---
 
 ## Nutzen von Ontologien und weiterführende Definitionen
-
-Insbesondere bei der Beschreibung von Ressourcen aus Sammlungsbeständen können Ontologien dazu beitragen, konzeptuelle Zusammenhänge explizit abzubilden, Informationen konsistent zu strukturieren und heterogene Datenbestände miteinander in Beziehung zu setzen. Dadurch verbessern sie die Interoperabilität zwischen unterschiedlichen Systemen und unterstützen die Vergleichbarkeit sowie die Nachnutzung von Informationen über einzelne Anwendungskontexte hinaus.
-
-
 
 Ontologien helfen damit, fachliches Domänenwissen mit ihrer spezifischen Domänenlogik so zu dokumentieren, dass es maschinenlesbar, vergleichbar und nachnutzbar wird. 
 
