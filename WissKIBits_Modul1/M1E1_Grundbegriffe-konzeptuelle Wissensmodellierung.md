@@ -210,17 +210,6 @@ Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu 
 | Japan | Veröffentlichung | Veröffentlichung fand in Japan statt |
 | 1991 | Veröffentlichung  | Veröffentlichung fand 1991 statt |
 
-
-### Leitfragen
-
-Prüft eure Auswahl:
-
-- Welche Information ist für das Verständnis des Objekts unverzichtbar?
-- Welche Information beschreibt nur ein Merkmal des Objekts?
-- Welche Information stellt das Objekt in einen größeren Zusammenhang?
-- Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
-- Bleiben wichtige Zusammenhänge noch unausgesprochen?
-
 ---
 
 ## Ergebnis
@@ -237,12 +226,20 @@ Musterbeispiel als Grafik (todo canan)
 
 ## Zusammenfassung
 
-(überarbeiten) 
+Die konzeptuelle Wissensmodellierung strukturiert das relevante Fachwissen einer Domäne anhand von Konzepten, Ereignissen und Beziehungen. 
 
 Anforderungen aus der Sammlungspraxis bilden die Grundlage, um in diesem Modul 1 zentrale Konzepte, Ereignisse und Beziehungen zu identifizieren und daraus ein konsistentes, nachvollziehbares Domänenmodell und -diagramm zu entwickeln. 
 
-Damit können Forschungsfragen an Sammlungen gestellt werden, wie...
+Damit können Forschungsfragen an Sammlungen gestellt und beantwortet werden, wie:
 
+- **Herstellung & Entstehung:** In welchem konkreten Kontext und durch welche Prozesse entstand das Objekt?
+- **Akteur:innen & Rollen:** Welche Personen waren beteiligt und welche spezifischen Rollen nehmen sie ein?
+- **Provenienz:** Über welche Stationen und Ereinisse gelangte das Objekt in die Sammlung?
+- **Ort & Zeit:** Wie verlässlich lassen sich die geografischen und zeitlichen Angaben der Objekthistorie belegen?
+- **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibunen im Datenmodell abbilden?
+- **Identifikation:** Wie lässt sich das Objekt über eindeutige Merkmale wie Inventarnummern exakt identifizieren und referenzieren?
+
+alt:
 - „… der Herstellungs-/Entstehungskontext klar ist.“
 - „… Akteur:innen und Rollen unterscheidbar sind.“
 - „… Provenienzereignisse nachvollziehbar sind.“
@@ -254,7 +251,8 @@ Damit können Forschungsfragen an Sammlungen gestellt werden, wie...
 
 ## Ausblick
 
-... kurz: wie setzen wir das mit Ontologien nun um?... was haben Ontologien damit zu tun...
+Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses strukturell geordnet werden kann. Um diese gedankliche oder konzeptuelle Ordnung nun in einem formalen, maschinenlesbaren System darzustellen, werden Ontologien herangezogen. In Einheit 2 werden die allgemeinen Grundlagen von Ontologien vorgestellt.
+
 
 ---
 
