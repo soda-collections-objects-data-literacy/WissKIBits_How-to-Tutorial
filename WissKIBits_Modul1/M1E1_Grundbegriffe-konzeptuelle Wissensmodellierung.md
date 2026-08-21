@@ -160,9 +160,13 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
 **3. Semantische Zusammenhänge formulieren:** Stellt die semantischen Zusammenhänge in folgeder Form dar:
 
-- **Konzept --> Beziehung --> Konzept**
+| Konzept | Konzept | Beziehung |
+|---|---|---|
+| Konzept 1  | Konzept 2  | Konzept 1 hat spezifische Beziehung zu Konzept 2 |
 
-- **Konzept --> Beziehung --> Ereignis**
+| Konzept | Ereignis| Beziehung |
+|---|---|---|
+| Konzept 1  | Ereignis 1 | Konzept 1 hat spezifische Beziehung zu Ereignis 1 |
 
 ---
 
