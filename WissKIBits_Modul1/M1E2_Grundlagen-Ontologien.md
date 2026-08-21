@@ -68,7 +68,9 @@ Teilnehmende können...
 
 ## Grundlage von Ontologien
 
-In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen (Instances), Eigenschaften (Properties) und Modellannahmen (Constraints) definiert und erläutert. 
+Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen in einer formal definierten, maschinenlesbaren Form darzustellen.
+
+In dieser Einheit wird erläutert, **warum Ontologien genutzt werden und welchen Nutzen sie für die Sammlungsdokumentation haben.** Dazu werden die wichtigsten **Begriffe** und **Bausteine von Ontologien** definiert und erläutert und ihe **Funktion** für die strukturierte und semantische Beschreibung von Sammlungsinformationen erläutert.
 
 ---
 
@@ -76,7 +78,7 @@ In dieser Einheit werden die Bestandteile Klassen (Classes/Concepts), Instanzen 
 
 Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaften geht es nicht nur darum, Daten zu beschreiben. 
 
-Es geht darum eine Domäne standardisiert zu dokumentieren und zu beschreiben, verfügbar zu machen und zu teilen und technisch und inhaltlich langfristig nutzbar zu halten.
+Es geht darum relevantes Wissen einer Domäne standardisiert zu dokumentieren und zu beschreiben, verfügbar zu machen und zu teilen und technisch und inhaltlich langfristig nutzbar zu halten.
 
 Ontologien helfen dabei:
 
@@ -89,89 +91,87 @@ Ontologien helfen dabei:
 
 ---
 
-## Aspekte von Ontologien (anschauen weil Dopplung mit oben?)
-
-Ontologien bestehen typischerweise aus folgenden Bausteinen:
-
-* **Klassen (Classes/Concepts)** (z.B. Spiel, Person, Organisation, Ereignis)
-* **Eigenschaften (Properties)** (z.B. hat Titel, wurde veröffentlicht von)
-* **Instanzen (Instances)** (konkrete Dinge, z.B. *The Legend of Zelda: A Link to the Past*) 
-* **Modellannahmen (Constraints)** (z.B. welche Beziehungen beschreiben zulässig das Objekt)
-
----
-
-## Titel des ersten Abschnitts
-
-In dieser Einheit .... gehen wir den Schritt von der konzeptuellen Modellierung zur formalen Representation... oder so...
-
-
-## Begriffsdefinitionen
-
-**Klassen (Classes/Concepts)**  
-
-"Klassen repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
-
-**Instanzen (Instances)**    
-
-"Instanzen repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
-
-**Eigenschaften (Properties)**  
-
-Klassen und Instanzen können in ihrer Bedeutung weiter spezifiziert werden.
-
-Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
-
-1) Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen
-2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden. (Weller2013ontologies, S. 208)
-
-
-**Bedingungen (Constraints)**  
-
-"Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
-
----
-
 ## Begriffsdefinition
+
+### Grundbegriffe Ontologien
 
 **Ontologie**
 
-Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** 
+Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Quelle)
 
-Eine Ontologie legt fest,
-
-- welche **Konzepte** (z.B. Objekt, Person, Ort, Zeit) und **Ereignisse** in einem Fach- oder Anwendungsbereichs (Domäne) relevant sind,
-- wie diese Konzepte miteinander **in Beziehung** stehen,
-- und welche **Regeln** gelten, damit **Aussagen** über sie sinnvoll und widerspruchsfrei modelliert werden können.
-
-Ontologien ermöglichen so ein gemeinsames Verständnis zentraler Phänomene, Konzepte und Strukturen in einer Domäne, sowohl für Menschen als auch für die maschinelle Verarbeitung.
+Die bekannteste Definition beschreibt eine Ontologie als "eine explizite, formale Spezifikation einer Konzeptualisierung", d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber, 1993)
 
 **Domänenontologie**
 
 Eine **Domänenontologie** ist eine projekt- oder anwendungsspezifische Umsetzung einer Ontologie, die die Konzepte, Ereignisse und Beziehungen innerhalb eines konkreten Fach- oder Anwendungsbereichs (Domäne) beschreibt.
 
+**Eine Ontologie legt fest,...**
+
+- welche **Konzepte** und **Ereignisse** in einem Fach- oder Anwendungsbereichs (Domäne) relevant sind,
+- wie diese Konzepte miteinander **in Beziehung** stehen,
+- und welche **Regeln** gelten, damit **Aussagen** über sie sinnvoll und widerspruchsfrei modelliert werden können.
+
+**Dazu stellt eine Ontologie folgende Bausteine bereit (Aspekte von Ontologien):**
+
+- **Klassen (Classes/Concpets):** formale Repräsentation von Konzepten und Ereignissen
+- **Eigenschaften (Properties):** formale Repräsentation von Merkmalen oder Beziehungen
+- **Instanzen (Instances):** konkrete Individuen von Klassen
+- **Bedingungen (Constraints):** Regeln, um die logische Konsistenz der Ontologie sicherzustellen
+
+---
+
+### Aspekte von Ontologien
+
+Ontologien bestehen typischerweise aus folgenden Bausteinen:
+
+**Klassen (Classes/Concepts)**  
+
+- "Klassen repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
+- Beispiel: Spiel, Person, Organisation
+
+**Instanzen (Instances)**    
+
+- "Instanzen repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
+- Beispiel: Das Spiel "The Legend of Zelda: A Link to the Past"
+
+**Eigenschaften (Properties)**  
+
+- Klassen und Instanzen können in ihrer Bedeutung weiter spezifiziert werden.
+
+- Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
+
+1) Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen
+2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden. (Weller2013ontologies, S. 208)
+
+- Beispiel: Das Spiel hat den Titel "The Legend of Zelda: A Link to the Past", 
+
+**Bedingungen (Constraints)**  
+
+- "Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
+
+- Beispiel: Welche Beziehungen beschreiben zulässig das Objekt? (besseres Beispiel finden)
+
 ---
 
 ## Nutzen von Ontologien und weiterführende Definitionen
 
+Insbesondere bei der Beschreibung von Ressourcen aus Sammlungsbeständen können Ontologien dazu beitragen, konzeptuelle Zusammenhänge explizit abzubilden, Informationen konsistent zu strukturieren und heterogene Datenbestände miteinander in Beziehung zu setzen. Dadurch verbessern sie die Interoperabilität zwischen unterschiedlichen Systemen und unterstützen die Vergleichbarkeit sowie die Nachnutzung von Informationen über einzelne Anwendungskontexte hinaus.
+
+
+
 Ontologien helfen damit, fachliches Domänenwissen mit ihrer spezifischen Domänenlogik so zu dokumentieren, dass es maschinenlesbar, vergleichbar und nachnutzbar wird. 
-
-Im Kontext der Semantic-Web-Technologien lässt sich eine Ontologie als Struktur verstehen, die insbesondere bereitstellt:
-
-- Klassen (Classes/Concpets): formale Repräsentation von Konzepten
-- Eigenschaften (Properties): formale Repräsentation von Merkmalen oder Beziehungen zwischen Klassen und Instanzen
-- Instanzen (Instances): konkrete Ausprägungen von Klassen
 
 Auf diese Weise ermöglichen Ontologien, Aussagen über Ressourcen aus Sammlungsbeständen formal abzubilden. (World Wide Web Consortium, 2012)
 
 Ontologien unterstützen damit die systematische und konsistente Repräsentation von Domänenwissen, sodass Informationen maschinenlesbar und für die Nachnutzung in unterschiedlichen Systemen anschlussfähig werden. (Noy, 2001)
 
-Die bekannteste Definition beschreibt eine Ontologie als "eine explizite, formale Spezifikation einer Konzeptualisierung", d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber, 1993)
-
 ---
 
 ## Ausblick
 
-Kurzer Übergang zur folgenden Einheit oder zum nächsten Modul.
+Ontologien bieten die Grundlage, Wissen über Sammlungsobjekte strukturiert und semantisch zu modellieren. Doch wie lässt sich dies konkret auf Informationen zum kulturellen Erbe anwenden?
+
+In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CIDOC CRM) eine Referenzontologie kennen, die speziell für die Modellierung von Kulturerbeinformationen entwickelt wurde.
 
 ---
 
@@ -184,8 +184,6 @@ Kurzer Übergang zur folgenden Einheit oder zum nächsten Modul.
 [Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
 [Uschold1995method]Uschold, M., & King, M. (1995). Towards a Methodology for Building Ontologies.
-
-
 
 [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
