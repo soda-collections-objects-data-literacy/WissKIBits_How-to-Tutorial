@@ -151,6 +151,13 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
 - Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
 
+> **Note**
+> 1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
+> 2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
+> 3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
+
+Ordnet die gefundenen Elemente auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
+
 **3. Semantische Zusammenhänge formulieren:** Stellt die semantischen Zusammenhänge in folgeder Form dar:
 
 - **Konzept --> Beziehung --> Konzept**
@@ -159,19 +166,15 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
 **Hinweis:**
 
-> 1.  Relevante Informationen auswählen
-
-> Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können:
+**1. Relevante Informationen auswählen:** Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können:
 
 > z. B. das Objekt ist ein Spiel, Titel des Spiels, Entwickler des Spiels, Entwicklungszeit des Spiels, Veröffentlichungsort des Spiels, Veröffentlichungszeitpunkt des Spiels uvm.
 
-> Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen:
+Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen:
 
 > Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt und 1991 in Japan veröffentlicht.
 
-> 2. Konzepte und Ereignis identifizieren
-
-Untersucht anschließend eure Aussagen:
+**2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
 
 1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
 2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
