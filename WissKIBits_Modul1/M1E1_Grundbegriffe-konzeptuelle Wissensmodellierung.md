@@ -145,6 +145,13 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
 **1. Relevante Informationen auswählen:** Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können. Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
 
+> **Prüft eure Auswahl:**
+> - Welche Information ist für das Verständnis des Objekts unverzichtbar?
+> - Welche Information beschreibt nur ein Merkmal des Objekts?
+> - Welche Information stellt das Objekt in einen größeren Zusammenhang?
+> - Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
+> - Bleiben wichtige Zusammenhänge noch unausgesprochen?
+
 **2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
 
 - Ordnet die gefundenen Informationen auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
@@ -218,7 +225,7 @@ Prüft eure Auswahl:
 
 ## Ergebnis
 
-Am Ende liegt eine erste fachliche Ordnung eines Wissensbereichs vor:
+Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs vor:
 
 - relevante Konzepte wurden benannt,
 - Ereignisse wurden identifiziert,
