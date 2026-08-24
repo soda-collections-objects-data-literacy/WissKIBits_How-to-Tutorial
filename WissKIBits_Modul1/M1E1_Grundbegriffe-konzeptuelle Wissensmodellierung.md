@@ -180,8 +180,20 @@ Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs vor:
 - Ereignisse wurden identifiziert,
 - Beziehungen wurden als Aussagen formuliert.
 
-Musterbeispiel als Grafik (todo canan)
-  
+### Musterbeispiel in Tabellenform
+
+| Konzept  | Ereignis         | Beziehung                                                      |
+| -------- | ---------------- | -------------------------------------------------------------- |
+| Spiel    | Entwicklung      | Das Spiel wurde durch die Entwicklung geschaffen.              |
+| Nintendo | Entwicklung      | Nintendo führte die Entwicklung durch.                         |
+| Spiel    | Veröffentlichung | Das Spiel wurde im Rahmen der Veröffentlichung veröffentlicht. |
+| Japan    | Veröffentlichung | Die Veröffentlichung fand in Japan statt.                      |
+| 1991     | Veröffentlichung | Die Veröffentlichung fand 1991 statt.                          |
+
+
+### Musterbeispiel als Grafik
+
+
 ---
 
 ## Zusammenfassung
