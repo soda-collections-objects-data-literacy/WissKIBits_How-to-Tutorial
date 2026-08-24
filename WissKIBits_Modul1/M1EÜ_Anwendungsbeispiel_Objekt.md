@@ -163,7 +163,7 @@ Quelle: [CIDCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/f
 
 ---
 
-## Ergebnis: Mindmap / Konzeptionelles Modell
+## Ergebnis: Semantisches Modell mit CIDOC CRM
 
 ![Konzept-Mindmap](../assets/Mindmap.png)
 
