@@ -1,5 +1,26 @@
 # Changelog fortlaufend
 
+24.8.2026
+
+Einführungstext alt aus M1E1:
+
+In den Geistes- und Kulturwissenschaften, in GLAM-Institutionen und in Forschungssammlungen wird mit komplexen Objekt- und Kontextdaten gearbeitet. Diese Daten tragen historische, kulturelle und soziale Bedeutungen, etwa Informationen zu Provenienz, beteiligten Personen, Ereignissen, Beziehungen oder unterschiedlichen Interpretationen.
+
+Tabellen können Daten zwar erfassen und einzelne Eigenschaften beziehungsweise Merkmale – sogenannte Attribute – von Datenobjekten darstellen (Fischer2010encyclopcompscience, S. 77). 
+
+Der fachliche Bedeutungszusammenhang, in dem diese Datenobjekte stehen, bleibt dabei jedoch häufig implizit. Dazu gehören insbesondere die zugrunde liegenden Konzepte, ihre Beziehungen und ihre historischen oder kulturellen Kontexte.
+
+Damit Forschungsdaten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss deshalb auch ihre Bedeutung erfasst und formal beschrieben werden (Fichtner2025paths, S. 58). Dazu wird modelliert, wie Daten innerhalb eines bestimmten Wissensbereichs verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21).
+
+M1E0: Warum semantisch modellieren? alt
+
+- Forschungs- und Sammlungsdaten beschreiben nicht nur Objekte und ihre Merkmale, sondern auch historische, kulturelle und soziale Zusammenhänge.
+- Tabellen erfassen vor allem einzelne Eigenschaften. Die fachlichen Bedeutungszusammenhänge zwischen den Daten bleiben dabei häufig implizit.
+- Semantische Modellierung macht relevante Konzepte, Beziehungen und Kontexte explizit und nachvollziehbar.
+- Dadurch bleiben Forschungsdaten langfristig interpretierbar, konsistent verknüpfbar und wissenschaftlich nachnutzbar.
+- WissKI verbindet die konzeptuelle Modellierung eines Wissensbereichs mit der Erfassung und Verwaltung von Forschungsdaten.
+
+
 20.8.2026
 
 Einleitung aus M1E1 raus:
