@@ -193,6 +193,7 @@ Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs vor:
 
 ### Musterbeispiel als Grafik
 
+![Konzept-Mindmap](../assets/KonzeptEreignisBeziehung.png)
 
 ---
 
