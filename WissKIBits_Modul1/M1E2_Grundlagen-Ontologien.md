@@ -141,13 +141,13 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 
 ---
 
-## Nutzen von Ontologien und weiterführende Definitionen
+## Nutzen von Ontologien
 
-Ontologien helfen damit, fachliches Domänenwissen mit ihrer spezifischen Domänenlogik so zu dokumentieren, dass es maschinenlesbar, vergleichbar und nachnutzbar wird. 
+Ontologien sind eine Form der Wissensrepräsention mit einem hohen Abstraktionsniveau. Sie haben "einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell" verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant. (Rehbein2017ontologies, S. 162)
 
-Auf diese Weise ermöglichen Ontologien, Aussagen über Ressourcen aus Sammlungsbeständen formal abzubilden. (World Wide Web Consortium, 2012)
+Der besondere Nutzen von Ontologien liegt darin, dass sie Konzepte und Begriffe, Eigenschaften und Beziehungen und ihre Bedeutung aus einem Wissensbereich **formal und eindeutig beschreibbar machen**. Damit können Daten auch über einzelne Sammlungen, Proijekte oder Systeme hinweg miteinander in Beziehung gesetzt und gemeinsam ausgewertet werden. Die formale Beschreibung emröglicht zudem eine maschinelle Verarbeitung der Daten. 
 
-Ontologien unterstützen damit die systematische und konsistente Repräsentation von Domänenwissen, sodass Informationen maschinenlesbar und für die Nachnutzung in unterschiedlichen Systemen anschlussfähig werden. (Noy, 2001)
+So schaffen Ontologien eine Grundlage dafür, komplexe Forschungs- und Sammlungsdaten nicht nur zu dokumentieren, sondern das darin enthaltene fachliche Wissen strukturiert abzubilden und für weitere Forschung nutzbar zu machen.
 
 ---
 
@@ -163,15 +163,9 @@ In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CI
 
 [W3C2001owl] World Wide Web Consortium. (2012, December 11). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer 
 
-[Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
-
 [Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-[Uschold1995method]Uschold, M., & King, M. (1995). Towards a Methodology for Building Ontologies.
-
 [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
-
-[Stuckenschmidt2011ontology] Stuckenschmidt, H. (2011). *Ontologien. Konzepte, Technologien und Anwendungen*. Springer.
 
 [Weller2013ontologies] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
