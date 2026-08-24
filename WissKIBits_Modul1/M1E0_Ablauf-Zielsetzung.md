@@ -43,11 +43,6 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 
 **Dauer:** ~ 5 Min.
 
-**Lernziele**
-
-Teilnehmende können...
-
-- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
 
 ---
 
