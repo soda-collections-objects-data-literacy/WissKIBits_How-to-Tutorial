@@ -205,6 +205,9 @@ Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs, einer Domä
 
 ![Konzept-Mindmap](../assets/KonzeptEreignisBeziehung.png)
 
+> **Abbildung:** Die Grafik veranschaulicht ....
+
+
 ---
 
 ## Zusammenfassung
