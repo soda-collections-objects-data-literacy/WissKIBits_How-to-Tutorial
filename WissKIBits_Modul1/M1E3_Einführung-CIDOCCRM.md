@@ -48,18 +48,14 @@ Teilnehmende können...
 
 - Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
 - Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
-- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
-- ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-- Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
 - Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
 - Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
-- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
-- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
 - den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
 
 ---
 
@@ -179,15 +175,13 @@ WissKI nutzt CIDOC CRM, weil es …
 
 ---
 
-## Bibliographie
+## Bibliografie
 
 [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
-[1] [SIG2026cidoc] CIDOC CRM Special Interest Group (o.J.). What is CIDOC CRM? https://cidoc-crm.org/
+[SIG2026cidoc] CIDOC CRM Special Interest Group (o.J.). What is CIDOC CRM? https://cidoc-crm.org/
 
-[2] [W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts/
-
-[]
+[W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts/
 
 
 
