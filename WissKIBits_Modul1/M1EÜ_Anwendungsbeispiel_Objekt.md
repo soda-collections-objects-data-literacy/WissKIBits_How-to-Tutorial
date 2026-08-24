@@ -212,4 +212,6 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 
 **Hinweis:** Der gezielte Umgang mit Datentyp-Eigenschaften, kontrollierten Vokabularen und Interoperabilität wird in späteren Einheiten weiter vertieft.
 
+GGF Hausaufgabe zum Fertigstellen vor Modul 3 !!!
+
 
