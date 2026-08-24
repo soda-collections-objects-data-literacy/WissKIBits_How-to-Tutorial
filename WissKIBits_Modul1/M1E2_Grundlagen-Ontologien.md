@@ -49,8 +49,6 @@ Teilnehmende können...
 
 - den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
-- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
-- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
@@ -65,7 +63,7 @@ Teilnehmende können...
 
 ## Grundlage von Ontologien
 
-Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen in einer formal definierten, maschinenlesbaren Form darzustellen.
+Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein2017ontologies, S. 164) und in einer maschinenlesbaren Form darzustellen.
 
 In dieser Einheit wird erläutert, **warum Ontologien genutzt werden und welchen Nutzen sie für die Sammlungsdokumentation haben.** Dazu werden die wichtigsten **Begriffe** und **Bausteine von Ontologien** definiert und erläutert und ihe **Funktion** für die strukturierte und semantische Beschreibung von Sammlungsinformationen erläutert.
 
@@ -73,15 +71,12 @@ In dieser Einheit wird erläutert, **warum Ontologien genutzt werden und welchen
 
 ## Warum verwenden wir Ontologien?
 
-Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaften geht es nicht nur darum, Daten zu beschreiben. 
-
-Es geht darum relevantes Wissen einer Domäne standardisiert zu dokumentieren und zu beschreiben, verfügbar zu machen und zu teilen und technisch und inhaltlich langfristig nutzbar zu halten.
+Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaften geht es darum, relevantes Wissen einer Domäne standardisiert zu beschreiben und zu dokumentieren, verfügbar zu machen und zu teilen sowie technisch und inhaltlich langfristig nutzbar zu halten.
 
 Ontologien helfen dabei:
 
-- **Semantik der Daten zu erfassen**
-- **Semantische Beziehungen auszudrücken**
-- **Kontext und Provenienz zu erhalten**
+- **Semantik der Daten formalisiert zu erfassen**
+- **Semantische Beziehungen formalisiert auszudrücken**
 - **Wissen maschinenlesbar zu machen**
 - **Interoperabilität zwischen Einrichtungen und Systemen sicherzustellen**
 - **Daten mit dem Linked Open Data-Ökosystem zu verbinden**
@@ -97,10 +92,6 @@ Ontologien helfen dabei:
 Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Weller2013ontologies, S. 207)
 
 Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber, 1993, S. 200)
-
-**Domänenontologie**
-
-Eine **Domänenontologie** ist eine projekt- oder anwendungsspezifische Umsetzung einer Ontologie, die die Konzepte, Ereignisse und Beziehungen innerhalb eines konkreten Fach- oder Anwendungsbereichs (Domäne) beschreibt.
 
 **Eine Ontologie legt fest,...**
 
