@@ -58,6 +58,8 @@ Teilnehmende können...
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
+- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 
 ---
 
@@ -150,6 +152,10 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 
 ## Top-Level- vs. Domänenontologien
 
+Eine **Top-Level Ontologie** beschreibt allgemeine Begriffe wie Zeit, Raum oder Ereignis unabhängig von einem spezifischen Fach- oder Anwendungsbereich oder einer bestimmten Problemstellung. (Rehbein2017ontologies, S. 165)
+
+Eine **Domänenontologie** spezifiert grundlegende Begriffe einer Top-Level-Ontologie für einen bestimmten Fach- oder Anwendungsbereich (Domäne) (Rehbein2017ontologies, S. 166). In einer projekt- oder anwendungsspezifischen Umsetzung werden die für die Domäne relevanten Konzepte, Ereignisse und Beziehungen beschrieben.
+
 | Top-Level Ontologie (Grundstruktur) | Domänenontologie (Fachspezifik) |
 |------------------------------------|---------------------------------|
 | z.B. **CIDOC CRM** | Erweiterungen, WissKI-Flavors etc. |
@@ -174,6 +180,8 @@ WissKI nutzt CIDOC CRM, weil es …
 ---
 
 ## Bibliographie
+
+[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
 [1] [SIG2026cidoc] CIDOC CRM Special Interest Group (o.J.). What is CIDOC CRM? https://cidoc-crm.org/
 
