@@ -47,16 +47,16 @@ Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**
 
 Teilnehmende können...
 
-- Begriff konzeptuelle Wissensmodellierung benennen.
-- Begriff konzeptuelle Wissensmodellierung erläutern.
+- Begriff konzeptuelle Wissensmodellierung benennen. (LZ-ID SODa\_03\_007\_0847)
+- Begriff konzeptuelle Wissensmodellierung erläutern. (LZ-ID SODa\_03\_007\_0848)
 - Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
 - Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
 - Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
 - Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
-- Begriff semantische Modellierung benennen. (LZ-ID SODa_03_007_0825)
-- ???Begriff semantische Modellierung erläutern.
-- ???Begriff semantisches Datenmodell benennen.
-- ???Begriff semantisches Datenmodell erläutern.
+- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
+- Begriff semantische Modellierung erläutern. (LZ-ID SODa\_03\_007\_0844)
+- ???Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
+- ???Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
   
 ---
 
