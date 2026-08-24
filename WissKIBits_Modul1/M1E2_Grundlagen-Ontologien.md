@@ -159,7 +159,7 @@ In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CI
 
 ---
 
-## Bibliographie
+## Bibliografie
 
 [W3C2001owl] World Wide Web Consortium. (2012, December 11). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer 
 
