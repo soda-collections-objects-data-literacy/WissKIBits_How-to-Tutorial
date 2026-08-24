@@ -113,7 +113,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Eb
 
 ---
 
-## Lernziele des Moduls
+## Lernziele des Moduls (zum Schluss abgleichen - todo Gudrun)
 
 Nach Abschluss von Modul 1 können die Teilnehmenden…
 
