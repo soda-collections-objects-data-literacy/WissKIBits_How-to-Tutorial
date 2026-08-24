@@ -55,8 +55,8 @@ Teilnehmende können...
 - Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
 - Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
 - Begriff semantische Modellierung erläutern. (LZ-ID SODa\_03\_007\_0844)
-- ???Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
-- ???Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
+- Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
+- Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
   
 ---
 
