@@ -51,14 +51,15 @@ Teilnehmende können...
 - FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
 - das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
 - Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
-- Formale Beschreibungssprache RDF ...
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
+  
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
 - Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
 - WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
 
 - ereigniszentriertes Modellierungsprinzip mit CIDOC CRM benennen.
+- Formale Beschreibungssprache RDF ...
 ---
 
 ## WissKI in Kürze
@@ -80,7 +81,7 @@ Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https:
 
 Technologien wie RDF und die vom W3C standardisierte **Web Ontology Language (OWL)** ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
 
-WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann aber auch andere Ontologien einbinden. 
+WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann aber auch andere Ontologien einbinden, insofern sie in einem maschinenlesbaren Format vorliegen.   
 
 So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR-Konformität hängt zusätzlich von der Modellierung, Lizenzierung und Bereitstellung ab.
 
@@ -93,7 +94,7 @@ WissKI wird u. a. am **Germanischen Nationalmuseum (GNM)** in Nürnberg eingeset
 - dem größten kulturhistorischen Museum im deutschsprachigen Raum
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
-Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair]] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
+Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
 
 ![GNM](../assets/gnm.jpg)
 ![GNM innen](../assets/gnm_2.JPG)
