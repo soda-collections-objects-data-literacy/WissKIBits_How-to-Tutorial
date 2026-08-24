@@ -72,8 +72,6 @@ Teilnehmende können...
 - Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
 - Tabellen bilden einzelne Eigenschaften und Informationen ab, während die Bedeutung und Zusammenhänge der Daten häufig implizit bleiben.
 - Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden (Fichtner2025paths, S. 58).
-- **Semantische Modellierung** ermöglicht genau das. Sie macht relevante Konzepte, Beziehungen und Kontexte explizit und nachvollziehbar. Dadurch bleiben Forschungsdaten langfristig interpretierbar, konsistent verknüpfbar und wissenschaftlich nachnutzbar.
-- WissKI verbindet die semantische Modellierung eines Wissensbereichs mit der Erfassung und Verwaltung von Forschungsdaten.
 
 ---
 
