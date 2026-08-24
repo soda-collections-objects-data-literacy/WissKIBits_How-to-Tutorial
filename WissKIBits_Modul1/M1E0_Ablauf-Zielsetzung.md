@@ -215,14 +215,14 @@ Hilfreich sind:
 
 ## Ergebnis des Moduls
 
-Am Ende von Modul 1 liegt eine erste konzeptuelle Modellskizze vor. Sie zeigt:
+Am Ende von Modul 1 liegt eine erste konzeptuelle Modellskizze der Domänenlogik vor. Sie zeigt:
 
 - die für das Beispiel relevanten Konzepte und Ereignisse,
 - ihre semantischen Beziehungen,
 - erste Zuordnungen zu Klassen und Eigenschaften des CIDOC CRM,
 - sowie begründete Modellierungsentscheidungen.
 
-Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung, Visualisierung und Implementierung in WissKI.
+Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Implementierung in WissKI.
 
 ---
 
@@ -230,9 +230,9 @@ Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung, Visualisie
 
 In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt. 
 
-Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur praktischen Modellskizze. 
+Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur  konzeptuelle Modellskizze der Domänenlogik. 
 
-Die technische Umsetzung des Modells im WissKI Pathbuilder wird in den weiterführenden Modulen behandelt.
+Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wird in den weiterführenden Modulen behandelt.
 
 ---
 
