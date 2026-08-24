@@ -185,6 +185,8 @@ WissKI nutzt CIDOC CRM, weil es …
 
 [W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts/
 
+[Quelle CIDOC papier]
+
 
 
 
