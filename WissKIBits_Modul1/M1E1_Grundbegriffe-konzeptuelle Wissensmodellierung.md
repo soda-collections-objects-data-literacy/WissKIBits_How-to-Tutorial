@@ -184,7 +184,7 @@ Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu 
 
 ## Ergebnis
 
-Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs vor:
+Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs, einer Domäne, vor:
 
 - relevante Konzepte wurden benannt,
 - Ereignisse wurden identifiziert,
@@ -221,14 +221,6 @@ Damit können Forschungsfragen an Sammlungen gestellt und beantwortet werden, wi
 - **Ort & Zeit:** Wie verlässlich lassen sich die geografischen und zeitlichen Angaben der Objekthistorie belegen?
 - **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibunen im Datenmodell abbilden?
 - **Identifikation:** Wie lässt sich das Objekt über eindeutige Merkmale wie Inventarnummern exakt identifizieren und referenzieren?
-
-alt:
-- „… der Herstellungs-/Entstehungskontext klar ist.“
-- „… Akteur:innen und Rollen unterscheidbar sind.“
-- „… Provenienzereignisse nachvollziehbar sind.“
-- „… Ort und Zeit belastbar sind.“
-- „… Unsicherheiten (Hypothesen) abbildbar sind.“
-- „… eine eindeutige Identifizierung durch z. B. Signatur-/Inventarnummer möglich ist.“
 
 ---
 
