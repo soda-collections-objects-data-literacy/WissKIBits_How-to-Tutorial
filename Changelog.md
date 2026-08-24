@@ -2,6 +2,42 @@
 
 24.8.2026
 
+M1E2: 
+
+alt:
+
+Nutzen von Ontologien und weiterführende Definitionen 
+
+Ontologien helfen damit, fachliches Domänenwissen mit ihrer spezifischen Domänenlogik so zu dokumentieren, dass es maschinenlesbar, vergleichbar und nachnutzbar wird. 
+
+Auf diese Weise ermöglichen Ontologien, Aussagen über Ressourcen aus Sammlungsbeständen formal abzubilden. (World Wide Web Consortium, 2012)
+
+Ontologien unterstützen damit die systematische und konsistente Repräsentation von Domänenwissen, sodass Informationen maschinenlesbar und für die Nachnutzung in unterschiedlichen Systemen anschlussfähig werden. (Noy, 2001)
+
+
+---
+
+M1E3: Lernziele entfernt: 
+
+- ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
+
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
+- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+
+M1E2: Inhalt und Lernziel verschoben
+
+- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+
+**Domänenontologie**
+
+Eine **Domänenontologie** ist eine projekt- oder anwendungsspezifische Umsetzung einer Ontologie, die die Konzepte, Ereignisse und Beziehungen innerhalb eines konkreten Fach- oder Anwendungsbereichs (Domäne) beschreibt.
+
+--> wird verschoben nach M1E3
+
+---
+
 M1E1: Lernziele ergänzt:
 - Begriff semantische Modellierung benennen. (LZ-ID SODa_03_007_0825)
 - ???Begriff semantische Modellierung erläutern.
@@ -9,7 +45,7 @@ M1E1: Lernziele ergänzt:
 - ???Begriff semantisches Datenmodell erläutern.
 
 - bibliografische Angabe entfernt
-  [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
+  [Schwenk2025sodaforumconservation] Schwenk , G. A. & Fischer, K. (2025), SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. Zenodo. https://doi.org/10.5281/zenodo.15481743
 
 ---
 
