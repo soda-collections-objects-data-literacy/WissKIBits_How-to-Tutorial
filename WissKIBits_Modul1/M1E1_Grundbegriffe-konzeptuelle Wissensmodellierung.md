@@ -74,7 +74,7 @@ Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereigni
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
-**Semantische Modellierung** bezeichnet den konzeptuellen Prozess, die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren, zu strukturieren und zu formalisieren (Schwenk2025sodaforumconservation, S. xy). Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
+**Semantische Modellierung** bezeichnet den konzeptuellen Prozess (engl. *conceptualization*), die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren und zu strukturieren. (Rehbein2017ontologies, S. 164) Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
 
 Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle)
 
@@ -216,14 +216,13 @@ Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt her
 
 ---
 
-## Bibliographie
+## Bibliografie
 
 
 [Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
 
 [Fischer2010encyclopcompscience] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
 
-[Schwenk2025sodaforumconservation] Schwenk , G. A. & Fischer, K. (2025), SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. Zenodo. https://doi.org/10.5281/zenodo.15481743
-
+[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
 
 
