@@ -218,6 +218,14 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 ---
 
+## Ausblick
+
+ergänzen...
+
+
+---
+
+
 ## Bibliografie
 
 [Hausenblast2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
