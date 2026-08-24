@@ -58,6 +58,7 @@ Teilnehmende können...
 - Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
 - WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
 
+- ereigniszentriertes Modellierungsprinzip mit CIDOC CRM benennen.
 ---
 
 ## WissKI in Kürze
