@@ -86,7 +86,7 @@ In Modul 1 wird die konzeptionelle Basis für ein Domänenmodell geschaffen. Aus
 - Abgleich der identifizierten Domänenkonzepte, Ereignisse und Beziehungen mit entsprechenen Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM
 - Daraus entsteht schrittweise eine ontologiebasierte Domänenstruktur bzw. -logik mit CIDOC CRM.
 - Diese Domänenlogik wird visualisiert und dient als Grundlage für das sammlungsbezogene Datenmanagement und die -verwaltung in WissKI.
-- Die entwickelte Domänenlogik wird visualisiert und für die spätere Umsetzung in WissKI vorbereitet.
+- Die entwickelte Domänenlogik wird in Draw.io visualisiert und für die spätere Umsetzung in WissKI vorbereitet.
 
 ---
 
