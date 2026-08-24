@@ -47,78 +47,38 @@ Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**
 
 Teilnehmende können...
 
-- Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder  verschieben in E0
-- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825) ??? löschen oder  verschieben in E0
-- Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder verschieben in E0
 - Begriff konzeptuelle Wissensmodellierung benennen.
 - Begriff konzeptuelle Wissensmodellierung erläutern.
 - Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
 - Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
 - Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
 - Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
+- Begriff semantische Modellierung benennen. (LZ-ID SODa_03_007_0825)
+- ???Begriff semantische Modellierung erläutern.
+- ???Begriff semantisches Datenmodell benennen.
+- ???Begriff semantisches Datenmodell erläutern.
   
----
-
-## Grundlagen der konzeptuellen Wissensmodellierung
-
-In den Geistes- und Kulturwissenschaften, in GLAM-Institutionen und in Forschungssammlungen wird mit komplexen Objekt- und Kontextdaten gearbeitet. Diese Daten tragen historische, kulturelle und soziale Bedeutungen, etwa Informationen zu Provenienz, beteiligten Personen, Ereignissen, Beziehungen oder unterschiedlichen Interpretationen.
-
-Tabellen können Daten zwar erfassen und einzelne Eigenschaften beziehungsweise Merkmale – sogenannte Attribute – von Datenobjekten darstellen (Fischer2010encyclopcompscience, S. 77). 
-
-Der fachliche Bedeutungszusammenhang, in dem diese Datenobjekte stehen, bleibt dabei jedoch häufig implizit. Dazu gehören insbesondere die zugrunde liegenden Konzepte, ihre Beziehungen und ihre historischen oder kulturellen Kontexte.
-
-Damit Forschungsdaten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss deshalb auch ihre Bedeutung erfasst und formal beschrieben werden (Fichtner2025paths, S. 58). Dazu wird modelliert, wie Daten innerhalb eines bestimmten Wissensbereichs verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21).
-
-ODER ALS LISTE:
-
-- Forschungs- und Sammlungsdaten enthalten komplexe Objekt- und Kontextinformationen.
-- Sie tragen historische, kulturelle und soziale Bedeutungen, zum Beispiel: Provenienz, beteiligte Personen und Institutionen, Ereignisse und Beziehungen, unterschiedliche Interpretationen.
-- Tabellen bilden vor allem Eigenschaften beziehungsweise **Attribute** von Datenobjekten ab (Fischer2010encyclopcompscience, S. 77).
-- Fachliche Bedeutungszusammenhänge bleiben dabei häufig implizit.
-- Für die langfristige Interpretation und Nachnutzung muss daher auch die Bedeutung der Daten formal beschrieben werden (Fichtner2025paths, S. 58).
-- Modelliert wird, wie Daten in einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Schwenk2025sodaforumconservation, S. 21). --> kürze den Key doch auf (Schwenk2025forum) 
-
 ---
 
 ## Begriffsdefinitionen der konzeptuellen Wissensmodellierung
 
-Vorschlag neu:
-
 Bei der **konzeptuellen Wissensmodellierung** wird herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses Wissen konzeptuell geordnet werden kann.
 
-Eine **Domäne** ist der fachlich abgegrenzte Wissens- und Anwendungsbereich, für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung.
+Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer2010encyclopcompscience, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. (Quelle)
 
 Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
 
-- **Konzepte** sind abstrakte Vorstellungen oder Begriffe, mit denen relevante Gegenstände und Sachverhalte einer Domäne geordnet werden. Beispiele sind Objekt, Person, Ort oder Institution.
-- **Ereignisse** beschreiben zeitlich und räumlich einordenbare Geschehnisse oder Prozesse, an denen Objekte, Personen oder andere Konzepte beteiligt sein können. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objekts.
+- **Konzepte** sind abstrakte Vorstellungen oder Begriffe, mit denen relevante Gegenstände und Sachverhalte einer Domäne bezeichnet werden. Beispiele sind Objekt, Person, Ort oder Institution.
+- **Ereignisse** beschreiben zeitlich und räumlich einordbare Geschehnisse oder Prozesse, an denen Objekte, Personen oder andere Konzepte beteiligt sein können. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objekts.
 - **Beziehungen** beschreiben bedeutungstragende Verknüpfungen zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind „Person nahm an Herstellung teil“, „Herstellung fand an Ort statt“ oder „Objekt wurde durch Herstellung erzeugt“.
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
 **Semantische Modellierung** bezeichnet den konzeptuellen Prozess, die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren, zu strukturieren und zu formalisieren (Schwenk2025sodaforumconservation, S. xy). Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden.
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle)
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
-
-alt:
-
-Bei der **Konzeptuellen Wissensmodellierung** wird herausgearbeitet welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.
-
-Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der **semantischen Datenmodellierung** versteht man unter Domäne den fachlichen Wissens- und Anwendungsbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
-
-Zentralen Elemente der konzeptuellen Wissensmodellierung sind **Konzept, Ereignis und Beziehung**.
-
-- **Konzepte** sind abstrakte Begriffe, die die zentrale Bausteine einer Domäne bezeichnen. Beispiele sind Objekte, Personen, Orte, Institutionen.
-- **Ereignisse** sind eine strukturierte Sammlung von Abläufen, Hergängen und Prozessen die kontextbezogene informationen über Konzepte bereitstellen. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objektes.
-- **Beziehungen** beschreiben die semantische Verknüpfung zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind Objekt "wurde hergestellt von" Person und Objekt "wurde hergestellt" bei Herstellung.
-
-Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**. 
-
-Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden und strukturiert sind, können sie in einem semantischen Datenmodell dargestellt werden. 
-
-ALTEnde
 
 ```mermaid
 flowchart TD
