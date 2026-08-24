@@ -2,6 +2,8 @@
 
 24.8.2026
 
+ToDo: Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
+
 M1E2: 
 
 alt:
