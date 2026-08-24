@@ -163,7 +163,7 @@ Quelle: [CIDCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/f
 
 ---
 
-## Ergebnis: Semantisches Modell mit CIDOC CRM
+## Ergebnis: Semantisches Domänenmodell mit CIDOC CRM
 
 ![Konzept-Mindmap](../assets/Mindmap.png)
 
