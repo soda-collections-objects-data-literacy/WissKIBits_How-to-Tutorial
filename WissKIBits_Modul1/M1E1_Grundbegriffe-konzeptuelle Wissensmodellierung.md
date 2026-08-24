@@ -103,7 +103,13 @@ flowchart TD
 
 Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 
-**1. Relevante Informationen auswählen:** Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können. Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
+**1. Relevante Informationen auswählen:** 
+
+- Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können.
+
+- Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
+
+- Untersucht anschließend eure Aussagen.
 
 > **Prüft eure Auswahl:**
 > - Welche Information ist für das Verständnis des Objekts unverzichtbar?
@@ -112,20 +118,24 @@ Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
 > - Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
 > - Bleiben wichtige Zusammenhänge noch unausgesprochen?
 
-**2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
+**2. Konzepte und Ereignis identifizieren:**
 
-- Ordnet die gefundenen Informationen auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den drei Kategorien zu.
+- Ordnet die gefundenen Informationen auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den folgenden drei Kategorien zu.
 
 - Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
 
 - Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
+
+- In welchen semantischen Zusammenhängen (**Beziehungen**) stehen die Konzepte und Ereignisse?
 
 > **Erinnerungshilfe**
 > 1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
 > 2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
 > 3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
 
-**3. Semantische Zusammenhänge formulieren:** Stellt die semantischen Zusammenhänge in folgeder Form dar:
+**3. Beziehungen formulieren:** 
+
+- Stellt die semantischen Zusammenhänge in tabellarischer Form dar.
 
 | Konzept | Konzept | Beziehung |
 |---|---|---|
@@ -157,7 +167,7 @@ Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu 
 
 > Veröffentlichung
 
-**3. Semantische Zusammenhänge identifizieren:**
+**3. Beziehungen identifizieren:**
 
 | Konzept | Konzept | Beziehung |
 |---|---|---|
