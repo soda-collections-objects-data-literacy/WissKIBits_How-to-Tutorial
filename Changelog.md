@@ -4,6 +4,17 @@
 
 ToDo: Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
 
+M1E1: Zusammenfassung alt gelöscht
+
+- „… der Herstellungs-/Entstehungskontext klar ist.“
+- „… Akteur:innen und Rollen unterscheidbar sind.“
+- „… Provenienzereignisse nachvollziehbar sind.“
+- „… Ort und Zeit belastbar sind.“
+- „… Unsicherheiten (Hypothesen) abbildbar sind.“
+- „… eine eindeutige Identifizierung durch z. B. Signatur-/Inventarnummer möglich ist.“
+
+---
+
 M1E2: 
 
 alt:
