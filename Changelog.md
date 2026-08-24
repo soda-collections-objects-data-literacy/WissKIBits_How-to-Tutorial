@@ -6,6 +6,10 @@ ToDo:
 
 - Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
 - Zeiten nochmal harmonisieren
+- Abbildungsunterschriften ergänzen
+- 
+
+---
 
 M1E1: Zusammenfassung alt gelöscht
 
