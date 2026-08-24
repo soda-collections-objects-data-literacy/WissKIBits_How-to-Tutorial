@@ -143,7 +143,7 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 
 ## Nutzen von Ontologien
 
-Ontologien sind eine Form der Wissensrepräsention mit einem hohen Abstraktionsniveau. Sie haben "einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell" verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant. (Rehbein2017ontologies, S. 162)
+Ontologien sind eine Form der Wissensrepräsention mit einem hohen Abstraktionsniveau. Sie haben **"einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell"** (Herv. d. A.) verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant. (Rehbein2017ontologies, S. 162)
 
 Der besondere Nutzen von Ontologien liegt darin, dass sie Konzepte und Begriffe, Eigenschaften und Beziehungen und ihre Bedeutung aus einem Wissensbereich **formal und eindeutig beschreibbar machen**. Damit können Daten auch über einzelne Sammlungen, Proijekte oder Systeme hinweg miteinander in Beziehung gesetzt und gemeinsam ausgewertet werden. Die formale Beschreibung emröglicht zudem eine maschinelle Verarbeitung der Daten. 
 
