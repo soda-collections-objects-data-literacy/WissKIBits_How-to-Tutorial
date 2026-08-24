@@ -43,6 +43,11 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 
 **Dauer:** ~ 5 Min.
 
+**Lernziele**
+
+Teilnehmende können...
+
+- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
 
 ---
 
@@ -64,11 +69,11 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 
 ## Warum semantisch modellieren?
 
-- Forschungs- und Sammlungsdaten beschreiben nicht nur Objekte und ihre Merkmale, sondern auch historische, kulturelle und soziale Zusammenhänge.
-- Tabellen erfassen vor allem einzelne Eigenschaften. Die fachlichen Bedeutungszusammenhänge zwischen den Daten bleiben dabei häufig implizit.
-- Semantische Modellierung macht relevante Konzepte, Beziehungen und Kontexte explizit und nachvollziehbar.
-- Dadurch bleiben Forschungsdaten langfristig interpretierbar, konsistent verknüpfbar und wissenschaftlich nachnutzbar.
-- WissKI verbindet die konzeptuelle Modellierung eines Wissensbereichs mit der Erfassung und Verwaltung von Forschungsdaten.
+- Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
+- Tabellen bilden einzelne Eigenschaften und Informationen ab, während die Bedeutung und Zusammenhänge der Daten häufig implizit bleiben.
+- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden (Fichtner2025paths, S. 58).
+- **Semantische Modellierung** ermöglicht genau das. Sie macht relevante Konzepte, Beziehungen und Kontexte explizit und nachvollziehbar. Dadurch bleiben Forschungsdaten langfristig interpretierbar, konsistent verknüpfbar und wissenschaftlich nachnutzbar.
+- WissKI verbindet die semantische Modellierung eines Wissensbereichs mit der Erfassung und Verwaltung von Forschungsdaten.
 
 ---
 
@@ -242,3 +247,7 @@ Die technische Umsetzung des Modells im WissKI Pathbuilder wird in den weiterfü
 
 - Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
 - Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte für die weiterführenden Module.
+
+## Bibliografie
+
+[Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
