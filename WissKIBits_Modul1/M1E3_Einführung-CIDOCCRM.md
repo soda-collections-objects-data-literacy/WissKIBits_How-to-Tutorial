@@ -119,7 +119,7 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 ![Beispiel E39 Actor](../assets/E39Actor.jpg)
 
-> **Abbildung:** Die Grafik veranschaulicht....
+> **Abbildung:** Die Abbildung veranschaulicht den Aufbau einer Klassenbeschreibung zu "Actor" in CIDOC CRM.
 
 ---
 
