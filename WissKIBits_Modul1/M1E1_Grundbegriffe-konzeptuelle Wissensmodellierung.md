@@ -64,7 +64,7 @@ Teilnehmende können...
 
 Bei der **konzeptuellen Wissensmodellierung** wird herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses Wissen konzeptuell geordnet werden kann.
 
-Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer2010encyclopcompscience, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. (Quelle)
+Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer2010encyclopcompscience, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. (Quelle - todo Gudrun)
 
 Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
 
@@ -76,7 +76,7 @@ Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der *
 
 **Semantische Modellierung** bezeichnet den konzeptuellen Prozess (engl. *conceptualization*), die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren und zu strukturieren. (Rehbein2017ontologies, S. 164) Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle)
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle - todo Gudrun)
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
