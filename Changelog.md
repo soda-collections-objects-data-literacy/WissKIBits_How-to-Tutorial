@@ -2,7 +2,10 @@
 
 24.8.2026
 
-ToDo: Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
+ToDo: 
+
+- Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
+- Zeiten nochmal harmonisieren
 
 M1E1: Zusammenfassung alt gelöscht
 
