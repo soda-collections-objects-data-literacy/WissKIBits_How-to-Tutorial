@@ -2,6 +2,49 @@
 
 24.8.2026
 
+M1E1: Lernziele ergänzt:
+- Begriff semantische Modellierung benennen. (LZ-ID SODa_03_007_0825)
+- ???Begriff semantische Modellierung erläutern.
+- ???Begriff semantisches Datenmodell benennen.
+- ???Begriff semantisches Datenmodell erläutern.
+
+- bibliografische Angabe entfernt
+  [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
+
+---
+
+M1E1 Einführungstext alt entfernt:
+
+alt:
+
+Bei der **Konzeptuellen Wissensmodellierung** wird herausgearbeitet welches Wissen innerhalb einer Domäne relevant ist und wie es konzeptuell geordnet werden kann.
+
+Eine **Domäne** bezeichnet einen Wertebereich (Fischer2010encyclopcompscience, S. 257) für den Wissen beschrieben und modelliert wird. In der **semantischen Datenmodellierung** versteht man unter Domäne den fachlichen Wissens- und Anwendungsbereich, dessen Konzepte, Ereignisse und Beziehungen erfasst und formal repräsentiert werden. (Quelle?)
+
+Zentralen Elemente der konzeptuellen Wissensmodellierung sind **Konzept, Ereignis und Beziehung**.
+
+- **Konzepte** sind abstrakte Begriffe, die die zentrale Bausteine einer Domäne bezeichnen. Beispiele sind Objekte, Personen, Orte, Institutionen.
+- **Ereignisse** sind eine strukturierte Sammlung von Abläufen, Hergängen und Prozessen die kontextbezogene informationen über Konzepte bereitstellen. Beispiele sind Herstellung, Erwerb, Fund, Restaurierung, Ausstellung oder Nutzung eines Objektes.
+- **Beziehungen** beschreiben die semantische Verknüpfung zwischen Konzepten oder zwischen Konzepten und Ereignissen. Beispiele sind Objekt "wurde hergestellt von" Person und Objekt "wurde hergestellt" bei Herstellung.
+
+Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**. 
+
+Erst wenn die relevanten Konzepte, Ereignisse, Beziehungen einer Domäne verstanden und strukturiert sind, können sie in einem semantischen Datenmodell dargestellt werden. 
+
+ALTEnde
+
+---
+
+- Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder  verschieben in E0
+--> wieder vollkommen entfernt
+
+- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825) ??? löschen oder  verschieben in E0
+--> verschoben in M1E0
+- Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza) ??? löschen oder verschieben in E0
+--> vollkommen entfernt
+
+---
+
 Einführungstext alt aus M1E1:
 
 In den Geistes- und Kulturwissenschaften, in GLAM-Institutionen und in Forschungssammlungen wird mit komplexen Objekt- und Kontextdaten gearbeitet. Diese Daten tragen historische, kulturelle und soziale Bedeutungen, etwa Informationen zu Provenienz, beteiligten Personen, Ereignissen, Beziehungen oder unterschiedlichen Interpretationen.
