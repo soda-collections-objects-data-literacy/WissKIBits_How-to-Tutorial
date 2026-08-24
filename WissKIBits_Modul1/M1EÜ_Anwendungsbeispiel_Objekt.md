@@ -52,7 +52,7 @@ Teilnehmende können...
 
 ---
 
-## Ziel und Szenario 
+## Ziel und Szenario  (Canan)
 
 Dies ist eine Praxiseinheit. In dieser Einheit wird ein Beispielobjekt aus der Domäne **Computerspiele** analysiert.
 
@@ -67,7 +67,7 @@ Am Ende können Lernende...
 
 ## Ausgangspunkt: Beispielobjekt „Zelda“
 
-Ausgehend von unserem Beispiel **„Zelda“** identifizieren wir Konzepte, die Computerspiele (und ihre Kontexte) beschreiben.
+Ausgehend von unserem Beispiel **„Zelda“** identifizieren wir Konzepte, Ereignisse und Beziehungen die Computerspiele (und ihre Kontexte) beschreiben.
 
 **Ziel ist nicht**, ein vollständiges Spielemodell zu erstellen, sondern ein **minimal konsistentes Kernmodell** als Entwurf:
 
@@ -83,7 +83,7 @@ Die Domäne ist didaktisch besonders geeignet, weil sie...
 
 - sowohl **physische** als auch **digitale** Objekte umfasst,
 - gut nachvollziehbare **Produktions- und Veröffentlichungskontexte** besitzt,
-- typische **Ereignisse** enthält (z. B. Release, Portierung, Neuauflage),
+- typische **Ereignisse** enthält (z.B. Release, Portierung, Neuauflage),
 - **Versionen/Editionen** und **Serienzugehörigkeiten** abbildbar macht,
 - klare Identifikatoren und Benennungen verwendet (Titelvarianten, Produktcodes).
 
@@ -93,8 +93,8 @@ Die Domäne ist didaktisch besonders geeignet, weil sie...
 
 Wir konzentrieren uns auf drei Bereiche:
 
-- **Spieltitel** (als Benennung / Appellation)
-- **Spielmerkmale** (characteristics / types)
+- **Spieltitel** 
+- **Spielmerkmale** (z.B. Genre, Plattform, ...)
 - **narrative Elemente** (z.B. Beschreibung, Perspektive, Figuren)
 
 ### Beispiele für Spielmerkmale
@@ -115,18 +115,19 @@ Wir konzentrieren uns auf drei Bereiche:
 
 **Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–4 Personen)  
 **Material:** Papier & Stift (oder digitales Whiteboard)  
-**Zeit:** **7 Minuten**
+**Zeit:** **xxx Minuten**
 
 **Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen**
 
 Eine einfache Struktur skizzieren, die folgende Punkte erfüllt:
 
-1. **3-5 zentrale Konzepte** (Objekt/Person/Ort/Zeit/Ereignis – nicht alle müssen vorkommen)
-2. **Diese Konzepte mit Beziehungen verbinden** („hat“, „wurde hergestellt durch“, „wurde veröffentlicht von“ …)
+1. **3-5 zentrale Konzepte und Ereignisse** (Objekt/Person/Ort/Zeit/Ereignis – nicht alle müssen vorkommen)
+    
+2. **Diese Konzepte und Ereignisse mit Beziehungen verbinden** („hat“, „wurde hergestellt durch“, „wurde veröffentlicht von“ …)
 
 Tipp: **Weniger ist mehr!**
 
-**Leitfragen können sein...**
+**Leitfragen können sein...** (achtung template !!!)
 
 | Schritt | Leitfrage | Ergebnis |
 |-------|-----------|----------|
@@ -161,6 +162,10 @@ Für den Einstieg eignen sich zentrale CIDOC CRM Klassen als „Baukasten“:
 
 Quelle: [CIDCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)  
 
+Beispiel Titel mit Appelation als Hinweis formulieren....
+
+
+
 ---
 
 ## Ergebnis: Semantisches Domänenmodell mit CIDOC CRM
@@ -169,13 +174,14 @@ Quelle: [CIDCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/f
 
 Die Mindmap dient als Übergang zu den nächsten Schritten im Tutorial:
 
-* das Modell wird als **Diagramm** klarer strukturiert,
-* anschließend wird es in **Protégé** überprüft und formaler gefasst,
-* und in Modul 2 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
+* das Modell wird als **Diagramm** klarer strukturiert, (Hausaufgabe???)
+  
+* anschließend wird in Modul 2 das Modell in **Protégé** überprüft und formaler gefasst,
+* und in Modul 3 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
   
 ---
 
-### Begründung der Modellierungsentscheidungen
+### Begründung der Modellierungsentscheidungen (ggf. vollständig in Modul 3 nachlagern!!!) 
 
 | Pfad | Bedeutung | Warum so modelliert? |
 |------|-----------|---------------------|
@@ -187,7 +193,7 @@ Die Mindmap dient als Übergang zu den nächsten Schritten im Tutorial:
 
 ---
 
-## Rolle von E41 Appellation und Datentyp-Eigenschaften in CIDOC CRM
+## Rolle von E41 Appellation und Datentyp-Eigenschaften in CIDOC CRM (ggf. in Hinweis zur Übung integrieren??))
 
 CIDOC CRM ist primär auf **Beziehungen zwischen Klassen (Entities)** ausgelegt. Deshalb werden zentrale Informationen (z.B. Titel, Namen, Identifikatoren oder Rollen) häufig nicht nur als Text erfasst, sondern als eigene modellierbare Klassen (Entities). So lassen sich Varianten, Mehrsprachigkeit, Quellenangaben und kontrollierte Vokabulare konsistent abbilden und eindeutig referenzieren.
 
