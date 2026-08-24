@@ -51,6 +51,7 @@ Teilnehmende können...
 - FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
 - das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
 - Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+- Formale Beschreibungssprache RDF ...
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
@@ -144,6 +145,8 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und ist 
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
+> **Abbildung:** Die Grafik veranschaulicht....
+
 ---
 
 ## Semantisches Modellieren auf *WissKI-Art*
@@ -173,7 +176,7 @@ Diese semantischen Bedeutungsaussagen formen einen Wissensgraphen – also ein N
 
 Grundlage dafür ist das **ereigniszentrierte Modellierungsprinzip des CIDOC CRM**: 
 
-Objekte werden nicht isoliert beschrieben, sondern über Ereignisse (z.B. Herstellung, Nutzung, Erwerb) und die daran beteiligten Akteur:innen, Orte und Zeiten in einen nachvollziehbaren Zusammenhang gesetzt.
+Objekte werden nicht isoliert beschrieben, sondern über **Ereignisse** (z.B. Herstellung, Nutzung, Erwerb) und die daran beteiligten Akteur:innen, Orte und Zeiten in einen nachvollziehbaren Zusammenhang gesetzt.
 
 Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF). Informationen werden dabei als sogenannte Tripel gespeichert:
 
