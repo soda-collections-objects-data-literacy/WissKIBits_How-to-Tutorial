@@ -177,6 +177,12 @@ WissKI nutzt CIDOC CRM, weil es …
 
 ---
 
+## Ausblick
+
+ergänzen...
+
+---
+
 ## Bibliografie
 
 [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
