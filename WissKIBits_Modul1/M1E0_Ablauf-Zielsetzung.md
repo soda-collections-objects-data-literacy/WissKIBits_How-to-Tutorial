@@ -185,6 +185,8 @@ flowchart TD
     E --> F["Vorbereitung für WissKI Pathbuilder"]
 ```
 
+> **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
+> 
 ---
 
 ## Arbeitsweise und Beispiel
