@@ -2,12 +2,12 @@
 
 24.8.2026
 
-ToDo: 
+ToDo: (Canan)
 
-- Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. (Canan)
+- Zotero aktualisieren und Referenzen und Bibliographie in den Einheiten kontrollieren. 
 - Zeiten nochmal harmonisieren
 - Abbildungsunterschriften ergänzen
-- 
+- E4 Quellen ergänzen Drupel, WissKI, Doku, Mattermost, Youtube (?)
 
 ---
 
