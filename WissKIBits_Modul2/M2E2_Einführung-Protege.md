@@ -52,41 +52,39 @@ Teilnehmende können...
 
 ---
 
-## (inhalte aktualisieren) 
-
-
----
-
 ## Live-Demo in Protégé
 
 Diese Einheit zeigt, wie auf Basis von **CIDOC CRM** eine **Domänenontologie** mit **Protégé** entwickelt wird.
 
-**Protégé** ist ein frei verfügbarer Ontologie-Editor, der hier heruntergeladen werden kann: https://protege.stanford.edu
+**Protégé** ist ein frei verfügbarer **Ontologie-Editor**, der hier heruntergeladen werden kann: https://protege.stanford.edu
+
+Alternativ ist **Protégé** auch als **Web-Editor** verfügbar: https://webprotege.stanford.edu
 
 Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenntnisse **eine Ontologie zu erstellen oder zu erweitern**.
 
 ---
 
-## Schritte im Überblick
+## Schritte im Überblick (Template abgleichen)
 
-1. **Vorhandene Ontologie laden**  
+1. **Vorhandene Ontologie laden**
+   
    z.B. **Erlangen CRM**:  
    Eine OWL-Implementierung von CIDOC CRM  
    → Download: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
-2. **Struktur erkunden**  
-   * Klassen (Entities)  
-   * Objekteigenschaften (Properties) (Relationen zwischen Entitäten)  
-   * Datentyp-Eigenschaften (nur für Literale)
+3. **Struktur erkunden**  
+   - Klassen (Entities)  
+   - Objekteigenschaften (Properties) (Relationen zwischen Entitäten)  
+   - Datentyp-Eigenschaften (nur für Literale)
 
-3. **Eigene Subklassen (Entities) anlegen**  
+4. **Eigene Subklassen (Entities) anlegen**  
    für neue Domänenkonzepte, z. B.:  
-   * Game_Characteristic
-   * Platform_Type
-   * Genre_Type
-   * Edition_Type
+   - Game_Characteristic
+   - Platform_Type
+   - Genre_Type
+   - Edition_Type
 
-4. **Speichern & Exportieren**  
+5. **Speichern & Exportieren**  
    Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI** und den **Pathbuilder** bereit.
 
 ---
