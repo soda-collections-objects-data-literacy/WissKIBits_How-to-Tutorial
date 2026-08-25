@@ -64,7 +64,7 @@ Teilnehmende können...
 
 Bei der **konzeptuellen Wissensmodellierung** wird herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses Wissen konzeptuell geordnet werden kann.
 
-Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer2010encyclopcompscience, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. (Quelle - todo Gudrun)
+Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer2010encyclop, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Datenmodellierung umfasst eine Domäne die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. (Quelle - todo Gudrun)
 
 Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
 
@@ -74,7 +74,7 @@ Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereigni
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
-**Semantische Modellierung** bezeichnet den konzeptuellen Prozess (engl. *conceptualization*), die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren und zu strukturieren. (Rehbein2017ontologies, S. 164) Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
+**Semantische Modellierung** bezeichnet den konzeptuellen Prozess (engl. *conceptualization*), die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren und zu strukturieren. (Rehbein2017ontology, S. 164) Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
 
 Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle - todo Gudrun)
 
@@ -239,8 +239,8 @@ Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt her
 
 [Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
 
-[Fischer2010encyclopcompscience] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
+[Fischer2010encyclop] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
 
-[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
+[Rehbein2017ontology] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
 
 
