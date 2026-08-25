@@ -25,6 +25,11 @@ Teilnehmende können...
 ## (inhalte aktualisieren) 
 
 
+Übung ...
+
+Aktives Arbeiten in Protege....
+
+
 
 
   
