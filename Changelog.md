@@ -8,6 +8,7 @@ ToDo: (Canan)
 - Zeiten nochmal harmonisieren
 - Abbildungsunterschriften ergänzen
 - E4 Quellen ergänzen Drupel, WissKI, Doku, Mattermost, Youtube (?)
+- Anwendungsbeispiel... publizieren?
 
 ---
 
