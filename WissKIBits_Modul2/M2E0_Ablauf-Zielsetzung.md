@@ -52,9 +52,7 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 >
 > Dieses How-to-Tutorial führt praxisorientiert in die ontologiegestützte Modellierung von Forschungsdaten ein. Ausgehend von Informationen zu einem Sammlungsobjekt wird schrittweise ein semantisch aussagekräftiges Datenmodell entwickelt und für die spätere Implementierung in WissKI vorbereitet.
 >
-> In Modul 1 **„Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären“** wurde die konzeptuelle Grundlage des Datenmodells erarbeitet. Objektdaten und Kontextinformationen wurden analysiert, relevante Konzepte, Ereignisse und Beziehungen identifiziert und erste Zuordnungen zu Klassen und Eigenschaften des Referenzmodells CIDOC CRM vorgenommen.
->
-> Modul 2 **„Modellieren mit CIDOC CRM – verstehen und anwenden“** führt diesen Lernweg fort. Das konzeptuelle Domänenmodell wird mit einer methodischen Vorgehensweise überprüft und mithilfe von CIDOC CRM und Protégé formalisiert. Dabei werden Modellierungsentscheidungen nicht nur getroffen, sondern anhand von Scope Notes fachlich begründet und in einer maschinenlesbaren Ontologiestruktur umgesetzt.
+> Modul 2 **„Modellieren mit CIDOC CRM – verstehen und anwenden“** führt den Lernweg von Modul 1 fort. Das konzeptuelle Domänenmodell wird mit einer systematisch überprüft und mithilfe von CIDOC CRM und Protégé formalisiert. Dabei werden Modellierungsentscheidungen nicht nur getroffen, sondern anhand von Scope Notes fachlich begründet und in einer maschinenlesbaren Ontologiestruktur umgesetzt.
 >
 > Das Modul folgt weiterhin dem Prinzip **Learning by Doing**. Am Beispiel aus der Domäne Computerspiele wird gezeigt, wie aus einer Modellskizze eine formale Ontologiestruktur entsteht. Die Teilnehmenden lernen Protégé als Ontologie-Editor kennen, erkunden eine OWL-Implementierung des CIDOC CRM und erweitern diese um ausgewählte domänenspezifische Konzepte.
 >
@@ -64,9 +62,9 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 
 ## Zielsetzung des Moduls
 
-In Modul 2 wird das konzeptuelle Domänenmodell aus Modul 1 methodisch überprüft und in Protégé mit CIDOC CRM formalisiert.
+In Modul 2 wird das konzeptuelle Domänenmodell aus Modul 1 in Protégé mit CIDOC CRM formalisiert.
 
-* Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen.
+* Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen. ???
 * Ein schrittweiser Workflow für die semantische Modellierung wird benannt und angewendet.
 * Protégé wird als Software zur Erstellung und Bearbeitung von Ontologien eingeführt.
 * Eine bestehende OWL-Implementierung des CIDOC CRM wird geladen und in ihrer Struktur erkundet.
@@ -85,9 +83,9 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 
 | Arbeitsschritt | Leitfrage | Ergebnis |
 |---|---|---|
-| methodisch planen | Welche Schritte und Modellierungsentscheidungen sind erforderlich? | Modellierungsworkflow |
-| formal umsetzen | Wie werden Klassen und Eigenschaften in Protégé angelegt oder wiederverwendet? | formale Ontologiestruktur |
-| fachlich prüfen | Passen die gewählten CIDOC-CRM-Elemente gemäß ihren Scope Notes zur beabsichtigten Aussage? | begründetes und konsistentes Modell |
+| Methodisch planen | Welche Schritte und Modellierungsentscheidungen sind erforderlich? | Modellierungsworkflow |
+| Formal umsetzen | Wie werden Klassen und Eigenschaften in Protégé angelegt oder wiederverwendet? | Formale Ontologiestruktur |
+| Fachlich prüfen | Passen die gewählten CIDOC-CRM-Elemente gemäß ihren Scope Notes zur beabsichtigten Aussage? | Begründetes und konsistentes Modell |
 
 ---
 
@@ -100,8 +98,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 | 0 | Willkommen, Zielsetzung und Ablauf | 8 Min. |
 | 1 | Methoden und Workflows semantischer Modellierung | 22 Min. |
 | 2 | Einführung in Protégé | 25 Min. |
-| 3 | Semantische Modellierung mit CIDOC CRM | 30 Min. |
-| E | Ergebnissicherung, Nutzendenevaluation und Abschluss | 5 Min. |
+| Ü | Semantische Modellierung mit CIDOC CRM | 30 Min. |
 |  | **Gesamt** | **90 Min.** |
 
   
@@ -128,8 +125,8 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 * Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 * Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-* Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a
-* Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx)
+* Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a  (ToDO ???)
+* Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx) (ToDO ???)
 
 
 ---
@@ -165,15 +162,19 @@ Das Ziel ist keine vollständige Domänenontologie. Entscheidend ist eine **klei
 
 ## Voraussetzungen
 
-Vorausgesetzt werden die Inhalte aus Modul 1 oder vergleichbare Grundkenntnisse. Die Teilnehmenden sollten …
+Vorausgesetzt werden die Inhalte aus Modul 1 oder vergleichbare Grundkenntnisse, wie beispielweise eine eigenes semantisches Domänenmodell mit CIDOC CRM. 
+
+Die Teilnehmenden sollten…
 
 * die Begriffe Domäne, Konzept, Ereignis und Beziehung unterscheiden können,
 * die Bausteine Klasse, Eigenschaft, Instanz und Modellannahme kennen,
 * das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
 * Scope Notes als Grundlage für Modellierungsentscheidungen kennen,
-* sowie eine erste konzeptuelle Modellskizze oder ein vergleichbares Beispiel mitbringen.
+* sowie wenigstens eine erste konzeptuelle Modellskizze im Idealfall ein CIDOC CRM basiertes semantisches Domänenmodell mitbringen.
 
-Für die praktische Anwendung wird ein Computer mit installiertem **Protégé Desktop** benötigt. Außerdem muss die im Tutorial verwendete OWL-Datei des Erlangen CRM lokal verfügbar oder über das Netz erreichbar sein.
+Für die praktische Anwendung wird ein Computer mit installiertem **Protégé Desktop** benötigt. 
+
+Außerdem muss die im Tutorial verwendete **OWL-Datei des Erlangen CRM** lokal verfügbar oder über das Netz erreichbar sein.
 
 ---
 
@@ -200,6 +201,6 @@ Im folgenden Modul wird die in Protégé erstellte beziehungsweise erweiterte On
 ## Redaktionelle Hinweise
 
 * Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Umfang der praktischen Übung angepasst werden.
-* Die genaue Version der verwendeten CIDOC-CRM-Spezifikation und der Erlangen-CRM-OWL-Datei sollte für das Tutorial verbindlich dokumentiert werden.
-* Vor der Durchführung sollte geprüft werden, ob Protégé bereits installiert sein soll oder beispielsweise WebProtoge verwendet wird.
+* Die genaue Version der verwendeten CIDOC-CRM-Spezifikation und der Erlangen-CRM-OWL-Datei sollte für das Tutorial verbindlich dokumentiert werden. (???)
+* Vor der Durchführung sollte geprüft werden, ob Protégé bereits installiert sein soll oder beispielsweise WebProtoge verwendet wird. (???)
 
