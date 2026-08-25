@@ -225,7 +225,8 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 ## Ausblick
 
-ergänzen...
+WissKI Wissenschaftliche Kommunikationsinfrastruktur
+unterstützt die semantische Erzeugung und Verwaltung von Daten indem es 
 
 
 ---
