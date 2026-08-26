@@ -74,9 +74,9 @@ Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereigni
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
-**Semantische Modellierung** bezeichnet den konzeptuellen Prozess (engl. *conceptualization*), die Begriffe, Konzepte und Beziehungen eines Wissensbereichs zu identifizieren und zu strukturieren und als Ontologie formalisiert darzustellen. (Rehbein2017ontology, S. 164, Schwenk2025sodaforumconservation, S. 23) Dieser Prozess verbindet fachwissenschaftliches Wissen mit Modellierungskompetenz (Fichtner2025paths, S. 86).
+Der **semantischen Modellierung** geht die Konzeptualisierung eines Wissensbereichs voraus. In diesem Schritt werden relevante Begriffe, Konzepte und Beziehungen identifiziert, strukturiert und in ihrer fachlichen Bedeutung bestimmt. Die anschließende **semantische Modellierung** stellt diese konzeptuelle Wissensstruktur in einem formalisierten Modell dar. (Rehbein 2017, S. 164; Schwenk 2025, S. 23). Sie erfordert somit sowohl ein Verständnis des jeweiligen Fachgebiets als auch Kompetenzen in der formalen Modellierung (Fichtner 2025, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Quelle - todo Gudrun)
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Phoenix2024datamodel, Schwenk2025sodaforumconservation, S. 21)
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
@@ -240,6 +240,8 @@ Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt her
 [Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
 
 [Fischer2010encyclop] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
+
+[Phoenix2024datamodel] PhoenixNAP. (2024). Was ist ein semantisches Datenmodell? https://phoenixnap.de/Glossar/Semantisches-Datenmodell
 
 [Rehbein2017ontology] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
 
