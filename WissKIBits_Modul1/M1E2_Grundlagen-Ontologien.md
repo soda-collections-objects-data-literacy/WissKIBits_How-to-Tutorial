@@ -91,7 +91,7 @@ Ontologien helfen dabei:
 
 Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Weller2013ontologies, S. 207)
 
-Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber, 1993, S. 200)
+Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber1993knowledge, S. 200)
 
 **Eine Ontologie legt fest,...**
 
