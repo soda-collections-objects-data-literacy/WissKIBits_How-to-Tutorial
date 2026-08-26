@@ -241,7 +241,7 @@ Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wir
 ## Redaktionelle Hinweise
 
 - Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
-- Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte für die weiterführenden Module.
+- Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte der weiterführenden Module.
 
 ## Bibliografie
 
