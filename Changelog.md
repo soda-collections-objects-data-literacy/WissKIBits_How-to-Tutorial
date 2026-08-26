@@ -1,5 +1,13 @@
 # Changelog fortlaufend
 
+26.8.2026
+
+Quelle entfernt.
+- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden (Fichtner2025paths, S. 58).
+
+Bibliografie entfernt.
+[Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
+
 24.8.2026
 
 ToDo: (Canan)
