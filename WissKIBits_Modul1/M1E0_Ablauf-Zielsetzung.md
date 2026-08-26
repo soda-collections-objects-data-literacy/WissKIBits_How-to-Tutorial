@@ -66,7 +66,7 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 
 - Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
 - Tabellen bilden einzelne Eigenschaften und Informationen ab, während die Bedeutung und Zusammenhänge der Daten häufig implizit bleiben.
-- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden (Fichtner2025paths, S. 58).
+- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden.
 
 ---
 
@@ -242,7 +242,3 @@ Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wir
 
 - Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
 - Lernziele zur **Anwendung von Scope Notes**, zur **Anwendung von Ontologien**, zur **Software Protégé**, zum vollständigen Modellierungsworkflow und zur **Erläuterung des Pathbuilders** sind Inhalte der weiterführenden Module.
-
-## Bibliografie
-
-[Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
