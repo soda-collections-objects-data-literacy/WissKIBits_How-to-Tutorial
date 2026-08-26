@@ -230,7 +230,7 @@ Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Impleme
 
 ## Ausblick
 
-In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt. 
+In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt und diese als Grundlage der semantischen Datenmodellierung präsentiert. 
 
 Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur  konzeptuelle Modellskizze der Domänenlogik. 
 
