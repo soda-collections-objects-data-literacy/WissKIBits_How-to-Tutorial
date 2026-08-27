@@ -84,7 +84,7 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 ---
 
-## Inhaltsverzeichnis des CIDOC CRM
+## Inhalte und Prinzipien des CIDOC CRM
 
 **Empfehlung:**
 
