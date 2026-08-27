@@ -68,9 +68,9 @@ Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenn
 
 **Schritt 1: Vorhandene Ontologie laden**
 
-In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet, beispielsweise das **Erlangen CRM / OWL**. Diese wird in Protégé importiert und kann anschließend um domänenspezifische Klassen, Eigenschaften und Beziehungen erweitert werden.
+In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet. Diese wird in Protégé geladen und kann anschließend um domänenspezifische Klassen, Eigenschaften und Beziehungen erweitert werden.
 
-Download: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+**Download Erlangen CRM / OWL:** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 **Schritt 2: Struktur erkunden**
 
