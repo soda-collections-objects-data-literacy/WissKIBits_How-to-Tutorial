@@ -58,6 +58,6 @@ Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die K
 
 ## Bibliografie
 
-[Gruber1993knowledge]
+[Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-[Noy2001ontology]
+[Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
