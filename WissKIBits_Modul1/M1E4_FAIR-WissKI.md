@@ -230,6 +230,17 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 ---
 
+## Informationen zu WissKI und WissKI Community (Stand: August 2026)
+
+- News, Informationen, WissKI-Dokumentation auf der WissKI Homepage: https://wiss-ki.eu/de
+- Video Einführungen zu WissKI Features: https://www.youtube.com/@wisskiproject, https://www.youtube.com/@wisski5763
+- News und Community:
+  - Mattermost: https://chat.wiss-ki.eu/wisski/channels/town-square
+  - Mastodon: @wisski@fedihum.org
+  - Facebook: https://www.facebook.com/wisskiproject/
+
+---
+
 ## Ausblick
 
 WissKI Wissenschaftliche Kommunikationsinfrastruktur
