@@ -25,11 +25,11 @@ Teilnehmende können...
 
 Die Entwicklung einer Domänenontologie folgt typischerweise einem methodischen, mehrstufigen und iterativen Vorgehen. 
 
-Dazu zählen u.a. die Erhebung zentraler Begriffe und Definitionen (sog. „ontology capture“), die Strukturierung von Konzepten in Klassen und Eigenschafen/Relationen sowie die kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit. (Gruber1993knowledge)
+Dazu zählen u.a. die Erhebung zentraler Begriffe und Definitionen (sog. „ontology capture“) (Uschold1995method, S. 3), die Strukturierung von Konzepten in Klassen und Eigenschafen/Relationen sowie die kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit. (Gruber1993knowledge)
 
 Die praktische Ontologieentwicklung wird dabei häufig als ein Prozess verstanden, der sowohl Domänenwissen als auch Anwendungsanforderungen integriert und schrittweise in eine formal nutzbare Wissensstruktur überführt.
 
-Ontologien entstehen häufig durch eine Kombination aus: (Noy2001ontology)
+Ontologien entstehen häufig durch eine Kombination aus: (Noy2001ontology, S.4ff)
 
 * **Top-down-Modellierung:** Ausgehend von einem Referenzmodell (z.B. CIDOC CRM) erfolgt eine domänenspezifische Spezialisierung.
 * **Bottom-up-Modellierung:** Aus vorhandenen Daten werden schrittweise Klassen (Entities) und Eigenschaften (Properties) abgeleitet.
@@ -61,3 +61,6 @@ Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die K
 [Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
 [Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
+
+[Uschold1995method] Uschold, M., & King, M. (1995). Towards an Methodology for Building Ontologies. Presented at Workshop on Basic Ontological Issues in Knowledge Sharing held in
+conjunction with IJCAI. The University of Edinburgh.
