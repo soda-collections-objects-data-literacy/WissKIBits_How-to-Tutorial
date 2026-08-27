@@ -108,7 +108,7 @@ Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair
 
 ## WissKI und Drupal 
 
-WissKI ist **keine eigenständige Software** sondern ein Set an Modulen, die das Content-Management-System **Drupal** semantisch erweitern.
+WissKI ist **keine eigenständige Software** sondern ein Set an Modulen, die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern (Drupalo.D.wisski).
 
 ![Drupal](../assets/drupal.JPG)
 
@@ -241,13 +241,15 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 
 ## Bibliografie
 
-[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1.https://doi.org/10.52825/cordi.v1i.353
+[Drupalo.D.wisski] Drupal.org (o. D.). WissKI. https://www.drupal.org/project/wisski
 
-[GNMo.D.stakeholders] Germanisches Nationalmuseum (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
+[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1. https://doi.org/10.52825/cordi.v1i.353
 
-[GNMo.D.research] Germanisches Nationalmuseum (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
+[GNMo.D.stakeholders] Germanisches Nationalmuseum. (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
-[GNMo.D.collections] Germanisches Nationalmuseum (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
+[GNMo.D.research] Germanisches Nationalmuseum. (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
+
+[GNMo.D.collections] Germanisches Nationalmuseum. (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
 
 [Hausenblast2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
 
@@ -259,7 +261,7 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 
 [Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
-[WissKIo.D.features] WissKI (o. D.). Features. https://wiss-ki.eu/features
+[WissKIo.D.features] WissKI. (o. D.). Features. https://wiss-ki.eu/features
 
 
 
