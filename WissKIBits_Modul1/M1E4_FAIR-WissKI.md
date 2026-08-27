@@ -79,7 +79,7 @@ Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD
 
 Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt (Hausenblast2012lod).
 
-Technologien wie [RDF](https://www.w3.org/RDF/) und die vom W3C standardisierte [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
+Technologien wie [RDF](https://www.w3.org/RDF/) (RDF2014rdf) und die vom W3C standardisierte [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (OWL2012owl) ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
 
 WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann aber auch andere Ontologien einbinden, insofern sie in einem maschinenlesbaren Format vorliegen.   
 
@@ -238,9 +238,14 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 
 [Harm2022fair] Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). *How to FAIR*. https://howtofair.dk/what-is-fair/
 
+[OWL2012owl] OWL Working Group. (2012, Dezemberg 11). OWL - Web Ontology Language (OWL). World Wide Web Consortium. https://www.w3.org/OWL/
+
+[RDF2014rdf] RDF Working Group. (2014, Februar 25). RDF - Resource Description Framework (RDF). World Wide Web Consortium. https://www.w3.org/RDF/
+
 [Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
 [WissKIo.D.features] WissKI (o. D.). Features. https://wiss-ki.eu/features
+
 
 
 
