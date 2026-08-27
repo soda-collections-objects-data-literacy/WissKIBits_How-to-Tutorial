@@ -2,6 +2,18 @@
 
 28.8.2026
 
+### Begründung der Modellierungsentscheidungen (ggf. vollständig in Modul 3 verschieben!!!) 
+
+| Pfad | Bedeutung | Warum so modelliert? |
+|------|-----------|---------------------|
+| **E73 → P102 has title → E35 Title** | Das Spiel hat einen Titel | Titel ist ein **eigenständiges Konzept**, nicht nur Text; ermöglicht Mehrsprachigkeit & Varianten |
+| **E73 → P129 is about → E89 Propositional Object** | Das Spiel hat Eigenschaften | E89 erlaubt es, Merkmalsbündel strukturiert darzustellen und auf Quellen zurückzuführen |
+| **E57 Type (Plattform) → P1 is identified by → E41 Appellation** | Plattform-Bezeichnung | Plattformen sind **kontrollierte Begriffe**, keine Freitexte |
+| **E55 Type (Genre) → P1 is identified by → E41 Appellation** | Genre-Bezeichnung | Genre ist ein **Klassifikationsbegriff**; E55 unterstützt kontrollierte Vokabulare |
+| **E99 Type (Edition) → P1 is identified by → E41 Appellation** | Edition / Version | Editionen sind **Domänenspezifika** → daher modelliert als Typen |
+
+---
+
 alter Inhalt aus M1EÜ: (wurde stark gekürzt)
 
 ## Rolle von E41 Appellation und Datentyp-Eigenschaften in CIDOC CRM (ggf. in Hinweis zur Übung integrieren??))
