@@ -102,7 +102,7 @@ Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair
 
 ![GNM innen](../assets/gnm_2.JPG)
 
->  **Abbildung:** 
+>  **Abbildung:** [Überblicksseite Sammlungen am GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNMo.D.collections)
 
 ---
 
@@ -242,6 +242,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 [GNMo.D.stakeholders] Germanisches Nationalmuseum (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
 [GNMo.D.research] Germanisches Nationalmuseum (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
+
+[GNMo.D.collections] Germanisches Nationalmuseum (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
 
 [Hausenblast2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
 
