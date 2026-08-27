@@ -40,7 +40,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Übungseinheit (M1EÜ): **Anwendungsbeispiel: Objektsammlungen**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~ 25 Min.
 
 **Lernziele:**
 
@@ -52,34 +52,46 @@ Teilnehmende können...
 
 ---
 
-## Ziel und Szenario  (Canan)
+## Ziel und Szenario
 
-Dies ist eine Praxiseinheit. In dieser Einheit wird ein Beispielobjekt aus der Domäne **Computerspiele** analysiert.
+Dies ist eine Praxiseinheit. Ausgehend von einem Beispielobjekt aus der Domäne **Computerspiele** wird eine erste konzeptionelle Modellskizze entwickelt.
 
-Am Ende können Lernende...
+Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, welche Informationen für die Beschreibung eines Sammlungsobjekts relevant sind, in dem 
 
-- zentrale **Konzepte** der Beispiel-Domäne (Computerspiele) benennen (Objekt/Person/Ort/Zeit/Ereignis),
-- diese Konzepte über **bedeutsame Beziehungen** sinnvoll verbinden,
-- und eine erste Zuordnungen der Konzepte zu **CIDOC CRM Klassen (Entities)** benennen,
-- ein erstes **konzeptionelles Datenmodell (Mindmap)** vorbereiten, das später in **Protégé** formalisiert und in **WissKI** importiert wird.
+- zentrale **Konzepte und Ereignisse** identifiziert
+- und die **Beziehungen**, die zwischen ihnen bestehen, formuliert werden.
+
+Anschließend werden ausgewählte Konzepte probeweise Klassen des **CIDOC CRM** zugeordnet. Dabei geht es nicht darum, bereits ein vollständiges oder formal korrektes CIDOC-CRM-Modell zu erstellen. Vielmehr soll sichtbar werden, dass die Überführung eines Domänenwissens in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
+
+Am Ende können die Teilnehmenden:
+
+* zentrale **Konzepte** und **Ereignisse** einer Beispieldomäne identifizieren,
+* **semantische Beziehungen** zwischen ihnen formulieren,
+* ausgewählte Konzepte möglichen **CIDOC-CRM-Klassen (Entities)** zuordnen,
+* die Zuordnungen als Modellierungsentscheidungen beschreiben,
+* ein **konzeptuelles Modell** entwerfen, die als Ausgangspunkt für die weitere Formalisierung dient.
+
+Die Modellskizze wird in den folgenden Modulen schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
 
 ---
 
 ## Ausgangspunkt: Beispielobjekt „Zelda“
 
-Ausgehend von unserem Beispiel **„Zelda“** identifizieren wir Konzepte, Ereignisse und Beziehungen die Computerspiele (und ihre Kontexte) beschreiben.
+Als Ausgangspunkt dient das Computerspiel **„The Legend of Zelda: A Link to the Past“**. 
 
-**Ziel ist nicht**, ein vollständiges Spielemodell zu erstellen, sondern ein **minimal konsistentes Kernmodell** als Entwurf:
+An diesem Beispiel wird untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können.
 
-- verständlich für Menschen,
-- anschlussfähig für semantische Modellierung (CIDOC CRM),
-- erweiterbar für spätere Umsetzung (Protégé/WissKI).
+**Ziel ist nicht**, ein vollständiges Datenmodell für Computerspiele zu entwickeln. Vielmehr entsteht eine **erste Modellskizze**, die
 
----
+- zentrale Konzepte und Ereignisse verständlich für Menschen unterscheidet,
+- ihre Beziehungen sichtbar macht und
+- als Grundlage für die anschließende Zuordnung zu **CIDOC CRM** dient.
 
-## Warum eignet sich die Domäne „Computerspiele“?
+## Warum Computerspiele?
 
-Die Domäne ist didaktisch besonders geeignet, weil sie...
+Computerspiele eignen sich als Beispieldomäne, weil an ihnen unterschiedliche Aspekte der Modellierung anschaulich werden.
+
+Die Domäne ist besonders geeignet, weil sie...
 
 - sowohl **physische** als auch **digitale** Objekte umfasst,
 - gut nachvollziehbare **Produktions- und Veröffentlichungskontexte** besitzt,
@@ -87,27 +99,27 @@ Die Domäne ist didaktisch besonders geeignet, weil sie...
 - **Versionen/Editionen** und **Serienzugehörigkeiten** abbildbar macht,
 - klare Identifikatoren und Benennungen verwendet (Titelvarianten, Produktcodes).
 
+Damit bietet die Domäne einen anschaulichen Ausgangspunkt, um unterschiedliche Perspektiven auf ein Objekt zu erkennen und daraus erste **Modellierungsentscheidungen** abzuleiten.
+
 ---
 
 ## Fokus dieser Modellierungsübung
 
-Wir konzentrieren uns auf drei Bereiche:
+Für die Modellskizze betrachten wir ausgewählte Informationen zum Beispielobjekt. Dabei konzentrieren wir uns auf drei Bereiche:
 
 - **Spieltitel** 
-- **Spielmerkmale** (z.B. Genre, Plattform, ...)
-- **narrative Elemente** (z.B. Beschreibung, Perspektive, Figuren)
+- **Spielmerkmale** (z.B. Genre, wie Action-Adventure, RPG oder Plattform, wie Nintendo 64, PlayStation, PC)
+- **narrative Elemente** (z.B. Beschreibung, Perspektive, wie First-Person, Third-Person oder Figuren wie Zelda)
 
-### Beispiele für Spielmerkmale
+Diese Bereiche dienen als Ausgangspunkt, um unterschiedliche Arten von **Konzepten und Ereignissen** zu erkennen und ihre **Beziehungen** zu formulieren.
 
-- Plattform (z.B. Nintendo 64, PlayStation, PC)
-- Genre (z.B. Action-Adventure, RPG)
-- Edition oder Version (z.B. Collector’s Edition, Remastered)
+Beispielsweise können folgende Fragen gestellt werden:
 
-### Beispiele für narrative Elemente
-
-- Perspektive (z.B. First-Person, Third-Person)
-- Spielbeschreibung
-- Charaktere / Figuren (z.B. Zelda)
+* Welchen **Titel** hat das Spiel?
+* Welchem **Genre** oder welcher **Plattform** wird es zugeordnet?
+* Welche **Personen oder Organisationen** waren beteiligt?
+* Welche **Ereignisse** sind für das Spiel relevant?
+* An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?
 
 ---
 
@@ -119,20 +131,34 @@ Wir konzentrieren uns auf drei Bereiche:
 
 **Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen**
 
-Eine einfache Struktur skizzieren, die folgende Punkte erfüllt:
+Erstellt für das Beispielobjekt „The Legend of Zelda: A Link to the Past“ eine einfache Mindmap. 
 
-1. **3-5 zentrale Konzepte und Ereignisse** (Objekt/Person/Ort/Zeit/Ereignis – nicht alle müssen vorkommen)
-    
-2. **Diese Konzepte und Ereignisse mit Beziehungen verbinden** („hat“, „wurde hergestellt durch“, „wurde veröffentlicht von“ …)
+Ziel ist es, zentrale Elemente der Domäne und ihre Zusammenhänge und die Struktur der Domäne sichtbar zu machen.
 
-Tipp: **Weniger ist mehr!**
+Geht dabei in zwei Schritten vor:
 
-**Leitfragen können sein...** (achtung template !!!)
+-**Schritt 1:** Identifiziert 3–5 zentrale Konzepte und Ereignisse aus dem Beispiel, z.B. ein Objekt, eine Person oder Organisation, einen Ort, eine Zeitangabe oder ein Ereignis. 
+Nicht alle Kategorien müssen vorkommen.
+
+-**Schritt 2:** Verbindet die identifizierten Elemente durch aussagekräftige Beziehungen, z.B. „hat“, „wurde hergestellt durch“, „wurde veröffentlicht von“. Formuliert die Beziehungen so, dass sich daraus eine verständliche Aussage ergibt.
+
+**Beispiel:**
+
+> Spiel → hat Titel → Titel
+> Nintendo → war beteiligt an → Entwicklung
+> Entwicklung → schuf → Spiel
+
+**Hinweis:**
+
+Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehungen, die für das Verständnis des Beispielobjekts besonders relevant sind.
+
+**Leitfragen können sein**
 
 | Schritt | Leitfrage | Ergebnis |
 |-------|-----------|----------|
-| 1 | Welche zentralen Konzepte und Ereignisse gibt es? | Knoten im Modell |
-| 2 | Wie hängen die Dinge zusammen? | gerichtete Beziehungen |
+| 1 | Welche zentralen Konzepte und Ereignisse gibt es? | Knoten der Modellskizze |
+| 2 | Wie hängen die Dinge zusammen? | gerichtete Beziehungen zwischen den Knoten |
+| 3 | Lassen sich die Verbindungen als verständliche Aussagen lesen? | überprüfbare Aussagen über das Objekt|
 
 ---
 
@@ -229,6 +255,8 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 ## Bibliografie
 
 [SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+
+[SIG2024cidocb] CIDOC CRM Special Interest Group. (2024). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
 
 ---
 
