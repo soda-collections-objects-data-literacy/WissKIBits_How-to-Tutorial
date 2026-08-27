@@ -64,7 +64,7 @@ Teilnehmende können...
 
 ## WissKI in Kürze
 
-**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist:
+**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist (WissKIo.D.features):
 
 - eine freie, quelloffene virtuelle Forschungsumgebung
 - entwickelt für Kulturerbe- und Forschungsdaten
@@ -75,9 +75,9 @@ Teilnehmende können...
 
 WissKI ist **nicht nur** eine Sammlungsdatenbank.
 
-Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable**. 
+Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable** (WissKIo.D.features).
 
-Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt [Hausenblast2012lod].
+Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt (Hausenblast2012lod).
 
 Technologien wie RDF und die vom W3C standardisierte **Web Ontology Language (OWL)** ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
 
@@ -89,7 +89,7 @@ So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR
 
 ## WissKI am GNM
 
-WissKI wird u. a. am **Germanischen Nationalmuseum (GNM)** in Nürnberg eingesetzt —
+WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/) in Nürnberg eingesetzt —
 
 - dem größten kulturhistorischen Museum im deutschsprachigen Raum
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
@@ -239,6 +239,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 [Harm2022fair] Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). *How to FAIR*. https://howtofair.dk/what-is-fair/
 
 [Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
+
+[WissKIo.D.features] WissKI (o. D.). Features. https://wiss-ki.eu/features
 
 
 
