@@ -245,7 +245,7 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
   - Facebook: https://www.facebook.com/wisskiproject/
     
 - **WissKI Anwender\*innentreffen:** https://wiss-ki.eu/taxonomy/term/63
->  **Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events, WissKIo.D.wat).
+>  **Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events; WissKI2026wat).
 
 ---
 
@@ -287,11 +287,11 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 
 [SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-[WissKIo.D.events] WissKI. (o. D.). Events. https://wiss-ki.eu/events
+[WissKIo.D.events] WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
 
 [WissKIo.D.features] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
-[WissKIo.D.wat] WissKI. (o. D.). WAT. https://wiss-ki.eu/taxonomy/term/63
+[WissK2026wat] WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 
 
 
