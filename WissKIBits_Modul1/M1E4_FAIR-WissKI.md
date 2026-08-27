@@ -239,7 +239,8 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
   - Mastodon: \@wisski@fedihum.org
   - Facebook: https://www.facebook.com/wisskiproject/
 
->  **WissKI Anwender\*innentreffen**
+>  **WissKI Anwender\*innentreffen**  
+> 
 >  Jährliche Zusammenkunft der WissKI-Community am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI zu finden (WissKIo.D.events).
 
 ---
