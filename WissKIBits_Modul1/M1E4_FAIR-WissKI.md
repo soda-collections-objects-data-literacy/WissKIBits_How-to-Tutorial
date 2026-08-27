@@ -235,15 +235,13 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 - **News, Informationen, WissKI-Dokumentation auf der WissKI Homepage:** https://wiss-ki.eu/de
 - **Einführungen in WissKI Features:**
   - Youtube-Channel WissKIProjekt: https://www.youtube.com/@wisskiproject
-  - Youtube-Channel WissKI 5763: https://www.youtube.com/@wisski5763
+  - Youtube-Channel WissKI: https://www.youtube.com/@wisski5763
 - **News und Community:**
   - Mattermost: https://chat.wiss-ki.eu/wisski/channels/town-square
   - Mastodon: \@wisski@fedihum.org
   - Facebook: https://www.facebook.com/wisskiproject/
-
->  **WissKI Anwender\*innentreffen**  
-> 
->  Jährliche Zusammenkunft der WissKI-Community am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI zu finden (WissKIo.D.events).
+- **WissKI Anwender\*innentreffen:** https://wiss-ki.eu/taxonomy/term/63
+Jährliche Zusammenkunft der WissKI-Community am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI zu finden (WissKIo.D.events, WissKIo.D.wat).
 
 ---
 
@@ -281,6 +279,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 [WissKIo.D.events] WissKI. (o. D.). Events. https://wiss-ki.eu/events
 
 [WissKIo.D.features] WissKI. (o. D.). Features. https://wiss-ki.eu/features
+
+[WissKIo.D.wat] WissKI. (o. D.). WAT. https://wiss-ki.eu/taxonomy/term/63
 
 
 
