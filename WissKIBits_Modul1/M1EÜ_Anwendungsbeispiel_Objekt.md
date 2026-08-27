@@ -174,10 +174,10 @@ Beispiel Titel mit Appelation als Hinweis formulieren....
 
 Die Mindmap dient als Übergang zu den nächsten Schritten im Tutorial:
 
-* das Modell wird als **Diagramm** klarer strukturiert, (Hausaufgabe???)
+- das Modell wird als **Diagramm** klarer strukturiert, (Hausaufgabe???)
   
-* anschließend wird in Modul 2 das Modell in **Protégé** überprüft und formaler gefasst,
-* und in Modul 3 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
+- anschließend wird in Modul 2 das Modell in **Protégé** überprüft und formaler gefasst,
+- und in Modul 3 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
   
 ---
 
@@ -208,13 +208,13 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 
 **Typische Datentyp-Eigenschaften sind...**
 
-* P190 has symbolic content (z.B. Zeichenkette / Textinhalt)
-* P90 has value (z. B. numerischer Wert)
+- P190 has symbolic content (z.B. Zeichenkette / Textinhalt)
+- P90 has value (z. B. numerischer Wert)
 
 **Grundprinzip**
 
-* CIDOC CRM bevorzugt semantische Identifikatoren und Beziehungen statt Freitextfelder.
-* Literale werden genutzt, wenn sie als reine Darstellung sinnvoll sind (z.B. ein Zahlenwert), während zentrale semantische Informationen (Titel, Rollen, Identifikatoren usw.) als Klassen (Entity) modelliert und idealerweise mit kontrollierten Vokabularen verknüpft werden.
+- CIDOC CRM bevorzugt semantische Identifikatoren und Beziehungen statt Freitextfelder.
+- Literale werden genutzt, wenn sie als reine Darstellung sinnvoll sind (z.B. ein Zahlenwert), während zentrale semantische Informationen (Titel, Rollen, Identifikatoren usw.) als Klassen (Entity) modelliert und idealerweise mit kontrollierten Vokabularen verknüpft werden.
 
 **Hinweis:** Der gezielte Umgang mit Datentyp-Eigenschaften, kontrollierten Vokabularen und Interoperabilität wird in späteren Einheiten weiter vertieft.
 
@@ -222,7 +222,7 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 
 ## Hausaufgabe als Vorbereitung für Modul 3
 
-
+-
 
 ---
 
