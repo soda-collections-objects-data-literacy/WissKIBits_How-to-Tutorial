@@ -31,10 +31,10 @@ Die praktische Ontologieentwicklung wird dabei häufig als ein Prozess verstande
 
 Ontologien entstehen häufig durch eine Kombination aus: (Noy2001ontology, S.4ff)
 
-* **Top-down-Modellierung:** Ausgehend von einem Referenzmodell (z.B. CIDOC CRM) erfolgt eine domänenspezifische Spezialisierung.
-* **Bottom-up-Modellierung:** Aus vorhandenen Daten werden schrittweise Klassen (Entities) und Eigenschaften (Properties) abgeleitet.
-* **Competency Questions:** Die Modellierung erfolgt aus typischen Analyse- und Forschungsfragen heraus (z.B. „Welche Spiele haben Merkmal X?“)
-* **Iteratives Prototyping:** Es wird ein Modell entworfen → überprüft → kontinuierlich mit Blick auf Konsistenz, Erweiterbarkeit und Abfragbarkeit angepasst.
+- **Top-down-Modellierung:** Ausgehend von einem Referenzmodell (z.B. CIDOC CRM) erfolgt eine domänenspezifische Spezialisierung.
+- **Bottom-up-Modellierung:** Aus vorhandenen Daten werden schrittweise Klassen (Entities) und Eigenschaften (Properties) abgeleitet.
+- **Competency Questions:** Die Modellierung erfolgt aus typischen Analyse- und Forschungsfragen heraus (z.B. „Welche Spiele haben Merkmal X?“)
+- **Iteratives Prototyping:** Es wird ein Modell entworfen → überprüft → kontinuierlich mit Blick auf Konsistenz, Erweiterbarkeit und Abfragbarkeit angepasst.
 
 ---
 
@@ -42,10 +42,10 @@ Ontologien entstehen häufig durch eine Kombination aus: (Noy2001ontology, S.4ff
 
 Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
 
-* Neue **Subklassen (Entities)** bilden
-* Neue **Eigenschaften (Properties)** definieren
-* **Reine Wiederverwendung** bestehender CIDOC CRM-Klassen (Entities) und -Eigenschaften (Properties)
-* **Kombinationen** der oben genannten Strategien
+- Neue **Subklassen (Entities)** bilden
+- Neue **Eigenschaften (Properties)** definieren
+- **Reine Wiederverwendung** bestehender CIDOC CRM-Klassen (Entities) und -Eigenschaften (Properties)
+- **Kombinationen** der oben genannten Strategien
 
 In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
 
@@ -55,6 +55,10 @@ In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohle
 Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
 
 ---
+
+## Ausblick
+
+
 
 ## Bibliografie
 
