@@ -41,7 +41,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit 2: **Grundlage von Ontologien**  
 
-**Dauer:** 10 Min.
+**Dauer:**  ~ 10 Min.
 
 **Lernziele:**
 
