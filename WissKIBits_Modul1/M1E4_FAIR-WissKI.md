@@ -154,9 +154,7 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und ist 
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Abbildung:** Die Grafik veranschaulicht 
-
----
+> **Abbildung:** Pathbuilder in WissKI mit Gruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung einer medienarchäologischen Domäne.
 
 ## Semantisches Modellieren auf *WissKI-Art*
 
