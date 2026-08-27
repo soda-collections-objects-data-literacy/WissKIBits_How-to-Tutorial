@@ -66,7 +66,7 @@ Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenn
 
 ## Schritte im Überblick
 
-1. Vorhandene Ontologie laden
+**Schritt 1: Vorhandene Ontologie laden**
 
 **Beispiel:** 
 
@@ -74,13 +74,13 @@ Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenn
 > Eine OWL-Implementierung von CIDOC CRM
 > Download: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
-2. Struktur erkunden
+**Schritt 2: Struktur erkunden**
 
    - Klassen (Entities)  
    - Objekteigenschaften (Properties) (Relationen zwischen Entitäten)  
    - Datentyp-Eigenschaften (nur für Literale)
 
-3. Eigene Subklassen (Entities) anlegen für neue Domänenkonzepte
+**Schritt 3: Eigene Subklassen (Entities) anlegen für neue Domänenkonzepte**
 
  **Beispiel:**
 
@@ -89,7 +89,7 @@ Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenn
 > - Genre_Type
 > - Edition_Type
 
-4. Speichern & Exportieren
+**Schritt 4: Speichern & Exportieren**
 
 Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI** und den **Pathbuilder** bereit.
 
