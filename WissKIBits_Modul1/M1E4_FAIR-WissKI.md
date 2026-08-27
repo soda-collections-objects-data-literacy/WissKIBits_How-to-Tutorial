@@ -154,7 +154,7 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und ist 
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung einer medienarchäologischen Domäne
+> **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele
 
 ## Semantisches Modellieren auf *WissKI-Art*
 
@@ -248,8 +248,11 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 ## Ausblick
 
-WissKI Wissenschaftliche Kommunikationsinfrastruktur
-unterstützt die semantische Erzeugung und Verwaltung von Daten indem es 
+**WissKI** bietet eine technische Umgebung, in der semantische Datenmodelle umgesetzt und für die Arbeit mit Sammlungs- und Forschungsdaten nutzbar gemacht werden können. 
+
+In der folgenden Einheit wird dieser **Modellierungsprozess anhand eines konkreten Beispiels praktisch nachvollzogen**. Ausgangspunkt ist ein **Beispielobjekt aus der Domäne Computerspiele**, das schrittweise semantisch modelliert wird. Dabei werden die bisher im Modul vorgestellten Schritte zusammengeführt: von der **konzeptuellen Wissensmodellierung** und der Entwicklung einer **Modellskizze** über die **formalisierte Darstellung** der relvanten Konzepte, Eigenschaften und Beziehungen mit **CIDOC CRM** bis hin zum daraus resultierenden **Domänenmodell** auf Grundlage des CIDOC CRM.
+
+Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt eine formale semantische Modellierung entwickelt und anschließend in einen strukturierten Modellierungsansatz überführt werden kann.
 
 
 ---
