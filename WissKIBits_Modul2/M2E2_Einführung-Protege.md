@@ -46,9 +46,9 @@ Einheit 2: **Einführung in Protege**
 
 Teilnehmende können...
 
-* Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
-* Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
-* Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 
 ---
 
@@ -68,11 +68,9 @@ Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenn
 
 **Schritt 1: Vorhandene Ontologie laden**
 
-**Beispiel:** 
+In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet, beispielsweise das **Erlangen CRM / OWL**. Diese wird in Protégé importiert und kann anschließend um domänenspezifische Klassen, Eigenschaften und Beziehungen erweitert werden.
 
-> **Erlangen CRM**:
-> Eine OWL-Implementierung von CIDOC CRM
-> Download: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+Download: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 **Schritt 2: Struktur erkunden**
 
@@ -102,6 +100,10 @@ Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI*
 <video controls>
   <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/assets/Short_Protege_Intro.mp4" type="video/mp4">
 </video>
+
+---
+
+## Ausblick
 
 
 
