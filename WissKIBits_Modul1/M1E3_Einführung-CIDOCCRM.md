@@ -67,7 +67,7 @@ Es ist **kein technischer Standard**, sondern ein **Papierdokument** ([Release V
 
 Es ist eine **formale Repräsentation** von grundlegenden Konzepten, Begriffen und ihren Beziehungen im Bereich des kulturellen Erbes.
 
-Es ist ein **theoretisches und praktisches Werkzeug** zum Strukturieren, Darstellen und Verstehen **evidenzbasierter Phänomene** aus dem Bereich des kulturellen Erbes. [SIG2026cidoc]
+Es ist ein **theoretisches und praktisches Werkzeug** zum Strukturieren, Darstellen und Verstehen **evidenzbasierter Phänomene** aus dem Bereich des kulturellen Erbes. (SIG2026cidoc)
 
 CIDOC CRM umfasst:
 
@@ -108,6 +108,7 @@ Das CIDOC CRM enthält **detaillierte Erläuterungen zu seinem Aufbau, seinen In
 | Zeit              | **E52 Time-Span**          | Zeitlicher Rahmen                          |
 
 > **Quelle:** ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))
+
 ---
 
 ## Klassenhierarchie und Scope Notes
@@ -140,13 +141,14 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 CIDOC CRM ist **ereigniszentriert**, d.h. es beschreibt nicht nur, *was etwas ist*, sondern **was mit ihm passiert**. (SIG2024cidoc, S. 33)
 
-Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädikat-Objekt**. Die Triples bilden die **Syntax-Grundlage** für formalisierte semantische Datenmodellierung und die technologische Basis, Ontologien (wie CIDOC CRM) in maschinenlesbarer Form darzustellen. Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Beschreibung von Aussagen über Ressourcen in From von Triples in WissKI. [W3C2014rdf]
+Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädikat-Objekt**. Die Triples bilden die **Syntax-Grundlage** für formalisierte semantische Datenmodellierung und die technologische Basis, Ontologien (wie CIDOC CRM) in maschinenlesbarer Form darzustellen. 
+
+Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Beschreibung von Aussagen über Ressourcen in From von Triples in WissKI. (W3C2014rdf)
 
 
 **Beispiel: Zelda-Spiel (SNES)**
 
-*Das Videospiel „The Legend of Zelda: A Link to the Past“ wurde 1991 von Nintendo in Kyoto, Japan entwickelt.*
-
+*Das Videospiel „The Legend of Zelda: A Link to the Past“ wurde 1991 von Nintendo in Kyoto, Japan entwickelt.* (Wikio.D.zelda)
 
 
 | Natürliche Aussage | CIDOC CRM-Repräsentation |
@@ -157,7 +159,6 @@ Die Aussagen über die Ressourcen haben die Form von **Triples: Subjekt-Prädika
 | Entwickler und Verleger ist Nintendo. | **E12 Production** → *carried out by* → **E74 Group (Nintendo)** |
 | Produktionsort ist Kyoto. | *took place at* → **E53 Place (Kyoto)** |
 | Veröffentlichungsjahr ist: 1991 | *has time-span* → **E52 Time-Span (1991)** |
-
 
 ---
 
@@ -192,7 +193,7 @@ WissKI nutzt CIDOC CRM, weil es …
 
 ## Ausblick
 
-CIDOC CRM ist eine ISO-zertifizierte, international entwickelte und etablierte Top-Level-Ontologie für den Bereich des kulturellen Erbes. Als formale Repräsentation grundlegender Konzepte, Eigenschaften und ihrer Beziehungen bietet CIDOC CRM ein wertvolles theoretisches und praktisches Werkzeug, um evidenzbasierte Phänomene des kulturellen Erbes zu strukturieren, darzustellen und zu verstehen. Die Ontologie ist erweiterbar und semantisch ausdifferenzierbar und damit anschlussfähig an Domänenontologien, die aus anwendungs- und projektspezifischen Kontexten der Forschungs- und Sammlungsarbeit hervorgehen. (SIG2026cidoc, Schwenk2025sodaforumconservation)
+CIDOC CRM ist eine ISO-zertifizierte, international entwickelte und etablierte Top-Level-Ontologie für den Bereich des kulturellen Erbes. Als formale Repräsentation grundlegender Konzepte, Eigenschaften und ihrer Beziehungen bietet CIDOC CRM ein wertvolles theoretisches und praktisches Werkzeug, um evidenzbasierte Phänomene des kulturellen Erbes zu strukturieren, darzustellen und zu verstehen. Die Ontologie ist erweiterbar und semantisch ausdifferenzierbar und damit anschlussfähig an Domänenontologien, die aus anwendungs- und projektspezifischen Kontexten der Forschungs- und Sammlungsarbeit hervorgehen. (SIG2024cidoc; Schwenk2025conservation)
 
 In der nächsten Einheit wird die Wissenschaftliche Kommunikationsinfrastruktur WissKI vorgestellt. WissKI wurde speziell für die semantische Erzeugung und Verwaltung von Daten im Kulturerbebereich entwickelt. Die Infrastruktur ist ontologieagnostisch, bietet jedoch eine besondere Unterstützung für die Arbeit mit CIDOC CRM (WissKIo.D.features). 
 
@@ -203,15 +204,15 @@ In der nächsten Einheit wird die Wissenschaftliche Kommunikationsinfrastruktur 
 
 [SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-[SIG2026cidoc] CIDOC CRM Special Interest Group (o.J.). What is CIDOC CRM? https://cidoc-crm.org/
-
 [Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
-[Schwenk2025sodaforumconservation] Schwenk , G. A. & Fischer, K. (2025). SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. Zenodo. https://doi.org/10.5281/zenodo.15481743
+[Schwenk2025conservation] Schwenk , G. A. & Fischer, K. (2025). SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. https://doi.org/10.5281/zenodo.15481743
+
+[Wiki2026zelda] Wikipedia (2026) The Legend of Zelda: A Link to the Past. https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
 
 [WissKIo.D.features] WissKI (o. D.). Features. https://wiss-ki.eu/features
 
-[W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts/
+[W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts
 
 
 
