@@ -79,7 +79,7 @@ Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD
 
 Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt (Hausenblast2012lod).
 
-Technologien wie RDF und die vom W3C standardisierte **Web Ontology Language (OWL)** ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
+Technologien wie [RDF](https://www.w3.org/RDF/) und die vom W3C standardisierte [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
 
 WissKI verwendet in der technischen Implementierung die **CIDOC CRM OWL-Ontologie ([Erlangen CRM](https://erlangen-crm.org))** als Grundlage, kann aber auch andere Ontologien einbinden, insofern sie in einem maschinenlesbaren Format vorliegen.   
 
@@ -94,7 +94,7 @@ WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/
 - dem größten kulturhistorischen Museum im deutschsprachigen Raum
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
-Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) [Harm2022fair] erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. [Reichert2025soda] 
+Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
 
 ![GNM](../assets/gnm.jpg)
 ![GNM innen](../assets/gnm_2.JPG)
