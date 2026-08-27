@@ -1,5 +1,35 @@
 # Changelog fortlaufend
 
+28.8.2026
+
+alter Inhalt aus M1EÜ: (wurde stark gekürzt)
+
+## Rolle von E41 Appellation und Datentyp-Eigenschaften in CIDOC CRM (ggf. in Hinweis zur Übung integrieren??))
+
+CIDOC CRM ist primär auf **Beziehungen zwischen Klassen (Entities)** ausgelegt. Deshalb werden zentrale Informationen (z.B. Titel, Namen, Identifikatoren oder Rollen) häufig nicht nur als Text erfasst, sondern als eigene modellierbare Klassen (Entities). So lassen sich Varianten, Mehrsprachigkeit, Quellenangaben und kontrollierte Vokabulare konsistent abbilden und eindeutig referenzieren.
+
+Zentral hierfür ist **E41 Appellation**:
+
+| Konzept                 | Erklärung                                                                                                                                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **E41 Appellation**     | Namen, Benennungen und Bezeichnungen sind **eigenständige Klassen (Entities)**, nicht nur Textstrings. Das ermöglicht z.B. **Mehrsprachigkeit**, **Titelvarianten**, **persistente IDs** und **Quellenangaben**. |
+| **P1 is identified by** | Verknüpft eine Klasse (Entity) (z.B. ein Spiel, eine Person, eine Plattform) mit seiner **Benennung** und unterstützt damit **Klarheit und Interoperabilität**.                                              |
+
+Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahlen oder Zeichenketten) nur sparsam und vor allem dann, wenn der Wert nicht als eigenständige Klasse (Entity) modelliert werden muss.
+
+**Typische Datentyp-Eigenschaften sind...**
+
+- P190 has symbolic content (z.B. Zeichenkette / Textinhalt)
+- P90 has value (z. B. numerischer Wert)
+
+**Grundprinzip**
+
+- CIDOC CRM bevorzugt semantische Identifikatoren und Beziehungen statt Freitextfelder.
+- Literale werden genutzt, wenn sie als reine Darstellung sinnvoll sind (z.B. ein Zahlenwert), während zentrale semantische Informationen (Titel, Rollen, Identifikatoren usw.) als Klassen (Entity) modelliert und idealerweise mit kontrollierten Vokabularen verknüpft werden.
+
+**Hinweis:** Der gezielte Umgang mit Datentyp-Eigenschaften, kontrollierten Vokabularen und Interoperabilität wird in späteren Einheiten weiter vertieft.
+
+
 26.8.2026
 
 Quelle entfernt.
