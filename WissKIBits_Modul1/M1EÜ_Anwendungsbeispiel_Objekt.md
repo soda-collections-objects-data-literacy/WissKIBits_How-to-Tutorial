@@ -218,6 +218,17 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 
 **Hinweis:** Der gezielte Umgang mit Datentyp-Eigenschaften, kontrollierten Vokabularen und Interoperabilität wird in späteren Einheiten weiter vertieft.
 
-GGF Hausaufgabe zum Fertigstellen vor Modul 3 !!!
+---
 
+## Hausaufgabe als Vorbereitung für Modul 3
+
+
+
+---
+
+## Bibliografie
+
+[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+
+---
 
