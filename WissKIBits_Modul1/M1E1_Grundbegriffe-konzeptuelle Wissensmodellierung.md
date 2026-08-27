@@ -41,7 +41,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**  
 
-**Dauer:** ca. XX Min.
+**Dauer:** ca. 15 Min.
 
 **Lernziele:**
 
@@ -74,9 +74,9 @@ Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereigni
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
-Der **semantischen Modellierung** geht die Konzeptualisierung eines Wissensbereichs voraus. In diesem Schritt werden relevante Begriffe, Konzepte und Beziehungen identifiziert, strukturiert und in ihrer fachlichen Bedeutung bestimmt. Die anschließende **semantische Modellierung** stellt diese konzeptuelle Wissensstruktur in einem formalisierten Modell dar (Rehbein2017ontology, S. 164, Schwenk2025sodaforumconservation, S. 23). Sie erfordert somit sowohl ein Verständnis des jeweiligen Fachgebiets als auch Kompetenzen in der formalen Modellierung (Fichtner2025paths, S. 86).
+Der **semantischen Modellierung** geht die Konzeptualisierung eines Wissensbereichs voraus. In diesem Schritt werden relevante Begriffe, Konzepte und Beziehungen identifiziert, strukturiert und in ihrer fachlichen Bedeutung bestimmt. Die anschließende **semantische Modellierung** stellt diese konzeptuelle Wissensstruktur in einem formalisierten Modell dar (Rehbein2017ontology, S. 164; Schwenk2025conservation, S. 23). Sie erfordert somit sowohl ein Verständnis des jeweiligen Fachgebiets als auch Kompetenzen in der formalen Modellierung (Fichtner2025paths, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Phoenix2024datamodel, Schwenk2025sodaforumconservation, S. 21) Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben. (Fichtner2025paths, S. 58)
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Spasojevic2025glossary; Schwenk2025conservation, S. 21) Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben. (Fichtner2025paths, S. 58)
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
@@ -101,73 +101,57 @@ flowchart TD
 
 ### Aufgabe
 
-Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung.
+Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung. 
 
-**1. Relevante Informationen auswählen:** 
+Ziel ist es, aus Informationen über dieses Objekt **Konzepte, Ereignisse und deren Beziehungen** abzuleiten.
 
-- Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können.
 
-- Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen.
+#### Schritt 1: Informationen auswählen
 
-- Untersucht anschließend eure Aussagen.
+Wählt ein oder zwei Informationen aus, die für das Verständnis des Objekts relevant sind, und formuliert daraus zwei kurze Aussagen.
 
-> **Prüft eure Auswahl:**
-> - Welche Information ist für das Verständnis des Objekts unverzichtbar?
-> - Welche Information beschreibt nur ein Merkmal des Objekts?
-> - Welche Information stellt das Objekt in einen größeren Zusammenhang?
-> - Lassen sich beteiligte Personen, Orte und Zeiten erkennen?
-> - Bleiben wichtige Zusammenhänge noch unausgesprochen?
+**Beispiel:**
 
-**2. Konzepte und Ereignis identifizieren:**
+> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt.
+> Es wurde 1991 in Japan veröffentlicht.
 
-- Ordnet die gefundenen Informationen auf dem [Board](https://miro.com/app/board/uXjVGKauOtE=/) oder auf Papier den folgenden drei Kategorien zu.
 
-- Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
+**Prüft eure Aussagen:**
 
-- Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
+> - Welche Informationen sind für das Verständnis des Objekts zentral? 
+> - Welche beschreiben lediglich ein Merkmal?
+> - Welche stellen das Objekt in einen größeren Zusammenhang?
+> - Welche Personen, Organisationen, Orte und Zeiten kommen vor?
+> - Welche Zusammenhänge bleiben unausgesprochen?
 
-- In welchen semantischen Zusammenhängen (**Beziehungen**) stehen die Konzepte und Ereignisse?
 
-> **Erinnerungshilfe**
-> 1. **Konzepte:** Welche zentralen Bausteine lassen sich identifizieren?
-> 2. **Ereignisse:** Welche Geschehnisse oder Prozesse lassen sich identifizieren?
-> 3. **Beziehungen:** Wie sind die Konzepte und Konzepte oder Konzepte und Ereignisse miteinander verbunden?
+#### Schritt 2: Konzepte und Ereignis identifizieren
 
-**3. Beziehungen formulieren:** 
+Bestimmt anhand eurer Aussagen:
 
-- Stellt die semantischen Zusammenhänge in tabellarischer Form dar.
+- zwei **Konzepte**, die sich sinnvoll miteinander in Beziehung setzen lassen;
+- ein **Ereignis**, das mit mindestens einem **Konzept** verbunden ist.
 
-| Konzept | Konzept | Beziehung |
-|---|---|---|
-| Konzept 1  | Konzept 2  | Konzept 1 hat spezifische Beziehung zu Konzept 2 |
+**Hinweis**
 
-| Konzept | Ereignis| Beziehung |
-|---|---|---|
-| Konzept 1  | Ereignis 1 | Konzept 1 hat spezifische Beziehung zu Ereignis 1 |
+> 1. **Konzepte** bezeichnen beispielsweise Objekte, Personen, Organisationen, Orte oder andere zentrale Bausteine der Domäne.
+> 2. **Ereignisse** bezeichnen Geschehnisse oder Prozesse, beispielsweise eine Entwicklung, Herstellung, Veröffentlichung oder Ausstellung.
+> 3. **Beziehungen** verbinden Konzepte und Konzepte oder Konzepte und Ereignisse miteinander.
 
----
 
-**Hinweis:**
+**Beispiel:**
 
-**1. Relevante Informationen auswählen:** Überlegt, welche Informationen über das Objekt interessant bzw. relevant sein können:
+> Konzepte: Spiel, Nintendo
+> Ereignis: Entwicklung
 
-> z. B. das Objekt ist ein Spiel, Titel des Spiels, Entwickler des Spiels, Entwicklungszeit des Spiels, Veröffentlichungsort des Spiels, Veröffentlichungszeitpunkt des Spiels uvm.
 
-Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu zwei kurze Aussagen:
+#### Schritt 3: Beziehungen formulieren
 
-> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt und 1991 in Japan veröffentlicht.
+Beschreibt nun, wie die identifizierten Konzepte und Ereignisse miteinander verbunden sind. 
 
-**2. Konzepte und Ereignis identifizieren:** Untersucht anschließend eure Aussagen:
+Formuliert die Beziehungen als kurze Aussagen.
 
-- Welche **zwei Konzepte** sind im Kontext des Objekts relevant und lassen sich sinnvoll miteinander verknüpfen?
-
-> Spiel, Titel
-
-- Welches **Ereignis** steht in einem sinnvollen Zusammenhang mit einem dieser Konzepte?
-
-> Veröffentlichung
-
-**3. Beziehungen identifizieren:**
+**Beispiel:**
 
 | Konzept | Konzept | Beziehung |
 |---|---|---|
@@ -184,29 +168,18 @@ Wählt daraus ein oder zwei beispielhafte Informationen aus und formuliert dazu 
 
 ## Ergebnis
 
-Am Ende liegt eine erste konzeptuelle Ordnung eines Wissensbereichs, einer Domäne, vor:
+Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wissensbereichs: 
 
 - relevante Konzepte wurden benannt,
 - Ereignisse wurden identifiziert,
-- Beziehungen wurden als Aussagen formuliert.
-
-### Musterbeispiel in Tabellenform
-
-| Konzept  | Ereignis         | Beziehung                                                      |
-| -------- | ---------------- | -------------------------------------------------------------- |
-| Spiel    | Entwicklung      | Das Spiel wurde durch die Entwicklung geschaffen.              |
-| Nintendo | Entwicklung      | Nintendo führte die Entwicklung durch.                         |
-| Spiel    | Veröffentlichung | Das Spiel wurde im Rahmen der Veröffentlichung veröffentlicht. |
-| Japan    | Veröffentlichung | Die Veröffentlichung fand in Japan statt.                      |
-| 1991     | Veröffentlichung | Die Veröffentlichung fand 1991 statt.                          |
+- Beziehungen zwischen wurden formuliert.
 
 
 ### Musterbeispiel als Grafik
 
 ![Konzept-Mindmap](../assets/KonzeptEreignisBeziehung.png)
 
-> **Abbildung:** Die Grafik veranschaulicht ....
-
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“.
 
 ---
 
@@ -231,7 +204,6 @@ Damit können Forschungsfragen an Sammlungen gestellt und beantwortet werden, wi
 
 Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses strukturell geordnet werden kann. Um diese gedankliche oder konzeptuelle Ordnung nun in einem formalen, maschinenlesbaren System darzustellen, werden Ontologien herangezogen. In Einheit 2 werden die allgemeinen Grundlagen von Ontologien vorgestellt.
 
-
 ---
 
 ## Bibliografie
@@ -241,11 +213,11 @@ Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt her
 
 [Fischer2010encyclop] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
 
-[Phoenix2024datamodel] PhoenixNAP. (2024). Was ist ein semantisches Datenmodell? https://phoenixnap.de/Glossar/Semantisches-Datenmodell
+[Spasojevic2025glossary] Spasojević, A. (2024). Was ist ein semantisches Datenmodell? phoenixNAP IT Glossary. https://phoenixnap.de/Glossar/Semantisches-Datenmodell
 
 [Rehbein2017ontology] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11
 
-[Schwenk2025sodaforumconservation] Schwenk , G. A. & Fischer, K. (2025), SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. Zenodo. https://doi.org/10.5281/zenodo.15481743
+[Schwenk2025conservation] Schwenk , G. A. & Fischer, K. (2025), SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. https://doi.org/10.5281/zenodo.15481743
 
 
 
