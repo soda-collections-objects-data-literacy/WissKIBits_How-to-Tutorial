@@ -95,6 +95,7 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 | Ort               | **E53 Place**              | Räumlicher Kontext                         |
 | Zeit              | **E52 Time-Span**          | Zeitlicher Rahmen                          |
 
+> **Quelle:** ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))
 ---
 
 ## Klassenhierarchie und Scope Notes
