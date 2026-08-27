@@ -226,34 +226,34 @@ Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Ei
 
 ---
 
-## Ergebnis: Semantisches Domänenmodell mit CIDOC CRM
+## Vom Domänenmodell zur CIDOC-CRM-Modellierung
+
+Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen und Eigenschaften des CIDOC CRM weiter formalisiert werden.
+
+Die folgende Abbildung zeigt beispielhaft, wie aus einer solchen Modellskizze ein stärker formalisiertes semantisches Modell entstehen kann:
 
 ![Konzept-Mindmap](../assets/Mindmap.png)
 
-Die Mindmap dient als Übergang zu den nächsten Schritten im Tutorial:
+Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schrittweise CIDOC-CRM-Klassen und -Eigenschaften. Die Abbildung ist daher nicht als einzig mögliche Lösung zu verstehen, sondern als Modellierungsvorschlag, der überprüft und weiterentwickelt werden kann.
 
-- das Modell wird als **Diagramm** klarer strukturiert, (Hausaufgabe???)
+**Hinweis:** 
+
+> Semantische Modellierung bedeutet nicht nur, passende Klassen zu finden.
+> Modellierungsentscheidungen machen explizit, welche Bedeutung wir einem Begriff geben und welche Zusammenhänge unsere Daten ausdrücken sollen.
+
+---
+
+## Ausblick / Hausaufgabe als Vorbereitung für Modul 3
+
+Die Modellskizze dient als Übergang zu den nächsten Schritten im Tutorial:
+
+- das Modell wird als **Diagramm** klarer strukturiert, 
   
 - anschließend wird in Modul 2 das Modell in **Protégé** überprüft und formaler gefasst,
 - und in Modul 3 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
+
+- ---> Hausaufgabe ?
   
----
-
-### Begründung der Modellierungsentscheidungen (ggf. vollständig in Modul 3 nachlagern!!!) 
-
-| Pfad | Bedeutung | Warum so modelliert? |
-|------|-----------|---------------------|
-| **E73 → P102 has title → E35 Title** | Das Spiel hat einen Titel | Titel ist ein **eigenständiges Konzept**, nicht nur Text; ermöglicht Mehrsprachigkeit & Varianten |
-| **E73 → P129 is about → E89 Propositional Object** | Das Spiel hat Eigenschaften | E89 erlaubt es, Merkmalsbündel strukturiert darzustellen und auf Quellen zurückzuführen |
-| **E57 Type (Plattform) → P1 is identified by → E41 Appellation** | Plattform-Bezeichnung | Plattformen sind **kontrollierte Begriffe**, keine Freitexte |
-| **E55 Type (Genre) → P1 is identified by → E41 Appellation** | Genre-Bezeichnung | Genre ist ein **Klassifikationsbegriff**; E55 unterstützt kontrollierte Vokabulare |
-| **E99 Type (Edition) → P1 is identified by → E41 Appellation** | Edition / Version | Editionen sind **Domänenspezifika** → daher modelliert als Typen |
-
-
----
-
-## Hausaufgabe als Vorbereitung für Modul 3
-
 ---
 
 ## Bibliografie
