@@ -97,7 +97,12 @@ WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
 
 ![GNM](../assets/gnm.jpg)
+
+>  **Abbildung:** [Überblicksseite der Forschungsprojekte Archiv am GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) (GNMo.D.research)
+
 ![GNM innen](../assets/gnm_2.JPG)
+
+>  **Abbildung:** 
 
 ---
 
@@ -235,6 +240,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 ## Bibliografie
 
 [GNMo.D.stakeholders] Germanisches Nationalmuseum (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
+
+[GNMo.D.research] Germanisches Nationalmuseum (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
 
 [Hausenblast2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
 
