@@ -127,7 +127,7 @@ Beispielsweise können folgende Fragen gestellt werden:
 
 **Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–4 Personen)  
 **Material:** Papier & Stift (oder digitales Whiteboard)  
-**Zeit:** **xxx Minuten**
+**Zeit:** 15 Minuten
 
 **Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen**
 
@@ -164,9 +164,9 @@ Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehunge
 
 ---
 
-## Orientierung mit CIDOC CRM  """ab hier"""
+## Orientierung mit CIDOC CRM 
 
-**Aufgabe: CIDOC CRM sichten**
+**Aufgabe: Erste Zuordnung zu CIDOC CRM**
 
 CIDOC CRM sichten und für zwei Konzepte jeweils mindestens eine passende Klasse (Entity) heraussuchen.
 
