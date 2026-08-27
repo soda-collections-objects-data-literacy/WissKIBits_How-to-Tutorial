@@ -265,7 +265,7 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 
 [Drupal2024core] Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
 
-[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. Proceedings of the Conference on Research Data Infrastructure , 1. https://doi.org/10.52825/cordi.v1i.353
+[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure* , 1. https://doi.org/10.52825/cordi.v1i.353
 
 [GNMo.D.stakeholders] Germanisches Nationalmuseum (GNM) (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
