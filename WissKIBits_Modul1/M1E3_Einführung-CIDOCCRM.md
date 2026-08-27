@@ -128,6 +128,8 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 ![CIDOC CRM Table of Contents](../assets/M1E3_CIDOC_TableofContents.png)
 
+> **Abbildung:** Die Abbildung zeigt das Inhaltsverzeichnis des CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))
+
 ## Bedeutung ausdrücken mit CIDOC CRM
 
 CIDOC CRM ist **ereigniszentriert**, d.h. es beschreibt nicht nur, *was etwas ist*, sondern **was mit ihm passiert**.
