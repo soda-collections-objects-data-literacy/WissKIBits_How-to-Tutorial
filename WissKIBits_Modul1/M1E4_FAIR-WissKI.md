@@ -154,7 +154,7 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und ist 
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Abbildung:** Die Grafik veranschaulicht....
+> **Abbildung:** Die Grafik veranschaulicht 
 
 ---
 
