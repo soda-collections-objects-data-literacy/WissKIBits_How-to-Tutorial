@@ -145,7 +145,9 @@ Nicht alle Kategorien müssen vorkommen.
 **Beispiel:**
 
 > Spiel → hat Titel → Titel
+
 > Nintendo → war beteiligt an → Entwicklung
+
 > Entwicklung → schuf → Spiel
 
 **Hinweis:**
