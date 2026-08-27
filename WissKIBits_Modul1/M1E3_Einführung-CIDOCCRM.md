@@ -84,6 +84,16 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 ---
 
+## Inhaltsverzeichnis des CIDOC CRM
+
+![CIDOC CRM Table of Contents](../assets/M1E3_CIDOC_TableofContents.png)
+
+> **Abbildung:** Die Abbildung zeigt das Inhaltsverzeichnis des CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))
+
+Das CIDOC CRM enthält detaillierte Erläuterungen zu seinem Aufbau, seinen Inhalten, Modellierungsprinzipien und konzeptionellen Grundlagen. Für eine fundierte Anwendung des CIDOC CRM als theoretisches und praktisches Werkzeug der semantischen Modellierung wird empfohlen, sich vor der praktischen Nutzung mit diesen Grundlagen und der Struktur des Modells vertraut zu machen.
+
+---
+
 ## Zentrale Konzepte in CIDOC CRM
 
 | Konzept          | Beispielklasse (Entity)             | Bedeutung                                |
@@ -123,12 +133,6 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 > **Abbildung:** Die Abbildung veranschaulicht den Aufbau einer Klassenbeschreibung anhand "E39 Actor" in CIDOC CRM. (SIG2024cidoc, S. 83)
 
 ---
-
-## 
-
-![CIDOC CRM Table of Contents](../assets/M1E3_CIDOC_TableofContents.png)
-
-> **Abbildung:** Die Abbildung zeigt das Inhaltsverzeichnis des CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))
 
 ## Bedeutung ausdrücken mit CIDOC CRM
 
