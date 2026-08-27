@@ -90,6 +90,8 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 > **Abbildung:** Die Abbildung zeigt einen Ausschnitt des Inhaltsverzeichnises des CIDOC CRM: [Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, S. 3)
 
+**Empfehlung:**
+
 Das CIDOC CRM enthält detaillierte Erläuterungen zu seinem Aufbau, seinen Inhalten, Modellierungsprinzipien und konzeptionellen Grundlagen. Für eine fundierte Anwendung des CIDOC CRM als theoretisches und praktisches Werkzeug der semantischen Modellierung wird empfohlen, sich vor der praktischen Nutzung mit diesen Grundlagen und der Struktur des Modells vertraut zu machen.
 
 ---
