@@ -91,7 +91,7 @@ So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR
 
 WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/) in Nürnberg eingesetzt —
 
-- dem größten kulturhistorischen Museum im deutschsprachigen Raum
+- dem größten kulturhistorischen Museum im deutschsprachigen Raum (GNMo.D.stakeholders)
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
@@ -233,6 +233,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 
 
 ## Bibliografie
+
+[GNMo.D.stakeholders] Germanisches Nationalmuseum (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
 [Hausenblast2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
 
