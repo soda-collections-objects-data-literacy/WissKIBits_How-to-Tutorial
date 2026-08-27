@@ -88,7 +88,7 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 ![CIDOC CRM Table of Contents](../assets/M1E3_CIDOC_TableofContents.png)
 
-> **Abbildung:** Die Abbildung zeigt einen Ausschnitt des Inhaltsverzeichnises des CIDOC CRM: [Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, S. 3)
+>  **Abbildung:** Die Abbildung zeigt einen Ausschnitt des Inhaltsverzeichnises des CIDOC CRM: [Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, S. 3)
 
 **Empfehlung:**
 
