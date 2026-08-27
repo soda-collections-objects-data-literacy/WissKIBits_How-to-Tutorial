@@ -123,13 +123,13 @@ Beispielsweise können folgende Fragen gestellt werden:
 
 ---
 
-## Übung – Modellskizze 
+## Übung – Modellskizze und erste Orientierung mit CIDOC CRM
 
 **Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–4 Personen)  
 **Material:** Papier & Stift (oder digitales Whiteboard)  
-**Zeit:** 15 Minuten
+**Zeit:** 20 Minuten
 
-**Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen**
+### Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen
 
 Erstellt für das Beispielobjekt „The Legend of Zelda: A Link to the Past“ eine einfache Mindmap. 
 
@@ -164,35 +164,65 @@ Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehunge
 
 ---
 
-## Orientierung mit CIDOC CRM 
+### Aufgabe: Erste Zuordnung zu CIDOC CRM
 
-**Aufgabe: Erste Zuordnung zu CIDOC CRM**
+Schaut euch eure Modellskizze noch einmal an und wählt **zwei Begriffe** daraus aus, z. B. Spiel, Person, Organisation, Titel oder Genre.
 
-CIDOC CRM sichten und für zwei Konzepte jeweils mindestens eine passende Klasse (Entity) heraussuchen.
+Sucht für jeden Begriff nach einer **CIDOC CRM Klasse**, die zu Bedeutung der Begriffe passen könnte.
 
-1. **2 Begriffe aus eurer Skizze** (z.B. Spiel, Publisher, Release)
-2. mögliche **CIDOC CRM-Klasse** grob zuordnen.
+Begründet kurz eure Klassenauswahl.
 
-Für den Einstieg eignen sich zentrale CIDOC CRM Klassen als „Baukasten“:
+**Hinweis:**
 
-**Mini-Demo: CIDOC CRM in Kürze** 
+> Es geht noch nicht darum, eine vollständige oder endgültige CIDOC-CRM-Modellierung zu erstellen.
+> Entscheidend ist zunächst die Frage: Was meinen wir mit unserem Begriff – und welche Klasse beschreibt diese Bedeutung möglichst passend?
+
+**Mini-Demo: CIDOC CRM als Baukasten** 
+
+Für den Einstieg können beispielsweise folgende Klassen hilfreich sein:
 
 | CIDOC CRM Klasse | Bedeutung im Beispiel |
 |------------------|-----------------------|
-| **E28 Conceptual Object** | Spiel als Konzept / Inhalt |
-| **E22 Human-Made Object** | physische Kopie (Cartridge, Disc, Box …) |
-| **E21 Person** | Mitwirkende (z. B. Designer:in) |
-| **E74 Group** | Studio / Publisher / Team |
+| **E73 Information Object** | Spiel als identifizierbarer Informationsinhalt |
+| **E22 Human-Made Object** | physische Kopie (Cartridge, Disc, Box…) |
+| **E21 Person** | Beteiligte Person / Mitwirkende (Designer:in, Musikeer:in) |
+| **E74 Group** | Organisation oder Gruppe (Entwicklerstudio, Publisher, Team) |
 | **E12 Production** | Herstellung / (ggf. Veröffentlichung als Ereignis) |
 | **E42 Identifier** | Identifikatoren (Inventarnummern, Produktcodes …) |
-| **E35 Title** | Titel als eigene Entität |
+| **E35 Title** | Titel des Objektes als eigene Entität |
+| **E42 Appelation** | Benennung, durch die etwas identifiziert oder bezeichnet wird |
 | **E55 Type** | kontrollierte Merkmale (z. B. Genre, Plattform) |
 
-Quelle: [CIDCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)  
+Der [CIDOC CRM Navigator Version 7.1.3 ](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) ermöglicht die interaktive Erkundung von 81 Klassen und 160 Eigenschaften, inklusive Übersetzungen. 
 
-Beispiel Titel mit Appelation als Hinweis formulieren....
+**Beispiel: Von der Benennung zur Appellation**
 
+In unserer ersten Modellskizze können wir zunächst einfach formulieren:
 
+> Spiel → hat eine Benennung → „The Legend of Zelda: A Link to the Past“
+
+CIDOC CRM ermöglicht es, eine solche Benennung genauer zu modellieren. E41 Appellation bezeichnet eine Benennung, mit der eine Instanz einer CRM-Klasse identifiziert oder bezeichnet werden kann.
+
+Für Titel gibt es mit E35 Title eine speziellere Klasse: E35 Title ist eine Unterklasse von E41 Appellation. Ein Titel ist damit eine besondere Form einer Appellation.
+
+Vereinfacht können wir unterscheiden:
+
+E41 Appellation
+→ allgemeine Benennung
+
+E35 Title
+→ besondere Form einer Appellation: ein Titel
+
+E42 Identifier
+→ besondere Form einer Appellation: ein Identifikator
+
+Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CIDOC CRM nicht dasselbe, stehen aber in einem gemeinsamen konzeptionellen Zusammenhang.
+
+Merksatz: 
+
+> Bevor wir einen Wert einfach als Text erfassen, fragen wir: Hat diese Benennung in unserem Modell selbst eine Bedeutung, die wir näher beschreiben oder unterscheiden möchten?
+
+Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Eigenschaften wird in einer späteren Einheit weiter vertieft.
 
 ---
 
@@ -219,38 +249,10 @@ Die Mindmap dient als Übergang zu den nächsten Schritten im Tutorial:
 | **E55 Type (Genre) → P1 is identified by → E41 Appellation** | Genre-Bezeichnung | Genre ist ein **Klassifikationsbegriff**; E55 unterstützt kontrollierte Vokabulare |
 | **E99 Type (Edition) → P1 is identified by → E41 Appellation** | Edition / Version | Editionen sind **Domänenspezifika** → daher modelliert als Typen |
 
----
-
-## Rolle von E41 Appellation und Datentyp-Eigenschaften in CIDOC CRM (ggf. in Hinweis zur Übung integrieren??))
-
-CIDOC CRM ist primär auf **Beziehungen zwischen Klassen (Entities)** ausgelegt. Deshalb werden zentrale Informationen (z.B. Titel, Namen, Identifikatoren oder Rollen) häufig nicht nur als Text erfasst, sondern als eigene modellierbare Klassen (Entities). So lassen sich Varianten, Mehrsprachigkeit, Quellenangaben und kontrollierte Vokabulare konsistent abbilden und eindeutig referenzieren.
-
-Zentral hierfür ist **E41 Appellation**:
-
-| Konzept                 | Erklärung                                                                                                                                                                                            |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **E41 Appellation**     | Namen, Benennungen und Bezeichnungen sind **eigenständige Klassen (Entities)**, nicht nur Textstrings. Das ermöglicht z.B. **Mehrsprachigkeit**, **Titelvarianten**, **persistente IDs** und **Quellenangaben**. |
-| **P1 is identified by** | Verknüpft eine Klasse (Entity) (z.B. ein Spiel, eine Person, eine Plattform) mit seiner **Benennung** und unterstützt damit **Klarheit und Interoperabilität**.                                              |
-
-Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahlen oder Zeichenketten) nur sparsam und vor allem dann, wenn der Wert nicht als eigenständige Klasse (Entity) modelliert werden muss.
-
-**Typische Datentyp-Eigenschaften sind...**
-
-- P190 has symbolic content (z.B. Zeichenkette / Textinhalt)
-- P90 has value (z. B. numerischer Wert)
-
-**Grundprinzip**
-
-- CIDOC CRM bevorzugt semantische Identifikatoren und Beziehungen statt Freitextfelder.
-- Literale werden genutzt, wenn sie als reine Darstellung sinnvoll sind (z.B. ein Zahlenwert), während zentrale semantische Informationen (Titel, Rollen, Identifikatoren usw.) als Klassen (Entity) modelliert und idealerweise mit kontrollierten Vokabularen verknüpft werden.
-
-**Hinweis:** Der gezielte Umgang mit Datentyp-Eigenschaften, kontrollierten Vokabularen und Interoperabilität wird in späteren Einheiten weiter vertieft.
 
 ---
 
 ## Hausaufgabe als Vorbereitung für Modul 3
-
--
 
 ---
 
@@ -260,5 +262,4 @@ Gleichzeitig nutzt CIDOC CRM **Datentyp-Eigenschaften** (sog. Literale wie Zahle
 
 [SIG2024cidocb] CIDOC CRM Special Interest Group. (2024). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
 
----
 
