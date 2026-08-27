@@ -112,6 +112,8 @@ WissKI ist **keine eigenständige Software** sondern ein Set an Modulen, die das
 
 ![Drupal](../assets/drupal.JPG)
 
+>  **Abbildung:** WissKI Integration in Drupal (Fichtner2023wisski, S. 2)
+
 ---
 
 ### Drupal stellt bereit …
@@ -238,6 +240,8 @@ unterstützt die semantische Erzeugung und Verwaltung von Daten indem es
 
 
 ## Bibliografie
+
+[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1.https://doi.org/10.52825/cordi.v1i.353
 
 [GNMo.D.stakeholders] Germanisches Nationalmuseum (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
