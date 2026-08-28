@@ -40,7 +40,7 @@ Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
 Einheit 2: **Einführung in Protege**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~ 20 Min.
 
 **Lernziele:**
 
