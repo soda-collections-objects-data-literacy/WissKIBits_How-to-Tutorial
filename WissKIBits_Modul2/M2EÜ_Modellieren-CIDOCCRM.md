@@ -8,7 +8,7 @@ Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
 Einheit 3: **Semantische Modellierung mit CIDOC CRM**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~ 45 Min.
 
 **Lernziele:**
 
