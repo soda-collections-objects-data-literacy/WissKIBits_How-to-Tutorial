@@ -176,7 +176,7 @@ Die Teilnehmenden sollten…
 - sowie wenigstens eine erste konzeptuelle Modellskizze im Idealfall ein CIDOC CRM basiertes semantisches Domänenmodell mitbringen.
 
 Für die praktische Anwendung wird ein Computer entweder mit installiertem **Protégé Desktop** oder ein Account für **WebProtégé** benötigt. 
-Zwischen beidem kann auf der Webseite der [Stanford Universität](https://protege.stanford.edu/software) gewählt werden.
+Zwischen beidem kann auf der Webseite der [Stanford Universität](https://protege.stanford.edu/software) gewählt werden. (Stanfordo.D.protege) 
 
 Außerdem muss die im Tutorial verwendete **OWL-Datei des Erlangen CRM** lokal verfügbar oder über eine Webadresse erreichbar sein.
 
