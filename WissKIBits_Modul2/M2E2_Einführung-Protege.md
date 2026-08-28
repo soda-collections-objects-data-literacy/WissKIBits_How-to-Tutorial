@@ -126,6 +126,11 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 ## Ausblick
 
+Die bisherigen Schritte haben gezeigt, wie das **CIDOC CRM in Protégé geöffnet und erkundet** werden kann und wie bestehende Entities für die Modellierung einer eigenen Domäne erweitert werden können.
+
+In der nun folgenden **Praxiseinheit** wird dieses Vorgehen auf die **Domäne Computerspiele** übertragen. Das zuvor entwickelte semantische Modell wird dabei Schritt für Schritt in Protégé umgesetzt. Dabei werden geeignete CIDOC CRM-Entities ausgewählt, um domänenspezifische Subklassen erweitert und die entsprechenden Properties modelliert. 
+
+So entsteht aus der konzeptionellen Modellskizze eine **formal beschriebene und maschinenlesbare OWL-Ontologie**, die anschließend für die Implementierung in WissKI verwendet werden kann.
 
 
 ## Bibliografie
