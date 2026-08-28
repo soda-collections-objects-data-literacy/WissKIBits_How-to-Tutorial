@@ -245,15 +245,14 @@ Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schri
 
 ## Ausblick / Hausaufgabe als Vorbereitung für Modul 3
 
-Die Modellskizze dient als Übergang zu den nächsten Schritten im Tutorial:
+In der Praxiseinheit wurde zunächst eine **erste Modellskizze für die Domäne Computerspiele** entwickelt. Anschließend wurde dese Modellierung auf die entsprechenden **Klassen und Eigenschaften des CIDOC CRM** abgebildet und insbesondere die Besonderheiten der **Klasse E41 Appellation** erläutert. Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computerspiele auf Grundlage des CIDOC CRM** vor.
 
-- das Modell wird als **Diagramm** klarer strukturiert, 
-  
-- anschließend wird in Modul 2 das Modell in **Protégé** überprüft und formaler gefasst,
-- und in Modul 3 als **Pfadstruktur im WissKI Pathbuilder** umgesetzt.
+Mit dieser Praxiseinheit endet **Modul 1**.
 
-- ---> Hausaufgabe ?
-  
+In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbare **OWL-Ontologie** umgesetzt und für die spätere Implementierung in **WissKI** vorbereitet. Auf diese Weise werden die Grundlagen für die praktische Arbeit mit Protégé und die Überführung des semantischen Modells in eine technische Implementierung geschaffen.
+
+In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
+
 ---
 
 ## Bibliografie
