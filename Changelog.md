@@ -3,6 +3,25 @@
 
 28.8.2026
 
+- M2E2: Live-Demo alt:
+
+Diese Einheit zeigt, wie auf Basis von **CIDOC CRM** eine **Domänenontologie** mit **Protégé** entwickelt wird.
+
+Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenntnisse **eine Ontologie zu erstellen oder zu erweitern**.
+
+In einer Live-Demo 
+
+alt: 
+
+**Schritt 3: Eigene Subklassen (Entities) anlegen für neue Domänenkonzepte**
+
+ **Beispiel:**
+
+> - Game_Characteristic
+> - Platform_Type
+> - Genre_Type
+> - Edition_Type
+
 - Lernzielüberblick in M1E1 angepasst
 - Ausblick in M1EÜ formuliert
 
