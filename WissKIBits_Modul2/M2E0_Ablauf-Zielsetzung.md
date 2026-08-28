@@ -96,7 +96,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
 | 0 | Willkommen, Zielsetzung und Ablauf | 8 Min. |
-| 1 | Methoden und Workflows semantischer Modellierung | 22 Min. |
+| 1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
 | 2 | Einführung in Protégé | 25 Min. |
 | Ü | Semantische Modellierung mit CIDOC CRM | 30 Min. |
 |  | **Gesamt** | **90 Min.** |
