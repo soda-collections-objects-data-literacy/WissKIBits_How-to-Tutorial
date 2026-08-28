@@ -207,10 +207,12 @@ Im folgenden Modul wird die in Protégé erstellte beziehungsweise erweiterte On
 ## Redaktionelle Hinweise
 
 - Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Umfang der praktischen Übung angepasst werden.
-- Für Krakau fallen weg:  (Krakau half day = 3,5 Std - Modul 1-3 = 4,5 Std)
+- Für Krakau fallen weg:  (Krakau half day = 3,5 Std - Modul 1-3 = 4,5 Std - es fehlen dann noch 10 Min.)
 
-  a. 10 Min in E2 (installieren von Protege und selbstständiges Laden von CIDOC CRM / OWL
+  a. 5 Min in E2 (installieren von Protege und selbstständiges Laden von CIDOC CRM / OWL
 
   b. 45 Min. M2Ü komplett
+
+  
   
  
