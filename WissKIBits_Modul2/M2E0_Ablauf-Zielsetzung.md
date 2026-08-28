@@ -64,14 +64,14 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 
 In Modul 2 wird das konzeptuelle Domänenmodell aus Modul 1 in Protégé mit CIDOC CRM formalisiert.
 
-* Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen. ???
-* Ein schrittweiser Workflow für die semantische Modellierung wird benannt und angewendet.
-* Protégé wird als Software zur Erstellung und Bearbeitung von Ontologien eingeführt.
-* Eine bestehende OWL-Implementierung des CIDOC CRM wird geladen und in ihrer Struktur erkundet.
-* Konzepte aus der Modellskizze werden anhand der Scope Notes geeigneten Klassen und Eigenschaften des CIDOC CRM zugeordnet.
-* Domänenspezifische Konzepte werden als Subklassen ergänzt und in die vorhandene Klassenhierarchie eingeordnet.
-* Objekt- und Datentyp-Eigenschaften werden unterschieden und im Modell verwendet.
-* Die erweiterte Ontologie wird gespeichert und für die weitere Umsetzung in WissKI vorbereitet.
+- Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen. ???
+- Ein schrittweiser Workflow für die semantische Modellierung wird benannt und angewendet.
+- Protégé wird als Software zur Erstellung und Bearbeitung von Ontologien eingeführt.
+- Eine bestehende OWL-Implementierung des CIDOC CRM wird geladen und in ihrer Struktur erkundet.
+- Konzepte aus der Modellskizze werden anhand der Scope Notes geeigneten Klassen und Eigenschaften des CIDOC CRM zugeordnet.
+- Domänenspezifische Konzepte werden als Subklassen ergänzt und in die vorhandene Klassenhierarchie eingeordnet.
+- Objekt- und Datentyp-Eigenschaften werden unterschieden und im Modell verwendet.
+- Die erweiterte Ontologie wird gespeichert und für die weitere Umsetzung in WissKI vorbereitet.
   
 ---
 
@@ -110,23 +110,23 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 ### 1. Methoden und Workflows semantischer Modellierung
 
-* Methoden zur Entwicklung von Ontologien benennen (LZ-ID 03\_007\_0784)
-* Methoden zur Entwicklung von Ontologien erläutern (LZ-ID SODa\_03\_007\_0839)
-* Workflow semantischer Modellierung benennen (LZ-ID SODa\_03\_001\_0626)
-* Workflow semantischer Modellierung anwenden (LZ-ID SODa\_03\_001\_0627)
+- Methoden zur Entwicklung von Ontologien benennen (LZ-ID 03\_007\_0784)
+- Methoden zur Entwicklung von Ontologien erläutern (LZ-ID SODa\_03\_007\_0839)
+- Workflow semantischer Modellierung benennen (LZ-ID SODa\_03\_001\_0626)
+- Workflow semantischer Modellierung anwenden (LZ-ID SODa\_03\_001\_0627)
 
 ### 2. Einführung in Protégé
 
-* Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
-* Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
-* Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 
 ### 3. Semantische Modellierung mit CIDOC CRM
 
-* Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
-* Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-* Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a  (ToDO ???)
-* Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx) (ToDO ???)
+- Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
+- Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
+- Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a  (ToDO ???)
+- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx) (ToDO ???)
 
 
 ---
@@ -142,19 +142,22 @@ flowchart TD
     E --> F["Modell prüfen, speichern und für WissKI vorbereiten"]
 ```
 
+> **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
+
 ---
 
 ## Arbeitsweise und Beispiel
 
 Das Modul verbindet methodischen Input, Demonstration und angeleitete Anwendung:
 
-* Die Teilnehmenden lernen grundlegende Methoden und einen iterativen Workflow der Ontologieentwicklung kennen.
-* Die Bedienoberfläche und die zentralen Bereiche von Protégé werden in einer Live- oder Video-Demonstration vorgestellt.
-* Die OWL-Implementierung **Erlangen CRM** wird geladen und anhand ihrer Klassen, Objekteigenschaften und Datentyp-Eigenschaften erkundet.
-* Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in Modul 1 entwickelte Modellskizze dienen erneut als roter Faden.
-* Ausgewählte Konzepte werden anhand der Scope Notes mit CIDOC CRM abgeglichen.
-* Domänenspezifische Konzepte wie Spielmerkmal, Plattformtyp, Genretyp oder Editionstyp werden als Subklassen modelliert.
-* Die Teilnehmenden dokumentieren ihre Entscheidungen und prüfen das Modell schrittweise auf Verständlichkeit und Konsistenz.
+- Die Teilnehmenden lernen grundlegende Methoden und einen iterativen Workflow der Ontologieentwicklung kennen.
+- Die Bedienoberfläche und die zentralen Bereiche von Protégé werden in einer Live- oder Video-Demonstration vorgestellt.
+- Die OWL-Implementierung **[Erlangen CRM](https://erlangen-crm.org/current-version)** in der aktuellen Version (Schiemann2024crm), wird geladen und anhand ihrer Klassen, Objekteigenschaften und Datentyp-Eigenschaften erkundet.
+- Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in Modul 1 entwickelte Modellskizze dienen erneut als roter Faden.
+- Ausgewählte Konzepte werden anhand der Scope Notes mit CIDOC CRM abgeglichen.
+- Domänenspezifische Konzepte wie Spielmerkmal, Plattformtyp, Genretyp oder Editionstyp werden als Subklassen modelliert.
+- Passende Beziehungen zwischen den Konzepten und Ereignissen werden ausgewählt.
+- Die Teilnehmenden dokumentieren ihre Entscheidungen und prüfen das Modell schrittweise auf Verständlichkeit und Konsistenz.
 
 Das Ziel ist keine vollständige Domänenontologie. Entscheidend ist eine **kleine, nachvollziehbare und formal nutzbare Erweiterung von CIDOC CRM**, die den Übergang zur Umsetzung in WissKI vorbereitet.
 
@@ -166,27 +169,30 @@ Vorausgesetzt werden die Inhalte aus Modul 1 oder vergleichbare Grundkenntnisse,
 
 Die Teilnehmenden sollten…
 
-* die Begriffe Domäne, Konzept, Ereignis und Beziehung unterscheiden können,
-* die Bausteine Klasse, Eigenschaft, Instanz und Modellannahme kennen,
-* das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
-* Scope Notes als Grundlage für Modellierungsentscheidungen kennen,
-* sowie wenigstens eine erste konzeptuelle Modellskizze im Idealfall ein CIDOC CRM basiertes semantisches Domänenmodell mitbringen.
+- die Begriffe Domäne, Konzept, Ereignis und Beziehung unterscheiden können,
+- die Bausteine Klasse, Eigenschaft, Instanz und Modellannahme kennen,
+- das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
+- Scope Notes als Grundlage für Modellierungsentscheidungen kennen,
+- sowie wenigstens eine erste konzeptuelle Modellskizze im Idealfall ein CIDOC CRM basiertes semantisches Domänenmodell mitbringen.
 
-Für die praktische Anwendung wird ein Computer mit installiertem **Protégé Desktop** benötigt. 
+Für die praktische Anwendung wird ein Computer entweder mit installiertem **Protégé Desktop** oder ein Account für **WebProtégé** benötigt. 
+Zwischen beidem kann auf der Webseite der [Stanford Universität](https://protege.stanford.edu/software) gewählt werden.
 
-Außerdem muss die im Tutorial verwendete **OWL-Datei des Erlangen CRM** lokal verfügbar oder über das Netz erreichbar sein.
+Außerdem muss die im Tutorial verwendete **OWL-Datei des Erlangen CRM** lokal verfügbar oder über eine Webadresse erreichbar sein.
 
 ---
-
+ 
 ## Ergebnis des Moduls
 
-Am Ende von Modul 2 liegt eine erste formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung vor. Sie enthält:
+Am Ende von Modul 2 liegt eine erste formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung vor. 
 
-* ausgewählte und fachlich begründete Klassen und Eigenschaften des CIDOC CRM,
-* domänenspezifische Subklassen für zentrale Konzepte des Beispiels,
-* mindestens eine modellierte semantische Beziehung zwischen den ausgewählten Klassen,
-* mindestens eine sinnvoll eingesetzte Datentyp-Eigenschaft,
-* sowie eine Dokumentation zentraler Modellierungsentscheidungen anhand der Scope Notes.
+Sie enthält:
+
+- ausgewählte und fachlich begründete Klassen und Eigenschaften des CIDOC CRM,
+- domänenspezifische Subklassen für zentrale Konzepte des Beispiels,
+- mindestens eine modellierte semantische Beziehung zwischen den ausgewählten Klassen,
+- mindestens eine sinnvoll eingesetzte Datentyp-Eigenschaft,
+- sowie eine Dokumentation zentraler Modellierungsentscheidungen anhand der Scope Notes.
 
 Die Ontologie wird als OWL-Datei gespeichert und bildet die Grundlage für die anschließende technische Einbindung und Pfadmodellierung in WissKI.
 
@@ -200,7 +206,5 @@ Im folgenden Modul wird die in Protégé erstellte beziehungsweise erweiterte On
 
 ## Redaktionelle Hinweise
 
-* Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Umfang der praktischen Übung angepasst werden.
-* Die genaue Version der verwendeten CIDOC-CRM-Spezifikation und der Erlangen-CRM-OWL-Datei sollte für das Tutorial verbindlich dokumentiert werden. (???)
-* Vor der Durchführung sollte geprüft werden, ob Protégé bereits installiert sein soll oder beispielsweise WebProtoge verwendet wird. (???)
+- Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Umfang der praktischen Übung angepasst werden.
 
