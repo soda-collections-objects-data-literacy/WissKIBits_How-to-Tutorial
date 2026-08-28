@@ -66,6 +66,7 @@ Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**]
 
 Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Ontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. Protégé bildet damit die Verbindung zwischen der semantischen Modellierung und ihrer technischen Umsetzung.
 
+---
 
 ## Live-Demo in Protégé
 
@@ -81,11 +82,13 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 **Schritt 1: Vorhandene Ontologie laden**
 
-In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet. Diese wird in Protégé geladen und kann anschließend um domänenspezifische Klassen, Eigenschaften und Beziehungen erweitert werden.
-
+In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet. Diese wird in Protégé Desktop geladen.
 **Download Erlangen CRM / OWL:** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 **Schritt 2: Struktur erkunden**
+
+In Protége lässt sich die **Struktur des CIDOC CRM erkunden**. Dazu gehören insbesondere die Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties), über die Klassen miteinander in Beziehung gestzt oder mit Datentypen und Werten beschrieben werden.
+
 
    - Klassen (Entities)  
    - Objekteigenschaften (Properties) (Relationen zwischen Entitäten)  
