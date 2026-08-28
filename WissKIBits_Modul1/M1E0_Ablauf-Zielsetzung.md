@@ -119,24 +119,22 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 ### 1. Grundbegriffe konzeptueller Wissensmodellierung
    
-* Begriff Attribut benennen. (LZ-ID SODa\_xy\_xyz\_xyza)
-* Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
-* Begriff semantisches Datenmodell benennen (LZ-ID SODa\_xy\_xyz\_xyza)
-* Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
-* Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
-* Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
-* Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
+- Begriff konzeptuelle Wissensmodellierung benennen. (LZ-ID SODa\_03\_007\_0847)
+- Begriff konzeptuelle Wissensmodellierung erläutern. (LZ-ID SODa\_03\_007\_0848)
+- Begriff Domäne benennen. (LZ-ID SODa\_03\_007\_0824)
+- Begriff Konzept benennen. (LZ-ID SODa\_03\_007\_0821)
+- Begriff Ereignis benennen. (LZ-ID SODa\_03\_007\_0822)
+- Begriff Beziehung benennen. (LZ-ID SODa\_03\_007\_0823)
+- Begriff semantische Modellierung benennen. (LZ-ID SODa\_03\_007\_0825)
+- Begriff semantische Modellierung erläutern. (LZ-ID SODa\_03\_007\_0844)
+- Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
+- Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
 
 ### 2. Grundlagen von Ontologien
    
 - den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
-- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
-- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
-- den Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
-
-### 3. Bausteine von Ontologien
-
+- Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
 - Begriff Instanzen (Instances) benennen. (LZ-ID SODa\_03\_007\_0833)
@@ -145,33 +143,41 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Eigenschaften (Properties) erläutern. (LZ-ID SODa\_03\_007\_0832)
 - Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
 - Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
- 
-### 4. Einführung in CIDOC CRM
+
+### 3. Einführung in CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
 - Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
-- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
--  ???Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-- Methode der ereigniszentrierten Modellierung mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benenen. (LZ-ID SODa\_03\_007\_0806)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung erläutern. (LZ-ID SODa\_03\_007\_0807)
 - Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
 - Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
-- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
-- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
-
-### 5. FAIR, Forschungsinfrastrukturen und WissKI
+- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+- Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
+ 
+### 4. FAIR-Konformität mit WissKI
 
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
-- ???das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
-- FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
+- FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
+- das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
+- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
 - Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
 - WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
+- WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0849)
+- ereigniszentriertes Modellierungsprinzip mit CIDOC CRM am Beispiel erläutern. (LZ-ID SODa\_03\_007\_0850)
+- Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
+- Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
+### Ü. Anwendungsbeispiel Objektsammlungen
+
+- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0844)
+- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808) 
 ---
 
 ## Lernweg im Modul
