@@ -1,6 +1,10 @@
 # Changelog fortlaufend
 
+
 28.8.2026
+
+- Lernzielüberblick in M1E1 angepasst
+- Ausblick in M1EÜ formuliert
 
 ### Begründung der Modellierungsentscheidungen (ggf. vollständig in Modul 3 verschieben!!!) 
 
