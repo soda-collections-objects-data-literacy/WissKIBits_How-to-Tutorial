@@ -8,7 +8,7 @@ Modul 2: **Modllieren mit CIDOC CRM – verstehen und anwenden**
 
 Einheit 1: **Methoden und Workflows semantischer Modellierung**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~  5 Min.
 
 **Lernziele:**
 
@@ -29,7 +29,7 @@ Dazu zählen u.a. die Erhebung zentraler Begriffe und Definitionen (sog. „onto
 
 Die praktische Ontologieentwicklung wird dabei häufig als ein Prozess verstanden, der sowohl Domänenwissen als auch Anwendungsanforderungen integriert und schrittweise in eine formal nutzbare Wissensstruktur überführt.
 
-Ontologien entstehen häufig durch eine Kombination aus: (Noy2001ontology, S.4ff)
+**Ontologien entstehen häufig durch eine Kombination aus:** (Noy2001ontology, S.4ff)
 
 - **Top-down-Modellierung:** Ausgehend von einem Referenzmodell (z.B. CIDOC CRM) erfolgt eine domänenspezifische Spezialisierung.
 - **Bottom-up-Modellierung:** Aus vorhandenen Daten werden schrittweise Klassen (Entities) und Eigenschaften (Properties) abgeleitet.
@@ -49,8 +49,8 @@ Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
 
 In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
 
-→ **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**  
-→ **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
+> - **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**  
+> - **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
 
 Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
 
