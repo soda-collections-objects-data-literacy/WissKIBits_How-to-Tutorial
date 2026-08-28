@@ -89,25 +89,26 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 **Schritt 2: Struktur erkunden**
 
-In Protége lässt sich die **Struktur des CIDOC CRM erkunden**. Dazu gehören insbesondere die Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties), über die Klassen miteinander in Beziehung gestzt oder mit Datentypen und Werten beschrieben werden.
+- In Protége lässt sich die **Struktur des CIDOC CRM erkunden**.
+- Dazu gehören insbesondere die **Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties)**, über die Klassen (Entities) miteinander in Beziehung gestzt oder beschrieben werden.
 
+> **Hinweis**
+> - Klassen (Entities): die zentralen Klassen bzw. Entitätstypen des CIDOC CRM
+> - Objekteigenschaften (Properties): Relationen zwischen Klassen (Entities)
+> - Datentyp-Eigenschaften (Datatype-Properties): Eigenschaften, die Werte bzw. Literale beschreiben
 
-   - Klassen (Entities)  
-   - Objekteigenschaften (Properties) (Relationen zwischen Entitäten)  
-   - Datentyp-Eigenschaften (nur für Literale)
+**Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele**
 
-**Schritt 3: Eigene Subklassen (Entities) anlegen für neue Domänenkonzepte**
+- Neue, domänenspezifische Entities werden als **Subklassen bestehender CIDOC CRM-Entities** angelegt.
 
- **Beispiel:**
+>  **Beispiel:**
+>  E35 Title --> Game_Title
 
-> - Game_Characteristic
-> - Platform_Type
-> - Genre_Type
-> - Edition_Type
+- **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
 
-**Schritt 4: Speichern & Exportieren**
+**Schritt 4: Speichern & Exportieren ( nicht mehr in der Live-Demo enthalten)**
 
-Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI** und den **Pathbuilder** bereit.
+- Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI** und den **Pathbuilder** bereit.
 
 ---
 
@@ -119,9 +120,13 @@ Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI*
   <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/assets/Short_Protege_Intro.mp4" type="video/mp4">
 </video>
 
+> Die Live-Demo veranschaulicht Schritt 1: Vorhandene Ontologie laden, Schritt 2: Struktur erkunden und Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
+
 ---
 
 ## Ausblick
+
+
 
 ## Bibliografie
 
