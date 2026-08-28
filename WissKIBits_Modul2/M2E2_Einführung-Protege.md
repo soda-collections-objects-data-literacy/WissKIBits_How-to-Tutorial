@@ -136,7 +136,6 @@ Beschreibung der Aufgabe
 
 - Schitt 1: Arbeitsschritt
 - Schitt 2: Arbeitsschritt
-- Schitt 3: Arbeitsschritt
 
 **Hinweis:** Kurze Hilfestellung oder Einschränkung.
 
