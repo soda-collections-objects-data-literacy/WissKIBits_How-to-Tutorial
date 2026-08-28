@@ -58,7 +58,7 @@ Teilnehmende können...
 
 In der Praxiseinheit dieses Moduls wird **Protégé Desktop** verwendet. Der Editor bietet eine grafische Oberfläche, mit der Ontologien erstellt, bearbeitet und strukturiert werden können. Bereits vorhandene Ontologien können in Protégé geöffnet und als Grundlage für die weitere Modellierung verwendet werden. Die vorgenommenen Modellierungen lassen sich anschließend in einem **maschinenlesbaren Format** speichern und für die weitere Verarbeitung nutzen.
 
-Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. Als Referenzontologie dient das **CIDOC CRM**. Eine bestehende OWL-Implementierung des CIDOC CRM, beispielsweise die **Erlangen CRM / OWL**, kann in Protégé geladen und als Ausgangspunkt für die weitere Modellierung verwendet werden.
+Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. Als Referenzontologie dient das **CIDOC CRM** konkret, **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)**, die bestehende OWL-Implementierung des CIDOC CRM. Sie kann in Protégé geladen und als Ausgangspunkt für die weitere Modellierung verwendet werden.
 
 Auf dieser Grundlage werden die für die Domäne Computerspiele relevanten Klassen, Eigenschaften und Beziehungen modelliert, überprüft und für die technische Umsetzung vorbereitet.
 
