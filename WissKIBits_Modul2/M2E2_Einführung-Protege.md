@@ -82,8 +82,10 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 **Schritt 1: Vorhandene Ontologie laden**
 
-In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt. Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet. Diese wird in Protégé Desktop geladen.
-**Download Erlangen CRM / OWL:** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+- In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt.
+- Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet.
+- Diese wird in Protégé Desktop geladen.
+- **Download Erlangen CRM / OWL:** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 **Schritt 2: Struktur erkunden**
 
