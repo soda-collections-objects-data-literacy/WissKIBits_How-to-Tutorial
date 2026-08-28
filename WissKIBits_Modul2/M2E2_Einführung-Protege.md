@@ -52,6 +52,21 @@ Teilnehmende können...
 
 ---
 
+## Protége - OWL Ontologie-Editor
+
+[**Protégé**](https://protege.stanford.edu/)  ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. Protégé ist sowohl als Desktop-Anwendung (**Protégé Desktop**) als auch als webbasierter Editor (**WebProtégé**) verfügbar.
+
+In der Praxiseinheit dieses Moduls wird **Protégé Desktop** verwendet. Der Editor bietet eine grafische Oberfläche, mit der Ontologien erstellt, bearbeitet und strukturiert werden können. Bereits vorhandene Ontologien können in Protégé geöffnet und als Grundlage für die weitere Modellierung verwendet werden. Die vorgenommenen Modellierungen lassen sich anschließend in einem **maschinenlesbaren Format** speichern und für die weitere Verarbeitung nutzen.
+
+Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. Als Referenzontologie dient das **CIDOC CRM**. Eine bestehende OWL-Implementierung des CIDOC CRM, beispielsweise die **Erlangen CRM / OWL**, kann in Protégé geladen und als Ausgangspunkt für die weitere Modellierung verwendet werden.
+
+Auf dieser Grundlage werden die für die Domäne Computerspiele relevanten Klassen, Eigenschaften und Beziehungen modelliert, überprüft und für die technische Umsetzung vorbereitet.
+
+Für die Arbeit mit Protégé stehen auf der **offiziellen Protégé-Website** umfangreiche Dokumentationen und ein Wiki zur Verfügung. Diese Ressourcen können insbesondere bei weiterführenden Fragen zur Bedienung des Editors und zur Entwicklung von OWL-Ontologien genutzt werden.
+
+Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Ontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. Protégé bildet damit die Verbindung zwischen der semantischen Modellierung und ihrer technischen Umsetzung.
+
+
 ## Live-Demo in Protégé
 
 Diese Einheit zeigt, wie auf Basis von **CIDOC CRM** eine **Domänenontologie** mit **Protégé** entwickelt wird.
@@ -104,6 +119,8 @@ Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI*
 ---
 
 ## Ausblick
+
+## Bibliografie
 
 
 
