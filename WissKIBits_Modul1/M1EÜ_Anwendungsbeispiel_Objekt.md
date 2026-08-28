@@ -253,6 +253,8 @@ In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbar
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
 
+___PLATZHALTER AUSBLICK VORRAUSSETZUNGEN MODUL 2 (link oder text - siehe M2E1 Voraussetzungen)___
+
 ---
 
 ## evtl. Hausaufgabe für Modul 2
