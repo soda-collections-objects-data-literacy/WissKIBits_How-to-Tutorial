@@ -127,14 +127,16 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 ## Ontologie laden Struktur erkunden
 
 **Arbeitsform:** Einzelarbeit
+
 **Material:** Protége Desktop / (WebProtégé)
+
 **Zeit:** 5 Min.
 
 Beschreibung der Aufgabe
 
-1. Erster Arbeitsschritt
-2. Zweiter Arbeitsschritt
-3. Dritter Arbeitsschritt
+- Schitt 1: Arbeitsschritt
+- Schitt 2: Arbeitsschritt
+- Schitt 3: Arbeitsschritt
 
 **Hinweis:** Kurze Hilfestellung oder Einschränkung.
 
