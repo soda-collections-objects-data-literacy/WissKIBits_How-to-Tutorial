@@ -41,7 +41,7 @@ Modul 2: **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
 Einheit 0: **Willkommen, Zielsetzung und Ablauf**  
 
-**Dauer:** ~ 8 Min.
+**Dauer:** ~ 10 Min.
 
 
 ---
@@ -95,10 +95,10 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| 0 | Willkommen, Zielsetzung und Ablauf | 8 Min. |
+| 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
 | 1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
-| 2 | Einführung in Protégé | 25 Min. |
-| Ü | Semantische Modellierung mit CIDOC CRM | 30 Min. |
+| 2 | Einführung in Protégé | 20 Min. |
+| Ü | Semantische Modellierung mit CIDOC CRM | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
   
