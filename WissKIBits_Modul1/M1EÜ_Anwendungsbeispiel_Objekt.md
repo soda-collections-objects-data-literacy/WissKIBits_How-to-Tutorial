@@ -243,7 +243,7 @@ Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schri
 
 ---
 
-## Ausblick / Hausaufgabe als Vorbereitung für Modul 3
+## Ausblick
 
 In der Praxiseinheit wurde zunächst eine **erste Modellskizze für die Domäne Computerspiele** entwickelt. Anschließend wurde dese Modellierung auf die entsprechenden **Klassen und Eigenschaften des CIDOC CRM** abgebildet und insbesondere die Besonderheiten der **Klasse E41 Appellation** erläutert. Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computerspiele auf Grundlage des CIDOC CRM** vor.
 
@@ -254,6 +254,8 @@ In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbar
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
 
 ---
+
+## evtl. Hausaufgabe für Modul 2
 
 ## Bibliografie
 
