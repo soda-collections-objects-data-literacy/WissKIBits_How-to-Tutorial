@@ -3,6 +3,52 @@
 
 28.8.2026
 
+- M1Ex Nutzerevaluation (alt)
+
+# SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+
+**DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
+
+Modul 1: **Von der Sammlung zum Diagramm – verstehen und erklären**
+
+Einheit 7: **Reflexion: Eindrücke, Unsicherheiten und offene Fragen - muss nochmal ganzheitlich überarbeitet werden siehe SODa OER Task Force**  
+
+**Dauer:** ~ 5 Min.
+
+---
+
+
+##  Gemeinsame Gesprächsrunde und Reflexion
+
+![Feedback](../assets/M1E7-Reflexion.jpg)
+
+**Fragen:**
+
+* Wie war der Aufbau und Ablauf des Worhops für Sie?
+* Was hat gut funktioniert? Welche Schritte/Beispiele waren verständlich und unterstützend? 
+* Welche Einheit hat Ihnen am meisten geholfen, das Thema zu verstehen?
+* Was war herausfordernd? Wo gab es Stolperstellen oder Unsicherheiten?
+* Ist das Vorgehen bei der Modellierung klar geworden?
+* Können Sie die heute erlernten Inhalte auf Ihr Projekt übertragen?
+* Wie bewerten Sie das Modul? Sie können insgesamt 100 Punkte vergeben...
+* Wie sicher fühlen Sie sich für das nächste Modul?
+* Mit welchem Gefühl gehen Sie heute aus dem Modul heraus?
+* Was hat Ihnen besonder gut gefallen?
+
+---
+
+## Fazit
+
+**Semantisches Modellieren ist ein dialogischer Prozess.** 
+
+Bedeutungsstrukturen werden in der Regel im Austausch — nicht im Alleingang - entwickelt.
+
+An dieser Stelle können noch offen Fragen geklärt werden, bevor es in dem nächsten Modul weitergeht.
+
+
+
+
+
 - M2E2: Live-Demo alt:
 
 Diese Einheit zeigt, wie auf Basis von **CIDOC CRM** eine **Domänenontologie** mit **Protégé** entwickelt wird.
