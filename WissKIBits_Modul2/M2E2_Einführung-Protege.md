@@ -54,15 +54,15 @@ Teilnehmende können...
 
 ## Protége - OWL Ontologie-Editor
 
-**Protégé** ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. Protégé ist sowohl als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) als auch als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)) verfügbar.
+**Protégé** ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. (Stanfordo.D.software) Protégé ist sowohl als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) als auch als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)) verfügbar. (Stanfordo.D.protege)
 
 In der Praxiseinheit dieses Moduls wird **Protégé Desktop** verwendet. Der Editor bietet eine grafische Oberfläche, mit der Ontologien erstellt, bearbeitet und strukturiert werden können. Bereits vorhandene Ontologien können in Protégé geöffnet und als Grundlage für die weitere Modellierung verwendet werden. Die vorgenommenen Modellierungen lassen sich anschließend in einem **maschinenlesbaren Format** speichern und für die weitere Verarbeitung nutzen.
 
-Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. Als Referenzontologie dient das **CIDOC CRM**, konkret die bestehende OWL-Implementierung des CIDOC CRM, das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)**. Sie kann in Protégé geladen und als Ausgangspunkt für die weitere Modellierung verwendet werden.
+Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. Als Referenzontologie dient das **CIDOC CRM** ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release)), konkret die bestehende OWL-Implementierung des CIDOC CRM, das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm). Sie kann in Protégé geladen und als Ausgangspunkt für die weitere Modellierung verwendet werden.
 
 Auf dieser Grundlage werden die für die Domäne Computerspiele relevanten Klassen, Eigenschaften und Beziehungen modelliert, überprüft und für die technische Umsetzung vorbereitet.
 
-Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) umfangreiche [Dokumentationen](https://protege.stanford.edu/support/#documentation) und ein [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) zur Verfügung. Diese Ressourcen können insbesondere bei weiterführenden Fragen zur Bedienung des Editors und zur Entwicklung von OWL-Ontologien genutzt werden.
+Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) umfangreiche [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu) und ein [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki) zur Verfügung. Diese Ressourcen können insbesondere bei weiterführenden Fragen zur Bedienung des Editors und zur Entwicklung von OWL-Ontologien genutzt werden.
 
 Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Ontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. Protégé bildet damit die Verbindung zwischen der semantischen Modellierung und ihrer technischen Umsetzung.
 
@@ -134,6 +134,18 @@ So entsteht aus der konzeptionellen Modellskizze eine **formal beschriebene und 
 
 
 ## Bibliografie
+
+[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+
+[Schiemann2024crm] Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
+
+[Stanfordo.D.docu] Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
+
+[Stanfordo.D.protege] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
+
+[Stanfordo.D.wiki] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
+
+[Stanfordo.D.software] Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
 
 
 
