@@ -54,7 +54,7 @@ Teilnehmende können...
 
 ## Protége - OWL Ontologie-Editor
 
-[**Protégé**](https://protege.stanford.edu/)  ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. Protégé ist sowohl als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) als auch als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)) verfügbar.
+**Protégé** ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. Protégé ist sowohl als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) als auch als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)) verfügbar.
 
 In der Praxiseinheit dieses Moduls wird **Protégé Desktop** verwendet. Der Editor bietet eine grafische Oberfläche, mit der Ontologien erstellt, bearbeitet und strukturiert werden können. Bereits vorhandene Ontologien können in Protégé geöffnet und als Grundlage für die weitere Modellierung verwendet werden. Die vorgenommenen Modellierungen lassen sich anschließend in einem **maschinenlesbaren Format** speichern und für die weitere Verarbeitung nutzen.
 
@@ -69,13 +69,11 @@ Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Ontologie**, die 
 
 ## Live-Demo in Protégé
 
-Diese Einheit zeigt, wie auf Basis von **CIDOC CRM** eine **Domänenontologie** mit **Protégé** entwickelt wird.
+In dieser Einheit wird gezeigt, wie eine **OWL-Implementierung des CIDOC CRM** in **Protégé geladen und geöffnet** wird.
 
-**Protégé** ist ein frei verfügbarer **Ontologie-Editor**, der hier heruntergeladen werden kann: https://protege.stanford.edu
+Anhand der geladenen Ontologie wird die Arbeitsoberfläche von Protégé vorgestellt. Dabei werden die verschiedenen Bereiche der Ontologie, insbesondere die Klassen und ihre Hierarchie, betrachtet und erste Einblicke in deren Darstellung und Struktur gegeben. 
 
-Alternativ ist **Protégé** auch als **Web-Editor** verfügbar: https://webprotege.stanford.edu
-
-Mit einer klaren Vorgehensweise ist es möglich, auch ohne tiefgreifende Vorkenntnisse **eine Ontologie zu erstellen oder zu erweitern**.
+Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schafft die Grundlage für die anschließende **Praxiseinheit**, in der das zuvor entwickelte Modell der Domäne Computerspiele in Protégé umgesetzt wird.
 
 ---
 
