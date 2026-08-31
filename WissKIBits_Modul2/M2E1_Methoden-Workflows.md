@@ -17,7 +17,7 @@ Teilnehmende können...
 - Methoden zur Entwicklung von Ontologien benennen. (LZ-ID 03\_007\_0784)
 - Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
 - einen Workflow für die semantische Modellierung als Datendokumentation benennen. (LZ-ID SODa\_03\_001\_0626)
-- ?einen Workflow für die semantische Modellierung als Datendokumentation anwenden (LZ-ID SODa\_03\_001\_0627) das müsste doch hier eher erläutern sein (neu)
+- ?einen Workflow für die semantische Modellierung als Datendokumentation anwenden (LZ-ID SODa\_03\_001\_0627) das müsste doch hier eher erläutern sein (neu) und anwenden in EÜ
 - Methoden zur Modellierung mit CIDOC CRM benennen. (SODa_03_007_0784a)
 - Methoden zur Modellierung mit CIDOC CRM erläutern. (neu)
 
