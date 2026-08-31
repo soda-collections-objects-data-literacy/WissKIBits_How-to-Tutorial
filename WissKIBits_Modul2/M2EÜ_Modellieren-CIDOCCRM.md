@@ -17,7 +17,6 @@ Teilnehmende können...
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 - Methoden zur Entwicklung von Ontologien anwenden. (neu)
 - einen Workflow für die semantische Modellierung als Datendokumentation anwenden (LZ-ID SODa\_03\_001\_0627)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a) --> das würde ich streichen, und nur anwenden hier aufführen. Benennen wird in der vorherigen Einheit aufgeführt.
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM anwenden. (neu)  
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (neu)
