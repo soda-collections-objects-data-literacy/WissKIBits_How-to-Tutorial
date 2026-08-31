@@ -67,7 +67,7 @@ In dieser Einheit wird das in Modul 1 und 2 entwickelte Datenmodell als Diagramm
 
 Das entwickelte Draw.io-Diagramm bildet die **Voraussetzung für die (halb-)automatisierte Pipeline** zur Erstellung eines **WissKI Pathbuilders**.
 
-Das Visualisieren in Draw.io ist somit nicht nur eine **visuelle Übung**, sondern gleichzeitig ein **expliziter Modellierungsschritt**, um **Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu treffen und zu fördern.**
+Das Visualisieren in Draw.io ist somit nicht nur eine **Visualisierungsübung**, sondern gleichzeitig ein **expliziter Modellierungsschritt**, um **Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu ermöglichen und zu fördern.**
 
 ---
 
@@ -95,7 +95,7 @@ Draw.io wird eingesetzt um...
 - eine **Domänenontologie vor dem Import in WissKI** zu prüfen,  
 - **semantische Modellierungsentscheidungen** zu reflektieren und abzusichern.
 
-Besonders in kollaborativen Projekten erleichtert Draw.io die **Abstimmung zwischen Fachexpert:innen, Datenmodellierenden und Entwickler:innen**, da semantische Entscheidungen visuell nachvollziehbar und dokumentierbar sind und bleiben.
+Besonders in kollaborativen Projekten erleichtert Draw.io die **Abstimmung zwischen Fachexpert\*innen, Datenmodellierenden und Entwickler\*innen**, da semantische Entscheidungen visuell nachvollziehbar und dokumentierbar sind und bleiben.
 
 ---
 
