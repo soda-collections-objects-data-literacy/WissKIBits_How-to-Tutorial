@@ -69,8 +69,6 @@ Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **seman
 
 Als Referenzontologie dient das **CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))** (SIG2024cidoc), konkret die bestehende OWL-Implementierung des CIDOC CRM, das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm). 
 
-Auf dieser Grundlage werden die für die Domäne Computerspiele relevanten Klassen, Eigenschaften und Beziehungen modelliert, überprüft und für die technische Umsetzung vorbereitet. (löschen?)
-
 Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) 
 
 - [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
