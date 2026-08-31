@@ -1,7 +1,69 @@
 # Changelog fortlaufend
 
+31.8.2026
 
-28.8.2026
+__alt__
+
+## Aktivierung und Input
+
+In Modul 1 wurde festgelegt, welche Information dokumentiert sein sollte. Wir blicken nochmal auf die erste Aktivierungsübung (M1E1) zurück.
+
+[Vorlage öffnen](../assets/M1E1_Aktivierung.docx)
+
+oder 
+
+[Miro Board öffnen]()
+
+
+**Impulsfrage** 
+
+Welche Fragen fallen euch zu dem Gegenstandsbereich ein und sollten zuverlässig beantworten werden?
+
+**Zuruf im Plenum**
+
+Abfragewünsche werden gesammelt und zur Aktivierungsaufgabe (M1E1) ergänzt:
+
+* „Wir wollen finden…“
+
+
+---
+
+### Lösungsbeispiele aus dem Spielekontext
+
+_Hilfestellung – nicht vorgeben_
+
+* „… alle Spiele mit einer bestimmten Eigenschaft (z. B. Genre oder Modus).“
+* „… alle Spiele, die mit einer bestimmten Person/Organisation verknüpft sind (z. B. Entwickler:in, Studio, Publisher).“
+* „… alle Spiele bzw. Spielversionen aus einem Zeitraum X oder einer Region/Plattform Y.“
+* „… Spiele mit ähnlichen Merkmalen (z. B. ähnliche Beschreibung, ähnliche Einordnung, ähnliche Eigenschaften).“
+
+---
+
+### Lösungsbeispiele 
+
+* „… alle Objekte mit bestimmter Provenienzstation“
+* „… alle Werke einer Person in einer bestimmten Rolle“
+* „… alle Ereignisse in Zeitraum X an Ort Y“
+* „… Objekte mit ähnlichen Kontextmerkmalen“
+
+
+**In Pfaden denken**
+
+Schaut noch einmal auf die Modellskizze aus der Modellierungsübung (M1E5) und prüft: 
+
+* "Welche Frage ist beantwortbar? Benennt den/die Pfad/e."
+*  "Wo startet die Anfrage?"
+
+---
+
+## Zusammenfassung
+
+Aus dem konzeptuellen Domänenmodell entstehen in Modul 2 formalisierte Pfade, also eine valide domänenspezifische Ontologiestruktur für den WissKI-Pathbuilder, mit der die Fragen beantwortet werden können.
+
+
+---
+
+__28.8.2026__
 
 - Nutzerevaluation M3Ex (alt)
 
