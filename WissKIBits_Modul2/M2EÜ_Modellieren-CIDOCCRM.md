@@ -39,15 +39,17 @@ Dazu werden
 
 Am Ende liegt ein kleiner, formal umgesetzter Ausschnitt des Domänenmodells als **OWL-Ontologie** vor.
 
-> Im Mittelpunkt steht der **Workflow der formalen Modellierung**.
+Im Mittelpunkt steht der **Workflow der formalen Modellierung**.
 
 ---
 
 ## Ausgangspunkt: Modell aus Modul 1
 
-In Modul 1 wurde eine Modellskizze entwickelt, in der zentrale Konzepte und Beziehungen der Domäne Computerspiele beschrieben werden. 
+In Modul 1 wurde eine Modellskizze entwickelt, in der zentrale Konzepte und Beziehungen der Domäne Computerspiele beschrieben werden:
 
-Für diese Übung wird daraus ein kleiner Ausschnitt ausgewählt:
+![Konzept-Mindmap](../assets/Mindmap.png)
+
+Für diese Übung wird daraus ein Ausschnitt ausgewählt:
 
 > Computerspiel → **hat Titel** → Spieltitel
 >
@@ -71,9 +73,11 @@ Dabei unterscheiden wir drei Ebenen:
 
 Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
-1. **Klassen auswählen und begründen**
-2. **Beziehungen mit Properties modellieren**
-3. **Entitäten und Literalwerte unterscheiden**
+**Schritt 1: Klassen auswählen und begründen**
+
+**Schritt 2: Unterklassen anlegen**
+
+**Schritt 3: Prüft und dokumentiert**  
 
 ---
 
@@ -83,7 +87,7 @@ Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
 **Material:** Computer mit Protégé Desktop, bereitgestellte Erlangen-CRM-OWL-Datei, Modellskizze aus Modul 1 [Link]
 
-**Zeit:** ca. 35 Minuten
+**Zeit:** ~ 35 Min.
 
 ---
 
@@ -95,15 +99,15 @@ Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
 ### Schritt 1: CIDOC-CRM-Klassen prüfen
 
-Sucht in Protégé die Klassen:
+Sucht in Protégé die passenden Klasse zum Domänenbegriff und prüft die Scope Note der Klasse.
+Begründet die Auswahl.
 
-- **E73 Information Object**
-- **E35 Title**
-- **E55 Type**
+**Beispiel**
 
-Prüft jeweils die Definition beziehungsweise Scope Note.
+> **E73 Information Object**
+> **E35 Title**
+> **E55 Type**
 
-Ordnet anschließend die Domänenbegriffe zu:
 
 | Domänenbegriff     | mögliche CIDOC-CRM-Klasse | Begründung         |
 | ------------------ | ------------------------- | ------------------ |
@@ -112,14 +116,17 @@ Ordnet anschließend die Domänenbegriffe zu:
 | Game Genre Type    | E55 Type                  | __________________ |
 | Game Platform Type | E55 Type                  | __________________ |
 
-**Prüft eure Auswahl:**
+
+**Hinweis:**
+
+Nicht der Name einer Klasse entscheidet über ihre Eignung, sondern ihre Bedeutung im Referenzmodell.
+
+**Leitfragen zur Überprüfung der Klasse können sein**
 
 - Was beschreibt die CIDOC-CRM-Klasse?
 - Passt diese Bedeutung zu unserem Domänenbegriff?
 - Welche Aussage der Scope Note unterstützt eure Entscheidung?
 - Sind alternative Zuordnungen denkbar?
-
-> **Hinweis:** Nicht der Name einer Klasse entscheidet über ihre Eignung, sondern ihre Bedeutung im Referenzmodell.
 
 ---
 
@@ -141,160 +148,10 @@ E55 Type
 
 Prüft anschließend die Klassenhierarchie.
 
----
 
-### Schritt 3: Eine Beziehung auswählen und prüfen
-
-Die erste fachliche Aussage lautet:
-
-> Ein Computerspiel hat einen Titel.
-
-Sucht die CIDOC-CRM-Property:
-
-**P102 has title**
-
-Prüft:
-
-- die Definition beziehungsweise Scope Note,
-- die **Domain**,
-- die **Range**.
-
-Übertragt eure Entscheidung in die Tabelle:
-
-| Ausgangsklasse | Property       | Zielklasse | Aussage                            |
-| -------------- | -------------- | ---------- | ---------------------------------- |
-| Computer_Game  | P102 has title | Game_Title | Ein Computerspiel hat einen Titel. |
-
-Entscheidet anschließend:
-
-> Passt diese Property zu der Aussage, die ihr modellieren möchtet? Begründet kurz.
-
----
-
-### Schritt 4: Beziehung in Protégé formalisieren
-
-Übertragt die Beziehung als Klassenaxiom in Protégé.
-
-Beispiel:
-
-```text
-Computer_Game
-    SubClassOf:
-        P102 has title some Game_Title
-```
-
-Vergleicht diese formale Aussage mit der ursprünglichen Modellskizze:
-
-> Spiel → hat Titel → Titel
-
-**Prüft:**
-
-- Was ist gleich geblieben?
-- Was ist durch die OWL-Formalisierung hinzugekommen?
-- Welche Rolle spielt `some` in der formalen Aussage?
-
-> **Hinweis:** In OWL werden Beziehungen zwischen Klassen nicht einfach als Pfeile eingezeichnet. Sie werden durch formale Axiome beziehungsweise Klassenrestriktionen beschrieben. Der Protégé Short Course behandelt genau diese Form der Klassenbeziehungen über Object Properties und existential restrictions (`SomeValuesFrom`).
-
----
-
-### Schritt 5: Genre oder Plattform modellieren
-
-Wählt **einen** der beiden Bereiche:
-
-- Genre
-- Plattform
-
-Die fachliche Aussage lautet beispielsweise:
-
-> Ein Computerspiel hat einen Genretyp.
-
-Sucht die Property:
-
-**P2 has type**
-
-Prüft erneut Definition, Domain und Range.
-
-Ergänzt anschließend in Protégé:
-
-```text
-Computer_Game
-    SubClassOf:
-        P2 has type some Game_Genre_Type
-```
-
-oder entsprechend:
-
-```text
-Computer_Game
-    SubClassOf:
-        P2 has type some Game_Platform_Type
-```
-
-> ---
-
----
-
-### Schritt 6: Eine Datentyp-Eigenschaft untersuchen
-
-Nun betrachten wir den konkreten Zeicheninhalt des Titels:
-
-> „The Legend of Zelda: A Link to the Past“
-
-Sucht die Property:
-
-**P190 has symbolic content**
-
-Vergleicht:
-
-```text
-Computer_Game
-    → P102 has title
-    → Game_Title
-```
-
-mit
-
-```text
-Game_Title
-    → P190 has symbolic content
-    → "The Legend of Zelda: A Link to the Past"
-```
-
-**Prüft:**
-
-* Was befindet sich jeweils auf der rechten Seite der Beziehung?
-* Welche Beziehung verbindet zwei Entitäten?
-* Welche Beziehung führt zu einem Literalwert?
-
-| Beispiel                   | Art der Beziehung    |
-| -------------------------- | -------------------- |
-| Computer_Game → Game_Title | Object Property      |
-| Game_Title → Zeichenkette  | Datentyp-Eigenschaft |
-
-> **Merksatz:** Object Properties verbinden Entitäten miteinander. Datentyp-Eigenschaften verbinden Entitäten mit Literalwerten wie Zeichenketten oder Zahlen.
-
-Der Protégé Short Course unterscheidet entsprechend zwischen Classes, Object Properties, Data Properties, Individuals, Datatypes und Literals und behandelt Data Properties als eigenen Bestandteil der OWL-Modellierung.
-
----
-
-## Modell prüfen
+### Schritt 3: Prüft das Modell und dokumentiert 
 
 Vergleicht euer Ergebnis mit der ursprünglichen Modellskizze.
-
-Die Struktur sollte vereinfacht folgende Aussagen enthalten:
-
-```text
-Computer_Game
-│
-├── P102 has title ───────→ Game_Title
-│
-│                           └── P190 has symbolic content
-│                               → "The Legend of Zelda: A Link to the Past"
-│
-└── P2 has type ──────────→ Game_Genre_Type
-                            oder
-                            Game_Platform_Type
-```
 
 **Prüft eure Modellierung:**
 
@@ -305,9 +162,7 @@ Computer_Game
 * Lassen sich die Beziehungen weiterhin als verständliche Aussagen lesen?
 * Welche Elemente stammen aus CIDOC CRM und welche wurden für die Domäne ergänzt?
 
----
-
-## Modellierungsentscheidung dokumentieren
+**Modellierungsentscheidung dokumentieren**
 
 Dokumentiert für **eine** Zuordnung eure Entscheidung:
 
@@ -319,7 +174,9 @@ Dokumentiert für **eine** Zuordnung eure Entscheidung:
 | Was sagt die Scope Note dazu?                        |         |
 | Warum halten wir die Zuordnung für geeignet?         |         |
 
-> **Tipp:** Es geht nicht darum, eine einzig „richtige“ Lösung zu finden. Entscheidend ist, dass die Modellierungsentscheidung fachlich nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
+**Hinweis:** 
+
+Es geht nicht darum, eine einzig „richtige“ Lösung zu finden. Entscheidend ist, dass die Modellierungsentscheidung fachlich nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
 
 ---
 
@@ -329,15 +186,16 @@ Am Ende dieser Übung liegt ein kleiner formal umgesetzter Ausschnitt des Domän
 
 Ihr habt:
 
-* domänenspezifische Konzepte als **Subklassen** des CIDOC CRM angelegt,
-* bestehende **CIDOC-CRM-Properties** geprüft und wiederverwendet,
-* mindestens eine Beziehung als **OWL-Axiom** formalisiert,
-* eine **Datentyp-Eigenschaft** untersucht beziehungsweise angewendet,
-* und eine Modellierungsentscheidung anhand einer **Scope Note** begründet.
+- domänenspezifische Konzepte als **Subklassen** des CIDOC CRM angelegt,
+- und eine Modellierungsentscheidung anhand einer **Scope Note** begründet.
 
 Speichert die erweiterte Ontologie anschließend als **OWL-Datei**.
 
-> **Wichtig:** Die Ontologie ist weiterhin ein Modellausschnitt. Sie bildet nicht die gesamte Domäne Computerspiele ab, sondern dokumentiert exemplarisch den Weg von einer fachlichen Modellskizze zu einer maschinenlesbaren Ontologiestruktur.
+**Hinweis:** 
+
+Die Ontologie ist weiterhin ein Modellausschnitt. Sie bildet nicht die gesamte Domäne Computerspiele ab, sondern dokumentiert exemplarisch den Weg von einer fachlichen Modellskizze zu einer maschinenlesbaren Ontologiestruktur.
+
+MUSTERBEISPIEL einbinden: http://games.m-e-g-a.org/game_domain.rdf  
 
 ---
 
@@ -351,11 +209,4 @@ Dabei wurden drei Ebenen miteinander verbunden:
 
 Die gespeicherte OWL-Datei bildet die Grundlage für **Modul 3**.
 
-Dort wird die Ontologie in **WissKI** eingebunden. Die hier verwendeten Klassen und Properties werden anschließend im **WissKI Pathbuilder** zu semantischen Pfaden kombiniert und für die strukturierte Erfassung von Forschungsdaten verwendet.
-
-Für Modul 3 benötigt ihr:
-
-* die gespeicherte **OWL-Datei**,
-* die verwendeten Klassen und Properties,
-* sowie eure dokumentierten Modellierungsentscheidungen.
 
