@@ -63,7 +63,7 @@ Teilnehmende können...
 
 ## Visualisierung einer Domänenontologie als Diagramm mit Draw.io
 
-In dieser Einheit wird das in Modul 1 und 2 entwickelte Datenmodell als Diagramm in Draw.io visualisiert. 
+In dieser Einheit wird das in Modul 1 und 2 entwickelte Datenmodell als Diagramm in Draw.io (Ltd2026drawio) visualisiert. 
 
 Das entwickelte Draw.io-Diagramm bildet die **Voraussetzung für die (halb-)automatisierte Pipeline** zur Erstellung eines **WissKI Pathbuilders**.
 
@@ -221,6 +221,7 @@ Im nächsten Schritt wird das erstellte Draw.io-Diagramm automatisch in einen Wi
 
 [Levin1987visual] Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating fuctions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
 
+(Ltd2026drawio)
 
 
 <!-- ## Ausgangspunkt
