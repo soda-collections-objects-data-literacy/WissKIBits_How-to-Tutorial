@@ -22,8 +22,7 @@ Teilnehmende können...
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (neu)
 - Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-- ?Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (neu)
-
+  
 ---
 
 
