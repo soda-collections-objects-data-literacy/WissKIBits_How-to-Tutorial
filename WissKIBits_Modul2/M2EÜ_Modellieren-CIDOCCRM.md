@@ -14,11 +14,12 @@ Einheit 3: **Semantische Modellierung mit CIDOC CRM**
 
 Teilnehmende können...
 
-* Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
-* Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-* Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a
-* Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx)
-* Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
+- Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
+- Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
+- Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a
+- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (neu)
 
 
 ---
