@@ -89,8 +89,25 @@ Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
 ---
 
+## Beispiel: Von der Modellskizze zur Ontologie
 
-####ab Hier###
+In Modul 1 wurde zunächst fachlich formuliert:
+
+> Spiel → hat Titel → Titel
+
+Für die semantische Modellierung wird nun untersucht, welche Elemente des CIDOC CRM diese Aussage ausdrücken können.
+
+Ein möglicher Ausgangspunkt ist:
+
+| Element           | mögliche CIDOC-CRM-Zuordnung |
+| ----------------- | ---------------------------- |
+| **Computerspiel** | E73 Information Object       |
+| **Spieltitel**    | E35 Title                    |
+| **Beziehung**     | P102 has title               |
+
+Dabei ist **E35 Title** zugleich eine speziellere Form von **E41 Appellation**. Die Klassenhierarchie macht damit sichtbar, dass ein Titel eine besondere Form einer Benennung ist.
+
+---
 
 ## Übung – Modell in Protégé umsetzen
 
@@ -98,19 +115,44 @@ Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
 **Material:** Computer mit Protégé Desktop, bereitgestellte Erlangen-CRM-OWL-Datei, Modellskizze aus Modul 1 [Link]
 
-**Zeit:** ~ 35 Min.
-
----
+**Zeit:** ~ 45 Min.
 
 **Aufgabe: Einen Ausschnitt des Domänenmodells in Protégé nachmodellieren**
 
-Öffnet die bereitgestellte **Erlangen-CRM-Ontologie** (https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé und setzt den ausgewählten Ausschnitt des Modells aus Modul 1 schrittweise um.
+---
+
+### Schritt 1: Erlangen CRM laden und Struktur erkunden
+
+Öffnet **Protégé Desktop** und ladet die bereitgestellte OWL-Implementierung des CIDOC CRM:
+
+[**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl)
+
+Erkundet anschließend kurz die Struktur der Ontologie.
+
+Sucht in der Klassenhierarchie:
+
+- **E41 Appellation**
+- **E35 Title**
+- **E55 Type**
+- **E73 Information Object**
+
+Untersucht dabei insbesondere:
+
+- Wo befindet sich die Klasse in der Hierarchie?
+- Welche Ober- und Unterklassen sind sichtbar?
+- Welche Beschreibung bzw. Annotation ist hinterlegt?
+- Welche Properties werden für die Klasse verwendet?
+
+**Hinweis:**
+
+> Achtet besonders auf **E41 Appellation** und **E35 Title**: E35 Title ist eine Unterklasse von E41 Appellation. Dadurch wird sichtbar, wie allgemeinere und speziellere Konzepte innerhalb einer Ontologie miteinander verbunden werden.
 
 ---
 
-### Schritt 1: CIDOC-CRM-Klassen prüfen
+### Schritt 2: Passende CIDOC-CRM-Klassen auswählen und prüfen
 
 Sucht in Protégé die passenden Klasse zum Domänenbegriff und prüft die Scope Note der Klasse.
+
 Begründet die Auswahl.
 
 **Beispiel**
@@ -130,7 +172,7 @@ Begründet die Auswahl.
 
 **Hinweis:**
 
-Nicht der Name einer Klasse entscheidet über ihre Eignung, sondern ihre Bedeutung im Referenzmodell.
+> Nicht der Name einer Klasse entscheidet über ihre Eignung, sondern ihre Bedeutung im Referenzmodell.
 
 **Leitfragen zur Überprüfung der Klasse können sein**
 
@@ -141,9 +183,11 @@ Nicht der Name einer Klasse entscheidet über ihre Eignung, sondern ihre Bedeutu
 
 ---
 
-### Schritt 2: Domänenspezifische Subklassen anlegen
+### Schritt 3: Domänenspezifische Subklassen anlegen
 
-Legt nun folgende Klassen als neue Subklassen an:
+Legt nun die domänenspezifischen Klassen in Protégé an.
+
+Die Klassen sollen unter den zuvor ausgewählten CIDOC-CRM-Klassen eingeordnet werden:
 
 ```text
 E73 Information Object
@@ -159,19 +203,78 @@ E55 Type
 
 Prüft anschließend die Klassenhierarchie.
 
+---
 
-### Schritt 3: Prüft das Modell und dokumentiert 
+### Impulsfrage
+
+> Was bedeutet die Aussage `Game_Title SubClassOf E35 Title`?
+
+Formuliert sie in natürlicher Sprache:
+
+> ---
+
+Überlegt anschließend:
+
+> Welche Information erhält eine Maschine durch die Subklassenbeziehung, die in unserer ursprünglichen Mindmap noch nicht formal festgelegt war?
+
+---
+
+Für den Titel:
+
+> Computerspiel → **hat Titel** → Spieltitel
+
+Sucht in Protégé nach:
+
+**P102 has title**
+
+Untersucht:
+
+* die Beschreibung der Property,
+* ihre Domain,
+* ihre Range.
+
+Für Genre oder Plattform:
+
+> Computerspiel → **hat Typ** → Genre / Plattformtyp
+
+Sucht nach:
+
+**P2 has type**
+
+Untersucht erneut:
+
+* die Beschreibung der Property,
+* ihre Domain,
+* ihre Range.
+
+Haltet eure Prüfung fest:
+
+| Ausgang       | Property       | Ziel               | beabsichtigte Aussage                                 |
+| ------------- | -------------- | ------------------ | ----------------------------------------------------- |
+| Computer_Game | P102 has title | Game_Title         | Ein Computerspiel hat einen Titel.                    |
+| Computer_Game | P2 has type    | Game_Genre_Type    | Ein Computerspiel wird einem Genretyp zugeordnet.     |
+| Computer_Game | P2 has type    | Game_Platform_Type | Ein Computerspiel wird einem Plattformtyp zugeordnet. |
+
+**Leitfragen:**
+
+- Passt die Bedeutung der Property zu unserer fachlichen Aussage?
+- Sind Ausgangs- und Zielklasse mit Domain und Range vereinbar?
+- Beschreibt die Property tatsächlich die Beziehung, die wir ausdrücken möchten?
+
+---
+
+### Schritt 5: Modell prüfen und dokumentieren 
 
 Vergleicht euer Ergebnis mit der ursprünglichen Modellskizze.
 
 **Prüft eure Modellierung:**
 
-* Sind die domänenspezifischen Klassen sinnvoll in die CIDOC-CRM-Hierarchie eingeordnet?
-* Passen die Properties zur beabsichtigten Aussage?
-* Stimmen Domain und Range?
-* Können die Entscheidungen anhand der Scope Notes begründet werden?
-* Lassen sich die Beziehungen weiterhin als verständliche Aussagen lesen?
-* Welche Elemente stammen aus CIDOC CRM und welche wurden für die Domäne ergänzt?
+- Sind die domänenspezifischen Klassen sinnvoll in die CIDOC-CRM-Hierarchie eingeordnet?
+- Passen die Properties zur beabsichtigten Aussage?
+- Stimmen Domain und Range?
+- Können die Entscheidungen anhand der Scope Notes begründet werden?
+- Lassen sich die Beziehungen weiterhin als verständliche Aussagen lesen?
+- Welche Elemente stammen aus CIDOC CRM und welche wurden für die Domäne ergänzt?
 
 **Modellierungsentscheidung dokumentieren**
 
@@ -187,11 +290,29 @@ Dokumentiert für **eine** Zuordnung eure Entscheidung:
 
 **Hinweis:** 
 
-Es geht nicht darum, eine einzig „richtige“ Lösung zu finden. Entscheidend ist, dass die Modellierungsentscheidung fachlich nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
+> Es geht nicht darum, eine einzig „richtige“ Lösung zu finden. Entscheidend ist, dass die Modellierungsentscheidung fachlich nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
 
 ---
 
-## Ergebnis: Vom Domänenmodell zur OWL-Ontologie
+## Musterlösung
+
+Als Musterbeispiel kann die bestehende Domänenontologie für Computerspiele betrachtet werden:
+
+[**Game Domain Ontology – RDF**](http://games.m-e-g-a.org/game_domain.rdf)
+
+Vergleicht eure eigene Modellierung erst **nach Abschluss der Aufgabe** mit dem Musterbeispiel.
+
+Achtet dabei insbesondere auf:
+
+* die Einordnung domänenspezifischer Klassen,
+* die Wiederverwendung von CIDOC CRM Properties,
+* und mögliche Unterschiede zu euren eigenen Modellierungsentscheidungen.
+
+> **Hinweis:** Das Musterbeispiel ist als Modellierungsvorschlag zu verstehen und nicht als einzig mögliche Lösung.
+
+---
+
+## Ergebnis
 
 Am Ende dieser Übung liegt ein kleiner formal umgesetzter Ausschnitt des Domänenmodells **Computerspiele** vor.
 
