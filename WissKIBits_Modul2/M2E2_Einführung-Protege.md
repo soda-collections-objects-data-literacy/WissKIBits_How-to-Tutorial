@@ -124,7 +124,7 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 ---
 
-## Ontologie laden Struktur erkunden
+## Ontologie laden und Struktur erkunden
 
 **Arbeitsform:** Einzelarbeit
 
@@ -132,12 +132,14 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 **Zeit:** 5 Min.
 
-Beschreibung der Aufgabe
+**Aufgabe:**
 
-- Schitt 1: Arbeitsschritt
-- Schitt 2: Arbeitsschritt
+- Schitt 1: Protégé öffnen und Erlangen CRM / OWL: ** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl laden
+- Schitt 2: Die Klassenhierarchie erkunden und E42 Appelation suchen und Klasseneigenschaften aufrufen. Mögliche Beziehungen sichten.
 
-**Hinweis:** Kurze Hilfestellung oder Einschränkung.
+**Hinweis:** 
+
+Diese Aufgabe stellt sicher, dass alle Teilnehmenden den Ontologie-Editor Protégé verfügbar haben und über eine URL Erlangen CRM / OWL geladen haben und somit die technische Grundlage für das Entwickeln einer CIDOC CRM baierten Domänenontologie geschaffen haben.
 
 ---
 
