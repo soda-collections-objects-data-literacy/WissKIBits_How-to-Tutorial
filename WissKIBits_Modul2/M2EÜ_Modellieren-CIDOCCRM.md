@@ -36,14 +36,11 @@ Dazu werden
 - ausgewählte Konzepte aus dem Domänenmodell mit Klassen des **CIDOC CRM** abgeglichen,
 - Modellierungsentscheidungen anhand von **Definitionen und Scope Notes** überprüft,
 - domänenspezifische Konzepte als **Subklassen** in Protégé angelegt,
-- Beziehungen mit bestehenden **CIDOC-CRM-Properties** formalisiert,
-- und exemplarisch eine **Datentyp-Eigenschaft** verwendet.
-  
-Außerdem wird untersucht, welche Properties im CIDOC CRM für die Beziehungen zwischen diesen Konzepten zur Verfügung stehen. 
+- Properties im CIDOC CRM für die Beziehungen zwischen diesen Konzepten untersucht.
 
 Im Mittelpunkt steht der  **Workflow der formalen Modellierung**.
 
-Am Ende liegt ein kleiner, formal umgesetzter Ausschnitt des Domänenmodells als **OWL-Ontologie** vor.
+Am Ende liegt ein formal umgesetzter Ausschnitt des Domänenmodells als **OWL-Ontologie** vor.
 
 ---
 
@@ -53,16 +50,15 @@ In Modul 1 wurde eine Modellskizze entwickelt, in der zentrale Konzepte und Bezi
 
 ![Konzept-Mindmap](../assets/Mindmap.png)
 
-Für diese Übung wird daraus ein Ausschnitt ausgewählt:
+Die gesammelten Begriffe der Domäne sollen nun mit CIDOC CRM und Protégé schrittweise formalisiert werden.
+
+Für diese Übung können u.a. ausgewählt werden:
 
 > Computerspiel → **hat Titel** → Spieltitel
 >
 > Computerspiel → **hat Typ** → Genre
 >
 > Computerspiel → **hat Typ** → Plattformtyp
-
-
-Die gesammelten Begriffe der Domäne sollen nun mit CIDOC CRM und Protégé schrittweise formalisiert werden.
 
 
 Dabei unterscheiden wir drei Ebenen:
@@ -104,6 +100,7 @@ Ein möglicher Ausgangspunkt ist:
 | **Computerspiel** | E73 Information Object       |
 | **Spieltitel**    | E35 Title                    |
 | **Beziehung**     | P102 has title               |
+
 
 Dabei ist **E35 Title** zugleich eine speziellere Form von **E41 Appellation**. Die Klassenhierarchie macht damit sichtbar, dass ein Titel eine besondere Form einer Benennung ist.
 
