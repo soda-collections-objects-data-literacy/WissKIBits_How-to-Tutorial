@@ -52,6 +52,7 @@ Teilnehmende können...
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern.
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM anwenden.
+- Modellierung mit dem Refverenzmodell CIDOC CRM erläutern (LZ-ID SODa\_03\_007\_0785a)
 
 ---
 
