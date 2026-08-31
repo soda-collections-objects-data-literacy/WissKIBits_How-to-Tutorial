@@ -8,7 +8,7 @@ Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
 Einheit 3: **Semantische Modellierung mit CIDOC CRM**  
 
-**Dauer:** ~ 45 Min.
+**Dauer:** ~ 55 Min.
 
 **Lernziele:**
 
@@ -27,9 +27,9 @@ Teilnehmende können...
 
 ## Ziel und Szenario
 
-Dies ist eine Praxiseinheit. Ausgangspunkt ist das in Modul 1 entwickelte Modell der Domäne **Computerspiele**.
+Dies ist eine Praxiseinheit. Ausgangspunkt ist das in Modul 1 entwickelte Modell der Domäne Computerspiele.
 
-Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, wie aus einer konzeptionellen Modellskizze eine **formale Ontologiestruktur** entsteht.
+Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, wie aus einer konzeptionellen Modellskizze schrittweise eine **formale Ontologiestruktur** entsteht.
 
 Dazu werden
 
@@ -38,10 +38,12 @@ Dazu werden
 - domänenspezifische Konzepte als **Subklassen** in Protégé angelegt,
 - Beziehungen mit bestehenden **CIDOC-CRM-Properties** formalisiert,
 - und exemplarisch eine **Datentyp-Eigenschaft** verwendet.
+  
+Außerdem wird untersucht, welche Properties im CIDOC CRM für die Beziehungen zwischen diesen Konzepten zur Verfügung stehen. 
+
+Im Mittelpunkt steht der  **Workflow der formalen Modellierung**.
 
 Am Ende liegt ein kleiner, formal umgesetzter Ausschnitt des Domänenmodells als **OWL-Ontologie** vor.
-
-Im Mittelpunkt steht der **Workflow der formalen Modellierung**.
 
 ---
 
@@ -59,7 +61,9 @@ Für diese Übung wird daraus ein Ausschnitt ausgewählt:
 >
 > Computerspiel → **hat Typ** → Plattformtyp
 
-Die fachlichen Begriffe sollen nun mit CIDOC CRM und Protégé schrittweise formalisiert werden.
+
+Die gesammelten Begriffe der Domäne sollen nun mit CIDOC CRM und Protégé schrittweise formalisiert werden.
+
 
 Dabei unterscheiden wir drei Ebenen:
 
@@ -75,13 +79,18 @@ Dabei unterscheiden wir drei Ebenen:
 
 Der Fokus liegt auf drei grundlegenden Arbeitsschritten:
 
-**Schritt 1: Klassen auswählen und begründen**
+**Schritt 1: Ontologie laden und Struktur erkunden**
 
-**Schritt 2: Unterklassen anlegen**
+**Schritt 2: CIDOC-CRM-Klassen auswählen und begründen**
 
-**Schritt 3: Prüft und dokumentiert**  
+**Schritt 3: Domänenspezifische Subklassen anlegen**  
+
+**Schritt 4: Modell prüfen und Entscheidungen dokumentieren**
 
 ---
+
+
+####ab Hier###
 
 ## Übung – Modell in Protégé umsetzen
 
