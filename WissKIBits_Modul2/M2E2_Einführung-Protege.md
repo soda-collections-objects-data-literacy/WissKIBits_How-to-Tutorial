@@ -88,7 +88,7 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 ---
 
-## Schritte im Überblick
+### Schritte im Überblick
 
 **Schritt 1: Vorhandene Ontologie laden**
 
