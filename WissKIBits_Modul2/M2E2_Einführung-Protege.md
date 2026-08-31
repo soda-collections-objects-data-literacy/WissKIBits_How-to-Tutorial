@@ -88,19 +88,25 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 ### Schritte im Überblick
 
+Entweder ist Protégé Desktop bereits lokal installiert oder für WebProtégé ist ein Account vorhanden:
+
+- Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege))
+- webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)).
+
 **Schritt 1: Vorhandene Ontologie laden**
 
-- In der praktischen Modellierung wird das **CIDOC CRM als bestehendes Ontologiemodell** zurgrunde gelegt.
-- Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet.
-- Diese wird in Protégé Desktop geladen.
-- **Download Erlangen CRM / OWL:** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+- Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet: 
+  Das **Erlangen CRM / OWL** kann hier herunter geladen werden: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+- Diese wird in **Protégé Desktop** geladen.
 
 **Schritt 2: Struktur erkunden**
 
 - In Protége lässt sich die **Struktur des CIDOC CRM erkunden**.
 - Dazu gehören insbesondere die **Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties)**, über die Klassen (Entities) miteinander in Beziehung gestzt oder beschrieben werden.
 
-> **Hinweis**
+
+**Hinweis**
+
 > - Klassen (Entities): die zentralen Klassen bzw. Entitätstypen des CIDOC CRM
 > - Objekteigenschaften (Properties): Relationen zwischen Klassen (Entities)
 > - Datentyp-Eigenschaften (Datatype-Properties): Eigenschaften, die Werte bzw. Literale beschreiben
@@ -109,7 +115,8 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 - Neue, domänenspezifische Entities werden als **Subklassen bestehender CIDOC CRM-Entities** angelegt.
 
->  **Beispiel:**
+**Beispiel:**
+
 >  E35 Title --> Game_Title
 
 - **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
