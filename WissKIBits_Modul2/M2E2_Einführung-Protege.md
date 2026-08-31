@@ -135,7 +135,7 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 **Aufgabe:**
 
 - Schitt 1: Protégé öffnen und Erlangen CRM / OWL: ** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl laden
-- Schitt 2: Die Klassenhierarchie erkunden und E42 Appelation suchen und Klasseneigenschaften aufrufen. Mögliche Beziehungen sichten.
+- Schitt 2: Die Klassenhierarchie erkunden und **E42 Appelation** suchen, **Klasseneigenschaften** aufrufen und **Beziehungen** sichten.
 
 **Hinweis:** 
 
