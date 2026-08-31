@@ -109,10 +109,6 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 
 - **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
 
-**Schritt 4: Speichern & Exportieren ( nicht mehr in der Live-Demo enthalten)**
-
-- Die erweiterte Ontologie wird gespeichert und steht anschließend für **WissKI** und den **Pathbuilder** bereit.
-
 ---
 
 ## Video-Demonstration
@@ -124,25 +120,6 @@ Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schaff
 </video>
 
 > Die Live-Demo veranschaulicht Schritt 1: Vorhandene Ontologie laden, Schritt 2: Struktur erkunden und Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
-
----
-
-## Ontologie laden und Struktur erkunden
-
-**Arbeitsform:** Einzelarbeit
-
-**Material:** Protége Desktop / (WebProtégé)
-
-**Zeit:** 5 Min.
-
-**Aufgabe:**
-
-- Schitt 1: Protégé öffnen und Erlangen CRM / OWL: ** https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl laden
-- Schitt 2: Die Klassenhierarchie erkunden und **E42 Appellation** suchen, **Klasseneigenschaften** aufrufen und **Beziehungen** sichten.
-
-**Hinweis:** 
-
-Diese Aufgabe stellt sicher, dass alle Teilnehmenden den Ontologie-Editor Protégé verfügbar haben und über eine URL Erlangen CRM / OWL geladen haben und somit die technische Grundlage für das Entwickeln einer CIDOC CRM baierten Domänenontologie geschaffen haben.
 
 ---
 
