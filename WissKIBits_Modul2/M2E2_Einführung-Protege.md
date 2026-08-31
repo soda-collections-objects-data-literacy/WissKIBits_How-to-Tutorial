@@ -86,8 +86,6 @@ Anhand der geladenen Ontologie wird die Arbeitsoberfläche von Protégé vorgest
 
 Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schafft die Grundlage für die anschließende **Praxiseinheit**, in der das zuvor entwickelte Modell der Domäne Computerspiele in Protégé umgesetzt wird.
 
----
-
 ### Schritte im Überblick
 
 **Schritt 1: Vorhandene Ontologie laden**
