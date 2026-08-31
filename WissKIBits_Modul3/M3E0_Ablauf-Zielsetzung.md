@@ -152,6 +152,8 @@ flowchart TD
     E --> F["Pfade und Pfadgruppen analysieren"]
 ```
 
+> **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
+
 ---
 
 ## Arbeitsweise und Beispiel
@@ -215,69 +217,5 @@ Im nächsten Schritt werden aus den importierten Pfaden und Pfadgruppen Eingabes
 ## Redaktionelle Hinweise
 
 * Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt. Da beide Facheinheiten praktische Aufgaben enthalten, sollte die Dauer nach einem Testlauf überprüft werden.
-* Die Schreibweise von **gnm-service**, der genaue Dienstname und die institutionelle Zuordnung sollten einheitlich festgelegt werden.
-* Die Formulierung „syntaktische Gültigkeit anhand der Referenzontologie“ sollte fachlich geprüft werden. Je nach tatsächlichem Prüfungsumfang kann „strukturelle und ontologische Validierung“ präziser sein.
-* Die verwendeten Versionen von CIDOC CRM, Erlangen CRM, Domänenontologie, Draw.io-Vorlage und Konvertierungsdienst sollten für eine reproduzierbare Durchführung dokumentiert werden.
-* Für die Arbeit in WissKI sind eine vorbereitete Instanz, geeignete Zugriffsrechte und eine vorab getestete Importfunktion erforderlich / bzw Alternative für "Modul-Selbstnutzung"
 
 
-<!-- alt
-
-## Aktivierung und Input
-
-In Modul 1 wurde festgelegt, welche Information dokumentiert sein sollte. Wir blicken nochmal auf die erste Aktivierungsübung (M1E1) zurück.
-
-[Vorlage öffnen](../assets/M1E1_Aktivierung.docx)
-
-oder 
-
-[Miro Board öffnen]()
-
-
-**Impulsfrage** 
-
-Welche Fragen fallen euch zu dem Gegenstandsbereich ein und sollten zuverlässig beantworten werden?
-
-**Zuruf im Plenum**
-
-Abfragewünsche werden gesammelt und zur Aktivierungsaufgabe (M1E1) ergänzt:
-
-* „Wir wollen finden…“
-
-
----
-
-### Lösungsbeispiele aus dem Spielekontext
-
-_Hilfestellung – nicht vorgeben_
-
-* „… alle Spiele mit einer bestimmten Eigenschaft (z. B. Genre oder Modus).“
-* „… alle Spiele, die mit einer bestimmten Person/Organisation verknüpft sind (z. B. Entwickler:in, Studio, Publisher).“
-* „… alle Spiele bzw. Spielversionen aus einem Zeitraum X oder einer Region/Plattform Y.“
-* „… Spiele mit ähnlichen Merkmalen (z. B. ähnliche Beschreibung, ähnliche Einordnung, ähnliche Eigenschaften).“
-
----
-
-### Lösungsbeispiele 
-
-* „… alle Objekte mit bestimmter Provenienzstation“
-* „… alle Werke einer Person in einer bestimmten Rolle“
-* „… alle Ereignisse in Zeitraum X an Ort Y“
-* „… Objekte mit ähnlichen Kontextmerkmalen“
-
-
-**In Pfaden denken**
-
-Schaut noch einmal auf die Modellskizze aus der Modellierungsübung (M1E5) und prüft: 
-
-* "Welche Frage ist beantwortbar? Benennt den/die Pfad/e."
-*  "Wo startet die Anfrage?"
-
----
-
-## Zusammenfassung
-
-Aus dem konzeptuellen Domänenmodell entstehen in Modul 2 formalisierte Pfade, also eine valide domänenspezifische Ontologiestruktur für den WissKI-Pathbuilder, mit der die Fragen beantwortet werden können.
-
-
--->
