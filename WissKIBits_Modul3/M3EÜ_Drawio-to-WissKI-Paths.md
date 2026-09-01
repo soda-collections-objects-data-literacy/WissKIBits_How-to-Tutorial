@@ -62,10 +62,9 @@ Dies ist eine Praxiseinheit. Ausgangspunkt ist das in den vorherigen Modulen 2 i
 
 In dieser Einheit wird untersucht, wie aus einem semantischen Diagramm eine WissKI-Pathbuilder-Struktur entsteht.
 
-Dazu wird ein Draw.io-Diagramm mit dem Webservice „Draw.io diagrams to WissKI pathbuilders“ gegen die CIDOC CRM basierte Domänenontologie validiert und in eine Pathbuilder-XML-Datei transformiert. 
+Dazu wird ein Draw.io-Diagramm vervollstädnigt und mit dem Webservice „Draw.io diagrams to WissKI pathbuilders“ gegen die CIDOC CRM basierte Domänenontologie validiert sowie in eine Pathbuilder-XML-Datei transformiert. 
 
 Diese Datei wird anschließend in WissKI importiert und auf ihre erzeugten Gruppen und semantischen Pfade überprüft.
-
 
 Damit wird das Domänenmodell erstmals als funktionale Ontologiestruktur in WissKI nutzbar.
 
@@ -76,9 +75,9 @@ Damit wird das Domänenmodell erstmals als funktionale Ontologiestruktur in Wiss
 
 ---
 
-## Ausgangspunkt: Vom semantischen Modell zum Pathbuilder
+## Ausgangspunkt vom semantischen Modell zum Pathbuilder
 
-In Modul 2 wurde das Domänenmodell auf Grundlage von CIDOC CRM formalisiert. Für die weitere Implementierung liegt das Modell nun zusätzlich als Draw.io-Lücken-Diagramm vor.
+In Modul 2 wurde das Domänenmodell auf Grundlage von CIDOC CRM formalisiert. Für die weitere Implementierung liegt das Modell nun zusätzlich als **Draw.io-Lücken-Diagramm** vor.
 
 **Beispiel:**
 
@@ -86,7 +85,7 @@ Eine Beziehung aus dem Modell kann folgendermaßen dargestellt sein:
 
 > Computer Game → P102 has title → Game Title
 
-Im WissKI Pathbuilder wird aus einer solchen Folge von Klassen (Entities) und Beziehungen (Properties) ein semantischer Pfad.
+Im WissKI Pathbuilder wird aus einer solchen Folge von Klassen (Entities) und Beziehungen (Properties) ein **semantischer Pfad** (sog. Triple).
 
 Dabei unterscheiden wir drei Ebenen:
 
@@ -127,9 +126,11 @@ Der Fokus liegt auf fünf grundlegenden Arbeitsschritten:
 Vervollständigt das vorbereitete semantische Draw.io-Diagramm, transformiert dieses in eine WissKI-Pathbuilder-XML-Datei, importiert diese in WissKI und überprüft die erzeugte Pfadstruktur.
 
 
-### Schritt 1: Ausgangsdiagramm vervollstädnigen und prüfen
+### Schritt 1: Ausgangsdiagramm vervollstädigen und prüfen
 
-**Öffnet** die vorbereitete Draw.io-Datei mit dem Domänenmodell. (LINK TODO)
+**Ladet** das vorbereitete **Draw.io-Lücken-Diagramm** herunter: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/resources/Gruppe_A.drawio.xml oder WissKIBits_Modul3/resources/Gruppe_A.drawio.xml
+
+**Öffnet** die vorbereitete Draw.io-Datei mit dem Domänenmodell in Draw.io: https://app.diagrams.net/ 
 
 **Prüft**, ob
 
@@ -145,7 +146,7 @@ Vervollständigt das vorbereitete semantische Draw.io-Diagramm, transformiert di
 - Welche Klasse bildet das Ziel?
 - Entspricht die Beziehung dem Modell aus Modul 2?
 
-Hinweis: 
+**Hinweis:** 
 
 > Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind.
 
@@ -157,7 +158,7 @@ Hinweis:
 
 [**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
 
-Geht anschließend wie folgt vor:
+Geht wie folgt vor:
 
 - Exportiert oder verwendet die vorbereitete **Draw.io-XML-Datei**.
 - Ladet die Datei unter **Upload draw.io XML file for conversion to WissKI Pathbuilder XML** hoch.
@@ -169,7 +170,7 @@ Geht anschließend wie folgt vor:
 
 > Die Transformation bildet damit den technischen Zwischenschritt:
 
-> **Draw.io XML → Webservice:Draw.io diagrams to WissKI pathbuilders → WissKI Pathbuilder XML**
+> Draw.io XML → Webservice:Draw.io diagrams to WissKI pathbuilders → WissKI Pathbuilder XML
 
 
 **Impulsfrage**
@@ -182,45 +183,38 @@ Notiert eine kurze Antwort.
 
 ### Schritt 3: Ontologie in WissKI prüfen
 
-**Loggt** euch in die vorbereitete **WissKI-Instanz** ein.
+Die im Pathbuilder verwendeten Klassen und Properties müssen für WissKI über die Ontologie verfügbar sein. Der Pathbuilder verwendet diese Elemente zur Konstruktion semantischer Pfade.
 
-**Hinweis:**
+**Loggt** euch in die vorbereitete **WissKI-Instanz** ein. 
 
-> ....Jetzt ausprobieren.... Registrieren und loslegen - LINK .....
+**Prüft** zunächst, ob die für das Domänenmodell benötigte Ontologie bereits verfügbar ist: 
 
-
-**Prüft** zunächst, ob die für das Domänenmodell benötigte Ontologie bereits verfügbar ist.
-
-
-**Navigiert** dazu zu:
-
-> **Configuration → WissKI Ontology**
-
-
-**Prüft** den verwendeten Adapter und die geladene Ontologie.
-
-Falls die Domänenontologie noch nicht geladen wurde:
-
-- wählt den vorgesehenen WissKI-Adapter aus,
-- fügt die Adresse der **Games Ontology** ein,
-- ladet die Ontologie.
-
+- Navigiert zu **WissKI → Configuration → WissKI Ontology**
+- Prüft den verwendeten Adapter und die geladene Ontologie
+- Falls die Domänenontologie noch nicht geladen wurde, wählt den vorgesehenen WissKI-Adapter aus, fügt die Adresse der **Games Ontology** ein, ladet die Ontologie.
 
 **Games Ontology:**
 
 [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
-**Hinweis:** 
 
-> Die im Pathbuilder verwendeten Klassen und Properties müssen für WissKI über die Ontologie verfügbar sein. Der Pathbuilder verwendet diese Elemente zur Konstruktion semantischer Pfade.
+**Hinweis:**
+
+> Sofern im Tutorial keine WissKI-Instanzen zur Verfügung gestellt werden, kann für das Tutorial eine bereitgestellte WissKI-Umgebung im SODa Semantic Co-Working Space (SCS) genutzt werden.
+>
+> Die Nutzung ist kostenlos.
+>
+> Hierfür bitte kostenlos registrieren: https://manager.scs.sammlungen.io/user/register
+>
+> Nach der Freischaltung deines Kontos kannst du dich im SCS anmelden und auf die für das Tutorial benötigte WissKI-Umgebung zugreifen.
+>
+> Du musst für das Tutorial keine eigene WissKI-Installation einrichten. Der SCS stellt dir die benötigte technische Umgebung bereit.
 
 ---
 
 ### Schritt 4: Neuen Pathbuilder anlegen und XML importieren
 
-**Navigiert** zu:
-
-> **Configuration → Pathbuilders**
+**Navigiert** zu: **Configuration → Pathbuilders**
 
 **Legt** einen neuen Pathbuilder an:
 
@@ -255,28 +249,73 @@ Im Bereich **Pathbuilder Definition Import**:
 - Sind alle erwarteten Beziehungen vorhanden?
 - Gibt es unerwartete oder fehlende Pfade?
 
-**Haltet** mindestens für **einen** Pfad fest: (EVTL: Quizz)
+#### Quiz: Untersuche den erzeugten Pathbuilder
 
-| Element | Ergebnis |
-|---|---|
-| **Gruppe** | |
-| **Ausgangsklasse** | |
-| **Property** | |
-| **Zielklasse** | |
-| **Entspricht dem Diagramm?** | ja / nein |
-| **Begründung** | |
+Untersucht nun den erzeugten **Pathbuilder** und vergleicht ihn mit dem Ausgangsdiagramm.
 
+**Frage 1. Zu welcher Gruppe gehört der folgende Beispielpfad?**
 
-**Musterlösung**
+`Computer_Game → P102 has title → Game_Title`
 
-| Element | Ergebnis |
-|---|---|
-| **Gruppe** | Computer Game |
-| **Ausgangsklasse** | Computer_Game |
-| **Property** | P102 has title |
-| **Zielklasse** | Game_Title |
-| **Entspricht dem Diagramm?** | ja |
-| **Begründung** | Die Klassen-Property-Klassen-Folge wurde vollständig übernommen. |
+[(X)] Computer Game
+[( )] Game Title
+[( )] Property
+[( )] Der Pfad gehört zu keiner Gruppe.
+
+---
+
+**Frage 2. Welche Klasse bildet den Ausgangspunkt des Pfades?**
+
+`Computer_Game → P102 has title → Game_Title`
+
+[[Computer_Game]]
+
+---
+
+**Frage 3. Welche Property verbindet die beiden Klassen?**
+
+`Computer_Game → P102 has title → Game_Title`
+
+[[P102 has title]]
+
+---
+
+**Frage 4. Welche Zielklasse wird über die Property erreicht?**
+
+`Computer_Game → P102 has title → Game_Title`
+
+[[Game_Title]]
+
+---
+
+**Frage 5. Entspricht dieser Pfad dem Ausgangsdiagramm?**
+
+[(X)] Ja
+[( )] Nein
+
+[[?]]
+Vergleicht die Reihenfolge von Ausgangsklasse, Property und Zielklasse mit dem Diagramm.
+
+---
+
+**Frage 6. Warum entspricht der Pfad dem Ausgangsdiagramm?**
+
+[[Die Klassen-Property-Klassen-Folge wurde vollständig übernommen.]]
+
+[[?]]
+Prüft, ob Ausgangsklasse, Property und Zielklasse in derselben Beziehung auch im Ausgangsdiagramm vorkommen.
+
+---
+
+### Abschlusscheck
+
+**Diskutiert** anschließend den gesamten Pathbuilder:
+
+- Welche **Gruppen** wurden erzeugt?
+- Welche **Pfade** befinden sich innerhalb der Gruppen?
+- Sind alle erwarteten Beziehungen vorhanden?
+- Gibt es **unerwartete oder fehlende Pfade**?
+- Entsprechen die erzeugten Pfade insgesamt dem Ausgangsdiagramm?
 
 ---
 
