@@ -1,5 +1,32 @@
 # Changelog fortlaufend
 
+1.9.2026 
+
+__alt aus Übung 3__
+
+Der Pathbuilder bildet die **Implementierungsschicht von WissKI**.
+
+Die Ontologiestruktur besteht in der Regel aus semantischen Beziehungsketten - also **Sequenzen aus Klassen und Beziehungen**. Diese werden im Pathbuilder zu **einem Pfad** und **Pfadgruppen**.
+
+Diese **Pfade und Pfadgruppen definieren die interne Domänenontologie von WissKI** und steuern, wie Daten erfasst, gespeichert, verknüpft und abgefragt werden.
+
+Mehrere **zusammengehörige Pfade werden zu Pfadgruppen organisiert**, die wiederum Klassen (Entities), z.B. Personen, Objekte, Ereignisse repräsentieren.
+
+<table>
+  <tr>
+    <td><img src="../assets/pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
+  </tr>
+</table>
+
+Die Pfade und Pfadgruppen im Pathbuilder werden in WissKI für folgende Zwecke genutzt werden:
+
+* Aufbau und Verwaltung des RDF-Wissensgraphen,
+* ontologiekonforme Datenspeicherung und -abfrage,
+* Strukturierung der Dateneingabeformulare in Drupal.
+  
+---
+
+
 31.8.2026
 
 __alt__
