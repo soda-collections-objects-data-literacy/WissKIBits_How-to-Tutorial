@@ -243,6 +243,7 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
   - Mattermost: https://chat.wiss-ki.eu/wisski/channels/town-square
   - Mastodon: \@wisski@fedihum.org
   - Facebook: https://www.facebook.com/wisskiproject/
+  - Webseite WissKICommunity der UB Heidelbert: https://sempub.ub.uni-heidelberg.de/wisski_projekte/de
     
 - **WissKI Anwender\*innentreffen:** https://wiss-ki.eu/taxonomy/term/63
 >  **Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events; WissKI2026wat).
