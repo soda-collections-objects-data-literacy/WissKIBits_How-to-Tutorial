@@ -412,6 +412,27 @@ Aus den semantischen Pfaden entstehen damit **Bundles und Felder**, die für die
 
 ---
 
+## Nachnutzung
+
+Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creative Commons Attribution 4.0 International).
+
+Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
+
+Diese Praxiseinheit **Modul 3** mit allen Ressourcen ist veröffentlicht und verfügbar: (todo und nachdenken)
+
+- Git
+- Lia
+- Zenodo
+- Ontologie: http://games.m-e-g-a.org/game_domain.rdf  
+
+
+### Zitation
+
+xxxxx
+
+---
+
+
 ## Bibliografie
 
 [wisski2012pathbuilder] https://wiss-ki.eu/documentation/data-modeling/pathbuilder?utm_source=chatgpt.com
