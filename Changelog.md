@@ -2,6 +2,31 @@
 
 1.9.2026 
 
+__alt aus Übung 3 __
+
+(ggf. für neue Pathbuilder-Einheit/Übung)
+
+## Von einer Ontologiebeziehung zum WissKI-Pfad
+
+Ausgangspunkt ist eine semantische Beziehung aus dem Domänenmodell:
+
+> Computer Game → P102 has title → Game Title
+
+Im Diagramm werden dabei Klassen und Properties explizit miteinander verbunden.
+
+Die Transformationspipeline erzeugt daraus eine Struktur, die in WissKI als Pfad verwendet werden kann.
+
+| Element              | Funktion                                 |
+| -------------------- | ---------------------------------------- |
+| **Computer Game**    | Ausgangsklasse                           |
+| **P102 has title**   | semantische Beziehung                    |
+| **Game Title**       | Zielklasse                               |
+| **Pathbuilder-Pfad** | implementierte Beziehungskette in WissKI |
+
+Mehrere solcher Pfade können in WissKI zu Pfadgruppen zusammengefasst werden. Gruppen bilden zentrale Strukturierungselemente des Pathbuilders und können bei der Generierung von Formularstrukturen als Bundles dienen.  (wisski2021pathbuilder)
+
+
+
 __alt aus Übung 3__
 
 Der Pathbuilder bildet die **Implementierungsschicht von WissKI**.
