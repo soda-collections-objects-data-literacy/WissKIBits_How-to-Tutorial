@@ -118,12 +118,16 @@ Dabei ist **E35 Title** zugleich eine speziellere Form von **E41 Appellation**. 
 
 **Voraussetzung:**
 
-Für das Arbeiten mit Protégé ist über die offizielle Webseite entweder 
+Für das Arbeiten mit Protégé ist über die [**offizielle Protégé-Website**](https://protege.stanford.edu/) entweder 
 
-- die Protégé Desktop-Version oder
-- ein Account für den webbasierter Editor (WebProtégé)
+- die Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) oder
+- ein Account für den webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)
 
 einzurichten.
+
+**Hinweis:**
+
+> Für das Einrichten ist ein Zeitfenster von ca. 5 Minuten vorgesehen.
 
 ----
 
@@ -131,7 +135,7 @@ einzurichten.
 
 Öffnet **Protégé Desktop** und ladet die bereitgestellte OWL-Implementierung des CIDOC CRM:
 
-[**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl)
+[**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 Erkundet anschließend kurz die Struktur der Ontologie.
 
