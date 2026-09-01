@@ -56,23 +56,294 @@ Teilnehmende können...
 
 ---
 
-## Von Ontologiebeziehungen zu WissKI-Pfaden
+## Ziel und Szenario
 
-In dieser Einheit wird das zuvor erstellte Draw.io-Diagramm automatisch in semantische WissKI-Pfade überführt, die aus Klassenbeziehungen konstruiert und als Pathbuilder in WissKI importiert werden.
+Dies ist eine Praxiseinheit. Ausgangspunkt ist das in den vorherigen Modulen in Protégé entwickelte und in Draw.io-Diagramm visualisierte Modell der Domäne Computerspiele.
+
+In dieser Einheit wird untersucht, wie aus einem semantischen Diagramm eine WissKI-Pathbuilder-Struktur entsteht.
+
+Dazu wird ein Draw.io-Diagramm mit dem Webservice „Draw.io diagrams to WissKI pathbuilders“ gegen die CIDOC CRM basierte Domänenontologie validiert und in eine Pathbuilder-XML-Datei transformiert. 
+
+Diese Datei wird anschließend in WissKI importiert und auf ihre erzeugten Gruppen und semantischen Pfade überprüft.
+
 
 Damit wird das Domänenmodell erstmals als funktionale Ontologiestruktur in WissKI nutzbar.
 
+
+**Im Mittelpunkt steht der Workflow:**
+
+> Diagramm prüfen → transformieren → Ontologie in WissKI bereitstellen → Pathbuilder importieren → Pfade analysieren
+
 ---
+
+## Ausgangspunkt: Vom semantischen Modell zum Pathbuilder
+
+In Modul 2 wurde das Domänenmodell auf Grundlage von CIDOC CRM formalisiert. Für die weitere Implementierung liegt das Modell nun zusätzlich als Draw.io-Diagramm vor.
+
+**Beispiel:**
+
+Eine Beziehung aus dem Modell kann folgendermaßen dargestellt sein:
+
+> Computer Game → P102 has title → Game Title
+
+Im WissKI Pathbuilder wird aus einer solchen Folge von Klassen und Properties ein semantischer Pfad.
+
+Dabei unterscheiden wir drei Ebenen:
+
+| Ebene                         | Beispiel                                    |
+| ----------------------------- | ------------------------------------------- |
+| **Semantisches Modell**       | Computer Game – P102 has title – Game Title |
+| **Transformationsformat**     | Draw.io-XML → Pathbuilder-XML               |
+| **Implementierung in WissKI** | Gruppe und semantischer Pfad im Pathbuilder |
+
+Der Pathbuilder bildet damit die Verbindung zwischen der Ontologiestruktur und den Datenstrukturen, die WissKI für Erfassung, Speicherung und Abfrage verwendet. Er organisiert das Modell in Gruppen und Pfaden und kann daraus Drupal-Bundles und -Felder erzeugen. (wisski2021pathbuilder)
+
+---
+
+## Fokus dieser Praxiseinheit
+
+Der Fokus liegt auf fünf grundlegenden Arbeitsschritten:
+
+- **Schritt 1: Ausgangsdiagramm prüfen**
+
+- **Schritt 2: Draw.io-XML in Pathbuilder-XML transformieren**
+
+- **Schritt 3: Ontologie in WissKI prüfen bzw. laden**
+
+- **Schritt 4: Pathbuilder anlegen und XML importieren**
+
+- **Schritt 5: Erzeugte Gruppen und Pfade analysieren**
+
+---
+
+## Von einer Ontologiebeziehung zum WissKI-Pfad
+
+Ausgangspunkt ist eine semantische Beziehung aus dem Domänenmodell:
+
+> Computer Game → P102 has title → Game Title
+
+Im Diagramm werden dabei Klassen und Properties explizit miteinander verbunden.
+
+Die Transformationspipeline erzeugt daraus eine Struktur, die in WissKI als Pfad verwendet werden kann.
+
+| Element              | Funktion                                 |
+| -------------------- | ---------------------------------------- |
+| **Computer Game**    | Ausgangsklasse                           |
+| **P102 has title**   | semantische Beziehung                    |
+| **Game Title**       | Zielklasse                               |
+| **Pathbuilder-Pfad** | implementierte Beziehungskette in WissKI |
+
+Mehrere solcher Pfade können in WissKI zu Pfadgruppen zusammengefasst werden. Gruppen bilden zentrale Strukturierungselemente des Pathbuilders und können bei der Generierung von Formularstrukturen als Bundles dienen.  (wisski2021pathbuilder)
+
+---
+
+## Aufgabe
+
+**Arbeitsform:** Einzelarbeit 
+
+**Material:** Laptop, Draw.io-XML-Datei, Zugang zu einer WissKI-Instanz
+
+**Zeit:** 20 Min.
+
+Transformiert das vorbereitete semantische Draw.io-Diagramm in eine WissKI-Pathbuilder-XML-Datei, importiert diese in WissKI und überprüft die erzeugte Pfadstruktur.
+
+
+### Schritt 1: Ausgangsdiagramm prüfen
+
+Öffnet die vorbereitete Draw.io-Datei mit dem Domänenmodell.
+
+Prüft, ob
+
+- die relevanten Klassen eindeutig benannt sind,
+- die Beziehungen zwischen den Klassen eingetragen sind,
+- die verwendeten Klassen und Properties zur geladenen Ontologie gehören,
+- und die gewünschten Pfade vollständig als Klassen-Property-Klassen-Folgen dargestellt sind.
+
+Leitfragen:
+
+- Von welcher Klasse startet der Pfad?
+- Über welche Property wird die nächste Klasse erreicht?
+- Welche Klasse bildet das Ziel?
+- Entspricht die Beziehung dem Modell aus Modul 2?
+
+Hinweis: 
+
+> Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind.
+
+---
+
+### Schritt 2: Draw.io-Diagramm transformieren
+
+Öffnet den Webservice:
+
+[**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
+
+Geht anschließend wie folgt vor:
+
+- Exportiert beziehungsweise verwendet die vorbereitete **Draw.io-XML-Datei**.
+- Ladet die Datei unter **„Upload draw.io XML file for conversion to WissKI Pathbuilder XML“** hoch.
+- Startet die Transformation.
+- Prüft die Rückmeldung des Webservices.
+- Öffnet beziehungsweise kopiert die Adresse der erzeugten **Pathbuilder-XML-Datei**.
+
+Die Transformation bildet damit den technischen Zwischenschritt:
+
+> **Draw.io XML → gnm-service → WissKI Pathbuilder XML**
+
+
+**Impulsfrage**
+
+> Welche Informationen aus dem Diagramm müssen erhalten bleiben, damit daraus ein semantisch sinnvoller Pathbuilder erzeugt werden kann?
+
+Notiert eine kurze Antwort.
+
+---
+
+### Schritt 3: Ontologie in WissKI prüfen
+
+Loggt euch in die vorbereitete **WissKI-Instanz** ein.
+
+Prüft zunächst, ob die für das Domänenmodell benötigte Ontologie bereits verfügbar ist.
+
+Navigiert dazu zu:
+
+> **Configuration → WissKI Ontology**
+
+Prüft den verwendeten Adapter und die geladene Ontologie.
+
+Falls die Domänenontologie noch nicht geladen wurde:
+
+- wählt den vorgesehenen WissKI-Adapter aus,
+- fügt die Adresse der **Games Ontology** ein,
+- ladet die Ontologie.
+
+**Games Ontology:**
+
+[http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+
+**Hinweis:** 
+
+> Die im Pathbuilder verwendeten Klassen und Properties müssen für WissKI über die Ontologie verfügbar sein. Der Pathbuilder verwendet diese Elemente zur Konstruktion semantischer Pfade.
+
+---
+
+### Schritt 4: Neuen Pathbuilder anlegen und XML importieren
+
+Navigiert zu:
+
+> **Configuration → Pathbuilders**
+
+Legt einen neuen Pathbuilder an:
+
+- wählt **Add Pathbuilder**,
+- vergebt einen eindeutigen Namen,
+- wählt den vorgesehenen Adapter,
+- speichert den Pathbuilder.
+
+Öffnet anschließend den neu angelegten Pathbuilder.
+
+Im Bereich **Pathbuilder Definition Import**:
+
+- fügt die zuvor kopierte Adresse der erzeugten Pathbuilder-XML-Datei ein,
+- startet den Import,
+- wartet, bis die Pathbuilder-Struktur angezeigt wird.
+
+**Hinweis:** 
+
+> Prüft die importierte Struktur zunächst, bevor weitere Bundles oder Felder generiert werden.
+
+--- 
+
+### Schritt 5: Importierte Pfadstruktur analysieren
+
+Untersucht nun den erzeugten Pathbuilder.
+
+Prüft insbesondere:
+
+- Welche **Gruppen** wurden erzeugt?
+- Welche **Pfade** befinden sich innerhalb der Gruppen?
+- Welche Klasse bildet jeweils den Ausgangspunkt?
+- Welche Properties verbinden die Klassen?
+- Entsprechen die erzeugten Pfade dem Ausgangsdiagramm?
+- Sind alle erwarteten Beziehungen vorhanden?
+- Gibt es unerwartete oder fehlende Pfade?
+
+Haltet mindestens einen Pfad fest:
+
+| Element | Ergebnis |
+|---|---|
+| **Gruppe** | |
+| **Ausgangsklasse** | |
+| **Property** | |
+| **Zielklasse** | |
+| **Entspricht dem Diagramm?** | ja / nein |
+| **Begründung** | |
+
+
+**Musterlösung**
+
+| Element | Ergebnis |
+|---|---|
+| **Gruppe** | Computer Game |
+| **Ausgangsklasse** | Computer_Game |
+| **Property** | P102 has title |
+| **Zielklasse** | Game_Title |
+| **Entspricht dem Diagramm?** | ja |
+| **Begründung** | Die Klassen-Property-Klassen-Folge wurde vollständig übernommen. |
+
+---
+
+### Schritt 6: Transformation nachvollziehen
+
+Vergleicht nun die drei Repräsentationen miteinander:
+
+| Ebene | Darstellung |
+|---|---|
+| **Draw.io-Diagramm** | Computer Game → P102 has title → Game Title |
+| **Pathbuilder-XML** | maschinenlesbare Transformationsstruktur |
+| **WissKI Pathbuilder** | Gruppe und semantischer Pfad |
+
+**Leitfragen:**
+
+- Welche Informationen bleiben über alle drei Ebenen hinweg erhalten?
+- Welche Informationen werden durch die Transformation technisch umgeformt?
+- Wo wäre ein Fehler im Diagramm später im Pathbuilder sichtbar?
+- Welche Vorteile hat die automatische Transformation gegenüber dem manuellen Aufbau einzelner Pfade?
+
+---
+
+ ## Workflow
+
+| Schritt | Aktion | Ergebnis |
+|---:|---|---|
+| 1 | Draw.io-Modell prüfen | valides Ausgangsdiagramm |
+| 2 | Draw.io-XML mit gnm-service transformieren | Pathbuilder-XML |
+| 3 | Ontologie in WissKI prüfen | verfügbare Klassen und Properties |
+| 4 | Pathbuilder anlegen | leerer WissKI Pathbuilder |
+| 5 | Pathbuilder-XML importieren | erzeugte Gruppen und Pfade |
+| 6 | Pfadstruktur analysieren | geprüfter Pathbuilder |
+
+Der Workflow überbrückt damit die Lücke zwischen **semantischer Modellierung und technischer Implementierung**.
 
 ## Der WissKI Pathbuilder
 
 Der Pathbuilder bildet die **Implementierungsschicht von WissKI**.
 
+Der **WissKI Pathbuilder** dient dazu, eine graphbasierte Ontologiestruktur in für WissKI nutzbare Strukturen zu überführen.
+
 Die Ontologiestruktur besteht in der Regel aus semantischen Beziehungsketten - also **Sequenzen aus Klassen und Beziehungen**. Diese werden im Pathbuilder zu **einem Pfad** und **Pfadgruppen**.
 
 Diese **Pfade und Pfadgruppen definieren die interne Domänenontologie von WissKI** und steuern, wie Daten erfasst, gespeichert, verknüpft und abgefragt werden.
 
+
+**Ein Pathbuilder organisiert insbesondere**
+
+- **Gruppen**, die größere fachliche Einheiten strukturieren,
+- **Pfade**, die Klassen und Properties als semantische Beziehungsketten abbilden,
+- sowie die Zuordnung dieser Strukturen zu WissKI- beziehungsweise Drupal-Strukturen.
+
 Mehrere **zusammengehörige Pfade werden zu Pfadgruppen organisiert**, die wiederum Klassen (Entities), z.B. Personen, Objekte, Ereignisse repräsentieren.
+Auf dieser Grundlage können später **Bundles** und **Eingabefelder** für die Dateneingabe erzeugt werden.
 
 <table>
   <tr>
@@ -80,35 +351,9 @@ Mehrere **zusammengehörige Pfade werden zu Pfadgruppen organisiert**, die wiede
   </tr>
 </table>
 
-Die Pfade und Pfadgruppen im Pathbuilder werden in WissKI für folgende Zwecke genutzt werden:
 
-* Aufbau und Verwaltung des RDF-Wissensgraphen,
-* ontologiekonforme Datenspeicherung und -abfrage,
-* Strukturierung der Dateneingabeformulare in Drupal.
-  
----
 
-## Aufgabe
 
-**Arbeitsform:** Einzelarbeit 
-**Material:** Laptop
-**Zeit:** 20 Min.
-
-Kurze Beschreibung der Aufgabe.
-
-1.  "Draw.io diagrams to WissKI pathbuilders" Web Service öffnen 
-2.  Beispiel-Draw.io .xml-Datei herunter laden
-3.  Beispiel-Draw.io .xml-Datei in "Upload draw.io XML file for conversion to WissKI Pathbuilder XML:" hochladen
-4.  Linkadresse von Beispiel output Pathbuilder-XML kopieren
-5.  In WissKI einloggen
-6.  Prüfen, ob in WissKI bereits die Domänenontologie geladen ist, siehe „Configuration/WissKI Ontology" dann Please select "Default WissKI Distillery Adapter“
-6a. Wenn Domänenontologie nicht geladen ist, Games-Ontology Link-Adresse kopieren und einfügen und "Load Ontology" klicken
-7.  Zu „Configuration/Pathbuilders“ navigieren
-8.  Neuen Pathbuilder hinzufügen „Add Pathbuilder“, Name vergeben und speichern
-9.  Unter „Pathbuilder Definition Import“ zuvor kopierte Linkadresse von Beispiel output Pathbuilder-XML einfügen und „Import“ klicken
-10. Die erzeugten semantischen Pfade prüfen
-11. Ergebnis: WissKI Pathbuilder auf Basis des eigenen Domänenmodells
-12. Nächster Schritt: Dateneingabe-Formulare generieren in „Configuration/Pathbuilders“ dann "edit" dann "Save and generate bundles and fields" 
 
 **Ressourcen**
 
@@ -136,32 +381,111 @@ Dieser Prozess überbrückt die Lücke zwischen der Modellierung einer Domäneno
 
 ---
 
-##  Centre Cultural Informatics services page for the Germanisches Nationalmuseum
+## Der gnm-service als Transformationswerkzeug
+
+Der Webservice **„Draw.io diagrams to WissKI pathbuilders“** unterstützt die automatisierte Überführung eines semantischen Draw.io-Diagramms in eine importierbare Pathbuilder-XML-Datei.
+
+Der grundlegende Ablauf lautet:
+
+> **semantisches Diagramm → technische Transformation → Pathbuilder-XML → WissKI**
+
+Die automatische Transformation bietet insbesondere:
+
+- **Wiederverwendung** des bereits entwickelten semantischen Modells,
+- **Reduktion manueller Übertragungsarbeit**,
+- **konsistente Überführung** wiederkehrender Pfadstrukturen,
+- und eine nachvollziehbare Verbindung zwischen Diagramm und WissKI-Implementierung.
+
+**Hinweis:** 
+
+> Automatische Transformation ersetzt nicht die fachliche Prüfung. Die erzeugten Pfade sollten nach dem Import immer mit dem Ausgangsmodell verglichen werden.
+
+
+Der [FORTH-ICS-Webdienst](https://isl.ics.forth.gr/gnm_services/) ist ein Dienst des Centre Cultural Informatics für das Germanisches Nationalmuseum.
 
 **Wie die Pipeline funktioniert**
 
-Der [FORTH-ICS-Webdienst](https://isl.ics.forth.gr/gnm_services/):
-
-* analysiert Draw.io-Diagramme über eine **JSON-Konfiguration**  
-* erkennt **semantische Pfade** von einem **zentralen Ontologieklassen** aus  
-* überprüft die **syntaktische Gültigkeit** anhand der Referenz-Ontologie 
-* exportiert die Pfade als **WissKI Pathbuilder .xml-Datei**
+- analysiert Draw.io-Diagramme über eine **JSON-Konfiguration**  
+- erkennt **semantische Pfade** von einem **zentralen Ontologieklassen** aus  
+- überprüft die **syntaktische Gültigkeit** anhand der Referenz-Ontologie 
+- exportiert die Pfade als **WissKI Pathbuilder .xml-Datei**
 
 **Vorteile der Draw.io → Pathbuilder-XML-Pipeline**
 
 Diese Pipeline wandelt Draw.io-Diagramme basierend auf CIDOC CRM automatisch in eine WissKI Pathbuilder .xml-Datei um und bietet mehrere Vorteile:
 
-* **Zeiteffizienz** – beseitigt den manuellen Konvertierungsaufwand  
-* **Ontologie-Wiederverwendung** – nutzt vorhandene Ontologielogik  
-* **Konsistenz** – gewährleistet eine einheitliche Struktur über Dateien hinweg  
-* **Semantische Integrität** – bewahrt die ursprüngliche Bedeutung und Beziehungen
-  
+- **Zeiteffizienz** – beseitigt den manuellen Konvertierungsaufwand  
+- **Ontologie-Wiederverwendung** – nutzt vorhandene Ontologielogik  
+- **Konsistenz** – gewährleistet eine einheitliche Struktur über Dateien hinweg  
+- **Semantische Integrität** – bewahrt die ursprüngliche Bedeutung und Beziehungen
+
+---
+
+## Ergebnis
+
+Am Ende dieser Übung liegt ein **importierter WissKI Pathbuilder auf Grundlage des semantischen Domänenmodells** vor.
+
+Ihr habt
+
+- ein Draw.io-Diagramm als Ausgangsmodell geprüft,
+- den **gnm-service** als Werkzeug zur Dateikonvertierung angewendet,
+- aus dem Diagramm eine **Pathbuilder-XML-Datei** erzeugt,
+- die benötigte Ontologie in WissKI überprüft beziehungsweise geladen,
+- einen neuen Pathbuilder angelegt,
+- die erzeugte XML-Struktur importiert,
+- und mindestens einen semantischen Pfad mit dem Ausgangsdiagramm verglichen.
+
+Das Ergebnis zeigt exemplarisch den Übergang:
+
+> **semantisches Modell → Diagramm → Pathbuilder-XML → WissKI Pathbuilder**
+
+---
+
+## Zusammenfassung
+
+Die Praxiseinheit verbindet die bisherigen Modellierungsschritte mit ihrer technischen Umsetzung in WissKI.
+
+Dabei wurden drei unterschiedliche Funktionen deutlich:
+
+| Werkzeug | Funktion |
+|---|---|
+| **Draw.io** | Visualisierung der semantischen Modellstruktur |
+| **gnm-service** | Transformation des Diagramms in Pathbuilder-XML |
+| **WissKI Pathbuilder** | Implementierung der semantischen Pfade für die weitere Datenerfassung |
+
+Der Pathbuilder ist dabei nicht nur eine Visualisierung des Modells. Er verwendet ausgewählte Klassen und Properties der Ontologie als semantische Pfade und bildet damit die Grundlage für die weitere Datenstrukturierung in WissKI.
+
 ---
 
 ## Ausblick
 
+Im nächsten Schritt werden die importierten Gruppen und Pfade für die **Dateneingabe in WissKI** nutzbar gemacht.
 
+Dazu wird der Pathbuilder weiter konfiguriert und anschließend die Funktion
 
+> **Save and generate bundles and fields**
+
+verwendet.
+
+Aus den semantischen Pfaden entstehen damit Strukturen, die in WissKI beziehungsweise Drupal als **Bundles und Felder** für Eingabe und Darstellung genutzt werden können.
+
+Die in dieser Einheit erzeugte Pathbuilder-Struktur bildet somit die Grundlage für die anschließende praktische Datenerfassung.
+
+---
+
+## Ressourcen
+
+- [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
+- [Erlangen CRM](http://erlangen-crm.org/240307/)
+- [Games Ontology](http://games.m-e-g-a.org/game_domain.rdf)
+- [Beispiel Pathbuilder-XML](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
+- [WissKI Pathbuilder Dokumentation](https://wiss-ki.eu/documentation/data-modeling/pathbuilder)
+
+---
+
+## Bibliografie
+
+[wisski2012pathbuilder] https://wiss-ki.eu/documentation/data-modeling/pathbuilder?utm_source=chatgpt.com
 
 
 
