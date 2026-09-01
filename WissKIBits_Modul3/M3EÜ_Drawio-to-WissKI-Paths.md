@@ -279,104 +279,48 @@ Im Bereich **Pathbuilder Definition Import**:
 
 --- 
 
-### Schritt 5: Importierte Pfadstruktur analysieren
+### Schritt 5: Importierten Pathbuilder untersuchen
 
-**Untersucht** nun den erzeugten Pathbuilder und prüft insbesondere:
+**Untersucht** den erzeugten **Pathbuilder** und vergleicht ihn mit dem Ausgangsdiagramm.
 
-- Welche **Gruppen** wurden erzeugt?
-- Welche **Pfade** befinden sich innerhalb der Gruppen?
-- Welche Klasse bildet jeweils den Ausgangspunkt?
-- Welche Properties verbinden die Klassen?
-- Entsprechen die erzeugten Pfade dem Ausgangsdiagramm?
-- Sind alle erwarteten Beziehungen vorhanden?
-- Gibt es unerwartete oder fehlende Pfade?
+Nehmt dazu exemplarisch den folgenden Pfad:
 
-#### Quiz: Untersuche den erzeugten Pathbuilder
+> `Computer_Game → P102 has title → Game_Title`
 
-Untersucht nun den erzeugten **Pathbuilder** und vergleicht ihn mit dem Ausgangsdiagramm.
+**Frage 1: Zu welcher Gruppe gehört der Pfad?**
 
-**Frage 1. Zu welcher Gruppe gehört der folgende Beispielpfad?**
-
-`Computer_Game → P102 has title → Game_Title`
-
-[(X)] Computer Game
-[( )] Game Title
-[( )] Property
+[(X)] Computer Game  
+[( )] Game Title  
 [( )] Der Pfad gehört zu keiner Gruppe.
 
 ---
 
-**Frage 2. Welche Klasse bildet den Ausgangspunkt des Pfades?**
-
-`Computer_Game → P102 has title → Game_Title`
-
-[[Computer_Game]]
-
----
-
-**Frage 3. Welche Property verbindet die beiden Klassen?**
-
-`Computer_Game → P102 has title → Game_Title`
+**Frage 2: Welche Property verbindet Ausgangs- und Zielklasse?**
 
 [[P102 has title]]
 
 ---
 
-**Frage 4. Welche Zielklasse wird über die Property erreicht?**
+**Frage 3: Entspricht der Pfad dem Ausgangsdiagramm?**
 
-`Computer_Game → P102 has title → Game_Title`
-
-[[Game_Title]]
-
----
-
-**Frage 5. Entspricht dieser Pfad dem Ausgangsdiagramm?**
-
-[(X)] Ja
+[(X)] Ja  
 [( )] Nein
 
 [[?]]
-Vergleicht die Reihenfolge von Ausgangsklasse, Property und Zielklasse mit dem Diagramm.
+Vergleicht Ausgangsklasse, Property und Zielklasse mit der entsprechenden Beziehung im Draw.io-Diagramm.
 
 ---
 
-**Frage 6. Warum entspricht der Pfad dem Ausgangsdiagramm?**
+**Zum Abschluss:**
 
-[[Die Klassen-Property-Klassen-Folge wurde vollständig übernommen.]]
+Schaut euch auch die übrigen importierten Pfade an.
 
-[[?]]
-Prüft, ob Ausgangsklasse, Property und Zielklasse in derselben Beziehung auch im Ausgangsdiagramm vorkommen.
+- Sind die erwarteten Gruppen und Pfade vorhanden?
+- Fallen euch fehlende oder unerwartete Pfade auf?
 
----
+**Impulsfrage:**
 
-### Abschlusscheck
-
-**Diskutiert** anschließend den gesamten Pathbuilder:
-
-- Welche **Gruppen** wurden erzeugt?
-- Welche **Pfade** befinden sich innerhalb der Gruppen?
-- Sind alle erwarteten Beziehungen vorhanden?
-- Gibt es **unerwartete oder fehlende Pfade**?
-- Entsprechen die erzeugten Pfade insgesamt dem Ausgangsdiagramm?
-
----
-
-### Schritt 6: Transformation nachvollziehen
-
-Vergleicht nun die drei Repräsentationen miteinander:
-
-| Ebene | Darstellung |
-|---|---|
-| **Draw.io-Diagramm** | Computer Game → P102 has title → Game Title |
-| **Pathbuilder-XML** | maschinenlesbare Transformationsstruktur |
-| **WissKI Pathbuilder** | Gruppe und semantischer Pfad |
-
-**Leitfragen:**
-
-- Welche Informationen bleiben über alle drei Ebenen hinweg erhalten?
-- Welche Informationen werden durch die Transformation technisch umgeformt?
-- Wo wäre ein Fehler im Diagramm später im Pathbuilder sichtbar?
-- Welche Vorteile hat die automatische Transformation gegenüber dem manuellen Aufbau einzelner Pfade?
+> Welchen Vorteil hat die automatische Transformation gegenüber dem manuellen Anlegen der Pfade?
 
 ---
 
