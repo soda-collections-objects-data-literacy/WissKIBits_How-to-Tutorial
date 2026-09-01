@@ -275,13 +275,22 @@ In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbar
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
 
-Diese Praxiseinheit **Modul 1** ist verfügbar: (todo und nachdenken)
+
+## Nachnutzung
+
+Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creative Commons Attribution 4.0 International).
+
+Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
+
+Diese Praxiseinheit **Modul 1** mit allen Ressourcen ist veröffentlicht und verfügbar: (todo und nachdenken)
 
 - Git
 - Lia
 - Zenodo
 
-Citationshinweis....
+### Zitation
+
+xxxxx
 
 ---
 
