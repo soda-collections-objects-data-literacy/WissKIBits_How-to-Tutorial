@@ -137,6 +137,14 @@ einzurichten.
 
 [**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
+**Hinweis:** 
+
+> Die im Live-Demo gezeigten Schritte und das entsprechende Video kann hier nachgelesen werden:
+>
+> Github: WissKIBits_Modul2/M2E2_Einführung-Protege.md
+> Liascript: xxxx
+
+
 Erkundet anschließend kurz die Struktur der Ontologie.
 
 Sucht in der Klassenhierarchie:
