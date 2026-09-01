@@ -23,6 +23,23 @@ Die Pfade und Pfadgruppen im Pathbuilder werden in WissKI für folgende Zwecke g
 * Aufbau und Verwaltung des RDF-Wissensgraphen,
 * ontologiekonforme Datenspeicherung und -abfrage,
 * Strukturierung der Dateneingabeformulare in Drupal.
+
+
+Schritte:
+
+- **Schritt 2:** Beispiel-Draw.io .xml-Datei herunter laden
+- **Schritt 3:** Beispiel-Draw.io .xml-Datei in "Upload draw.io XML file for conversion to WissKI Pathbuilder XML:" hochladen
+- **Schritt 4:** Linkadresse von Beispiel output Pathbuilder-XML kopieren
+- **Schritt 5:** In WissKI einloggen
+- **Schritt 6:** Prüfen, ob in WissKI bereits die Domänenontologie geladen ist, siehe „Configuration/WissKI Ontology" dann Please select "Default WissKI Distillery Adapter“
+- **Schritt 6a:** Wenn Domänenontologie nicht geladen ist, Games-Ontology Link-Adresse kopieren und einfügen und "Load Ontology" klicken
+- **Schritt 7:** Zu „Configuration/Pathbuilders“ navigieren
+- **Schritt 8:** Neuen Pathbuilder hinzufügen „Add Pathbuilder“, Name vergeben und speichern
+- **Schritt 9:** Unter „Pathbuilder Definition Import“ zuvor kopierte Linkadresse von Beispiel output Pathbuilder-XML einfügen und „Import“ klicken
+- **Schritt 10:** Die erzeugten semantischen Pfade prüfen
+- **Schritt 11:** Ergebnis: WissKI Pathbuilder auf Basis des eigenen Domänenmodells
+- **Schritt 12:** Nächster Schritt: Dateneingabe-Formulare generieren in „Configuration/Pathbuilders“ dann "edit" dann "Save and generate bundles and fields"
+
   
 ---
 
