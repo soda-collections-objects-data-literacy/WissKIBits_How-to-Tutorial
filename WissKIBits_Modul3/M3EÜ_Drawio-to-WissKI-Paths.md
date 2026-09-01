@@ -58,7 +58,7 @@ Teilnehmende können...
 
 ## Ziel und Szenario
 
-Dies ist eine Praxiseinheit. Ausgangspunkt ist das in den vorherigen Modulen in Protégé entwickelte und in Draw.io-Diagramm visualisierte Modell der Domäne Computerspiele.
+Dies ist eine Praxiseinheit. Ausgangspunkt ist das in den vorherigen Modulen 2 in Protégé entwickelte Modell der Domäne Computerspiele.
 
 In dieser Einheit wird untersucht, wie aus einem semantischen Diagramm eine WissKI-Pathbuilder-Struktur entsteht.
 
@@ -72,13 +72,13 @@ Damit wird das Domänenmodell erstmals als funktionale Ontologiestruktur in Wiss
 
 **Im Mittelpunkt steht der Workflow:**
 
-> Diagramm prüfen → transformieren → Ontologie in WissKI bereitstellen → Pathbuilder importieren → Pfade analysieren
+> Diagramm vervollständigen und prüfen → transformieren → Ontologie in WissKI bereitstellen → Pathbuilder importieren → Pfade analysieren
 
 ---
 
 ## Ausgangspunkt: Vom semantischen Modell zum Pathbuilder
 
-In Modul 2 wurde das Domänenmodell auf Grundlage von CIDOC CRM formalisiert. Für die weitere Implementierung liegt das Modell nun zusätzlich als Draw.io-Diagramm vor.
+In Modul 2 wurde das Domänenmodell auf Grundlage von CIDOC CRM formalisiert. Für die weitere Implementierung liegt das Modell nun zusätzlich als Draw.io-Lücken-Diagramm vor.
 
 **Beispiel:**
 
@@ -86,7 +86,7 @@ Eine Beziehung aus dem Modell kann folgendermaßen dargestellt sein:
 
 > Computer Game → P102 has title → Game Title
 
-Im WissKI Pathbuilder wird aus einer solchen Folge von Klassen und Properties ein semantischer Pfad.
+Im WissKI Pathbuilder wird aus einer solchen Folge von Klassen (Entities) und Beziehungen (Properties) ein semantischer Pfad.
 
 Dabei unterscheiden wir drei Ebenen:
 
@@ -104,7 +104,7 @@ Der Pathbuilder bildet damit die Verbindung zwischen der Ontologiestruktur und d
 
 Der Fokus liegt auf fünf grundlegenden Arbeitsschritten:
 
-- **Schritt 1: Ausgangsdiagramm prüfen**
+- **Schritt 1: Ausgangsdiagramm vervollständigen und prüfen**
 
 - **Schritt 2: Draw.io-XML in Pathbuilder-XML transformieren**
 
@@ -116,27 +116,6 @@ Der Fokus liegt auf fünf grundlegenden Arbeitsschritten:
 
 ---
 
-## Von einer Ontologiebeziehung zum WissKI-Pfad
-
-Ausgangspunkt ist eine semantische Beziehung aus dem Domänenmodell:
-
-> Computer Game → P102 has title → Game Title
-
-Im Diagramm werden dabei Klassen und Properties explizit miteinander verbunden.
-
-Die Transformationspipeline erzeugt daraus eine Struktur, die in WissKI als Pfad verwendet werden kann.
-
-| Element              | Funktion                                 |
-| -------------------- | ---------------------------------------- |
-| **Computer Game**    | Ausgangsklasse                           |
-| **P102 has title**   | semantische Beziehung                    |
-| **Game Title**       | Zielklasse                               |
-| **Pathbuilder-Pfad** | implementierte Beziehungskette in WissKI |
-
-Mehrere solcher Pfade können in WissKI zu Pfadgruppen zusammengefasst werden. Gruppen bilden zentrale Strukturierungselemente des Pathbuilders und können bei der Generierung von Formularstrukturen als Bundles dienen.  (wisski2021pathbuilder)
-
----
-
 ## Aufgabe
 
 **Arbeitsform:** Einzelarbeit 
@@ -145,21 +124,21 @@ Mehrere solcher Pfade können in WissKI zu Pfadgruppen zusammengefasst werden. G
 
 **Zeit:** 20 Min.
 
-Transformiert das vorbereitete semantische Draw.io-Diagramm in eine WissKI-Pathbuilder-XML-Datei, importiert diese in WissKI und überprüft die erzeugte Pfadstruktur.
+Vervollständigt das vorbereitete semantische Draw.io-Diagramm, transformiert dieses in eine WissKI-Pathbuilder-XML-Datei, importiert diese in WissKI und überprüft die erzeugte Pfadstruktur.
 
 
-### Schritt 1: Ausgangsdiagramm prüfen
+### Schritt 1: Ausgangsdiagramm vervollstädnigen und prüfen
 
-Öffnet die vorbereitete Draw.io-Datei mit dem Domänenmodell.
+**Öffnet** die vorbereitete Draw.io-Datei mit dem Domänenmodell. (LINK TODO)
 
-Prüft, ob
+**Prüft**, ob
 
 - die relevanten Klassen eindeutig benannt sind,
 - die Beziehungen zwischen den Klassen eingetragen sind,
 - die verwendeten Klassen und Properties zur geladenen Ontologie gehören,
 - und die gewünschten Pfade vollständig als Klassen-Property-Klassen-Folgen dargestellt sind.
 
-Leitfragen:
+**Leitfragen:**
 
 - Von welcher Klasse startet der Pfad?
 - Über welche Property wird die nächste Klasse erreicht?
@@ -174,21 +153,23 @@ Hinweis:
 
 ### Schritt 2: Draw.io-Diagramm transformieren
 
-Öffnet den Webservice:
+**Öffnet** den Webservice:
 
 [**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
 
 Geht anschließend wie folgt vor:
 
-- Exportiert beziehungsweise verwendet die vorbereitete **Draw.io-XML-Datei**.
-- Ladet die Datei unter **„Upload draw.io XML file for conversion to WissKI Pathbuilder XML“** hoch.
+- Exportiert oder verwendet die vorbereitete **Draw.io-XML-Datei**.
+- Ladet die Datei unter **Upload draw.io XML file for conversion to WissKI Pathbuilder XML** hoch.
 - Startet die Transformation.
 - Prüft die Rückmeldung des Webservices.
-- Öffnet beziehungsweise kopiert die Adresse der erzeugten **Pathbuilder-XML-Datei**.
+- Öffnet oder kopiert die Adresse der erzeugten **Pathbuilder-XML-Datei**.
 
-Die Transformation bildet damit den technischen Zwischenschritt:
+**Hinweis:**
 
-> **Draw.io XML → gnm-service → WissKI Pathbuilder XML**
+> Die Transformation bildet damit den technischen Zwischenschritt:
+
+> **Draw.io XML → Webservice:Draw.io diagrams to WissKI pathbuilders → WissKI Pathbuilder XML**
 
 
 **Impulsfrage**
@@ -201,21 +182,29 @@ Notiert eine kurze Antwort.
 
 ### Schritt 3: Ontologie in WissKI prüfen
 
-Loggt euch in die vorbereitete **WissKI-Instanz** ein.
+**Loggt** euch in die vorbereitete **WissKI-Instanz** ein.
 
-Prüft zunächst, ob die für das Domänenmodell benötigte Ontologie bereits verfügbar ist.
+**Hinweis:**
 
-Navigiert dazu zu:
+> ....Jetzt ausprobieren.... Registrieren und loslegen - LINK .....
+
+
+**Prüft** zunächst, ob die für das Domänenmodell benötigte Ontologie bereits verfügbar ist.
+
+
+**Navigiert** dazu zu:
 
 > **Configuration → WissKI Ontology**
 
-Prüft den verwendeten Adapter und die geladene Ontologie.
+
+**Prüft** den verwendeten Adapter und die geladene Ontologie.
 
 Falls die Domänenontologie noch nicht geladen wurde:
 
 - wählt den vorgesehenen WissKI-Adapter aus,
 - fügt die Adresse der **Games Ontology** ein,
 - ladet die Ontologie.
+
 
 **Games Ontology:**
 
@@ -229,18 +218,18 @@ Falls die Domänenontologie noch nicht geladen wurde:
 
 ### Schritt 4: Neuen Pathbuilder anlegen und XML importieren
 
-Navigiert zu:
+**Navigiert** zu:
 
 > **Configuration → Pathbuilders**
 
-Legt einen neuen Pathbuilder an:
+**Legt** einen neuen Pathbuilder an:
 
 - wählt **Add Pathbuilder**,
 - vergebt einen eindeutigen Namen,
 - wählt den vorgesehenen Adapter,
 - speichert den Pathbuilder.
 
-Öffnet anschließend den neu angelegten Pathbuilder.
+**Öffnet** anschließend den neu angelegten Pathbuilder.
 
 Im Bereich **Pathbuilder Definition Import**:
 
@@ -256,9 +245,7 @@ Im Bereich **Pathbuilder Definition Import**:
 
 ### Schritt 5: Importierte Pfadstruktur analysieren
 
-Untersucht nun den erzeugten Pathbuilder.
-
-Prüft insbesondere:
+**Untersucht** nun den erzeugten Pathbuilder und prüft insbesondere:
 
 - Welche **Gruppen** wurden erzeugt?
 - Welche **Pfade** befinden sich innerhalb der Gruppen?
@@ -268,7 +255,7 @@ Prüft insbesondere:
 - Sind alle erwarteten Beziehungen vorhanden?
 - Gibt es unerwartete oder fehlende Pfade?
 
-Haltet mindestens einen Pfad fest:
+**Haltet** mindestens für **einen** Pfad fest: (EVTL: Quizz)
 
 | Element | Ergebnis |
 |---|---|
@@ -350,9 +337,6 @@ Auf dieser Grundlage können später **Bundles** und **Eingabefelder** für die 
     <td><img src="../assets/pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
   </tr>
 </table>
-
-
-
 
 
 **Ressourcen**
