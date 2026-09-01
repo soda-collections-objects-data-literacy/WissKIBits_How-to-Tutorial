@@ -194,7 +194,7 @@ Begründet kurz eure Klassenauswahl.
 
 Für den Einstieg können beispielsweise folgende Klassen hilfreich sein:
 
-| CIDOC CRM Klasse | Bedeutung im Beispiel |
+| CIDOC CRM Klasse (Entity) | Bedeutung im Beispiel |
 |------------------|-----------------------|
 | **E73 Information Object** | Spiel als identifizierbarer Informationsinhalt |
 | **E22 Human-Made Object** | physische Kopie (Cartridge, Disc, Box…) |
