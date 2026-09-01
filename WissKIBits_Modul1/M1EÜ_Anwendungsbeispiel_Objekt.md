@@ -40,7 +40,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Übungseinheit (M1EÜ): **Anwendungsbeispiel: Objektsammlungen**  
 
-**Dauer:** ~ 25 Min.
+**Dauer:** ~ 30 Min.
 
 **Lernziele:**
 
@@ -71,7 +71,7 @@ Am Ende können die Teilnehmenden:
 * die Zuordnungen als Modellierungsentscheidungen beschreiben,
 * ein **konzeptuelles Modell** entwerfen, die als Ausgangspunkt für die weitere Formalisierung dient.
 
-Die Modellskizze wird in den folgenden Modulen schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
+Die Modellskizze wird in den folgenden Modulen 2 und 3 schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
 
 ---
 
@@ -86,6 +86,8 @@ An diesem Beispiel wird untersucht, welche **Konzepte, Ereignisse und Beziehunge
 - zentrale Konzepte und Ereignisse verständlich für Menschen unterscheidet,
 - ihre Beziehungen sichtbar macht und
 - als Grundlage für die anschließende Zuordnung zu **CIDOC CRM** dient.
+
+---
 
 ## Warum Computerspiele?
 
@@ -129,7 +131,7 @@ Beispielsweise können folgende Fragen gestellt werden:
 **Material:** Papier & Stift (oder digitales Whiteboard)  
 **Zeit:** 20 Minuten
 
-### Aufgabe: Eine Mini-Mindmap als Modellskizze entwerfen
+### Aufgabe 1: Eine Mini-Mindmap als Modellskizze entwerfen
 
 Erstellt für das Beispielobjekt „The Legend of Zelda: A Link to the Past“ eine einfache Mindmap. 
 
@@ -144,7 +146,7 @@ Nicht alle Kategorien müssen vorkommen.
 
 **Beispiel:**
 
-> Spiel → hat Titel → Titel
+> Spiel → hat → Titel
 
 > Nintendo → war beteiligt an → Entwicklung
 
@@ -162,9 +164,20 @@ Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehunge
 | 2 | Wie hängen die Dinge zusammen? | gerichtete Beziehungen zwischen den Knoten |
 | 3 | Lassen sich die Verbindungen als verständliche Aussagen lesen? | überprüfbare Aussagen über das Objekt|
 
+
+**Ergebnisbesprechung im Plenum**
+
+Musterbeispiel als Grafik
+
+![Konzept-Mindmap](../assets/xxx.png)
+
+
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
+
+
 ---
 
-### Aufgabe: Erste Zuordnung zu CIDOC CRM
+### Aufgabe 2: Erste Zuordnung zu CIDOC CRM
 
 Schaut euch eure Modellskizze noch einmal an und wählt **zwei Begriffe** daraus aus, z. B. Spiel, Person, Organisation, Titel oder Genre.
 
@@ -190,7 +203,7 @@ Für den Einstieg können beispielsweise folgende Klassen hilfreich sein:
 | **E12 Production** | Herstellung / (ggf. Veröffentlichung als Ereignis) |
 | **E42 Identifier** | Identifikatoren (Inventarnummern, Produktcodes …) |
 | **E35 Title** | Titel des Objektes als eigene Entität |
-| **E42 Appelation** | Benennung, durch die etwas identifiziert oder bezeichnet wird |
+| **E42 Appellation** | Benennung, durch die etwas identifiziert oder bezeichnet wird |
 | **E55 Type** | kontrollierte Merkmale (z. B. Genre, Plattform) |
 
 Der [CIDOC CRM Navigator Version 7.1.3 ](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) ermöglicht die interaktive Erkundung von 81 Klassen und 160 Eigenschaften, inklusive Übersetzungen. 
@@ -220,13 +233,22 @@ Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CID
 
 Merksatz: 
 
-> Bevor wir einen Wert einfach als Text erfassen, fragen wir: Hat diese Benennung in unserem Modell selbst eine Bedeutung, die wir näher beschreiben oder unterscheiden möchten?
+> Bevor wir eine Klasse festlegen, ist zu überprüfen, ob die Scope Note der CIDOC CRM Klasse der Bedeutung des Konzeptbegriffs des Domänenmodells entspricht.
 
-Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Eigenschaften wird in einer späteren Einheit weiter vertieft.
+Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Eigenschaften wird in Modul 3 behandelt.
+
+**Ergebnisbesprechung im Plenum**
+
+Musterbeispiel als Grafik
+
+![Konzept-Mindmap](../assets/xxx.png)
+
+
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
 
 ---
 
-## Vom Domänenmodell zur CIDOC-CRM-Modellierung
+## Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung
 
 Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen und Eigenschaften des CIDOC CRM weiter formalisiert werden.
 
@@ -245,19 +267,23 @@ Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schri
 
 ## Ausblick
 
-In der Praxiseinheit wurde zunächst eine **erste Modellskizze für die Domäne Computerspiele** entwickelt. Anschließend wurde dese Modellierung auf die entsprechenden **Klassen und Eigenschaften des CIDOC CRM** abgebildet und insbesondere die Besonderheiten der **Klasse E41 Appellation** erläutert. Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computerspiele auf Grundlage des CIDOC CRM** vor.
+In dieser Praxiseinheit wurde zunächst eine **erste Modellskizze für die Domäne Computerspiele** entwickelt. Anschließend wurde dese Modellierung auf die entsprechenden **Klassen und Eigenschaften des CIDOC CRM** abgebildet und insbesondere die Besonderheiten der **Klasse E41 Appellation** erläutert. 
 
-Mit dieser Praxiseinheit endet **Modul 1**.
+Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computerspiele auf Grundlage des CIDOC CRM** vor (siehe Musterlösung).
 
 In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbare **OWL-Ontologie** umgesetzt und für die spätere Implementierung in **WissKI** vorbereitet. Auf diese Weise werden die Grundlagen für die praktische Arbeit mit Protégé und die Überführung des semantischen Modells in eine technische Implementierung geschaffen.
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
 
-___PLATZHALTER AUSBLICK VORRAUSSETZUNGEN MODUL 2 (link oder text - siehe M2E1 Voraussetzungen)___
+Diese Praxiseinheit **Modul 1** ist verfügbar: (todo und nachdenken)
+
+- Git
+- Lia
+- Zenodo
+
+Citationshinweis....
 
 ---
-
-## evtl. Hausaufgabe für Modul 2
 
 ## Bibliografie
 
