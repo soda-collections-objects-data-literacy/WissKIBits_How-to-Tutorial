@@ -27,9 +27,9 @@ Teilnehmende können...
 
 ## Ziel und Szenario
 
-Dies ist eine Praxiseinheit. Ausgangspunkt ist das in Modul 1 entwickelte Modell der Domäne Computerspiele.
+Dies ist eine Praxiseinheit. Ausgangspunkt ist das in Modul 1 entwickelte konzeptionelles Modell der Domäne Computerspiele (siehe [Konzept-Mindmap](../assets/Mindmap.png)).
 
-Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, wie aus einer konzeptionellen Modellskizze schrittweise eine **formale Ontologiestruktur** entsteht.
+Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, wie aus dieser konzeptionellen Modellskizze schrittweise eine **formale Ontologiestruktur** entsteht.
 
 Dazu werden
 
@@ -327,6 +327,25 @@ Die Ontologie ist weiterhin ein Modellausschnitt. Sie bildet nicht die gesamte D
 MUSTERBEISPIEL einbinden: http://games.m-e-g-a.org/game_domain.rdf  
 
 ---
+
+## Nachnutzung
+
+Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creative Commons Attribution 4.0 International).
+
+Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
+
+Diese Praxiseinheit **Modul 2** mit allen Ressourcen ist veröffentlicht und verfügbar: (todo und nachdenken)
+
+- Git
+- Lia
+- Zenodo
+
+### Zitation
+
+xxxxx
+
+---
+
 
 ## Ausblick
 
