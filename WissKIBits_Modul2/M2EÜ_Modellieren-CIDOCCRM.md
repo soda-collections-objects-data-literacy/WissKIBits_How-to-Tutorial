@@ -133,7 +133,7 @@ einzurichten.
 
 ### Schritt 1: Erlangen CRM laden und Struktur erkunden
 
-Öffnet **Protégé Desktop** und ladet die bereitgestellte OWL-Implementierung des CIDOC CRM:
+**Öffnet** Protégé Desktop und ladet die bereitgestellte OWL-Implementierung des CIDOC CRM:
 
 [**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
@@ -141,11 +141,14 @@ einzurichten.
 
 > Die im Live-Demo gezeigten Schritte und das entsprechende Video kann hier nachgelesen werden:
 >
+> Video:
+> 
 > Github: WissKIBits_Modul2/M2E2_Einführung-Protege.md
+> 
 > Liascript: xxxx
 
 
-Erkundet anschließend kurz die Struktur der Ontologie.
+**Erkundet** anschließend kurz die Struktur der Ontologie.
 
 Sucht in der Klassenhierarchie:
 
@@ -169,9 +172,9 @@ Untersucht dabei insbesondere:
 
 ### Schritt 2: Passende CIDOC-CRM-Klassen auswählen und prüfen
 
-Sucht in Protégé die passenden Klasse zum Domänenbegriff und prüft die Scope Note der Klasse.
+**Sucht** in Protégé die passenden Klasse zum Domänenbegriff und prüft die Scope Note der Klasse.
 
-Begründet die Auswahl.
+**Begründet** die Auswahl.
 
 **Beispiel**
 
@@ -203,9 +206,9 @@ Begründet die Auswahl.
 
 ### Schritt 3: Domänenspezifische Subklassen anlegen
 
-Legt nun die domänenspezifischen Klassen in Protégé an.
+**Legt** nun die domänenspezifischen Unterklassen in Protégé an.
 
-Die Klassen sollen unter den zuvor ausgewählten CIDOC-CRM-Klassen eingeordnet werden:
+Die Unterklassen sollen unter den zuvor ausgewählten CIDOC-CRM-Klassen eingeordnet werden:
 
 ```text
 E73 Information Object
@@ -219,59 +222,36 @@ E55 Type
 └── Game_Platform_Type
 ```
 
-Prüft anschließend die Klassenhierarchie.
+**Prüft** anschließend die Klassenhierarchie.
 
----
+**Sucht** in Protégé die passenden Beziehungen zu den gewählten Unterklassen und untersucht die Beschreibung der Properties.
 
-### Impulsfrage
-
-> Was bedeutet die Aussage `Game_Title SubClassOf E35 Title`?
-
-Formuliert sie in natürlicher Sprache:
-
-> ---
-
-Überlegt anschließend:
-
-> Welche Information erhält eine Maschine durch die Subklassenbeziehung, die in unserer ursprünglichen Mindmap noch nicht formal festgelegt war?
-
----
-
-Für den Titel:
+**Beispiel: Für den Titel**
 
 > Computerspiel → **hat Titel** → Spieltitel
 
-Sucht in Protégé nach:
+> Sucht **P102 has title**
 
-**P102 has title**
 
-Untersucht:
-
-* die Beschreibung der Property,
-* ihre Domain,
-* ihre Range.
-
-Für Genre oder Plattform:
+**Beispiel: Für den Genre oder Plattform**
 
 > Computerspiel → **hat Typ** → Genre / Plattformtyp
 
-Sucht nach:
+> Sucht nach: **P2 has type**
 
-**P2 has type**
 
-Untersucht erneut:
-
-* die Beschreibung der Property,
-* ihre Domain,
-* ihre Range.
-
-Haltet eure Prüfung fest:
+**Dokumentiert** eure Prüfung:
 
 | Ausgang       | Property       | Ziel               | beabsichtigte Aussage                                 |
 | ------------- | -------------- | ------------------ | ----------------------------------------------------- |
 | Computer_Game | P102 has title | Game_Title         | Ein Computerspiel hat einen Titel.                    |
 | Computer_Game | P2 has type    | Game_Genre_Type    | Ein Computerspiel wird einem Genretyp zugeordnet.     |
 | Computer_Game | P2 has type    | Game_Platform_Type | Ein Computerspiel wird einem Plattformtyp zugeordnet. |
+
+**Hinweis:**
+
+> Die Properties werden im nächsten Modul 3 benötigt.
+
 
 **Leitfragen:**
 
@@ -283,16 +263,20 @@ Haltet eure Prüfung fest:
 
 ### Schritt 5: Modell prüfen und dokumentieren 
 
-Vergleicht euer Ergebnis mit der ursprünglichen Modellskizze.
+Vergleicht euer Ergebnis mit der ursprünglichen Modellskizze:
+
+![Konzept-Mindmap](../assets/Mindmap.png)
+
 
 **Prüft eure Modellierung:**
 
 - Sind die domänenspezifischen Klassen sinnvoll in die CIDOC-CRM-Hierarchie eingeordnet?
 - Passen die Properties zur beabsichtigten Aussage?
-- Stimmen Domain und Range?
 - Können die Entscheidungen anhand der Scope Notes begründet werden?
 - Lassen sich die Beziehungen weiterhin als verständliche Aussagen lesen?
 - Welche Elemente stammen aus CIDOC CRM und welche wurden für die Domäne ergänzt?
+- Schreibt für die neu angelegten Domönen-Unterklassen Scope Notes / Comments und vergebt Lables.
+
 
 **Modellierungsentscheidung dokumentieren**
 
@@ -345,7 +329,6 @@ Speichert die erweiterte Ontologie anschließend als **OWL-Datei**.
 
 Die Ontologie ist weiterhin ein Modellausschnitt. Sie bildet nicht die gesamte Domäne Computerspiele ab, sondern dokumentiert exemplarisch den Weg von einer fachlichen Modellskizze zu einer maschinenlesbaren Ontologiestruktur.
 
-MUSTERBEISPIEL einbinden: http://games.m-e-g-a.org/game_domain.rdf  
 
 ---
 
@@ -360,6 +343,8 @@ Diese Praxiseinheit **Modul 2** mit allen Ressourcen ist veröffentlicht und ver
 - Git
 - Lia
 - Zenodo
+- Ontologie: http://games.m-e-g-a.org/game_domain.rdf  
+
 
 ### Zitation
 
