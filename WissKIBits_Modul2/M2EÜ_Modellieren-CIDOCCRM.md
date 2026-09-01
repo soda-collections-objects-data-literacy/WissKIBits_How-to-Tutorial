@@ -116,7 +116,16 @@ Dabei ist **E35 Title** zugleich eine speziellere Form von **E41 Appellation**. 
 
 **Aufgabe: Einen Ausschnitt des Domänenmodells in Protégé nachmodellieren**
 
----
+**Voraussetzung:**
+
+Für das Arbeiten mit Protégé ist über die offizielle Webseite entweder 
+
+- die Protégé Desktop-Version oder
+- ein Account für den webbasierter Editor (WebProtégé)
+
+einzurichten.
+
+----
 
 ### Schritt 1: Erlangen CRM laden und Struktur erkunden
 
