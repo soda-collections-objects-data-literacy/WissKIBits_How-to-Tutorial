@@ -174,7 +174,7 @@ Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wisse
 
 ![Konzept-Mindmap](../WissKIBits_Modul1/assets/mindmap.png)
 
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“.
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“. Eigene Darstellung, erstellt mit ChatGPT (OpenAI), 2026.
 
 ---
 
