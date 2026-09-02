@@ -114,30 +114,39 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 
 **Klassen (Classes/Concepts)**  
 
-- "Klassen repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
-- Beispiel: Spiel, Person, Organisation
+"Klassen (Classes/Concepts) repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
+
+> Beispiel:
+>
+> Spiel, Person, Organisation
 
 **Instanzen (Instances)**    
 
-- "Instanzen repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
-- Beispiel: Das Spiel "The Legend of Zelda: A Link to the Past"
+"Instanzen (Instances) repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
+
+> Beispiel:
+>
+> Das Spiel "The Legend of Zelda: A Link to the Past"
 
 **Eigenschaften (Properties)**  
 
-- Klassen und Instanzen können in ihrer Bedeutung weiter spezifiziert werden.
+Klassen (Classes/Concepts) und Instanzen (Instances) können in ihrer Bedeutung mit Eigenschaften (Properties) weiter spezifiziert werden.
+Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
 
-- Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
+- Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen (Classes/Concepts) 
+- Eine Eigenschaft (Property) beschreibt eine einzelne Klasse (Class/Concept) , ohne sie mit anderen Klassen (Classes/Concepts) zu verbinden. (Weller2013ontologies, S. 208)
 
-1) Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen
-2) Eine Eigenschaft (Property) beschreibt eine einzelne Klasse, ohne sie mit anderen Klassen zu verbinden. (Weller2013ontologies, S. 208)
-
-- Beispiel: Das Spiel hat den Titel "The Legend of Zelda: A Link to the Past", 
+> Beispiel:
+>
+> Das Spiel hat den Titel "The Legend of Zelda: A Link to the Past", 
 
 **Bedingungen (Constraints)**  
 
-- "Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
+"Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
 
-- Beispiel: Welche Beziehungen beschreiben zulässig das Objekt? (besseres Beispiel finden)
+> Beispiel:
+>
+> Welche Beziehungen beschreiben zulässig das Objekt? (besseres Beispiel finden)
 
 ---
 
