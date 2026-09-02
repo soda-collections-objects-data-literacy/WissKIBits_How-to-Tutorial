@@ -117,11 +117,11 @@ Diese Bereiche dienen als Ausgangspunkt, um unterschiedliche Arten von **Konzept
 
 Beispielsweise können folgende Fragen gestellt werden:
 
-* Welchen **Titel** hat das Spiel?
-* Welchem **Genre** oder welcher **Plattform** wird es zugeordnet?
-* Welche **Personen oder Organisationen** waren beteiligt?
-* Welche **Ereignisse** sind für das Spiel relevant?
-* An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?
+- Welchen **Titel** hat das Spiel?
+- Welchem **Genre** oder welcher **Plattform** wird es zugeordnet?
+- Welche **Personen oder Organisationen** waren beteiligt?
+- Welche **Ereignisse** sind für das Spiel relevant?
+- An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?
 
 ---
 
@@ -147,14 +147,14 @@ Nicht alle Kategorien müssen vorkommen.
 **Beispiel:**
 
 > Spiel → hat → Titel
-
+>
 > Nintendo → war beteiligt an → Entwicklung
-
+>
 > Entwicklung → schuf → Spiel
 
-**Hinweis:**
+ **Hinweis:**
 
-Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehungen, die für das Verständnis des Beispielobjekts besonders relevant sind.
+> Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehungen, die für das Verständnis des Beispielobjekts besonders relevant sind.
 
 **Leitfragen können sein**
 
@@ -165,15 +165,11 @@ Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehunge
 | 3 | Lassen sich die Verbindungen als verständliche Aussagen lesen? | überprüfbare Aussagen über das Objekt|
 
 
-**Ergebnisbesprechung im Plenum**
+**Ergebnisbesprechung im Plenum und Musterbeispiel**
 
-Musterbeispiel als Grafik
+![Konzept-Mindmap](../WissKIBits_Modul1/assets/mindmap.png)
 
-![Konzept-Mindmap](../assets/xxx.png)
-
-
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
-
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“. Eigene Darstellung, erstellt mit ChatGPT (OpenAI), 2026.
 
 ---
 
@@ -208,7 +204,7 @@ Für den Einstieg können beispielsweise folgende Klassen hilfreich sein:
 
 Der [CIDOC CRM Navigator Version 7.1.3 ](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) ermöglicht die interaktive Erkundung von 81 Klassen und 160 Eigenschaften, inklusive Übersetzungen. 
 
-**Beispiel: Von der Benennung zur Appellation**
+**Von der Benennung zur Appellation**
 
 In unserer ersten Modellskizze können wir zunächst einfach formulieren:
 
@@ -220,18 +216,18 @@ Für Titel gibt es mit E35 Title eine speziellere Klasse: E35 Title ist eine Unt
 
 Vereinfacht können wir unterscheiden:
 
-E41 Appellation
-→ allgemeine Benennung
+> E41 Appellation
+> → allgemeine Benennung
 
-E35 Title
-→ besondere Form einer Appellation: ein Titel
+> E35 Title
+> → besondere Form einer Appellation: ein Titel
 
-E42 Identifier
-→ besondere Form einer Appellation: ein Identifikator
+> E42 Identifier
+> → besondere Form einer Appellation: ein Identifikator
 
 Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CIDOC CRM nicht dasselbe, stehen aber in einem gemeinsamen konzeptionellen Zusammenhang.
 
-Merksatz: 
+**Merksatz**
 
 > Bevor wir eine Klasse festlegen, ist zu überprüfen, ob die Scope Note der CIDOC CRM Klasse der Bedeutung des Konzeptbegriffs des Domänenmodells entspricht.
 
