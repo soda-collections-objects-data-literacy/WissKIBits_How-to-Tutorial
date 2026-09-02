@@ -68,7 +68,7 @@ In Modul 2 wird das konzeptuelle Domänenmodell aus Modul 1 in Protégé mit CID
 - Ein schrittweiser Workflow für die semantische Modellierung wird benannt und angewendet.
 - Protégé wird als Software zur Erstellung und Bearbeitung von Ontologien eingeführt.
 - Eine bestehende OWL-Implementierung des CIDOC CRM wird geladen und in ihrer Struktur erkundet.
-- Konzepte aus der Modellskizze werden anhand der Scope Notes geeigneten Klassen und Eigenschaften des CIDOC CRM zugeordnet.
+- Konzepte aus der Modellskizze werden anhand der Scope Notes geeigneten Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM zugeordnet.
 - Domänenspezifische Konzepte werden als Subklassen ergänzt und in die vorhandene Klassenhierarchie eingeordnet.
 - Objekt- und Datentyp-Eigenschaften werden unterschieden und im Modell verwendet.
 - Die erweiterte Ontologie wird gespeichert und für die weitere Umsetzung in WissKI vorbereitet.
