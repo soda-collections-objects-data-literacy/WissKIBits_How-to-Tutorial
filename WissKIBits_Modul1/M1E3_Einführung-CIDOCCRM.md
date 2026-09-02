@@ -86,13 +86,27 @@ CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um kulturelle Infor
 
 ## Inhalte und Prinzipien des CIDOC CRM
 
-**Empfehlung:**
+**CIDOC CRM kennenlernen**
 
 Das CIDOC CRM enthält **detaillierte Erläuterungen zu seinem Aufbau, seinen Inhalten, Modellierungsprinzipien und konzeptionellen Grundlagen**. Für eine fundierte Anwendung des CIDOC CRM als theoretisches und praktisches Werkzeug der semantischen Modellierung wird empfohlen, sich vor der praktischen Nutzung mit diesen Grundlagen und der Struktur des Modells vertraut zu machen.
 
 ![CIDOC CRM Table of Contents](../WissKIBits_Modul1/assets/M1E3_CIDOC_TableofContents.png)
 
 >  **Abbildung:** Die Abbildung zeigt einen Ausschnitt des Inhaltsverzeichnises des CIDOC CRM: [Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, S. 3)
+
+### Zwei Zugänge zu Klassen und Properties
+
+Für einen direkten Einstieg in die **Klassen und Properties des CIDOC CRM** können zwei unterschiedliche Darstellungen genutzt werden:
+
+- **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41):**  
+  Die offizielle Darstellung eignet sich zum **genauen Nachschlagen**. Sie enthält unter anderem Definitionen und Scope Notes, Klassenhierarchien sowie ein- und ausgehende Properties. :contentReference[oaicite:0]{index=0}
+
+- **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1):**  
+  Die interaktive Darstellung bietet einen **visuellen und explorativen Zugang** zu den Klassen des CIDOC CRM und eignet sich besonders für eine erste Orientierung. :contentReference[oaicite:1]{index=1}
+
+**Hinweis:** 
+
+> Nutzt die **CIDOC CRM Periodic Table**, um das Modell zunächst explorativ zu erkunden. Verwendet anschließend die **offizielle CIDOC-CRM-Dokumentation**, um die genaue Bedeutung und Verwendung einer Klasse oder Property nachzuschlagen.
 
 ---
 
