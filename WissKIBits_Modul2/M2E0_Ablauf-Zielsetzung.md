@@ -84,7 +84,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 | Arbeitsschritt | Leitfrage | Ergebnis |
 |---|---|---|
 | Methodisch planen | Welche Schritte und Modellierungsentscheidungen sind erforderlich? | Modellierungsworkflow |
-| Formal umsetzen | Wie werden Klassen und Eigenschaften in Protégé angelegt oder wiederverwendet? | Formale Ontologiestruktur |
+| Formal umsetzen | Wie werden  Klassen (Entities) und Eigenschaften (Properties) in Protégé angelegt oder wiederverwendet? | Formale Ontologiestruktur |
 | Fachlich prüfen | Passen die gewählten CIDOC-CRM-Elemente gemäß ihren Scope Notes zur beabsichtigten Aussage? | Begründetes und konsistentes Modell |
 
 ---
@@ -137,7 +137,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 flowchart TD
     A["Konzeptuelle Modellskizze aus Modul 1"] --> B["Methodischen Workflow festlegen"]
     B --> C["CIDOC CRM in Protégé erkunden"]
-    C --> D["Klassen und Eigenschaften auswählen"]
+    C --> D[" Klassen (Entities) und Eigenschaften (Properties) auswählen"]
     D --> E["Domänenspezifische Subklassen ergänzen"]
     E --> F["Modell prüfen, speichern und für WissKI vorbereiten"]
 ```
@@ -170,7 +170,7 @@ Vorausgesetzt werden die Inhalte aus Modul 1 oder vergleichbare Grundkenntnisse,
 Die Teilnehmenden sollten…
 
 - die Begriffe Domäne, Konzept, Ereignis und Beziehung unterscheiden können,
-- die Bausteine Klasse, Eigenschaft, Instanz und Modellannahme kennen,
+- die Bausteine  Klassen (Entities), Eigenschaften (Properties), Instanz (Instances) und Modellannahme (Assumptions) kennen,
 - das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
 - Scope Notes als Grundlage für Modellierungsentscheidungen kennen,
 - sowie wenigstens eine erste konzeptuelle Modellskizze im Idealfall ein CIDOC CRM basiertes semantisches Domänenmodell mitbringen.
@@ -188,7 +188,7 @@ Am Ende von Modul 2 liegt eine erste formal umgesetzte Domänenontologie beziehu
 
 Sie enthält:
 
-- ausgewählte und fachlich begründete Klassen und Eigenschaften des CIDOC CRM,
+- ausgewählte und fachlich begründete  Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM,
 - domänenspezifische Subklassen für zentrale Konzepte des Beispiels,
 - mindestens eine modellierte semantische Beziehung zwischen den ausgewählten Klassen,
 - mindestens eine sinnvoll eingesetzte Datentyp-Eigenschaft,
