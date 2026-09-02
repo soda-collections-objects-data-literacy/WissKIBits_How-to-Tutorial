@@ -52,7 +52,7 @@ Einheit 1: **Willkommen, Zielsetzung und Ablauf**
 >
 > Dieses How-to-Tutorial führt praxisorientiert in die ontologiegestützte Modellierung von Forschungsdaten ein. Ausgehend von Informationen zu einem Sammlungsobjekt wird schrittweise ein semantisch aussagekräftiges Datenmodell entwickelt und für die spätere Implementierung in WissKI vorbereitet.
 >
-> In Modul 1 **„Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären“** erarbeiten wir die konzeptuelle Grundlage dieses Datenmodells. Dafür analysieren wir Objektdaten und Kontextinformationen aus einer fachlichen Domäne. Wir identifizieren relevante Konzepte, Ereignisse und Beziehungen, präzisieren ihre Bedeutung und gleichen sie mit Klassen und Eigenschaften des Referenzmodells CIDOC CRM ab.
+> In Modul 1 **„Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären“** erarbeiten wir die konzeptuelle Grundlage dieses Datenmodells. Dafür analysieren wir Objektdaten und Kontextinformationen aus einer fachlichen Domäne. Wir identifizieren relevante Konzepte, Ereignisse und Beziehungen, präzisieren ihre Bedeutung und gleichen sie mit Klassen (Entities) und Eigenschaften (Properties) des Referenzmodells CIDOC CRM ab.
 >
 > Ziel ist es, die fachliche Logik einer Domäne so zu dokumentieren, dass Modellierungsentscheidungen nachvollziehbar werden und Forschungsdaten später konsistent erfasst, verknüpft, ausgewertet und nachgenutzt werden können.
 >
@@ -185,7 +185,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 ```mermaid
 flowchart TD
     A["Sammlungsobjekt und Forschungsfrage"] --> B["Konzepte, Ereignisse und Beziehungen"]
-    B --> C["Klassen, Eigenschaften und Modellannahmen"]
+    B --> C["Klassen (Entities), Eigenschaften (Properties) und Modellannahmen"]
     C --> D["Abgleich mit CIDOC CRM"]
     D --> E["Modellskizze und begründete Entscheidungen"]
     E --> F["Vorbereitung für WissKI Pathbuilder"]
@@ -227,7 +227,7 @@ Am Ende von Modul 1 liegt eine erste konzeptuelle Modellskizze der Domänenlogik
 
 - die für das Beispiel relevanten Konzepte und Ereignisse,
 - ihre semantischen Beziehungen,
-- erste Zuordnungen zu Klassen und Eigenschaften des CIDOC CRM,
+- erste Zuordnungen zu Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM,
 - sowie begründete Modellierungsentscheidungen.
 
 Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Implementierung in WissKI.
