@@ -49,8 +49,9 @@ Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
 - **Reine Wiederverwendung** bestehender CIDOC CRM-Klassen (Entities) und -Eigenschaften (Properties)
 - **Kombinationen** der oben genannten Strategien
 
-In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
+**Hinweis**
 
+> In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
 > - **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**  
 > - **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
 
