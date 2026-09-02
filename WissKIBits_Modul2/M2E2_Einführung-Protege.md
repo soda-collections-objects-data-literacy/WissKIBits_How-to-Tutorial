@@ -70,11 +70,11 @@ Als Referenzontologie dient das **CIDOC CRM ([Release Version 7.1.3 Stand Februa
 
 **Hinweis**
 
-> Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege)
+Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) zur Verfügung:
+
+> - [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
 > 
-> [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-> 
-> ein [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki) zur Verfügung. 
+> - [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)  
 
 Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Domänenontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. 
 
