@@ -218,10 +218,10 @@ Vereinfacht können wir unterscheiden:
 
 > E41 Appellation
 > → allgemeine Benennung
-
+>
 > E35 Title
 > → besondere Form einer Appellation: ein Titel
-
+>
 > E42 Identifier
 > → besondere Form einer Appellation: ein Identifikator
 
@@ -233,24 +233,19 @@ Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CID
 
 Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Eigenschaften wird in Modul 3 behandelt.
 
-**Ergebnisbesprechung im Plenum**
-
-Musterbeispiel als Grafik
-
-![Konzept-Mindmap](../assets/xxx.png)
-
-
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
-
 ---
 
-## Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung
+### Aufgabe 2: Ergebnisbesprechung im Plenum
 
-Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen und Eigenschaften des CIDOC CRM weiter formalisiert werden.
+***Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung***
+
+Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM weiter formalisiert werden.
 
 Die folgende Abbildung zeigt beispielhaft, wie aus einer solchen Modellskizze ein stärker formalisiertes semantisches Modell entstehen kann:
 
-![Konzept-Mindmap](../assets/Mindmap.png)
+![Konzept-Mindmap](../WissKIBits_Modul1/assets/Mindmap.png)
+
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
 
 Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schrittweise CIDOC-CRM-Klassen und -Eigenschaften. Die Abbildung ist daher nicht als einzig mögliche Lösung zu verstehen, sondern als Modellierungsvorschlag, der überprüft und weiterentwickelt werden kann.
 
@@ -278,11 +273,9 @@ Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creati
 
 Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
 
-Diese Praxiseinheit **Modul 1** mit allen Ressourcen ist veröffentlicht und verfügbar: (todo und nachdenken)
+Diese Praxiseinheit **Modul 1** mit allen Ressourcen ist veröffentlicht und verfügbar auf Zenodo und GitHub:
 
-- Git
-- Lia
-- Zenodo
+xxxxx
 
 ### Zitation
 
