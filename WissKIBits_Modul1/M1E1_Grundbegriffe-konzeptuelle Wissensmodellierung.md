@@ -115,14 +115,13 @@ Wählt ein oder zwei Informationen aus, die für das Verständnis des Objekts re
 > Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt.
 > Es wurde 1991 in Japan veröffentlicht.
 
-
 **Prüft eure Aussagen:**
 
-> - Welche Informationen sind für das Verständnis des Objekts zentral? 
-> - Welche beschreiben lediglich ein Merkmal?
-> - Welche stellen das Objekt in einen größeren Zusammenhang?
-> - Welche Personen, Organisationen, Orte und Zeiten kommen vor?
-> - Welche Zusammenhänge bleiben unausgesprochen?
+- Welche Informationen sind für das Verständnis des Objekts zentral? 
+- Welche beschreiben lediglich ein Merkmal?
+- Welche stellen das Objekt in einen größeren Zusammenhang?
+- Welche Personen, Organisationen, Orte und Zeiten kommen vor?
+- Welche Zusammenhänge bleiben unausgesprochen?
 
 
 #### Schritt 2: Konzepte und Ereignis identifizieren
@@ -139,23 +138,19 @@ Bestimmt anhand eurer Aussagen:
 > 3. **Beziehungen** verbinden Konzepte und Konzepte oder Konzepte und Ereignisse miteinander.
 
 
-**Beispiel:**
-
-> Konzepte: Spiel, Nintendo
-> Ereignis: Entwicklung
-
-
 #### Schritt 3: Beziehungen formulieren
 
 Beschreibt nun, wie die identifizierten Konzepte und Ereignisse miteinander verbunden sind. 
 
 Formuliert die Beziehungen als kurze Aussagen.
 
-**Beispiel:**
+**Beispiele:**
 
 | Konzept | Konzept | Beziehung |
 |---|---|---|
 | Spiel | Titel | Das Spiel hat den Titel "The Legend of Zelda..." |
+
+
 
 | Konzept | Ereignis | Beziehungen |
 |---|---|---|
@@ -177,7 +172,7 @@ Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wisse
 
 ### Musterbeispiel als Grafik
 
-![Konzept-Mindmap](../assets/KonzeptEreignisBeziehung.png)
+![Konzept-Mindmap](../WissKIBits_Modul1/asstes/mindmap.png)
 
 > **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“.
 
