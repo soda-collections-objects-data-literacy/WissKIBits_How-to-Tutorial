@@ -68,10 +68,11 @@ Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **seman
 
 Als Referenzontologie dient das **CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))** (SIG2024cidoc), konkret die bestehende OWL-Implementierung des CIDOC CRM, das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm). 
 
-Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) 
+**Hinweis**
 
-- [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-- ein [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki) zur Verfügung. 
+> Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) 
+> [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
+> ein [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki) zur Verfügung. 
 
 Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Domänenontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. 
 
@@ -94,15 +95,15 @@ Entweder ist Protégé Desktop bereits lokal installiert oder für WebProtégé 
 
 **Schritt 1: Vorhandene Ontologie laden**
 
-- Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet: 
-  Das **Erlangen CRM / OWL** kann hier herunter geladen werden: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet: 
+
+- Das **Erlangen CRM / OWL** kann hier herunter geladen werden: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 - Diese wird in **Protégé Desktop** geladen.
 
 **Schritt 2: Struktur erkunden**
 
 - In Protége lässt sich die **Struktur des CIDOC CRM erkunden**.
 - Dazu gehören insbesondere die **Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties)**, über die Klassen (Entities) miteinander in Beziehung gestzt oder beschrieben werden.
-
 
 **Hinweis**
 
@@ -117,20 +118,24 @@ Entweder ist Protégé Desktop bereits lokal installiert oder für WebProtégé 
 **Beispiel:**
 
 >  E35 Title --> Game_Title
-
-- **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
+>
+>  **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
 
 ---
 
 ## Video-Demonstration
 
-!?[Video](../assets/Short_Protege_Intro.mp4)
+!?[Video](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 
 <video controls>
-  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/assets/Short_Protege_Intro.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/WissKIBits_Modul2/assets/Short_Protege_Intro.mp4" type="video/mp4">
 </video>
 
-> Die Live-Demo veranschaulicht Schritt 1: Vorhandene Ontologie laden, Schritt 2: Struktur erkunden und Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
+Die Live-Demo veranschaulicht:
+
+- Schritt 1: Vorhandene Ontologie laden,
+- Schritt 2: Struktur erkunden und Schritt
+- 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
 
 ---
 
