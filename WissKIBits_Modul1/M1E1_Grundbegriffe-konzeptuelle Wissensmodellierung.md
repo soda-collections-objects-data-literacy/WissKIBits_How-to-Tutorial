@@ -172,7 +172,7 @@ Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wisse
 
 ### Musterbeispiel als Grafik
 
-![Konzept-Mindmap](../WissKIBits_Modul1/asstes/mindmap.png)
+![Konzept-Mindmap](../WissKIBits_Modul1/assts/mindmap.png)
 
 > **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“.
 
