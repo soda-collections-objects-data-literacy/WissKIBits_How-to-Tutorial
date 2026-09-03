@@ -99,7 +99,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 | 0 | Willkommen, Zielsetzung und Ablauf | 8 Min. |
 | 1 | Semantische Datenmodelle visualisieren | 37 Min. |
 | 2 | Transformation semantischer Modelle mit gnm-service | 40 Min. |
-| E | Ergebnissicherung, Transfer und Feedback | 5 Min. |
+| Ü | Ergebnissicherung, Transfer und Feedback | 5 Min. |
 |  | **Gesamt** | **90 Min.** |
 
 ---
