@@ -41,7 +41,7 @@ Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
 Einheit 1: **Semantische Domänenontologie visualisieren**  
 
-**Dauer:** ~  Min.
+**Dauer:** ~ 35 Min.
 
 **Lernziele:**
 
@@ -161,37 +161,54 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 ## Aufgabe 
 
 **Arbeitsform:** Einzelarbeit   
+
 **Material:** eigenes Laptop
+
 **Zeit:** 20 Min.
 
-Kurze Beschreibung der Aufgabe.
 
-1. Ergänze die Lücken (fehlende Knoten/Kanten) durch geeignete Klassen (Entities) und passende Beziehungen (Properties) im Diagramm.
-2. Die temporären Platzhalter (???) sind nach der Ergänzung zu entfernen.
+Vervollständige das Diagramm, indem du die fehlenden **Knoten und Kanten** mit geeigneten Klassen (Entities) und passenden Beziehungen (Properties) ergänzt.
 
-**Auswahl**
+Entferne anschließend alle temporären Platzhalter `(???)`.
+
+**Verwende dafür die folgenden Klassen und Properties:**
 
 - P102\_has\_title
 - P1 is identified by
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Hinweis: Regeln zur Visualisierung mit Draw.io**
+**Hinweis:**
 
-- Die Knoten und Kanten müssen korrekt verbunden sein.
-- Die Kantenbeschriftung muss mit der Kante verbunden sein.
-- Die Benennungen können, müssen aber nicht Unterstriche beinhalten.
-- Es werden keine individuellen Instanzen abgebildet.
-- Es werden die domänenspezifischen Subklassen aus der bereits erstellten Domänenontologie verwendet.
-- Die Beziehungen aus dem CIDOC CRM werden nachgenutzt.
-- Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
-- Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
+Regeln zur Visualisierung mit Draw.io**
+
+> Die Knoten und Kanten müssen korrekt verbunden sein.
+> 
+> Die Kantenbeschriftung muss mit der Kante verbunden sein.
+> 
+>  Die Benennungen können, müssen aber nicht Unterstriche beinhalten.
+> 
+> Es werden keine individuellen Instanzen abgebildet.
+> 
+> Es werden die domänenspezifischen Subklassen aus der bereits erstellten Domänenontologie verwendet.
+> 
+> Die Beziehungen aus dem CIDOC CRM werden nachgenutzt.
+> 
+> Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
+> 
+> Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
+> 
 
 **Ressourcen**
 
-- Domänenontologie: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
-- Für semantische Beziehungen (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
-- Alternative zur PDF-Datei ein HTML-Darstellung: [https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> Domänenontologie: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+> 
+> Die offizielle CIDOC CRM Dokumentation (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+>
+> Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> 
+> Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
+> 
 
 ---
 
@@ -201,7 +218,7 @@ Kurze Beschreibung der Aufgabe.
 |---:|---|
 | 1 | Die vorbereitete Draw.io-Datei runterladen ([hier](../assets/M2E2_Gruppenarbeit.drawio.xml)) |
 | 2 | Die heruntergeladene Draw.io-Datei in Draw.io importieren ([hier](https://app.diagrams.net/)) |
-| 3 | Das Domänenontologie-Diagramm vervollständigen (siehe Auswahl)  |
+| 3 | Das Domänenontologie-Diagramm vervollständigen  |
 | 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
 | 5 | Die Knoten-Kanten-Verbindungen prüfen  |
 
@@ -224,19 +241,7 @@ Im nächsten Schritt wird das erstellte Draw.io-Diagramm automatisch in einen Wi
 [Ltd2026drawio] Draw.io LTD. (2026). draw.io. https://www.drawio.com/
 
 
-<!-- ## Ausgangspunkt
 
-Damit diese Visualisierung korrekt umgesetzt werden kann, müssen die relevanten Elemente der Domäne noch einmal klar sein.
-
-In Modul 2 wurde die konzeptionelle Grundlage des Beispiel-Datenmodells entwickelt:
-
-* In **Einheit 5** wurden *zentralen Konzepte (Entities)* eines Beispielobjektes aus der Computerspiel-Domäne identifiziert. 
-* In **Einheit 6** wurde gezeigt, wie die Top-Level Ontologie CIDOC CRM um *domänenspezifische Subklassen* erweitert wird.  
-
-**Zur Orientierung und zum Nachlesen**
-
-* [Beispielobjekt](https://github.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/blob/main/WissKIBits_Modul1/M1E2_Analyse-Workflow.md#beispielobjekt)
-* [Beispiele für zentrale Konzepte (Spielmerkmale und narrative Elemente)](https://github.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/blob/main/WissKIBits_Modul1/M1E5_Dom%C3%A4nenanalyse.md#fokus-dieser-modellierungs%C3%BCbung)  -->
 
 
 
