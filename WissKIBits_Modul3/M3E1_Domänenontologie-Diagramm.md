@@ -113,7 +113,7 @@ Dazu wird das konzeptionelle Domänenmodell nun **visuell und formal in Draw.io*
 
 <table>
   <tr>
-    <td><img src="../assets/SODa_ISWC2025.drawio.png" width="100%"></td>
+    <td><img src="../WissKIBits_Modul3/assets/MusterDrawio.png" width="100%"></td>
   </tr>
 </table>
 
