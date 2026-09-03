@@ -178,6 +178,8 @@ Entferne anschließend alle temporären Platzhalter `(???)`.
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
+**Ladet** das vorbereitete **Draw.io-Lücken-Diagramm** herunter: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/resources/Gruppe_A.drawio.xml oder WissKIBits_Modul3/resources/Gruppe_A.drawio.xml
+
 **Hinweis:**
 
 Regeln zur Visualisierung mit Draw.io**
@@ -197,6 +199,7 @@ Regeln zur Visualisierung mit Draw.io**
 > Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
 > 
 > Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
+> Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
 > 
 
 **Ressourcen**
