@@ -238,6 +238,10 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 - **Einführungen in WissKI Features:**
   - Youtube-Channel WissKIProjekt: https://www.youtube.com/@wisskiproject
   - Youtube-Channel WissKI: https://www.youtube.com/@wisski5763
+ 
+- **WissKI Dokumentation**
+  - WissKI Dokmentation mit Tutorial, How-To's, Guide'S und einem Glossar: https://project.pages.drupalcode.org/wisski/
+  - WissKI Module Documention https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-documentation/wisski
     
 - **News und Community:**
   - Mattermost: https://chat.wiss-ki.eu/wisski/channels/town-square
