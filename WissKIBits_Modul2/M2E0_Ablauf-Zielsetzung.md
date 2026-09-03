@@ -126,7 +126,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
-### 3. Semantische Modellierung mit CIDOC CRM
+### Ü. Semantische Modellierung mit CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 - Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
