@@ -191,7 +191,6 @@ Für die praktische Anwendung werden benötigt:
 - Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
 - sowie die im Tutorial verwendete [Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
--
 
 ## Ergebnis des Moduls
 
