@@ -85,14 +85,17 @@ Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet ni
 
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
-```mermaid
-flowchart TD
-    A["Fachliche Domäne bestimmen"] --> B["Relevantes Wissen identifizieren"]
-    B --> C["Konzepte, Ereignisse und Beziehungen ordnen"]
-    C --> D["Fachliche Bedeutungszusammenhänge beschreiben"]
-    D --> E["Semantisch modellieren"]
-    E --> F["Semantisches Datenmodell"]
-```
+**Fachliche Domäne bestimmen**  
+↓  
+**Relevantes Wissen identifizieren**  
+↓  
+**Konzepte, Ereignisse und Beziehungen ordnen**  
+↓  
+**Fachliche Bedeutungszusammenhänge beschreiben**  
+↓  
+**Semantisch modellieren**  
+↓  
+**Semantisches Datenmodell**
 
 > **Abbildung:** Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die konzeptuelle Ordnung des relevanten Wissens bis zum semantischen Datenmodell.
 
@@ -101,7 +104,9 @@ flowchart TD
 ## Übung: Wissen einer Sammlung konzeptuell ordnen
 
 **Arbeitsform:** Einzel- oder Kleingruppenarbeit  
+
 **Material:** Board, Moderationskarten oder Papier  
+
 **Zeit:** 10 Min.
 
 ### Aufgabe
