@@ -1,7 +1,7 @@
 <!--
 author: Canan Hastik (0000-0003-1729-4642)
 
-author: Gudrun Schwenk ()
+author: Gudrun Schwenk (0009-0002-3156-8339)
 
 email: c.hastik@igsd-ev.de
 
@@ -16,17 +16,21 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/S
 
 license: CC BY 4.0
 
-comment: Dieser Text erscheint als Info innerhalb der Liascript-Module oben rechts hinter dem (i) und sollte den Inhalt des Moduls kurz beschreiben. Vorschlag: Mirco-Content zum Lernziel "Lernende können FAIR-Prinzipien erläutern". Dieses Modul ist Teil eines Einführungskurses zum Forschungsdatenmanagement, der von “OER.Net UAG FDM-Basiskurs” auf Grundlage der Lernzielmatrix zum FDM entwickelt wurde. Der Basiskurs entwickelt das Konzept der EduBricks weiter und ist als “Arbeitsgruppe 3: Einbettung und Vernetzung des modularen und skalierbaren Konzeptes” zudem Teil der NFDI-Sektion Education and Training.
+comment: Dieses Modul ist Teil des SODa How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
 
-title: Template für die Erarbeitung eines Micro-Contents anhand eines Lernziels für generischen FDM-Basiskurs
+title: WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
 
-description: Dieses Template wurde als Vorlage für die Entwicklung von Microlearning-Content zum Themenbereich Forschungsdatenmanagement (FDM) in Orientierung an Lernzielen der [Lernzielmatrix zum Forschungsdatenmanagement (FDM)](https://zenodo.org/records/15025246) entwickelt.
+module: Vom Diagramm zu Pfaden – erläutern und anwenden
 
-keywords: FDM, Forschungsdatenmanagement, Forschungsdaten, Lernziel, Micro-Content
+einheit: Transformation semantischer Modelle in WissKI-Pfade
+
+description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
+
+keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellierung, Forschungsdaten, Forschungsdatenmanagement, OER
 
 community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
 
-PublicationDate: noch unveröffentlicht
+PublicationDate: 2026-09-04
 
 LearningResourceType: SODa How-to-Tutorial
 
@@ -39,7 +43,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
-Einheit 2: **Transformation semantischer Modelle mit gnm-service**  
+Einheit Ü: **Transformation semantischer Modelle in WissKI-Pfade**  
 
 **Dauer:** ~ 45 Min.
 
