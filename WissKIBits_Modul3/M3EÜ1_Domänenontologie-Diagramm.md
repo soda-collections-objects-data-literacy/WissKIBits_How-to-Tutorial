@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
-Einheit 1: **Semantische Domänenontologie visualisieren**  
+Einheit Ü1: **Semantische Domänenontologie visualisieren**  
 
 **Dauer:** ~ 35 Min.
 
