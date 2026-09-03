@@ -181,22 +181,26 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 ### Ü. Anwendungsbeispiel Objektsammlungen
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
-- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808) 
+- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
+  
 ---
 
 ## Lernweg im Modul
 
-```mermaid
-flowchart TD
-    A["Sammlungsobjekt und Forschungsfrage"] --> B["Konzepte, Ereignisse und Beziehungen"]
-    B --> C["Klassen (Entities), Eigenschaften (Properties) und Modellannahmen"]
-    C --> D["Abgleich mit CIDOC CRM"]
-    D --> E["Modellskizze und begründete Entscheidungen"]
-    E --> F["Vorbereitung für WissKI Pathbuilder"]
-```
+**Sammlungsobjekt und Forschungsfrage**  
+↓  
+**Konzepte, Ereignisse und Beziehungen**  
+↓  
+**Klassen (Entities), Properties und Modellannahmen**  
+↓  
+**Abgleich mit CIDOC CRM**  
+↓  
+**Modellskizze und begründete Entscheidungen**  
+↓  
+**Vorbereitung für den WissKI Pathbuilder**
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
-> 
+>
 ---
 
 ## Arbeitsweise und Beispiel
