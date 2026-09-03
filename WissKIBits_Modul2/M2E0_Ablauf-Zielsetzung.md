@@ -110,23 +110,31 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 ### 1. Methoden und Workflows semantischer Modellierung
 
-- Methoden zur Entwicklung von Ontologien benennen (LZ-ID 03\_007\_0784)
-- Methoden zur Entwicklung von Ontologien erläutern (LZ-ID SODa\_03\_007\_0839)
-- Workflow semantischer Modellierung benennen (LZ-ID SODa\_03\_001\_0626)
-- Workflow semantischer Modellierung anwenden (LZ-ID SODa\_03\_001\_0627)
+- Methoden zur Entwicklung von Ontologien benennen. (LZ-ID 03\_007\_0784)
+- Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
+- einen Workflow für die semantische Modellierung als Datendokumentation benennen. (LZ-ID SODa\_03\_001\_0626)
+- einen Workflow für die semantische Modellierung als Datendokumentation erläutern. (LZ-ID SODa\_03\_001\_0853)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
 ### 2. Einführung in Protégé
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
 ### 3. Semantische Modellierung mit CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
+- Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
+- einen Workflow für die semantische Modellierung als Datendokumentation anwenden (LZ-ID SODa\_03\_001\_0627)
+- unter Anleitung Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM anwenden. (LZ-ID SODa\_03\_001\_0786a) 
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_0855)
 - Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-- Methoden zur Modellierung mit CIDOC CRM benennen oder anwenden (?) SODa_03_007_0784a  (ToDO ???)
-- Datentyp-Eigenschaften des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_xxxx) (ToDO ???)
 
 
 ---
