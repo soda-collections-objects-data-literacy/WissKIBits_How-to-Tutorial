@@ -66,7 +66,7 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 In Modul 3 wird die in Modul 2 formalisierte Domänenontologie in eine für WissKI nutzbare Pfadstruktur überführt.
 
 * Die Domänenontologie wird in Draw.io als semantisches Diagramm visualisiert.
-* Klassen, Eigenschaften und vollständige semantische Pfade werden nach festgelegten Modellierungsregeln dargestellt.
+* Klassen (Entities), Eigenschaften (Properties) und vollständige semantische Pfade werden nach festgelegten Modellierungsregeln dargestellt.
 * Für die Konvertierung benötigte Attributwerte werden an den relevanten Diagrammelementen ergänzt und geprüft.
 * Das Diagramm wird als Draw.io-XML-Datei für die weitere Verarbeitung bereitgestellt.
 * Der Webdienst **„Draw.io diagrams to WissKI pathbuilders“** wird zur Prüfung und Konvertierung des Diagramms eingesetzt.
@@ -84,7 +84,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 
 | Verarbeitungsschritt | Leitfrage | Ergebnis |
 |---|---|---|
-| visualisieren | Wie werden Klassen, Eigenschaften und Pfade eindeutig in Draw.io dargestellt? | formalisiertes Diagramm |
+| visualisieren | Wie werden Klassen (Entities), Eigenschaften (Properties) und Pfade eindeutig in Draw.io dargestellt? | formalisiertes Diagramm |
 | transformieren | Wie wird das Diagramm geprüft und in das Pathbuilder-Format konvertiert? | Pathbuilder-XML-Datei |
 | implementieren und prüfen | Wie wird die Datei in WissKI importiert und die erzeugte Pfadstruktur analysiert? | nutzbarer WissKI Pathbuilder |
 
@@ -162,7 +162,7 @@ Das Modul verbindet Aktivierung, angeleitete Modellierung, technische Transforma
 
 - Zu Beginn werden Forschungs- und Abfragefragen aus der Sammlungsperspektive aufgegriffen: Welche Informationen sollen später über semantische Pfade auffindbar und abfragbar sein?
 - Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in den vorherigen Modulen entwickelte Domänenontologie dienen erneut als roter Faden.
-- In Draw.io vervollständigen die Teilnehmenden ein vorbereitetes Diagramm um fehlende Klassen und Eigenschaften.
+- In Draw.io vervollständigen die Teilnehmenden ein vorbereitetes Diagramm um fehlende Klassen (Entities) und Eigenschaften (Properties).
 - Sie prüfen vollständige Pfade, Knoten-Kanten-Verbindungen, Benennungen und die für die Konvertierung benötigten Attributwerte.
 - Das Diagramm wird als XML-Datei an den Konvertierungsdienst übergeben.
 - Die erzeugte Pathbuilder-XML-Datei wird in WissKI importiert.
@@ -177,7 +177,6 @@ Das Ziel ist nicht die vollständige technische Konfiguration einer WissKI-Insta
 Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse und Arbeitsergebnisse. Die Teilnehmenden sollten …
 
 - Konzepte, Ereignisse und Beziehungen einer Domäne identifizieren können,
-- Klassen, Objekt- und Datentyp-Eigenschaften unterscheiden können,
 - mit dem ereigniszentrierten Modellierungsprinzip und ausgewählten Elementen des CIDOC CRM vertraut sein,
 - Scope Notes für Modellierungsentscheidungen nutzen können,
 - eine formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung kennen,
@@ -186,31 +185,34 @@ Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grun
 Für die praktische Anwendung werden benötigt:
 
 - ein Computer mit Internetzugang,
-- Zugriff auf Draw.io beziehungsweise diagrams.net,
-- die vorbereitete Draw.io-XML-Datei,
-- Zugriff auf den Konvertierungsdienst,
-- Zugang zu einer vorbereiteten WissKI-Instanz,
-- sowie die im Tutorial verwendete Domänenontologie und Referenzontologie.
+- Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
+- die vorbereitete [Draw.io-XML-Datei](../WissKIBits_Modul2/assets/Gruppe_A.drawio.xml),
+- Zugriff auf den Konvertierungsdienst [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
+- Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
+- sowie die im Tutorial verwendete [Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
----
+-
 
 ## Ergebnis des Moduls
 
 Am Ende von Modul 3 liegen folgende Arbeitsergebnisse vor:
 
-- ein nach den vorgegebenen Regeln vervollständigtes semantisches Draw.io-Diagramm,
-- eine exportierte Draw.io-XML-Datei,
-- eine durch den Konvertierungsdienst erzeugte WissKI-Pathbuilder-XML-Datei,
+- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../WissKIBits_Modul3/assets/Modul3drawio.png),
+- eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml),
+- eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml),
 - eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
 - sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
 
-Die importierte Pfadstruktur bildet die Grundlage für die Generierung von Bundles, Feldern und Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter Forschungsdaten in WissKI.
+Die importierte Pfadstruktur bildet die Grundlage für die Generierung von Drupal-Bundles, Feldern und Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter Forschungsdaten in WissKI.
 
 ---
 
 ## Ausblick
 
 Im nächsten Schritt werden aus den importierten Pfaden und Pfadgruppen Eingabestrukturen in WissKI generiert. Anschließend können Beispieldaten erfasst und anhand der zu Beginn formulierten Forschungs- und Abfragefragen geprüft werden. So wird sichtbar, ob das entwickelte Modell die vorgesehenen Informationsbedarfe tatsächlich unterstützt.
+
+Für weiterführende News, Informationen zu WissKI, die WissKI Dokumentation und WissKI Community (Stand: August 2026) verweisen wir auf die Webseite: https://wiss-ki.eu/de. 
+
 
 ---
 
