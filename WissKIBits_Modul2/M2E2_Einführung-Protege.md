@@ -49,10 +49,9 @@ Teilnehmende können...
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
-- falls Übung bleibt --> anwenden (siehe EÜ)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern.
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
 ---
 
