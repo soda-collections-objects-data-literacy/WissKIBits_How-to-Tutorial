@@ -133,11 +133,12 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 
 ### 3. Vom Pathbuilder zur Wissensbasis
 
-- die Struktur eines WissKI-Pathbuilders erläutern;
-- Pathbuilder und Ontologie miteinander in Beziehung setzen;
-- die Auswirkungen von Modellierungsentscheidungen auf Dateneingabe und -abfrage erläutern;
-- die Eignung eines Datenmodells für konkrete Forschungsfragen beurteilen;
-- den Zusammenhang zwischen Modellierung, Datenqualität und FAIR-Prinzipien erläutern.
+- WissKI Pathbuilder als Werkzeug zur Defintion einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0804)
+- unter Anleitung die Datenkonvertierung einer Visualisierungssoftware in ein nachnutzbares Dateiformat anwenden. (LZ-ID SODa\_02\_005\_0298a)
+- unter Anleitung WissKI Pathbuilder als Werkzeug zum Import einer domänenspezifischen Ontologiestruktur (Pathbuilder-XML-Datei im WissKI-Pathbuilder) anwenden. (LZ-ID SODa\_03\_007\_0818)
+- unter Anleitung die importierte domänenspezifische Ontologiestruktur im WissKI-Pathbuilder analysieren. (LZ-ID SODa\_03\_007\_0819)
+- ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung benennen. (LZ-ID SODa\_02\_005\_0317) 
+- unter Anleitung ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung anwenden. (LZ-ID SODa\_02\_005\_0318)
 
 ---
 
