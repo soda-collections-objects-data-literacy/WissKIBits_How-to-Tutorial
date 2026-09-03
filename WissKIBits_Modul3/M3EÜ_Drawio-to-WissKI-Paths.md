@@ -41,7 +41,7 @@ Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
 Einheit 2: **Transformation semantischer Modelle mit gnm-service**  
 
-**Dauer:** ~ 40 Min.
+**Dauer:** ~ 45 Min.
 
 **Lernziele:**
 
