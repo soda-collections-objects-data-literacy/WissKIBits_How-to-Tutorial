@@ -211,7 +211,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
->
+
 ---
 
 ## Arbeitsweise und Beispiel
