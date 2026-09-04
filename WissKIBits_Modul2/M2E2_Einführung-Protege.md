@@ -137,7 +137,7 @@ Die Live-Demo veranschaulicht:
 - Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
   
 
-!?[Video](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+!?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 
 ---
 
