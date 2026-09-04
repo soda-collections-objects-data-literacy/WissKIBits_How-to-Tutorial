@@ -244,7 +244,7 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
   - Youtube-Channel WissKI: https://www.youtube.com/@wisski5763
  
 - **WissKI Dokumentation**
-  - WissKI Dokmentation mit Tutorial, How-To's, Guide'S und einem Glossar: https://project.pages.drupalcode.org/wisski/
+  - WissKI Dokmentation mit Tutorial, How-To's, Guide's und einem Glossar: https://project.pages.drupalcode.org/wisski/
   - WissKI Module Documention https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-documentation/wisski
     
 - **News und Community:**
