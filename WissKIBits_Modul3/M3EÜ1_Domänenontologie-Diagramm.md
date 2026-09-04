@@ -204,7 +204,7 @@ Regeln zur Visualisierung mit Draw.io**
 > 
 > - Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
 > - Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
-> 
+
 
 **Ressourcen**
 
@@ -215,7 +215,7 @@ Regeln zur Visualisierung mit Draw.io**
 > - Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 > 
 > - Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
-> 
+
 
 ---
 
