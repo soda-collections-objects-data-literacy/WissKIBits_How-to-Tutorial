@@ -9,7 +9,7 @@ email: g.schwenk@igsd-ev.de
 
 version:  v1
 
-language: DE, EN
+language: DE
 
 icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/liascript-oers/refs/heads/main/resources/SODa-Logo_full.svg
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODa_WissKI-ISWC25Bits/refs/heads/main/soda.css
