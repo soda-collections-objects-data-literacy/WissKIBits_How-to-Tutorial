@@ -295,7 +295,7 @@ Nehmt dazu exemplarisch den folgenden Pfad:
 [(X)] Ja  
 [( )] Nein
 
-[[?]]
+
 Vergleicht Ausgangsklasse, Property und Zielklasse mit der entsprechenden Beziehung im Draw.io-Diagramm.
 
 ---
