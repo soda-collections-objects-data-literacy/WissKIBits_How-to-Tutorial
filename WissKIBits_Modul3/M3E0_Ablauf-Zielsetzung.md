@@ -168,7 +168,7 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 > ↓
 >  
 > **Pfade und Pfadgruppen analysieren**
->
+
 
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
@@ -215,7 +215,7 @@ Für die praktische Anwendung werden benötigt:
 
 Am Ende von Modul 3 liegen folgende Arbeitsergebnisse vor:
 
-- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../WissKIBits_Modul3/assets/Modul3drawio.png),
+- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../WissKIBits_Modul3/assets/GamesDrawioDiagramm.png),
 - eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml),
 - eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml),
 - eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
