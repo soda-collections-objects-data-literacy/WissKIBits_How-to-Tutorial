@@ -188,16 +188,27 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 ## Lernweg im Modul
 
 **Sammlungsobjekt und Forschungsfrage**  
+
 ↓  
+
 **Konzepte, Ereignisse und Beziehungen**  
+
 ↓  
+
 **Klassen (Entities), Properties und Modellannahmen**  
+
 ↓  
+
 **Abgleich mit CIDOC CRM**  
+
 ↓  
+
 **Modellskizze und begründete Entscheidungen**  
+
 ↓  
+
 **Vorbereitung für den WissKI Pathbuilder**
+
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
 >
