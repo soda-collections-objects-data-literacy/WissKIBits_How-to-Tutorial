@@ -182,7 +182,7 @@ Entferne anschließend alle temporären Platzhalter `(???)`.
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Ladet** das vorbereitete **Draw.io-Lücken-Diagramm** herunter: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/resources/Gruppe_A.drawio.xml oder WissKIBits_Modul3/resources/Gruppe_A.drawio.xml
+**Ladet** das vorbereitete [**Draw.io-XML-Lücken-Diagramm**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml) herunter.
 
 **Hinweis:**
 
