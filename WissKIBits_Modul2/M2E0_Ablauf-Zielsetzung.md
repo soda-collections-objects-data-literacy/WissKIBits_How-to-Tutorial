@@ -145,14 +145,31 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-```mermaid
-flowchart TD
-    A["Konzeptuelle Modellskizze aus Modul 1"] --> B["Methodischen Workflow festlegen"]
-    B --> C["CIDOC CRM in Protégé erkunden"]
-    C --> D[" Klassen (Entities) und Eigenschaften (Properties) auswählen"]
-    D --> E["Domänenspezifische Subklassen ergänzen"]
-    E --> F["Modell prüfen, speichern und für WissKI vorbereiten"]
-```
+## Lernweg im Modul
+
+> **Konzeptuelle Modellskizze aus Modul 1**
+> 
+> ↓
+>   
+> **Methodischen Workflow festlegen**
+>   
+> ↓
+>   
+> **CIDOC CRM in Protégé erkunden**
+> 
+> ↓
+> 
+> **Klassen (Entities) und Eigenschaften (Properties) auswählen**
+> 
+> ↓
+> 
+> **Domänenspezifische Subklassen ergänzen**
+> 
+> ↓
+> 
+> **Modell prüfen, speichern und für WissKI vorbereiten**
+> 
+
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
 
@@ -220,8 +237,6 @@ Im folgenden Modul wird die in Protégé erstellte beziehungsweise erweiterte On
 
 - Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Umfang der praktischen Übung angepasst werden.
 - Für Krakau fallen weg:  (Krakau half day = 3,5 Std - Modul 1-3 = 4,5 Std - es fehlen dann noch 10 Min.)
-
-  a. 5 Min in E2 (installieren von Protege und selbstständiges Laden von CIDOC CRM / OWL
 
   b. 45 Min. M2Ü komplett
 
