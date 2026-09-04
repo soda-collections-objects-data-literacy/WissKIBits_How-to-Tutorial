@@ -223,7 +223,7 @@ Regeln zur Visualisierung mit Draw.io**
 
 | Schritt | Aktion |
 |---:|---|
-| 1 | Die vorbereitete Draw.io-Datei runterladen ([hier](../assets/M2E2_Gruppenarbeit.drawio.xml)) |
+| 1 | Die vorbereitete [**Draw.io-XML-Lücken-Diagramm**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml) runterladen|
 | 2 | Die heruntergeladene Draw.io-Datei in Draw.io importieren ([hier](https://app.diagrams.net/)) |
 | 3 | Das Domänenontologie-Diagramm vervollständigen  |
 | 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
