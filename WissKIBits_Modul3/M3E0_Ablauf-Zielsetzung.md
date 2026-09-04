@@ -147,14 +147,29 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-```mermaid
-flowchart TD
-    A["Formale Ontologiestruktur aus Modul 2"] --> B["Semantisches Diagramm in Draw.io"]
-    B --> C["Diagramm und Attributwerte prüfen"]
-    C --> D["Pathbuilder-XML erzeugen"]
-    D --> E["Datei in WissKI importieren"]
-    E --> F["Pfade und Pfadgruppen analysieren"]
-```
+> **Formale Ontologiestruktur aus Modul 2**
+> 
+> ↓
+> 
+> **Semantisches Diagramm in Draw.io**
+> 
+> ↓
+>  
+> **Diagramm und Attributwerte prüfen**
+> 
+> ↓
+> 
+> **Pathbuilder-XML erzeugen**
+> 
+> ↓
+> 
+> **Datei in WissKI importieren**
+> 
+> ↓
+>  
+> **Pfade und Pfadgruppen analysieren**
+>
+
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
 
@@ -190,7 +205,7 @@ Für die praktische Anwendung werden benötigt:
 
 - ein Computer mit Internetzugang,
 - Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
-- die vorbereitete [Draw.io-XML-Datei](../WissKIBits_Modul2/assets/Gruppe_A.drawio.xml),
+- die vorbereitete [Draw.io-XML-Datei](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml),
 - Zugriff auf den Konvertierungsdienst [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
 - Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
 - sowie die im Tutorial verwendete [Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
