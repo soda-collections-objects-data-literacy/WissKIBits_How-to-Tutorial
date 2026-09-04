@@ -130,17 +130,14 @@ Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenl
 
 ## Video-Demonstration
 
-!?[Video](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
-
-<video controls>
-  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/WissKIBits_Modul2/assets/Short_Protege_Intro.mp4" type="video/mp4">
-</video>
-
 Die Live-Demo veranschaulicht:
 
 - Schritt 1: Vorhandene Ontologie laden,
 - Schritt 2: Struktur erkunden und Schritt
-- 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
+- Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
+  
+
+!?[Video](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 
 ---
 
