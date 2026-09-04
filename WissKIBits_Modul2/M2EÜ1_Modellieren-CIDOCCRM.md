@@ -157,7 +157,7 @@ Dabei ist **E35 Title** zugleich eine speziellere Form von **E41 Appellation**. 
 Für das Arbeiten mit Protégé ist über die [**offizielle Protégé-Website**](https://protege.stanford.edu/) entweder 
 
 - die Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) oder
-- ein Account für den webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)
+- ein Account für den webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
 
 einzurichten.
 
@@ -175,13 +175,10 @@ einzurichten.
 
 **Hinweis:** 
 
-> Die im Live-Demo gezeigten Schritte und das entsprechende Video kann hier nachgelesen werden:
+> Die im Live-Demo gezeigten Schritte und das entsprechende Video können in M2E2 nachgelesen werden:
 >
-> Video:
+> !?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 > 
-> Github: WissKIBits_Modul2/M2E2_Einführung-Protege.md
-> 
-> Liascript: xxxx
 
 
 Erkundet anschließend kurz die Struktur der Ontologie und sucht in der Klassenhierarchie:
@@ -213,19 +210,37 @@ Begründet die Auswahl.
 **Beispiel**
 
 > **E73 Information Object**
-> 
+>
 > **E35 Title**
-> 
+>
 > **E55 Type**
 
+Ordne den Domänenbegriffen eine passende CIDOC-CRM-Klasse zu und begründe deine Entscheidung.
 
-| Domänenbegriff     | mögliche CIDOC-CRM-Klasse | Begründung         |
-| ------------------ | ------------------------- | ------------------ |
-| Computer Game      | E73 Information Object    | __________________ |
-| Game Title         | E35 Title                 | __________________ |
-| Game Genre Type    | E55 Type                  | __________________ |
-| Game Platform Type | E55 Type                  | __________________ |
+| Domänenbegriff     | mögliche CIDOC-CRM-Klasse |
+| ------------------ | -------------------------- |
+| Computer Game      | E73 Information Object     |
+| Game Title         | E35 Title                  |
+| Game Genre Type    | E55 Type                   |
+| Game Platform Type | E55 Type                   |
 
+### Begründungen
+
+**Computer Game – E73 Information Object**
+
+[[__________________________________________________]]
+
+**Game Title – E35 Title**
+
+[[__________________________________________________]]
+
+**Game Genre Type – E55 Type**
+
+[[__________________________________________________]]
+
+**Game Platform Type – E55 Type**
+
+[[__________________________________________________]]
 
 **Hinweis:**
 
