@@ -210,6 +210,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 **Vorbereitung für den WissKI Pathbuilder**
 
 
+
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
 
 ---
