@@ -188,33 +188,33 @@ Entferne anschließend alle temporären Platzhalter `(???)`.
 
 Regeln zur Visualisierung mit Draw.io**
 
-> Die Knoten und Kanten müssen korrekt verbunden sein.
+> - Die Knoten und Kanten müssen korrekt verbunden sein.
 > 
-> Die Kantenbeschriftung muss mit der Kante verbunden sein.
+> - Die Kantenbeschriftung muss mit der Kante verbunden sein.
 > 
->  Die Benennungen können, müssen aber nicht Unterstriche beinhalten.
+> - Die Benennungen können, müssen aber nicht Unterstriche beinhalten.
 > 
-> Es werden keine individuellen Instanzen abgebildet.
+> - Es werden keine individuellen Instanzen abgebildet.
 > 
-> Es werden die domänenspezifischen Subklassen aus der bereits erstellten Domänenontologie verwendet.
+> - Es werden die domänenspezifischen Subklassen aus der bereits erstellten Domänenontologie verwendet.
 > 
-> Die Beziehungen aus dem CIDOC CRM werden nachgenutzt.
+> - Die Beziehungen aus dem CIDOC CRM werden nachgenutzt.
 > 
-> Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
+> - Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
 > 
-> Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
-> Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
+> - Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
+> - Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
 > 
 
 **Ressourcen**
 
-> Domänenontologie: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+> - Domänenontologie: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 > 
-> Die offizielle CIDOC CRM Dokumentation (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+> - Die offizielle CIDOC CRM Dokumentation (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
 >
-> Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> - Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 > 
-> Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
+> - Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
 > 
 
 ---
