@@ -224,21 +224,22 @@ Ordne den Domänenbegriffen eine passende CIDOC-CRM-Klasse zu und begründe dein
 | Game Genre Type    | E55 Type                   |
 | Game Platform Type | E55 Type                   |
 
-### Begründungen
 
-**Computer Game – E73 Information Object**
+**Begründungen**
 
-[[__________________________________________________]]
-
-**Game Title – E35 Title**
+Computer Game – E73 Information Object
 
 [[__________________________________________________]]
 
-**Game Genre Type – E55 Type**
+Game Title – E35 Title
 
 [[__________________________________________________]]
 
-**Game Platform Type – E55 Type**
+Game Genre Type – E55 Type
+
+[[__________________________________________________]]
+
+Game Platform Type – E55 Type
 
 [[__________________________________________________]]
 
