@@ -46,7 +46,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**  
 
-**Dauer:** ca. 20 Min.
+**Dauer:** ~ 20 Min.
 
 **Lernziele:**
 
@@ -86,16 +86,27 @@ Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet ni
 > **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
 
 **Fachliche Domäne bestimmen**  
+
 ↓  
+
 **Relevantes Wissen identifizieren**  
+
 ↓  
+
 **Konzepte, Ereignisse und Beziehungen ordnen**  
+
 ↓  
+
 **Fachliche Bedeutungszusammenhänge beschreiben**  
+
 ↓  
+
 **Semantisch modellieren**  
-↓  
+
+↓ 
+
 **Semantisches Datenmodell**
+
 
 > **Abbildung:** Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die konzeptuelle Ordnung des relevanten Wissens bis zum semantischen Datenmodell.
 
@@ -109,12 +120,13 @@ Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet ni
 
 **Zeit:** 10 Min.
 
-### Aufgabe
+**Aufgabe:**
 
 Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung. 
 
 Ziel ist es, aus Informationen über dieses Objekt **Konzepte, Ereignisse und deren Beziehungen** abzuleiten.
 
+---
 
 #### Schritt 1: Informationen auswählen
 
@@ -133,6 +145,7 @@ Wählt ein oder zwei Informationen aus, die für das Verständnis des Objekts re
 - Welche Personen, Organisationen, Orte und Zeiten kommen vor?
 - Welche Zusammenhänge bleiben unausgesprochen?
 
+---
 
 #### Schritt 2: Konzepte und Ereignis identifizieren
 
@@ -147,6 +160,7 @@ Bestimmt anhand eurer Aussagen:
 > 2. **Ereignisse** bezeichnen Geschehnisse oder Prozesse, beispielsweise eine Entwicklung, Herstellung, Veröffentlichung oder Ausstellung.
 > 3. **Beziehungen** verbinden Konzepte und Konzepte oder Konzepte und Ereignisse miteinander.
 
+---
 
 #### Schritt 3: Beziehungen formulieren
 
@@ -179,6 +193,7 @@ Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wisse
 - Ereignisse wurden identifiziert,
 - Beziehungen zwischen wurden formuliert.
 
+---
 
 ### Musterbeispiel als Grafik
 
