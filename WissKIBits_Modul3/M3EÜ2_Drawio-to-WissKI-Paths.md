@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
-Einheit Ü2: **Transformation semantischer Modelle in WissKI-Pfade**  
+Übungseinheit Ü2: **Transformation semantischer Modelle in WissKI-Pfade**  
 
 **Dauer:** ~ 45 Min.
 
