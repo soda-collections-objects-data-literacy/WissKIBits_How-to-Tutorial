@@ -103,11 +103,11 @@ WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/
   
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
 
-![GNM](../assets/gnm.jpg)
+![GNM](../WissKIBits_Modul1/assets/gnm.jpg)
 
 >  **Abbildung:** [Überblicksseite der Forschungsprojekte Archiv am GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) (GNMo.D.research)
 
-![GNM innen](../assets/gnm_2.JPG)
+![GNM innen](../WissKIBits_Modul1/assets/gnm_2.JPG)
 
 >  **Abbildung:** [Überblicksseite Sammlungen am GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNMo.D.collections)
 
@@ -117,7 +117,7 @@ Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair
 
 WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg2025wisski), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. (Drupal2024core)
 
-![Drupal](../assets/drupal.JPG)
+![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
 >  **Abbildung:** WissKI Integration in Drupal (Fichtner2023wisski, S.2)
 
@@ -147,7 +147,7 @@ WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg20
 
 Der **Pathbuilder** ist das **Herzstück von WissKI**.
 
-<!--Die im Pathbuilder modellierten semantischen Strukturen werden in WissKI technisch als RDF-Wissensgraph gespeichert. Damit verbindet WissKI die nutzerfreundliche Modellierung mit den Standards des Semantic Web.-->
+Die im Pathbuilder modellierten semantischen Strukturen werden in WissKI technisch als RDF-Wissensgraph gespeichert. Damit verbindet WissKI die nutzerfreundliche Modellierung mit den Standards des Semantic Web.
 
 Der Pathbuilder definiert:
 
@@ -159,7 +159,7 @@ So ist es möglich in WissKI **nicht mit Tabellen**, sondern mit **ontologiebasi
 
 Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und ist in der Datenpflege bestmöglich nutzendenunterstützend.
 
-![Pathbuilder](../assets/pathbuilder.jpg)
+![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
 
 > **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele
 
@@ -171,9 +171,10 @@ Leitfrage:
 
 > **Welche reale Beziehung besteht zwischen den Dingen?**
 
-!?[Video](../assets/semanticModelling.mp4)
+!?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
+
 <video controls>
-  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/assets/semanticModelling.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/WissKIBits_Modul1/assets/semanticModelling.mp4" type="video/mp4">
 </video>
 
 
@@ -200,9 +201,11 @@ Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RD
 
 Eine Aussage wie:
 
-„Das Selbstbildnis wurde von Albrecht Dürer geschaffen“
+> „Das Selbstbildnis wurde von Albrecht Dürer geschaffen.“
 
-wird so als einzelne, eindeutig referenzierbare Beziehung gespeichert. Viele solcher Aussagen verbinden sich zu einem gerichteten Graphen, der komplexe Zusammenhänge maschinenlesbar abbildet. Gemeinsam bilden diese Tripel den Wissensgraphen, den WissKI verwaltet.
+wird so als einzelne, eindeutig referenzierbare Beziehung gespeichert. Viele solcher Aussagen verbinden sich zu einem gerichteten Graphen, der komplexe Zusammenhänge maschinenlesbar abbildet. 
+
+Gemeinsam bilden diese Tripel den Wissensgraphen, den WissKI verwaltet.
 
 Der WissKI Pathbuilder übersetzt dabei auf CIDOC CRM basierte ontologische Modelle direkt in solche RDF-Strukturen.
 
@@ -238,23 +241,27 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 ## Informationen zu WissKI und WissKI Community (Stand: August 2026)
 
 - **News, Informationen, WissKI-Dokumentation auf der WissKI Homepage:** https://wiss-ki.eu/de
+
   
 - **Einführungen in WissKI Features:**
   - Youtube-Channel WissKIProjekt: https://www.youtube.com/@wisskiproject
   - Youtube-Channel WissKI: https://www.youtube.com/@wisski5763
+
  
 - **WissKI Dokumentation**
   - WissKI Dokmentation mit Tutorial, How-To's, Guide's und einem Glossar: https://project.pages.drupalcode.org/wisski/
   - WissKI Module Documention https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-documentation/wisski
+
     
 - **News und Community:**
   - Mattermost: https://chat.wiss-ki.eu/wisski/channels/town-square
   - Mastodon: \@wisski@fedihum.org
   - Facebook: https://www.facebook.com/wisskiproject/
   - Webseite WissKICommunity der UB Heidelberg: https://sempub.ub.uni-heidelberg.de/wisski_projekte/de
+
     
 - **WissKI Anwender\*innentreffen:** https://wiss-ki.eu/taxonomy/term/63
->  **Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events; WissKI2026wat).
+**Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events; WissKI2026wat).
 
 ---
 
