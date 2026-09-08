@@ -14,6 +14,8 @@ icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
 
+      https://fonts.googleapis.com/css?family=Noto+Sans
+
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
 comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
