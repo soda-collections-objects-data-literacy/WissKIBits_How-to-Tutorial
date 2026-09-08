@@ -192,7 +192,8 @@ Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grun
 - eine formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung kennen,
 - sowie das Grundprinzip von semantischen Pfaden verstanden haben.
 
-Für die praktische Anwendung werden benötigt:
+
+**Für die praktische Anwendung werden benötigt:**
 
 - ein Computer mit Internetzugang,
 - Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
