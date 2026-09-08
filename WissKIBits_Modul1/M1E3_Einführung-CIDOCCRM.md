@@ -113,7 +113,6 @@ Für die praktische Modellierung ist es wichtig, die **Klassen und Properties de
 > **Hinweis:** Die CIDOC CRM Periodic Table basiert auf **CIDOC CRM 7.1** und entspricht damit nicht vollständig der hier verwendeten Version **7.1.3**.
 >
 > Nutzt sie daher zur Orientierung und zum Erkunden des Modells. Für die genaue Definition und Verwendung von Klassen und Properties ist die offizielle Dokumentation der Version 7.1.3 maßgeblich.
-> 
 
 ---
 
@@ -152,7 +151,7 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 ### Beispiel E39 Actor
 
-![Beispiel E39 Actor](../assets/E39Actor.jpg)
+![Beispiel E39 Actor](../WissKIBits_Modul1/assets/E39Actor.jpg)
 
 > **Abbildung:** Die Abbildung veranschaulicht den Aufbau einer Klassenbeschreibung anhand "E39 Actor" in CIDOC CRM. (SIG2024cidoc, S. 83)
 
