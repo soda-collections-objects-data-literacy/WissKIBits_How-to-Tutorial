@@ -122,7 +122,7 @@ Dazu wird das konzeptionelle Domänenmodell nun **visuell und formal in Draw.io*
 </table>
 
 
-<**Abbildung:** Die Grafik zeigt, wie der Ausschnitt der Beispieldomäne in CIDOC CRM umgesetzt werden kann.
+> **Abbildung:** Die Grafik zeigt, wie der Ausschnitt der Beispieldomäne in CIDOC CRM umgesetzt werden kann.
 
 ---
 
