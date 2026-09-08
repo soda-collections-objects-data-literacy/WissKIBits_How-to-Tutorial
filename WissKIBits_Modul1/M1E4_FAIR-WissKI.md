@@ -173,10 +173,7 @@ Leitfrage:
 
 !?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
 
-<video controls>
-  <source src="https://raw.githubusercontent.com/soda-collections-objects-data-literacy/SODaHow-to-Tutorial/main/WissKIBits_Modul1/assets/semanticModelling.mp4" type="video/mp4">
-</video>
-
+> **Video:** Wie semantische Bedeutungsaussagen einen Wissensgraph in WissKI formen und relevante Informationen zu einem Netzwerk verknüpfen.
 
 - **Albrecht Dürer** → Person  
 - wurde geboren in → **Nürnberg** (Ort)  
@@ -186,8 +183,6 @@ Leitfrage:
 - **Entstehungszeitpunkt** in einer **Quelle** erwähnt
 - während → **seiner künstlerischen Schaffensperiode**  
 - in → **Nürnberg**
-
-Diese semantischen Bedeutungsaussagen formen einen Wissensgraphen – also ein Netzwerk miteinander verknüpfter Informationen. 
 
 Grundlage dafür ist das **ereigniszentrierte Modellierungsprinzip des CIDOC CRM**: 
 
