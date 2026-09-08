@@ -168,7 +168,6 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 > ↓
 > 
 > **Modell prüfen, speichern und für WissKI vorbereiten**
-> 
 
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
