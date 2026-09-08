@@ -86,6 +86,8 @@ In Modul 1 wurde eine Modellskizze entwickelt, in der zentrale Konzepte und Bezi
 
 ![Konzept-Mindmap](../WissKIBits_Modul2/assets/Mindmap.png)
 
+> **Abbildung:** Die Grafik die konzeptuelle Modellskizze eines Ausschnitts der Beispieldomäne.
+
 Die gesammelten Begriffe der Domäne sollen nun mit CIDOC CRM und Protégé schrittweise formalisiert werden.
 
 Für diese Übung können u.a. ausgewählt werden:
@@ -176,9 +178,10 @@ einzurichten.
 **Hinweis:** 
 
 > Die im Live-Demo gezeigten Schritte und das entsprechende Video können in M2E2 nachgelesen werden:
->
-> !?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
-> 
+
+!?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+ 
+> **Video:** Das Video zeigt die ersten Schritte in Protégé und das Laden von ERLANGEN CRM /OWL
 
 
 Erkundet anschließend kurz die Struktur der Ontologie und sucht in der Klassenhierarchie:
@@ -318,6 +321,7 @@ Vergleicht euer Ergebnis mit der ursprünglichen Modellskizze:
 
 ![Konzept-Mindmap](../WissKIBits_Modul2/assets/Mindmap.png)
 
+> **Abbildung:** Die Grafik die konzeptuelle Modellskizze eines Ausschnitts der Beispieldomäne.
 
 **Modellierung prüfen**
 
@@ -381,23 +385,6 @@ Speichert die erweiterte Ontologie anschließend als **OWL-Datei**.
 > Die Ontologie ist weiterhin ein Modellausschnitt.
 > 
 > Sie bildet nicht die gesamte Domäne Computerspiele ab, sondern dokumentiert exemplarisch den Weg von einer fachlichen Modellskizze zu einer maschinenlesbaren Ontologiestruktur.
-
-
----
-
-## Nachnutzung
-
-Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creative Commons Attribution 4.0 International).
-
-Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
-
-Diese Praxiseinheit Modul 3 mit allen Ressourcen ist veröffentlicht und verfügbar auf Zenodo und GitHub:
-
-xxxxx
-
-### Zitation
-
-xxxxx
 
 ---
 
