@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
-Einheit Ü1: **Semantische Modellierung mit CIDOC CRM**  
+Übungseinheit Ü1: **Semantische Modellierung mit CIDOC CRM**  
 
 **Dauer:** ~ 55 Min.
 
