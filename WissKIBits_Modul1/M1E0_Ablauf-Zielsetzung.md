@@ -178,7 +178,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
-### Ü. Anwendungsbeispiel Objektsammlungen
+### Ü1. Anwendungsbeispiel Objektsammlungen
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
