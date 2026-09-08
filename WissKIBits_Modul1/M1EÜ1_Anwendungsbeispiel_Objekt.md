@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Übungseinheit (M1EÜ): **Anwendungsbeispiel: Objektsammlungen**  
+Übungseinheit Ü1: **Anwendungsbeispiel: Objektsammlungen**  
 
 **Dauer:** ~ 30 Min.
 
