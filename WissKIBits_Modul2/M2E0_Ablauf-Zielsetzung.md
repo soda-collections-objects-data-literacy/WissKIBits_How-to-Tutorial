@@ -102,7 +102,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ar
 | 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
 | 1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
 | 2 | Einführung in Protégé | 20 Min. |
-| Ü | Semantische Modellierung mit CIDOC CRM | 55 Min. |
+| Ü1 | Semantische Modellierung mit CIDOC CRM | 55 Min. |
 |  | **Gesamt** | **90 Min.** |
 
   
@@ -130,7 +130,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
-### Ü. Semantische Modellierung mit CIDOC CRM
+### Ü1. Semantische Modellierung mit CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 - Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
