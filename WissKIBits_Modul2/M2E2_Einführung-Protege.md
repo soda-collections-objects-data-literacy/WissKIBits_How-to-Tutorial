@@ -98,12 +98,14 @@ Entweder ist Protégé Desktop bereits lokal installiert oder für WebProtégé 
 - Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege))
 - webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)).
 
+
 **Schritt 1: Vorhandene Ontologie laden**
 
 Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet: 
 
 - Das **Erlangen CRM / OWL** kann hier herunter geladen werden: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 - Diese wird in **Protégé Desktop** geladen.
+
 
 **Schritt 2: Struktur erkunden**
 
@@ -115,6 +117,7 @@ Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenl
 > - Klassen (Entities): die zentralen Klassen bzw. Entitätstypen des CIDOC CRM
 > - Objekteigenschaften (Properties): Relationen zwischen Klassen (Entities)
 > - Datentyp-Eigenschaften (Datatype-Properties): Eigenschaften, die Werte bzw. Literale beschreiben
+
 
 **Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele**
 
