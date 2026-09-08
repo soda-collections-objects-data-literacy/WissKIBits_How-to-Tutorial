@@ -132,7 +132,9 @@ Beispielsweise können folgende Fragen gestellt werden:
 ## Übung – Modellskizze und erste Orientierung mit CIDOC CRM
 
 **Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–4 Personen)  
+
 **Material:** Papier & Stift (oder digitales Whiteboard)  
+
 **Zeit:** 20 Minuten
 
 ### Aufgabe 1: Eine Mini-Mindmap als Modellskizze entwerfen
@@ -269,21 +271,6 @@ Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computer
 In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbare **OWL-Ontologie** umgesetzt und für die spätere Implementierung in **WissKI** vorbereitet. Auf diese Weise werden die Grundlagen für die praktische Arbeit mit Protégé und die Überführung des semantischen Modells in eine technische Implementierung geschaffen.
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
-
-
-## Nachnutzung
-
-Die in diesem Ordner enthaltenen Daten stehen unter der Lizenz CC BY 4.0 (Creative Commons Attribution 4.0 International).
-
-Das bedeutet: Sie dürfen die Daten frei nutzen, teilen und weiterverarbeiten, solange die Quelle genannt wird.
-
-Diese Praxiseinheit **Modul 1** mit allen Ressourcen ist veröffentlicht und verfügbar auf Zenodo und GitHub:
-
-xxxxx
-
-### Zitation
-
-xxxxx
 
 ---
 
