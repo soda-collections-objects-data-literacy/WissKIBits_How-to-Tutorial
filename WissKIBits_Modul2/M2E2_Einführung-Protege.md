@@ -142,6 +142,8 @@ Die Live-Demo veranschaulicht:
 
 !?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 
+> **Video:** Kurzeinführung in die Benutzeroberfläche von Protégé
+
 ---
 
 ## Ausblick
