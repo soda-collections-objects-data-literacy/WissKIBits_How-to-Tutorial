@@ -66,12 +66,3 @@ table td {
   overflow-wrap: anywhere;
   height: auto !important;
 }
-
-/* Sidebar */
-.lia-active { 
-  color: #FFA933 !important; 
-}
-
-.lia-pagination__content { 
-  background: #FFA933!important; 
-}
