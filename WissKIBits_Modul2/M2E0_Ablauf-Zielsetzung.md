@@ -147,28 +147,27 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-> **Konzeptuelle Modellskizze aus Modul 1**
-> 
-> ↓
->   
-> **Methodischen Workflow festlegen**
->   
-> ↓
->   
-> **CIDOC CRM in Protégé erkunden**
-> 
-> ↓
-> 
-> **Klassen (Entities) und Eigenschaften (Properties) auswählen**
-> 
-> ↓
-> 
-> **Domänenspezifische Subklassen ergänzen**
-> 
-> ↓
-> 
-> **Modell prüfen, speichern und für WissKI vorbereiten**
-
+**Konzeptuelle Modellskizze aus Modul 1**
+ 
+↓
+   
+**Methodischen Workflow festlegen**
+   
+↓
+   
+**CIDOC CRM in Protégé erkunden**
+ 
+↓
+ 
+**Klassen (Entities) und Eigenschaften (Properties) auswählen**
+ 
+↓
+ 
+**Domänenspezifische Subklassen ergänzen**
+ 
+↓
+ 
+**Modell prüfen, speichern und für WissKI vorbereiten**
 
 > **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
 
