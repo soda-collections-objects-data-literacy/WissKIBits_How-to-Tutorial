@@ -4,11 +4,11 @@
 :root {
   --soda-light: 255,169,51;
   --soda-dark: 255,169,51;
-  --color-highlight-dark: 255, 169, 51 !important;
-  --color-highlight-menu: 255, 169, 51 !important;
-  --color-highlight: 255, 169, 51 !important;
-  --font-size-base: 16px;   /* Schriftgröße geeignet für Präsentationen */
-  --font-size-base1: 12px;  /* ergänzte Standard-Schriftgröße */
+  --color-highlight-dark: 255,169,51 !important;
+  --color-highlight-menu: 255,169,51 !important;
+  --color-highlight: 255,169,51 !important;
+  --font-size-base: 16px;
+  --font-size-base1: 12px;
 }
 
 body {
@@ -16,7 +16,10 @@ body {
   font-size: var(--font-size-base);
 }
 
-h1, h2, h3, h4, h5, h6 {}
+/* Überschriften explizit in Noto Sans */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', sans-serif !important;
+}
 
 /* Links */
 a,
