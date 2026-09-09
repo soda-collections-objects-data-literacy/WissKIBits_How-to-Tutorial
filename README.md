@@ -110,12 +110,9 @@ Vielen Dank für das Interesse an den **SODa WissKI Bits**.
 
 Wir freuen uns über Feedback zum Tutorial. Rückmeldungen helfen uns, die Materialien weiterzuentwickeln und an die Anforderungen der Nutzer*innen anzupassen.
 
-**Feedback zum Tutorial:**  
-[Feedback-Link ergänzen]
+**Feedback zum Tutorial:**  ????
 
 Weitere SODa-Selbstlernangebote finden Sie in der **[SODa Knowledge Base](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64)**.
-
-Informationen und Materialien zum SODa-Basiskurs finden Sie auf der **[SODa-Basiskurs-Seite](https://sammlungen.io/kb/fdm/soda-basiskurs)**.
 
 --- 
 
