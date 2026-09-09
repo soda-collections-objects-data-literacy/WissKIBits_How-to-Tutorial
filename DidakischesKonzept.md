@@ -6,7 +6,7 @@
 
 Das Tutorial **„WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten“** wurde entwickelt, um grundlegende und anwendungsbezogene Kompetenzen in der **semantischen Modellierung von Forschungsdaten** und deren Umsetzung mit der Wissenschaftlichen Kommunikationsinfrastruktur (WissKI) systematisch und praxisnah zu vermitteln. Im Mittelpunkt steht die Frage, wie fachliche Informationen und Forschungsfragen in ein nachvollziehbares, ontologiegestütztes Datenmodell überführt und für die strukturierte Erfassung von Forschungsdaten nutzbar gemacht werden können.
 
-Das didaktische Konzept orientiert sich am **forschungsorientierten, handlungs- und problemorientierten Lernen**. Kurze Wissensimpulse werden mit angeleiteten Erkundungs-, Modellierungs- und Reflexionsphasen verbunden. Die Lernarchitektur greift dabei das **Ein- und Ausatem-Prinzip nach Klaus Döring** auf: Phasen der Wissensvermittlung und fachlichen Orientierung („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Anwendens, Prüfens und Reflektierens („Ausatmen“) ab. [1]
+Das didaktische Konzept orientiert sich am **forschungsorientierten, handlungs- und problemorientierten Lernen**. Kurze Wissensimpulse werden mit angeleiteten Erkundungs-, Modellierungs- und Reflexionsphasen verbunden. Die Lernarchitektur greift dabei das **Ein- und Ausatem-Prinzip nach Klaus Döring** auf: Phasen der Wissensvermittlung und fachlichen Orientierung („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Anwendens, Prüfens und Reflektierens („Ausatmen“) ab.[1]
 
 Als durchgängiges Anwendungsbeispiel dient die Modellierung von **Computerspielen als Sammlungs- und Forschungsobjekte**. An diesem Beispiel durchlaufen die Lernenden schrittweise einen Modellierungsprozess von der fachlichen Fragestellung bis zur technischen Umsetzung. Dabei werden Modellierungsentscheidungen nicht nur nachvollzogen, sondern selbst getroffen, begründet und anhand bestehender Ontologien überprüft.
 
@@ -72,21 +72,29 @@ Die Inhalte sind auf drei aufeinander aufbauende Themenbereiche verteilt:
 
 Dieses Modul richtet sich an Personae der SODa Community, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [3]
 
-## Lernansatz und Lernform 
+## Lernansatz und Lernform
 
 Das Tutorial folgt einem **forschungsorientierten, handlungs- und problemorientierten Lernansatz**. Im Mittelpunkt steht nicht die isolierte Vermittlung von Wissen über Ontologien und WissKI, sondern die schrittweise Bearbeitung einer konkreten Modellierungsaufgabe. Anhand eines durchgängigen Anwendungsbeispiels entwickeln die Lernenden ein ontologiegestütztes Datenmodell und überführen dieses schrittweise in eine für WissKI nutzbare Struktur.
 
-Die drei Module bauen dabei aufeinander auf und verbinden **fachliche Wissensimpulse mit unmittelbar anschließenden praktischen Arbeitsphasen**. Die Lernenden analysieren eine fachliche Domäne, treffen und begründen Modellierungsentscheidungen, gleichen diese mit dem CIDOC CRM ab und setzen das entwickelte Modell mit verschiedenen Werkzeugen praktisch um.
+Der didaktische Ansatz verbindet **demonstratives Lernen, Learning by Doing und angeleitetes Modellieren**. Neue Konzepte und Arbeitsschritte werden anhand konkreter Beispiele eingeführt, erkundet und anschließend von den Lernenden selbst angewendet. Theoretisches Verständnis, methodische Reflexion und praktische Handlungskompetenz werden so miteinander verknüpft.
 
-Die Gestaltung orientiert sich am Prinzip des **„Ein- und Ausatmens“ nach Klaus Döring** [1]. Kurze strukturierende Wissensimpulse („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Modellierens, Anwendens und Reflektierens („Ausatmen“) ab. Quizfragen, kleinere Übungen und Reflexionsimpulse unterstützen die Überprüfung und Festigung des Gelernten.
+Die Gestaltung der einzelnen Einheiten orientiert sich am Prinzip des **„Ein- und Ausatmens“ nach Klaus Döring** [1]. Kurze strukturierende Wissensimpulse („Einatmen“) wechseln sich mit Phasen des Erkundens, Modellierens, Anwendens, Prüfens und Reflektierens („Ausatmen“) ab. Übungen, Quizfragen und Reflexionsimpulse unterstützen die Lernenden dabei, ihr Verständnis zu überprüfen und Modellierungsentscheidungen zu begründen.
 
-Das Tutorial ist als **modulare, selbstgesteuerte Online-Lernressource (OER)** konzipiert. Die einzelnen Einheiten können im eigenen Lerntempo bearbeitet werden. Gleichzeitig folgen sie einem gemeinsamen Lernpfad, bei dem die Ergebnisse einer Einheit als Ausgangspunkt für die folgenden Arbeitsschritte dienen.
+### Kompetenzorientierte Lernpfade
 
-Der Lernprozess folgt damit wiederkehrend dem Prinzip:
+Die Konzeption des Tutorials verbindet die **Lernzielmatrix zum Forschungsdatenmanagement (FDM)** [2] mit der **TaDiRAH-Taxonomie (Taxonomy of Digital Research Activities in the Humanities)** [4]. Die Lernzielmatrix dient der Formulierung und Systematisierung konkreter Kompetenzen, während TaDiRAH die Lernaktivitäten mit Forschungsaktivitäten der Digital Humanities in Beziehung setzt.
 
-> **Orientieren → Erkunden → Anwenden → Prüfen → Reflektieren → Weiterführen**
+Die Zuordnung erfolgt dabei nicht allein anhand einzelner Verben in den Lernzielformulierungen. Entscheidend ist die **semantische Interpretation des gesamten Lernziels im jeweiligen fachlichen und didaktischen Kontext**. Auf diese Weise können Lernziele mit den Forschungsaktivitäten verbunden werden, auf die der Lernprozess vorbereitet.
 
-Auf diese Weise verbindet das Tutorial theoretische Grundlagen mit praktischer Anwendung und führt die Lernenden schrittweise von der **fachlichen Modellierungsfrage über das semantische Datenmodell bis zu dessen Umsetzung in WissKI**.
+Über die drei Module hinweg entsteht ein **kompetenzorientierter Lernpfad**, der schrittweise von epistemischen zu operativen Forschungsaktivitäten führt: vom Verstehen und Analysieren fachlicher Zusammenhänge über das konzeptuelle und formale Modellieren bis zur praktischen Umsetzung des Datenmodells in WissKI.
+
+Die drei Module bauen inhaltlich aufeinander auf, sind zugleich jedoch so gestaltet, dass sie als **modulare Lerneinheiten** nachgenutzt werden können. Ergebnisse vorausgehender Einheiten werden im vollständigen Lernpfad aufgegriffen und in den folgenden Arbeitsschritten weiterentwickelt.
+
+Der Lernprozess folgt wiederkehrend dem Prinzip:
+
+> **Orientieren → Erkunden → Modellieren → Anwenden → Prüfen → Reflektieren → Weiterführen**
+
+Das Tutorial ist als **modulare, selbstgesteuerte Open Educational Resource (OER)** konzipiert. Die Verbindung von Lernzielen, Forschungsaktivitäten und praktischen Modellierungsaufgaben unterstützt sowohl den Aufbau fachlicher Orientierung als auch den Transfer in konkrete Forschungs- und Datenpraktiken.
 
 ---
 
@@ -285,5 +293,7 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 [2] Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
 
 [3] Reichert, R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
+
+[4] Hastik, C., & Schwenk, G. A. (2026). Die Verschränkung von Lernzielmatrix und TaDiRAH zur Entwicklung kompetenzorientierter Lernpfade [Graphic]. Zenodo. Scoping Workshop der VolkswagenStiftung "Zukunftskompetenzen Forschungsdatenmanagement gestalten: Anforderungen an Kompetenzen, Terminologien und Communitys für datengetriebene Wissenschaft", Schloss Herrenhausen, Hannover. https://doi.org/10.5281/zenodo.20829481
 
 
