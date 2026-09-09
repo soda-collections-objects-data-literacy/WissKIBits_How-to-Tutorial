@@ -132,13 +132,16 @@ Hastik, Canan; Schwenk, Gudrun; Fichtner, Mark (2026): *SODa WissKI Bits: Ontolo
 
 ## Lizenz
 
-![CC BY 4.0 – Creative Commons](img/cc-by.svg)
+![CC BY 4.0 – Creative Commons](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/cc-by.svg)
 
 Sofern nicht anders angegeben, ist dieses Tutorial unter der Lizenz **Creative Commons Namensnennung 4.0 International (CC BY 4.0)** veröffentlicht.
 
-**Version:** v1.0.0  
+**Version:** v1.0.0 
+
 **Datum:** 2026-09-08  
+
 **Repository:** https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial
+
 **DOI:** 10.5281/zenodo.22284468
 
 ---
@@ -160,6 +163,7 @@ Das Projekt **SODa – Sammlungen, Objekte, Datenkompetenzen** wird durch das Bu
     width="220"
   >
 </p>
+
 ---
 
 ## Impressum
