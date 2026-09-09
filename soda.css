@@ -72,14 +72,6 @@ table td {
   color: #FFA933 !important; 
 }
 
-/* Buttons */
-.lia-btn {
-  background: transparent !important;
-  padding: 8px 14px !important;
-  cursor: pointer !important;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.06) !important;
-}
-
 .lia-pagination__content { 
   background: #FFA933!important; 
 }
