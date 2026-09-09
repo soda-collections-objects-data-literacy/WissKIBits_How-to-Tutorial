@@ -4,15 +4,146 @@
 
 ## Beschreibung
 
+Das Tutorial **„WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten“** wurde entwickelt, um grundlegende und anwendungsbezogene Kompetenzen in der **semantischen Modellierung von Forschungsdaten** und deren Umsetzung mit der Wissenschaftlichen Kommunikationsinfrastruktur (WissKI) systematisch und praxisnah zu vermitteln. Im Mittelpunkt steht die Frage, wie fachliche Informationen und Forschungsfragen in ein nachvollziehbares, ontologiegestütztes Datenmodell überführt und für die strukturierte Erfassung von Forschungsdaten nutzbar gemacht werden können.
+
+Das didaktische Konzept orientiert sich am **forschungsorientierten, handlungs- und problemorientierten Lernen**. Kurze Wissensimpulse werden mit angeleiteten Erkundungs-, Modellierungs- und Reflexionsphasen verbunden. Die Lernarchitektur greift dabei das **Ein- und Ausatem-Prinzip nach Klaus Döring** auf: Phasen der Wissensvermittlung und fachlichen Orientierung („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Anwendens, Prüfens und Reflektierens („Ausatmen“) ab. [1]
+
+Als durchgängiges Anwendungsbeispiel dient die Modellierung von **Computerspielen als Sammlungs- und Forschungsobjekte**. An diesem Beispiel durchlaufen die Lernenden schrittweise einen Modellierungsprozess von der fachlichen Fragestellung bis zur technischen Umsetzung. Dabei werden Modellierungsentscheidungen nicht nur nachvollzogen, sondern selbst getroffen, begründet und anhand bestehender Ontologien überprüft.
+
+Das Tutorial umfasst **drei aufeinander aufbauende Module**. 
+
+In **Modul 1** werden Grundlagen von Ontologien und semantischer Modellierung vermittelt, das CIDOC CRM eingeführt und fachliche Konzepte, Ereignisse und Beziehungen in einer konzeptuellen Modellskizze strukturiert. 
+
+**Modul 2** führt diese Überlegungen in die formale Ontologiemodellierung über. Mit Protégé werden Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM erkundet, geeignete Elemente ausgewählt und domänenspezifische Strukturen modelliert. 
+
+In **Modul 3** wird das semantische Modell visualisiert und für die Umsetzung in WissKI vorbereitet. Das Modell wird in Draw.io als Diagramm abgebildet, mit dem gnm-service in eine Pathbuilder-XML-Struktur transformiert und anschließend in den WissKI Pathbuilder importiert und untersucht.
+
+Die praktische Arbeit mit **CIDOC CRM, Protégé, Draw.io, gnm-service und WissKI** verbindet dabei konzeptionelle, semantische und technische Perspektiven. Wiederkehrende Übungen, Quizfragen und Reflexionsimpulse unterstützen die Lernenden dabei, Modellierungsentscheidungen zu überprüfen und die Zusammenhänge zwischen den unterschiedlichen Repräsentationen des Datenmodells nachzuvollziehen.
+
+Das Tutorial ist als **modulare, selbstgesteuerte Open Educational Resource (OER)** konzipiert. Die einzelnen Einheiten können im eigenen Lerntempo bearbeitet werden, bauen jedoch inhaltlich aufeinander auf. Arbeitsergebnisse aus vorausgehenden Einheiten werden in den folgenden Arbeitsschritten weiterverwendet. Dadurch entsteht ein durchgängiger Lernpfad:
+
+> **Forschungsfrage und fachliche Domäne → konzeptuelle Modellierung → CIDOC CRM → formale Ontologiemodellierung → Visualisierung → Transformation → WissKI Pathbuilder**
+
+Das Tutorial wird in **deutscher und englischer Sprache** bereitgestellt und unter einer **CC-BY-4.0-Lizenz** veröffentlicht. Durch seinen modularen Aufbau kann es sowohl zum Selbstlernen als auch in Lehr-, Schulungs- und Beratungskontexten eingesetzt, angepasst und weiterentwickelt werden.
+
+---
+
+## Themenbereiche und Themen
+
+Das Tutorial behandelt zentrale Schritte der **ontologiegestützten Modellierung von Forschungsdaten** und deren praktische Umsetzung in WissKI. 
+
+Die Inhalte sind auf drei aufeinander aufbauende Themenbereiche verteilt:
+
+**Modul 1: Grundlagen und konzeptuelle Modellierung**
+
+- Forschungsdaten und Forschungsfragen als Ausgangspunkt der Modellierung
+- Grundlagen von Ontologien und semantischer Modellierung
+- Konzepte, Ereignisse und Beziehungen
+- Einführung in das CIDOC CRM
+- Klassen (Entities) und Eigenschaften (Properties)
+- Entwicklung einer konzeptuellen Modellskizze
+- FAIR-Prinzipien und WissKI
+
+**Modul 2: Formale Modellierung mit CIDOC CRM und Protégé**
+
+- Methoden und Workflows der Ontologiemodellierung
+- Einführung in Protégé
+- Erkunden des CIDOC CRM
+- Auswahl geeigneter Klassen und Properties
+- Entwicklung domänenspezifischer Subklassen
+- Formalisierung und Prüfung des Datenmodells
+- Vorbereitung des Modells für die weitere Umsetzung in WissKI
+
+**Modul 3: Vom semantischen Modell zum WissKI Pathbuilder**
+
+- Visualisierung des semantischen Datenmodells mit Draw.io
+- Modellierung von Knoten, Kanten und semantischen Pfaden
+- Vorbereitung des Diagramms für die Transformation
+- Transformation des Draw.io-Diagramms mit dem gnm-service
+- Erzeugung einer Pathbuilder-XML-Datei
+- Import in den WissKI Pathbuilder
+- Untersuchung und Analyse von Gruppen und semantischen Pfaden
+
+> **Konzeptuelle Modellierung → formale Ontologiemodellierung → Visualisierung → Transformation → WissKI Pathbuilder**
+
+---
+
 ## Zielgruppe
+
+Dieses Modul richtet sich an Personae der SODa Community, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [3]
 
 ## Lernansatz und Lernform 
 
-## Themenbereiche, Themen und Lernziele
+Das Tutorial folgt einem **forschungsorientierten, handlungs- und problemorientierten Lernansatz**. Im Mittelpunkt steht nicht die isolierte Vermittlung von Wissen über Ontologien und WissKI, sondern die schrittweise Bearbeitung einer konkreten Modellierungsaufgabe. Anhand eines durchgängigen Anwendungsbeispiels entwickeln die Lernenden ein ontologiegestütztes Datenmodell und überführen dieses schrittweise in eine für WissKI nutzbare Struktur.
 
-## Voraussetzung für Modul 1
+Die drei Module bauen dabei aufeinander auf und verbinden **fachliche Wissensimpulse mit unmittelbar anschließenden praktischen Arbeitsphasen**. Die Lernenden analysieren eine fachliche Domäne, treffen und begründen Modellierungsentscheidungen, gleichen diese mit dem CIDOC CRM ab und setzen das entwickelte Modell mit verschiedenen Werkzeugen praktisch um.
 
-## Einheiten und Zeitbedarf im Modul 1
+Die Gestaltung orientiert sich am Prinzip des **„Ein- und Ausatmens“ nach Klaus Döring** [1]. Kurze strukturierende Wissensimpulse („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Modellierens, Anwendens und Reflektierens („Ausatmen“) ab. Quizfragen, kleinere Übungen und Reflexionsimpulse unterstützen die Überprüfung und Festigung des Gelernten.
+
+Das Tutorial ist als **modulare, selbstgesteuerte Online-Lernressource (OER)** konzipiert. Die einzelnen Einheiten können im eigenen Lerntempo bearbeitet werden. Gleichzeitig folgen sie einem gemeinsamen Lernpfad, bei dem die Ergebnisse einer Einheit als Ausgangspunkt für die folgenden Arbeitsschritte dienen.
+
+Der Lernprozess folgt damit wiederkehrend dem Prinzip:
+
+> **Orientieren → Erkunden → Anwenden → Prüfen → Reflektieren → Weiterführen**
+
+Auf diese Weise verbindet das Tutorial theoretische Grundlagen mit praktischer Anwendung und führt die Lernenden schrittweise von der **fachlichen Modellierungsfrage über das semantische Datenmodell bis zu dessen Umsetzung in WissKI**.
+
+---
+
+## Themenbereiche und Themen 
+
+---
+
+## Voraussetzungen für das Tutorial
+
+Für die Bearbeitung des Tutorials sind **keine vertieften Vorkenntnisse in Ontologien oder WissKI erforderlich**. Grundlegende Kenntnisse im Umgang mit Forschungsdaten und digitalen Arbeitsumgebungen sind hilfreich.
+
+Für die praktischen Übungen werden benötigt:
+
+- ein eigener Laptop oder Computer mit Internetzugang,
+- ein aktueller Webbrowser,
+- Zugang zu einer **WissKI-Instanz**,
+- **Protégé** zur Bearbeitung und Erkundung von Ontologien,
+- **diagrams.net (Draw.io)** zur Visualisierung semantischer Modelle.
+
+Grundlegende Konzepte wie **Ontologien, Klassen (Entities), Eigenschaften (Properties), CIDOC CRM und WissKI** werden im Verlauf des Tutorials eingeführt und anhand eines durchgängigen Anwendungsbeispiels praktisch erarbeitet.
+
+Die drei Module bauen aufeinander auf. Für den vollständigen Lernpfad wird daher empfohlen, sie **in der vorgesehenen Reihenfolge** zu bearbeiten.
+
+---
+
+## Einheiten und Zeitbedarf 
+
+**Gesamtdauer Modul 1: ca. 90 Min.**
+
+| Einheit | Inhalt | Dauer |
+|---|---|---:|
+| 0 | Willkommen, Zielsetzung und Ablauf | 5 Min. |
+| 1 | Grundbegriffe konzeptueller Wissensmodellierung | 20 Min. |
+| 2 | Grundlagen von Ontologien | 10 Min. |
+| 3 | Einführung in CIDOC CRM | 15 Min. |
+| 4 | FAIR-Konformität mit WissKI | 15 Min. |
+| Ü1 | Anwendungsbeispiel Objektsammlungen: Modellskizze „Zelda“ | 30 Min. |
+|  | **Gesamt** | **90 Min.** |
+
+**Gesamtdauer Modul 2: ca. 90 Min.**
+
+| Einheit | Inhalt | Dauer |
+|---|---|---:|
+| 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
+| 1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
+| 2 | Einführung in Protégé | 20 Min. |
+| Ü1 | Semantische Modellierung mit CIDOC CRM | 55 Min. |
+|  | **Gesamt** | **90 Min.** |
+
+**Gesamtdauer Modul 3: ca. 90 Min.**
+
+| Einheit | Inhalt | Dauer |
+|---|---|---:|
+| 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
+| Ü1 | Semantische Datenmodelle visualisieren | 35 Min. |
+| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 40 Min. |
+|  | **Gesamt** | **90 Min.** |
 
 ---
 
@@ -20,7 +151,7 @@
 
 Nach Abschluss von Modul 1 können die Teilnehmenden…
 
-1. Grundbegriffe konzeptueller Wissensmodellierung
+**1. Grundbegriffe konzeptueller Wissensmodellierung**
    
 - Begriff konzeptuelle Wissensmodellierung benennen. (LZ-ID SODa\_03\_007\_0847)
 - Begriff konzeptuelle Wissensmodellierung erläutern. (LZ-ID SODa\_03\_007\_0848)
@@ -33,7 +164,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
 - Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
 
-2. Grundlagen von Ontologien
+**2. Grundlagen von Ontologien**
    
 - den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
@@ -47,7 +178,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
 - Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
 
-3. Einführung in CIDOC CRM
+**3. Einführung in CIDOC CRM**
 
 - Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
 - Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
@@ -60,7 +191,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
  
-4. FAIR-Konformität mit WissKI
+**4. FAIR-Konformität mit WissKI**
 
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
@@ -77,7 +208,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
-EÜ1. Anwendungsbeispiel Objektsammlungen
+**Ü1. Anwendungsbeispiel Objektsammlungen**
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
@@ -88,7 +219,41 @@ EÜ1. Anwendungsbeispiel Objektsammlungen
 
 Nach Abschluss von Modul 2 können die Teilnehmenden…
 
-EÜ1. Semantische Datenmodelle visualisieren
+**1. Methoden und Workflows semantischer Modellierung**
+
+- Methoden zur Entwicklung von Ontologien benennen. (LZ-ID 03\_007\_0784)
+- Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
+- einen Workflow für die semantische Modellierung als Datendokumentation benennen. (LZ-ID SODa\_03\_001\_0626)
+- einen Workflow für die semantische Modellierung als Datendokumentation erläutern. (LZ-ID SODa\_03\_001\_0853)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+
+**2. Einführung in Protégé**
+
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+
+**Ü1. Semantische Modellierung mit CIDOC CRM**
+
+- Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
+- Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
+- einen Workflow für die semantische Modellierung als Datendokumentation anwenden (LZ-ID SODa\_03\_001\_0627)
+- unter Anleitung Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM anwenden. (LZ-ID SODa\_03\_001\_0786a) 
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
+- Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_0855)
+- Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
+
+---
+
+## Lernziele in Modul 3: **Vom Diagramm zu Pfaden – erläutern und anwenden**
+
+Nach Abschluss von Modul 3 können die Teilnehmenden…
+
+**Ü1. Semantische Datenmodelle visualisieren**
 
 - Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
 - Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID LZ-ID SODa\_03\_007\_0813)
@@ -102,7 +267,7 @@ EÜ1. Semantische Datenmodelle visualisieren
 - Regeln zur Modellierung einer Domänenontologie mit einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0816)
 - Attributwerte an vordefinierten Klassen der Domänenontologie in einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0817)
 
-EÜ2. Transformation semantischer Modelle in WissKI-Pfade
+**Ü2. Transformation semantischer Modelle in WissKI-Pfade**
 
 - WissKI Pathbuilder als Werkzeug zur Defintion einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0804)
 - unter Anleitung die Datenkonvertierung einer Visualisierungssoftware in ein nachnutzbares Dateiformat anwenden. (LZ-ID SODa\_02\_005\_0298a)
@@ -111,35 +276,14 @@ EÜ2. Transformation semantischer Modelle in WissKI-Pfade
 - ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung benennen. (LZ-ID SODa\_02\_005\_0317) 
 - unter Anleitung ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung anwenden. (LZ-ID SODa\_02\_005\_0318)
 
----
 
-### Lernziele in Modul 3: **Vom Diagramm zu Pfaden – erläutern und anwenden**
-
-Nach Abschluss von Modul 3 können die Teilnehmenden…
-
-Ü1. Semantische Datenmodelle visualisieren
-
-- Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
-- Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID LZ-ID SODa\_03\_007\_0813)
-- Begriff Visualisierung erläutern. (LZ-ID SODa\_03\_007\_0851)
-- Nutzen von Visualisierungen erläutern. (LZ-ID SODa\_03\_007\_0852)
-- Nutzen einer Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0814) 
-- Software zur Visualisierung einer Domänenontologie unter Anleitung anwenden. (LZ-ID SODa\_03\_007\_0815)
-- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benennen. (LZ-ID SODa\_03\_007\_0806)
-- Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
-- Regeln zur Modellierung einer Domänenontologie mit einer Visualisierungssoftware benennen. (LZ-ID SODa\_03\_007\_0820)
-- Regeln zur Modellierung einer Domänenontologie mit einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0816)
-- Attributwerte an vordefinierten Klassen der Domänenontologie in einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0817)
-
-Ü2. Transformation semantischer Modelle in WissKI-Pfade
-
-- WissKI Pathbuilder als Werkzeug zur Defintion einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0804)
-- unter Anleitung die Datenkonvertierung einer Visualisierungssoftware in ein nachnutzbares Dateiformat anwenden. (LZ-ID SODa\_02\_005\_0298a)
-- unter Anleitung WissKI Pathbuilder als Werkzeug zum Import einer domänenspezifischen Ontologiestruktur (Pathbuilder-XML-Datei im WissKI-Pathbuilder) anwenden. (LZ-ID SODa\_03\_007\_0818)
-- unter Anleitung die importierte domänenspezifische Ontologiestruktur im WissKI-Pathbuilder analysieren. (LZ-ID SODa\_03\_007\_0819)
-- ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung benennen. (LZ-ID SODa\_02\_005\_0317) 
 
 ## Quellenangaben
 
-### Metadaten
+[1] Döring, K. W. (2009): Handbuch Lehren und Trainieren in der Weiterbildung. Beltz.
+
+[2] Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
+
+[3] Reichert, R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
+
 
