@@ -137,27 +137,27 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-> **Formale Ontologiestruktur aus Modul 2**
-> 
-> ↓
-> 
-> **Semantisches Diagramm in Draw.io**
-> 
-> ↓
->  
-> **Diagramm und Attributwerte prüfen**
-> 
-> ↓
-> 
-> **Pathbuilder-XML erzeugen**
-> 
-> ↓
-> 
-> **Datei in WissKI importieren**
-> 
-> ↓
->  
-> **Pfade und Pfadgruppen analysieren**
+**Formale Ontologiestruktur aus Modul 2**
+ 
+↓
+ 
+**Semantisches Diagramm in Draw.io**
+ 
+↓
+  
+**Diagramm und Attributwerte prüfen**
+ 
+↓
+ 
+**Pathbuilder-XML erzeugen**
+ 
+↓
+ 
+**Datei in WissKI importieren**
+ 
+↓
+  
+**Pfade und Pfadgruppen analysieren**
 
 
 
