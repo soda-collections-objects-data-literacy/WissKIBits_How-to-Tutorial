@@ -68,7 +68,7 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 
 In Modul 2 wird das konzeptuelle Domänenmodell aus Modul 1 in Protégé mit CIDOC CRM formalisiert.
 
-- Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen. ???
+- Methoden zur Entwicklung von Ontologien werden vorgestellt, verglichen und auf das Beispiel bezogen. 
 - Ein schrittweiser Workflow für die semantische Modellierung wird benannt und angewendet.
 - Protégé wird als Software zur Erstellung und Bearbeitung von Ontologien eingeführt.
 - Eine bestehende OWL-Implementierung des CIDOC CRM wird geladen und in ihrer Struktur erkundet.
