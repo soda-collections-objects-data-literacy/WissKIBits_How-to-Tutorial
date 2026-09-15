@@ -230,19 +230,18 @@ Assign an appropriate CIDOC CRM class to each domain term and justify your decis
 
 Computer Game – E73 Information Object
 
-[[__________________________________________________]]
+↓  
 
 Game Title – E35 Title
 
-[[__________________________________________________]]
+↓  
 
 Game Genre Type – E55 Type
 
-[[__________________________________________________]]
+↓  
 
 Game Platform Type – E55 Type
 
-[[__________________________________________________]]
 
 **Note:**
 
