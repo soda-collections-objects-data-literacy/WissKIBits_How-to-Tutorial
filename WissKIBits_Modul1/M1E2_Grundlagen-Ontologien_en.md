@@ -67,7 +67,7 @@ Participants can...
 
 ## Fundamentals of Ontologies
 
-**Conceptual knowledge modeling** (M1U1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein2017ontologies, p. 164) and represent them in a machine-readable form.
+**Conceptual knowledge modeling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein2017ontologies, p. 164) and represent them in a machine-readable form.
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
