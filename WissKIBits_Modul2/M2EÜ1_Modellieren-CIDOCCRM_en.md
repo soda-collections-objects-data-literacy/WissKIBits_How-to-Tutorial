@@ -60,7 +60,7 @@ Participants will be able to...
 
 ---
 
-## Objective and Scenario
+## Objective and scenario
 
 This is a practical exercise. The starting point is the conceptual model of the video game domain developed in Module 1.
 
@@ -79,7 +79,7 @@ At the end of the exercise, a formally implemented section of the domain model w
 
 ---
 
-## Starting Point: Model from Module 1
+## Starting point: Model from module 1
 
 In Module 1, a model sketch was developed describing key concepts and relationships in the video game domain:
 
@@ -108,7 +108,7 @@ We distinguish between three levels:
 
 ---
 
-## Focus of This Modeling Exercise
+## Focus of this modeling exercise
 
 The focus is on four fundamental steps:
 
@@ -122,7 +122,7 @@ The focus is on four fundamental steps:
 
 ---
 
-## Example: From the Model Sketch to the Ontology
+## Example: From the sketch model to the ontology
 
 In Module 1, the following was initially formulated at the domain level:
 
@@ -142,7 +142,7 @@ One possible starting point is:
 At the same time, **E35 Title** is a more specific form of **E41 Appellation**. The class hierarchy thus makes explicit that a title is a particular form of appellation.
 
 ---
-## Exercise – Implementing the Model in Protégé
+## Exercise – Implementing the model in Protégé
 
 **Format:** Individual work or teams (2–4 people)
 
@@ -167,7 +167,7 @@ must be set up via the [**official Protégé website**](https://protege.stanford
 
 ----
 
-### Step 1: Load Erlangen CRM and Explore Its Structure
+### Step 1: Load Erlangen CRM and explore its structure
 
 Open Protégé Desktop and load the provided OWL implementation of CIDOC CRM:
 
@@ -202,7 +202,7 @@ In particular, examine:
 
 ---
 
-### Step 2: Select and Review Appropriate CIDOC CRM Classes
+### Step 2: Select and review appropriate CIDOC CRM classes
 
 In Protégé, find the appropriate class for each domain term and review the class's Scope Note.
 
@@ -224,6 +224,7 @@ Assign an appropriate CIDOC CRM class to each domain term and justify your decis
 | Game Title         | E35 Title                |
 | Game Genre Type    | E55 Type                 |
 | Game Platform Type | E55 Type                 |
+
 
 **Justifications**
 
@@ -247,7 +248,8 @@ Game Platform Type – E55 Type
 
 > The suitability of a class is determined not by its name, but by its meaning within the reference model.
 
-**Guiding Questions for Reviewing the Class May Include**
+
+**Guiding questions for reviewing the class may include**
 
 - What does the CIDOC CRM class describe?
 - Does this meaning correspond to our domain term?
@@ -256,7 +258,7 @@ Game Platform Type – E55 Type
 
 ---
 
-### Step 3: Create Domain-Specific Subclasses
+### Step 3: Create domain-specific subclasses
 
 Now create the domain-specific subclasses in Protégé.
 
@@ -274,13 +276,14 @@ E55 Type
 └── Game_Platform_Type
 
 
-**Example: For Genre or Platform**
+**Example: For genre or platform**
 
 > Computer game → **has type** → Genre / Platform type
 >
 > Find: **P2 has type**
 
-Document your review:
+Document your review.
+
 
 | Source        | Property       | Target             | Intended Statement                                      |
 | ------------- | -------------- | ------------------ | ------------------------------------------------------- |
@@ -288,12 +291,13 @@ Document your review:
 | Computer_Game | P2 has type    | Game_Genre_Type    | A computer game is assigned to a genre type.            |
 | Computer_Game | P2 has type    | Game_Platform_Type | A computer game is assigned to a platform type.         |
 
+
 **Note:**
 
 > The properties will be needed in the next module, Module 3.
 
 
-**Guiding Questions:**
+**Guiding questions:**
 
 - Does the meaning of the property correspond to our domain statement?
 - Are the source and target classes compatible with the domain and range?
@@ -301,15 +305,18 @@ Document your review:
 
 ---
 
-### Step 5: Review and Document the Model
+### Step 5: Review and document the model
 
 Compare your result with the original model sketch:
 
+
 ![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
+
 
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
-**Review the Modeling**
+
+**Review the modeling**
 
 - Are the domain-specific classes appropriately placed within the CIDOC CRM hierarchy?
 - Do the properties correspond to the intended statements?
@@ -319,7 +326,7 @@ Compare your result with the original model sketch:
 - Write Scope Notes / Comments for the newly created domain subclasses and assign labels.
 
 
-**Document the Modeling Decision**
+**Document the modeling decision**
 
 Document your decision for **one** mapping:
 
@@ -337,7 +344,7 @@ Document your decision for **one** mapping:
 
 ---
 
-## Sample Solution
+## Sample solution
 
 As a sample, you can examine the existing domain ontology for computer games:
 
