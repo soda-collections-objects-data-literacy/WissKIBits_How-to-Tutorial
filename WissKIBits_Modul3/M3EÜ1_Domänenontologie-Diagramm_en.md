@@ -69,21 +69,21 @@ Participants can...
 
 In this unit, the data model developed in Modules 1 and 2 is visualized as a diagram in Draw.io (Ltd2026drawio). 
 
-The Draw.io diagram created forms the **prerequisite for the (semi-)automated pipeline** for creating a **WissKI Pathbuilder**.
+The Draw.io created diagram forms the **prerequisite for the (semi-)automated pipeline** for the **WissKI Pathbuilder**.
 
-Visualizing in Draw.io is therefore not only a **visualization exercise**, but also an **explicit modeling step** for **communicating and negotiating modeling decisions and enabling and promoting a shared understanding of semantic structures.**
+Visualizing in Draw.io is therefore not only a **visualization exercise**, but also an **explicit modeling step** for **communicating and negotiating modeling decisions as well as enabling and promoting a shared understanding of semantic structures.**
 
 ---
 
 ## Definition
 
-**Visualization**
+**Visualisation**
 
-Visualizations are graphical representations of subject matter intended to facilitate understanding. 
+Visualisations are graphical representations of subject matter intended to facilitate understanding. 
 
-"In the humanities, visualizations are used as illustrations, as memory aids for known subject matter, in the organization of knowledge, and as tools for insight in the communication and generation of (new) knowledge." (Freyberg2023visual)
+"In the humanities, visualisations are used as illustrations, as memory aids for known subject matter, in the organisation of knowledge, and as tools for insight in the communication and generation of (new) knowledge." (Freyberg2023visual)
 
-"Visualizations are particularly suitable for learning when the subject to be conveyed has properties that are difficult to communicate verbally." (Scheiter2021visual)
+"Visualisations are particularly suitable for learning when the subject to be conveyed has properties that are difficult to communicate verbally." (Scheiter2021visual)
 
 They are therefore used alongside knowledge acquisition to make content more concrete and easier to understand and to clarify structures. (Levin1987visual)
 
@@ -107,7 +107,7 @@ Especially in collaborative projects, Draw.io facilitates **coordination between
 
 The previous questions have clarified which central concepts of the example domain are relevant and how they can be classified from a domain-specific perspective.
 
-The next step is no longer about recognizing or naming these central concepts, but about transforming this selection into a **formalized path structure**:
+The next step is no longer about recognizing or naming these central concepts, but about transforming this selection into a **formalised path structure**:
 
 - How are the central concepts linked to one another in a semantically correct way?
 - How does this result in a formalized path structure that can be used in the form of **paths and path groups in the WissKI Pathbuilder**?
@@ -128,9 +128,9 @@ For this purpose, the conceptual domain model is now implemented **visually and 
 
 ## Quiz
 
-Which central concepts are relevant to the example object in the context of game features and narrative elements?
+The following quiz is intended to reactivate the central concepts of the domain and help place the subsequent modeling task in context.
 
-The following questions are intended to reactivate the central concepts of the domain and help place the subsequent modeling task in context:
+Which central concepts are relevant to the example object in the context of game features and narrative elements?
 
 
 ### Which example object is used in the module? 
@@ -185,7 +185,7 @@ Then remove all temporary placeholders `(???)`.
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Download** the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml).
+**Download** the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml).
 
 **Note:**
 
@@ -226,7 +226,7 @@ Rules for visualization with Draw.io**
 
 | Step | Action |
 |---:|---|
-| 1 | Download the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml) |
+| 1 | Download the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) |
 | 2 | Import the downloaded Draw.io file into Draw.io ([here](https://app.diagrams.net/)) |
 | 3 | Complete the domain ontology diagram |
 | 4 | Check attribute values on the start node, each group node, and end node |
