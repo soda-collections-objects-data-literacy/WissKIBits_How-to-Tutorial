@@ -232,19 +232,18 @@ Ordne den Domänenbegriffen eine passende CIDOC-CRM-Klasse zu und begründe dein
 
 Computer Game – E73 Information Object
 
-[[__________________________________________________]]
+↓  
 
 Game Title – E35 Title
 
-[[__________________________________________________]]
+↓  
 
 Game Genre Type – E55 Type
 
-[[__________________________________________________]]
+↓  
 
 Game Platform Type – E55 Type
 
-[[__________________________________________________]]
 
 **Hinweis:**
 
