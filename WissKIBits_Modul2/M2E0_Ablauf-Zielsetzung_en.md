@@ -235,4 +235,4 @@ In the following module, the ontology created or extended in Protégé is integr
 
 - The schedule is designed for a total of 90 minutes and can be adjusted depending on the scope of the practical exercise.
 
-<!--For Krakow omitted: (Krakow half day = 3.5 hrs - Modules 1-3 = 4.5 hrs - then another 10 min. are missing) b. 45 min. M2E complete -->
+<!--For Krakow omitted: (Krakow half day = 3.5 hrs - Modules 1-3 = 4.5 hrs - then another 10 min. are missing) b. 45 min. M2E complete-->
