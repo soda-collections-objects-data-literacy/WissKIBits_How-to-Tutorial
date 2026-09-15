@@ -178,7 +178,7 @@ After completing Module 1, participants can…
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### E1. Application example for object collections
+### Ü1. Application example for object collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
