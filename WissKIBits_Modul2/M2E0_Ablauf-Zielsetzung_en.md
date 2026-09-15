@@ -102,7 +102,7 @@ This guiding question accompanies all units of the module. Three work steps are 
 | 0 | Welcome, objectives and structure | 10 min. |
 | 1 | Methods and workflows of semantic modeling | 5 min. |
 | 2 | Introduction to Protégé | 20 min. |
-| E1 | Semantic modeling with CIDOC CRM | 55 min. |
+| Ü1 | Semantic modeling with CIDOC CRM | 55 min. |
 |  | **Total** | **90 min.** |
 
   
@@ -130,7 +130,7 @@ After completing Module 2, participants can…
 - name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-### E1. Semantic modeling with CIDOC CRM
+### Ü1. Semantic modeling with CIDOC CRM
 
 - apply an ontology for describing resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
