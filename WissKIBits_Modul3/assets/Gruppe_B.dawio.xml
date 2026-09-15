@@ -1,0 +1,359 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="lEU92yCYnaaolC4TGsFi">
+    <mxGraphModel dx="1571" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="&lt;b&gt;mega:E73_Computer_Game&lt;/b&gt;" group_name="Computer_Game" element_id="Computer_Game" name="Computer Game" id="Ov51kPGSntp_tNlAi87Z-68">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#B5739D;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="90" width="200" x="1212.5" y="447" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-69" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-86" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;strokeWidth=2;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Ov51kPGSntp_tNlAi87Z-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-70" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="P137 exemplifies" vertex="1">
+          <mxGeometry relative="1" x="-0.0698" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E57_Game_Platform_Type&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-71">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB366;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="270" x="1780" y="692" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;mega:E99_Game_Edition_Type&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-72">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB366;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="270" x="1610" y="840" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-73" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-86" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startFill=0;strokeWidth=2;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.778;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" target="Ov51kPGSntp_tNlAi87Z-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="780" as="sourcePoint" />
+            <mxPoint x="1490" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-74" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="P2 has type" vertex="1">
+          <mxGeometry relative="1" x="-0.0738" y="3" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-75" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ov51kPGSntp_tNlAi87Z-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-76" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;(???)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3293" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E35_Game_Title&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-77">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#E6D0DE;strokeColor=#FFFFFF;" vertex="1">
+            <mxGeometry height="40" width="270" x="1630" y="475" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-78" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Ov51kPGSntp_tNlAi87Z-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="-240" as="sourcePoint" />
+            <mxPoint x="973" y="-195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-79" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.0923" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Game Title" id="Ov51kPGSntp_tNlAi87Z-80">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#99004D;" vertex="1">
+            <mxGeometry height="40" width="270" x="2150" y="472" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-81" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ov51kPGSntp_tNlAi87Z-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="600" as="sourcePoint" />
+            <mxPoint x="1460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-82" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="P129 is about" vertex="1">
+          <mxGeometry relative="1" x="0.0559" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-83" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.0998" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-84" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.0779" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-85" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.1107" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E89_Game_Characteristic&lt;/b&gt;" group_name="Game_Characteristic" element_id="Game_Characteristic" name="Game Characteristics" id="Ov51kPGSntp_tNlAi87Z-86">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB366;strokeColor=#FFCCFF;" vertex="1">
+            <mxGeometry height="40" width="270" x="1180" y="690" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-87" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1941" y="956.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-88" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Platform" id="Ov51kPGSntp_tNlAi87Z-89">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="2870" y="692" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-90" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="1230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-91" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Edition" id="Ov51kPGSntp_tNlAi87Z-92">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="2790" y="850" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;mega:E41_Game_Platform_Type_Name&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-93">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="380" x="2300" y="690" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-94" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2076" y="1220" as="sourcePoint" />
+            <mxPoint x="1841" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-95" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;(???)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E41_Game_Edition_Type_Name&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-96">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="2090" y="850" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-97" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="1384" as="sourcePoint" />
+            <mxPoint x="1480" y="1534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-98" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="&lt;span class=&quot;hljs-attr&quot;&gt;P1&lt;/span&gt; is identified by" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E55_Game_Genre_Type&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-99">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB366;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="270" x="1445" y="980" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-100" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1458" y="1230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-101" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Genre" id="Ov51kPGSntp_tNlAi87Z-102">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="1750" y="1260" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;mega:E41_Game_Genre_Name&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-103">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="1575" y="1128" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-104" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1198" y="1384" as="sourcePoint" />
+            <mxPoint x="1098" y="1534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-105" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-104" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="&lt;span class=&quot;hljs-attr&quot;&gt;P1&lt;/span&gt; is identified by" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-106" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-86" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startFill=0;strokeWidth=2;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Ov51kPGSntp_tNlAi87Z-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="800" as="sourcePoint" />
+            <mxPoint x="1690" y="1078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-107" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="P2 has type" vertex="1">
+          <mxGeometry relative="1" x="-0.0738" y="3" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E89_Game_Narrative&lt;/b&gt;" element_id="Game_Narrative" group_name="Game_Narrative" name="Game Narrative" id="Ov51kPGSntp_tNlAi87Z-108">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB366;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="270" x="842" y="971.21" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-109" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-112" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257.5" y="1369.21" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-110" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Game Description" id="Ov51kPGSntp_tNlAi87Z-111">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="857.5" y="1381.21" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;mega:E31_Game_Description&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-112">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="825" y="1221.21" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-113" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="997.5" y="1523.21" as="sourcePoint" />
+            <mxPoint x="897.5" y="1673.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-114" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-113" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="P67 refers to" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-115" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-86" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startFill=0;strokeWidth=2;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="Ov51kPGSntp_tNlAi87Z-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1019.5" y="720" as="sourcePoint" />
+            <mxPoint x="1339.5" y="1066" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-116" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-115" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="P67_refers_to" vertex="1">
+          <mxGeometry relative="1" x="-0.0738" y="3" as="geometry">
+            <mxPoint x="2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-117" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-120" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672.5" y="1181.2100000000005" as="sourcePoint" />
+            <mxPoint x="672.5" y="1311.2099999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-118" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P1 is identified by" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Game Perspective" id="Ov51kPGSntp_tNlAi87Z-119">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="552.5" y="1521.21" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;mega:E55_Game_Perspective_Type&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-120">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="522" y="1141.21" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-121" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ov51kPGSntp_tNlAi87Z-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713" y="1051.21" as="sourcePoint" />
+            <mxPoint x="670" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-122" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-121" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="P2 has type" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E41_Game_Perspective_Name&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-123">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="522" y="1320" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-124" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-123" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672.5" y="1351.2099999999996" as="sourcePoint" />
+            <mxPoint x="1507" y="1431.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-125" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-124" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P190 has symbolic content" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-126" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ov51kPGSntp_tNlAi87Z-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="1161.21" as="sourcePoint" />
+            <mxPoint x="1230" y="1121.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-127" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-126" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#b85450;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" value="P67 refers to" vertex="1">
+          <mxGeometry relative="1" x="0.0783" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;b&gt;mega:E89_Game_Character&lt;/b&gt;" id="Ov51kPGSntp_tNlAi87Z-128">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="1140" y="1141.21" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-129" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="883" y="1541.21" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-130" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-129" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="P1 is identified by" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="E62_String" name="Game Character" id="Ov51kPGSntp_tNlAi87Z-131">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFFFFF;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="240" x="1172.5" y="1521.21" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;(???)&lt;/span&gt;" id="Ov51kPGSntp_tNlAi87Z-132">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=0;treeMoving=1;fillColor=#FFB570;strokeColor=#b85450;" vertex="1">
+            <mxGeometry height="40" width="305" x="1140" y="1311.21" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-133" edge="1" parent="1" source="Ov51kPGSntp_tNlAi87Z-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;" target="Ov51kPGSntp_tNlAi87Z-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="1241.21" as="sourcePoint" />
+            <mxPoint x="2127" y="1431.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov51kPGSntp_tNlAi87Z-134" connectable="0" parent="Ov51kPGSntp_tNlAi87Z-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF3333;" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;(???)&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.327" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
