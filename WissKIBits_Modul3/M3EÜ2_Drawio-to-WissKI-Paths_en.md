@@ -60,7 +60,7 @@ Participants can...
 
 ---
 
-## Objective and Scenario
+## Objective and scenario
 
 The starting point for this practical unit is the **Draw.io diagram of the video game domain completed in Unit 1**.
 
@@ -70,7 +70,7 @@ The diagram is now processed technically: Using the **gnm-service**, the Draw.io
 
 ---
 
-## From the Semantic Model to the Pathbuilder
+## From the Semantic model to the Pathbuilder
 
 In the previous unit, the domain model formalized with CIDOC CRM was visualized as a Draw.io diagram.
 
@@ -94,7 +94,7 @@ The Pathbuilder thus provides the connection between the ontology structure and 
 
 ---
 
-## Focus of This Practical Unit
+## Focus of this practical unit
 
 The focus is on five fundamental work steps:
 
@@ -136,7 +136,7 @@ On this basis, **bundles and input fields** can later be generated for data entr
 
 ---
 
-## The gnm-service as a Transformation Tool
+## The gnm-service as a transformation tool
 
 The **“Draw.io diagrams to WissKI pathbuilders”** web service supports the transformation of a semantic Draw.io diagram into a **WissKI Pathbuilder XML file**.
 
@@ -187,7 +187,7 @@ This process bridges the gap between modeling a domain ontology and creating the
 
 ---
 
-### Step 1: Transform the Draw.io Diagram
+### Step 1: Transform the Draw.io diagram
 
 **Open** the web service:
 
@@ -216,7 +216,7 @@ Write down a short answer.
 
 ---
 
-### Step 2: Check the Ontology in WissKI
+### Step 2: Check the ontology in WissKI
 
 The classes and Properties used in the Pathbuilder must be available to WissKI through the ontology. The Pathbuilder uses these elements to construct semantic paths.
 
@@ -228,7 +228,7 @@ The classes and Properties used in the Pathbuilder must be available to WissKI t
 - Check the adapter being used and the loaded ontology.
 - If the domain ontology has not yet been loaded, select the designated WissKI adapter, enter the address of the **Games Ontology**, and load the ontology.
 
-**Games Ontology:**
+**Games ontology:**
 
 [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
@@ -247,7 +247,7 @@ The classes and Properties used in the Pathbuilder must be available to WissKI t
 
 ---
 
-### Step 3: Create a New Pathbuilder and Import XML
+### Step 3: Create a new Pathbuilder and import XML
 
 **Navigate** to: **Configuration → Pathbuilders**
 
@@ -272,7 +272,7 @@ In the **Pathbuilder Definition Import** section:
 
 --- 
 
-### Step 4: Examine the Imported Pathbuilder
+### Step 4: Examine the imported Pathbuilder
 
 **Examine** the generated **Pathbuilder** and compare it with the source diagram.
 
@@ -288,7 +288,7 @@ Use the following path as an example:
 
 ---
 
-**Question 2: Which Property connects the source and target classes?**
+**Question 2: Which property connects the source and target classes?**
 
 [[P102 has title]]
 
