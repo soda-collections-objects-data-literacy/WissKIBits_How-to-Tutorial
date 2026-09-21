@@ -75,7 +75,8 @@ Subsequent units transfer this approach to learners’ own research data and dee
 - Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
 - To ensure that data remain interpretable and reusable in the long term, their meaning must be made explicit and formally described.
 
-> **Collection and research data consist of more than individual facts. Their **meaning and relationships** are equally important. Semantic modeling makes these connections explicit, understandable, and reusable.**
+> **Collection and research data consist of more than individual facts. Their meaning and relationships are equally important. Semantic modeling makes these connections explicit, understandable, and reusable.**
+
 ---
 
 ## Module objectives
@@ -117,7 +118,7 @@ This guiding question accompanies all units of the module. Three levels are dist
 | 2 | Fundamentals of ontologies | x min. |
 | 3 | Introduction to CIDOC CRM | x min. |
 | 4 | FAIR compliance with WissKI | x min. |
-| E1 | Excersise: From model sketch to research questions (?) | 30 min. |
+| E1E | Excersise: From model sketch to research questions (?) | 30 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -125,6 +126,9 @@ This guiding question accompanies all units of the module. Three levels are dist
 ## Learning objectives of the module
 
 After completing Module 1, participants can…
+
+### E1A. From....
+
 
 ### 1. Basic concepts of conceptual knowledge modeling
    
@@ -183,7 +187,7 @@ After completing Module 1, participants can…
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### Ü1. Application example for object collections
+### E1E. Application example for object collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
