@@ -50,13 +50,4 @@ table th {
   height: auto !important;
 }
 
-table td {
-  font-size: 12px !important;
-  padding: 1px 1px;
-  text-align: left !important;
-  vertical-align: top !important;
-  white-space: normal !important;
-  word-wrap: break-word;
-  overflow-wrap: anywhere;
-  height: auto !important;
-}
+
