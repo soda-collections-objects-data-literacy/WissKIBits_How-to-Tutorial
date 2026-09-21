@@ -52,17 +52,20 @@ Unit 0: **Welcome, objectives and structure**
 
 ## Welcome
 
-> Welcome to **WissKI Bits: Ontology-Based Modeling of Research Data**.
->
-> This how-to tutorial provides a practice-oriented introduction to the ontology-based modeling of research data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and prepared for later implementation in WissKI.
->
-> In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, we develop the conceptual foundation of this data model. To do so, we analyze object data and contextual information from a specialist domain. We identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
->
-> The goal is to document the domain-specific logic in such a way that modeling decisions become transparent and research data can later be recorded, linked, analyzed, and reused consistently.
->
-> The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, we move from the collection perspective to the modeling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
->
-> Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
+Welcome to **WissKI Bits: Ontology-Based Modeling of Research Data**.
+
+In this module, we use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
+
+In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, we develop the conceptual foundation of this data model. To do so, we analyze object data and contextual information from a specialist domain. We identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+
+The goal is to document the domain-specific logic in such a way that modeling decisions become transparent and research data can later be recorded, linked, analyzed, and reused consistently.
+
+The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, we move from the collection perspective to the modeling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
+
+Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
+
+
+> **We start with information about an object and gradually develop a semantic data model. Along the way, we identify concepts, events, and relationships, make their meaning explicit, and prepare them for later implementation in WissKI.**
 
 ---
 
@@ -72,24 +75,25 @@ Unit 0: **Welcome, objectives and structure**
 - Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
 - To ensure that data remain interpretable and reusable in the long term, their meaning must be made explicit and formally described.
 
+> **Collection and research data consist of more than individual facts. Their **meaning and relationships** are equally important. Semantic modeling makes these connections explicit, understandable, and reusable.**
 ---
 
 ## Module objectives
 
-In Module 1, the conceptual basis for a domain model is created. The collection perspective is transformed into a modeling perspective.
+In this module, you will learn how to move from a collection perspective to a modeling perspective. 
 
-- Object data and their context are analyzed.
-- Central concepts in the object data are identified and contextualized through associated events and relationships.
-- The identified domain concepts, events, and relationships are aligned with corresponding classes (Entities) and properties (Properties) of CIDOC CRM.
-- This gradually produces an ontology-based domain structure or domain logic using CIDOC CRM.
-- This domain logic is visualized and serves as the basis for collection-related data management and administration in WissKI.
-- The developed domain logic is visualized in Draw.io and prepared for later implementation in WissKI.
+You will:
+
+- identify relevant concepts, events, and relationships in collection and research data,
+- align them with classes and properties of CIDOC CRM,
+- develop and justify a coherent domain logic, and
+- visualize this logic as a conceptual model that can later be implemented in WissKI.
 
 ---
 
 ## Guiding question
 
-> **How can information about a collection object be transformed into a transparent, interoperable semantic data model that can be implemented in WissKI?**
+> **How can information about an object be transformed into a transparent, interoperable semantic data model that can be implemented in WissKI?**
 
 This guiding question accompanies all units of the module. Three levels are distinguished:
 
@@ -108,11 +112,12 @@ This guiding question accompanies all units of the module. Three levels are dist
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
-| 1 | Basic concepts of conceptual knowledge modeling | 20 min. |
-| 2 | Fundamentals of ontologies | 10 min. |
-| 3 | Introduction to CIDOC CRM | 15 min. |
-| 4 | FAIR compliance with WissKI | 15 min. |
-| E1 | Application example for object collections: “Zelda” model sketch | 30 min. |
+| E1A| Activation: “Zelda” model sketch | 15 min. |
+| 1 | Basic concepts of conceptual knowledge modeling | x min. |
+| 2 | Fundamentals of ontologies | x min. |
+| 3 | Introduction to CIDOC CRM | x min. |
+| 4 | FAIR compliance with WissKI | x min. |
+| E1 | Excersise: From model sketch to research questions (?) | 30 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -187,6 +192,8 @@ After completing Module 1, participants can…
 
 ## Learning path in the module
 
+We move step by step from a collection perspective to a semantic model:
+
 **Collection object and research question**  
 
 ↓  
@@ -195,7 +202,7 @@ After completing Module 1, participants can…
 
 ↓  
 
-**Classes (Entities), Properties, and modeling assumptions**  
+**Classes (Entities), properties, and modeling assumptions**  
 
 ↓  
 
@@ -207,7 +214,7 @@ After completing Module 1, participants can…
 
 ↓  
 
-**Preparation for the WissKI Pathbuilder**
+**Preparation for implementation in WissKI**
 
 
 
@@ -217,7 +224,7 @@ After completing Module 1, participants can…
 
 ## Working method and example
 
-The module combines short subject-specific inputs with active engagement and application:
+The module combines short inputs alternate with analysis, discussion, and modeling activities:
 
 - Terms are introduced using typical information from collections.
 - Modeling decisions are discussed and justified collaboratively.
@@ -227,17 +234,16 @@ The module combines short subject-specific inputs with active engagement and app
 
 The goal is not a complete data model. What matters is a **small, consistent, and justifiable model draft** that can later be expanded and technically implemented.
 
+> We begin with a short activation activity using a concrete collection object. After the conceptual inputs, we return to the same example and develop a small, consistent, and justified model sketch.
+> 
+> Our shared example is The Legend of Zelda: A Link to the Past.
+
 ---
 
 ## Prerequisites
 
 **No prior knowledge of ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
-
-Helpful prerequisites include:
-
-- experience with collection, object, or research data,
-- an example object from the participant’s own collection or research,
-- typical research questions or documentation requirements from the participant’s own field of work.
+Experience with collection, object, or research data is helpful. If possible, bring an example object or research question from your own field.
 
 ---
 
@@ -252,15 +258,18 @@ At the end of Module 1, an initial conceptual model sketch of the domain logic i
 
 This sketch serves as the starting point for further formalization and implementation in WissKI.
 
+
+> By the end of the module, you will have developed a first conceptual model sketch showing relevant concepts and events, their relationships, and initial mappings to CIDOC CRM.
+
 ---
 
 ## Outlook
 
 The following unit first clarifies the basic concepts of conceptual knowledge modeling and presents them as a foundation for semantic data modeling. 
-
 The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
-
 The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
+
+> In the next unit, we begin with the basic concepts of conceptual knowledge modeling and establish the vocabulary needed for the modeling process.
 
 ---
 
