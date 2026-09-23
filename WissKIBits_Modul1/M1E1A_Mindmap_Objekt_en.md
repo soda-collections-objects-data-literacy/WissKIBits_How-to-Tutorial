@@ -44,39 +44,31 @@ Module 1: **From the collection through modeling decisions to the diagram – un
 
 Exercise Unit E1: **Application Example: Object Collections**  
 
-**Duration:** ~ 30 min.
+**Duration:** ~ 15 min.
 
 **Learning objectives:**
 
 Participants can...
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
-- name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808) 
 
 ---
 
-## Objective and scenario
+## Goal and scenario
 
-This is a practical unit. Starting from an example object from the **computer games** domain, an initial conceptual model sketch is developed.
+Den jetzigen Einstieg würde ich für diese Übung deutlich auf die Sammlungsperspektive beschränken.
 
-Using **“The Legend of Zelda: A Link to the Past”** as an example, we examine which information is relevant for describing a collection object by
+> **ACTIVATION · From the object to a conceptual model**
+>
+> Start with a collection or research object and ask:
+>
+> What do we need to know about this object – and how is this knowledge connected?
+>
+> Using The Legend of Zelda: A Link to the Past as an example, identify relevant concepts, events, and relationships.
+>
+> The goal is not yet to use CIDOC CRM, but to create a first conceptual model sketch of the domain.
 
-- identifying central **concepts and events**
-- and formulating the **relationships** that exist between them.
-
-Selected concepts are then provisionally mapped to classes of **CIDOC CRM**. The aim is not yet to create a complete or formally correct CIDOC CRM model. Rather, the goal is to demonstrate that transferring domain knowledge into a reference model requires **modeling decisions**.
-
-At the end, participants can:
-
-* identify central **concepts** and **events** in an example domain,
-* formulate **semantic relationships** between them,
-* map selected concepts to possible **CIDOC CRM classes (Entities)**,
-* describe the mappings as modeling decisions,
-* design a **conceptual model** that serves as the starting point for further formalization.
-
-The model sketch will be developed further step by step in Modules 2 and 3 and formalized for working with **Protégé** and **WissKI**.
-
----
+--- 
 
 ## Starting point: Example object “Zelda”
 
@@ -89,6 +81,14 @@ The **goal is not** to develop a complete data model for computer games. Instead
 - distinguishes central concepts and events in a way that is understandable to people,
 - makes their relationships visible, and
 - serves as the basis for subsequent mapping to **CIDOC CRM**.
+
+> **Starting from the object**
+>
+> Our example is the computer game **The Legend of Zelda: A Link to the Past.**
+>
+> We use it to explore which concepts, events, and relationships may be relevant for describing a collection object and its context.
+>
+> **Remember:** The goal is not a complete data model. Start small and focus on what is relevant for understanding the object.
 
 ---
 
@@ -106,6 +106,14 @@ The domain is particularly suitable because it...
 
 This makes the domain a clear starting point for recognizing different perspectives on an object and deriving initial **modeling decisions** from them.
 
+> **Why computer games?**
+>
+> Computer games provide a useful modeling example because they combine:
+>
+> physical and digital objects · actors · events · versions · identifiers · places and times
+>
+> This makes it possible to explore different perspectives on a collection object within a manageable example.
+
 ---
 
 ## Focus of this modeling exercise
@@ -118,79 +126,56 @@ For the model sketch, we consider selected information about the example object.
 
 These areas serve as the starting point for recognizing different types of **concepts and events** and formulating their **relationships**.
 
-For example, the following questions can be asked:
-
-- What **title** does the game have?
-- Which **genre** or **platform** is it assigned to?
-- Which **persons or organizations** were involved?
-- Which **events** are relevant to the game?
-- At which **places** and at what **times** did these events take place?
+> **Think about the object**
+>
+> - What **title** does the game have?
+> - Which **genre** or **platform** is it assigned to?
+> - Which **persons or organizations** were involved?
+> - Which **events** are relevant to the game?
+> - At which **places** and at what **times** did these events take place?
 
 ---
 
-## Exercise – Model sketch and initial orientation with CIDOC CRM
+## Exercise – Create a mini sketch model
 
-**Working format:** Breakout rooms / individual work or teams (2–4 people)  
+**Working format:** Breakout rooms / individual work or teams (2–5 people)  
 
 **Material:** Paper & pen (or digital whiteboard)  
 
-**Time:** 20 minutes
+**Time:** 15 minutes
 
-### Task 1: Design a mini mind map as a model sketch
-
-Create a simple mind map for the example object “The Legend of Zelda: A Link to the Past”. 
-
-The goal is to make central elements of the domain, their relationships, and the structure of the domain visible.
-
-Proceed in two steps:
-
-- **Step 1:** Identify 3–5 central concepts and events from the example, e.g. an object, a person or organization, a place, a time specification, or an event.  
-Not all categories need to be included.
-
-- **Step 2:** Connect the identified elements using meaningful relationships, e.g. “has”, “was produced through”, “was published by”. Formulate the relationships so that they result in an understandable statement.
-
-**Example:**
-
+> **Step 1 · Identify**
+> Identify 3–5 relevant concepts and events related to the example object.
+> These may include an object, person or organization, place, time, or event. Not all categories need to be represented.
+>
+> **Step 2 · Connect**
+>
+> Connect the identified elements using meaningful relationships.
+> Formulate each connection so that it can be read as a meaningful statement.
+> **Examples**
 > Game → has → Title
->
 > Nintendo → participated in → Development
->
 > Development → created → Game
+>
+> **Step 3 · Check**
+>
+> Read your connections as statements:
+> Do they express what you actually mean?
+>
+> **Tip: Less is more. Focus on a small number of elements and relationships that are particularly relevant to understanding the object.**
 
-**Note:**
+## Result
 
-> Less is more. Initially, focus on a small number of elements and relationships that are particularly relevant for understanding the example object.
+You now have a first conceptual model sketch containing:
 
-**Guiding questions may include**
-
-| Step | Guiding question | Result |
-|-------|------------------|--------|
-| 1 | Which central concepts and events are there? | Nodes of the model sketch |
-| 2 | How are the things related? | Directed relationships between the nodes |
-| 3 | Can the connections be read as understandable statements? | Verifiable statements about the object |
-
-**Discussion of results in the plenary session and sample example**
+- relevant concepts,
+- events, and
+- meaningful relationships.
 
 ![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
 
-> **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
+
+**Keep this sketch: we will return to it after introducing CIDOC CRM.**
 
 
-## Outlook
-
-In this practical unit, an **initial model sketch for the computer games domain** was first developed. This model was then mapped to the corresponding **classes and properties of CIDOC CRM**, with particular attention to the characteristics of **class E41 Appellation**. 
-
-The result is a **formalized semantic model of the computer games domain based on CIDOC CRM** (see sample solution).
-
-In **Module 2**, the developed model will be implemented with **Protégé** as a machine-readable **OWL ontology** and prepared for later implementation in **WissKI**. This establishes the foundations for practical work with Protégé and for transferring the semantic model into a technical implementation.
-
-In **Module 3**, it will finally be shown how the previously developed model is implemented in WissKI. The focus is on transferring the model into the **path structure of the WissKI Pathbuilder**.
-
----
-
-## Bibliography
-
-[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
-
-[SIG2024cidocb] CIDOC CRM Special Interest Group. (2024). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
 
