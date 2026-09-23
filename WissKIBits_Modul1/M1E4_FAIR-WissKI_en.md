@@ -76,6 +76,18 @@ Participants can...
 - based on Semantic Web technologies
 - modular in design and standards-oriented.
 
+> **What is WissKI?**
+> WissKI (Scientific Communication Infrastructure) is a free, open-source virtual research environment for cultural heritage and research data.
+>
+> It combines:
+> - ontology-based modeling
+> - Semantic Web technologies
+> - research data management.
+> 
+> WissKI enables research and collection data to be structured according to their meaning and relationships, rather than only stored in predefined tables.
+
+---
+
 ## FAIR compliance of WissKI
 
 WissKI is **not just** a collection database.
@@ -91,6 +103,16 @@ As part of its technical foundation, WissKI uses the current version of **[Erlan
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 
 This creates interoperable and reusable knowledge resources. Their specific FAIR compliance additionally depends on modeling, licensing, and provision.
+
+> **How does WissKI support FAIR data?**
+>
+> WissKI supports the FAIR principles: **Findable · Accessible · Interoperable · Reusable**
+>
+> It uses Semantic Web technologies and standards such as RDF and OWL to represent and connect knowledge in a machine-readable form.
+>
+> Ontologies such as CIDOC CRM provide shared semantic structures that support interoperability and reuse.
+>
+> **Important:** Using WissKI can support FAIR data management, but FAIRness also depends on factors such as modeling decisions, metadata, licensing, and data provision.
 
 ---
 
@@ -111,6 +133,13 @@ The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm2022fair)
 
 > **Figure:** [Overview page of the collections at the GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNMo.D.collections)
 
+
+> **IN PRACTICE · WissKI at the GNM**
+>
+> WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of its digital research infrastructure.
+>
+> This illustrates how semantic technologies can support research and collection data management in an institutional context.
+
 ---
 
 ## WissKI and Drupal 
@@ -121,25 +150,25 @@ WissKI is **not standalone software**, but a set of modules (knurg2025wisski) th
 
 > **Figure:** WissKI integration in Drupal (Fichtner2023wisski, p. 2)
 
----
-
-### Drupal provides …
-
-- User and role management  
-- Modular system architecture (framework)  
-- Interfaces for data exchange (REST/JSON)  
-- Access control and rights management  
-- Multilingual user interface  
-
----
-
-### WissKI adds …
-
-- Ontology-based modeling and semantic data structuring  
-- Pathbuilder, a tool for defining semantic paths  
-- RDF triple store for storing semantic data  
-- SPARQL endpoint for queries and access  
-- Publication as Linked Open Data (LOD)  
+> **Drupal + WissKI**
+>
+> WissKI extends the Drupal content management system with ontology-based and semantic functionality.
+>
+> Drupal provides:
+> - user, role, and rights management
+> - access control
+> - modular architecture
+> - interfaces for users (GUI) and data exchange (REST/JSON)  
+> - multilingual support
+>
+> WissKI adds:
+> - ontology-based data structures
+> - semantic paths
+> - RDF triple store for storing semantic data  
+> - SPARQL endpoint for queries and access  
+> - Publication as Linked Open Data (LOD)  
+> 
+> **Together: Drupal provides the application framework; WissKI adds the semantic data layer.**
 
 ---
 
@@ -163,13 +192,23 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 > **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modeling of the computer games domain
 
+> **What does the Pathbuilder do?**
+>
+> The WissKI Pathbuilder translates ontology-based structures into paths that can be used for data entry and management in WissKI.
+> 
+> Groups organize semantic entities such as objects, persons, places, or events.
+> Paths define semantic relationships between these entities.
+> Widgets / fields make these structures usable for data entry.
+>
+> **Ontology → Groups and paths → Data entry → RDF knowledge graph**
+
+---
+
 ## Semantic modeling the *WissKI way*
 
 In WissKI, **not only data** are stored and recorded; **meaning** is modeled.
 
-Guiding question:
-
-> **What real-world relationship exists between the things?**
+Guiding question: **What real-world relationship exists between the things?**
 
 !?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
 
@@ -194,11 +233,7 @@ Technically, this knowledge graph is based on the Resource Description Framework
 - Predicate – its property or relationship
 - Object – a value or another resource
 
-A statement such as:
-
-> “The self-portrait was created by Albrecht Dürer.”
-
-is stored as a single, uniquely referenceable relationship. Many such statements connect to form a directed graph that represents complex relationships in a machine-readable way. 
+A statement such as: **“The self-portrait was created by Albrecht Dürer.”** is stored as a single, uniquely referenceable relationship. Many such statements connect to form a directed graph that represents complex relationships in a machine-readable way. 
 
 Together, these triples form the knowledge graph managed by WissKI.
 
@@ -220,9 +255,21 @@ WissKI...
 - provides **powerful SPARQL queries**
 - combines **conceptual clarity** with **technical implementation**.
 
+> **Why is WissKI relevant?**
+>
+> WissKI connects conceptual modeling with technical implementation.
+> It supports:
+> - ontology-based rather than purely table-based data structures,
+> - semantic consistency through shared ontologies,
+> - structured data entry based on semantic paths,
+> - machine-readable data and semantic queries, and
+> - interoperable and reusable research data.
+
 ---
 
 ## Semantics are central to WissKI
+
+From semantics to usable research data: 
 
 - **CIDOC CRM** defines classes (Entities) and properties (Properties)
 - **Semantic paths** translate the model into a usable data structure  
@@ -258,6 +305,10 @@ As a result, collection data are not merely documented, but semantically structu
 - **WissKI User Meeting:** https://wiss-ki.eu/taxonomy/term/63  
   **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKIo.D.events; WissKI2026wat).
 
+> **Further resources · WissKI and the community**
+>
+> Find further information, documentation, tutorials, community channels, and events through the WissKI website and community resources.
+
 ---
 
 ## Outlook
@@ -267,6 +318,8 @@ As a result, collection data are not merely documented, but semantically structu
 In the following unit, this **modeling process is explored in practice using a concrete example**. The starting point is an **example object from the computer games domain**, which is modeled semantically step by step. The unit brings together the steps introduced so far in the module: from **conceptual knowledge modeling** and the development of a **model sketch**, through the **formalized representation** of the relevant concepts, properties, and relationships using **CIDOC CRM**, to the resulting **domain model** based on CIDOC CRM.
 
 The practical unit thus demonstrates how, starting from a concrete collection object, a formal semantic model can be developed and subsequently transferred into a structured modeling approach.
+
+> Next: We have seen how WissKI connects semantic modeling with technical research data management. In the following practical unit, we return to our example object and develop its semantic domain model step by step using the concepts introduced in this module.
 
 ---
 
