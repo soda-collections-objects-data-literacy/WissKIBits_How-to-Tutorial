@@ -59,7 +59,7 @@ Participants can...
 
 ---
 
-## Methods for developing ontologies
+## Methods and workflows of semantic modeling
 
 The development of a domain ontology typically follows a methodological, multi-stage, and iterative approach. 
 
@@ -67,31 +67,75 @@ This includes, among other things, identifying central terms and definitions (so
 
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
-**Ontologies are often created through a combination of:** (Noy2001ontology, p. 4ff)
+> Developing a domain ontology is not a linear process. It usually combines domain knowledge, application requirements, modeling decisions, and iterative review.
+>
+> Different methods can be combined depending on the starting point and purpose of the model.
+
+---
+
+## Four approaches to ontology development
+
+Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
 - **Top-down modeling:** Starting from a reference model (e.g. CIDOC CRM), a domain-specific specialization is developed.
 - **Bottom-up modeling:** Classes (Entities) and properties (Properties) are gradually derived from existing data.
 - **Competency Questions:** Modeling is driven by typical analytical and research questions (e.g. “Which games have characteristic X?”)
 - **Iterative prototyping:** A model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
 
+
+### A practical modeling workflow
+
+Semantic modeling is iterative: reviewing the model ay lead back to earlier steps.
+
+**Identify requirements and questions**
+ 
+↓
+ 
+**Identify relevant concepts and relationships**
+ 
+↓
+  
+**Structure them as classes and properties**
+ 
+↓
+ 
+**Reuse or specialize existing ontology elements**
+ 
+↓
+ 
+**Review the model**
+ 
+↓
+  
+**Revise and refine**
+
+
+> **Figure:** The graphic illustrates the workflow of semantic modeling.
+
 ---
 
-## Modeling strategy in the tutorial
+## Modeling strategy 
 
-There are various approaches to extending domain ontologies:
+A domain ontology can be developed by various approaches to extending domain ontologies:
 
 - Create new **subclasses (Entities)**
 - Define new **properties (Properties)**
 - **Pure reuse** of existing CIDOC CRM classes (Entities) and properties (Properties)
 - **Combinations** of the strategies mentioned above
 
-**Note**
+**Our strategy in this tutorial**
 
-> In this tutorial, a **lightweight extension strategy** is recommended:
-> - **Create domain-specific subclasses (Entities) for the domain-specific concepts**  
-> - **Properties are reused from CIDOC CRM as far as possible**
+We recommend a **lightweight extension strategy**. This consists of:
+
+- **creating domain-specific subclasses (Entities) for the domain-specific concepts**
+- **reusing properties from CIDOC CRM as far as possible**
 
 This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.
+
+**Example**
+
+- **domain concept**: Game Genre (model as a domain-specific subclass)
+- **Relationship**: has type (reuse an appropriate CIDOC CRM property where possible instead of e.g. "ist gestaltet nach")
 
 ---
 
@@ -100,6 +144,8 @@ This ensures **interoperability and CIDOC compatibility**, reduces complexity, a
 The **methods and workflows of semantic modeling** presented here, together with the **modeling strategy** explained in the tutorial, form the basis for putting the concepts and models developed so far into practice. 
 
 In the following unit, **Protégé** is introduced as an editor for modeling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
+
+> Next: We now move from modeling strategy to implementation. In the following unit, we use Protégé to explore CIDOC CRM and prepare the formal modeling of our domain ontology.
 
 ---
 
