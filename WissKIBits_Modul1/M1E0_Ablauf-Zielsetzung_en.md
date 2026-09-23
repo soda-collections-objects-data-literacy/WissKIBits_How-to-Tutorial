@@ -79,19 +79,6 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ---
 
-## Module objectives
-
-In this module, you will learn how to move from a collection perspective to a modeling perspective. 
-
-You will:
-
-- identify relevant concepts, events, and relationships in collection and research data,
-- align them with classes and properties of CIDOC CRM,
-- develop and justify a coherent domain logic, and
-- visualize this logic as a conceptual model that can later be implemented in WissKI.
-
----
-
 ## Guiding question
 
 This guiding question accompanies all units of the module. Three levels are distinguished:
@@ -103,6 +90,19 @@ This guiding question accompanies all units of the module. Three levels are dist
 | Implementation perspective | How are these structures formally represented using CIDOC CRM and WissKI? | basis for diagram and Pathbuilder |
 
 > **How can information about an object be transformed into a transparent, interoperable semantic data model that can be implemented in WissKI?**
+
+---
+
+## Module objectives
+
+In this module, you will learn how to move from a collection perspective to a modeling perspective. 
+
+You will:
+
+- identify relevant concepts, events, and relationships in collection and research data,
+- align them with classes and properties of CIDOC CRM,
+- develop and justify a coherent domain logic, and
+- visualize this logic as a conceptual model that can later be implemented in WissKI.
 
 ---
 
