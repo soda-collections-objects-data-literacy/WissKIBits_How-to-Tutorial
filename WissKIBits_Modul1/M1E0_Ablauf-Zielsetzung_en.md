@@ -107,12 +107,12 @@ You will:
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
-| E1A| Activation: “Zelda” model sketch | 15 min. |
-| 1 | Basic concepts of conceptual knowledge modeling | x min. |
-| 2 | Fundamentals of ontologies | x min. |
-| 3 | Introduction to CIDOC CRM | x min. |
-| 4 | FAIR compliance with WissKI | x min. |
-| E1E | Excersise: From model sketch to research questions (?) | 30 min. |
+| E1A| Activation: Collection object "Zelda" | 15 min. |
+| 1 | Basic concepts of conceptual knowledge modeling | 10 min. |
+| 2 | Fundamentals of ontologies | 10 min. |
+| 3 | Introduction to CIDOC CRM | 15 min. |
+| 4 | FAIR compliance with WissKI | 15 min. |
+| E1E | Excersise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
 ---
