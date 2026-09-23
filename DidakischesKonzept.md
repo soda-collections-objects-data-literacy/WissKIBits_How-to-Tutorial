@@ -286,7 +286,7 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 
 
 
-## Quellenangaben
+## Bibliografie
 
 [1] Döring, K. W. (2009): Handbuch Lehren und Trainieren in der Weiterbildung. Beltz.
 
