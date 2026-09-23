@@ -65,7 +65,9 @@ The module is designed as a **learning-by-doing tutorial** for the **Scientific 
 Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
 
 
-> **We start with information about an object and gradually develop a semantic data model. Along the way, we identify concepts, events, and relationships, make their meaning explicit, and prepare them for later implementation in WissKI.**
+> **What is the module about?**
+>
+> We start with information about an object and gradually develop a semantic data model. Along the way, we identify concepts, events, and relationships, make their meaning explicit, and prepare them for later implementation in WissKI.
 
 ---
 
@@ -186,7 +188,7 @@ After completing Module 1, participants can…
   
 ---
 
-## Learning path in the module
+## Learning path through the module
 
 We move step by step from a collection perspective to a semantic model:
 
@@ -241,23 +243,25 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 ## Prerequisites
 
 **No prior knowledge of ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
+
 Experience with collection, object, or research data is helpful. If possible, bring an example object or research question from your own field.
 
 ---
 
-## Module outcome
+## Result and outcome of the module
 
-At the end of Module 1, an initial conceptual model sketch of the domain logic is available. It shows:
+At the end of Module 1, you will have developed a first conceptual model sketch showing relevant concepts and events, their relationships, and initial mappings to CIDOC CRM.
 
-- the concepts and events relevant to the example,
-- their semantic relationships,
-- initial mappings to classes (Entities) and properties (Properties) of CIDOC CRM,
-- as well as justified modeling decisions.
-
-This sketch serves as the starting point for further formalization and implementation in WissKI.
-
-
-> By the end of the module, you will have developed a first conceptual model sketch showing relevant concepts and events, their relationships, and initial mappings to CIDOC CRM.
+> **What will you take away**
+>
+> By the end of the module you will have an initial conceptual model sketch of the domain logic that includes:
+>
+> - the concepts and events relevant to the example,
+> - their semantic relationships,
+> - initial mappings to classes (Entities) and properties (Properties) of CIDOC CRM,
+> - as well as justified modeling decisions.
+>
+> This sketch serves as the starting point for further formalization and implementation in WissKI.
 
 ---
 
