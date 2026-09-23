@@ -58,56 +58,72 @@ Teilnehmende können...
 
 ## Ziel und Szenario
 
-Dies ist eine Praxiseinheit. Ausgehend von einem Beispielobjekt aus der Domäne **Computerspiele** wird eine erste konzeptionelle Modellskizze entwickelt.
+Dies ist eine Praxiseinheit.
 
-Am Beispiel von **„The Legend of Zelda: A Link to the Past“** wird untersucht, welche Informationen für die Beschreibung eines Sammlungsobjekts relevant sind, in dem 
+Am Beispiel von **„The Legend of Zelda: A Link to the Past“** werden ausgewählte Konzepte probeweise Klassen des **CIDOC CRM** zugeordnet. 
 
-- zentrale **Konzepte und Ereignisse** identifiziert
-- und die **Beziehungen**, die zwischen ihnen bestehen, formuliert werden.
+Dabei geht es nicht darum, bereits ein vollständiges oder formal korrektes CIDOC-CRM-Modell zu erstellen. 
 
-Anschließend werden ausgewählte Konzepte probeweise Klassen des **CIDOC CRM** zugeordnet. Dabei geht es nicht darum, bereits ein vollständiges oder formal korrektes CIDOC-CRM-Modell zu erstellen. Vielmehr soll sichtbar werden, dass die Überführung eines Domänenwissens in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
+Vielmehr soll sichtbar werden, dass die Überführung eines Domänenwissens in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
 
 Am Ende können die Teilnehmenden:
 
-* zentrale **Konzepte** und **Ereignisse** einer Beispieldomäne identifizieren,
-* **semantische Beziehungen** zwischen ihnen formulieren,
 * ausgewählte Konzepte möglichen **CIDOC-CRM-Klassen (Entities)** zuordnen,
 * die Zuordnungen als Modellierungsentscheidungen beschreiben,
 * ein **konzeptuelles Modell** entwerfen, die als Ausgangspunkt für die weitere Formalisierung dient.
 
 Die Modellskizze wird in den folgenden Modulen 2 und 3 schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
 
----
-
-## Ausgangspunkt: Beispielobjekt „Zelda“
-
-Als Ausgangspunkt dient das Computerspiel **„The Legend of Zelda: A Link to the Past“**. 
-
-An diesem Beispiel wird untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können.
-
-**Ziel ist nicht**, ein vollständiges Datenmodell für Computerspiele zu entwickeln. Vielmehr entsteht eine **erste Modellskizze**, die
-
-- zentrale Konzepte und Ereignisse verständlich für Menschen unterscheidet,
-- ihre Beziehungen sichtbar macht und
-- als Grundlage für die anschließende Zuordnung zu **CIDOC CRM** dient.
-
----
-
-## Warum Computerspiele?
-
-Computerspiele eignen sich als Beispieldomäne, weil an ihnen unterschiedliche Aspekte der Modellierung anschaulich werden.
-
-Die Domäne ist besonders geeignet, weil sie...
-
-- sowohl **physische** als auch **digitale** Objekte umfasst,
-- gut nachvollziehbare **Produktions- und Veröffentlichungskontexte** besitzt,
-- typische **Ereignisse** enthält (z.B. Release, Portierung, Neuauflage),
-- **Versionen/Editionen** und **Serienzugehörigkeiten** abbildbar macht,
-- klare Identifikatoren und Benennungen verwendet (Titelvarianten, Produktcodes).
-
-Damit bietet die Domäne einen anschaulichen Ausgangspunkt, um unterschiedliche Perspektiven auf ein Objekt zu erkennen und daraus erste **Modellierungsentscheidungen** abzuleiten.
+> **Transfer: Vom konzeptionellen Modell zu CIDOC CRM**
+>
+> Die in der Aktivierungsübung (M1E1A) entstandene Modellskizze wird nun weiterentwickelt
+> 
+> Ausgewählte Konzepte und Ereignisse werden mit CIDOC CRM beschrieben 
+>
+> Dabei geht es nicht darum, bereits ein vollständiges oder endgültiges CIDOC-CRM-Modell zu entwickeln.
+>
+> Entscheidend ist die Frage:
+> **Was meinen wir mit einem Begriff – und welche CIDOC-CRM-Klasse beschreibt diese Bedeutung möglichst passend?**
+>
+> Ziel ist es, erste Modellierungsentscheidungen zu treffen, zu überprüfen und zu begründen.
 
 ---
+
+## Ausgangspunkt: Modellskizze zu „Zelda“
+
+Als Ausgangspunkt ist **„The Legend of Zelda: A Link to the Past“**. 
+
+An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können.
+
+> **Von der Modellskizze zum CIDOC CRM Entwurf
+>
+> Relevante Konzepte, Ereignisse und Beziehungen für das Beispielobjekt **The Legend of Zelda: A Link to the Past** wurden identifiziert (M1E1A).
+>
+> Nun betrachten Sie diese Modellskizze aus einer neuen Perspektive:
+> - Welche Bedeutung haben die identifizierten Konzepte?
+> - Welche CIDOC-CRM-Klassen könnten diese Bedeutung ausdrücken?
+> - Passen die frei formulierten Beziehungen bereits zum Referenzmodell?
+> - Welche Modellierungsentscheidungen müssen getroffen werden?
+>
+> Denken Sie daran: Eine ähnliche Bezeichnung bedeutet nicht automatisch dieselbe Bedeutung.
+
+![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
+
+---
+
+## CIDCO CRM als Referenzmodell
+
+> **CIDOC CRM als Orientierung**
+>
+> CIDOC CRM stellt allgemeine Klassen und Eigenschaften für die Beschreibung von Kulturerbeinformationen bereit.
+>
+> Für die Modellierung bedeutet das:
+>
+> Domänenkonzept → Bedeutung klären → CIDOC CRM prüfen → Modellierungsentscheidung treffen
+>
+> Die Bezeichnung einer Klasse allein reicht für die Auswahl nicht aus. Entscheidend ist, ob ihre Scope Note zur beabsichtigten Bedeutung des Domänenkonzepts passt.
+
+--
 
 ## Fokus dieser Modellierungsübung
 
@@ -125,53 +141,29 @@ Beispielsweise können folgende Fragen gestellt werden:
 - Welchem **Genre** oder welcher **Plattform** wird es zugeordnet?
 - Welche **Personen oder Organisationen** waren beteiligt?
 - Welche **Ereignisse** sind für das Spiel relevant?
-- An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?
+- An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?#
+
+> **Die Bedeutung festlegen**
+> 
+> Wählen Sie aus Ihrer Modellskizze einige zentrale Elemente aus und fragen Sie:
+> - Was genau bezeichnet unser Begriff?
+> - Handelt es sich um ein Objekt, einen Informationsinhalt, eine Person, eine Gruppe, ein Ereignis, eine Benennung oder einen Typ?
+> - Welche CIDOC-CRM-Klasse könnte dazu passen?
+> - Was sagt die Scope Note dieser Klasse?
+> - Entspricht sie tatsächlich der Bedeutung, die wir ausdrücken möchten?
+> - Wo bleiben Unsicherheiten oder alternative Modellierungen?
 
 ---
 
-## Übung – Modellskizze und erste Orientierung mit CIDOC CRM
+## Übung – Orientierung mit CIDOC CRM
 
-**Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–4 Personen)  
+**Arbeitsform:** Breakout-Räume / Einzelarbeit oder Teams (2–5 Personen)  
 
 **Material:** Papier & Stift (oder digitales Whiteboard)  
 
 **Zeit:** 20 Minuten
 
-### Aufgabe 1: Eine Mini-Mindmap als Modellskizze entwerfen
-
-Erstellt für das Beispielobjekt „The Legend of Zelda: A Link to the Past“ eine einfache Mindmap. 
-
-Ziel ist es, zentrale Elemente der Domäne und ihre Zusammenhänge und die Struktur der Domäne sichtbar zu machen.
-
-Geht dabei in zwei Schritten vor:
-
--**Schritt 1:** Identifiziert 3–5 zentrale Konzepte und Ereignisse aus dem Beispiel, z.B. ein Objekt, eine Person oder Organisation, einen Ort, eine Zeitangabe oder ein Ereignis. 
-Nicht alle Kategorien müssen vorkommen.
-
--**Schritt 2:** Verbindet die identifizierten Elemente durch aussagekräftige Beziehungen, z.B. „hat“, „wurde hergestellt durch“, „wurde veröffentlicht von“. Formuliert die Beziehungen so, dass sich daraus eine verständliche Aussage ergibt.
-
-**Beispiel:**
-
-> Spiel → hat → Titel
->
-> Nintendo → war beteiligt an → Entwicklung
->
-> Entwicklung → schuf → Spiel
-
- **Hinweis:**
-
-> Weniger ist mehr. Konzentriert euch zunächst auf wenige Elemente und Beziehungen, die für das Verständnis des Beispielobjekts besonders relevant sind.
-
-**Leitfragen können sein**
-
-| Schritt | Leitfrage | Ergebnis |
-|-------|-----------|----------|
-| 1 | Welche zentralen Konzepte und Ereignisse gibt es? | Knoten der Modellskizze |
-| 2 | Wie hängen die Dinge zusammen? | gerichtete Beziehungen zwischen den Knoten |
-| 3 | Lassen sich die Verbindungen als verständliche Aussagen lesen? | überprüfbare Aussagen über das Objekt|
-
-
-**Ergebnisbesprechung im Plenum und Musterbeispiel**
+### Ausgangslage: Modellskizze 
 
 ![Konzept-Mindmap](../WissKIBits_Modul1/assets/mindmap.png)
 
@@ -179,7 +171,42 @@ Nicht alle Kategorien müssen vorkommen.
 
 ---
 
-### Aufgabe 2: Erste Zuordnung zu CIDOC CRM
+> **Schritt 1 · Auswählen**
+>
+> Wählen Sie zwei Konzepte oder Ereignisse aus Ihrer Modellskizze aus, z. B. Spiel, Person, Organisation, Titel, Genre oder Produktion.
+>
+> **Schritt 2 · Zuordnen**
+>
+> Suchen Sie für jedes ausgewählte Element eine CIDOC-CRM-Klasse, die zu seiner Bedeutung passen könnte.
+>
+> **Beispiele für mögliche Ausgangspunkte:**
+> - E73 Information Object → Spiel als Informationsinhal
+> - E22 Human-Made Object → physische Kopi
+> - E21 Person → beteiligte Perso
+> - E74 Group → Organisation oder Grupp
+> - E12 Production → Produktionsereigni
+> - E35 Title → Tite
+> - E42 Identifier → Identifikato
+> - E55 Type → kontrollierte Klassifikation
+>
+> **Schritt 3 · Überprüfen**
+>
+> Lesen Sie die Scope Note der ausgewählten Klasse.
+>
+> Fragen Sie:
+> Beschreibt diese Klasse tatsächlich das, was wir mit unserem Begriff meinen?
+>
+> **Schritt 4 · Begründen**
+>
+> Ergänzen Sie die CIDOC-CRM-Klasse in Ihrer Modellskizze und notieren Sie kurz, warum Sie diese Zuordnung gewählt haben.
+>
+> Markieren Sie unsichere Zuordnungen mit einem ?.
+>
+> **Tipp: Es geht nicht darum, möglichst viele Klassen zuzuordnen. Entscheidend ist, dass Sie wenige Modellierungsentscheidungen nachvollziehbar begründen können.**
+
+---
+
+### Aufgabe 1: Erste Zuordnung zu CIDOC CRM
 
 Schaut euch eure Modellskizze noch einmal an und wählt **zwei Begriffe** daraus aus, z. B. Spiel, Person, Organisation, Titel oder Genre.
 
@@ -210,7 +237,44 @@ Für den Einstieg können beispielsweise folgende Klassen hilfreich sein:
 
 Der [CIDOC CRM Navigator Version 7.1.3 ](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) ermöglicht die interaktive Erkundung von 81 Klassen und 160 Eigenschaften, inklusive Übersetzungen. 
 
-**Von der Benennung zur Appellation**
+---
+
+### Aufgabe 2: Ergebnisbesprechung im Plenum
+
+***Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung***
+
+Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM weiter formalisiert werden.
+
+Die folgende Abbildung zeigt beispielhaft, wie aus einer solchen Modellskizze ein stärker formalisiertes semantisches Modell entstehen kann:
+
+![Konzept-Mindmap](../WissKIBits_Modul1/assets/Mindmap.png)
+
+> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
+
+Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schrittweise CIDOC-CRM-Klassen und -Eigenschaften. Die Abbildung ist daher nicht als einzig mögliche Lösung zu verstehen, sondern als Modellierungsvorschlag, der überprüft und weiterentwickelt werden kann.
+
+**Hinweis:** 
+
+> Semantische Modellierung bedeutet nicht nur, passende Klassen zu finden.
+> Modellierungsentscheidungen machen explizit, welche Bedeutung wir einem Begriff geben und welche Zusammenhänge unsere Daten ausdrücken sollen.
+
+---
+
+### Ergebnis
+
+Sie haben Ihre erste konzeptionelle Modellskizze zu einem CIDOC-CRM-orientierten semantischen Modell weiterentwickelt.
+
+**Die Skizze enthält nun:**
+
+- ausgewählte Domänenkonzepte und Ereignisse,
+- erste Zuordnungen zu CIDOC-CRM-Klassen,
+- explizite semantische Beziehungen,
+- begründete Modellierungsentscheidungen und
+- gegebenenfalls markierte offene Fragen.
+
+---
+
+## Von der Benennung zur Appellation
 
 In unserer ersten Modellskizze können wir zunächst einfach formulieren:
 
@@ -239,26 +303,19 @@ Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CID
 
 Die genaue Modellierung von Appellationen, ihren Zeicheninhalten und Datentyp-Eigenschaften wird in Modul 3 behandelt.
 
----
-
-### Aufgabe 2: Ergebnisbesprechung im Plenum
-
-***Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung***
-
-Die in der Übung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mit Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM weiter formalisiert werden.
-
-Die folgende Abbildung zeigt beispielhaft, wie aus einer solchen Modellskizze ein stärker formalisiertes semantisches Modell entstehen kann:
-
-![Konzept-Mindmap](../WissKIBits_Modul1/assets/Mindmap.png)
-
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel einer Mindmap zum Computerspiel „The Legend of Zelda: A Link to the Past“.
-
-Dabei werden aus den zunächst frei formulierten Elementen und Beziehungen schrittweise CIDOC-CRM-Klassen und -Eigenschaften. Die Abbildung ist daher nicht als einzig mögliche Lösung zu verstehen, sondern als Modellierungsvorschlag, der überprüft und weiterentwickelt werden kann.
-
-**Hinweis:** 
-
-> Semantische Modellierung bedeutet nicht nur, passende Klassen zu finden.
-> Modellierungsentscheidungen machen explizit, welche Bedeutung wir einem Begriff geben und welche Zusammenhänge unsere Daten ausdrücken sollen.
+> **Modellierbeispiel · Nicht jede Benennung ist dasselbe**
+>
+> In der konzeptionellen Modellskizze können wir zunächst formulieren:
+>
+> Spiel → hat Benennung → “The Legend of Zelda: A Link to the Past”
+>
+> CIDOC CRM erlaubt eine genauere Unterscheidung:
+> E41 Appellation: allgemeine Benennung
+> ↓
+> E35 Title: besondere Form einer Appellation: ein Titel
+> E42 Identifier: besondere Form einer Appellation: ein Identifikator
+>
+> **Merksatz: Prüfen Sie vor der Auswahl einer Klasse, ob ihre Scope Note der Bedeutung des Konzepts in Ihrem Domänenmodell entspricht.**
 
 ---
 
@@ -271,6 +328,9 @@ Als Ergebnis liegt ein **formalisiertes semantisches Modell der Domäne Computer
 In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbare **OWL-Ontologie** umgesetzt und für die spätere Implementierung in **WissKI** vorbereitet. Auf diese Weise werden die Grundlagen für die praktische Arbeit mit Protégé und die Überführung des semantischen Modells in eine technische Implementierung geschaffen.
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
+
+> Die in E1A entwickelte konzeptionelle Modellskizze wurde nun um erste CIDOC-CRM-Zuordnungen und begründete Modellierungsentscheidungen erweitert.
+> In Modul 2 wird dieses Modell mit Protégé weiter formalisiert und als maschinenlesbare Ontologiestruktur umgesetzt. In Modul 3 wird die Modellierung anschließend in eine für den WissKI Pathbuilder nutzbare Struktur überführt.
 
 ---
 
