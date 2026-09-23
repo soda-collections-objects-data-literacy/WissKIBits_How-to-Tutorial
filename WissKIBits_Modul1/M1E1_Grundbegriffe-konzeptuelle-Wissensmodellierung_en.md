@@ -70,6 +70,18 @@ In **conceptual knowledge modeling**, the aim is to determine which knowledge is
 
 A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modeled. In semantic modeling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
+> **What is..?**
+>
+> **Conceptual knowledge modeling** identifies and organizes the knowledge relevant to a particular domain.
+>
+> A **domain** is a defined field of knowledge or application, such as a research or object collection.
+>
+> The aim is to identify relevant concepts, events, and relationships and clarify their domain-specific meaning.
+
+---
+
+### Building blocks of conceptual modeling
+
 Central elements of conceptual knowledge modeling are **concepts, events, and relationships**:
 
 - **Concepts** are abstract ideas or terms used to designate relevant objects and circumstances within a domain. Examples include object, person, place, or institution.
@@ -78,11 +90,25 @@ Central elements of conceptual knowledge modeling are **concepts, events, and re
 
 Identifying and structuring these elements forms the basis of **semantic modeling**.
 
+### From conceptual knowledge to a semantic data model
+
+**Conceptual knowledge modeling** identifies and organizes the knowledge relevant to a particular domain.
+
 **Semantic modeling** is preceded by the conceptualization of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modeling** represents this conceptual knowledge structure in a formalized model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modeling (Fichtner2025paths, p. 86).
 
 The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner2025paths, p. 58)
 
-> **Key takeaway:** Conceptual knowledge modeling clarifies which knowledge is relevant and how it is organized. Semantic modeling formalizes this domain-specific organization. The semantic data model is the result of this process.
+> **Key takeaway:**
+>
+> **Conceptual knowledge** modeling clarifies which knowledge is relevant and how it is organized.
+>
+> **Semantic modeling** formalizes this domain-specific organization.
+>
+> The **semantic data model** is the result of this process.
+
+---
+
+## Learning path: From domain knowledge to a smeantic data model
 
 **Define the subject domain**  
 
@@ -121,22 +147,42 @@ The result of this process is a **semantic data model**. It does not represent t
 
 **Task:**
 
-Think of a typical object from your collection or research. 
+Choose from the field of games and identify what is needed to describe it.
+
+- two **concepts** that can meaningfully be related to one another;
+- one **event** that is connected to at least one **concept**.
 
 The goal is to derive **concepts, events, and their relationships** from information about this object.
 
 ---
 
-#### Step 1: Select information
+#### Steps 
 
-Choose one or two pieces of information that are relevant to understanding the object and formulate two short statements from them.
+**Step 1: Select information**
 
-**Example:**
+Write two short statements about your object.
+
+**Step 2 · Identify the building blocks**
+
+Identify at least two relevant concepts and one associated event.
+
+**Step 3 · Formulate relationships**
+
+Describe how the identified concepts and events are connected.
+
+**Expected Result**
+
+A first conceptual structure consisting of concepts, events, and meaningful relationships.
+
+
+### Sample example
 
 > The game “The Legend of Zelda: A Link to the Past” was developed by Nintendo.
 > It was released in Japan in 1991.
+>
+> Use statements to identify concepts, events, and relationships.
 
-**Check your statements:**
+**Statements could be...:**
 
 - Which information is central to understanding the object? 
 - Which information merely describes a characteristic?
@@ -144,16 +190,7 @@ Choose one or two pieces of information that are relevant to understanding the o
 - Which persons, organizations, places, and times are mentioned?
 - Which relationships remain unstated?
 
----
-
-#### Step 2: Identify concepts and an event
-
-Based on your statements, identify:
-
-- two **concepts** that can meaningfully be related to one another;
-- one **event** that is connected to at least one **concept**.
-
-**Note**
+**Concepts, events, relationships could be...:**
 
 > 1. **Concepts** refer, for example, to objects, persons, organizations, places, or other central building blocks of the domain.
 > 2. **Events** refer to occurrences or processes, for example development, production, publication, or exhibition.
@@ -161,22 +198,11 @@ Based on your statements, identify:
 
 ---
 
-#### Step 3: Formulate relationships
-
-Now describe how the identified concepts and events are connected. 
-
-Formulate the relationships as short statements.
-
-**Examples:**
+**Formulated statements coud be...:**
 
 | Concept | Concept | Relationship |
 |---|---|---|
 | Game | Title | The game has the title "The Legend of Zelda..." |
-
-
-
-| Concept | Event | Relationships |
-|---|---|---|
 | Game | Development | Game was created through development |
 | Nintendo | Publication | Nintendo participated in development |
 | Japan | Publication | Publication took place in Japan |
@@ -184,25 +210,7 @@ Formulate the relationships as short statements.
 
 ---
 
-## Result
-
-At the end, you will have an initial excerpt of a conceptual organization of your domain of knowledge: 
-
-- relevant concepts have been named,
-- events have been identified,
-- relationships between them have been formulated.
-
----
-
-### Sample example as a graphic
-
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
-
-> **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
-
----
-
-## Summary
+## Result and summary
 
 Conceptual knowledge modeling structures the relevant domain knowledge using concepts, events, and relationships. 
 
@@ -217,11 +225,35 @@ This makes it possible to pose and answer research questions about collections, 
 - **Uncertainties:** How can contradictory hypotheses or vague attributions be represented in the data model?
 - **Identification:** How can the object be precisely identified and referenced using unique characteristics such as inventory numbers?
 
+At the end, you will have an initial excerpt of a conceptual organization of your domain of knowledge: 
+
+- relevant concepts have been named,
+- events have been identified,
+- relationships between them have been formulated.
+  
+> **What we have learned**
+>
+> Conceptual knowledge modeling organizes domain knowledge by identifying relevant concepts, events, and relationships.
+>
+> These elements form the conceptual foundation for developing a consistent and transparent semantic data model.
+>
+> The resulting structure helps express research questions about objects, actors, production, provenance, places, and time.
+
+---
+
+### Sample example as a graphic
+
+![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
+
+> **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
+
 ---
 
 ## Outlook
 
 Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organized. To represent this conceptual organization in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
+
+> Next: We have identified and organized relevant domain knowledge. In Unit 2, we explore how ontologies provide the formal structures needed to represent this knowledge in a machine-readable way.
 
 ---
 
