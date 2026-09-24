@@ -174,10 +174,10 @@ Individual units may also be reused separately for specific teaching or training
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
-| E1A | Activation: | xx min. |
+| E2A | Activation: | xx min. |
 | 1 | Methods and workflows of semantic modeling | xx min. |
 | 2 | Introduction to Protégé | xx min. |
-| E1E | Excersise: Semantic modeling with CIDOC CRM | xx min. |
+| E2E | Excersise: Semantic modeling with CIDOC CRM | xx min. |
 |  | **Total** | **90 min.** |
 
 **Total duration of Module 3: approx. 90 min.**
@@ -185,8 +185,8 @@ Individual units may also be reused separately for specific teaching or training
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and workflow | 10 min. |
-| E1 | Visualizing semantic data models | 35 min. |
-| E2 | Transforming semantic models into WissKI paths | 40 min. |
+| E3A | Visualizing semantic data models | 35 min. |
+| E3E | Transforming semantic models into WissKI paths | 40 min. |
 |  | **Total** | **90 min.** |
 
 ---
