@@ -73,7 +73,7 @@ This unit explains **why ontologies are used and what benefits they offer for co
 
 > **From conceptual knowledge to an ontology**
 >
-> Conceptual knowledge modeling identifies and organizes the relevant concepts, events, and relationships within a domain.
+> Conceptual knowledge modeling identifies and organises the relevant concepts, events, and relationships within a domain.
 >
 > An ontology takes the next step: it represents this conceptual structure formally and in a machine-readable way.
 >
@@ -154,9 +154,9 @@ Ontologies typically consist of the following building blocks:
 
 **Classes (Classes/Concepts)**  
 
-“Classes (Classes/Concepts) represent general terms, i.e. concepts within a domain of interest that are intended to group real-world objects according to shared properties. They are usually organized in a basic hierarchical structure.” (Weller2013ontologies, p. 208)
+“Classes (Classes/Concepts) represent general terms, i.e. concepts within a domain of interest that are intended to group real-world objects according to shared properties. They are usually organised in a basic hierarchical structure.” (Weller2013ontologies, p. 208)
 
-Example: Game, Person, Organization
+Example: Game, Person, Organisation
 
 **Instances**    
 
@@ -181,12 +181,12 @@ A property can be restricted to connect only certain types of classes or values.
 
 “For attributes and relations, an ontology can define **constraints** that specify their use in greater detail and are intended to ensure that the ontology is logically consistent in itself.” (Rehbein2017ontologies, p. 164)
 
-Example: A release date must be represented as a date value rather than as a person or organization.
+Example: A release date must be represented as a date value rather than as a person or organisation.
 
 > **Classes, instances, properties, and constraints**
 >
 > - **Classes** represent general concepts within a domain.
-> Examples: Game, Person, Organization
+> Examples: Game, Person, Organisation
 >
 > - **Instances** are concrete individual members of classes.
 > Example: The Legend of Zelda: A Link to the Past
