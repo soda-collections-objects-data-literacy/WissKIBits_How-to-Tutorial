@@ -194,7 +194,7 @@ Example: A release date must be represented as a date value rather than as a per
 > - **Properties** describe characteristics or meaningful relationships.
 > Example: A game has a title.
 > 
-> **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent.
+> **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent such as generalisation and inheritance.
 
 ---
 
