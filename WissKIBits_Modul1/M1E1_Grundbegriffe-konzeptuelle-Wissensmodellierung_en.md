@@ -85,6 +85,7 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 Central elements of conceptual knowledge modeling are **concepts, events, and relationships**:
 
 - **Concepts** are abstract ideas or terms used to designate relevant objects and circumstances within a domain.
+  
 Examples include object, person, place, or institution.
 
 
