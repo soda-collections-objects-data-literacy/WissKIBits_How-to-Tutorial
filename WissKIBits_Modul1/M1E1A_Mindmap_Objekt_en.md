@@ -145,6 +145,7 @@ These areas serve as the starting point for recognizing different types of **con
 **Time:** 15 minutes
 
 > **Step 1 · Identify**
+> 
 > Identify 3–5 relevant concepts and events related to the example object.
 > These may include an object, person or organization, place, time, or event. Not all categories need to be represented.
 >
