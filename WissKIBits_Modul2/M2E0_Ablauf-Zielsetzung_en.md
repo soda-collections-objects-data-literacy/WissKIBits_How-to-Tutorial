@@ -212,11 +212,11 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 >
 > Short methodological inputs alternate with demonstration and hands-on modeling.
 >
-> We continue working with **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
+> We continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
 >
-> We use **Protégé**, we explore an **OWL implementation of CIDOC CRM** - the Erlangen CRM - evaluate modeling choices using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
+> We use **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3) - to evaluate modeling choices by using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
 >
-> The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.
+> **The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.**
 
 ---
 
@@ -232,13 +232,19 @@ Participants should…
 - know Scope Notes as a basis for modeling decisions,
 - and have at least an initial conceptual model sketch, ideally a CIDOC CRM-based semantic domain model.
 
-> **What do you need**
+> **What do you need?**
 >
-> Module 2 builds on Module 1 or equivalent prior knowledge.
+> Module 2 builds on **Module 1 or equivalent prior knowledge**.
 >
-> Participants should be familiar with concepts, events, relationships, classes, properties, instances, modeling assumptions, CIDOC CRM, and Scope Notes, and should have a first conceptual model sketch available.
+> You can therefore start with this module if you are already familiar with the basic concepts and have a conceptual model sketch to work with.
 >
-> For the practical activities, participants need access to Protégé Desktop or WebProtégé and the OWL implementation of CIDOC CRM used in the tutorial.
+> You should be familiar with **concepts, events, relationships, classes, properties, instances, modeling assumptions, CIDOC CRM, and Scope notes**.
+>
+> For the practical activities, you will need:
+>
+> - a **conceptual model sketch** from Module 1 or your own modelling context,
+> - access to **Protégé Desktop or WebProtégé,** and
+> - the **OWL implementation of CIDOC CRM (Erlangen CRM)** used in this tutorial.
 
 ---
  
@@ -248,7 +254,7 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 
 > **What will you take away**
 >
-> By the end of the module, you will have created a first formal domain ontology or ontology extension that includes:
+> By the end of the module, you will have created a first **formal domain ontology** or **ontology extension** that includes:
 >
 > - selected and justified CIDOC CRM classes and properties,
 > - domain-specific subclasses,
@@ -261,8 +267,9 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 
 ## Outlook
 
+> **Next:**
+>
 > In the next module, we import the ontology into WissKI and use it to define groups and semantic paths in the WissKI Pathbuilder.
-
 ---
 
 ## Editorial notes
