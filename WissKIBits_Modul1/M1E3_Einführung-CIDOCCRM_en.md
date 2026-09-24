@@ -114,11 +114,14 @@ The official documentation provides a comprehensive introduction:
 
 > **How do we work with CIDOC CRM?**
 >
-> CIDOC CRM consists not only of classes and properties. Its documentation also explains the structure, meaning, and modeling principles of the model.
+> CIDOC CRM consists not only of classes and properties.
+>
+> Its documentation also explains the structure, meaning, and modeling principles of the model.
 >
 > For practical modeling, we therefore need to understand both:
+> 
 > - the elements of the model: Classes and properties
-> - the meaning of the elements: Definitions, Scope Notes, and modeling principles.
+> - the meaning of the elements: Definitions, scope notes, and modeling principles.
 
 ---
 
@@ -126,7 +129,7 @@ The official documentation provides a comprehensive introduction:
 
 For practical modeling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
-- **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41)**  
+- **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)**  
   The official representation of **Version 7.1.3** serves as a reference for targeted lookup. It contains definitions and Scope Notes as well as information on class hierarchies and properties.
 
 - **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**  
@@ -136,10 +139,13 @@ For practical modeling, it is important to become familiar with the **classes an
 
 Use it for orientation and for exploring the model. For the precise definition and use of classes and properties, the official documentation for Version 7.1.3 is authoritative.
 
-> **Resources for exploring CIDOC CRM**
+> **Resources for exploring CIDOC CRM are**
 >
-> Official CIDOC CRM documentation: Use it for authoritative definitions, Scope Notes, class hierarchies, and properties.
-> CIDOC CRM Periodic Table: Use it as a visual tool for exploring classes, properties, and their relationships.
+> **Official CIDOC CRM documentation Version 7.1.3**: A document for authoritative definitions, scope notes, class hierarchies, and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+>
+> **CIDOC CRM web-based HTML navigator**: The official representation of **Version 7.1.3** serves as a reference for targeted lookup. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> 
+> **CIDOC CRM Periodic Table**: Use it as a visual tool for exploring classes, properties, and their relationships. [link](https://remogrillo.github.io/cidoc-crm_periodic_table)
 
 ---
 
@@ -176,18 +182,21 @@ The **Scope Note** of a CIDOC CRM class specifies:
 - its hierarchical position,
 - or intuitive associations.
 
-**Scope Notes are authoritative for correct modeling.**
+**Scope notes are authoritative for correct modeling.**
 
-> **Scope Notes guide modeling decisions**
+> **Scope notes guide modeling decisions**
 >
-> A Scope Note explains the intended meaning and use of a CIDOC CRM class or property.
+> A scope note explains the intended meaning and use of a CIDOC CRM class or property.
 >
 > It helps answer:
+> 
 > - What does this element express?
 > - What are its semantic boundaries?
 > - When should it be used?
 >
-> **Key principle**: Do not select a class or property based on its name alone. Check its Scope Note to determine whether it expresses the intended meaning.
+> **Key principle**: Do not select a class or property based on its name alone.
+>
+> Check always its **scope note** to determine whether it expresses the intended meaning.
 
 ---
 
@@ -223,21 +232,19 @@ Statements about resources take the form of **triples: subject–predicate–obj
 >
 > Events connect objects with actors, places, and time-spans.
 >
-> Object → Event ← Actor
-> **↓**
-> **Place · Time**
+> Example: Object → Event ← Actor
+
 
 > **Meaning can be expressed as triples**
 >
-> Semantic statements can be represented as:
->
-> Subject → Predicate → Object
+> Semantic statements can be represented as: Subject → Predicate → Object
 >
 > For example: Production → carried out by → Nintendo
 >
 > RDF (Resource Description Framework) provides a standard for representing statements about resources as triples in machine-readable form.
 
-> **Class alignement vs. relationship**
+
+> We have to decide between **class alignement or relationships**
 >
 > Classification: e.g. “The game is an object.” → E22 Human-Made Object, Game → instance of → E22 Human-Made Object
 >
@@ -260,11 +267,11 @@ A **domain ontology** specifies fundamental concepts of a top-level ontology for
 
 > **Reference model and domain-specific model**
 >
-> A general reference ontology provides a shared conceptual framework.
+> A general **reference ontology** provides a shared conceptual framework.
 >
-> A domain ontology adapts and specializes this framework for the concepts and requirements of a particular research domain.
+> A **domain ontology** adapts and specializes this framework for the concepts and requirements of a particular research domain.
 >
-> In this tutorial, CIDOC CRM provides the common framework, while the computer games domain requires more specific concepts.
+> **Note**: In this tutorial, CIDOC CRM provides the common framework, while the computer games domain requires more specific concepts.
 
 ---
 
@@ -283,6 +290,7 @@ WissKI uses CIDOC CRM because it …
 > **Why use CIDOC CRM?**
 >
 > CIDOC CRM provides a shared semantic framework that helps to:
+> 
 > - make the meaning and relationships of data explicit,
 > - represent events, processes, and provenance systematically,
 > - connect and compare information across collections and systems, and
@@ -298,7 +306,11 @@ CIDOC CRM is an ISO-certified, internationally developed and established top-lev
 
 The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKIo.D.features). 
 
-> Next: We now have a reference model for formally describing concepts, events, and relationships in the cultural heritage domain. In the next unit, we introduce WissKI and explore how ontology-based structures can support the management and use of research data.
+> **Next:**
+>
+>  We now have a reference model for formally describing concepts, events, and relationships in the cultural heritage domain.
+>
+> In the next unit, we introduce WissKI and explore how ontology-based structures can support the management and use of research data.
 
 ---
 
