@@ -70,7 +70,9 @@ The content is organized into three sequential topic areas:
 
 ## Target Audience
 
-This module is aimed at members of the SODa community, such as professors, collection coordinators, managers and curators, and researchers. [3]
+This tutorial is aimed at members of the SODa community, such as professors, collection coordinators, managers and curators, and researchers. [3]
+
+---
 
 ## Didactic Concept
 
@@ -79,6 +81,8 @@ The tutorial follows a **research-oriented, action-oriented, and problem-oriente
 The pedagogical approach combines **demonstrative learning, learning by doing, and guided modeling**. New concepts and procedural steps are introduced and explored using concrete examples before being applied by the learners themselves. This integrates theoretical understanding, methodological reflection, and practical competence.
 
 The structure of the individual units follows Klaus Döring’s **“Inhaling and Exhaling” principle** [1]. Brief, structured inputs of knowledge (“inhaling”) alternate with phases of exploration, modeling, application, testing, and reflection (“exhaling”). Exercises, quizzes, and prompts for reflection help learners verify their understanding and justify their modeling decisions.
+
+---
 
 ## Learning Format: Dual Use
 
@@ -145,6 +149,8 @@ The following are required for the practical exercises:
 Fundamental concepts—such as **ontologies, classes (entities), properties, CIDOC CRM, and WissKI**—are introduced throughout the tutorial and explored practically using a consistent, ongoing case study.
 
 The three modules build upon one another. Therefore, to complete the full learning path, it is recommended that you work through them **in the intended order**.
+
+Individual units may also be reused separately for specific teaching or training purposes.
 
 ---
 
