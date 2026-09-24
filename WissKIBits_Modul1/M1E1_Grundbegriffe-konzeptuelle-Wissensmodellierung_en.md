@@ -113,15 +113,17 @@ The result of this process is a **semantic data model**. It does not represent t
 
 > **Key takeaway:**
 >
-> **Conceptual knowledge** modeling clarifies which knowledge is relevant and how it is organized.
+> **Conceptual knowledge modeling** clarifies which knowledge is relevant and how it is organised.
 >
-> **Semantic modeling** formalizes this domain-specific organization.
+> **Semantic modeling** formalises this domain-specific organisation.
 >
 > The **semantic data model** is the result of this process.
 
 ---
 
-## Learning path: From domain knowledge to a smeantic data model
+## From domain knowledge to a smeantic data model
+
+**Learning path**
 
 **Define the subject domain**  
 
@@ -150,76 +152,71 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ---
 
-## Exercise: Conceptually organizing knowledge from a collection
+## Reflection: Conceptually organising knowledge from a collection
 
-**Working format:** Individual or small-group work  
+**Working format:** short plenum discussion 
 
-**Material:** Board, moderation cards, or paper  
+**Time:** 5 min.
 
-**Time:** 10 min.
-
-**Task:**
-
-Choose from the field of games and identify what is needed to describe it.
-
-- two **concepts** that can meaningfully be related to one another;
-- one **event** that is connected to at least one **concept**.
-
-The goal is to derive **concepts, events, and their relationships** from information about this object.
+> **Reflection: Looking back to our model**
+>
+> Look again at the model sketch you created in E1A.
+>
+> You have sorted elements of domain knowledge and connected them through meaningful relationships.
+>
+> Now use the terminology introduced in this unit to reflect on your model:
+>
+> - Which elements are concepts?
+> - Which elements represent events?
+> - Which connections are relationships?
+> - What do these relationships tell us about the meaning of the data?
 
 ---
 
-#### Steps 
-
-**Step 1: Select information**
-
-Write two short statements about your object.
-
-**Step 2 · Identify the building blocks**
-
-Identify at least two relevant concepts and one associated event.
-
-**Step 3 · Formulate relationships**
-
-Describe how the identified concepts and events are connected.
-
-**Expected Result**
-
-A first conceptual structure consisting of concepts, events, and meaningful relationships.
-
-
-### Sample example
-
-> The game “The Legend of Zelda: A Link to the Past” was developed by Nintendo.
-> It was released in Japan in 1991.
+> **Step 1: Revisit**
 >
-> Use statements to identify concepts, events, and relationships.
+> Look at the model sketch you created.
+>
+> **Step 2 · Classify**
+>
+> Identify exaples of **concepts, evenets, and relationships**.
+>
+> **Step 3 · Refelect**
+>
+> Choose one relationship and ask:
+>
+> - What meaning does this relationship express?
+> - Could the same two elements be connected differently if we wanted to express another meaning?
 
-**Statements could be...:**
+---
 
-- Which information is central to understanding the object? 
-- Which information merely describes a characteristic?
-- Which information places the object in a broader context?
-- Which persons, organizations, places, and times are mentioned?
-- Which relationships remain unstated?
+## Expected result
+
+You can identify **concepts, events, and relationships** in your own model sketch and explain how they contribute to the conceptual organisation of domain knowledge.
 
 **Concepts, events, relationships could be...:**
 
-> 1. **Concepts** refer, for example, to objects, persons, organizations, places, or other central building blocks of the domain.
-> 2. **Events** refer to occurrences or processes, for example development, production, publication, or exhibition.
-> 3. **Relationships** connect concepts with concepts or concepts with events.
+- **Concepts** refer, for example, to objects, persons, organizations, places, or other central building blocks of the domain.
+- **Events** refer to occurrences or processes, for example development, production, publication, or exhibition.
+- **Relationships** connect concepts with concepts or concepts with events.
 
----
+> **Example · Reading the model sketch**
+>
+> In E1A, we created relationships such as:
+>
+> Game → has → Title
+>
+> Game → was developed by → Developer
+>
+> Game → was created through → Game production
+>
+> We can now describe the elements of this sketch more precisely:
+>
+> - Concepts represent relevant elements of the domain.
+> - Events represent occurrences or processes.
+> - Relationships express how these elements are meaningfully connected.
 
-**Formulated statements coud be...:**
-
-| Concept | Concept | Relationship |
-|---|---|---|
-| Game | Title | The game has the title "The Legend of Zelda..." |
-| Game | Development | Game was created through development |
-| Nintendo | Publication | Nintendo participated in development |
-| Japan | Publication | Publication took place in Japan |
-| 1991 | Publication | Publication took place in 1991 |
+The model sketch therefore represents a first conceptual organisation of domain knowledge.
 
 ---
 
@@ -227,9 +224,19 @@ A first conceptual structure consisting of concepts, events, and meaningful rela
 
 Conceptual knowledge modeling structures the relevant domain knowledge using concepts, events, and relationships. 
 
-Requirements from collection practice form the basis for identifying central concepts, events, and relationships in Module 1 and for developing a consistent, transparent domain model and diagram from them. 
+In E1A, you created a first conceptual model sketch from information about a collection object.
 
-This makes it possible to pose and answer research questions about collections, such as:
+In this unit, we have introduced the terminology needed to describe what happened during this process:
+
+- **concepts** represent relevant elements of the domain.
+- **events** represent occurrences and processes.
+- **relationships** express meaningful connections between these elements.
+
+**From model sketch to research questions**
+
+Which concepts, events, and relationships are relevant depends on the questions we want our data model to support.
+
+Collection-related research questions may concern, for example:
 
 - **Production & creation:** In what specific context and through which processes was the object created?
 - **Actors & roles:** Which persons were involved and what specific roles do they have?
@@ -238,19 +245,14 @@ This makes it possible to pose and answer research questions about collections, 
 - **Uncertainties:** How can contradictory hypotheses or vague attributions be represented in the data model?
 - **Identification:** How can the object be precisely identified and referenced using unique characteristics such as inventory numbers?
 
-At the end, you will have an initial excerpt of a conceptual organization of your domain of knowledge: 
 
-- relevant concepts have been named,
-- events have been identified,
-- relationships between them have been formulated.
-  
 > **What we have learned**
 >
-> Conceptual knowledge modeling organizes domain knowledge by identifying relevant concepts, events, and relationships.
+> In E1A, we created a first conceptual model sketch by identifying and connecting relevant information about a collection object.
 >
-> These elements form the conceptual foundation for developing a consistent and transparent semantic data model.
+> We can now describe this process as conceptual knowledge modeling: organizing domain knowledge through concepts, events, and relationships.
 >
-> The resulting structure helps express research questions about objects, actors, production, provenance, places, and time.
+> This conceptual structure provides the foundation for developing a semantic data model.
 
 ---
 
@@ -266,7 +268,9 @@ At the end, you will have an initial excerpt of a conceptual organization of you
 
 Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organized. To represent this conceptual organization in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
 
-> Next: We have identified and organized relevant domain knowledge. In Unit 2, we explore how ontologies provide the formal structures needed to represent this knowledge in a machine-readable way.
+> Next: We have conceptually organized domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
+>
+> In Unit 2, we explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
 ---
 
