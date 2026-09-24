@@ -56,9 +56,7 @@ Participants can...
 
 ## Goal and scenario
 
-Den jetzigen Einstieg würde ich für diese Übung deutlich auf die Sammlungsperspektive beschränken.
-
-> **ACTIVATION · From the object to a conceptual model**
+> **Activation · From the object to a conceptual model**
 >
 > Start with a collection or research object and ask:
 >
@@ -152,16 +150,20 @@ These areas serve as the starting point for recognizing different types of **con
 > **Step 2 · Connect**
 >
 > Connect the identified elements using meaningful relationships.
-> Formulate each connection so that it can be read as a meaningful statement.
+> 
+> Formulate each connection so that it can be read as a meaningful statement; such as....
+> 
 > **Examples**
+> 
 > Game → has → Title
+> 
 > Nintendo → participated in → Development
+> 
 > Development → created → Game
 >
 > **Step 3 · Check**
 >
-> Read your connections as statements:
-> Do they express what you actually mean?
+> Read your connections as statements: Do they express what you actually mean?
 >
 > **Tip: Less is more. Focus on a small number of elements and relationships that are particularly relevant to understanding the object.**
 
