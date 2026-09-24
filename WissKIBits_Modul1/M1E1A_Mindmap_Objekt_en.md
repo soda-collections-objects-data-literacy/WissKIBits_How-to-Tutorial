@@ -62,7 +62,7 @@ Participants can...
 >
 > What do we need to know about this object – and how is this knowledge connected?
 >
-> Using The Legend of Zelda: A Link to the Past as an example, identify relevant concepts, events, and relationships.
+> Use **The Legend of Zelda: A Link to the Past** as an example, identify relevant concepts, events, and relationships.
 >
 > The goal is not yet to use CIDOC CRM, but to create a first conceptual model sketch of the domain.
 
