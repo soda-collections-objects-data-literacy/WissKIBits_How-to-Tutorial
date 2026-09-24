@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to Tutorial
 
 Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
 
-Activation Unit E1A: **Application Example: Object Collections**  
+Activation Unit E1A: **Application Example from Object Collections**  
 
 **Duration:** ~ 15 min.
 
@@ -60,11 +60,13 @@ Participants can...
 >
 > Start with a collection or research object and ask:
 >
-> What do we need to know about this object – and how is this knowledge connected?
+> **What do we need to know about this object – and how is this knowledge connected?**
 >
-> Use **The Legend of Zelda: A Link to the Past** as an example, identify relevant concepts, events, and relationships.
+> Use **The Legend of Zelda: A Link to the Past** as an example.
 >
-> The goal is not yet to use CIDOC CRM, but to create a first conceptual model sketch of the domain.
+> We identify relevant concepts, events, and relationships to describe this example.
+>
+> The goal is not yet to use CIDOC CRM, but to **create a first conceptual model sketch of the domain**.
 
 --- 
 
@@ -84,13 +86,13 @@ The **goal is not** to develop a complete data model for computer games. Instead
 >
 > Our example is the computer game **The Legend of Zelda: A Link to the Past.**
 >
-> We use it to explore which concepts, events, and relationships may be relevant for describing a collection object and its context.
+> We use it to explore which concepts, events, and relationships may be relevant for describing such a collection object and its context.
 >
-> **Remember:** The goal is not a complete data model. Start small and focus on what is relevant for understanding the object.
+> **Remember:** The goal is not to develop a complete data model. Start small and focus on what is relevant for understanding this object.
 
 ---
 
-## Why computer games?
+## The domain computer games
 
 Computer games are well suited as an example domain because they illustrate different aspects of modeling clearly.
 
@@ -108,13 +110,19 @@ This makes the domain a clear starting point for recognizing different perspecti
 >
 > Computer games provide a useful modeling example because they combine:
 >
-> physical and digital objects · actors · events · versions · identifiers · places and times
+> - physical and digital objects
+> - actors
+> - events
+> - versions and genre
+> - identifiers
+> - places and times
+> - ...
 >
-> This makes it possible to explore different perspectives on a collection object within a manageable example.
+> This makes it possible to explore different perspectives on certain collection object.
 
 ---
 
-## Focus of this modeling exercise
+## Focus of this activation exercise
 
 For the model sketch, we consider selected information about the example object. We focus on three areas:
 
@@ -128,13 +136,13 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > - What **title** does the game have?
 > - Which **genre** or **platform** is it assigned to?
-> - Which **persons or organizations** were involved?
+> - Which **persons or organisations** were involved?
 > - Which **events** are relevant to the game?
 > - At which **places** and at what **times** did these events take place?
 
 ---
 
-## Exercise – Create a mini sketch model
+## Activation exercise – Create a mini sketch model
 
 **Working format:** Breakout rooms / individual work or teams (2–5 people)  
 
@@ -145,6 +153,7 @@ These areas serve as the starting point for recognizing different types of **con
 > **Step 1 · Identify**
 > 
 > Identify 3–5 relevant concepts and events related to the example object.
+> 
 > These may include an object, person or organization, place, time, or event. Not all categories need to be represented.
 >
 > **Step 2 · Connect**
@@ -163,9 +172,11 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > **Step 3 · Check**
 >
-> Read your connections as statements: Do they express what you actually mean?
+> Read your connections as statements: Do they express what you actually like to describe?
 >
 > **Tip: Less is more. Focus on a small number of elements and relationships that are particularly relevant to understanding the object.**
+
+---
 
 ## Result
 
