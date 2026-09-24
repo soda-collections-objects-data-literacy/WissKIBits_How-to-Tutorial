@@ -67,7 +67,11 @@ This includes, among other things, identifying central terms and definitions (so
 
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
-> Developing a domain ontology is not a linear process. It usually combines domain knowledge, application requirements, modeling decisions, and iterative review.
+> **Semantic modeling**
+>
+> Developing a domain ontology is not a linear process.
+>
+> It usually combines domain knowledge, application requirements, modeling decisions, and iterative review.
 >
 > Different methods can be combined depending on the starting point and purpose of the model.
 
@@ -85,7 +89,9 @@ Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
 ### A practical modeling workflow
 
-Semantic modeling is iterative: reviewing the model ay lead back to earlier steps.
+Semantic modeling is iterative: reviewing the model ay lead back to earlier steps. 
+
+The diagram illustrates the workflow of semantic modeling.
 
 **Identify requirements and questions**
  
@@ -109,12 +115,11 @@ Semantic modeling is iterative: reviewing the model ay lead back to earlier step
   
 **Revise and refine**
 
-
-> **Figure:** The graphic illustrates the workflow of semantic modeling.
-
 ---
 
 ## Modeling strategy 
+
+We have to decide between class alignement or relationships.
 
 A domain ontology can be developed by various approaches to extending domain ontologies:
 
@@ -145,7 +150,11 @@ The **methods and workflows of semantic modeling** presented here, together with
 
 In the following unit, **Protégé** is introduced as an editor for modeling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
 
-> Next: We now move from modeling strategy to implementation. In the following unit, we use Protégé to explore CIDOC CRM and prepare the formal modeling of our domain ontology.
+> **Next:**
+>
+> We now move from modeling strategy to implementation.
+>
+> In the following unit, we use Protégé to explore CIDOC CRM and prepare the formal modeling of our domain ontology.
 
 ---
 
