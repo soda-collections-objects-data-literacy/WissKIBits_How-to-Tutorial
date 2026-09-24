@@ -152,7 +152,7 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ---
 
-## Reflection: Conceptually organising knowledge from a collection
+## Conceptually organising knowledge from a collection
 
 **Working format:** short plenum discussion 
 
