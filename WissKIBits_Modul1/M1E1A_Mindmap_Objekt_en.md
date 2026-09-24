@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to Tutorial
 
 Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
 
-Exercise Unit E1: **Application Example: Object Collections**  
+Activation Unit E1A: **Application Example: Object Collections**  
 
 **Duration:** ~ 15 min.
 
