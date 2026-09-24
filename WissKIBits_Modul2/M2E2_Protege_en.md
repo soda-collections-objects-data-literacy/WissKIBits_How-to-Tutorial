@@ -69,7 +69,7 @@ Protégé is available both as a desktop application ([**Protégé Desktop**](ht
 
 > **What is Protégé?**
 >
-> Protégé is a free, open-source ontology editor for creating, editing, and managing ontologies.
+> Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
 > It supports OWL 2 and provides a graphical environment for developing formal, machine-readable ontology structures.
 >
@@ -78,9 +78,11 @@ Protégé is available both as a desktop application ([**Protégé Desktop**](ht
 > - Protégé Desktop – a locally installed application
 > - WebProtégé – a web-based ontology editor
 
+---
+
 ## Protégé in this tutorial?
 
-Within this module, Protégé is used to transform the **semantic model of the computer games domain**—developed in Module 1—**into a formal, machine-readable OWL ontology**.
+Within this module, we use Protégé Desktop to transform the **semantic model of the computer games domain**—developed from Module 1—**into a formal, machine-readable OWL ontology**.
 
 The **CIDOC CRM ([Release Version 7.1.3, as of February 2024](https://cidoc-crm.org/get-last-official-release))** (SIG2024cidoc) serves as the reference ontology—specifically, the existing OWL implementation of the CIDOC CRM known as **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm).
 
@@ -132,8 +134,7 @@ Ensure that either Protégé Desktop is installed locally or you have an account
 - Desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege))
 - Web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)).
 
-**Step 1: Load the existing ontology**
-
+  
 To work with Protégé, the **Erlangen CRM / OWL**—a **machine-readable OWL implementation of the CIDOC CRM**—is used.
 
 > **Step 1: Load**
@@ -162,8 +163,11 @@ To work with Protégé, the **Erlangen CRM / OWL**—a **machine-readable OWL im
 > **Step 2: Explore**
 >
 > Explore how the ontology is organized in Protégé:
-> - Classes represent concepts or entity types and are organized in a class hierarchy.
+> 
+> - Classes represent concepts or entity types and are organised in a class hierarchy.
+>   
 > - Object properties represent relationships between entities.
+>   
 > - Datatype properties connect entities with literal values such as text, numbers, or dates.
 > 
 > Focus: How are the elements of the ontology structured and connected?
@@ -172,7 +176,7 @@ To work with Protégé, the **Erlangen CRM / OWL**—a **machine-readable OWL im
 
 **Step 3: Creating a custom subclass (entity) for the computer games domain ontology**
 
-- New, domain-specific entities are created as **subclasses of existing CIDOC CRM entities**.
+New, domain-specific entities are created as **subclasses of existing CIDOC CRM entities**.
 
 **Example:**
 
@@ -182,17 +186,15 @@ E35 Title --> Game_Title
 
 > **Step 3: Extend**
 >
-> Existing ontology classes can be specialized for a particular domain by creating subclasses.
+> Existing ontology classes can be specialised for a particular domain by creating subclasses.
 >
-> CIDOC CRM class
-> E35 Title
+> CIDOC CRM class: E35 Title
 > ↓
-> Domain-specific subclass
-> Game_Title
+> Domain-specific subclass: Game_Title
 >
-> Game_Title specializes E35 Title for the computer games domain.
+> **Game_Title specializes E35 Title for the computer games domain.**
 >
-> **Remember our modeling strategy: Reuse CIDOC CRM wherever possible and introduce domain-specific concepts as subclasses.**
+> **Remember our modeling strategy:** Reuse CIDOC CRM wherever possible and introduce domain-specific concepts as subclasses.
 
 ---
 
@@ -222,7 +224,11 @@ In the **practical session** that follows, this approach is applied to the **com
 
 In this way, the conceptual model sketch evolves into a **formally described and machine-readable OWL ontology**, which can subsequently be used for implementation in WissKI.
 
-> Next: You have learned how to load, explore, and extend an existing ontology in Protégé. In the following practical session, you will apply this workflow to the computer games domain by selecting suitable CIDOC CRM elements, adding domain-specific subclasses, and modeling their relationships.
+> **Next:**
+>
+>  You have learned how to load, explore, and extend an existing ontology in Protégé.
+>
+> In the following practical session, you will apply this workflow to the computer games domain by selecting suitable CIDOC CRM elements, adding domain-specific subclasses, and modeling their relationships.
 
 ---
 
