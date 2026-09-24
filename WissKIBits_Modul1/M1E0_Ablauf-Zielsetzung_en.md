@@ -73,13 +73,15 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ---
 
-## Why model semantically?
+## Why we model semantically?
 
 - Research and collection data are complex object and contextual data. They describe not only objects and their properties. They arise in the context of scholarly research and are connected with historical, cultural, and social meanings and relationships.
 - Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
 - To ensure that data remain interpretable and reusable in the long term, their meaning must be made explicit and formally described.
 
-> **Collection and research data consist of more than individual facts. Their meaning and relationships are equally important. Semantic modeling makes these connections explicit, understandable, and reusable.**
+> **Collection and research data consist of more than individual facts. Their meaning and relationships are equally important.
+>
+> Semantic modeling makes these connections explicit, understandable, and reusable.**
 
 ---
 
