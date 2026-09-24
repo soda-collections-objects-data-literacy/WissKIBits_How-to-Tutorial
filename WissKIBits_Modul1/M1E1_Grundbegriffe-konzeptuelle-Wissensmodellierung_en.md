@@ -45,7 +45,7 @@ Module 1: **From the collection through modeling decisions to the diagram – un
 
 Unit 1: **Basic concepts of conceptual knowledge modeling**  
 
-**Duration:** ~ 20 min.
+**Duration:** ~ 15 min.
 
 **Learning objectives:**
 
@@ -76,7 +76,7 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 >
 > A **domain** is a defined field of knowledge or application, such as a research or object collection.
 >
-> The aim is to identify relevant concepts, events, and relationships and clarify their domain-specific meaning.
+> The **aim is to identify relevant concepts, events, and relationships** and **clarify their domain-specific meaning**.
 
 ---
 
@@ -99,7 +99,7 @@ Examples include the production, acquisition, discovery, restoration, exhibition
 Examples include “person participated in production,” “production took place at a location,” or “object was created through production.”
 
 
-Identifying and structuring these elements forms the basis of **semantic modeling**.
+**Identifying and structuring these elements forms the basis of semantic modeling**.
 
 ---
 
@@ -111,7 +111,7 @@ Identifying and structuring these elements forms the basis of **semantic modelin
 
 The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner2025paths, p. 58)
 
-> **Key takeaway:**
+> **Key takeaway is:**
 >
 > **Conceptual knowledge modeling** clarifies which knowledge is relevant and how it is organised.
 >
@@ -123,7 +123,9 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ## From domain knowledge to a smeantic data model
 
-**Learning path**
+**Learning path**#
+
+The graphic illustrates the path from defining a subject domain through the conceptual organisation of relevant knowledge to the semantic data model.
 
 **Define the subject domain**  
 
@@ -148,75 +150,55 @@ The result of this process is a **semantic data model**. It does not represent t
 **Semantic data model**
 
 
-The graphic illustrates the path from defining a subject domain through the conceptual organisation of relevant knowledge to the semantic data model.
-
 ---
 
 ## Conceptually organising knowledge from a collection
 
-**Working format:** short plenum discussion 
+**Working format:** Short plenum discussion 
 
 **Time:** 5 min.
 
-> **Reflection: Looking back to our model**
+> **Reflection**
 >
-> Look again at the model sketch you created in E1A.
+> We look back to our model sketch we created in E1A.
 >
-> You have sorted elements of domain knowledge and connected them through meaningful relationships.
+> We have sorted elements of domain knowledge and connected them through meaningful relationships.
 >
-> Now use the terminology introduced in this unit to reflect on your model:
+> Now use the terminology (concept, event, relationship) introduced in this unit to reflect on your model:
 >
 > - Which elements are concepts?
 > - Which elements represent events?
 > - Which connections are relationships?
-> - What do these relationships tell us about the meaning of the data?
 
 ---
 
 > **Step 1: Revisit**
 >
-> Look at the model sketch you created.
+> We look at the model sketch we created.
 >
 > **Step 2 · Classify**
 >
-> Identify exaples of **concepts, evenets, and relationships**.
+> We identify examples of **concepts, events, and relationships**.
 >
 > **Step 3 · Refelect**
 >
-> Choose one relationship and ask:
->
-> - What meaning does this relationship express?
-> - Could the same two elements be connected differently if we wanted to express another meaning?
+> We choose one relationship and ask:
+> 
+> - Could the same two concepts be connected with differnet relationships if we wanted to express another meaning?
 
 ---
 
 ## Expected result
 
-You can identify **concepts, events, and relationships** in your own model sketch and explain how they contribute to the conceptual organisation of domain knowledge.
+We identified **concepts, events, and relationships** in our own model sketch and have explained how they contribute to the conceptual organisation of domain knowledge.
 
 **Concepts, events, relationships could be...:**
 
-- **Concepts** refer, for example, to objects, persons, organszations, places, or other central building blocks of the domain.
-- **Events** refer to occurrences or processes, for example development, production, publication, or exhibition.
-- **Relationships** connect concepts with concepts or concepts with events.
-
-> **Example · Reading the model sketch**
->
-> In E1A, we created relationships such as:
->
-> Game → has → Title
->
-> Game → was developed by → Developer
->
-> Game → was created through → Game production
->
-> We can now describe the elements of this sketch more precisely:
->
-> - Concepts represent relevant elements of the domain.
-> - Events represent occurrences or processes.
-> - Relationships express how these elements are meaningfully connected.
-
-The model sketch therefore represents a first conceptual organisation of domain knowledge.
+- **Concepts** refer, for example, to objects, persons, organssations, places, or other central building blocks of the domain and represent relevant elements of the domain.
+- 
+- **Events** refer to occurrences or processes, for example development, production, publication, or exhibition and represent occurrences or processes.
+- 
+- **Relationships** connect concepts with concepts or concepts with events to express how these elements are meaningfully connected.
 
 ---
 
@@ -248,19 +230,11 @@ Collection-related research questions may concern, for example:
 
 > **What we have learned**
 >
-> In E1A, we created a first conceptual model sketch by identifying and connecting relevant information about a collection object.
+> We created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
 >
-> We can now describe this process as conceptual knowledge modeling: organising domain knowledge through concepts, events, and relationships.
+> We can now describe this process as **conceptual knowledge modeling**: organising domain knowledge through concepts, events, and relationships.
 >
 > This conceptual structure provides the foundation for developing a semantic data model.
-
----
-
-### Sample example as a graphic
-
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap_en.png)
-
-> **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
 
 ---
 
@@ -268,7 +242,9 @@ Collection-related research questions may concern, for example:
 
 Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
 
-> Next: We have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
+> **Next:**
+>
+>  We have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
 >
 > In Unit 2, we explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
