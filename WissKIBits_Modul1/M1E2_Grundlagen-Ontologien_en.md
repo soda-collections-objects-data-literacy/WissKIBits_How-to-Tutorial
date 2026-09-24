@@ -77,7 +77,7 @@ This unit explains **why ontologies are used and what benefits they offer for co
 >
 > An ontology takes the next step: it represents this conceptual structure formally and in a machine-readable way.
 >
-> Conceptual knowledge → formal representation → machine-readable knowledge
+> With ontologies conceptual knowledge can be formally represented and made machine-readable.
 
 ---
 
@@ -89,11 +89,11 @@ When modeling research data from the humanities and cultural studies, the aim is
 >
 > Ontologies help us to:
 >
-> - make the meaning of data explicit and formally capture the semantics of data
+> - make the meaning of data explicit and formally capture the semantics of data,
 > - formally express and describe semantic relationships,
-> - make knowledge machine-readable
+> - make knowledge machine-readable,
 > - support interoperability and reuse across systems and institutions, and
-> - connect data within the Linked Open Data ecosystem.
+> - connect data within the Linked Open Data (LOD) ecosystem.
 > 
 > **In short**: Ontologies make domain knowledge explicit, structured, shareable, and machine-processable.
 
@@ -124,27 +124,6 @@ The best-known definition describes an ontology as an explicit, formal specifica
 > - which rules apply to their use.
 >
 > In this way, an ontology provides a shared and formally defined structure for describing knowledge within a domain.
-
-### Building blocks of an ontology
-
-For this purpose, an ontology provides the following building blocks (aspects of ontologies):
-
-- **Classes (Classes/Concepts):** formal representation of concepts and events
-- **Properties:** formal representation of characteristics or relationships
-- **Instances:** concrete individuals of classes
-- **Constraints:** rules for ensuring the logical consistency of the ontology
-
-> **Four building blocks of ontologies**
->
-> Classes → What kinds of things are there?
->
-> Instances → Which concrete things are we talking about?
->
-> Properties → How are things described or related?
->
-> Constraints → Which rules apply to the model?
->
-> Together, these elements provide the basic structure of an ontology.
 
 ---
 
@@ -183,17 +162,14 @@ A property can be restricted to connect only certain types of classes or values.
 
 Example: A release date must be represented as a date value rather than as a person or organisation.
 
-> **Classes, instances, properties, and constraints**
+> **Four building blocks of ontologies**
 >
-> - **Classes** represent general concepts within a domain.
-> Examples: Game, Person, Organisation
+> **Classes** → What kinds of things are there? Examples: Game, Person, Organisation
 >
-> - **Instances** are concrete individual members of classes.
-> Example: The Legend of Zelda: A Link to the Past
+> **Instances** → Which concrete things are we talking about? Example: The Legend of Zelda: A Link to the Past
 >
-> - **Properties** describe characteristics or meaningful relationships.
-> Example: A game has a title.
-> 
+> **Properties** → How are things described or related? Example: A game has a title.
+>
 > **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent such as generalisation and inheritance.
 
 ---
@@ -210,9 +186,9 @@ Ontologies therefore provide a foundation for not only documenting complex resea
 >
 > Because ontologies describe domain knowledge formally and explicitly, they make it possible to:
 >
-> - integrate and relate heterogeneous data
-> - exchange and reuse knowledge across collections, projects, and systems
-> - process semantic information by machine, an
+> - integrate and relate heterogeneous data,
+> - exchange and reuse knowledge across collections, projects, and systems,
+> - process semantic information by machine, and
 > - support logical inference based on formally defined relationships.
 >
 > Ontologies therefore provide a bridge between domain knowledge and machine-processable research data.
