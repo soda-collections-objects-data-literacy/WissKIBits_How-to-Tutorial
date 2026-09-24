@@ -202,6 +202,8 @@ We now have a first conceptual model sketch containing:
 
 ![Concept mind map](../WissKIBits_Modul1/assets/mindmap_en.png)
 
+> **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
+
 **Keep this sketch: we will return to it after introducing CIDOC CRM.**
 
 
