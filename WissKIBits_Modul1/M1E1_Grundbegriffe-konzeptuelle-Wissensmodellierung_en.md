@@ -66,7 +66,7 @@ Participants can...
 
 ## Definitions of terms in conceptual knowledge modeling
 
-In **conceptual knowledge modeling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organized conceptually.
+In **conceptual knowledge modeling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organised conceptually.
 
 A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modeled. In semantic modeling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
@@ -84,11 +84,23 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 
 Central elements of conceptual knowledge modeling are **concepts, events, and relationships**:
 
-- **Concepts** are abstract ideas or terms used to designate relevant objects and circumstances within a domain. Examples include object, person, place, or institution.
-- **Events** describe occurrences or processes that can be situated in time and space and in which objects, persons, or other concepts may participate. Examples include the production, acquisition, discovery, restoration, exhibition, or use of an object.
-- **Relationships** describe meaningful connections between concepts or between concepts and events. Examples include “person participated in production,” “production took place at a location,” or “object was created through production.”
+- **Concepts** are abstract ideas or terms used to designate relevant objects and circumstances within a domain.
+Examples include object, person, place, or institution.
+
+
+- **Events** describe occurrences or processes that can be situated in time and space and in which objects, persons, or other concepts may participate.
+
+Examples include the production, acquisition, discovery, restoration, exhibition, or use of an object.
+
+
+- **Relationships** describe meaningful connections between concepts or between concepts and events.
+
+Examples include “person participated in production,” “production took place at a location,” or “object was created through production.”
+
 
 Identifying and structuring these elements forms the basis of **semantic modeling**.
+
+---
 
 ### From conceptual knowledge to a semantic data model
 
