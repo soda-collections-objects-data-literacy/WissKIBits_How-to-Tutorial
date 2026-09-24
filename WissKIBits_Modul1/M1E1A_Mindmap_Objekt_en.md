@@ -142,7 +142,7 @@ These areas serve as the starting point for recognizing different types of **con
 
 ---
 
-## Activation exercise – Create a mini sketch model
+## Activation puzzle – Create a mini sketch model of "Zelda"
 
 **Working format:** Breakout rooms / individual work or teams (2–5 people)  
 
@@ -150,11 +150,19 @@ These areas serve as the starting point for recognizing different types of **con
 
 **Time:** 15 minutes
 
+> **Preperation**
+>
+> Open [Draw.io](https://app.diagrams.net/)
+>
+> Download template
+>
+> **Note: Use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
+>
 > **Step 1 · Identify**
 > 
 > Identify 3–5 relevant concepts and events related to the example object.
 > 
-> These may include an object, person or organization, place, time, or event. Not all categories need to be represented.
+> These may include an object, person or organization, place, time, or event. 
 >
 > **Step 2 · Connect**
 >
