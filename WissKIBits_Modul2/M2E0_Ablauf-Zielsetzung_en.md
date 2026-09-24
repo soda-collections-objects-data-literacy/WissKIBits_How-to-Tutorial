@@ -65,13 +65,24 @@ The result forms the basis for the subsequent implementation of the ontology str
 
 > **What is the module about?**
 >
-> Module 1 focused on identifying and structuring the meaning of collection and research data.
+> Module 1, we focused on identifying and structuring the meaning of collection and research data.
 >
-> Module 2 takes the next step: we formalize these structures, evaluate modeling choices using CIDOC CRM Scope Notes, and implement selected concepts and relationships in an ontology editor.
+> You developed a conceptual model by identifying relevant concepts, events, and relationships and relating them to CIDOC CRM.
+>
+> In Module 2, we take the next step: we transform this conceptual model into a formal, machine-readable ontology structure.
+>
+> Using **CIDOC CRM and Protégé**, we examine how concepts and relationships from the conceptual model can be represented as classes and properties.
+>
+> We use CIDOC CRM scope notes to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
+>
+> The result is a **formalised domain model** that provides the basis for its visualisation and technical implementation in WissKI in Module 3.
+
 
 ---
 
 ## Guiding question
+
+Our guiding question is...
 
 > **How does a conceptual model sketch become a domain-informed and machine-readable ontology structure based on CIDOC CRM?**
 
@@ -79,7 +90,7 @@ The result forms the basis for the subsequent implementation of the ontology str
 
 ## Objectives of the module
 
-In this module, you will learn how to:
+In this module, we will learn how to:
 
 - apply a systematic **workflow for semantic modeling**,
 - use **Protégé** to explore and edit an ontology,
@@ -92,15 +103,15 @@ In this module, you will learn how to:
 
 ## Structure of the module
 
-**Total duration of Module 2: approx. 90 min.**
+**Total duration of module 2: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and structure | 5 min. |
-| E1A | Activation: | xx min. |
-| 1 | Methods and workflows of semantic modeling | xx min. |
-| 2 | Introduction to Protégé | xx min. |
-| E1E | Excersise: Semantic modeling with CIDOC CRM | xx min. |
+| 0 | Welcome, objectives and structure | 10 min. |
+| E1A | Activation: | 30 min. |
+| 1 | Methods and workflows of semantic modeling | 10 min. |
+| 2 | Introduction to Protégé | 10 min. |
+| E1E | Excersise: Semantic modeling with CIDOC CRM | 30 min. |
 |  | **Total** | **90 min.** |
 
   
@@ -109,6 +120,11 @@ In this module, you will learn how to:
 ## Learning objectives of the module
 
 After completing Module 2, participants can…
+
+### E2A. Methods and workflows of semantic modeling
+
+- name... 
+
 
 ### 1. Methods and workflows of semantic modeling
 
@@ -128,7 +144,7 @@ After completing Module 2, participants can…
 - name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-### Ü1. Semantic modeling with CIDOC CRM
+### E2. Semantic modeling with CIDOC CRM
 
 - apply an ontology for describing resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
@@ -138,15 +154,20 @@ After completing Module 2, participants can…
 - apply Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa_03_007_0855)
 - apply Scope Notes of the CIDOC CRM reference model for describing resources. (LO-ID SODa\_03\_007\_0780a)
 
-
 ---
 
 ## Learning path through the module
+
+The diagram illustrates the learning path of the module.
 
 **Conceptual model sketch from Module 1**
  
 ↓
    
+**Activation: Prepare your technical setup**
+   
+↓
+
 **Define the methodological workflow**
    
 ↓
@@ -170,8 +191,6 @@ After completing Module 2, participants can…
 **save the ontology and prepare it for WissKI**
 
 
-> **Figure:** The graphic illustrates the learning path of the module.
-
 ---
 
 ## Working method and example
@@ -193,7 +212,9 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 >
 > Short methodological inputs alternate with demonstration and hands-on modeling.
 >
-> We continue working with The Legend of Zelda: A Link to the Past and the model sketch developed in Module 1. Using Protégé, we explore an OWL implementation of CIDOC CRM, evaluate modeling choices using Scope Notes, and extend the ontology with selected domain-specific concepts and relationships.
+> We continue working with **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
+>
+> We use **Protégé**, we explore an **OWL implementation of CIDOC CRM** - the Erlangen CRM - evaluate modeling choices using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
 >
 > The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.
 
