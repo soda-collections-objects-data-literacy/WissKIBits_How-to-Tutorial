@@ -59,19 +59,19 @@ Participants can...
 
 This is a practical exercise.
 
-Using **"The Legend of Zelda: A Link to the Past"** as an example, selected concepts will be tentatively mapped to **CIDOC CRM** classes.
+we use **"The Legend of Zelda: A Link to the Past"** as an example, select some concepts and we will tentatively map them to **CIDOC CRM** classes.
 
 The aim here is not to create a complete or formally correct CIDOC CRM model.
 
 Rather, the goal is to demonstrate that translating domain knowledge into a reference model requires **modeling decisions**.
 
-By the end, participants will be able to:
+By the end, we will be able to:
 
 *   map selected concepts to potential **CIDOC CRM classes (entities)**,
 *   describe these mappings as modeling decisions,
 *   design a **conceptual model** that serves as a starting point for further formalization.
 
-This model sketch will be progressively refined in the subsequent modules (2 and 3) and formalized for use with **Protégé** and **WissKI**.
+This model sketch will be progressively refined in the subsequent modules (2 and 3) and later formalised for use with **Protégé** and **WissKI**.
 
 > **Transfer: From Conceptual Model to CIDOC CRM**
 >
@@ -82,6 +82,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 > The aim here is not to develop a complete or final CIDOC CRM model at this stage.
 >
 > The crucial question is:
+> 
 > **What do we mean by a specific term—and which CIDOC CRM class best captures that meaning?**
 >
 > The goal is to make, review, and justify initial modeling decisions.
@@ -106,21 +107,20 @@ The **goal is not** to develop a complete data model for computer games. Instead
 
 The starting point is **“The Legend of Zelda: A Link to the Past”**.
 
-Using this example, an analysis was conducted to determine which **concepts, events, and relationships** might be relevant for describing a collection object and its context.
+We use this example, an analysis was conducted to determine which **concepts, events, and relationships** might be relevant for describing a collection object and its context.
 
 > **From Model Sketch to CIDOC CRM Draft**
 >
 > Relevant concepts, events, and relationships for the example object **“The Legend of Zelda: A Link to the Past”** have been identified (M1E1A).
 >
 > Now, consider this model sketch from a new perspective:
+> 
 > - What is the significance of the identified concepts?
 > - Which CIDOC CRM classes could express this significance?
 > - Do the informally phrased relationships already align with the reference model?
 > - What modeling decisions need to be made?
 >
 > Remember: A similar label does not automatically imply the same meaning.
-
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
 
 ---
 
@@ -159,6 +159,7 @@ For example, the following questions might be asked:
 > **Defining the meaning**
 > 
 > Select a few key elements from your model sketch and ask:
+> 
 > - What exactly does our term denote?
 > - Is it an object, a piece of information, a person, a group, an event, a name, or a type?
 > - Which CIDOC CRM class might fit?
@@ -178,7 +179,7 @@ For example, the following questions might be asked:
 
 ### Starting Point: Model Sketch
 
-![Concept Mind Map](../WissKIBits_Modul1/assets/mindmap.png)
+![Concept Mind Map](../WissKIBits_Modul1/assets/mindmap_en.png)
 
 > **Figure:** The figure shows an example of the step-by-step conceptual analysis of a collection or research object, using the game *The Legend of Zelda: A Link to the Past* as a case study. Author's own illustration, created with ChatGPT (OpenAI), 2026.
 
@@ -186,13 +187,22 @@ For example, the following questions might be asked:
 
 > **Step 1 · Select**
 >
-> Select two concepts or events from your model sketch, e.g., Game, Person, Organization, Title, Genre, or Production.
+> We select concepts or events from the model sketch, e.g., Game, Person, Organization, Title, Genre, or Production.
 >
 > **Step 2 · Assign**
 >
-> For each selected element, find a CIDOC CRM class that could match its meaning.
+> For each selected element, we find a CIDOC CRM class that could match its meaning.
+>
+> Use:
+> 
+> **Official CIDOC CRM documentation Version 7.1.3**: A document for authoritative definitions, scope notes, class hierarchies, and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+>
+> **CIDOC CRM web-based HTML navigator**: The official representation of **Version 7.1.3** serves as a reference for targeted lookup. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> 
+> **CIDOC CRM Periodic Table**: Use it as a visual tool for exploring classes, properties, and their relationships. [link](https://remogrillo.github.io/cidoc-crm_periodic_table)
 >
 > **Examples of possible starting points:**
+> 
 > - E73 Information Object → Game as information content
 > - E22 Human-Made Object → Physical copy
 > - E21 Person → Participating person
@@ -204,16 +214,15 @@ For example, the following questions might be asked:
 >
 > **Step 3 · Review**
 >
-> Read the Scope Note of the selected class.
+> We read the scope note of the selected class.
 >
-> Ask yourself:
-> Does this class actually describe what we mean by our term?
+> We ask: Does this class actually describe what we mean by our term?
 >
 > **Step 4 · Justify**
 >
-> Add the CIDOC CRM class to your model sketch and briefly note why you chose this assignment.
+> We add the CIDOC CRM class to your model sketch and briefly note why you chose this assignment.
 >
-> Mark uncertain assignments with a question mark (?).
+> We mark uncertain assignments with a question mark (?).
 >
 > **Tip: The goal is not to assign as many classes as possible. The crucial point is that you can provide a clear and understandable justification for a few modeling decisions.**
 
