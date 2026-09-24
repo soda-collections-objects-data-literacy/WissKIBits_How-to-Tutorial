@@ -244,7 +244,8 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 
 **No prior knowledge of ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
 
-Experience with collection, object, or research data is helpful. If possible, bring an example object or research question from your own field.
+
+Experience with collection, object, or research data is helpful. 
 
 ---
 
