@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to Tutorial
 
 Module 3: **From Diagram to Paths – Explain and Apply**
 
-Exercise Unit Ü2: **Transforming Semantic Models into WissKI Paths**  
+Exercise Unit E2: **Transforming Semantic Models into WissKI Paths**  
 
 **Duration:** ~ 45 min.
 
