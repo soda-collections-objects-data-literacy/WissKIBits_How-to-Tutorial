@@ -238,9 +238,11 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 
 > **How we work**
 >
-> We begin with a short activation activity using a concrete collection object. After the conceptual inputs, we return to the same example and develop a small, consistent, and justified model sketch.
+> We begin with a short activation activity using a concrete collection object.
+>
+> After the conceptual inputs, we return to the same example and develop a small, consistent, and justified model sketch.
 > 
-> Our shared example is The Legend of Zelda: A Link to the Past.
+> Our shared example is **The Legend of Zelda: A Link to the Past.**
 
 ---
 
