@@ -72,7 +72,7 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 
 > **What is..?**
 >
-> **Conceptual knowledge modeling** identifies and organizes the knowledge relevant to a particular domain.
+> **Conceptual knowledge modeling** identifies and organises the knowledge relevant to a particular domain.
 >
 > A **domain** is a defined field of knowledge or application, such as a research or object collection.
 >
@@ -105,7 +105,7 @@ Identifying and structuring these elements forms the basis of **semantic modelin
 
 ### From conceptual knowledge to a semantic data model
 
-**Conceptual knowledge modeling** identifies and organizes the knowledge relevant to a particular domain.
+**Conceptual knowledge modeling** identifies and organises the knowledge relevant to a particular domain.
 
 **Semantic modeling** is preceded by the conceptualization of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modeling** represents this conceptual knowledge structure in a formalized model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modeling (Fichtner2025paths, p. 86).
 
@@ -133,7 +133,7 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ↓  
 
-**Organize concepts, events, and relationships**  
+**Organise concepts, events, and relationships**  
 
 ↓  
 
@@ -148,7 +148,7 @@ The result of this process is a **semantic data model**. It does not represent t
 **Semantic data model**
 
 
-> **Figure:** The graphic illustrates the path from defining a subject domain through the conceptual organization of relevant knowledge to the semantic data model.
+The graphic illustrates the path from defining a subject domain through the conceptual organisation of relevant knowledge to the semantic data model.
 
 ---
 
@@ -196,7 +196,7 @@ You can identify **concepts, events, and relationships** in your own model sketc
 
 **Concepts, events, relationships could be...:**
 
-- **Concepts** refer, for example, to objects, persons, organizations, places, or other central building blocks of the domain.
+- **Concepts** refer, for example, to objects, persons, organszations, places, or other central building blocks of the domain.
 - **Events** refer to occurrences or processes, for example development, production, publication, or exhibition.
 - **Relationships** connect concepts with concepts or concepts with events.
 
@@ -250,7 +250,7 @@ Collection-related research questions may concern, for example:
 >
 > In E1A, we created a first conceptual model sketch by identifying and connecting relevant information about a collection object.
 >
-> We can now describe this process as conceptual knowledge modeling: organizing domain knowledge through concepts, events, and relationships.
+> We can now describe this process as conceptual knowledge modeling: organising domain knowledge through concepts, events, and relationships.
 >
 > This conceptual structure provides the foundation for developing a semantic data model.
 
@@ -266,9 +266,9 @@ Collection-related research questions may concern, for example:
 
 ## Outlook
 
-Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organized. To represent this conceptual organization in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
+Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
 
-> Next: We have conceptually organized domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
+> Next: We have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
 >
 > In Unit 2, we explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
