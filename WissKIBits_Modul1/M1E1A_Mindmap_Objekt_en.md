@@ -56,15 +56,15 @@ Participants can...
 
 ## Goal and scenario
 
-> **Activation · From the object to a conceptual model**
+> **Activation: From the object to a conceptual model**
 >
-> Start with a collection or research object and ask:
+> We start with a collection or research object and ask:
 >
 > **What do we need to know about this object – and how is this knowledge connected?**
 >
-> Use **The Legend of Zelda: A Link to the Past** as an example.
+> We use **The Legend of Zelda: A Link to the Past** as an example.
 >
-> We identify relevant concepts, events, and relationships to describe this example.
+> We identify relevant **concepts, events, and relationships** to describe this example.
 >
 > The goal is not yet to use CIDOC CRM, but to **create a first conceptual model sketch of the domain**.
 
@@ -76,11 +76,13 @@ The computer game **“The Legend of Zelda: A Link to the Past”** serves as th
 
 Using this example, we examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
 
-The **goal is not** to develop a complete data model for computer games. Instead, an **initial model sketch** is created that
+The **goal is not** to develop a complete data model for computer games. 
+
+Instead, we create an **initial model sketch** that
 
 - distinguishes central concepts and events in a way that is understandable to people,
 - makes their relationships visible, and
-- serves as the basis for subsequent mapping to **CIDOC CRM**.
+- serves as the basis for subsequent mapping to CIDOC CRM.
 
 > **Starting from the object**
 >
@@ -88,7 +90,9 @@ The **goal is not** to develop a complete data model for computer games. Instead
 >
 > We use it to explore which concepts, events, and relationships may be relevant for describing such a collection object and its context.
 >
-> **Remember:** The goal is not to develop a complete data model. Start small and focus on what is relevant for understanding this object.
+> **Remember:** The goal is not to develop a complete data model.
+>
+> We start small and focus on what is relevant for understanding this object.
 
 ---
 
@@ -154,21 +158,21 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > Open [Draw.io](https://app.diagrams.net/)
 >
-> Download template
+> Download ![puzzle template](../WissKIBits_Modul1/assets/puzzle.drawio_en.xml)
 >
-> **Note: Use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
+> **Note: We use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
 >
 > **Step 1 · Identify**
 > 
-> Identify 3–5 relevant concepts and events related to the example object.
+> We identify relevant concepts and events related to the example object domain.
 > 
-> These may include an object, person or organization, place, time, or event. 
+> These may include person or organization, place, time, or event and more. 
 >
 > **Step 2 · Connect**
 >
-> Connect the identified elements using meaningful relationships.
+> We connect the relevant elements using meaningful relationships.
 > 
-> Formulate each connection so that it can be read as a meaningful statement; such as....
+> We formulate with each connection meaningful statement about the example object; such as....
 > 
 > **Examples**
 > 
@@ -180,22 +184,23 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > **Step 3 · Check**
 >
-> Read your connections as statements: Do they express what you actually like to describe?
+> We read our connections as statements and ask us: **Do they express what you actually like to describe?**
 >
-> **Tip: Less is more. Focus on a small number of elements and relationships that are particularly relevant to understanding the object.**
+> **Tip: Less is more**
+>
+> We focus on a small number of elements and try to generate particularly relevant assumptions to understanding the object.
 
 ---
 
 ## Result
 
-You now have a first conceptual model sketch containing:
+We now have a first conceptual model sketch containing:
 
 - relevant concepts,
 - events, and
 - meaningful relationships.
 
 ![Concept mind map](../WissKIBits_Modul1/assets/mindmap_en.png)
-
 
 **Keep this sketch: we will return to it after introducing CIDOC CRM.**
 
