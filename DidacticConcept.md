@@ -72,13 +72,23 @@ The content is organized into three sequential topic areas:
 
 This module is aimed at members of the SODa community, such as professors, collection coordinators, managers and curators, and researchers. [3]
 
-## Learning Approach and Format
+## Didactic Concept
 
 The tutorial follows a **research-oriented, action-oriented, and problem-oriented learning approach**. The focus is not on the isolated transmission of knowledge about ontologies and WissKI, but rather on the step-by-step execution of a concrete modeling task. Using a consistent case study, learners develop an ontology-based data model and gradually transform it into a structure compatible with WissKI.
 
 The pedagogical approach combines **demonstrative learning, learning by doing, and guided modeling**. New concepts and procedural steps are introduced and explored using concrete examples before being applied by the learners themselves. This integrates theoretical understanding, methodological reflection, and practical competence.
 
 The structure of the individual units follows Klaus Döring’s **“Inhaling and Exhaling” principle** [1]. Brief, structured inputs of knowledge (“inhaling”) alternate with phases of exploration, modeling, application, testing, and reflection (“exhaling”). Exercises, quizzes, and prompts for reflection help learners verify their understanding and justify their modeling decisions.
+
+## Learning Format: Dual Use
+
+The tutorial is designed as a **modular, guided self-study Open Educational Resource (OER) with dual use in self-paced and facilitated learning settings.**
+
+In **guided self-study**, learners can work through the tutorial at their own pace. Short knowledge inputs, step-by-step tasks, examples, reflection prompts, quizzes, and opportunities for self-assessment provide guidance throughout the modeling process.
+
+In **facilitated learning settings**, such as workshops or training sessions, the same core activities can be carried out collaboratively and extended through discussion, peer exchange, and facilitator feedback.
+
+The **learning objectives and core modeling tasks remain consistent across both modes.** What changes is the form of interaction, guidance, reflection, and feedback. This allows the same OER to support individual learning as well as collaborative teaching and training contexts without requiring separate versions of the learning resource.
 
 ### Competence-Oriented Learning Paths
 
@@ -94,13 +104,31 @@ The learning process consistently follows this principle:
 
 > **Orient → Explore → Model → Apply → Test → Reflect → Extend**
 
-The tutorial is designed as a **modular, self-paced Open Educational Resource (OER)**. Integrating learning objectives, research activities, and practical modeling tasks supports both the development of disciplinary orientation and the transfer of knowledge into concrete research and data practices.
+This recurring learning process connects the **competence-oriented learning path** (QUELLE https://zenodo.org/records/20829481) with the tutorial’s **dual-use design**. Learning objectives, research activities, and practical modeling tasks provide a common didactic structure across both guided self-study and facilitated learning settings, supporting the transfer of conceptual understanding into concrete research and data practices.
 
 ---
 
-## Subject Areas and Topics
+## Didactic Profile
 
----
+The following profile summarizes the didactic design and intended modes of use of the tutorial.
+
+| Dimension | Design |
+
+> |---|---|
+> | **Resource type** | Guided how-to tutorial / OER |
+> | **Learning mode** | Guided self-study or facilitator-guided learning |
+> | **Pacing** | Self-paced or facilitator-paced |
+> | **Interaction** | Individual or collaborative |
+> | **Learning approach** | Research-, action-, and problem-oriented |
+> | **Learning methods** | Demonstration, learning by doing, guided modeling, reflection |
+> | **Learning process** | Orient → Explore → Model → Apply → Test → Reflect → Extend |
+> | **Guidance and feedback** | Instructions, examples, scaffolds, quizzes, reflection and self-assessment; optional peer and facilitator feedback |
+> | **Progression** | Cumulative, competence-oriented learning path |
+> | **Modularity** | Individual units or complete three-module learning path |
+> | **Learning contexts** | Self-study, workshop, training, teaching |
+> | **Case-based learning** | Continuous computer-game collection case study |
+
+--
 
 ## Prerequisites for the Tutorial
 
@@ -122,35 +150,37 @@ The three modules build upon one another. Therefore, to complete the full learni
 
 ## Units and Time Requirements
 
-**Total duration Module 1: approx. 90 min.**
+**Total duration of Module 1: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives, and schedule | 5 min. |
-| 1 | Basic concepts of conceptual knowledge modeling | 20 min. |
+| 0 | Welcome, objectives and structure | 5 min. |
+| E1A| Activation: Collection object "Zelda" | 15 min. |
+| 1 | Basic concepts of conceptual knowledge modeling | 10 min. |
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
 | 4 | FAIR compliance with WissKI | 15 min. |
-| Ex 1 | Application example: object collections – "Zelda" model sketch | 30 min. |
+| E1E | Excersise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
-**Total duration Module 2: approx. 90 min.**
+**Total duration of Module 2: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives, and schedule | 10 min. |
-| 1 | Semantic modeling methods and workflows | 5 min. |
-| 2 | Introduction to Protégé | 20 min. |
-| Ex 1 | Semantic modeling with CIDOC CRM | 55 min. |
+| 0 | Welcome, objectives and structure | 5 min. |
+| E1A | Activation: | xx min. |
+| 1 | Methods and workflows of semantic modeling | xx min. |
+| 2 | Introduction to Protégé | xx min. |
+| E1E | Excersise: Semantic modeling with CIDOC CRM | xx min. |
 |  | **Total** | **90 min.** |
 
-**Total duration Module 3: approx. 90 min.**
+**Total duration of Module 3: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives, and schedule | 10 min. |
-| Ex 1 | Visualizing semantic data models | 35 min. |
-| Ex 2 | Transforming semantic models into WissKI paths | 40 min. |
+| 0 | Welcome, objectives and workflow | 10 min. |
+| E1 | Visualizing semantic data models | 35 min. |
+| E2 | Transforming semantic models into WissKI paths | 40 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -158,6 +188,10 @@ The three modules build upon one another. Therefore, to complete the full learni
 ## Learning Objectives in Module 1: **From Collection to Modeling Decisions to Diagram – Understanding and Explaining**
 
 Upon completion of Module 1, participants will be able to…
+
+**E1A: Application example from object collections**
+
+- Apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 
 **1. Basic concepts of conceptual knowledge modeling**
 
@@ -216,7 +250,7 @@ Upon completion of Module 1, participants will be able to…
 - Identify the Resource Description Framework (RDF) as a standard for describing resources. (LZ-ID SODa\_03\_007\_0843)
 - Identify the benefits of the scientific communication infrastructure WissKI. (LZ-ID SODa\_01\_010\_0204)
 
-**Ex. 1: Application example – object collections**
+**E1: Application example – object collections**
 
 - Apply core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
 - Identify the data type properties of the CIDOC CRM reference model. (LZ-ID SODa\_03\_007\_0808)
@@ -226,6 +260,9 @@ Upon completion of Module 1, participants will be able to…
 ## Learning Objectives for Module 2: **Modeling with CIDOC CRM – Understanding and Application**
 
 Upon completion of Module 2, participants will be able to…
+
+**E1A: xxxx**
+
 
 **1. Semantic Modeling Methods and Workflows**
 
@@ -245,7 +282,7 @@ Upon completion of Module 2, participants will be able to…
 - Name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO ID SODa\_03\_007\_0784a)
 - Explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-**Ex. 1. Semantic modeling with CIDOC CRM**
+**E2. Semantic modeling with CIDOC CRM**
 
 - Apply an ontology to describe resources. (LO ID 03\_007\_0780)
 - Apply methods for ontology development. (LO ID SODa\_03\_007\_0854)
@@ -275,7 +312,7 @@ Upon completion of Module 3, participants will be able to…
 - Apply rules for modeling a domain ontology using visualization software. (LO ID SODa_03_007_0816)
 - Apply attribute values ​​to predefined classes of the domain ontology within visualization software. (LZ-ID SODa_03_007_0817)
 
-**Ü2. Transformation of semantic models into WissKI paths**
+**E3. Transformation of semantic models into WissKI paths**
 
 - Explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa_03_007_0804)
 - Apply data conversion from visualization software into a reusable file format under guidance. (LZ-ID SODa_02_005_0298a)
