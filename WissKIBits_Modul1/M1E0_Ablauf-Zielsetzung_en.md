@@ -113,7 +113,7 @@ We will:
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
-| E1A| Activation: Collection object "Zelda" | 15 min. |
+| E1A | Activation: Collection object "Zelda" | 15 min. |
 | 1 | Basic concepts of conceptual knowledge modeling | 10 min. |
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
