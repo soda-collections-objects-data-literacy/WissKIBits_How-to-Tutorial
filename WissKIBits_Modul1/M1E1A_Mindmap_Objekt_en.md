@@ -186,7 +186,7 @@ You now have a first conceptual model sketch containing:
 - events, and
 - meaningful relationships.
 
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
+![Concept mind map](../WissKIBits_Modul1/assets/mindmap_en.png)
 
 
 **Keep this sketch: we will return to it after introducing CIDOC CRM.**
