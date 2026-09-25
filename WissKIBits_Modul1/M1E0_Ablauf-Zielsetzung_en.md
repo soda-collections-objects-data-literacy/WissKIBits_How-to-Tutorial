@@ -71,7 +71,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ---
 
-## Why we model semantically?
+## Why we Model Semantically?
 
 - Research and collection data are complex object and contextual data. They describe not only objects and their properties. They arise in the context of scholarly research and are connected with historical, cultural, and social meanings and relationships.
 - Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
@@ -85,7 +85,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ---
 
-## Guiding question
+## Guiding Question
 
 Our guiding question through this module is:
 
@@ -93,7 +93,7 @@ Our guiding question through this module is:
 
 ---
 
-## Module objectives
+## Module Objectives
 
 We will learn how to move from a collection perspective to a modeling perspective. 
 
@@ -106,7 +106,7 @@ We will:
 
 ---
 
-## Module structure
+## Module Structure
 
 **Total duration of Module 1: approx. 90 min.**
 
@@ -123,7 +123,7 @@ We will:
 
 ---
 
-## Learning objectives of the module
+## Learning Objectives of the Module
 
 After completing Module 1, participants can…
 
@@ -134,7 +134,7 @@ After completing Module 1, participants can…
 - ....
 
   
-### 1. Basic concepts of conceptual knowledge modeling
+### 1. Basic Concepts of Conceptual Knowledge Modeling
    
 - name the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0847)
 - explain the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0848)
@@ -147,7 +147,7 @@ After completing Module 1, participants can…
 - name the term semantic data model. (LO-ID SODa\_03\_007\_0845)
 - explain the term semantic data model. (LO-ID SODa\_03\_007\_0846)
 
-### 2. Fundamentals of ontologies
+### 2. Fundamentals of Ontologies
    
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)
@@ -174,7 +174,7 @@ After completing Module 1, participants can…
 - explain the term domain ontology. (LO-ID SODa\_03\_007\_0828)
 - name the benefits of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0805)
  
-### 4. FAIR compliance with WissKI
+### 4. FAIR Compliance with WissKI
 
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
 - name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
@@ -191,14 +191,14 @@ After completing Module 1, participants can…
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### E1E. Application example for object collections
+### E1E. Application Example for Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
   
 ---
 
-## Learning path through the module
+## Learning Path through the Module
 
 We move step by step from a collection perspective to a semantic model.  
 
@@ -229,7 +229,7 @@ The following diagram illustrates the learning path of the module:
 
 ---
 
-## Working method and example
+## Working Method and Example
 
 The module combines short inputs alternate with analysis, discussion, and modeling activities:
 
@@ -259,7 +259,7 @@ Experience with collection, object, or research data is helpful.
 
 ---
 
-## Result and outcome of the module
+## Result and Outcome of the Module
 
 At the end of Module 1, we will have developed a first **conceptual model sketch** showing relevant **concepts and events, their relationships**, and **initial mappings to CIDOC CRM**.
 
