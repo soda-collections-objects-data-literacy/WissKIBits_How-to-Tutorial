@@ -54,7 +54,7 @@ Unit 0: **Welcome, objectives and structure**
 
 In this module, we use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
 
-In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, we develop the conceptual foundation of this data model. To do so, we analyze object data and contextual information from a specialist domain. We identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, we develop the conceptual foundation of this data model. To do so, we analyse object data and contextual information from a specialist domain. We identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
 
 The goal is to document the domain-specific logic in such a way that modeling decisions become transparent and research data can later be recorded, linked, analyzed, and reused consistently.
 
@@ -65,9 +65,9 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 > **What is the module about?**
 >
-> We start with **information about an object** and gradually *develop a semantic data model**.
+> We start with **information about an object** and gradually *develop a semantic data model*.
 >
-> Along the way, we identify **concepts, events, and relationships**, make their meaning explicit, and prepare them for later implementation in WissKI.
+> Along the way, we identify **concepts, events, and relationships** from a domain, make their meaning explicit, and prepare them for later implementation in WissKI.
 
 ---
 
@@ -87,7 +87,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ## Guiding question
 
-Our guiding question through this module is..
+Our guiding question through this module is:
 
 > **How can information about an object be transformed into a transparent, interoperable semantic data model that can be implemented in WissKI?**
 
