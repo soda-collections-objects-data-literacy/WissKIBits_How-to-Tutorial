@@ -44,7 +44,7 @@ Module 2: **Modeling with CIDOC CRM – Understanding and Applying**
 
 Activation Unit M2E1A: **Mapping the conceptual model to CIDOC CRM**  
 
-**Duration:** ~ 30 min.
+**Duration:** ~ 15 min.
 
 **Learning Objectives:**
 
