@@ -121,7 +121,7 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ---
 
-## From Domain Knowledge to a Smeantic Data Model
+## From Domain Knowledge to a Semantic Data Model
 
 **Learning path**#
 
