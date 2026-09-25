@@ -89,7 +89,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 ---
 
-## Starting point: Example object “Zelda”
+## Starting Point: Example Object “Zelda”
 
 The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
 
@@ -138,7 +138,7 @@ We use this example, an analysis was conducted to determine which **concepts, ev
 
 --
 
-## Focus of this modeling exercise
+## Focus of this Modeling Exercise
 
 For the model sketch, we consider selected information regarding the example object. In doing so, we focus on three areas:
 
