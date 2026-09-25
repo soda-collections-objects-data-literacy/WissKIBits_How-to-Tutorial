@@ -80,7 +80,7 @@ The result forms the basis for the subsequent implementation of the ontology str
 
 ---
 
-## Guiding question
+## Guiding Question
 
 Our guiding question is...
 
@@ -88,7 +88,7 @@ Our guiding question is...
 
 ---
 
-## Objectives of the module
+## Objectives of the Module
 
 In this module, we will learn how to:
 
@@ -101,7 +101,7 @@ In this module, we will learn how to:
   
 ---
 
-## Structure of the module
+## Structure of the Module
 
 **Total duration of module 2: approx. 90 min.**
 
@@ -117,18 +117,18 @@ In this module, we will learn how to:
   
 ---
 
-## Learning objectives of the module
+## Learning Objectives of the Module
 
 After completing Module 2, participants can…
 
-### E2A. Setting up the working environment with Protégé
+### E2A. Setting up the Working Environment with Protégé
 
 - name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
 - use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
 - analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_xx\_xxx\_xxxx)
 
 
-### 1. Methods and workflows of semantic modeling
+### 1. Methods and Workflows of Semantic Modeling
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
@@ -146,7 +146,7 @@ After completing Module 2, participants can…
 - name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-### E2. Semantic modeling with CIDOC CRM
+### E2. Semantic Modeling with CIDOC CRM
 
 - apply an ontology for describing resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
@@ -158,11 +158,11 @@ After completing Module 2, participants can…
 
 ---
 
-## Learning path through the module
+## Learning Path through the Module
 
 The diagram illustrates the learning path of the module.
 
-**Conceptual model sketch from Module 1**
+**Conceptual Model Sketch from Module 1**
  
 ↓
    
@@ -195,7 +195,7 @@ The diagram illustrates the learning path of the module.
 
 ---
 
-## Working method and example
+## Working Method and Example
 
 The module combines methodological input, demonstration, and guided application:
 
@@ -250,7 +250,7 @@ Participants should…
 
 ---
  
-## Result and outcome of the module
+## Result and Outcome of the Module
 
 At the end of Module 2, an initial formally implemented domain ontology or ontology extension is available. 
 
@@ -274,6 +274,6 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 > In the next module, we import the ontology into WissKI and use it to define groups and semantic paths in the WissKI Pathbuilder.
 ---
 
-## Editorial notes
+## Editorial Notes
 
 - The schedule is designed for a total of 90 minutes and can be adjusted depending on the scope of the practical exercise.
