@@ -44,7 +44,7 @@ Module 2: **Modeling with CIDOC CRM – Understanding and Applying**
 
 Exercise Unit M2E2E: **Semantic Modeling with CIDOC CRM**  
 
-**Duration:** ~ 55 min.
+**Duration:** ~ 45 min.
 
 **Learning Objectives:**
 
@@ -62,11 +62,11 @@ Participants will be able to...
 
 ## Objective and scenario
 
-This is a practical exercise. The starting point is the conceptual model of the video game domain developed in Module 1.
+This is a practical exercise. 
+
+The starting point is the conceptual model of the video game domain developed in Module 1.
 
 Using **“The Legend of Zelda: A Link to the Past”** as an example, we will examine how this conceptual model sketch can be gradually transformed into a **formal ontology structure**.
-
-In M2E1A, we mapped selected concepts and relationships from the conceptual model to CIDOC CRM and justified your modelling decisions using the Scope Notes.
 
 In this exercise, we will formalise these decisions in Protégé by creating domain-specific subclasses and integrating them into the CIDOC CRM structure.
 
@@ -74,21 +74,51 @@ At the end of the exercise, we will have a formally implemented section of the d
 
 ---
 
-## Focus of this modeling exercise
+## Starting point: The conceptual model from Module 1
 
-The focus is on four fundamental steps:
+In Module 1, we developed a conceptual model sketch describing concepts and relationships in the computer games domain:
 
-**Step 2: Select and justify CIDOC CRM classes**
+![Concept Mind Map](../WissKIBits_Modul2/assets/mindmap_en.png)
 
-**Step 3: Create domain-specific subclasses**  
+> **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
-**Step 4: Review the model and document modeling decisions**
+From this we have discussed a first mapping to some CIDOC CRM classes.
+
+For this exercise, we will focus on selected statements from this model:
+
+> Computer game → **has title** → Game title
+>
+> Computer game → **has type** → Genre
+>
+> Computer game → **has type** → Platform type
+
+We will now investigate how these domain statements can be represented using CIDOC CRM and implemented in Protégé.
+
+---
+
+## From the conceptual model to a formal ontology
+
+During the exercise, we will move between three levels:
+
+| Level | Example |
+|---|---|
+| Domain statement | Game has title |
+| Semantic modelling | E73 Information Object – P102 has title – E35 Title |
+| Formal ontology structure | Domain-specific classes and relationships represented in OWL |
+
+The important point is that these levels serve different purposes.
+
+The **domain statement** expresses what we want to say about the research object.
+
+The **CIDOC CRM mapping** identifies ontology elements that can represent this meaning.
+
+The **formal ontology structure** makes the modelling decision machine-readable.
 
 ---
 
 ## Exercise – Implementing the model in Protégé
 
-**Format:** Individual work or teams (2–4 people)
+**Format:** Individual work or teams (2 people)
 
 **Materials:** Computer with Protégé Desktop, provided Erlangen CRM OWL file, model sketch from Module 1 [Link]
 
@@ -105,19 +135,7 @@ To work with Protégé, either
 
 must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
 
-**Note:**
-
-> Approximately 5 minutes are allocated for the setup.
-
 ----
-
-##Preparation
-
-Open the Erlangen CRM/OWL ontology in Protégé as introduced in M2E2.
-
-Have your mapping table from M2E1A available. It contains the CIDOC CRM classes and properties that you will use in this exercise.
-
----
 
 ### Step 1: Load Erlangen CRM and explore its structure
 
@@ -134,46 +152,65 @@ Open Protégé Desktop and load the provided OWL implementation of CIDOC CRM:
 > **Video:** The video demonstrates the first steps in Protégé and how to load Erlangen CRM / OWL.
 
 
-Then briefly explore the structure of the ontology and locate the following classes in the class hierarchy:
+### Step 2: Explore relevant CIDOC CRM classes
+
+Locate the following classes in the class hierarchy:
 
 - **E41 Appellation**
 - **E35 Title**
 - **E55 Type**
 - **E73 Information Object**
 
-In particular, examine:
+For each class, examine:
 
-- Where is the class located in the hierarchy?
-- Which superclasses and subclasses are visible?
-- What description or annotation is provided?
-- Which properties are used for the class?
+- its position in the hierarchy,
+- its superclasses and subclasses,
+- its description and annotations,
+- and the information provided in its Scope Note.
 
 **Note:**
 
-> Pay particular attention to **E41 Appellation** and **E35 Title**: E35 Title is a subclass of E41 Appellation. This illustrates how more general and more specific concepts are connected within an ontology.
+Pay particular attention to **E41 Appellation** and **E35 Title**.
 
----
-### Step 2: Implement the relationships
-
-We use the properties selected in M2E1A to represent the relationships between your domain-specific classes.
-
-Then, we compare the resulting formal structure with the intended domain statements:
-
-- Computer_Game → P102 has title → Game_Title
-- Computer_Game → P2 has type → Game_Genre_Type
-- Computer_Game → P2 has type → Game_Platform_Type
-
-We do not select the properties again. 
-
-Instead we use this step to check how the modelling decisions from M2E1A are represented in the formal ontology structure.
+**E35 Title** is a subclass of **E41 Appellation**. The hierarchy therefore shows how a more specific concept can be placed within a more general conceptual structure.
 
 ---
 
-### Step 3: Document domain spscific classes
+### Step 3: Compare domain concepts with CIDOC CRM classes
 
-Now create the domain-specific subclasses in Protégé.
+Now return to the concepts in the conceptual model.
 
-The subclasses should be placed under the previously selected CIDOC CRM classes:
+Consider the following possible mappings:
+
+| Domain concept | Possible CIDOC CRM class |
+|---|---|
+| Computer game | E73 Information Object |
+| Game title | E35 Title |
+| Game genre type | E55 Type |
+| Game platform type | E55 Type |
+
+For each proposed mapping, examine the relevant Scope Note.
+
+Ask:
+
+- What does the CIDOC CRM class describe?
+- Does this meaning correspond to our domain concept?
+- Which information in the Scope Note supports the mapping?
+- Are alternative mappings possible?
+
+> **Important**
+>
+> The suitability of a class is determined by its **meaning within the reference model**, not simply by its name.
+
+Briefly document your reasoning for at least one mapping.
+
+---
+
+### Step 4: Create domain-specific subclasses
+
+Now use the modelling decisions to extend the ontology with concepts from the computer games domain.
+
+Create the following domain-specific subclasses in Protégé:
 
 ```text
 E73 Information Object
@@ -185,7 +222,6 @@ E35 Title
 E55 Type
 ├── Game_Genre_Type
 └── Game_Platform_Type
-
 
 **Example: For genre or platform**
 
@@ -294,10 +330,8 @@ Then save the extended ontology as an **OWL file**.
 
 ## Outlook
 
-In this exercise, the domain model developed in Module 1 was **formally implemented in Protégé** for the first time.
-
-Three levels were connected:
-
-> **domain statement → CIDOC CRM modeling → OWL formalization**
-
-The saved OWL file provides the basis for **Module 3**.
+> **Next**
+>
+> In Module 3, we will take the next step towards the technical implementation of the semantic model in WissKI.
+>
+> We will visualise and transform the model and use it to create semantic paths and path groups in the WissKI Pathbuilder.
