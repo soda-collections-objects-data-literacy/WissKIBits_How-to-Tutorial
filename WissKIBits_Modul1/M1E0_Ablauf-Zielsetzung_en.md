@@ -286,7 +286,7 @@ The technical implementation of the model using CIDOC CRM and the WissKI Pathbui
 
 ---
 
-## Editorial notes
+## Editorial Notes
 
 - The schedule is designed for a total of 90 minutes and can be adjusted depending on group size.
 
