@@ -65,7 +65,7 @@ Participants can...
 
 ---
 
-## Visualizing a Domain Ontology as a Diagram with Draw.io
+## Visualising a Domain Ontology as a Diagram with Draw.io
 
 In this unit, the data model developed in Modules 1 and 2 is visualized as a diagram in Draw.io (Ltd2026drawio). 
 
@@ -133,21 +133,21 @@ The following quiz is intended to reactivate the central concepts of the domain 
 Which central concepts are relevant to the example object in the context of game features and narrative elements?
 
 
-### Which example object is used in the module? 
+### Which Example Object is used in the Module? 
 
 * [( )] A PC game: *Minecraft*
 * [(x)] An SNES game: *The Legend of Zelda*
 * [( )] A PlayStation console: *PS1*
 * [( )] An arcade machine: *Pac-Man*
 
-### Which semantic assumption is explicitly made in the example?
+### Which Semantic Assumption is Explicitly made in the Example?
 
 * [( )] The game is “Open World”
 * [(x)] The title of the object is defined as *The Legend of Zelda: A Link to the Past*
 * [( )] The game is a “Collector’s Edition”
 * [( )] The platform is “PC”
 
-### Which of the following concepts are **game features**?
+### Which of the following Concepts are **Game Features**?
 
 * [[ ]] Perspective
 * [[X]] Genre
@@ -155,7 +155,7 @@ Which central concepts are relevant to the example object in the context of game
 * [[X]] Platform
 * [[ ]] Manufacturer
 
-### Which of the following concepts are **narrative elements**?
+### Which of the following Concepts are **Narrative Elements**?
 
 * [[X]] Perspective
 * [[X]] Game description
