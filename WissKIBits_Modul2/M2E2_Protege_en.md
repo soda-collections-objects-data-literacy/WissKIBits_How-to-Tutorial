@@ -44,7 +44,7 @@ Modul 2: **Modeling with CIDOC CRM – understand and apply**
 
 Unit 2: **Introduction in Protégé**  
 
-**Duration:** ~ 20 min.
+**Duration:** ~ 10 min.
 
 **Learning Objectives:**
 
