@@ -51,7 +51,7 @@ Activation Unit E1A: **Application Example from Object Collections**
 Participants can...
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
-- apply the method of conceptual modelling to describe a research object. (LO-ID SODa\_xx\_xxx\_xxxx)
+- apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa\_xx\_xxx\_xxxx)
 
 ---
 
