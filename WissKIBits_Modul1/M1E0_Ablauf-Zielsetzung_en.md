@@ -129,7 +129,7 @@ After completing Module 1, participants can…
 
 ### E1A. From....
 
-- 
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 - apply the method of conceptual modelling to describe a research object. (LO-ID SODa_xx_xxx_xxxx)
   
 ### 1. Basic Concepts of Conceptual Knowledge Modeling
