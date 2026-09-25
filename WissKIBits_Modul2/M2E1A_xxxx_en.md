@@ -50,138 +50,127 @@ Activation Unit M2E1A: **Mapping the conceptual model to CIDOC CRM**
 
 Participants will be able to...
 
-- ....????
+- ....???
 
 ---
 
-## Objective and scenario
+## Objective
 
-This exercise provides a documented mapping of selected domain concepts and relationships to suitable CIDOC CRM classes and properties.
+Before we start working with Protégé, let us establish our starting point.
 
----
+Some of you may already have experience with ontology editors or Protégé, while others may be using them for the first time. You may also be working with either **Protégé Desktop** or **WebProtégé**.
 
-## Starting point: Model from module 1
+This short activation helps you:
 
-In Module 1, a model sketch was developed describing key concepts and relationships in the video game domain:
+- reflect on your previous experience with Protégé,
+- decide which version of Protégé you will use,
+- and make sure that your working environment is ready for the practical activities in this module.
 
-![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
-
-> **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
-
-The collected domain terms will now be gradually formalized using CIDOC CRM and Protégé.
-
-For this exercise, the following can be selected, among others:
-
-> Video game → **has title** → Game title
->
-> Video game → **has type** → Genre
->
-> Video game → **has type** → Platform type
-
-
-We distinguish between three levels:
-
-| Level                    | Example                                             |
-| ------------------------ | --------------------------------------------------- |
-| Domain statement         | Game has title                                      |
-| Semantic modeling        | E73 Information Object – P102 has title – E35 Title |
-| Formal OWL structure     | `Computer_Game SubClassOf P102 some Game_Title`     |
+No previous experience with Protégé is required.
 
 ---
 
-## Example: From the sketch model to the ontology
+## Activation – What is your starting point?
 
-In Module 1, the following was initially formulated at the domain level:
+Consider the following questions: Have you worked with Protégé before?
 
-> Game → has title → Title
+Choose the option that best describes your experience:
 
-For semantic modeling, we will now examine which elements of the CIDOC CRM can be used to express this statement.
+- I have **not used Protégé before**.
+- I have **seen or explored Protégé**, but have not created or edited an ontology myself.
+- I have **worked with Protégé before**.
+- I regularly use **Protégé or another ontology editor**.
 
-One possible starting point is:
-
-| Element           | Possible CIDOC CRM Mapping |
-| ----------------- | -------------------------- |
-| **Video game**    | E73 Information Object     |
-| **Game title**    | E35 Title                  |
-| **Relationship**  | P102 has title             |
-
-
-At the same time, **E35 Title** is a more specific form of **E41 Appellation**. The class hierarchy thus makes explicit that a title is a particular form of appellation.
+> **Reflection**
+>
+> If you have worked with Protégé before: What did you use it for?
+>
+> If Protégé is new to you: What do you expect an ontology editor to allow you to do?
 
 ---
 
-### Step 2: Select and review appropriate CIDOC CRM classes
+## Which version will you use?
 
-In Protégé, find the appropriate class for each domain term and review the class's Scope Note.
+Protégé can be used in different environments.
 
-Justify your selection.
+For the practical activities in this module, you can work with either:
 
-**Example**
+- the desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)),installed locally on your computer or
+- an account for the web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
 
-> **E73 Information Object**
->
-> **E35 Title**
->
-> **E55 Type**
+must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
 
-Assign an appropriate CIDOC CRM class to each domain term and justify your decision.
+Choose the environment that you will use for the exercises.
 
-| Domain Term        | Possible CIDOC CRM Class |
-| ------------------ | ------------------------ |
-| Computer Game      | E73 Information Object   |
-| Game Title         | E35 Title                |
-| Game Genre Type    | E55 Type                 |
-| Game Platform Type | E55 Type                 |
+---
 
+## Exercise – Implementing the model in Protégé
 
-**Justifications**
+**Format:** Individual work or teams (2–4 people)
 
-Computer Game – E73 Information Object
+**Materials:** Computer with Protégé Desktop, provided Erlangen CRM OWL file, model sketch from Module 1 [Link]
 
-↓  
+**Time:** ~ 30 min.
 
-Game Title – E35 Title
+**Task: Recreate a section of the domain model in Protégé**
 
-↓  
+**Prerequisite:**
 
-Game Genre Type – E55 Type
+To work with Protégé, either
 
-↓  
+- the desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) or
+- an account for the web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
 
-Game Platform Type – E55 Type
-
+must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
 
 **Note:**
 
-> The suitability of a class is determined not by its name, but by its meaning within the reference model.
+> Approximately 5 minutes are allocated for the setup.
 
+**Check your technical setup**
 
-**Guiding questions for reviewing the class may include**
+Before continuing, make sure that you can access your chosen Protégé environment.
 
-- What does the CIDOC CRM class describe?
-- Does this meaning correspond to our domain term?
-- Which statement in the Scope Note supports your decision?
-- Are alternative mappings possible?
+**Protégé Desktop**
+
+If you are using **Protégé Desktop**, check that:
+
+- Protégé is installed,
+- the application starts correctly,
+- and you can open the ontology editor.
+
+**WebProtégé**
+
+If you are using **WebProtégé**, check that:
+
+- you can access WebProtégé,
+- you have an account,
+- and you can sign in successfully.
+
+> **Important**
+>
+> At this stage, you do **not** need to load CIDOC CRM or create any classes or properties.
+>
+> The aim is simply to make sure that your working environment is ready.
 
 ---
 
-**Document your mapping**
-
-Record the modelling decisions that you want to take forward into Protégé.
-
-| Domain element | Intended meaning | CIDOC CRM element | Evidence from Scope Note | Decision |
-
-> |---|---|---|---|---|
-> | Computer game |  |  |  |  |
-> | Game title |  |  |  |  |
-> | has title |  |  |  |  |
-> | Genre |  |  |  |  |
-> | has type |  |  |  |  |
-
-
 ## Outcome
 
-You have mapped selected concepts and relationships from the conceptual model to CIDOC CRM classes and properties and justified your decisions using the Scope Notes.
+At the end of this activation unit, you have:
 
-Keep your mapping table. You will use these decisions to formalise the model in Protégé in M2E2E.
+- reflected on your previous experience with Protégé,
+- selected **Protégé Desktop or WebProtégé** as your working environment,
+- and checked that you can access the ontology editor.
 
+You are now ready to explore the basic functions of Protégé in M2E2 and use them for semantic modelling with CIDOC CRM in M2E2E.
+
+---
+
+## Outlook
+
+> **Next:**
+>
+> Introduction to practical modeling workflow and Protégé
+>
+> We will explore the ontology editor and the functions needed for the practical modelling exercise.
