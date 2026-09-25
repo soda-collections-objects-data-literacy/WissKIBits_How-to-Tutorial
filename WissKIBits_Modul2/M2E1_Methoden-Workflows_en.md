@@ -59,7 +59,7 @@ Participants can...
 
 ---
 
-## Methods and workflows of semantic modeling
+## Methods and Workflows of Semantic Modeling
 
 The development of a domain ontology typically follows a methodological, multi-stage, and iterative approach. 
 
@@ -77,7 +77,7 @@ Practical ontology development is often understood as a process that integrates 
 
 ---
 
-## Four approaches to ontology development
+## Four Approaches to Ontology Development
 
 Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
@@ -87,7 +87,7 @@ Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 - **Iterative prototyping:** A model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
 
 
-### A practical modeling workflow
+### A Practical Modeling Workflow
 
 Semantic modeling is iterative: reviewing the model ay lead back to earlier steps. 
 
@@ -117,7 +117,7 @@ The diagram illustrates the workflow of semantic modeling.
 
 ---
 
-## Modeling strategy 
+## Modeling Strategy 
 
 We have to decide between class alignement or relationships.
 
