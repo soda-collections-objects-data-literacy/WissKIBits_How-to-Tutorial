@@ -100,7 +100,7 @@ CIDOC CRM provides a **common conceptual framework** for describing cultural inf
 
 ---
 
-## Content and principles of CIDOC CRM
+## Content and Principles of CIDOC CRM
 
 **Getting to know CIDOC CRM**
 
@@ -149,7 +149,7 @@ Use it for orientation and for exploring the model. For the precise definition a
 
 ---
 
-## Central concepts in CIDOC CRM
+## Central Concepts in CIDOC CRM
 
 | Concept           | Example class (Entity)       | Meaning                                  |
 |-------------------|------------------------------|------------------------------------------|
@@ -168,7 +168,7 @@ Use it for orientation and for exploring the model. For the precise definition a
 
 ---
 
-## Class hierarchy and Scope Notes
+## Class Hierarchy and Scope Notes
 
 The **Scope Note** of a CIDOC CRM class specifies:
 
@@ -208,7 +208,7 @@ The **Scope Note** of a CIDOC CRM class specifies:
 
 ---
 
-## Expressing meaning with CIDOC CRM
+## Expressing Meaning with CIDOC CRM
 
 CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (SIG2024cidoc, p. 33)
 
@@ -252,7 +252,7 @@ Statements about resources take the form of **triples: subject–predicate–obj
 
 ---
 
-## Top-level vs. domain ontologies
+## Top-Level vs. Domain Ontologies
 
 A **top-level ontology** describes general concepts such as time, space, or events independently of a specific subject or application area or a particular problem. (Rehbein2017ontologies, p. 165)
 
@@ -275,7 +275,7 @@ A **domain ontology** specifies fundamental concepts of a top-level ontology for
 
 ---
 
-## Relevance and benefits of CIDOC CRM 
+## Relevance and Benefits of CIDOC CRM 
 
 WissKI uses CIDOC CRM because it …
 
