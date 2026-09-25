@@ -112,7 +112,7 @@ You will:
 
 After completing Module 3, participants can…
 
-### Ü1. Visualizing semantic data models
+### Ü1. Visualising Semantic Data Models
 
 - Name software for visualizing a domain ontology. (LZ-ID SODa\_03\_007\_0812)
 - Explain software for visualizing a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
@@ -126,7 +126,7 @@ After completing Module 3, participants can…
 - Apply rules for modeling a domain ontology using visualization software. (LZ-ID SODa\_03\_007\_0816)
 - Apply attribute values to predefined classes of the domain ontology in visualization software. (LZ-ID SODa\_03\_007\_0817)
 
-### Ü2. Transforming semantic models into WissKI paths
+### Ü2. Transforming Semantic Models into WissKI Paths
 
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
 - With guidance, perform data conversion from visualization software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
@@ -218,7 +218,7 @@ The content from Module 1 and Module 2, or comparable basic knowledge and work r
 - as well as the [domain ontology](http://games.m-e-g-a.org/game_domain.rdf) used in the tutorial and the reference ontology [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
 
-## Result and outcome of the module
+## Result and Outcome of the Module
 
 > ** What you will take away**
 >
