@@ -60,7 +60,7 @@ Participants will be able to...
 
 ---
 
-## Objective and scenario
+## Objective and Scenario
 
 This is a practical exercise. 
 
@@ -74,7 +74,7 @@ At the end of the exercise, we will have a formally implemented section of the d
 
 ---
 
-## Starting point: The conceptual model from Module 1
+## Starting Point: The Conceptual Model from Module 1
 
 In Module 1, we developed a conceptual model sketch describing concepts and relationships in the computer games domain:
 
@@ -96,7 +96,7 @@ We will now investigate how these domain statements can be represented using CID
 
 ---
 
-## From the conceptual model to a formal ontology
+## From the Conceptual Model to a Formal Ontology
 
 During the exercise, we will move between three levels:
 
@@ -116,7 +116,7 @@ The **formal ontology structure** makes the modelling decision machine-readable.
 
 ---
 
-## Exercise – Implementing the model in Protégé
+## Exercise – Implementing the Model in Protégé
 
 **Format:** Individual work or teams (2 people)
 
@@ -137,7 +137,7 @@ must be set up via the [**official Protégé website**](https://protege.stanford
 
 ----
 
-### Step 1: Load Erlangen CRM and explore its structure
+### Step 1: Load Erlangen CRM and Explore its Structure
 
 Open Protégé Desktop and load the provided OWL implementation of CIDOC CRM:
 
@@ -152,7 +152,7 @@ Open Protégé Desktop and load the provided OWL implementation of CIDOC CRM:
 > **Video:** The video demonstrates the first steps in Protégé and how to load Erlangen CRM / OWL.
 
 
-### Step 2: Explore relevant CIDOC CRM classes
+### Step 2: Explore Relevant CIDOC CRM classes
 
 Locate the following classes in the class hierarchy:
 
@@ -176,7 +176,7 @@ Pay particular attention to **E41 Appellation** and **E35 Title**.
 
 ---
 
-### Step 3: Compare domain concepts with CIDOC CRM classes
+### Step 3: Compare Domain Concepts with CIDOC CRM Classes
 
 Now return to the concepts in the conceptual model.
 
@@ -206,7 +206,7 @@ Briefly document your reasoning for at least one mapping.
 
 ---
 
-### Step 4: Create domain-specific subclasses
+### Step 4: Create Domain-Specific Subclasses
 
 Now use the modelling decisions to extend the ontology with concepts from the computer games domain.
 
