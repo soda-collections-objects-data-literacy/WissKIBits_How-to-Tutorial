@@ -81,11 +81,11 @@ This unit explains **why ontologies are used and what benefits they offer for co
 
 ---
 
-## Why do we use ontologies?
+## Why Do We Use Ontologies?
 
 When modeling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardized way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
 
-> **Why ontologies?**
+> **Why Ontologies?**
 >
 > Ontologies help us to:
 >
@@ -101,7 +101,7 @@ When modeling research data from the humanities and cultural studies, the aim is
 
 ## Definitions
 
-### Basic concepts of ontologies
+### Basic Concepts of Ontologies
 
 An ontology is a **formal description of a part of the world**, or a **“formal, schematic representation of a domain of knowledge, consisting of a vocabulary and rules for its composition.”** (Weller2013ontologies, p. 207)
 
@@ -127,7 +127,7 @@ The best-known definition describes an ontology as an explicit, formal specifica
 
 ---
 
-### Aspects of ontologies
+### Aspects of Ontologies
 
 Ontologies typically consist of the following building blocks:
 
@@ -174,7 +174,7 @@ Example: A release date must be represented as a date value rather than as a per
 
 ---
 
-## Benefits of ontologies
+## Benefits of Ontologies
 
 Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalization based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
 
