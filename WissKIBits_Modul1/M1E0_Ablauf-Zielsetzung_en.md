@@ -129,10 +129,8 @@ After completing Module 1, participants can…
 
 ### E1A. From....
 
-- learning goal 1
-- learning goal 2
-- ....
-
+- 
+- apply the method of conceptual modelling to describe a research object. (LO-ID SODa_xx_xxx_xxxx)
   
 ### 1. Basic Concepts of Conceptual Knowledge Modeling
    
