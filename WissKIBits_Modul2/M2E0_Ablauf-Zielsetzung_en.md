@@ -121,9 +121,11 @@ In this module, we will learn how to:
 
 After completing Module 2, participants can…
 
-### E2A. Methods and workflows of semantic modeling
+### E2A. Setting up the working environment with Protégé
 
-- name... 
+- name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
+- use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
+- analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_xx\_xxx\_xxxx)
 
 
 ### 1. Methods and workflows of semantic modeling
