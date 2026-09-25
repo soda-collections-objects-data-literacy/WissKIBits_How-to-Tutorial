@@ -54,9 +54,9 @@ Participants can...
 
 ---
 
-## Goal and scenario
+## Goal and Scenario
 
-> **Activation: From the object to a conceptual model**
+> **Activation: From the object to a Conceptual Model**
 >
 > We start with a collection or research object and ask:
 >
@@ -70,7 +70,7 @@ Participants can...
 
 --- 
 
-## Starting point: Example object “Zelda”
+## Starting Point: Example Object “Zelda”
 
 The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
 
@@ -96,7 +96,7 @@ Instead, we create an **initial model sketch** that
 
 ---
 
-## The domain computer games
+## The Domain Computer Games
 
 Computer games are well suited as an example domain because they illustrate different aspects of modeling clearly.
 
@@ -110,7 +110,7 @@ The domain is particularly suitable because it...
 
 This makes the domain a clear starting point for recognizing different perspectives on an object and deriving initial **modeling decisions** from them.
 
-> **Why computer games?**
+> **Why Computer Games?**
 >
 > Computer games provide a useful modeling example because they combine:
 >
@@ -126,7 +126,7 @@ This makes the domain a clear starting point for recognizing different perspecti
 
 ---
 
-## Focus of this activation exercise
+## Focus of this Activation Exercise
 
 For the model sketch, we consider selected information about the example object. We focus on three areas:
 
@@ -146,7 +146,7 @@ These areas serve as the starting point for recognizing different types of **con
 
 ---
 
-## Activation puzzle – Create a mini sketch model of "Zelda"
+## Activation Puzzle – Create a Mini Sketch Model of "Zelda"
 
 **Working format:** Breakout rooms / individual work or teams (2–5 people)  
 
@@ -166,7 +166,7 @@ These areas serve as the starting point for recognizing different types of **con
 > 
 > We identify relevant concepts and events related to the example object domain.
 > 
-> These may include person or organization, place, time, or event and more. 
+> These may include person or organisation, place, time, or event and more. 
 >
 > **Step 2 · Connect**
 >
