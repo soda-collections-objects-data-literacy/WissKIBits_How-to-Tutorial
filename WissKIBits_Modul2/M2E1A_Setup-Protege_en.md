@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Module 2: **Modeling with CIDOC CRM – Understanding and Applying**
 
-Activation Unit M2E1A: **Mapping the conceptual model to CIDOC CRM**  
+Activation Unit M2E1A: **Setting up the working environment with Protégé**  
 
 **Duration:** ~ 15 min.
 
@@ -50,7 +50,9 @@ Activation Unit M2E1A: **Mapping the conceptual model to CIDOC CRM**
 
 Participants will be able to...
 
-- ....???
+- name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
+- use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
+- analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_xx\_xxx\_xxxx)
 
 ---
 
@@ -60,7 +62,7 @@ Before we start working with Protégé, let us establish our starting point.
 
 Some of you may already have experience with ontology editors or Protégé, while others may be using them for the first time. You may also be working with either **Protégé Desktop** or **WebProtégé**.
 
-This short activation helps you:
+This short activation helps us to...
 
 - reflect on your previous experience with Protégé,
 - decide which version of Protégé you will use,
@@ -70,7 +72,7 @@ No previous experience with Protégé is required.
 
 ---
 
-## Activation – What is your starting point?
+## Activation – What is our Starting Point?
 
 Consider the following questions: Have you worked with Protégé before?
 
@@ -89,7 +91,7 @@ Choose the option that best describes your experience:
 
 ---
 
-## Which version will you use?
+## Which Version will you use?
 
 Protégé can be used in different environments.
 
@@ -104,7 +106,7 @@ Choose the environment that you will use for the exercises.
 
 ---
 
-## Exercise – Implementing the model in Protégé
+## Exercise – Implementing the Model in Protégé
 
 **Format:** Individual work or teams (2–4 people)
 
