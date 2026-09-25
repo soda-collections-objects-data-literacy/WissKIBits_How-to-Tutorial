@@ -64,7 +64,7 @@ Participants can...
   
 ---
 
-## Definitions of terms in conceptual knowledge modeling
+## Definitions of Terms in Conceptual Knowledge Modeling
 
 In **conceptual knowledge modeling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organised conceptually.
 
@@ -80,7 +80,7 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 
 ---
 
-### Building blocks of conceptual modeling
+### Building Blocks of Conceptual Modeling
 
 Central elements of conceptual knowledge modeling are **concepts, events, and relationships**:
 
@@ -103,11 +103,11 @@ Examples include “person participated in production,” “production took pla
 
 ---
 
-### From conceptual knowledge to a semantic data model
+### From Conceptual Knowledge to a Semantic Data Model
 
 **Conceptual knowledge modeling** identifies and organises the knowledge relevant to a particular domain.
 
-**Semantic modeling** is preceded by the conceptualization of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modeling** represents this conceptual knowledge structure in a formalized model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modeling (Fichtner2025paths, p. 86).
+**Semantic modeling** is preceded by the conceptualisation of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modeling** represents this conceptual knowledge structure in a formalised model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modeling (Fichtner2025paths, p. 86).
 
 The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner2025paths, p. 58)
 
@@ -121,7 +121,7 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ---
 
-## From domain knowledge to a smeantic data model
+## From Domain Knowledge to a Smeantic Data Model
 
 **Learning path**#
 
@@ -152,7 +152,7 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 ---
 
-## Conceptually organising knowledge from a collection
+## Conceptually Organising Knowledge from a Collection
 
 **Working format:** Short plenum discussion 
 
@@ -164,7 +164,7 @@ The graphic illustrates the path from defining a subject domain through the conc
 >
 > We have sorted elements of domain knowledge and connected them through meaningful relationships.
 >
-> Now use the terminology (concept, event, relationship) introduced in this unit to reflect on your model:
+> Now  we use the terminology (concept, event, relationship) introduced in this unit to reflect on our model:
 >
 > - Which elements are concepts?
 > - Which elements represent events?
@@ -188,7 +188,7 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 ---
 
-## Expected result
+## Expected Result
 
 We identified **concepts, events, and relationships** in our own model sketch and have explained how they contribute to the conceptual organisation of domain knowledge.
 
@@ -202,11 +202,11 @@ We identified **concepts, events, and relationships** in our own model sketch an
 
 ---
 
-## Result and summary
+## Result and Summary
 
 Conceptual knowledge modeling structures the relevant domain knowledge using concepts, events, and relationships. 
 
-In E1A, you created a first conceptual model sketch from information about a collection object.
+In E1A, we created a first conceptual model sketch from information about a collection object.
 
 In this unit, we have introduced the terminology needed to describe what happened during this process:
 
