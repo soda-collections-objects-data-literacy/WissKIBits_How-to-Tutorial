@@ -67,7 +67,7 @@ Participants can...
 
 ---
 
-## WissKI in brief
+## WissKI in Brief
 
 **WissKI** (Scientific Communication Infrastructure) is (WissKIo.D.features):
 
@@ -90,7 +90,7 @@ Participants can...
 
 ---
 
-## FAIR compliance of WissKI
+## FAIR Compliance of WissKI
 
 WissKI is **not just** a collection database.
 
@@ -204,7 +204,7 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 ---
 
-## Semantic modeling the *WissKI way*
+## Semantic Modeling the *WissKI way*
 
 In WissKI, **not only data** are stored and recorded; **meaning** is modeled.
 
@@ -269,7 +269,7 @@ WissKI...
 
 ---
 
-## Semantics are central to WissKI
+## Semantics are Central to WissKI
 
 From semantics to usable research data: 
 
