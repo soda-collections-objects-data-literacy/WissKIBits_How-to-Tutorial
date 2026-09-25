@@ -123,7 +123,7 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ## From Domain Knowledge to a Semantic Data Model
 
-**Learning path**#
+**Learning path**
 
 The graphic illustrates the path from defining a subject domain through the conceptual organisation of relevant knowledge to the semantic data model.
 
