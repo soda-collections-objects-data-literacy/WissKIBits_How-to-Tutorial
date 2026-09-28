@@ -141,7 +141,7 @@ A domain ontology can be developed by various approaches to extending domain ont
 >
 > **Example**
 > 
-> - **domain concept**: Game Genre (model as a domain-specific subclass)
+> - **Domain concept**: Game Genre (model as a domain-specific subclass)
 > - 
 > - **Relationship**: has type (reuse an appropriate CIDOC CRM property where possible instead of e.g. "ist gestaltet nach")
 
