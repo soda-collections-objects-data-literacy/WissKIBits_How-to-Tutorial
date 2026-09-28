@@ -64,7 +64,9 @@ The module follows the principle of **Learning by Doing**. Using an example from
 
 > **What is this module about?**
 >
-> In this module, we move from a formal ontology structure to its technical implementation in WissKI. We visualize the semantic model in Draw.io, transform the diagram into a Pathbuilder XML file, and import and inspect the resulting paths and path groups in WissKI.
+> In this module, you move from a formal ontology structure to its technical implementation in WissKI.
+>
+> You visualise the semantic model in Draw.io, transform the diagram into a Pathbuilder XML file, import and inspect the resulting paths and path groups in WissKI.
 >
 > Module 2 resulted in a formal ontology structure.
 >
@@ -86,12 +88,12 @@ In this module, you will convert the formalized domain ontology from Module 2 in
 
 You will:
 
-- visualize a semantic data model in **Draw.io** according to defined modeling rules,
+- visualise a semantic data model in **Draw.io** according to defined modeling rules,
 - represent **classes, properties, and semantic paths** in a machine-processable diagram,
 - check the diagram and the **attribute values required for conversion**,
 - transform the Draw.io XML into a **WissKI Pathbuilder XML file**,
 - import the generated structure into **WissKI**, and
-- analyze and verify the resulting **paths and path groups**.
+- analyse and verify the resulting **paths and path groups**.
 
 ---
 
@@ -102,8 +104,8 @@ You will:
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and workflow | 10 min. |
-| E1 | Visualizing semantic data models | 35 min. |
-| E2 | Transforming semantic models into WissKI paths | 40 min. |
+| E1E | Visualizing semantic data models | 35 min. |
+| E2E | Transforming semantic models into WissKI paths | 45 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -171,21 +173,30 @@ After completing Module 3, participants can…
 
 The module combines activation, guided modeling, technical transformation, and result verification:
 
-- At the beginning, research and query questions are revisited from the collection perspective: What information should later be findable and queryable via semantic paths?
 - The example object **“The Legend of Zelda: A Link to the Past”** and the domain ontology developed in the previous modules again serve as a common thread.
-- In Draw.io, participants complete a prepared diagram by adding missing classes (Entities) and properties (Properties).
-- They check complete paths, node-edge connections, naming, and the attribute values required for conversion.
-- The diagram is submitted to the conversion service as an XML file.
+- Draw.io is used to complete a prepared diagram by adding missing classes (Entities) and properties (Properties).
+- The paths, node-edge connections, naming, and the attribute values required for conversion needs to be checked.
+- The diagram is submitted to the transformation service as an XML file.
 - The generated Pathbuilder XML file is imported into WissKI.
 - Finally, paths and path groups are compared with the original diagram and the domain-specific query requirements.
 
-The aim is not the complete technical configuration of a WissKI instance. What matters is a **traceable and repeatable processing chain** that transforms the semantic model into a usable WissKI path structure.
+The aim is not the complete technical configuration of a WissKI instance. 
 
-> **How we will work**
+What matters is a **traceable and repeatable processing chain** that transforms the semantic model into a usable WissKI path structure.
+
+> **How we work**
 >
-> The module combines activation, guided modeling, technical transformation, and verification.
+> In this module, you move from a formal ontology structure to its technical implementation in WissKI.
 >
-> We continue working with The Legend of Zelda: A Link to the Past and the domain ontology developed in the previous modules. Starting from selected research and query questions, we complete and check a semantic diagram in Draw.io, convert it into a Pathbuilder XML file, and import the resulting structure into WissKI.
+> Using The Legend of Zelda: A Link to the Past and the domain ontology developed in the previous modules, you will:
+>
+> - visualise and complete the semantic model in Draw.io
+> - review classes, properties, paths, and information required for transformation,
+> - transform the diagram into a Pathbuilder XML file,
+> - import the generated structure into WissKI, and
+> - verify the resulting paths and path groups against the original model and domain-specific query requirements.
+>
+> The workflow is: Ontology → Diagram → Pathbuilder XML → WissKI paths and path groups
 > 
 > Finally, we compare the imported paths and path groups with the original model and our initial information requirements.
 >
