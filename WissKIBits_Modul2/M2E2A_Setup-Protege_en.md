@@ -76,7 +76,7 @@ No previous experience with Protégé is required.
 
 ## Activation – What is your Starting Point?
 
-**Format:** Show of hands and short discussion   
+**Format:** Show of hands and short discussion     
 
 **Time:** ~ 2 min.   
 
@@ -115,11 +115,11 @@ Choose the environment that you will use for the exercises.
 
 ## Activation – Setting Up Protégé
 
-**Format:** Individual setup  
+**Format:** Individual setup    
 
-**Materials:** Computer with Protégé Desktop or access to WebProtégé  
+**Materials:** Computer with Protégé Desktop or access to WebProtégé    
 
-**Time:** ~5 min  
+**Time:** ~5 min   
 
 ### Task: Set up and check your Protégé working environment
 
