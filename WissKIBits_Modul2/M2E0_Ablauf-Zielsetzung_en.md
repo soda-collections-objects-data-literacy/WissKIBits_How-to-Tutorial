@@ -65,15 +65,15 @@ The result forms the basis for the subsequent implementation of the ontology str
 
 > **What is the module about?**
 >
-> Module 1, we focused on identifying and structuring the meaning of collection and research data.
+> In Module 1, you focused on identifying and structuring the meaning of collection and research data.
 >
-> You have a conceptual model developed by identifying relevant concepts, events, and relationships then realating them to CIDOC CRM.
+> You have developed a conceptual model by identifying relevant concepts, events, and relationships then realating them to CIDOC CRM.
 >
-> In Module 2, we take the next step: we transform this conceptual model into a formal, machine-readable ontology structure.
+> In Module 2, you take the next step: **you transform this conceptual model into a formal, machine-readable ontology structure**.
 >
 > Using **CIDOC CRM and Protégé**, you examine how concepts and relationships from the conceptual model can be represented as CIDOC CRM classes and properties.
 >
-> You use CIDOC CRM scope notes to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
+> You use **CIDOC CRM scope notes** to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
 >
 > The result is a **formalised domain model** that provides the basis for its visualisation and technical implementation in WissKI in Module 3.
 
@@ -100,15 +100,15 @@ In this module, you will learn how to:
   
 ---
 
-## Structure of the Module
+## Structure of this Module
 
 **Total duration of module 2: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 10 min. |
-| E2A | Activation: Set up Protégé| 15 min. |
 | 1 | Methods and workflows of semantic modeling | 10 min. |
+| E2A | Activation: Set up Protégé| 15 min. |
 | 2 | Introduction to Protégé | 10 min. |
 | E2E | Excersise: Semantic modeling with CIDOC CRM | 45 min. |
 |  | **Total** | **90 min.** |
@@ -116,7 +116,7 @@ In this module, you will learn how to:
   
 ---
 
-## Learning Objectives of the Module
+## Learning Objectives of this Module
 
 After completing Module 2, participants can…
 
@@ -165,11 +165,11 @@ The diagram illustrates the learning path of the module.
  
 ↓
    
-**Activation: Prepare your technical setup**
+**Define the methodological workflow**
    
 ↓
 
-**Define the methodological workflow**
+**Prepare your technical setup**
    
 ↓
    
@@ -211,11 +211,15 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 
 > **How we work**
 >
-> You will engage in short methodological inputs, demonstrations, and hands-on modeling.
+> Short methodological inputs alternate with demonstrations and hands-on modelling activities.
 >
 > You will continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
 >
-> You use **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3) - to evaluate modeling choices by using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
+> You use:
+> 
+> - **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3),
+> - **scope notes** to evaluate and justify modelling choices, and
+> - **extend the ontology with selected domain-specific concepts and relationships**.
 >
 > **The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.**
 
@@ -249,7 +253,7 @@ Participants should…
 
 ---
  
-## Result and Outcome of the Module
+## Result and Outcome of this Module
 
 At the end of Module 2, an initial formally implemented domain ontology or ontology extension is available. 
 
@@ -269,6 +273,7 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 ## Outlook
 
 > **Next:**
+>
 > You will choose Protégé Desktop or WebProtégé as your working environment and make sure that you can access the ontology editor before starting the practical activities.
 
 ---
