@@ -180,7 +180,7 @@ The graphic illustrates the path from defining a subject domain through the conc
 >
 > We identify examples of **concepts, events, and relationships**.
 >
-> **Step 3 · Refelect**
+> **Step 3 · Reflect**
 >
 > We choose one relationship and ask:
 > 
@@ -195,9 +195,9 @@ We identified **concepts, events, and relationships** in our own model sketch an
 **Concepts, events, relationships could be...:**
 
 - **Concepts** refer, for example, to objects, persons, organssations, places, or other central building blocks of the domain and represent relevant elements of the domain.
-- 
+ 
 - **Events** refer to occurrences or processes, for example development, production, publication, or exhibition and represent occurrences or processes.
-- 
+  
 - **Relationships** connect concepts with concepts or concepts with events to express how these elements are meaningfully connected.
 
 ---
