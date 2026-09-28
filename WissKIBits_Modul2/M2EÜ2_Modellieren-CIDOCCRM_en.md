@@ -186,7 +186,7 @@ For each class, examine:
 
 ### Step 3: Compare and Document Concepts 
 
-Now yozr return to the conceptual model and first semantic mapping:
+Now your return to the conceptual model and first semantic mapping:
 
 Consider the following possible mappings:
 
@@ -224,17 +224,22 @@ E73 Information Object
 └── Computer_Game
 
 E35 Title
+
 └── Game_Title
 
 E55 Type
+
 ├── Game_Genre_Type
+
 └── Game_Platform_Type
+
 
 **Example: For genre or platform**
 
 > Computer game → **has type** → Genre / Platform type
 >
 > Find: **P2 has type**
+
 
 Briefly document your reasoning for your mapping as you can see in the table.
 
@@ -249,14 +254,7 @@ Briefly document your reasoning for your mapping as you can see in the table.
 
 > The properties will be needed in the next module, Module 3.
 >
-> Rememeber you should follow the light-wight modelling workflows as introduced und should avoid to build sub-properties.
-
-
-**Guiding questions:**
-
-- Does the meaning of the property correspond to our domain statement?
-- Are the source and target classes compatible with the domain and range?
-- Does the property actually describe the relationship we want to express?
+> Rememeber you should follow the light-wight modelling workflows as introduced (M2E2E) should avoid to build sub-properties (M1E3).
 
 ---
 
@@ -275,15 +273,14 @@ Compare your result with the original model sketch:
 
 - Are the domain-specific classes appropriately placed within the CIDOC CRM hierarchy?
 - Do the properties correspond to the intended statements?
-- Can the decisions be justified based on the Scope Notes?
+- Can the decisions be justified based on the scope notes?
 - Can the relationships still be read as understandable statements?
 - Which elements originate from CIDOC CRM, and which were added specifically for the domain?
-- Write Scope Notes / Comments for the newly created domain subclasses and assign labels.
-
+- Write scope notes / comments for the newly created domain subclasses and assign labels.
 
 **Document the modeling decision**
 
-Document your decision for **one** mapping:
+Document your decision mapping:
 
 | Question                                             | Answer |
 | ---------------------------------------------------- | ------ |
