@@ -71,7 +71,7 @@ Practical ontology development is often understood as a process that integrates 
 >
 > - a not a linear process of developing a domain ontology.
 >
-> - is usually the combination of domain knowledge, application requirements, modeling decisions and iterative review.
+> - is usually the combination of domain knowledge, application requirements, modeling decisions, and iterative review.
 >
 > - based on different methods depending on the starting point and purpose of the model.
 
@@ -79,15 +79,15 @@ Practical ontology development is often understood as a process that integrates 
 
 ## Four Approaches to Ontology Development
 
-Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
+Ontologies are often developed using a combination of different modelling approaches (Noy2001ontology, pp. 4 ff.):
 
-- **Bottom-up modeling** is based on the identification of classes (Entities) and properties (Properties) gradually derived from existing data or sample object.
-- **Top-down modeling** is starting from a reference model (e.g. CIDOC CRM), a domain-specific specialisation is developed.
-- **Competency Questions** are used to model typical analytical and research questions (e.g. “Which games have characteristic X?”)
-- **Iterative prototyping:** includes a model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
+- **Bottom-up modelling:** Classes (Entities) and properties (Properties) are gradually identified and derived from existing data or example objects.
+- **Top-down modelling:** A reference model, such as CIDOC CRM, provides the starting point for developing a domain-specific specialisation.
+- **Competency Questions:** Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
+- **Iterative prototyping:** The model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
 
 
-### A Practical Modeling Workflow
+### The Practical Modeling Workflow Semantic Modeling 
 
 Semantic modeling is iterative: reviewing the model and lead back to earlier steps. 
 
@@ -142,8 +142,7 @@ A domain ontology can be developed by various approaches to extending domain ont
 > **Example**
 > 
 > - **Domain concept**: Game Genre (model as a domain-specific subclass)
-> - 
-> - **Relationship**: has type (reuse an appropriate CIDOC CRM property where possible instead of e.g. "ist gestaltet nach")
+> - **Relationship**: has type (reuse an appropriate more generic CIDOC CRM property if possible instead of a distinct specification e.g. “is designed according to”)
 
 ---
 
@@ -154,8 +153,6 @@ The **methods and workflows of semantic modeling** presented here, together with
 In the following unit, **Protégé** is introduced as an editor for modeling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
 
 > **Next:**
->
-> We now move from modeling strategy to implementation.
 >
 > In the following unit, we use Protégé to explore CIDOC CRM and prepare the formal modeling of our domain ontology.
 
