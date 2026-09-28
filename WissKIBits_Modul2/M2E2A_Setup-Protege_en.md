@@ -40,11 +40,11 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – Understanding and Applying**
+Module 2: **Modeling with CIDOC CRM – Understand and Apply**
 
 Activation Unit M2E1A: **Setting up the working environment with Protégé**  
 
-**Duration:** ~ 15 min.
+**Duration:** ~ 20 min.
 
 **Learning Objectives:**
 
@@ -68,49 +68,32 @@ This short activation helps you to...
 
 - reflect on any previous experience you may have with Protégé, 
 - decide if you will use **Protégé Desktop** or **WebProtégé**,
-- make sure that your working environment is ready for the practical activities in this module.
+- **make sure that your working environment is ready for the practical activities in this module**.
 
 No previous experience with Protégé is required.
 
 ---
 
-## Activation – What is your Starting Point?
+## Activation – Your Starting Point
 
-**Format:** Show of hands and short discussion     
+**Format:** Call-out and short discussion     
 
-**Time:** ~ 2 min.   
+**Time:** ~ 5 min.   
 
-**Question:** Where are you starting from?   
-
-Which statement best describes your experience with Protégé or other ontology editors?
+Question: Which statement best describes your experience with Protégé or other ontology editors?
 
 **Raise your hand when your option is called**
 
-- You have not used Protégé before.
-- You have explored Protégé, but have not created or edited an ontology myself.
-- You have used Protégé to create or edit an ontology.
-- You regularly use Protégé or another ontology editor.
+- You have **not used** Protégé before.
+- You have **explored** Protégé, but have not created or edited an ontology myself.
+- You have **actively used** Protégé to create or edit an ontology.
+- You **regularly use** Protégé or another ontology editor.
 
 **Brief reflection**
 
-- If you have used Protégé before: What did you use it for?
-- If Protégé is new to you: What do you expect an ontology editor to help you do?
+- If you have used Protégé before: **What did you use it for?**
+- If Protégé is new to you: **What do you expect an ontology editor to help you do?**
   
----
-
-## Which Version will you use?
-
-Protégé can be used in different environments.
-
-For the practical activities in this module, you can work with either:
-
-- the desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)),installed locally on your computer or
-- an account for the web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
-
-must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
-
-Choose the environment that you will use for the exercises.
-
 ---
 
 ## Activation – Setting Up Protégé
@@ -119,11 +102,11 @@ Choose the environment that you will use for the exercises.
 
 **Materials:** Computer with Protégé Desktop or access to WebProtégé    
 
-**Time:** ~5 min   
+**Time:** ~10 min   
 
-### Task: Set up and check your Protégé working environment
+### Step 1: Set up your Protégé working environment
 
-For the practical modelling activities in this module, you will use either:
+For the practical modelling activities in this module, you need either:
 
 - [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
 - [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
@@ -132,7 +115,7 @@ Both are available via the [**official Protégé website**](https://protege.stan
 
 Choose the environment you want to use and make sure it is ready before continuing.
 
-### Protégé Desktop
+### Step 2: Check your Potégé working environment
 
 If you are using **Protégé Desktop**, check that:
 
@@ -140,36 +123,30 @@ If you are using **Protégé Desktop**, check that:
 - the application starts correctly,
 - and you can access the ontology editor.
 
-### WebProtégé
-
 If you are using **WebProtégé**, check that:
 
 - you can access WebProtégé,
 - you have an account,
 - and you can sign in successfully.
 
-> **Important**
->
-> At this stage, you do **not** need to load CIDOC CRM or create any classes or properties.
->
-> The aim is simply to make sure that your working environment is ready for the following exercises.
+**The aim is simply to make sure that your working environment is ready for the following exercises.**
 
 ---
 
 ## Outcome
 
-At the end of this activation unit, you have:
+At the end of this unit, you have:
 
 - selected **Protégé Desktop or WebProtégé** as your working environment,
 - set up the required application or account,
 - and checked that you can access the ontology editor.
 
-You are now ready to explore the basic functions of Protégé and prepare for the practical modelling exercise.
-
 ---
 
 ## Outlook
 
-> **Next: Exploring Protégé**
+> **Next:**
 >
-> You will become familiar with the ontology editor and the basic functions you will need to implement your model in Protégé.
+> You are now ready to explore **Protégé** and become familiar with the ontology editor as well as its basic functions.
+>
+> This will prepare you for the practical modelling exercise, where you will use Protégé to implement your domain model.
