@@ -128,7 +128,7 @@ The **formal ontology structure** makes the modelling decision machine-readable.
 
 **Materials:** Computer with Protégé Desktop or WebProtégé, provided Erlangen CRM OWL file, model sketch from Module 1 
 
-**Time:** ~ 30 min.
+**Time:** ~ 45 min.
 
 **Task: Formalise a section of the domain model in Protégé**
 
@@ -151,7 +151,7 @@ Open your Protégé environment and load the provided OWL implementation of CIDO
 
 **Note:** 
 
-> Follow the steps shown in M2E2 and the live demo and the corresponding video:
+> Follow the steps shown in M2E2 and the corresponding video:
 
 !?[Video Demonstration: First Steps in Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
  
@@ -184,9 +184,9 @@ For each class, examine:
 
 ---
 
-### Step 3: Compare Domain Concepts with CIDOC CRM Classes
+### Step 3: Compare and Document Concepts 
 
-Now return to the conceptual model and first semantic mapping:
+Now yozr return to the conceptual model and first semantic mapping:
 
 Consider the following possible mappings:
 
@@ -260,7 +260,7 @@ Briefly document your reasoning for your mapping as you can see in the table.
 
 ---
 
-### Step 5: Review and document the model
+### Step 5: Review and document the Model
 
 Compare your result with the original model sketch:
 
