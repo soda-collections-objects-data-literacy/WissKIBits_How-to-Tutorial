@@ -68,7 +68,7 @@ This short activation helps you to...
 
 - reflect on any previous experience you may have with Protégé, 
 - decide if you will use **Protégé Desktop** or **WebProtégé**,
-- and make sure that your working environment is ready for the practical activities in this module.
+- make sure that your working environment is ready for the practical activities in this module.
 
 No previous experience with Protégé is required.
 
@@ -76,11 +76,11 @@ No previous experience with Protégé is required.
 
 ## Activation – What is your Starting Point?
 
-**Format:** Show of hands and short discussion
+**Format:** Show of hands and short discussion 
 
-**Time:** ~ 2 min.
+**Time:** ~ 2 min. 
 
-**Question:** Where are you starting from?
+**Question:** Where are you starting from? 
 
 Which statement best describes your experience with Protégé or other ontology editors?
 
