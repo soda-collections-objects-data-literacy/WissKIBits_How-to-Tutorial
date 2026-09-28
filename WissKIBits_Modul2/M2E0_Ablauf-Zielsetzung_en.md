@@ -108,7 +108,7 @@ In this module, you will learn how to:
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 10 min. |
 | 1 | Methods and workflows of semantic modeling | 10 min. |
-| E2A | Activation: Set up Protégé| 15 min. |
+| E2A | Activation: Set up Protégé| 20 min. |
 | 2 | Introduction to Protégé | 10 min. |
 | E2E | Excersise: Semantic modeling with CIDOC CRM | 45 min. |
 |  | **Total** | **90 min.** |
