@@ -90,13 +90,12 @@ Our guiding question is...
 
 ## Objectives of the Module
 
-In this module, we will learn how to:
+In this module, you will learn how to:
 
 - apply a systematic **workflow for semantic modeling**,
 - use **Protégé** to explore and edit an ontology,
-- select suitable **CIDOC CRM classes and properties** based on their Scope Notes,
-- add **domain-specific concepts** to an existing ontology structure,
-- distinguish and use **object properties and datatype properties**, and
+- select suitable **CIDOC CRM classes and properties** based on their scope notes,
+- add **domain-specific concepts** to an existing ontology structure, and
 - prepare the resulting ontology for further implementation in **WissKI**.
   
 ---
@@ -178,7 +177,7 @@ The diagram illustrates the learning path of the module.
  
 ↓
  
-**Select classes (Entities) and properties (Properties) using Scope Notes**
+**Select classes (entities) and properties (properties) using scope notes**
  
 ↓
  
@@ -212,11 +211,11 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 
 > **How we work**
 >
-> Short methodological inputs alternate with demonstration and hands-on modeling.
+> You will engage in short methodological inputs, demonstrations, and hands-on modeling.
 >
-> We continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
+> You will continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
 >
-> We use **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3) - to evaluate modeling choices by using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
+> You use **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3) - to evaluate modeling choices by using scope notes, and extend the ontology with selected domain-specific concepts and relationships.
 >
 > **The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.**
 
@@ -240,7 +239,7 @@ Participants should…
 >
 > You can therefore start with this module if you are already familiar with the basic concepts and have a conceptual model sketch to work with.
 >
-> You should be familiar with **concepts, events, relationships, classes, properties, instances, modeling assumptions, CIDOC CRM, and Scope notes**.
+> You should be familiar with **concepts, events, relationships, classes, properties, instances, modeling assumptions, CIDOC CRM, and scope notes**.
 >
 > For the practical activities, you will need:
 >
@@ -254,14 +253,14 @@ Participants should…
 
 At the end of Module 2, an initial formally implemented domain ontology or ontology extension is available. 
 
-> **What will you take away**
+> **What will you take away?**
 >
 > By the end of the module, you will have created a first **formal domain ontology** or **ontology extension** that includes:
 >
 > - selected and justified CIDOC CRM classes and properties,
 > - domain-specific subclasses,
 > - semantic relationships and datatype properties, and
-> - documented modeling decisions based on Scope Notes.
+> - documented modeling decisions based on scope notes.
 >
 > The ontology is saved as an OWL file and provides the basis for subsequent implementation in WissKI.
 
@@ -271,7 +270,8 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 
 > **Next:**
 >
-> In the next module, we import the ontology into WissKI and use it to define groups and semantic paths in the WissKI Pathbuilder.
+>  
+
 ---
 
 ## Editorial Notes
