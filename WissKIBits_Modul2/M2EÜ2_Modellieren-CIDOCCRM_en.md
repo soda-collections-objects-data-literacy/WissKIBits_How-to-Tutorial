@@ -245,7 +245,7 @@ Document your review.
 
 > The properties will be needed in the next module, Module 3.
 >
-> Rmemeber you should follow the light-wight modelling workflows as introduced und should avoid to build sub-properties.
+> Rememeber you should follow the light-wight modelling workflows as introduced und should avoid to build sub-properties.
 
 
 **Guiding questions:**
