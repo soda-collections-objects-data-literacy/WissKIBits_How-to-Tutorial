@@ -154,7 +154,7 @@ In the following unit, **Protégé** is introduced as an editor for modeling ont
 
 > **Next:**
 >
-> In the following unit, we use Protégé to explore CIDOC CRM and prepare the formal modeling of our domain ontology.
+> In the following unit, we set up our working environment with Protégé.
 
 ---
 
