@@ -113,42 +113,32 @@ Choose the environment that you will use for the exercises.
 
 ---
 
-## Exercise – Implementing the Model in Protégé
+## Activation – Setting Up Protégé
 
-**Format:** Individual work or teams (2–4 people)
+**Format:** Individual setup  
+**Materials:** Computer with Protégé Desktop or access to WebProtégé  
+**Time:** ~5 min
 
-**Materials:** Computer with Protégé Desktop, provided Erlangen CRM OWL file, model sketch from Module 1 [Link]
+### Task: Set up and check your Protégé working environment
 
-**Time:** ~ 30 min.
+For the practical modelling activities in this module, you will use either:
 
-**Task: Recreate a section of the domain model in Protégé**
+- [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
+- [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
 
-**Prerequisite:**
+Both are available via the [**official Protégé website**](https://protege.stanford.edu/).
 
-To work with Protégé, either
+Choose the environment you want to use and make sure it is ready before continuing.
 
-- the desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) or
-- an account for the web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
-
-must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
-
-**Note:**
-
-> Approximately 5 minutes are allocated for the setup.
-
-**Check your technical setup**
-
-Before continuing, make sure that you can access your chosen Protégé environment.
-
-**Protégé Desktop**
+### Protégé Desktop
 
 If you are using **Protégé Desktop**, check that:
 
 - Protégé is installed,
 - the application starts correctly,
-- and you can open the ontology editor.
+- and you can access the ontology editor.
 
-**WebProtégé**
+### WebProtégé
 
 If you are using **WebProtégé**, check that:
 
@@ -160,7 +150,7 @@ If you are using **WebProtégé**, check that:
 >
 > At this stage, you do **not** need to load CIDOC CRM or create any classes or properties.
 >
-> The aim is simply to make sure that your working environment is ready.
+> The aim is simply to make sure that your working environment is ready for the following exercises.
 
 ---
 
@@ -168,18 +158,16 @@ If you are using **WebProtégé**, check that:
 
 At the end of this activation unit, you have:
 
-- reflected on your previous experience with Protégé,
 - selected **Protégé Desktop or WebProtégé** as your working environment,
+- set up the required application or account,
 - and checked that you can access the ontology editor.
 
-You are now ready to explore the basic functions of Protégé in M2E2 and use them for semantic modelling with CIDOC CRM in M2E2E.
+You are now ready to explore the basic functions of Protégé and prepare for the practical modelling exercise.
 
 ---
 
 ## Outlook
 
-> **Next:**
+> **Next: Exploring Protégé**
 >
-> Introduction to practical modeling workflow and Protégé
->
-> We will explore the ontology editor and the functions needed for the practical modelling exercise.
+> You will become familiar with the ontology editor and the basic functions you will need to implement your model in Protégé.
