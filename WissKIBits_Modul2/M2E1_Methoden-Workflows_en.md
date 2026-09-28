@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modeling o
 
 title: WissKI Bits Ontology-Based Modeling of Research Data
 
-module: Modeling with CIDOC CRM – understand and apply
+module: Modeling with CIDOC CRM – Understand and Apply
 
 unit: Methods and workflows of semantic modeling
 
