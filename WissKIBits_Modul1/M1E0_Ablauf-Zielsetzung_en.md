@@ -263,7 +263,7 @@ At the end of Module 1, we will have developed a first **conceptual model sketch
 
 > **What will you take away**
 >
-> By the end of the module we will have an **initial conceptual model sketch of the domain logic** that includes:
+> By the end of the module we will have an **initial conceptual model sketch of the domain logic** (Computer Games) that includes:
 >
 > - the concepts and events relevant to the example,
 > - their semantic relationships,
