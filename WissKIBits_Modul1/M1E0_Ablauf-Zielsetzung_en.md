@@ -220,9 +220,6 @@ The following diagram illustrates the learning path of the module:
 
 **Model sketch and justified decisions**  
 
-↓  
-
-**Preparation for implementation in WissKI**
 
 
 ---
