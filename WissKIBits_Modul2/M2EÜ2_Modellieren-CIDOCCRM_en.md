@@ -66,15 +66,15 @@ This is a practical exercise.
 
 The starting point is the conceptual model of the video game domain developed in Module 1.
 
-Using **“The Legend of Zelda: A Link to the Past”** as an example, we will examine how this conceptual model sketch can be gradually transformed into a **formal ontology structure**.
+Using **“The Legend of Zelda: A Link to the Past”** as an example, you will examine how this conceptual model sketch can be gradually transformed into a **formal ontology structure**.
 
-In this exercise, we will formalise these decisions in Protégé by creating domain-specific subclasses and integrating them into the CIDOC CRM structure.
+In this exercise, you will formalise these decisions in Protégé by creating domain-specific subclasses and integrating them into the CIDOC CRM structure.
 
-At the end of the exercise, we will have a formally implemented section of the domain model as an OWL ontology.
+At the end of the exercise, you will have a formally implemented section of the domain model as an OWL ontology.
 
 ---
 
-## Starting Point: The Conceptual Model from Module 1
+## Starting Point
 
 In Module 1, we developed a conceptual model sketch describing concepts and relationships in the computer games domain:
 
@@ -82,9 +82,11 @@ In Module 1, we developed a conceptual model sketch describing concepts and rela
 
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
-From this we have discussed a first mapping to some CIDOC CRM classes.
+From this you have discussed a first mapping to some CIDOC CRM classes:
 
-For this exercise, we will focus on selected statements from this model:
+![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
+
+For this exercise, we will focus on statements from this model, e.g.:
 
 > Computer game → **has title** → Game title
 >
@@ -92,13 +94,13 @@ For this exercise, we will focus on selected statements from this model:
 >
 > Computer game → **has type** → Platform type
 
-We will now investigate how these domain statements can be represented using CIDOC CRM and implemented in Protégé.
+You will now investigate how these domain statements can be represented using CIDOC CRM and implemented in Protégé.
 
 ---
 
 ## From the Conceptual Model to a Formal Ontology
 
-During the exercise, we will move between three levels:
+During the exercise, you will move between three levels:
 
 | Level | Example |
 |---|---|
@@ -118,9 +120,9 @@ The **formal ontology structure** makes the modelling decision machine-readable.
 
 ## Exercise – Implementing the Model in Protégé
 
-**Format:** Individual work or teams (2 people)
+**Format:** Individual work
 
-**Materials:** Computer with Protégé Desktop, provided Erlangen CRM OWL file, model sketch from Module 1 [Link]
+**Materials:** Computer with Protégé Desktop or WebProtégé, provided Erlangen CRM OWL file, model sketch from Module 1 
 
 **Time:** ~ 30 min.
 
@@ -242,6 +244,8 @@ Document your review.
 **Note:**
 
 > The properties will be needed in the next module, Module 3.
+>
+> Rmemeber you should follow the light-wight modelling workflows as introduced und should avoid to build sub-properties.
 
 
 **Guiding questions:**
