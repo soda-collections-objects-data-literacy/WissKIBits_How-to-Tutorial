@@ -67,13 +67,13 @@ This includes, among other things, identifying central terms and definitions (so
 
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
-> **Semantic modeling**
+> **Semantic modeling is...**
 >
-> Developing a domain ontology is not a linear process.
+> - a not a linear process of developing a domain ontology.
 >
-> It usually combines domain knowledge, application requirements, modeling decisions, and iterative review.
+> - is usually the combination of domain knowledge, application requirements, modeling decisions, and iterative review.
 >
-> Different methods can be combined depending on the starting point and purpose of the model.
+> - based on different methods depending on the starting point and purpose of the model.
 
 ---
 
