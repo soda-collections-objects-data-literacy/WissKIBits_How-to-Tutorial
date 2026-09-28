@@ -54,7 +54,7 @@ Unit 0: **Welcome, objectives and structure**
 
 Welcome to **WissKI Bits: Ontology-Based Modeling of Research Data**.
 
-In this module, we formalize the conceptual domain model developed in Module 1. We use **CIDOC CRM and Protégé** to translate modeling decisions into a machine-readable ontology structure and prepare it for later implementation in WissKI.
+In this module, you formalise the conceptual domain model developed in Module 1. We use **CIDOC CRM and Protégé** to translate modeling decisions into a machine-readable ontology structure and prepare it for later implementation in WissKI.
 
 Module 2, **“Modeling with CIDOC CRM – understand and apply,”** continues the learning path from Module 1. The conceptual domain model is systematically reviewed and formalized using CIDOC CRM and Protégé. Modeling decisions are not only made, but are also justified from a domain perspective using Scope Notes and implemented in a machine-readable ontology structure.
 
@@ -67,13 +67,13 @@ The result forms the basis for the subsequent implementation of the ontology str
 >
 > Module 1, we focused on identifying and structuring the meaning of collection and research data.
 >
-> You developed a conceptual model by identifying relevant concepts, events, and relationships and relating them to CIDOC CRM.
+> You have a conceptual model developed by identifying relevant concepts, events, and relationships then realating them to CIDOC CRM.
 >
 > In Module 2, we take the next step: we transform this conceptual model into a formal, machine-readable ontology structure.
 >
-> Using **CIDOC CRM and Protégé**, we examine how concepts and relationships from the conceptual model can be represented as classes and properties.
+> Using **CIDOC CRM and Protégé**, you examine how concepts and relationships from the conceptual model can be represented as CIDOC CRM classes and properties.
 >
-> We use CIDOC CRM scope notes to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
+> You use CIDOC CRM scope notes to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
 >
 > The result is a **formalised domain model** that provides the basis for its visualisation and technical implementation in WissKI in Module 3.
 
