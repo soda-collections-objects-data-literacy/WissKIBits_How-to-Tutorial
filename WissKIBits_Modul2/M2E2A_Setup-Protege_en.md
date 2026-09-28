@@ -76,11 +76,11 @@ No previous experience with Protégé is required.
 
 ## Activation – What is your Starting Point?
 
-**Format:** Show of hands and short discussion 
+**Format:** Show of hands and short discussion   
 
-**Time:** ~ 2 min. 
+**Time:** ~ 2 min.   
 
-**Question:** Where are you starting from? 
+**Question:** Where are you starting from?   
 
 Which statement best describes your experience with Protégé or other ontology editors?
 
