@@ -81,8 +81,8 @@ Practical ontology development is often understood as a process that integrates 
 
 Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
-- **Top-down modeling:** Starting from a reference model (e.g. CIDOC CRM), a domain-specific specialization is developed.
 - **Bottom-up modeling:** Classes (Entities) and properties (Properties) are gradually derived from existing data.
+- **Top-down modeling:** Starting from a reference model (e.g. CIDOC CRM), a domain-specific specialization is developed.
 - **Competency Questions:** Modeling is driven by typical analytical and research questions (e.g. “Which games have characteristic X?”)
 - **Iterative prototyping:** A model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
 
