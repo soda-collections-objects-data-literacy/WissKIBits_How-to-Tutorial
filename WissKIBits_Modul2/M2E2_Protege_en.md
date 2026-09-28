@@ -40,7 +40,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Modul 2: **Modeling with CIDOC CRM – understand and apply**
+Modul 2: **Modeling with CIDOC CRM – Understand and Apply**
 
 Unit 2: **Introduction in Protégé**  
 
@@ -61,7 +61,7 @@ Participants will be able to...
 
 ## Protégé – OWL Ontology Editor
 
-**Protégé** is a free, open-source editor for creating, editing, and managing ontologies. The current version specifically supports the **OWL 2 Web Ontology Language**, thereby providing an environment for the formal and machine-readable modeling of ontologies. (Stanford n.d. software)
+**Protégé** is a free, open-source editor for creating, editing, and managing ontologies. The current version specifically supports the **OWL 2 Web Ontology Language** (ref), thereby providing an environment for the formal and machine-readable modeling of ontologies. (Stanford n.d. software)
 
 Protégé is available both as a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) and as a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). (Stanfordo.D.protege)
 
@@ -80,20 +80,22 @@ Protégé is available both as a desktop application ([**Protégé Desktop**](ht
 
 ---
 
-## Protégé in this tutorial?
+## Protégé in this Tutorial
 
-Within this module, you can have to choose if you use the Desktop or the Web version to transform the **semantic model of the computer games domain**—developed from Module 1—**into a formal, machine-readable OWL ontology**.
+In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling.
 
-The **CIDOC CRM ([Release Version 7.1.3, as of February 2024](https://cidoc-crm.org/get-last-official-release))** (SIG2024cidoc) serves as the reference ontology, the existing OWL implementation of the CIDOC CRM known as **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm).
+To work with CIDOC CRM in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM. The current Erlangen CRM version used in this tutorial is based on CIDOC CRM 7.1.3.
 
-**Note**
+Using **Protégé**, we can explore this ontology structure and work with its classes. In the practical exercise, we will extend the existing structure with selected **domain-specific subclasses** and document our modelling decisions.
 
-Resources for working with Protégé are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanfordo.D.protege):
+> **Resources**
+>
+> Further resources for working with Protégé are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanfordo.D.protege):
+>
+> - [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
+> - [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
 
-- [Documentation](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-- [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
-
-The outcome of the practical session is a **machine-readable OWL domain ontology** that serves as the basis for the subsequent implementation in **WissKI** in Module 3.
+The outcome of the practical exercise is a small, **machine-readable OWL domain ontology extension** that provides the basis for the subsequent visualisation and technical implementation in **WissKI** in Module 3.
 
 ---
 
@@ -105,31 +107,27 @@ The live demo illustrates:
 - Step 2: Exploring the structure, and
 - Step 3: Creating a custom subclass (entity) for the computer games domain ontology.
 
+Watch how an existing ontology is opened, how its structure is explored, and how a domain-specific subclass is added.
+
 > **Watch the workflow**
 >
-> The video demonstrates the complete introductory workflow:
+> The video demonstrates the complete introductory workflow: Load → Explore → Extend
 > 
-> Load → Explore → Extend
-> 
-> Watch how an existing ontology is opened, how its structure is explored, and how a domain-specific subclass is added.
->
 > !?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+
+---
+
+## Outcome
+
+You have now explored how to **open and navigate an ontology in Protégé** and how existing CIDOC CRM classes or properties can provide the basis for domain-specific modelling.
 
 ---
 
 ## Outlook
 
-The steps taken so far have demonstrated how to **open and explore the CIDOC CRM in Protégé** and how existing entities can be extended to model a specific domain.
-
-In the **practical session** that follows, this approach is applied to the **computer games domain**. The previously developed semantic model is implemented in Protégé step by step. This involves selecting suitable CIDOC CRM entities, extending them into domain-specific subclasses, and modeling the corresponding properties.
-
-In this way, the conceptual model sketch evolves into a **formally described and machine-readable OWL ontology**, which can subsequently be used for implementation in WissKI.
-
-> **Next:**
+> **Next:** 
 >
->  You have learned how to load, explore, and extend an existing ontology in Protégé.
->
-> In the following practical session, you will prepare your working environment and apply this workflow to the computer games domain by selecting suitable CIDOC CRM elements, adding domain-specific subclasses, and modeling their relationships.
+> You will apply this workflow to the **computer games domain**: select suitable CIDOC CRM classes and properties, add domain-specific subclasses, and model their relationships.
 
 ---
 
@@ -147,6 +145,7 @@ In this way, the conceptual model sketch evolves into a **formally described and
 
 [Stanfordo.D.software] Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
 
+[ref] https://www.w3.org/TR/owl2-primer/ und https://av.tib.eu/media/11276
 
 
 
