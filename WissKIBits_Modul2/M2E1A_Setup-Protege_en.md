@@ -58,37 +58,44 @@ Participants will be able to...
 
 ## Objective
 
-Before we start working with Protégé, let us establish our starting point.
+Before you will start working with Protégé, let us establish our starting point.
 
-Some of you may already have experience with ontology editors or Protégé, while others may be using them for the first time. You may also be working with either **Protégé Desktop** or **WebProtégé**.
+Some of you may already have experience with ontology editors or Protégé, while others may be using them for the first time. 
 
-This short activation helps us to...
+You may also be working with either **Protégé Desktop** or **WebProtégé**.
 
-- reflect on your previous experience with Protégé,
-- decide which version of Protégé you will use,
+This short activation helps you to...
+
+- reflect on any previous experience you may have with Protégé, 
+- decide if you will use **Protégé Desktop** or **WebProtégé**,
 - and make sure that your working environment is ready for the practical activities in this module.
 
 No previous experience with Protégé is required.
 
 ---
 
-## Activation – What is our Starting Point?
+## Activation – What is your Starting Point?
 
-Consider the following questions: Have you worked with Protégé before?
+**Format:** Show of hands and short discussion
 
-Choose the option that best describes your experience:
+**Time:** ~ 2 min.
 
-- I have **not used Protégé before**.
-- I have **seen or explored Protégé**, but have not created or edited an ontology myself.
-- I have **worked with Protégé before**.
-- I regularly use **Protégé or another ontology editor**.
+**Question:** Where are you starting from?
 
-> **Reflection**
->
-> If you have worked with Protégé before: What did you use it for?
->
-> If Protégé is new to you: What do you expect an ontology editor to allow you to do?
+Which statement best describes your experience with Protégé or other ontology editors?
 
+**Raise your hand when your option is called**
+
+- You have not used Protégé before.
+- You have explored Protégé, but have not created or edited an ontology myself.
+- You have used Protégé to create or edit an ontology.
+- You regularly use Protégé or another ontology editor.
+
+**Brief reflection**
+
+- If you have used Protégé before: What did you use it for?
+- If Protégé is new to you: What do you expect an ontology editor to help you do?
+  
 ---
 
 ## Which Version will you use?
