@@ -154,7 +154,7 @@ In the following unit, **Protégé** is introduced as an editor for modeling ont
 
 > **Next:**
 >
-> In the following unit, we set up our working environment with Protégé.
+> In the following unit, you will set up your working environment with Protégé.
 
 ---
 
