@@ -157,6 +157,7 @@ Open your Protégé environment and load the provided OWL implementation of CIDO
  
 > **Video:** The video demonstrates the first steps in Protégé and how to load Erlangen CRM / OWL.
 
+---
 
 ### Step 2: Explore Relevant CIDOC CRM classes
 
@@ -250,24 +251,19 @@ Briefly document your reasoning for your mapping as you can see in the table.
 | Computer_Game | P2 has type    | Game_Platform_Type | A computer game is assigned to a platform type.         |
 
 
-**Note:**
-
-> The properties will be needed in the next module, Module 3.
+> **Note:**
 >
 > Rememeber you should follow the light-wight modelling workflows as introduced (M2E2E) should avoid to build sub-properties (M1E3).
 
 ---
 
-### Step 5: Review and document the Model
+### Step 5: Review the Model
 
 Compare your result with the original model sketch:
 
-
 ![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
 
-
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
-
 
 **Review the modeling**
 
@@ -278,7 +274,10 @@ Compare your result with the original model sketch:
 - Which elements originate from CIDOC CRM, and which were added specifically for the domain?
 - Write scope notes / comments for the newly created domain subclasses and assign labels.
 
-**Document the modeling decision**
+---
+
+
+### Step 5: Document the Model
 
 Document your decision mapping:
 
@@ -290,9 +289,8 @@ Document your decision mapping:
 | What does the Scope Note say about it?               |        |
 | Why do we consider the mapping appropriate?          |        |
 
-**Note:** 
 
-> The aim is not to find a single “correct” solution. What matters is that the modeling decision is comprehensible from a domain perspective and compatible with the reference model being used.
+**The aim is not to find a single “correct” solution.** What matters is that the modeling decision is comprehensible from a domain perspective and compatible with the reference model being used.
 
 ---
 
@@ -304,12 +302,10 @@ As a sample, you can examine the existing domain ontology for computer games:
 
 Compare your own modeling with the sample **only after completing the task**. The sample should be understood as one possible modeling approach, not as the only possible solution.
 
-**Note**
-
 > Pay particular attention to:
 >
 > - the placement of domain-specific classes,
-> - the reuse of CIDOC CRM properties,
+> - the reuse of CIDOC CRM properties, and
 > - and possible differences compared with your own modeling decisions.
 
 ---
@@ -321,15 +317,11 @@ At the end of this exercise, you will have a small, formally implemented section
 You have:
 
 - created domain-specific concepts as **subclasses** of CIDOC CRM,
-- and justified a modeling decision based on a **Scope Note**.
+- and justified a modeling decision based on a **Scope Note**, and
+- saved the extended ontology as an **OWL file**.
 
-Then save the extended ontology as an **OWL file**.
+ It does not represent the entire computer games domain - the ontology remains a partial model - but instead demonstrates the process of moving from a domain-specific conceptual model sketch to a machine-readable ontology structure.
 
-**Note:** 
-
-> The ontology remains a partial model.
-> 
-> It does not represent the entire computer games domain, but instead demonstrates the process of moving from a domain-specific conceptual model sketch to a machine-readable ontology structure.
 
 ---
 
