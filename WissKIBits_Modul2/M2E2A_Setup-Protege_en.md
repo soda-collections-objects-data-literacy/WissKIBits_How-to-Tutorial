@@ -116,8 +116,10 @@ Choose the environment that you will use for the exercises.
 ## Activation – Setting Up Protégé
 
 **Format:** Individual setup  
+
 **Materials:** Computer with Protégé Desktop or access to WebProtégé  
-**Time:** ~5 min
+
+**Time:** ~5 min  
 
 ### Task: Set up and check your Protégé working environment
 
