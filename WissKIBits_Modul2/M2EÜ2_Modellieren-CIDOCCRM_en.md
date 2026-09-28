@@ -40,7 +40,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – Understanding and Applying**
+Module 2: **Modeling with CIDOC CRM – Understand and Apply**
 
 Exercise Unit M2E2E: **Semantic Modeling with CIDOC CRM**  
 
@@ -76,17 +76,25 @@ At the end of the exercise, you will have a formally implemented section of the 
 
 ## Starting Point
 
-In Module 1, we developed a conceptual model sketch describing concepts and relationships in the computer games domain:
+In Module 1, you developed a **conceptual model** sketch describing concepts and relationships in the computer games domain.
 
 ![Concept Mind Map](../WissKIBits_Modul2/assets/mindmap_en.png)
 
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
-From this you have discussed a first mapping to some CIDOC CRM classes:
+---
+
+From this you have discussed a first **semantic mapping** to CIDOC CRM classes:
 
 ![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
 
-For this exercise, we will focus on statements from this model, e.g.:
+> **Figure:** The graphic shows the mapping to CIDOC CRM top levels and the statements describing the domain.
+
+---
+
+## From the Conceptual Model to a Formal Ontology
+
+For the following exercise, you will focus on statements from this model, e.g.:
 
 > Computer game → **has title** → Game title
 >
@@ -95,10 +103,6 @@ For this exercise, we will focus on statements from this model, e.g.:
 > Computer game → **has type** → Platform type
 
 You will now investigate how these domain statements can be represented using CIDOC CRM and implemented in Protégé.
-
----
-
-## From the Conceptual Model to a Formal Ontology
 
 During the exercise, you will move between three levels:
 
@@ -126,7 +130,7 @@ The **formal ontology structure** makes the modelling decision machine-readable.
 
 **Time:** ~ 30 min.
 
-**Task: Recreate a section of the domain model in Protégé**
+**Task: Formalise a section of the domain model in Protégé**
 
 **Prerequisite:**
 
@@ -139,15 +143,15 @@ must be set up via the [**official Protégé website**](https://protege.stanford
 
 ----
 
-### Step 1: Load Erlangen CRM and Explore its Structure
+### Step 1: Load Erlangen CRM
 
-Open Protégé Desktop and load the provided OWL implementation of CIDOC CRM:
+Open your Protégé environment and load the provided OWL implementation of CIDOC CRM:
 
 [**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
 
 **Note:** 
 
-> The steps shown in the live demo and the corresponding video can be reviewed in M2E2:
+> Follow the steps shown in M2E2 and the live demo and the corresponding video:
 
 !?[Video Demonstration: First Steps in Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
  
@@ -170,17 +174,19 @@ For each class, examine:
 - its description and annotations,
 - and the information provided in its Scope Note.
 
-**Note:**
-
-Pay particular attention to **E41 Appellation** and **E35 Title**.
-
-**E35 Title** is a subclass of **E41 Appellation**. The hierarchy therefore shows how a more specific concept can be placed within a more general conceptual structure.
+> **Note:**
+>
+> Pay particular attention to **E41 Appellation** and **E35 Title**.
+>
+> **E35 Title** is a subclass of **E41 Appellation**.
+>
+> The hierarchy therefore shows how a more specific concept can be placed within a more general conceptual structure.
 
 ---
 
 ### Step 3: Compare Domain Concepts with CIDOC CRM Classes
 
-Now return to the concepts in the conceptual model.
+Now return to the conceptual model and first semantic mapping:
 
 Consider the following possible mappings:
 
@@ -191,7 +197,7 @@ Consider the following possible mappings:
 | Game genre type | E55 Type |
 | Game platform type | E55 Type |
 
-For each proposed mapping, examine the relevant Scope Note.
+**For each proposed mapping, examine the relevant scope note.**
 
 Ask:
 
@@ -200,22 +206,21 @@ Ask:
 - Which information in the Scope Note supports the mapping?
 - Are alternative mappings possible?
 
-> **Important**
+> **Note**
 >
 > The suitability of a class is determined by its **meaning within the reference model**, not simply by its name.
-
-Briefly document your reasoning for at least one mapping.
 
 ---
 
 ### Step 4: Create Domain-Specific Subclasses
 
-Now use the modelling decisions to extend the ontology with concepts from the computer games domain.
+Now use the modelling decisions to extend the ontology with concepts from the computer games domain. 
 
 Create the following domain-specific subclasses in Protégé:
 
-```text
+
 E73 Information Object
+
 └── Computer_Game
 
 E35 Title
@@ -231,8 +236,7 @@ E55 Type
 >
 > Find: **P2 has type**
 
-Document your review.
-
+Briefly document your reasoning for your mapping as you can see in the table.
 
 | Source        | Property       | Target             | Intended Statement                                      |
 | ------------- | -------------- | ------------------ | ------------------------------------------------------- |
