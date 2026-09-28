@@ -71,7 +71,7 @@ Practical ontology development is often understood as a process that integrates 
 >
 > - a not a linear process of developing a domain ontology.
 >
-> - is usually the combination of domain knowledge, application requirements, modeling decisions, and iterative review.
+> - is usually the combination of domain knowledge, application requirements, modeling decisions and iterative review.
 >
 > - based on different methods depending on the starting point and purpose of the model.
 
@@ -89,9 +89,9 @@ Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
 ### A Practical Modeling Workflow
 
-Semantic modeling is iterative: reviewing the model ay lead back to earlier steps. 
+Semantic modeling is iterative: reviewing the model and lead back to earlier steps. 
 
-The diagram illustrates the workflow of semantic modeling.
+The diagram illustrates the workflow of semantic modeling.  
 
 **Identify relevant concepts and relationships**
  
@@ -137,7 +137,7 @@ A domain ontology can be developed by various approaches to extending domain ont
 > - **creating domain-specific subclasses (Entities) for the domain-specific concepts**
 > - **reusing properties from CIDOC CRM as far as possible**
 > 
-> This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.
+> This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.  
 >
 > **Example**
 > 
