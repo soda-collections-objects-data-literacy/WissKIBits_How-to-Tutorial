@@ -81,10 +81,10 @@ Practical ontology development is often understood as a process that integrates 
 
 Ontologies are often created through a combination of (Noy2001ontology, p. 4ff)
 
-- **Bottom-up modeling:** Classes (Entities) and properties (Properties) are gradually derived from existing data.
-- **Top-down modeling:** Starting from a reference model (e.g. CIDOC CRM), a domain-specific specialization is developed.
-- **Competency Questions:** Modeling is driven by typical analytical and research questions (e.g. “Which games have characteristic X?”)
-- **Iterative prototyping:** A model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
+- **Bottom-up modeling** is based on the identification of classes (Entities) and properties (Properties) gradually derived from existing data or sample object.
+- **Top-down modeling** is starting from a reference model (e.g. CIDOC CRM), a domain-specific specialisation is developed.
+- **Competency Questions** are used to model typical analytical and research questions (e.g. “Which games have characteristic X?”)
+- **Iterative prototyping:** includes a model is designed → reviewed → continuously adapted with regard to consistency, extensibility, and queryability.
 
 
 ### A Practical Modeling Workflow
@@ -93,10 +93,6 @@ Semantic modeling is iterative: reviewing the model ay lead back to earlier step
 
 The diagram illustrates the workflow of semantic modeling.
 
-**Identify requirements and questions**
- 
-↓
- 
 **Identify relevant concepts and relationships**
  
 ↓
@@ -105,10 +101,14 @@ The diagram illustrates the workflow of semantic modeling.
  
 ↓
  
-**Reuse or specialize existing ontology elements**
+**Reuse or specialise existing ontology elements**
  
 ↓
  
+**Identify requirements and questions**
+ 
+↓
+
 **Review the model**
  
 ↓
@@ -128,19 +128,22 @@ A domain ontology can be developed by various approaches to extending domain ont
 - **Pure reuse** of existing CIDOC CRM classes (Entities) and properties (Properties)
 - **Combinations** of the strategies mentioned above
 
-**Our strategy in this tutorial**
-
-We recommend a **lightweight extension strategy**. This consists of:
-
-- **creating domain-specific subclasses (Entities) for the domain-specific concepts**
-- **reusing properties from CIDOC CRM as far as possible**
-
-This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.
-
-**Example**
-
-- **domain concept**: Game Genre (model as a domain-specific subclass)
-- **Relationship**: has type (reuse an appropriate CIDOC CRM property where possible instead of e.g. "ist gestaltet nach")
+> **Our strategy in this tutorial**
+>
+> We recommend a **lightweight extension strategy**.
+>
+> This consists of:
+> 
+> - **creating domain-specific subclasses (Entities) for the domain-specific concepts**
+> - **reusing properties from CIDOC CRM as far as possible**
+> 
+> This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.
+>
+> **Example**
+> 
+> - **domain concept**: Game Genre (model as a domain-specific subclass)
+> - 
+> - **Relationship**: has type (reuse an appropriate CIDOC CRM property where possible instead of e.g. "ist gestaltet nach")
 
 ---
 
