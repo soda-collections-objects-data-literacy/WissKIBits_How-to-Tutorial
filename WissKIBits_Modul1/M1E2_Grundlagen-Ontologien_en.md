@@ -71,7 +71,7 @@ Participants can...
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
-> **From conceptual knowledge to an ontology**
+> **From Conceptual Knowledge to an Ontology**
 >
 > Conceptual knowledge modeling identifies and organises the relevant concepts, events, and relationships within a domain.
 >
