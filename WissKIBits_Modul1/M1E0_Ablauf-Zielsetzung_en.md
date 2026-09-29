@@ -52,22 +52,22 @@ Unit 0: **Welcome, objectives and structure**
 
 ## Welcome to WissKI Bits: Ontology-Based Modeling of Research Data
 
-In this module, we use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
+In this module, you use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
 
-In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, we develop the conceptual foundation of this data model. To do so, we analyse object data and contextual information from a specialist domain. We identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
 
 The goal is to document the domain-specific logic in such a way that modeling decisions become transparent and research data can later be recorded, linked, analyzed, and reused consistently.
 
-The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, we move from the collection perspective to the modeling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
+The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, you move from the collection perspective to the modeling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
 
 Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
 
 
 > **What is the module about?**
 >
-> We start with **information about an object** and gradually *develop a semantic data model*.
+> You start with **information about an object** and gradually *develop a semantic data model*.
 >
-> Along the way, we identify **concepts, events, and relationships** from a domain, make their meaning explicit, and prepare them for later implementation in WissKI.
+> Along the way, you identify **concepts, events, and relationships** from a domain, make their meaning explicit, and prepare them for later implementation in WissKI.
 
 ---
 
@@ -95,9 +95,9 @@ Our guiding question through this module is:
 
 ## Module Objectives
 
-We will learn how to move from a collection perspective to a modeling perspective. 
+You will learn how to move from a collection perspective to a modeling perspective. 
 
-We will:
+You will:
 
 - identify relevant **concepts, events, and relationships** in an example game collection,
 - align them with **classes and properties of CIDOC CRM**,
@@ -198,7 +198,7 @@ After completing Module 1, participants can…
 
 ## Learning Path through the Module
 
-We move step by step from a collection perspective to a semantic model.  
+You move step by step from a collection perspective to a semantic model.  
 
 The following diagram illustrates the learning path of the module:
 
@@ -256,11 +256,11 @@ Experience with collection, object, or research data is helpful.
 
 ## Result and Outcome of the Module
 
-At the end of Module 1, we will have developed a first **conceptual model sketch** showing relevant **concepts and events, their relationships**, and **initial mappings to CIDOC CRM**.
+At the end of Module 1, you will have developed a first **conceptual model sketch** showing relevant **concepts and events, their relationships**, and **initial mappings to CIDOC CRM**.
 
 > **What will you take away**
 >
-> By the end of the module we will have an **initial conceptual model sketch of the domain logic** (Computer Games) that includes:
+> By the end of the module you will have an **initial conceptual model sketch of the domain logic** (Computer Games) that includes:
 >
 > - the concepts and events relevant to the example,
 > - their semantic relationships,
