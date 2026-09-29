@@ -63,7 +63,7 @@ The module is designed as a **learning-by-doing tutorial** for the **Scientific 
 Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
 
 
-> **What is the module about?**
+> **What is the Module about?**
 >
 > You start with **information about an object** and gradually *develop a semantic data model*.
 >
@@ -108,7 +108,7 @@ You will:
 
 ## Module Structure
 
-**Total duration of Module 1: approx. 90 min.**
+**Total Duration of Module 1: Approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
@@ -236,7 +236,7 @@ The module combines short inputs alternate with analysis, discussion, and modeli
 
 The goal is not a complete data model. What matters is a **small, consistent, and justifiable model draft** that can later be expanded and technically implemented.
 
-> **How we work**
+> **How we Work**
 >
 > We begin with a short activation excersise using a concrete collection object.
 >
@@ -248,7 +248,7 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 
 ## Prerequisites
 
-**No prior knowledge of ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
+**No prior Knowledge of Ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
 
 Experience with collection, object, or research data is helpful. 
 
