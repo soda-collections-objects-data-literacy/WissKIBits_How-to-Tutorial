@@ -273,7 +273,7 @@ WissKI...
 
 From semantics to usable research data: 
 
-- **CIDOC CRM** defines classes (Entities) and properties (Properties)
+- **CIDOC CRM** defines classes (entities) and properties (properties)
 - **Semantic paths** translate the model into a usable data structure  
 - **Forms** ensure consistent data entry and reduce room for interpretation  
 - **RDF knowledge graph** enables exchange, reuse, and LOD publication  
