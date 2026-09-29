@@ -85,14 +85,14 @@ Question: Which statement best describes your experience with Protégé or other
 **Raise your hand when your option is called**
 
 - You have **not used** Protégé before.
-- You have **explored** Protégé, but have not created or edited an ontology myself.
+- You have **explored** Protégé, but have not created or edited an ontology yourself.
 - You have **actively used** Protégé to create or edit an ontology.
 - You **regularly use** Protégé or another ontology editor.
 
 **Brief reflection**
 
-- If you have used Protégé before: **What did you use it for?**
 - If Protégé is new to you: **What do you expect an ontology editor to help you do?**
+- If you have used Protégé before: **What did you use it for?**
   
 ---
 
@@ -115,19 +115,20 @@ Both are available via the [**official Protégé website**](https://protege.stan
 
 Choose the environment you want to use and make sure it is ready before continuing.
 
-### Step 2: Check your Potégé working environment
+### Step 2: Check Your Protégé Working Environment
 
 If you are using **Protégé Desktop**, check that:
 
+- you have downloaded the latest version,
 - Protégé is installed,
-- the application starts correctly,
-- and you can access the ontology editor.
+- the application starts correctly, and
+- you can access the ontology editor.
 
 If you are using **WebProtégé**, check that:
 
 - you can access WebProtégé,
-- you have an account,
-- and you can sign in successfully.
+- you have an account, and
+- you can sign in successfully.
 
 **The aim is simply to make sure that your working environment is ready for the following exercises.**
 
