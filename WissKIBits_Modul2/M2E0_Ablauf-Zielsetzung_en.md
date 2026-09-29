@@ -65,18 +65,13 @@ The result forms the basis for the subsequent implementation of the ontology str
 
 > **What is the module about?**
 >
-> In Module 1, you focused on identifying and structuring the meaning of collection and research data.
+> In Module 1, you developed a **conceptual model** by identifying concepts, events, and relationships and relating them to CIDOC CRM.
 >
-> You have developed a conceptual model by identifying relevant concepts, events, and relationships then realating them to CIDOC CRM.
+> In Module 2, you will transform this model into a **formal, machine-readable ontology structure** using **CIDOC CRM and Protégé**.
 >
-> In Module 2, you take the next step: **you transform this conceptual model into a formal, machine-readable ontology structure**.
+> Therefore you use **CIDOC CRM scope notes** to evaluate modelling choices and implement selected domain-specific structures.
 >
-> Using **CIDOC CRM and Protégé**, you examine how concepts and relationships from the conceptual model can be represented as CIDOC CRM classes and properties.
->
-> You use **CIDOC CRM scope notes** to evaluate modeling choices, reuse, and specialise existing ontology elements where appropriate, and implement selected domain-specific structures in the ontology editor.
->
-> The result is a **formalised domain model** that provides the basis for its visualisation and technical implementation in WissKI in Module 3.
-
+> The resulting **formalised domain model** provides the basis for visualisation and technical implementation in **WissKI** in Module 3.
 
 ---
 
@@ -88,7 +83,7 @@ Our guiding question is...
 
 ---
 
-## Objectives of the Module
+## Objectives of this Module
 
 In this module, you will learn how to:
 
@@ -157,7 +152,7 @@ After completing Module 2, participants can…
 
 ---
 
-## Learning Path through the Module
+## Learning Path through this Module
 
 The diagram illustrates the learning path of the module.
 
@@ -189,7 +184,7 @@ The diagram illustrates the learning path of the module.
 
 ↓
 
-**save the ontology and prepare it for WissKI**
+**Save the ontology and prepare it for WissKI**
 
 
 ---
@@ -209,7 +204,7 @@ The module combines methodological input, demonstration, and guided application:
 
 The goal is not a complete domain ontology. What matters is a **small, comprehensible, and formally usable extension of CIDOC CRM** that prepares the transition to implementation in WissKI.
 
-> **How we work**
+> **How you work**
 >
 > Short methodological inputs alternate with demonstrations and hands-on modelling activities.
 >
