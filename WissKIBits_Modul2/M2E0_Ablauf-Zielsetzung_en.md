@@ -269,7 +269,7 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 
 > **Next:**
 >
-> You will choose Protégé Desktop or WebProtégé as your working environment and make sure that you can access the ontology editor before starting the practical activities.
+> You learn how **different modelling approaches and workflows** guide the development of a domain ontology.
 
 ---
 
