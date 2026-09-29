@@ -244,7 +244,7 @@ Statements about resources take the form of **triples: subject–predicate–obj
 > RDF (Resource Description Framework) provides a standard for representing statements about resources as triples in machine-readable form.
 
 
-> We have to decide between **class alignement or relationships**
+> You have to decide between **class alignement or relationships**
 >
 > Classification: e.g. “The game is an object.” → E22 Human-Made Object, Game → instance of → E22 Human-Made Object
 >
@@ -308,9 +308,9 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 > **Next:**
 >
->  We now have a reference model for formally describing concepts, events, and relationships in the cultural heritage domain.
+>  You now have a reference model for formally describing concepts, events, and relationships in the cultural heritage domain.
 >
-> In the next unit, we introduce WissKI and explore how ontology-based structures can support the management and use of research data.
+> In the next unit, you get introduced to WissKI and you explore how ontology-based structures can support the management and use of research data.
 
 ---
 
