@@ -87,62 +87,71 @@ Ontologies are often developed using a combination of different modelling approa
 - **Iterative prototyping:** The model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
 
 
-### The Practical Modeling Workflow Semantic Modeling 
+### The Practical Modelling Workflow
 
-Semantic modeling is iterative: reviewing the model and lead back to earlier steps. 
+In this module, you follow a systematic workflow to transform the conceptual model into a formal ontology structure:
 
-The diagram illustrates the workflow of semantic modeling.  
+**Start with CIDOC CRM as the reference model**
 
-**Identify relevant concepts and relationships**
- 
-↓
-  
-**Structure them as classes and properties**
- 
-↓
- 
-**Reuse or specialise existing ontology elements**
- 
-↓
- 
-**Identify requirements and questions**
- 
 ↓
 
-**Review the model**
- 
+**Use research questions to guide the modelling**
+
 ↓
-  
-**Revise and refine**
+
+**Identify suitable CIDOC CRM classes and properties**
+
+↓
+
+**Reuse or specialise them for the domain**
+
+↓
+
+**Review the model against the research questions**
+
+↓
+
+**Revise and refine the model**
+
+↓
+
+↺ **Repeat where necessary**
+
 
 ---
 
-## Modeling Strategy 
+## Modelling Strategy
 
-We have to decide between class alignement or relationships.
+When developing a domain ontology based on an existing reference ontology, you need to decide **which existing ontology elements can be reused and where domain-specific extensions are needed**.
 
-A domain ontology can be developed by various approaches to extending domain ontologies:
+Possible strategies include:
 
-- Create new **subclasses (Entities)**
-- Define new **properties (Properties)**
-- **Pure reuse** of existing CIDOC CRM classes (Entities) and properties (Properties)
-- **Combinations** of the strategies mentioned above
+- **reusing** existing CIDOC CRM classes (Entities) and properties (Properties),
+- creating domain-specific **subclasses (Entities)**,
+- defining new domain-specific **properties (Properties)**, or
+- using a **combination** of these approaches.
 
 > **Our strategy in this tutorial**
 >
-> We recommend a **lightweight extension strategy**.
+> We follow a **lightweight extension strategy**:
 >
-> This consists of:
-> 
-> - **creating domain-specific subclasses (Entities) for the domain-specific concepts**
-> - **reusing properties from CIDOC CRM as far as possible**
-> 
-> This ensures **interoperability and CIDOC compatibility**, reduces complexity, and still makes the domain-specific aspects explicit.  
+> - create **domain-specific subclasses** for concepts that need to be represented explicitly in the domain model;
+> - reuse existing **CIDOC CRM properties** wherever their meaning adequately represents the intended relationship.
+>
+> This keeps the domain model close to the CIDOC CRM structure, reduces unnecessary complexity, and supports interoperability while making domain-specific concepts explicit.
 >
 > **Example**
-> 
-> - **Domain concept**: Game Genre (model as a domain-specific subclass)
-> - **Relationship**: has type (reuse an appropriate more generic CIDOC CRM property if possible instead of a distinct specification e.g. “is designed according to”)
+>
+> - **Domain concept:** *Game Genre* → create a domain-specific subclass of an appropriate CIDOC CRM class.
+> - **Relationship:** *has type* → reuse an appropriate CIDOC CRM property, such as **P2 has type**, rather than creating a more specific property such as *is designed according to*, provided that the meaning of P2 adequately represents the intended relationship.
+>
+> **Why this strategy?**
+>
+> By adding domain-specific subclasses while reusing established CIDOC CRM properties, you can **specialise the model without creating a separate seamntic relationship structure**.
+>
+> Domain-specific concepts remain explicit, while their relationships retain the established semantics of CIDOC CRM.
+>
+> This keeps the extension **small, transparent, and easier to maintain and implement**.
 
 ---
 
