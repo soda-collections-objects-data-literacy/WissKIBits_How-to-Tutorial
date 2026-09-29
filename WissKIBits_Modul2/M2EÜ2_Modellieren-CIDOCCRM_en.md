@@ -84,7 +84,9 @@ In Module 1, you developed a **conceptual model** sketch describing concepts and
 
 ---
 
-From this you have discussed a first **semantic mapping** to CIDOC CRM classes:
+## Suggested Solution
+
+Based on the previous steps, a first **semantic mapping** to CIDOC CRM classes could look like this:
 
 ![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
 
