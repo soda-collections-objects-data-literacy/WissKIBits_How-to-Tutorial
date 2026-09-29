@@ -84,9 +84,11 @@ Protégé is available both as a desktop application ([**Protégé Desktop**](ht
 
 In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling.
 
-To work with CIDOC CRM in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM. The current Erlangen CRM version used in this tutorial is based on CIDOC CRM 7.1.3.
+To explore and extend CIDOC CRM in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
 
-Using **Protégé**, we can explore this ontology structure and work with its classes. In the practical exercise, we will extend the existing structure with selected **domain-specific subclasses** and document our modelling decisions.
+Protégé provides the working environment for exploring the existing ontology structure and extending it with selected **domain-specific elements**. 
+
+In the following video, you will see the basic steps needed to prepare for the practical modelling exercise.
 
 > **Resources**
 >
@@ -94,8 +96,6 @@ Using **Protégé**, we can explore this ontology structure and work with its cl
 >
 > - [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
 > - [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
-
-The outcome of the practical exercise is a small, **machine-readable OWL domain ontology extension** that provides the basis for the subsequent visualisation and technical implementation in **WissKI** in Module 3.
 
 ---
 
