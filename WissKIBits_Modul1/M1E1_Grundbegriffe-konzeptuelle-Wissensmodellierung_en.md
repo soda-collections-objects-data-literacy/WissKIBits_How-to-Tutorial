@@ -160,11 +160,11 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 > **Reflection**
 >
-> We look back to our model sketch we created in E1A.
+> You look back to your model sketch you created in E1A.
 >
-> We have sorted elements of domain knowledge and connected them through meaningful relationships.
+> You have sorted elements of domain knowledge and connected them through meaningful relationships.
 >
-> Now  we use the terminology (concept, event, relationship) introduced in this unit to reflect on our model:
+> Now use the terminology (concept, event, relationship) introduced in this unit to reflect on your model:
 >
 > - Which elements are concepts?
 > - Which elements represent events?
@@ -174,23 +174,23 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 > **Step 1: Revisit**
 >
-> We look at the model sketch we created.
+> You look at the model sketch we created.
 >
 > **Step 2 · Classify**
 >
-> We identify examples of **concepts, events, and relationships**.
+> You identify examples of **concepts, events, and relationships**.
 >
 > **Step 3 · Reflect**
 >
-> We choose one relationship and ask:
+> You choose one relationship and ask:
 > 
-> - Could the same two concepts be connected with differnet relationships if we wanted to express another meaning?
+> - Could the same two concepts be connected with differnet relationships if you want to express another meaning?
 
 ---
 
 ## Expected Result
 
-We identified **concepts, events, and relationships** in our own model sketch and have explained how they contribute to the conceptual organisation of domain knowledge.
+You identified **concepts, events, and relationships** in your own model sketch and you have explained how they contribute to the conceptual organisation of domain knowledge.
 
 **Concepts, events, relationships could be...:**
 
@@ -206,9 +206,9 @@ We identified **concepts, events, and relationships** in our own model sketch an
 
 Conceptual knowledge modeling structures the relevant domain knowledge using concepts, events, and relationships. 
 
-In E1A, we created a first conceptual model sketch from information about a collection object.
+In E1A, you created a first conceptual model sketch from information about a collection object.
 
-In this unit, we have introduced the terminology needed to describe what happened during this process:
+In this unit, you have introduced the terminology needed to describe what happened during this process:
 
 - **concepts** represent relevant elements of the domain.
 - **events** represent occurrences and processes.
@@ -216,7 +216,7 @@ In this unit, we have introduced the terminology needed to describe what happene
 
 **From model sketch to research questions**
 
-Which concepts, events, and relationships are relevant depends on the questions we want our data model to support.
+Which concepts, events, and relationships are relevant depends on the questions you want your data model to support.
 
 Collection-related research questions may concern, for example:
 
@@ -228,11 +228,11 @@ Collection-related research questions may concern, for example:
 - **Identification:** How can the object be precisely identified and referenced using unique characteristics such as inventory numbers?
 
 
-> **What we have learned**
+> **What you have Learned**
 >
-> We created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
+> You created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
 >
-> We can now describe this process as **conceptual knowledge modeling**: organising domain knowledge through concepts, events, and relationships.
+> You can now describe this process as **conceptual knowledge modeling**: organising domain knowledge through concepts, events, and relationships.
 >
 > This conceptual structure provides the foundation for developing a semantic data model.
 
@@ -240,13 +240,13 @@ Collection-related research questions may concern, for example:
 
 ## Outlook
 
-Through conceptual knowledge modeling, we have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
+Through conceptual knowledge modeling, you have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
 
 > **Next:**
 >
->  We have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
+>  You have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
 >
-> In Unit 2, we explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
+> In Unit 2, you explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
 ---
 
