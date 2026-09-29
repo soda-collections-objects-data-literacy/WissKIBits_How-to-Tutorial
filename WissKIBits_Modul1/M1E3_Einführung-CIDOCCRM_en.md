@@ -155,7 +155,7 @@ Use it for orientation and for exploring the model. For the precise definition a
 |-------------------|------------------------------|------------------------------------------|
 | Thing             | **E70 Thing**                | Physical or immaterial object            |
 | Physical object   | **E22 Human-Made Object**    | Artifact, exhibit, collection object     |
-| Actor             | **E21 Person**, **E74 Group** | Individual or organization              |
+| Actor             | **E21 Person**, **E74 Group** | Individual or organisation              |
 | Event             | **E5 Event**                 | An action or change                      |
 | Place             | **E53 Place**                | Spatial context                          |
 | Time              | **E52 Time-Span**            | Temporal framework                       |
@@ -170,7 +170,7 @@ Use it for orientation and for exploring the model. For the precise definition a
 
 ## Class Hierarchy and Scope Notes
 
-The **Scope Note** of a CIDOC CRM class specifies:
+The **scope note** of a CIDOC CRM class specifies:
 
 - **What it expresses**
 - **What its meaning and boundaries are**
