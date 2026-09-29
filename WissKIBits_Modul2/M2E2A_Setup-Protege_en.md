@@ -52,7 +52,7 @@ Participants will be able to...
 
 - name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
 - use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
-- analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_xx\_xxx\_xxxx)
+- analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_03\_007\_0857)
 
 ---
 
