@@ -59,13 +59,13 @@ Participants can...
 
 This is a practical exercise.
 
-we use **"The Legend of Zelda: A Link to the Past"** as an example, select some concepts and we will tentatively map them to **CIDOC CRM** classes.
+you use **"The Legend of Zelda: A Link to the Past"** as an example, you select some concepts and we will tentatively map them to **CIDOC CRM** classes.
 
 The aim here is not to create a complete or formally correct CIDOC CRM model.
 
 Rather, the goal is to demonstrate that translating domain knowledge into a reference model requires **modeling decisions**.
 
-By the end, we will be able to:
+By the end, you will be able to:
 
 *   map selected concepts to potential **CIDOC CRM classes (entities)**,
 *   describe these mappings as modeling decisions,
@@ -93,7 +93,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
 
-Using this example, we examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
+Using this example, you examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
 
 The **goal is not** to develop a complete data model for computer games. Instead, an **initial model sketch** is created that
 
@@ -107,7 +107,7 @@ The **goal is not** to develop a complete data model for computer games. Instead
 
 The starting point is **“The Legend of Zelda: A Link to the Past”**.
 
-We use this example, an analysis was conducted to determine which **concepts, events, and relationships** might be relevant for describing a collection object and its context.
+Using this example, an analysis was conducted to determine which **concepts, events, and relationships** might be relevant for describing a collection object and its context.
 
 > **From Model Sketch to CIDOC CRM Draft**
 >
@@ -140,7 +140,7 @@ We use this example, an analysis was conducted to determine which **concepts, ev
 
 ## Focus of this Modeling Exercise
 
-For the model sketch, we consider selected information regarding the example object. In doing so, we focus on three areas:
+For the model sketch, you consider selected information regarding the example object. In doing so, you focus on three areas:
 
 - **Game title**
 - **Game characteristics** (e.g., genre, such as action-adventure, RPG, or platform, such as Nintendo 64, PlayStation, PC)
@@ -187,11 +187,11 @@ For example, the following questions might be asked:
 
 > **Step 1 · Select**
 >
-> We select concepts or events from the model sketch, e.g., Game, Person, Organization, Title, Genre, or Production.
+> You select concepts or events from the model sketch, e.g., Game, Person, Organization, Title, Genre, or Production.
 >
 > **Step 2 · Assign**
 >
-> For each selected element, we find a CIDOC CRM class that could match its meaning.
+> For each selected element, you find a CIDOC CRM class that could match its meaning.
 >
 > Use:
 > 
@@ -214,15 +214,15 @@ For example, the following questions might be asked:
 >
 > **Step 3 · Review**
 >
-> We read the scope note of the selected class.
+> You read the scope note of the selected class.
 >
-> We ask: Does this class actually describe what we mean by our term?
+> You ask: Does this class actually describe what we mean by our term?
 >
 > **Step 4 · Justify**
 >
-> We add the CIDOC CRM class to your model sketch and briefly note why you chose this assignment.
+> You add the CIDOC CRM class to your model sketch and briefly note why you chose this assignment.
 >
-> We mark uncertain assignments with a question mark (?).
+> You mark uncertain assignments with a question mark (?).
 >
 > **Tip: The goal is not to assign as many classes as possible. The crucial point is that you can provide a clear and understandable justification for a few modeling decisions.**
 
@@ -298,7 +298,7 @@ You have further developed your initial conceptual model sketch into a CIDOC-CRM
 
 ## From Designation to Appellation
 
-In our initial model sketch, we can state simply:
+In our initial model sketch, you can state simply:
 
 > Game → has a designation → “The Legend of Zelda: A Link to the Past”
 
@@ -327,7 +327,7 @@ The precise modeling of appellations, their character content, and datatype prop
 
 > **Modeling Example · Not All Designations Are the Same**
 >
-> In the conceptual model sketch, we can initially state:
+> In the conceptual model sketch, you can initially state:
 >
 > Game → has designation → “The Legend of Zelda: A Link to the Past”
 >
