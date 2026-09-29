@@ -320,9 +320,9 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 > **Next:**
 >
-> We have seen how WissKI connects semantic modeling with technical research data management.
+> You have seen how WissKI connects semantic modeling with technical research data management.
 >
-> In the following practical unit, we return to our example object and develop its semantic domain model step by step using the concepts introduced in this module.
+> In the following practical unit, you return to your example object and develop its semantic domain model step by step using the concepts introduced in this module.
 
 ---
 
