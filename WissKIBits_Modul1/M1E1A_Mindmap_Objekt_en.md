@@ -46,7 +46,7 @@ Activation Unit E1A: **Application Example from Object Collections**
 
 **Duration:** ~ 15 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
 Participants can...
 
@@ -57,15 +57,15 @@ Participants can...
 
 ## Goal and Scenario
 
-> **Activation: From the object to a Conceptual Model**
+> **Activation: From the Object to a Conceptual Model**
 >
-> We start with a collection or research object and ask:
+> You start with a collection or research object and ask:
 >
-> **What do we need to know about this object – and how is this knowledge connected?**
+> **What do you need to know about this object – and how is this knowledge connected?**
 >
-> We use **The Legend of Zelda: A Link to the Past** as an example.
+> You use **The Legend of Zelda: A Link to the Past** as an example.
 >
-> We identify relevant **concepts, events, and relationships** to describe this example.
+> You identify relevant **concepts, events, and relationships** to describe this example.
 >
 > The goal is not yet to use CIDOC CRM, but to **create a first conceptual model sketch of the domain**.
 
@@ -75,7 +75,7 @@ Participants can...
 
 The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
 
-Using this example, we examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
+Using this example, you examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
 
 The **goal is not** to develop a complete data model for computer games. 
 
@@ -85,15 +85,15 @@ Instead, we create an **initial model sketch** that
 - makes their relationships visible, and
 - serves as the basis for subsequent mapping to CIDOC CRM.
 
-> **Starting from the object**
+> **Starting from the Object**
 >
 > Our example is the computer game **The Legend of Zelda: A Link to the Past.**
 >
-> We use it to explore which concepts, events, and relationships may be relevant for describing such a collection object and its context.
+> You use it to explore which concepts, events, and relationships may be relevant for describing such a collection object and its context.
 >
 > **Remember:** The goal is not to develop a complete data model.
 >
-> We start small and focus on what is relevant for understanding this object.
+> You start small and focus on what is relevant for understanding this object.
 
 ---
 
@@ -129,7 +129,7 @@ This makes the domain a clear starting point for recognizing different perspecti
 
 ## Focus of this Activation Exercise
 
-For the model sketch, we consider selected information about the example object. We focus on three areas:
+For the model sketch, you consider selected information about the example object. You focus on three areas:
 
 - **Game title** 
 - **Game characteristics** (e.g. genre, such as action-adventure, RPG, or platform, such as Nintendo 64, PlayStation, PC)
@@ -161,19 +161,19 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > Download ![puzzle template](../WissKIBits_Modul1/assets/puzzle.drawio_en.xml)
 >
-> **Note: We use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
+> **Note: You use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
 >
 > **Step 1 · Identify**
 > 
-> We identify relevant concepts and events related to the example object domain.
+> Identify relevant concepts and events related to the example object domain.
 > 
 > These may include person or organisation, place, time, or event and more. 
 >
 > **Step 2 · Connect**
 >
-> We connect the relevant elements using meaningful relationships.
+> Connect the relevant elements using meaningful relationships.
 > 
-> We formulate with each connection meaningful statement about the example object; such as....
+> Formulate with each connection a meaningful statement about the example object; such as....
 > 
 > **Examples**
 > 
@@ -185,17 +185,17 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > **Step 3 · Check**
 >
-> We read our connections as statements and ask us: **Do they express what you actually like to describe?**
+> Read connections as statements and ask: **Do they express what you actually like to describe?**
 >
 > **Tip: Less is more**
 >
-> We focus on a small number of elements and try to generate particularly relevant assumptions to understanding the object.
+> Focus on a small number of elements and try to generate particularly relevant assumptions to understanding the object.
 
 ---
 
 ## Result
 
-We now have a first conceptual model sketch containing:
+You now have a first conceptual model sketch containing:
 
 - relevant concepts,
 - events, and
