@@ -67,7 +67,7 @@ Participants can...
 
 ## Visualising a Domain Ontology as a Diagram with Draw.io
 
-In this unit, the data model developed in Modules 1 and 2 is visualized as a diagram in Draw.io (Ltd2026drawio). 
+In this unit, the data model developed in Modules 1 and 2 is visualised as a diagram in Draw.io (Ltd2026drawio). 
 
 The Draw.io created diagram forms the **prerequisite for the (semi-)automated pipeline** for the **WissKI Pathbuilder**.
 
@@ -107,10 +107,10 @@ Especially in collaborative projects, Draw.io facilitates **coordination between
 
 The previous questions have clarified which central concepts of the example domain are relevant and how they can be classified from a domain-specific perspective.
 
-The next step is no longer about recognizing or naming these central concepts, but about transforming this selection into a **formalised path structure**:
+The next step is no longer about recognising or naming these central concepts, but about transforming this selection into a **formalised path structure**:
 
 - How are the central concepts linked to one another in a semantically correct way?
-- How does this result in a formalized path structure that can be used in the form of **paths and path groups in the WissKI Pathbuilder**?
+- How does this result in a formalised path structure that can be used in the form of **paths and path groups in the WissKI Pathbuilder**?
 
 For this purpose, the conceptual domain model is now implemented **visually and formally in Draw.io**.  
 
@@ -204,10 +204,13 @@ Rules for visualization with Draw.io**
 > - Relationships from CIDOC CRM are reused.
 > 
 > - Complete paths must be created. (e.g. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
-> 
-> - The central start node, each group node, and each end node are each assigned **element\_id**, **group\_name**, and **name**. (e.g. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
-> - The transformation can only process structures that are represented unambiguously and consistently in the source diagram.
 
+> **Check attribute values**
+> 
+> - The central start node and each group node are each assigned **element\_id**, **group\_name**, and **name**. (e.g. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
+> - Each end node is each assigned **group\_name** (e.g. name=Computer\_Game)
+>   
+> The transformation can only process structures that are represented unambiguously and consistently in the source diagram.
 
 **Resources**
 
