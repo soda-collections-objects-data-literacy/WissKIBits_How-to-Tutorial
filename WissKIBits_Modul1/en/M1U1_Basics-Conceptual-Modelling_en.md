@@ -41,9 +41,9 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
+Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
 
-Unit 1: **Basic concepts of conceptual knowledge modelling**  
+Unit 1 (U1): **Basic concepts of conceptual knowledge modelling**  
 
 **Duration:** ~ 15 min.
 

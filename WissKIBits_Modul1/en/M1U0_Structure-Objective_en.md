@@ -41,9 +41,9 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
+Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
 
-Unit 0: **Welcome, objectives and structure**  
+Unit 0 (U0): **Welcome, Structure and Objectives**  
 
 **Duration:** ~ 5 min.
 
@@ -63,7 +63,7 @@ The module is designed as a **learning-by-doing tutorial** for the **Scientific 
 Subsequent units transfer this approach to learners’ own research data and deepen both formal modelling and implementation in WissKI.
 
 
-> **What is the Module about?**
+> **What is the Module About?**
 >
 > You start with **information about an object** and gradually develop a semantic data model.
 >
@@ -127,12 +127,12 @@ You will:
 
 After completing Module 1, participants can…
 
-### E1A. Application Example from Object Collections
+### U1A. Application Example from Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 - apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa_03_007_0856)
   
-### 1. Basic Concepts of Conceptual Knowledge Modelling
+### U1. Basic Concepts of Conceptual Knowledge Modelling
    
 - name the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0847)
 - explain the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0848)
@@ -145,7 +145,7 @@ After completing Module 1, participants can…
 - name the term semantic data model. (LO-ID SODa\_03\_007\_0845)
 - explain the term semantic data model. (LO-ID SODa\_03\_007\_0846)
 
-### 2. Fundamentals of Ontologies
+### U2. Fundamentals of Ontologies
    
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)
@@ -159,7 +159,7 @@ After completing Module 1, participants can…
 - name the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
 - explain the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
 
-### 3. Introduction to CIDOC CRM
+### U3. Introduction to CIDOC CRM
 
 - name an ontology for describing resources. (LO-ID 03\_007\_0778)
 - explain an ontology for describing resources. (LO-ID 03\_007\_0779)
@@ -172,7 +172,7 @@ After completing Module 1, participants can…
 - explain the term domain ontology. (LO-ID SODa\_03\_007\_0828)
 - name the benefits of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0805)
  
-### 4. FAIR Compliance with WissKI
+### U4. FAIR Compliance with WissKI
 
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
 - name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
@@ -189,7 +189,7 @@ After completing Module 1, participants can…
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### E1E. Application Example for Object Collections
+### U1E. Application Example for Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
