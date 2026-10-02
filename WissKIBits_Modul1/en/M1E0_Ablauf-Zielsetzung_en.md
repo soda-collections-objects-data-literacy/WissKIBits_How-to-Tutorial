@@ -65,7 +65,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 > **What is the Module about?**
 >
-> You start with **information about an object** and gradually *develop a semantic data model*.
+> You start with **information about an object** and gradually develop a semantic data model.
 >
 > Along the way, you identify **concepts, events, and relationships** from a domain, make their meaning explicit, and prepare them for later implementation in WissKI.
 
