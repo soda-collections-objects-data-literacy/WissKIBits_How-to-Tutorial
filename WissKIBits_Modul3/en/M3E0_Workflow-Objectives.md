@@ -50,7 +50,7 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 ## Welcome
 
-Welcome to **SODa WissKI Bits: Ontology-based Modelling of Research Data**.
+Welcome to **SODa WissKI Bits: Ontology-Based Modelling of Research Data**.
 
 This how-to tutorial provides a practice-oriented introduction to the ontology-based modelling of reseach data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
 
@@ -62,7 +62,7 @@ The generated file is imported into WissKI. There, the paths and path groups are
 
 The module follows the principle of **Learning by Doing**. Using an example from the computer games domain, participants work through the entire processing chain from the semantic diagram and file conversion to the imported path structure in the WissKI Pathbuilder.
 
-> **What is this module about?**
+> **What is This Module About?**
 >
 > In this module, you move from a formal ontology structure to its technical implementation in WissKI.
 >
@@ -103,9 +103,9 @@ You will:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and workflow | 10 min. |
-| E1E | Visualizing semantic data models | 35 min. |
-| E2E | Transforming semantic models into WissKI paths | 45 min. |
+| 0 | Welcome, workflow and objectives| 10 min. |
+| UE1 | Visualizing semantic data models | 35 min. |
+| UE2 | Transforming semantic models into WissKI paths | 45 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -114,7 +114,7 @@ You will:
 
 After completing Module 3, participants can…
 
-### Ü1. Visualising Semantic Data Models
+### UE1. Visualising Semantic Data Models
 
 - Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
 - Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
@@ -128,7 +128,7 @@ After completing Module 3, participants can…
 - Apply rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0816)
 - Apply attribute values to predefined classes of the domain ontology in visualisation software. (LZ-ID SODa\_03\_007\_0817)
 
-### Ü2. Transforming Semantic Models into WissKI Paths
+### UE2. Transforming Semantic Models into WissKI Paths
 
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
 - With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
@@ -214,12 +214,21 @@ The content from Module 1 and Module 2, or comparable basic knowledge and work r
 - be familiar with a formally implemented domain ontology or ontology extension,
 - and understand the basic principle of semantic paths.
 
-> **Prerequisites**
+
+> **Before you continue**
 >
-> Module 3 builds on Modules 1 and 2 or equivalent prior knowledge. Participants should be familiar with concepts, events, relationships, classes, properties, CIDOC CRM, Scope Notes, and the basic principle of semantic paths. A formalised domain ontology or ontology extension should be available.
+> Check whether you can:
+>
+> - identify concepts, events, and relationships in a domain;
+> - work with selected CIDOC CRM classes, properties, and Scope Notes;
+> - understand the basic principle of semantic paths.
+>
+> You should also have a formalised domain ontology or ontology extension available.
+>
+> If you completed Modules 1 and 2, you are ready to continue.
 
 
-**Technical setup**
+**Technical Setup**
 
 - a computer with internet access,
 - access to [diagrams.net (Draw.io)](https://app.diagrams.net/),
