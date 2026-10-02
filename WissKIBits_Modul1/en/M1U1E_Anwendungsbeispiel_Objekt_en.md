@@ -40,9 +40,9 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1 (M1): **From the collection through modeling decisions to the diagram – understand and explain**
 
-Exercise Unit E1E: **Application Example: Object Collections**  
+Unit 1 Exercise (U1E): **Application Example: Object Collections**  
 
 **Duration:** ~ 20 min.
 
