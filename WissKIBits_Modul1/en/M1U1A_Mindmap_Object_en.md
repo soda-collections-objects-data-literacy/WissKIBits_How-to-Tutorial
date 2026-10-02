@@ -57,6 +57,8 @@ Participants will be able to...
 
 ## Goal and Scenario
 
+This is an activation exercise.
+
 > **Activation: From the Object to a Conceptual Model**
 >
 > You start with a collection or research object and ask:

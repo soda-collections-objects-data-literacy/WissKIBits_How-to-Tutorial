@@ -119,15 +119,17 @@ Watch how an existing ontology is opened, how its structure is explored, and how
 
 ## Outcome
 
-You have now explored how to **open and navigate an ontology in Protégé** and how existing CIDOC CRM classes or properties can provide the basis for domain-specific modelling.
+You have seen how to **load and explore an existing ontology in Protégé** and how it can be extended with a **domain-specific subclass**.
 
 ---
 
 ## Outlook
 
-> **Next:** 
+> **Next: Semantic Modelling with CIDOC CRM**
 >
-> You will apply this workflow to the **computer games domain**: select suitable CIDOC CRM classes and properties, add domain-specific subclasses, and model their relationships.
+> You have learned how to open and explore an ontology in Protégé.
+>
+> Next, you will apply these steps to the **computer games domain**: select suitable CIDOC CRM classes and properties, add domain-specific subclasses, and model their relationships.
 
 ---
 

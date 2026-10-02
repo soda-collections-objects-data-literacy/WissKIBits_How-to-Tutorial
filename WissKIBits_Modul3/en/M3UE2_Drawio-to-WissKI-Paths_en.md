@@ -104,7 +104,9 @@ The focus is on five fundamental work steps:
 
 - **Step 3: Create a Pathbuilder and import XML**
 
-- **Step 4: Analyze the generated groups and paths**
+- **Step 4: Analyse the generated groups and paths**
+
+- **Step 5: Verify the generated paths against the original semantic model**
 
 ---
 
@@ -368,6 +370,21 @@ is used.
 The semantic paths are thus used to create **bundles and fields** that can be used for data entry and display in WissKI.
 
 > **Ontology → Pathbuilder → Bundles and fields → Data entry**
+
+---
+
+## Final Reflection
+
+You have now completed the learning path from a collection object to its semantic implementation in WissKI:
+
+**Research object → conceptual model → CIDOC CRM → formal ontology → diagram → Pathbuilder XML → WissKI paths**
+
+Look back at the complete process:
+
+- How did your representation of the domain change from the first model sketch to the WissKI Pathbuilder?
+- Which modelling decisions remained visible throughout the process?
+- Which step was most challenging?
+- How could you apply this workflow to your own research or collection data?
 
 ---
 

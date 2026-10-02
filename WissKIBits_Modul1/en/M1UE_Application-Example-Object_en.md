@@ -89,38 +89,28 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 ---
 
-## Starting Point: Example Object “Zelda”
+## Starting Point: Your Model Sketch from E1A
 
-The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
+In **E1A**, you started with the computer game **The Legend of Zelda: A Link to the Past** and created a first **conceptual model sketch**.
 
-Using this example, you examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
+You identified relevant **concepts, events, and relationships** and connected them to represent knowledge about the collection object and its context.
 
-The **goal is not** to develop a complete data model for computer games. Instead, an **initial model sketch** is created that
+This model sketch is the starting point for the following exercise.
 
-- distinguishes central concepts and events in a way that is understandable to people,
-- makes their relationships visible, and
-- serves as the basis for subsequent mapping to **CIDOC CRM**.
-
----
-
-## Starting Point: Model Sketch for “Zelda”
-
-The starting point is **“The Legend of Zelda: A Link to the Past”**.
-
-Using this example, you identified **concepts, events, and relationships** that may be relevant for describing a collection object and its context.
-
-> **From Model Sketch to CIDOC CRM Draft**
+> **From Conceptual Model to a First CIDOC CRM Draft**
 >
-> Relevant concepts, events, and relationships for the example object **“The Legend of Zelda: A Link to the Past”** have been identified (M1E1A).
+> So far, your model describes the domain using concepts, events, and relationships in your own terminology.
 >
-> Now, consider this model sketch from a new perspective:
-> 
-> - What is the significance of the identified concepts?
-> - Which CIDOC CRM classes could express this significance?
-> - Do the informally phrased relationships already align with the reference model?
-> - What modelling decisions need to be made?
+> Now, look at the same model from a **CIDOC CRM perspective**:
 >
-> Remember: A similar label does not automatically imply the same meaning.
+> - What do the identified concepts and events mean in the context of the domain?
+> - Which **CIDOC CRM classes** could represent this meaning?
+> - Do the informally formulated relationships correspond to relationships represented in CIDOC CRM?
+> - Which **modelling decisions** need to be made?
+>
+> Remember: **A similar label does not necessarily imply the same meaning.**
+>
+> The aim is not yet to create a complete or formally implemented CIDOC CRM model. You are developing a **first CIDOC CRM-informed version of your conceptual model** that will be further formalised in Module 2.
 
 ---
 

@@ -215,15 +215,14 @@ The content from Module 1 and Module 2, or comparable basic knowledge and work r
 - and understand the basic principle of semantic paths.
 
 
-> **Before you continue**
+> **Be ready for module 3**
 >
-> Check whether you can:
+> Before continuing, check whether you:
 >
-> - identify concepts, events, and relationships in a domain;
-> - work with selected CIDOC CRM classes, properties, and Scope Notes;
-> - understand the basic principle of semantic paths.
->
-> You should also have a formalised domain ontology or ontology extension available.
+> - can identify concepts, events, and relationships;
+> - are familiar with classes, properties, CIDOC CRM, and Scope Notes;
+> - understand the basic principle of semantic paths; and
+> - have a formalised domain ontology or ontology extension available.
 >
 > If you completed Modules 1 and 2, you are ready to continue.
 

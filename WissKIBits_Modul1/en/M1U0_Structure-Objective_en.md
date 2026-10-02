@@ -190,7 +190,7 @@ After completing Module 1, participants can…
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### U1E. Application Example for Object Collections
+### UE. Application Example for Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
@@ -278,7 +278,11 @@ The following unit first clarifies the basic concepts of conceptual knowledge mo
 The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
 The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
 
-> In the next unit, we begin with the basic concepts of conceptual knowledge modelling and establish the vocabulary needed for the modelling process.
+> **Next:**
+>
+> You now know what you will develop in this module.
+>
+> Next, you will start with a concrete collection object and create a first **conceptual model sketch** by identifying relevant concepts, events, and relationships.
 
 ---
 
