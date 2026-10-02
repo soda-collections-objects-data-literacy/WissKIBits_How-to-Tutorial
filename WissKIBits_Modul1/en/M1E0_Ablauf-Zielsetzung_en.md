@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: Welcome, objectives and structure
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -37,11 +37,11 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
 Unit 0: **Welcome, objectives and structure**  
 
@@ -50,17 +50,17 @@ Unit 0: **Welcome, objectives and structure**
 
 ---
 
-## Welcome to WissKI Bits: Ontology-Based Modeling of Research Data
+## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
 In this module, you use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
 
-In Module 1, **“From the collection through modeling decisions to the diagram – understand and explain”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+In Module 1, **“From the collection through modelling decisions to the diagram – understand and explain”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
 
-The goal is to document the domain-specific logic in such a way that modeling decisions become transparent and research data can later be recorded, linked, analyzed, and reused consistently.
+The goal is to document the domain-specific logic in such a way that modelling decisions become transparent and research data can later be recorded, linked, analysed, and reused consistently.
 
-The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, you move from the collection perspective to the modeling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
+The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, you move from the collection perspective to the modelling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
 
-Subsequent units transfer this approach to learners’ own research data and deepen both formal modeling and implementation in WissKI.
+Subsequent units transfer this approach to learners’ own research data and deepen both formal modelling and implementation in WissKI.
 
 
 > **What is the Module about?**
@@ -81,7 +81,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 >
 > Their meaning and relationships are equally important.
 >
-> **Semantic modeling makes these connections explicit, understandable, and reusable.**
+> **Semantic modelling makes these connections explicit, understandable, and reusable.**
 
 ---
 
@@ -95,7 +95,7 @@ Our guiding question through this module is:
 
 ## Module Objectives
 
-You will learn how to move from a collection perspective to a modeling perspective. 
+You will learn how to move from a collection perspective to a modelling perspective. 
 
 You will:
 
@@ -114,7 +114,7 @@ You will:
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
 | E1A | Activation: Collection object "Zelda" | 15 min. |
-| 1 | Basic concepts of conceptual knowledge modeling | 10 min. |
+| 1 | Basic concepts of conceptual knowledge modelling | 10 min. |
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
 | 4 | FAIR compliance with WissKI | 15 min. |
@@ -132,16 +132,16 @@ After completing Module 1, participants can…
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 - apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa_03_007_0856)
   
-### 1. Basic Concepts of Conceptual Knowledge Modeling
+### 1. Basic Concepts of Conceptual Knowledge Modelling
    
-- name the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0847)
-- explain the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0848)
+- name the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0847)
+- explain the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0848)
 - name the term domain. (LO-ID SODa\_03\_007\_0824)
 - name the term concept. (LO-ID SODa\_03\_007\_0821)
 - name the term event. (LO-ID SODa\_03\_007\_0822)
 - name the term relationship. (LO-ID SODa\_03\_007\_0823)
-- name the term semantic modeling. (LO-ID SODa\_03\_007\_0825)
-- explain the term semantic modeling. (LO-ID SODa\_03\_007\_0844)
+- name the term semantic modelling. (LO-ID SODa\_03\_007\_0825)
+- explain the term semantic modelling. (LO-ID SODa\_03\_007\_0844)
 - name the term semantic data model. (LO-ID SODa\_03\_007\_0845)
 - explain the term semantic data model. (LO-ID SODa\_03\_007\_0846)
 
@@ -156,8 +156,8 @@ After completing Module 1, participants can…
 - explain the term instances (Instances). (LO-ID SODa\_03\_007\_0834)
 - name the term properties (Properties). (LO-ID SODa\_03\_007\_0831)
 - explain the term properties (Properties). (LO-ID SODa\_03\_007\_0832)
-- name the term modeling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
-- explain the term modeling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
+- name the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
+- explain the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
 
 ### 3. Introduction to CIDOC CRM
 
@@ -185,7 +185,7 @@ After completing Module 1, participants can…
 - name the capabilities and efficiency of IT infrastructures for collection-related research data management (RDM) using the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0202)
 - name the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0803)
 - explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0849)
-- explain the event-centered modeling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
+- explain the event-centered modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
@@ -210,7 +210,7 @@ The following diagram illustrates the learning path of the module:
 
 ↓  
 
-**Classes (Entities), properties, and modeling assumptions**  
+**Classes (Entities), properties, and modelling assumptions**  
 
 ↓  
 
@@ -226,10 +226,10 @@ The following diagram illustrates the learning path of the module:
 
 ## Working Method and Example
 
-The module combines short inputs alternate with analysis, discussion, and modeling activities:
+The module combines short inputs alternate with analysis, discussion, and modelling activities:
 
 - Terms are introduced using typical information from collections.
-- Modeling decisions are discussed and justified collaboratively.
+- Modelling decisions are discussed and justified collaboratively.
 - The example object **“The Legend of Zelda: A Link to the Past”** serves as a common thread.
 - In the exercise, participants develop a small model sketch and align selected concepts with CIDOC CRM.
 - The results are consolidated in the plenary session and transferred to participants’ own collection practices.
@@ -265,7 +265,7 @@ At the end of Module 1, you will have developed a first **conceptual model sketc
 > - the concepts and events relevant to the example,
 > - their semantic relationships,
 > - initial mappings to classes (Entities) and properties (Properties) of CIDOC CRM,
-> - as well as justified modeling decisions.
+> - as well as justified modelling decisions.
 >
 > This sketch serves as the starting point for further formalisation and implementation in WissKI.
 
@@ -273,11 +273,11 @@ At the end of Module 1, you will have developed a first **conceptual model sketc
 
 ## Outlook
 
-The following unit first clarifies the basic concepts of conceptual knowledge modeling and presents them as a foundation for semantic data modeling. 
+The following unit first clarifies the basic concepts of conceptual knowledge modelling and presents them as a foundation for semantic data modelling. 
 The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
 The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
 
-> In the next unit, we begin with the basic concepts of conceptual knowledge modeling and establish the vocabulary needed for the modeling process.
+> In the next unit, we begin with the basic concepts of conceptual knowledge modelling and establish the vocabulary needed for the modelling process.
 
 ---
 

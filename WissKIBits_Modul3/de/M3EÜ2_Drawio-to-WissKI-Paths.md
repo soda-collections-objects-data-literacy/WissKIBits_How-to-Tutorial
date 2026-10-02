@@ -377,13 +377,13 @@ Aus den semantischen Pfaden entstehen damit **Bundles und Felder**, die für die
 - [Erlangen CRM](http://erlangen-crm.org/240307/)
 - [Games Ontology](http://games.m-e-g-a.org/game_domain.rdf)
 - [Beispiel Pathbuilder-XML](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
-- [WissKI Pathbuilder Dokumentation](https://wiss-ki.eu/documentation/data-modeling/pathbuilder)
+- [WissKI Pathbuilder Dokumentation](https://wiss-ki.eu/documentation/data-modelling/pathbuilder)
 
 ---
 
 ## Bibliografie
 
-[wisski2012pathbuilder] WissKI Pathbuilder (n.d.) https://wiss-ki.eu/documentation/data-modeling/pathbuilder?utm_source=chatgpt.com
+[wisski2012pathbuilder] WissKI Pathbuilder (n.d.) https://wiss-ki.eu/documentation/data-modelling/pathbuilder?utm_source=chatgpt.com
 
 
 

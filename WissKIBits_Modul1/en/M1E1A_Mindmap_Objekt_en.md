@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: Application Example: Object Collections
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
 Activation Unit E1A: **Application Example from Object Collections**  
 
@@ -99,7 +99,7 @@ Instead, we create an **initial model sketch** that
 
 ## The Domain Computer Games
 
-Computer games are well suited as an example domain because they illustrate different aspects of modeling clearly.
+Computer games are well suited as an example domain because they illustrate different aspects of modelling clearly.
 
 The domain is particularly suitable because it...
 
@@ -109,11 +109,11 @@ The domain is particularly suitable because it...
 - allows **versions/editions** and **series memberships** to be represented,
 - uses clear identifiers and names (title variants, product codes).
 
-This makes the domain a clear starting point for recognizing different perspectives on an object and deriving initial **modeling decisions** from them.
+This makes the domain a clear starting point for recognizing different perspectives on an object and deriving initial **modelling decisions** from them.
 
 > **Why Computer Games?**
 >
-> Computer games provide a useful modeling example because they combine:
+> Computer games provide a useful modelling example because they combine:
 >
 > - physical and digital objects
 > - actors

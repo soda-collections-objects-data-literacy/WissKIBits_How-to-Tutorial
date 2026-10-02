@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-based Modeling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-based Modelling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-based Modeling of Research Data
+title: WissKI Bits Ontology-based Modelling of Research Data
 
 module: From Diagram to Paths – Explain and Apply
 
 unit: Transforming Semantic Models into WissKI Paths
 
-description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacies (SODa)
 
@@ -37,7 +37,7 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-based Modeling of Research Data
+# WissKI Bits: Ontology-based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
@@ -52,9 +52,9 @@ Exercise Unit E3: **Transforming Semantic Models into WissKI Paths**
 Participants can...
 
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
-- With guidance, perform data conversion from visualization software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
+- With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
 - With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
-- With guidance, analyze the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
+- With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
 - Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0317) 
 - With guidance, use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0318)
 
@@ -72,7 +72,7 @@ The diagram is now processed technically: Using the **gnm-service**, the Draw.io
 
 ## From the Semantic Model to the Pathbuilder
 
-In the previous unit, the domain model formalized with CIDOC CRM was visualized as a Draw.io diagram.
+In the previous unit, the domain model formalised with CIDOC CRM was visualised as a Draw.io diagram.
 
 **Example:**
 
@@ -114,7 +114,7 @@ The Pathbuilder represents the **implementation layer of WissKI**.
 
 The **WissKI Pathbuilder** connects the ontology being used with the concrete data structure in WissKI.
 
-Semantic relationship chains consisting of **classes (Entities) and Properties** are represented as **paths**. Related paths can be organized into **groups**.
+Semantic relationship chains consisting of **classes (Entities) and Properties** are represented as **paths**. Related paths can be organised into **groups**.
 
 A Pathbuilder organizes in particular
 
@@ -140,7 +140,7 @@ On this basis, **bundles and input fields** can later be generated for data entr
 
 The **“Draw.io diagrams to WissKI pathbuilders”** web service supports the transformation of a semantic Draw.io diagram into a **WissKI Pathbuilder XML file**.
 
-The service thus provides a technical interface between graphical modeling and implementation of the model in the WissKI Pathbuilder.
+The service thus provides a technical interface between graphical modelling and implementation of the model in the WissKI Pathbuilder.
 
 The basic transformation process is:
 
@@ -183,7 +183,7 @@ The following overview shows the individual steps used to turn the diagram into 
 | 5        | Import the Pathbuilder .xml file into WissKI.   |
 | 6        | Check the path structure. |
 
-This process bridges the gap between modeling a domain ontology and creating the Pathbuilder in WissKI by automatically converting the semantic Draw.io model into WissKI paths via a transformation pipeline.
+This process bridges the gap between modelling a domain ontology and creating the Pathbuilder in WissKI by automatically converting the semantic Draw.io model into WissKI paths via a transformation pipeline.
 
 ---
 
@@ -349,7 +349,7 @@ Three tools or representations were used:
 
 The result is an **imported and checked WissKI Pathbuilder** based on the semantic domain model.
 
-This traces the transition from semantic modeling to technical implementation in WissKI:
+This traces the transition from semantic modelling to technical implementation in WissKI:
 
 > **semantic model → Draw.io diagram → Pathbuilder XML → WissKI Pathbuilder**
 
@@ -377,11 +377,11 @@ The semantic paths are thus used to create **bundles and fields** that can be us
 - [Erlangen CRM](http://erlangen-crm.org/240307/)
 - [Games Ontology](http://games.m-e-g-a.org/game_domain.rdf)
 - [Example Pathbuilder XML](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
-- [WissKI Pathbuilder Documentation](https://wiss-ki.eu/documentation/data-modeling/pathbuilder)
+- [WissKI Pathbuilder Documentation](https://wiss-ki.eu/documentation/data-modelling/pathbuilder)
 
 ---
 
 ## Bibliography
 
-[wisski2012pathbuilder] WissKI Pathbuilder (n.d.) https://wiss-ki.eu/documentation/data-modeling/pathbuilder?utm_source=chatgpt.com
+[wisski2012pathbuilder] WissKI Pathbuilder (n.d.) https://wiss-ki.eu/documentation/data-modelling/pathbuilder?utm_source=chatgpt.com
 

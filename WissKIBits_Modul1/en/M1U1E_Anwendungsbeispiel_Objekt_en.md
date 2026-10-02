@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: Application Example: Object Collections
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1 (M1): **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1 (M1): **From the collection through modelling decisions to the diagram – understand and explain**
 
 Unit 1 Exercise (U1E): **Application Example: Object Collections**  
 
@@ -63,13 +63,13 @@ you use **"The Legend of Zelda: A Link to the Past"** as an example, you select 
 
 The aim here is not to create a complete or formally correct CIDOC CRM model.
 
-Rather, the goal is to demonstrate that translating domain knowledge into a reference model requires **modeling decisions**.
+Rather, the goal is to demonstrate that translating domain knowledge into a reference model requires **modelling decisions**.
 
 By the end, you will be able to:
 
 *   map selected concepts to potential **CIDOC CRM classes (entities)**,
-*   describe these mappings as modeling decisions,
-*   design a **conceptual model** that serves as a starting point for further formalization.
+*   describe these mappings as modelling decisions,
+*   design a **conceptual model** that serves as a starting point for further formalisation.
 
 This model sketch will be progressively refined in the subsequent modules (2 and 3) and later formalised for use with **Protégé** and **WissKI**.
 
@@ -85,7 +85,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 > 
 > **What do we mean by a specific term—and which CIDOC CRM class best captures that meaning?**
 >
-> The goal is to make, review, and justify initial modeling decisions.
+> The goal is to make, review, and justify initial modelling decisions.
 
 ---
 
@@ -118,7 +118,7 @@ Using this example, an analysis was conducted to determine which **concepts, eve
 > - What is the significance of the identified concepts?
 > - Which CIDOC CRM classes could express this significance?
 > - Do the informally phrased relationships already align with the reference model?
-> - What modeling decisions need to be made?
+> - What modelling decisions need to be made?
 >
 > Remember: A similar label does not automatically imply the same meaning.
 
@@ -130,15 +130,15 @@ Using this example, an analysis was conducted to determine which **concepts, eve
 >
 > CIDOC CRM provides general classes and properties for describing cultural heritage information.
 >
-> For modeling, this means:
+> For modelling, this means:
 >
-> Domain concept → Clarify meaning → Check CIDOC CRM → Make modeling decision
+> Domain concept → Clarify meaning → Check CIDOC CRM → Make modelling decision
 >
 > The name of a class alone is not sufficient for selection. The decisive factor is whether its scope note aligns with the intended meaning of the domain concept.
 
 --
 
-## Focus of this Modeling Exercise
+## Focus of this Modelling Exercise
 
 For the model sketch, you consider selected information regarding the example object. In doing so, you focus on three areas:
 
@@ -165,7 +165,7 @@ For example, the following questions might be asked:
 > - Which CIDOC CRM class might fit?
 > - What does that class's scope note say?
 > - Does it actually correspond to the meaning we wish to convey?
-> - Where do uncertainties or alternative modeling approaches remain?
+> - Where do uncertainties or alternative modelling approaches remain?
 
 ---
 
@@ -224,7 +224,7 @@ For example, the following questions might be asked:
 >
 > You mark uncertain assignments with a question mark (?).
 >
-> **Tip: The goal is not to assign as many classes as possible. The crucial point is that you can provide a clear and understandable justification for a few modeling decisions.**
+> **Tip: The goal is not to assign as many classes as possible. The crucial point is that you can provide a clear and understandable justification for a few modelling decisions.**
 
 ---
 
@@ -263,22 +263,22 @@ The [CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.
 
 ### Task 2: Plenary Discussion of Results
 
-***Example: From Domain Model to CIDOC CRM Modeling***
+***Example: From Domain Model to CIDOC CRM Modelling***
 
-The model sketch created during the exercise initially describes the concepts, events, and relationships of the example domain. In the next step, these elements can be further formalized using CIDOC CRM classes (entities) and properties.
+The model sketch created during the exercise initially describes the concepts, events, and relationships of the example domain. In the next step, these elements can be further formalised using CIDOC CRM classes (entities) and properties.
 
-The following figure illustrates how such a model sketch can evolve into a more formalized semantic model:
+The following figure illustrates how such a model sketch can evolve into a more formalised semantic model:
 
 ![Concept Mind Map](../WissKIBits_Modul1/assets/Mindmap.png)
 
 > **Figure:** The figure shows an example of a mind map for the video game "The Legend of Zelda: A Link to the Past."
 
-In this process, the initially loosely formulated elements and relationships are gradually transformed into CIDOC CRM classes and properties. Consequently, the figure should not be viewed as the only possible solution, but rather as a modeling proposal that can be reviewed and further developed.
+In this process, the initially loosely formulated elements and relationships are gradually transformed into CIDOC CRM classes and properties. Consequently, the figure should not be viewed as the only possible solution, but rather as a modelling proposal that can be reviewed and further developed.
 
 **Note:**
 
-> Semantic modeling involves more than just finding suitable classes.
-> Modeling decisions make explicit the meaning we assign to a term and the connections our data are intended to express.
+> Semantic modelling involves more than just finding suitable classes.
+> Modelling decisions make explicit the meaning we assign to a term and the connections our data are intended to express.
 
 ---
 
@@ -291,7 +291,7 @@ You have further developed your initial conceptual model sketch into a CIDOC-CRM
 - selected domain concepts and events,
 - initial mappings to CIDOC-CRM classes,
 - explicit semantic relationships,
-- substantiated modeling decisions, and
+- substantiated modelling decisions, and
 - any open questions that have been flagged.
 
 ---
@@ -302,7 +302,7 @@ In our initial model sketch, you can state simply:
 
 > Game → has a designation → “The Legend of Zelda: A Link to the Past”
 
-CIDOC CRM allows for a more precise modeling of such a designation. **E41 Appellation** refers to a designation used to identify or refer to an instance of a CRM class.
+CIDOC CRM allows for a more precise modelling of such a designation. **E41 Appellation** refers to a designation used to identify or refer to an instance of a CRM class.
 
 For titles, there is a more specific class: **E35 Title** is a subclass of E41 Appellation. A title is thus a specific form of an appellation.
 
@@ -323,9 +323,9 @@ This makes it clear that terms such as designation, title, and identifier are no
 
 > Before assigning a class, verify whether the CIDOC CRM class's scope note corresponds to the meaning of the concept in your domain model.
 
-The precise modeling of appellations, their character content, and datatype properties is covered in Module 3.
+The precise modelling of appellations, their character content, and datatype properties is covered in Module 3.
 
-> **Modeling Example · Not All Designations Are the Same**
+> **Modelling Example · Not All Designations Are the Same**
 >
 > In the conceptual model sketch, you can initially state:
 >
@@ -345,14 +345,14 @@ The precise modeling of appellations, their character content, and datatype prop
 
 In this practical session, an **initial model sketch for the computer games domain** was first developed. Subsequently, this model was mapped to the corresponding **classes and properties of the CIDOC CRM**, with particular emphasis on explaining the specific characteristics of the **E41 Appellation class**.
 
-The result is a **formalized semantic model of the computer games domain based on the CIDOC CRM** (see sample solution).
+The result is a **formalised semantic model of the computer games domain based on the CIDOC CRM** (see sample solution).
 
 In **Module 2**, the developed model will be implemented using **Protégé** as a machine-readable **OWL ontology** and prepared for subsequent implementation in **WissKI**. This establishes the foundation for practical work with Protégé and the transition of the semantic model into a technical implementation.
 
 Finally, **Module 3** demonstrates how the previously developed model is implemented in **WissKI**. The focus here is on transferring the model into the **path structure of the WissKI Pathbuilder**.
 
-> The conceptual model sketch developed in E1A has now been expanded to include initial CIDOC CRM mappings and substantiated modeling decisions.
-> In Module 2, this model will be further formalized using Protégé and implemented as a machine-readable ontology structure. In Module 3, the model will then be converted into a structure compatible with the WissKI Pathbuilder.
+> The conceptual model sketch developed in E1A has now been expanded to include initial CIDOC CRM mappings and substantiated modelling decisions.
+> In Module 2, this model will be further formalised using Protégé and implemented as a machine-readable ontology structure. In Module 3, the model will then be converted into a structure compatible with the WissKI Pathbuilder.
 
 ---
 

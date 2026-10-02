@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: Fundamentals of Ontologies
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -37,11 +37,11 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
 Unit 2: **Fundamentals of Ontologies**  
 
@@ -60,20 +60,20 @@ Participants can...
 - explain the term instances (Instances). (LO-ID SODa\_03\_007\_0834)
 - name the term properties (Properties). (LO-ID SODa\_03\_007\_0831)
 - explain the term properties (Properties). (LO-ID SODa\_03\_007\_0832)
-- name the term modeling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
-- explain the term modeling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
+- name the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
+- explain the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
 
 ---
 
 ## Fundamentals of Ontologies
 
-**Conceptual knowledge modeling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein2017ontologies, p. 164) and represent them in a machine-readable form.
+**Conceptual knowledge modelling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein2017ontologies, p. 164) and represent them in a machine-readable form.
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
 > **From Conceptual Knowledge to an Ontology**
 >
-> Conceptual knowledge modeling identifies and organises the relevant concepts, events, and relationships within a domain.
+> Conceptual knowledge modelling identifies and organises the relevant concepts, events, and relationships within a domain.
 >
 > An ontology takes the next step: it represents this conceptual structure formally and in a machine-readable way.
 >
@@ -83,7 +83,7 @@ This unit explains **why ontologies are used and what benefits they offer for co
 
 ## Why Do We Use Ontologies?
 
-When modeling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardized way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
+When modelling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardized way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
 
 > **Why Ontologies?**
 >
@@ -111,7 +111,7 @@ The best-known definition describes an ontology as an explicit, formal specifica
 
 - which **concepts** and **events** are relevant in a subject or application area (domain),
 - how these concepts are **related** to one another,
-- and which **rules** apply so that **statements** about them can be modeled meaningfully and consistently.
+- and which **rules** apply so that **statements** about them can be modelled meaningfully and consistently.
 
 > **What is an ontology?**
 > 
@@ -176,9 +176,9 @@ Example: A release date must be represented as a date value rather than as a per
 
 ## Benefits of Ontologies
 
-Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalization based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
+Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
 
-The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyze data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
+The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyse data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
 
 Ontologies therefore provide a foundation for not only documenting complex research and collection data, but also for representing the domain knowledge contained within them in a structured way and making it usable for further research.
 
@@ -197,11 +197,11 @@ Ontologies therefore provide a foundation for not only documenting complex resea
 
 ## Outlook
 
-Ontologies provide the foundation for modeling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
+Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
 
-In the next unit, we will introduce the CIDOC Conceptual Reference Model (CIDOC CRM), an ontology developed specifically as a reference for modeling cultural heritage information.
+In the next unit, we will introduce the CIDOC Conceptual Reference Model (CIDOC CRM), an ontology developed specifically as a reference for modelling cultural heritage information.
 
-> Next: Ontologies provide the formal structure for representing domain knowledge. In Unit 3, we introduce CIDOC CRM, a reference ontology for modeling cultural heritage information.
+> Next: Ontologies provide the formal structure for representing domain knowledge. In Unit 3, we introduce CIDOC CRM, a reference ontology for modelling cultural heritage information.
 
 ---
 

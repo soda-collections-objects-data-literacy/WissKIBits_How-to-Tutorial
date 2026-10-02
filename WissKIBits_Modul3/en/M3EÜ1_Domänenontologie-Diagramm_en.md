@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-based Modeling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-based Modelling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-based Modeling of Research Data
+title: WissKI Bits Ontology-based Modelling of Research Data
 
 module: From Diagram to Paths – Explain and Apply
 
 unit: Visualizing a Semantic Domain Ontology
 
-description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacies (SODa)
 
@@ -37,7 +37,7 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-based Modeling of Research Data
+# WissKI Bits: Ontology-based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
@@ -51,17 +51,17 @@ Exercise Unit Ü1: **Visualizing a Semantic Domain Ontology**
 
 Participants can...
 
-- Name software for visualizing a domain ontology. (LZ-ID SODa\_03\_007\_0812)
-- Explain software for visualizing a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
-- Explain the concept of visualization. (LZ-ID SODa\_03\_007\_0851)
-- Explain the benefits of visualizations. (LZ-ID SODa\_03\_007\_0852)
-- Name the benefits of software for visualizing a domain ontology. (LZ-ID SODa\_03\_007\_0814) 
-- Use software for visualizing a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
+- Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
+- Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
+- Explain the concept of visualisation. (LZ-ID SODa\_03\_007\_0851)
+- Explain the benefits of visualisations. (LZ-ID SODa\_03\_007\_0852)
+- Name the benefits of software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0814) 
+- Use software for visualising a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
 - Name the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0806)
 - Apply the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
-- Name rules for modeling a domain ontology using visualization software. (LZ-ID SODa\_03\_007\_0820)
-- Apply rules for modeling a domain ontology using visualization software. (LZ-ID SODa\_03\_007\_0816)
-- Apply attribute values to predefined classes of the domain ontology in visualization software. (LZ-ID SODa\_03\_007\_0817)
+- Name rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0820)
+- Apply rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0816)
+- Apply attribute values to predefined classes of the domain ontology in visualisation software. (LZ-ID SODa\_03\_007\_0817)
 
 ---
 
@@ -71,7 +71,7 @@ In this unit, the data model developed in Modules 1 and 2 is visualised as a dia
 
 The Draw.io created diagram forms the **prerequisite for the (semi-)automated pipeline** for the **WissKI Pathbuilder**.
 
-Visualizing in Draw.io is therefore not only a **visualization exercise**, but also an **explicit modeling step** for **communicating and negotiating modeling decisions as well as enabling and promoting a shared understanding of semantic structures.**
+Visualizing in Draw.io is therefore not only a **visualisation exercise**, but also an **explicit modelling step** for **communicating and negotiating modelling decisions as well as enabling and promoting a shared understanding of semantic structures.**
 
 ---
 
@@ -97,7 +97,7 @@ Draw.io is used to...
 - make a **domain logic and its semantic relationships** visible and open to discussion,  
 - develop domain models **collaboratively and transparently**,  
 - check a **domain ontology before importing it into WissKI**,  
-- reflect on and validate **semantic modeling decisions**.
+- reflect on and validate **semantic modelling decisions**.
 
 Especially in collaborative projects, Draw.io facilitates **coordination between domain experts, data modelers, and developers**, because semantic decisions can be visually understood and documented over time.
 
@@ -128,7 +128,7 @@ For this purpose, the conceptual domain model is now implemented **visually and 
 
 ## Quiz
 
-The following quiz is intended to reactivate the central concepts of the domain and help place the subsequent modeling task in context.
+The following quiz is intended to reactivate the central concepts of the domain and help place the subsequent modelling task in context.
 
 Which central concepts are relevant to the example object in the context of game features and narrative elements?
 
@@ -189,7 +189,7 @@ Then remove all temporary placeholders `(???)`.
 
 **Note:**
 
-Rules for visualization with Draw.io**
+Rules for visualisation with Draw.io**
 
 > - The nodes and edges must be connected correctly.
 > 

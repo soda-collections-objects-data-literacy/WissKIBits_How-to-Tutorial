@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: Modeling with CIDOC CRM – Understand and Apply
+module: Modelling with CIDOC CRM – Understand and Apply
 
 unit: Welcome, objectives and structure
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -37,11 +37,11 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – understand and apply**
+Module 2: **Modelling with CIDOC CRM – understand and apply**
 
 Unit 0: **Welcome, objectives and structure**  
 
@@ -52,11 +52,11 @@ Unit 0: **Welcome, objectives and structure**
 
 ## Welcome
 
-Welcome to **WissKI Bits: Ontology-Based Modeling of Research Data**.
+Welcome to **WissKI Bits: Ontology-Based Modelling of Research Data**.
 
-In this module, you formalise the conceptual domain model developed in Module 1. We use **CIDOC CRM and Protégé** to translate modeling decisions into a machine-readable ontology structure and prepare it for later implementation in WissKI.
+In this module, you formalise the conceptual domain model developed in Module 1. We use **CIDOC CRM and Protégé** to translate modelling decisions into a machine-readable ontology structure and prepare it for later implementation in WissKI.
 
-Module 2, **“Modeling with CIDOC CRM – understand and apply,”** continues the learning path from Module 1. The conceptual domain model is systematically reviewed and formalized using CIDOC CRM and Protégé. Modeling decisions are not only made, but are also justified from a domain perspective using Scope Notes and implemented in a machine-readable ontology structure.
+Module 2, **“Modelling with CIDOC CRM – understand and apply,”** continues the learning path from Module 1. The conceptual domain model is systematically reviewed and formalised using CIDOC CRM and Protégé. Modelling decisions are not only made, but are also justified from a domain perspective using Scope Notes and implemented in a machine-readable ontology structure.
 
 The module continues to follow the principle of **Learning by Doing**. Using an example from the computer games domain, it demonstrates how a model sketch becomes a formal ontology structure. Participants become familiar with Protégé as an ontology editor, explore an OWL implementation of CIDOC CRM, and extend it with selected domain-specific concepts.
 
@@ -87,7 +87,7 @@ Our guiding question is...
 
 In this module, you will learn how to:
 
-- apply a systematic **workflow for semantic modeling**,
+- apply a systematic **workflow for semantic modelling**,
 - use **Protégé** to explore and edit an ontology,
 - select suitable **CIDOC CRM classes and properties** based on their scope notes,
 - add **domain-specific concepts** to an existing ontology structure, and
@@ -102,10 +102,10 @@ In this module, you will learn how to:
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 10 min. |
-| 1 | Methods and workflows of semantic modeling | 10 min. |
+| 1 | Methods and workflows of semantic modelling | 10 min. |
 | E2A | Activation: Set up Protégé| 20 min. |
 | 2 | Introduction to Protégé | 10 min. |
-| E2E | Excersise: Semantic modeling with CIDOC CRM | 45 min. |
+| E2E | Excersise: Semantic modelling with CIDOC CRM | 45 min. |
 |  | **Total** | **90 min.** |
 
   
@@ -122,14 +122,14 @@ After completing Module 2, participants can…
 - analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_03\_007\_0857)
 
 
-### 1. Methods and Workflows of Semantic Modeling
+### 1. Methods and Workflows of Semantic Modelling
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
-- name a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0626)
-- explain a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0853)
-- name methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
-- explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
+- explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
 ### 2. Introduction to Protégé
 
@@ -137,15 +137,15 @@ After completing Module 2, participants can…
 - explain software for creating ontologies. (LO-ID SODa\_03\_007\_0810)
 - name Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0841)
 - apply software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
-- name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
-- explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-### E2. Semantic Modeling with CIDOC CRM
+### E2. Semantic Modelling with CIDOC CRM
 
 - apply an ontology for describing resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
-- apply a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0627)
-- apply methods for modeling a domain ontology using the CIDOC CRM reference model under guidance. (LO-ID SODa\_03\_001\_0786a) 
+- apply a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0627)
+- apply methods for modelling a domain ontology using the CIDOC CRM reference model under guidance. (LO-ID SODa\_03\_001\_0786a) 
 - apply software for creating ontologies. (LO-ID SODa_03_007_0840)
 - apply Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa_03_007_0855)
 - apply Scope Notes of the CIDOC CRM reference model for describing resources. (LO-ID SODa\_03\_007\_0780a)
@@ -180,7 +180,7 @@ The diagram illustrates the learning path of the module.
  
 ↓
  
-**Review and and document modeling decisions**
+**Review and and document modelling decisions**
 
 ↓
 
@@ -198,7 +198,7 @@ The module combines methodological input, demonstration, and guided application:
 - The current version of the OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann2024crm) is loaded and explored through its classes, object properties, and datatype properties.
 - The example object **“The Legend of Zelda: A Link to the Past”** and the model sketch developed in Module 1 once again serve as a common thread.
 - Selected concepts are compared with CIDOC CRM using the Scope Notes.
-- Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are modeled as subclasses.
+- Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are modelled as subclasses.
 - Suitable relationships between the concepts and events are selected.
 - Participants document their decisions and review the model step by step for comprehensibility and consistency.
 
@@ -227,9 +227,9 @@ The content of Module 1 or comparable basic knowledge is assumed, such as having
 Participants should…
 
 - be able to distinguish the terms domain, concept, event, and relationship,
-- know the building blocks classes (Entities), properties (Properties), instances (Instances), and modeling assumptions (Assumptions),
-- understand the basic principle of event-centered modeling with CIDOC CRM,
-- know Scope Notes as a basis for modeling decisions,
+- know the building blocks classes (Entities), properties (Properties), instances (Instances), and modelling assumptions (Assumptions),
+- understand the basic principle of event-centered modelling with CIDOC CRM,
+- know Scope Notes as a basis for modelling decisions,
 - and have at least an initial conceptual model sketch, ideally a CIDOC CRM-based semantic domain model.
 
 > **What do you need?**
@@ -238,7 +238,7 @@ Participants should…
 >
 > You can therefore start with this module if you are already familiar with the basic concepts and have a conceptual model sketch to work with.
 >
-> You should be familiar with **concepts, events, relationships, classes, properties, instances, modeling assumptions, CIDOC CRM, and scope notes**.
+> You should be familiar with **concepts, events, relationships, classes, properties, instances, modelling assumptions, CIDOC CRM, and scope notes**.
 >
 > For the practical activities, you will need:
 >
@@ -259,7 +259,7 @@ At the end of Module 2, an initial formally implemented domain ontology or ontol
 > - selected and justified CIDOC CRM classes and properties,
 > - domain-specific subclasses,
 > - semantic relationships and datatype properties, and
-> - documented modeling decisions based on scope notes.
+> - documented modelling decisions based on scope notes.
 >
 > The ontology is saved as an OWL file and provides the basis for subsequent implementation in WissKI.
 

@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: Modeling with CIDOC CRM – Understand and Apply
+module: Modelling with CIDOC CRM – Understand and Apply
 
-unit: Methods and workflows of semantic modeling
+unit: Methods and workflows of semantic modelling
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -36,13 +36,13 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – understand and apply**
+Module 2: **Modelling with CIDOC CRM – understand and apply**
 
-Unit 1: **Methods and workflows of semantic modeling**  
+Unit 1: **Methods and workflows of semantic modelling**  
 
 **Duration:** ~ 10 min.
 
@@ -52,14 +52,14 @@ Participants can...
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
-- name a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0626)
-- explain a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0853)
-- name methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
-- explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
+- explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
 ---
 
-## Methods and Workflows of Semantic Modeling
+## Methods and Workflows of Semantic Modelling
 
 The development of a domain ontology typically follows a methodological, multi-stage, and iterative approach. 
 
@@ -67,11 +67,11 @@ This includes, among other things, identifying central terms and definitions (so
 
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
-> **Semantic modeling is...**
+> **Semantic modelling is...**
 >
 > - a not a linear process of developing a domain ontology.
 >
-> - is usually the combination of domain knowledge, application requirements, modeling decisions, and iterative review.
+> - is usually the combination of domain knowledge, application requirements, modelling decisions, and iterative review.
 >
 > - based on different methods depending on the starting point and purpose of the model.
 
@@ -157,9 +157,9 @@ Possible strategies include:
 
 ## Outlook
 
-The **methods and workflows of semantic modeling** presented here, together with the **modeling strategy** explained in the tutorial, form the basis for putting the concepts and models developed so far into practice. 
+The **methods and workflows of semantic modelling** presented here, together with the **modelling strategy** explained in the tutorial, form the basis for putting the concepts and models developed so far into practice. 
 
-In the following unit, **Protégé** is introduced as an editor for modeling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
+In the following unit, **Protégé** is introduced as an editor for modelling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
 
 > **Next:**
 >

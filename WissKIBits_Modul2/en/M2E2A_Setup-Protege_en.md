@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to-Tutorial
 
 -->
 
-# SODa WissKI Bits: Ontology-Based Modeling of Research Data
+# SODa WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – Understand and Apply**
+Module 2: **Modelling with CIDOC CRM – Understand and Apply**
 
 Activation Unit M2E1A: **Setting up the working environment with Protégé**  
 

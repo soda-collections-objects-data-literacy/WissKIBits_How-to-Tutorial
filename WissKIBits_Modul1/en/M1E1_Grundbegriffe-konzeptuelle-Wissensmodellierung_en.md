@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
-unit: Basic concepts of conceptual knowledge modeling
+unit: Basic concepts of conceptual knowledge modelling
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -37,13 +37,13 @@ LearningResourceType: SODa How-to Tutorial
 -->
 
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
-Unit 1: **Basic concepts of conceptual knowledge modeling**  
+Unit 1: **Basic concepts of conceptual knowledge modelling**  
 
 **Duration:** ~ 15 min.
 
@@ -51,28 +51,28 @@ Unit 1: **Basic concepts of conceptual knowledge modeling**
 
 Participants can...
 
-- name the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0847)
-- explain the term conceptual knowledge modeling. (LO-ID SODa\_03\_007\_0848)
+- name the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0847)
+- explain the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0848)
 - name the term domain. (LO-ID SODa\_03\_007\_0824)
 - name the term concept. (LO-ID SODa\_03\_007\_0821)
 - name the term event. (LO-ID SODa\_03\_007\_0822)
 - name the term relationship. (LO-ID SODa\_03\_007\_0823)
-- name the term semantic modeling. (LO-ID SODa\_03\_007\_0825)
-- explain the term semantic modeling. (LO-ID SODa\_03\_007\_0844)
+- name the term semantic modelling. (LO-ID SODa\_03\_007\_0825)
+- explain the term semantic modelling. (LO-ID SODa\_03\_007\_0844)
 - name the term semantic data model. (LO-ID SODa\_03\_007\_0845)
 - explain the term semantic data model. (LO-ID SODa\_03\_007\_0846)
   
 ---
 
-## Definitions of Terms in Conceptual Knowledge Modeling
+## Definitions of Terms in Conceptual Knowledge Modelling
 
-In **conceptual knowledge modeling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organised conceptually.
+In **conceptual knowledge modelling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organised conceptually.
 
-A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modeled. In semantic modeling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
+A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modelled. In semantic modelling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
 > **What is..?**
 >
-> **Conceptual knowledge modeling** identifies and organises the knowledge relevant to a particular domain.
+> **Conceptual knowledge modelling** identifies and organises the knowledge relevant to a particular domain.
 >
 > A **domain** is a defined field of knowledge or application, such as a research or object collection.
 >
@@ -80,9 +80,9 @@ A **domain** is a professionally delimited area of values, knowledge, and applic
 
 ---
 
-### Building Blocks of Conceptual Modeling
+### Building Blocks of Conceptual Modelling
 
-Central elements of conceptual knowledge modeling are **concepts, events, and relationships**:
+Central elements of conceptual knowledge modelling are **concepts, events, and relationships**:
 
 - **Concepts** are abstract ideas or terms used to designate relevant objects and circumstances within a domain.
   
@@ -99,23 +99,23 @@ Examples include the production, acquisition, discovery, restoration, exhibition
 Examples include “person participated in production,” “production took place at a location,” or “object was created through production.”
 
 
-**Identifying and structuring these elements forms the basis of semantic modeling**.
+**Identifying and structuring these elements forms the basis of semantic modelling**.
 
 ---
 
 ### From Conceptual Knowledge to a Semantic Data Model
 
-**Conceptual knowledge modeling** identifies and organises the knowledge relevant to a particular domain.
+**Conceptual knowledge modelling** identifies and organises the knowledge relevant to a particular domain.
 
-**Semantic modeling** is preceded by the conceptualisation of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modeling** represents this conceptual knowledge structure in a formalised model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modeling (Fichtner2025paths, p. 86).
+**Semantic modelling** is preceded by the conceptualisation of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modelling** represents this conceptual knowledge structure in a formalised model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modelling (Fichtner2025paths, p. 86).
 
 The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner2025paths, p. 58)
 
 > **Key takeaway is:**
 >
-> **Conceptual knowledge modeling** clarifies which knowledge is relevant and how it is organised.
+> **Conceptual knowledge modelling** clarifies which knowledge is relevant and how it is organised.
 >
-> **Semantic modeling** formalises this domain-specific organisation.
+> **Semantic modelling** formalises this domain-specific organisation.
 >
 > The **semantic data model** is the result of this process.
 
@@ -204,7 +204,7 @@ You identified **concepts, events, and relationships** in your own model sketch 
 
 ## Result and Summary
 
-Conceptual knowledge modeling structures the relevant domain knowledge using concepts, events, and relationships. 
+Conceptual knowledge modelling structures the relevant domain knowledge using concepts, events, and relationships. 
 
 In E1A, you created a first conceptual model sketch from information about a collection object.
 
@@ -232,7 +232,7 @@ Collection-related research questions may concern, for example:
 >
 > You created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
 >
-> You can now describe this process as **conceptual knowledge modeling**: organising domain knowledge through concepts, events, and relationships.
+> You can now describe this process as **conceptual knowledge modelling**: organising domain knowledge through concepts, events, and relationships.
 >
 > This conceptual structure provides the foundation for developing a semantic data model.
 
@@ -240,7 +240,7 @@ Collection-related research questions may concern, for example:
 
 ## Outlook
 
-Through conceptual knowledge modeling, you have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
+Through conceptual knowledge modelling, you have taken a first step in determining which knowledge is relevant within a domain and how it can be structurally organised. To represent this conceptual organisation in a formal, machine-readable system, ontologies are used. Unit 2 introduces the general fundamentals of ontologies.
 
 > **Next:**
 >

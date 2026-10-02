@@ -36,13 +36,13 @@ LearningResourceType: SODa How-to-Tutorial
 
 -->
 
-# SODa WissKI Bits: Ontology-Based Modeling of Research Data
+# SODa WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modeling with CIDOC CRM – Understand and Apply**
+Module 2: **Modelling with CIDOC CRM – Understand and Apply**
 
-Exercise Unit M2E2E: **Semantic Modeling with CIDOC CRM**  
+Exercise Unit M2E2E: **Semantic Modelling with CIDOC CRM**  
 
 **Duration:** ~ 45 min.
 
@@ -52,8 +52,8 @@ Participants will be able to...
 
 - apply an ontology to describe resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
-- apply a workflow for semantic modeling as data documentation. (LO-ID SODa\_03\_001\_0627)
-- apply, with guidance, methods for modeling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_001\_0786a)
+- apply a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0627)
+- apply, with guidance, methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_001\_0786a)
 - use software for creating ontologies. (LO-ID SODa_03_007_0840)
 - use Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa_03_007_0855)
 - apply the Scope Notes of the CIDOC CRM reference model to describe resources. (LO-ID SODa\_03\_007\_0780a)
@@ -267,7 +267,7 @@ Compare your result with the original model sketch:
 
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
-**Review the modeling**
+**Review the modelling**
 
 - Are the domain-specific classes appropriately placed within the CIDOC CRM hierarchy?
 - Do the properties correspond to the intended statements?
@@ -285,14 +285,14 @@ Document your decision mapping:
 
 | Question                                             | Answer |
 | ---------------------------------------------------- | ------ |
-| Which domain term are we modeling?                   |        |
+| Which domain term are we modelling?                   |        |
 | Which CIDOC CRM class or property are we using?      |        |
 | What meaning do we want to express?                  |        |
 | What does the Scope Note say about it?               |        |
 | Why do we consider the mapping appropriate?          |        |
 
 
-**The aim is not to find a single “correct” solution.** What matters is that the modeling decision is comprehensible from a domain perspective and compatible with the reference model being used.
+**The aim is not to find a single “correct” solution.** What matters is that the modelling decision is comprehensible from a domain perspective and compatible with the reference model being used.
 
 ---
 
@@ -302,13 +302,13 @@ As a sample, you can examine the existing domain ontology for computer games:
 
 [**Game Domain Ontology – RDF**](http://games.m-e-g-a.org/game_domain.rdf)
 
-Compare your own modeling with the sample **only after completing the task**. The sample should be understood as one possible modeling approach, not as the only possible solution.
+Compare your own modelling with the sample **only after completing the task**. The sample should be understood as one possible modelling approach, not as the only possible solution.
 
 > Pay particular attention to:
 >
 > - the placement of domain-specific classes,
 > - the reuse of CIDOC CRM properties, and
-> - and possible differences compared with your own modeling decisions.
+> - and possible differences compared with your own modelling decisions.
 
 ---
 
@@ -319,7 +319,7 @@ At the end of this exercise, you will have a small, formally implemented section
 You have:
 
 - created domain-specific concepts as **subclasses** of CIDOC CRM,
-- and justified a modeling decision based on a **Scope Note**, and
+- and justified a modelling decision based on a **Scope Note**, and
 - saved the extended ontology as an **OWL file**.
 
  It does not represent the entire computer games domain - the ontology remains a partial model - but instead demonstrates the process of moving from a domain-specific conceptual model sketch to a machine-readable ontology structure.

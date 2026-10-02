@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to-Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Modul 2: **Modeling with CIDOC CRM – Understand and Apply**
+Modul 2: **Modelling with CIDOC CRM – Understand and Apply**
 
 Unit 2: **Introduction in Protégé**  
 
@@ -54,18 +54,18 @@ Participants will be able to...
 - explain software used for creating ontologies. (LZ-ID SODa\_03\_007\_0810)
 - name Erlangen CRM / OWL as the OWL implementation of the CIDOC CRM reference model.(LZ-ID SODa\_03\_007\_0841)
 - use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
-- name methods for modeling a domain ontology using the CIDOC CRM reference model. (LZ-ID SODa\_03\_007\_0784a)
-- explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LZ-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
 ---
 
 ## Protégé – OWL Ontology Editor
 
-**Protégé** is a free, open-source editor for creating, editing, and managing ontologies. The current version specifically supports the **OWL 2 Web Ontology Language** (ref), thereby providing an environment for the formal and machine-readable modeling of ontologies. (Stanford n.d. software)
+**Protégé** is a free, open-source editor for creating, editing, and managing ontologies. The current version specifically supports the **OWL 2 Web Ontology Language** (ref), thereby providing an environment for the formal and machine-readable modelling of ontologies. (Stanford n.d. software)
 
 Protégé is available both as a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) and as a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). (Stanfordo.D.protege)
 
-**Protégé Desktop** is used in the practical session (M2EÜ) of this module. The editor provides a graphical interface for creating, editing, and structuring ontologies. Existing ontologies can be opened in Protégé and used as a basis for further modeling. The resulting models can then be saved in a **machine-readable format** and used for further processing.
+**Protégé Desktop** is used in the practical session (M2EÜ) of this module. The editor provides a graphical interface for creating, editing, and structuring ontologies. Existing ontologies can be opened in Protégé and used as a basis for further modelling. The resulting models can then be saved in a **machine-readable format** and used for further processing.
 
 > **What is Protégé?**
 >

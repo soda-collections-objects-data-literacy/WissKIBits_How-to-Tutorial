@@ -1,28 +1,28 @@
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL: A CASE STUDY**
 
 ## Description
 
-The tutorial "WissKI Bits: Ontology-Based Modeling of Research Data" was developed to systematically impart—in a practical manner—foundational and applied skills regarding the **semantic modeling of research data** and its implementation using the Scientific Communication Infrastructure (WissKI). The focus lies on how domain-specific information and research questions can be translated into a coherent, ontology-based data model and utilized for the structured recording of research data.
+The tutorial "WissKI Bits: Ontology-Based Modelling of Research Data" was developed to systematically impart—in a practical manner—foundational and applied skills regarding the **semantic modelling of research data** and its implementation using the Scientific Communication Infrastructure (WissKI). The focus lies on how domain-specific information and research questions can be translated into a coherent, ontology-based data model and utilised for the structured recording of research data.
 
-The didactic approach is based on **research-oriented, action-oriented, and problem-oriented learning**. Brief inputs of knowledge are combined with guided phases of exploration, modeling, and reflection. The learning architecture incorporates **Klaus Döring’s "Inhale-Exhale" principle**: phases of knowledge transfer and subject-matter orientation ("inhaling") alternate with phases of independent exploration, application, testing, and reflection ("exhaling").[1]
+The didactic approach is based on **research-oriented, action-oriented, and problem-oriented learning**. Brief inputs of knowledge are combined with guided phases of exploration, modelling, and reflection. The learning architecture incorporates **Klaus Döring’s "Inhale-Exhale" principle**: phases of knowledge transfer and subject-matter orientation ("inhaling") alternate with phases of independent exploration, application, testing, and reflection ("exhaling").[1]
 
-The modeling of **computer games as collection and research objects** serves as the continuous case study. Using this example, learners proceed step-by-step through the modeling process, moving from the initial research question to technical implementation. In doing so, they do not merely follow along with modeling decisions but make, justify, and validate their own decisions against existing ontologies.
+The modelling of **computer games as collection and research objects** serves as the continuous case study. Using this example, learners proceed step-by-step through the modelling process, moving from the initial research question to technical implementation. In doing so, they do not merely follow along with modelling decisions but make, justify, and validate their own decisions against existing ontologies.
 
 The tutorial consists of **three sequential modules**.
 
-**Module 1** covers the fundamentals of ontologies and semantic modeling, introduces the CIDOC CRM, and structures domain-specific concepts, events, and relationships within a conceptual model sketch.
+**Module 1** covers the fundamentals of ontologies and semantic modelling, introduces the CIDOC CRM, and structures domain-specific concepts, events, and relationships within a conceptual model sketch.
 
-**Module 2** transitions these concepts into formal ontology modeling. Using Protégé, participants explore CIDOC CRM classes (entities) and properties, select appropriate elements, and model domain-specific structures.
+**Module 2** transitions these concepts into formal ontology modelling. Using Protégé, participants explore CIDOC CRM classes (entities) and properties, select appropriate elements, and model domain-specific structures.
 
-In **Module 3**, the semantic model is visualized and prepared for implementation in WissKI. The model is mapped as a diagram in Draw.io, transformed into a Pathbuilder XML structure using the gnm-service, and subsequently imported into and examined within the WissKI Pathbuilder.
+In **Module 3**, the semantic model is visualised and prepared for implementation in WissKI. The model is mapped as a diagram in Draw.io, transformed into a Pathbuilder XML structure using the gnm-service, and subsequently imported into and examined within the WissKI Pathbuilder.
 
-Practical work with **CIDOC CRM, Protégé, Draw.io, gnm-service, and WissKI** integrates conceptual, semantic, and technical perspectives. Recurring exercises, quizzes, and prompts for reflection help learners review modeling decisions and understand the connections between the various representations of the data model.
+Practical work with **CIDOC CRM, Protégé, Draw.io, gnm-service, and WissKI** integrates conceptual, semantic, and technical perspectives. Recurring exercises, quizzes, and prompts for reflection help learners review modelling decisions and understand the connections between the various representations of the data model.
 
-The tutorial is designed as a **modular, self-paced Open Educational Resource (OER)**. While the individual units can be completed at the learner's own pace, the content is cumulative; results from earlier units are utilized in subsequent steps. This creates a continuous learning path:
+The tutorial is designed as a **modular, self-paced Open Educational Resource (OER)**. While the individual units can be completed at the learner's own pace, the content is cumulative; results from earlier units are utilised in subsequent steps. This creates a continuous learning path:
 
-> **Research question and domain → conceptual modeling → CIDOC CRM → formal ontology modeling → visualization → transformation → WissKI Pathbuilder**
+> **Research question and domain → conceptual modelling → CIDOC CRM → formal ontology modelling → visualisation → transformation → WissKI Pathbuilder**
 
 The tutorial is available in **German and English** and is published under a **CC-BY-4.0 license**. Its modular structure allows it to be used, adapted, and further developed for self-study as well as in teaching, training, and consulting contexts.
 
@@ -30,23 +30,23 @@ The tutorial is available in **German and English** and is published under a **C
 
 ## Topic Areas and Topics
 
-The tutorial covers key steps in the **ontology-based modeling of research data** and their practical implementation in WissKI.
+The tutorial covers key steps in the **ontology-based modelling of research data** and their practical implementation in WissKI.
 
-The content is organized into three sequential topic areas:
+The content is organised into three sequential topic areas:
 
-**Module 1: Fundamentals and Conceptual Modeling**
+**Module 1: Fundamentals and Conceptual Modelling**
 
-- Research data and research questions as the starting point for modeling
-- Fundamentals of ontologies and semantic modeling
+- Research data and research questions as the starting point for modelling
+- Fundamentals of ontologies and semantic modelling
 - Concepts, events, and relationships
 - Introduction to CIDOC CRM
 - Classes (entities) and properties
 - Developing a conceptual model sketch
 - FAIR principles and WissKI
 
-**Module 2: Formal Modeling with CIDOC CRM and Protégé**
+**Module 2: Formal Modelling with CIDOC CRM and Protégé**
 
-- Ontology modeling methods and workflows
+- Ontology modelling methods and workflows
 - Introduction to Protégé
 - Exploring CIDOC CRM
 - Selecting suitable classes and properties
@@ -57,14 +57,14 @@ The content is organized into three sequential topic areas:
 **Module 3: From Semantic Model to WissKI Pathbuilder**
 
 - Visualizing the semantic data model with Draw.io
-- Modeling nodes, edges, and semantic paths
+- Modelling nodes, edges, and semantic paths
 - Preparing the diagram for transformation
 - Transforming the Draw.io diagram using the gnm-service
 - Generating a Pathbuilder XML file
 - Importing into WissKI Pathbuilder
-- Examining and analyzing groups and semantic paths
+- Examining and analysing groups and semantic paths
 
-> **Conceptual modeling → formal ontology modeling → visualization → transformation → WissKI Pathbuilder**
+> **Conceptual modelling → formal ontology modelling → visualisation → transformation → WissKI Pathbuilder**
 
 ---
 
@@ -76,11 +76,11 @@ This tutorial is aimed at members of the SODa community, such as professors, col
 
 ## Didactic Concept
 
-The tutorial follows a **research-oriented, action-oriented, and problem-oriented learning approach**. The focus is not on the isolated transmission of knowledge about ontologies and WissKI, but rather on the step-by-step execution of a concrete modeling task. Using a consistent case study, learners develop an ontology-based data model and gradually transform it into a structure compatible with WissKI.
+The tutorial follows a **research-oriented, action-oriented, and problem-oriented learning approach**. The focus is not on the isolated transmission of knowledge about ontologies and WissKI, but rather on the step-by-step execution of a concrete modelling task. Using a consistent case study, learners develop an ontology-based data model and gradually transform it into a structure compatible with WissKI.
 
-The pedagogical approach combines **demonstrative learning, learning by doing, and guided modeling**. New concepts and procedural steps are introduced and explored using concrete examples before being applied by the learners themselves. This integrates theoretical understanding, methodological reflection, and practical competence.
+The pedagogical approach combines **demonstrative learning, learning by doing, and guided modelling**. New concepts and procedural steps are introduced and explored using concrete examples before being applied by the learners themselves. This integrates theoretical understanding, methodological reflection, and practical competence.
 
-The structure of the individual units follows Klaus Döring’s **“Inhaling and Exhaling” principle** [1]. Brief, structured inputs of knowledge (“inhaling”) alternate with phases of exploration, modeling, application, testing, and reflection (“exhaling”). Exercises, quizzes, and prompts for reflection help learners verify their understanding and justify their modeling decisions.
+The structure of the individual units follows Klaus Döring’s **“Inhaling and Exhaling” principle** [1]. Brief, structured inputs of knowledge (“inhaling”) alternate with phases of exploration, modelling, application, testing, and reflection (“exhaling”). Exercises, quizzes, and prompts for reflection help learners verify their understanding and justify their modelling decisions.
 
 ---
 
@@ -88,19 +88,19 @@ The structure of the individual units follows Klaus Döring’s **“Inhaling an
 
 The tutorial is designed as a **modular, guided self-study Open Educational Resource (OER) with dual use in self-paced and facilitated learning settings.**
 
-In **guided self-study**, learners can work through the tutorial at their own pace. Short knowledge inputs, step-by-step tasks, examples, reflection prompts, quizzes, and opportunities for self-assessment provide guidance throughout the modeling process.
+In **guided self-study**, learners can work through the tutorial at their own pace. Short knowledge inputs, step-by-step tasks, examples, reflection prompts, quizzes, and opportunities for self-assessment provide guidance throughout the modelling process.
 
 In **facilitated learning settings**, such as workshops or training sessions, the same core activities can be carried out collaboratively and extended through discussion, peer exchange, and facilitator feedback.
 
-The **learning objectives and core modeling tasks remain consistent across both modes.** What changes is the form of interaction, guidance, reflection, and feedback. This allows the same OER to support individual learning as well as collaborative teaching and training contexts without requiring separate versions of the learning resource.
+The **learning objectives and core modelling tasks remain consistent across both modes.** What changes is the form of interaction, guidance, reflection, and feedback. This allows the same OER to support individual learning as well as collaborative teaching and training contexts without requiring separate versions of the learning resource.
 
 ### Competence-Oriented Learning Paths
 
-The tutorial’s design combines the **Learning Objective Matrix for Research Data Management (RDM)** [2] with the **TaDiRAH taxonomy (Taxonomy of Digital Research Activities in the Humanities)** [4]. The learning objective matrix serves to formulate and systematize specific competencies, while TaDiRAH links learning activities to research activities within the Digital Humanities.
+The tutorial’s design combines the **Learning Objective Matrix for Research Data Management (RDM)** [2] with the **TaDiRAH taxonomy (Taxonomy of Digital Research Activities in the Humanities)** [4]. The learning objective matrix serves to formulate and systematise specific competencies, while TaDiRAH links learning activities to research activities within the Digital Humanities.
 
 Mapping is not based solely on individual verbs within the learning objective statements; the **semantic interpretation of the entire learning objective within its specific disciplinary and didactic context** is the decisive factor. This approach allows learning objectives to be linked to the research activities for which the learning process provides preparation.
 
-Across the three modules, a **competence-oriented learning path** emerges, leading step-by-step from epistemic to operational research activities: from understanding and analyzing disciplinary contexts and conceptual/formal modeling to the practical implementation of the data model in WissKI.
+Across the three modules, a **competence-oriented learning path** emerges, leading step-by-step from epistemic to operational research activities: from understanding and analysing disciplinary contexts and conceptual/formal modelling to the practical implementation of the data model in WissKI.
 
 While the content of the three modules builds upon one another, they are also designed to be reusable as **modular learning units**. Results from preceding units are revisited along the full learning path and further developed in subsequent steps.
 
@@ -108,13 +108,13 @@ The learning process consistently follows this principle:
 
 > **Orient → Explore → Model → Apply → Test → Reflect → Extend**
 
-This recurring learning process connects the **competence-oriented learning path** (QUELLE https://zenodo.org/records/20829481) with the tutorial’s **dual-use design**. Learning objectives, research activities, and practical modeling tasks provide a common didactic structure across both guided self-study and facilitated learning settings, supporting the transfer of conceptual understanding into concrete research and data practices.
+This recurring learning process connects the **competence-oriented learning path** (QUELLE https://zenodo.org/records/20829481) with the tutorial’s **dual-use design**. Learning objectives, research activities, and practical modelling tasks provide a common didactic structure across both guided self-study and facilitated learning settings, supporting the transfer of conceptual understanding into concrete research and data practices.
 
 ---
 
 ## Didactic Profile
 
-The following profile summarizes the didactic design and intended modes of use of the tutorial.
+The following profile summarises the didactic design and intended modes of use of the tutorial.
 
 | Dimension | Design |
 
@@ -124,7 +124,7 @@ The following profile summarizes the didactic design and intended modes of use o
 > | **Pacing** | Self-paced or facilitator-paced |
 > | **Interaction** | Individual or collaborative |
 > | **Learning approach** | Research-, action-, and problem-oriented |
-> | **Learning methods** | Demonstration, learning by doing, guided modeling, reflection |
+> | **Learning methods** | Demonstration, learning by doing, guided modelling, reflection |
 > | **Learning process** | Orient → Explore → Model → Apply → Test → Reflect → Extend |
 > | **Guidance and feedback** | Instructions, examples, scaffolds, quizzes, reflection and self-assessment; optional peer and facilitator feedback |
 > | **Progression** | Cumulative, competence-oriented learning path |
@@ -144,7 +144,7 @@ The following are required for the practical exercises:
 - a modern web browser,
 - access to a **WissKI instance**,
 - **Protégé** for editing and exploring ontologies,
-- **diagrams.net (Draw.io)** for visualizing semantic models.
+- **diagrams.net (Draw.io)** for visualising semantic models.
 
 Fundamental concepts—such as **ontologies, classes (entities), properties, CIDOC CRM, and WissKI**—are introduced throughout the tutorial and explored practically using a consistent, ongoing case study.
 
@@ -162,7 +162,7 @@ Individual units may also be reused separately for specific teaching or training
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
 | E1A| Activation: Collection object "Zelda" | 15 min. |
-| 1 | Basic concepts of conceptual knowledge modeling | 10 min. |
+| 1 | Basic concepts of conceptual knowledge modelling | 10 min. |
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
 | 4 | FAIR compliance with WissKI | 15 min. |
@@ -175,9 +175,9 @@ Individual units may also be reused separately for specific teaching or training
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
 | E2A | Activation: | xx min. |
-| 1 | Methods and workflows of semantic modeling | xx min. |
+| 1 | Methods and workflows of semantic modelling | xx min. |
 | 2 | Introduction to Protégé | xx min. |
-| E2E | Excersise: Semantic modeling with CIDOC CRM | xx min. |
+| E2E | Excersise: Semantic modelling with CIDOC CRM | xx min. |
 |  | **Total** | **90 min.** |
 
 **Total duration of Module 3: approx. 90 min.**
@@ -191,7 +191,7 @@ Individual units may also be reused separately for specific teaching or training
 
 ---
 
-## Learning Objectives in Module 1: **From Collection to Modeling Decisions to Diagram – Understanding and Explaining**
+## Learning Objectives in Module 1: **From Collection to Modelling Decisions to Diagram – Understanding and Explaining**
 
 Upon completion of Module 1, participants will be able to…
 
@@ -199,16 +199,16 @@ Upon completion of Module 1, participants will be able to…
 
 - Apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 
-**1. Basic concepts of conceptual knowledge modeling**
+**1. Basic concepts of conceptual knowledge modelling**
 
-- Name the term "conceptual knowledge modeling." (LO-ID SODa_03_007_0847)
-- Explain the term "conceptual knowledge modeling." (LO-ID SODa_03_007_0848)
+- Name the term "conceptual knowledge modelling." (LO-ID SODa_03_007_0847)
+- Explain the term "conceptual knowledge modelling." (LO-ID SODa_03_007_0848)
 - Name the term "domain." (LO-ID SODa_03_007_0824)
 - Name the term "concept." (LO-ID SODa_03_007_0821)
 - Name the term "event." (LO-ID SODa_03_007_0822)
 - Name the term "relationship." (LO-ID SODa_03_007_0823)
-- Name the term "semantic modeling." (LO-ID SODa_03_007_0825)
-- Explain the term "semantic modeling." (LO-ID SODa_03_007_0844)
+- Name the term "semantic modelling." (LO-ID SODa_03_007_0825)
+- Explain the term "semantic modelling." (LO-ID SODa_03_007_0844)
 - Name the term "semantic data model." (LO-ID SODa_03_007_0845)
 - Explain the term "semantic data model." (LO-ID SODa_03_007_0846)
 
@@ -252,7 +252,7 @@ Upon completion of Module 1, participants will be able to…
 - Describe the performance and efficiency of IT infrastructures for collection-based research data management (RDM) using the scientific communication infrastructure WissKI. (LZ-ID SODa_01_010_0202)
 - Identify WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa_03_007_0803)
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0849)
-- Explain the event-centric modeling principle using CIDOC CRM, illustrated by an example. (LZ-ID SODa\_03\_007\_0850)
+- Explain the event-centric modelling principle using CIDOC CRM, illustrated by an example. (LZ-ID SODa\_03\_007\_0850)
 - Identify the Resource Description Framework (RDF) as a standard for describing resources. (LZ-ID SODa\_03\_007\_0843)
 - Identify the benefits of the scientific communication infrastructure WissKI. (LZ-ID SODa\_01\_010\_0204)
 
@@ -263,21 +263,21 @@ Upon completion of Module 1, participants will be able to…
 
 ---
 
-## Learning Objectives for Module 2: **Modeling with CIDOC CRM – Understanding and Application**
+## Learning Objectives for Module 2: **Modelling with CIDOC CRM – Understanding and Application**
 
 Upon completion of Module 2, participants will be able to…
 
 **E1A: xxxx**
 
 
-**1. Semantic Modeling Methods and Workflows**
+**1. Semantic Modelling Methods and Workflows**
 
 - Name methods for ontology development. (LZ-ID 03_007_0784)
 - Explain methods for ontology development. (LZ-ID SODa_03_007_0839)
-- Name a workflow for semantic modeling as data documentation. (LZ-ID SODa_03_001_0626)
-- Explain a workflow for semantic modeling as data documentation. (LZ-ID SODa_03_001_0853)
-- Name methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0784a)
-- Explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0785a)
+- Name a workflow for semantic modelling as data documentation. (LZ-ID SODa_03_001_0626)
+- Explain a workflow for semantic modelling as data documentation. (LZ-ID SODa_03_001_0853)
+- Name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0784a)
+- Explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0785a)
 
 **2. Introduction to Protégé**
 
@@ -285,15 +285,15 @@ Upon completion of Module 2, participants will be able to…
 - Explain software for creating ontologies. (LZ-ID SODa_03_007_0810)
 - Identify CRM/OWL as the OWL implementation of the CIDOC CRM reference model. (LZ-ID SODa_03_007_0841)
 - Use software for creating ontologies. (LZ-ID SODa_03_007_0840)
-- Name methods for modeling a domain ontology using the CIDOC CRM reference model. (LO ID SODa\_03\_007\_0784a)
-- Explain methods for modeling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- Name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO ID SODa\_03\_007\_0784a)
+- Explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-**E2. Semantic modeling with CIDOC CRM**
+**E2. Semantic modelling with CIDOC CRM**
 
 - Apply an ontology to describe resources. (LO ID 03\_007\_0780)
 - Apply methods for ontology development. (LO ID SODa\_03\_007\_0854)
-- Apply a workflow for semantic modeling as data documentation. (LO ID SODa\_03\_001\_0627)
-- Apply methods for modeling a domain ontology using the CIDOC CRM reference model under guidance. (LO ID SODa\_03\_001\_0786a)
+- Apply a workflow for semantic modelling as data documentation. (LO ID SODa\_03\_001\_0627)
+- Apply methods for modelling a domain ontology using the CIDOC CRM reference model under guidance. (LO ID SODa\_03\_001\_0786a)
 - Use software for creating ontologies. (LO ID SODa_03_007_0840)
 - Use Erlangen CRM/OWL as an OWL implementation of the CIDOC CRM reference model. (LO ID SODa_03_007_0855)
 - Use the scope notes of the CIDOC CRM reference model to describe resources. (LO ID SODa\_03\_007\_0780a)
@@ -308,20 +308,20 @@ Upon completion of Module 3, participants will be able to…
 
 - Name software used to visualize a domain ontology. (LO ID SODa_03_007_0812)
 - Explain software used to visualize a domain ontology. (LO ID SODa_03_007_0813)
-- Explain the concept of visualization. (LO ID SODa_03_007_0851)
-- Explain the benefits of visualizations. (LO ID SODa_03_007_0852)
+- Explain the concept of visualisation. (LO ID SODa_03_007_0851)
+- Explain the benefits of visualisations. (LO ID SODa_03_007_0852)
 - Name the benefits of software used to visualize a domain ontology. (LO ID SODa_03_007_0814)
 - Use software to visualize a domain ontology under guidance. (LO ID SODa_03_007_0815)
 - Name core entities (object/person/place/time/event) of an object collection. (LO ID SODa_03_007_0806)
 - Apply core entities (object/person/place/time/event) of an object collection. (LO ID SODa_03_007_0811)
-- Name rules for modeling a domain ontology using visualization software. (LO ID SODa_03_007_0820)
-- Apply rules for modeling a domain ontology using visualization software. (LO ID SODa_03_007_0816)
-- Apply attribute values ​​to predefined classes of the domain ontology within visualization software. (LZ-ID SODa_03_007_0817)
+- Name rules for modelling a domain ontology using visualisation software. (LO ID SODa_03_007_0820)
+- Apply rules for modelling a domain ontology using visualisation software. (LO ID SODa_03_007_0816)
+- Apply attribute values ​​to predefined classes of the domain ontology within visualisation software. (LZ-ID SODa_03_007_0817)
 
 **E3. Transformation of semantic models into WissKI paths**
 
 - Explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa_03_007_0804)
-- Apply data conversion from visualization software into a reusable file format under guidance. (LZ-ID SODa_02_005_0298a)
+- Apply data conversion from visualisation software into a reusable file format under guidance. (LZ-ID SODa_02_005_0298a)
 - Use the WissKI Pathbuilder as a tool to import a domain-specific ontology structure (Pathbuilder XML file) under guidance. (LZ-ID SODa_03_007_0818)
 - Analyze the imported domain-specific ontology structure in the WissKI Pathbuilder under guidance. (LZ-ID SODa_03_007_0819)
 - Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa_02_005_0317)

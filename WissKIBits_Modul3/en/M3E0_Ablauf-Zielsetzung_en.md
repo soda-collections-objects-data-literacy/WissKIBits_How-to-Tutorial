@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-based Modeling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-based Modelling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-based Modeling of Research Data
+title: WissKI Bits Ontology-based Modelling of Research Data
 
 module: From Diagram to Paths – Explain and Apply
 
 unit: Welcome, Objectives and Workflow
 
-description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacies (SODa)
 
@@ -36,7 +36,7 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# Ontology-based Modeling of Research Data
+# Ontology-based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE**
 
@@ -50,15 +50,15 @@ Unit 0: **Welcome, Objectives and Workflow**
 
 ## Welcome
 
-Welcome to **SODa WissKI Bits: Ontology-based Modeling of Research Data**.
+Welcome to **SODa WissKI Bits: Ontology-based Modelling of Research Data**.
 
-This how-to tutorial provides a practice-oriented introduction to the ontology-based modeling of research data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
+This how-to tutorial provides a practice-oriented introduction to the ontology-based modelling of research data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
 
 In Module 1, a conceptual model sketch was developed from object data and contextual information. In Module 2, this sketch was methodically reviewed and implemented as a formal ontology structure using CIDOC CRM and Protégé.
 
-Module 3, **“From Diagram to Paths – Explain and Apply”**, continues this learning path into technical implementation: The semantic data model is visualized in Draw.io as a formally structured diagram. The diagram is then checked using the **“Draw.io diagrams to WissKI pathbuilders”** web service and transformed into a WissKI Pathbuilder XML file.
+Module 3, **“From Diagram to Paths – Explain and Apply”**, continues this learning path into technical implementation: The semantic data model is visualised in Draw.io as a formally structured diagram. The diagram is then checked using the **“Draw.io diagrams to WissKI pathbuilders”** web service and transformed into a WissKI Pathbuilder XML file.
 
-The generated file is imported into WissKI. There, the paths and path groups are analyzed and prepared as the basis for the structured capture, storage, and querying of research data.
+The generated file is imported into WissKI. There, the paths and path groups are analysed and prepared as the basis for the structured capture, storage, and querying of research data.
 
 The module follows the principle of **Learning by Doing**. Using an example from the video game domain, participants work through the entire processing chain from the semantic diagram and file conversion to the imported path structure in the WissKI Pathbuilder.
 
@@ -84,11 +84,11 @@ The module follows the principle of **Learning by Doing**. Using an example from
 
 ## Module Objectives
 
-In this module, you will convert the formalized domain ontology from Module 2 into a path structure that can be used in WissKI.
+In this module, you will convert the formalised domain ontology from Module 2 into a path structure that can be used in WissKI.
 
 You will:
 
-- visualise a semantic data model in **Draw.io** according to defined modeling rules,
+- visualise a semantic data model in **Draw.io** according to defined modelling rules,
 - represent **classes, properties, and semantic paths** in a machine-processable diagram,
 - check the diagram and the **attribute values required for conversion**,
 - transform the Draw.io XML into a **WissKI Pathbuilder XML file**,
@@ -116,24 +116,24 @@ After completing Module 3, participants can…
 
 ### Ü1. Visualising Semantic Data Models
 
-- Name software for visualizing a domain ontology. (LZ-ID SODa\_03\_007\_0812)
-- Explain software for visualizing a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
-- Explain the concept of visualization. (LZ-ID SODa\_03\_007\_0851)
-- Explain the benefits of visualizations. (LZ-ID SODa\_03\_007\_0852)
-- Name the benefits of software for visualizing a domain ontology. (LZ-ID SODa\_03\_007\_0814)
-- Use software for visualizing a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
+- Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
+- Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
+- Explain the concept of visualisation. (LZ-ID SODa\_03\_007\_0851)
+- Explain the benefits of visualisations. (LZ-ID SODa\_03\_007\_0852)
+- Name the benefits of software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0814)
+- Use software for visualising a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
 - Name the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0806)
 - Apply the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
-- Name rules for modeling a domain ontology using visualization software. (LZ-ID SODa\_03\_007\_0820)
-- Apply rules for modeling a domain ontology using visualization software. (LZ-ID SODa\_03\_007\_0816)
-- Apply attribute values to predefined classes of the domain ontology in visualization software. (LZ-ID SODa\_03\_007\_0817)
+- Name rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0820)
+- Apply rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0816)
+- Apply attribute values to predefined classes of the domain ontology in visualisation software. (LZ-ID SODa\_03\_007\_0817)
 
 ### Ü2. Transforming Semantic Models into WissKI Paths
 
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
-- With guidance, perform data conversion from visualization software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
+- With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
 - With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
-- With guidance, analyze the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
+- With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
 - Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0317)
 - With guidance, use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0318)
 
@@ -171,7 +171,7 @@ After completing Module 3, participants can…
 
 ## Working Method and Example
 
-The module combines activation, guided modeling, technical transformation, and result verification:
+The module combines activation, guided modelling, technical transformation, and result verification:
 
 - The example object **“The Legend of Zelda: A Link to the Past”** and the domain ontology developed in the previous modules again serve as a common thread.
 - Draw.io is used to complete a prepared diagram by adding missing classes (Entities) and properties (Properties).
@@ -209,14 +209,14 @@ What matters is a **traceable and repeatable processing chain** that transforms 
 The content from Module 1 and Module 2, or comparable basic knowledge and work results, is assumed. Participants should …
 
 - be able to identify concepts, events, and relationships within a domain,
-- be familiar with the event-centered modeling principle and selected elements of CIDOC CRM,
-- be able to use Scope Notes for modeling decisions,
+- be familiar with the event-centered modelling principle and selected elements of CIDOC CRM,
+- be able to use Scope Notes for modelling decisions,
 - be familiar with a formally implemented domain ontology or ontology extension,
 - and understand the basic principle of semantic paths.
 
 > **Prerequisites**
 >
-> Module 3 builds on Modules 1 and 2 or equivalent prior knowledge. Participants should be familiar with concepts, events, relationships, classes, properties, CIDOC CRM, Scope Notes, and the basic principle of semantic paths. A formalized domain ontology or ontology extension should be available.
+> Module 3 builds on Modules 1 and 2 or equivalent prior knowledge. Participants should be familiar with concepts, events, relationships, classes, properties, CIDOC CRM, Scope Notes, and the basic principle of semantic paths. A formalised domain ontology or ontology extension should be available.
 
 
 **Technical setup**

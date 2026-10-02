@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: FAIR Compliance with WissKI
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
 Unit 4: **FAIR Compliance with WissKI**  
 
@@ -61,7 +61,7 @@ Participants can...
 - name the capabilities and efficiency of IT infrastructures for collection-related research data management (RDM) using the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0202)
 - name the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0803)
 - explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0849)
-- explain the event-centered modeling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
+- explain the event-centered modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
@@ -82,7 +82,7 @@ Participants can...
 >
 > It combines:
 > 
-> - ontology-based modeling
+> - ontology-based modelling
 > - Semantic Web technologies
 > - research data management.
 > 
@@ -106,7 +106,7 @@ As part of its technical foundation, WissKI uses the current version of **[Erlan
 
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 
-This creates interoperable and reusable knowledge resources. Their specific FAIR compliance additionally depends on modeling, licensing, and provision.
+This creates interoperable and reusable knowledge resources. Their specific FAIR compliance additionally depends on modelling, licensing, and provision.
 
 > **How does WissKI support FAIR data?**
 >
@@ -116,7 +116,7 @@ This creates interoperable and reusable knowledge resources. Their specific FAIR
 >
 > Ontologies such as CIDOC CRM provide shared semantic structures that support interoperability and reuse.
 >
-> **Important:** Using WissKI can support FAIR data management, but FAIRness also depends on factors such as modeling decisions, metadata, licensing, and data provision.
+> **Important:** Using WissKI can support FAIR data management, but FAIRness also depends on factors such as modelling decisions, metadata, licensing, and data provision.
 
 ---
 
@@ -176,7 +176,7 @@ WissKI is **not standalone software**, but a set of modules (knurg2025wisski) th
 
 The **Pathbuilder** is the **core of WissKI**.
 
-The semantic structures modeled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modeling with Semantic Web standards.
+The semantic structures modelled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modelling with Semantic Web standards.
 
 The Pathbuilder defines:
 
@@ -190,7 +190,7 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 ![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
 
-> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modeling of the computer games domain
+> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain
 
 > **What does the Pathbuilder do?**
 >
@@ -204,9 +204,9 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 ---
 
-## Semantic Modeling the *WissKI way*
+## Semantic Modelling the *WissKI way*
 
-In WissKI, **not only data** are stored and recorded; **meaning** is modeled.
+In WissKI, **not only data** are stored and recorded; **meaning** is modelled.
 
 Guiding question: **What real-world relationship exists between the things?**
 
@@ -223,7 +223,7 @@ Guiding question: **What real-world relationship exists between the things?**
 - during → **his artistic creative period**  
 - in → **Nuremberg**
 
-The basis for this is the **event-centered modeling principle of CIDOC CRM**: 
+The basis for this is the **event-centered modelling principle of CIDOC CRM**: 
 
 Objects are not described in isolation, but are placed in a comprehensible context through **events** (e.g. production, use, acquisition) and the actors, places, and times involved.
 
@@ -247,7 +247,7 @@ Path groups correspond to entities, paths define relationships, and the forms ge
 
 WissKI...
 
-- enables **knowledge-based modeling** instead of rigid table schemas
+- enables **knowledge-based modelling** instead of rigid table schemas
 - ensures **interoperability** through established ontologies such as **CIDOC CRM**
 - supports the **FAIR principles**
 - automatically generates **input forms** based on semantic paths
@@ -257,7 +257,7 @@ WissKI...
 
 > **Why is WissKI relevant?**
 >
-> WissKI connects conceptual modeling with technical implementation.
+> WissKI connects conceptual modelling with technical implementation.
 > 
 > It supports:
 > 
@@ -314,13 +314,13 @@ As a result, collection data are not merely documented, but semantically structu
 
 **WissKI** provides a technical environment in which semantic data models can be implemented and made usable for working with collection and research data. 
 
-In the following unit, this **modeling process is explored in practice using a concrete example**. The starting point is an **example object from the computer games domain**, which is modeled semantically step by step. The unit brings together the steps introduced so far in the module: from **conceptual knowledge modeling** and the development of a **model sketch**, through the **formalized representation** of the relevant concepts, properties, and relationships using **CIDOC CRM**, to the resulting **domain model** based on CIDOC CRM.
+In the following unit, this **modelling process is explored in practice using a concrete example**. The starting point is an **example object from the computer games domain**, which is modelled semantically step by step. The unit brings together the steps introduced so far in the module: from **conceptual knowledge modelling** and the development of a **model sketch**, through the **formalised representation** of the relevant concepts, properties, and relationships using **CIDOC CRM**, to the resulting **domain model** based on CIDOC CRM.
 
-The practical unit thus demonstrates how, starting from a concrete collection object, a formal semantic model can be developed and subsequently transferred into a structured modeling approach.
+The practical unit thus demonstrates how, starting from a concrete collection object, a formal semantic model can be developed and subsequently transferred into a structured modelling approach.
 
 > **Next:**
 >
-> You have seen how WissKI connects semantic modeling with technical research data management.
+> You have seen how WissKI connects semantic modelling with technical research data management.
 >
 > In the following practical unit, you return to your example object and develop its semantic domain model step by step using the concepts introduced in this module.
 

@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-Based Modeling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontology-Based Modeling of Research Data
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modeling decisions to the diagram – understand and explain
+module: From the collection through modelling decisions to the diagram – understand and explain
 
 unit: Introduction to CIDOC CRM
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modeling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -36,11 +36,11 @@ LearningResourceType: SODa How-to Tutorial
 
 -->
 
-# WissKI Bits: Ontology-Based Modeling of Research Data
+# WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1: **From the collection through modeling decisions to the diagram – understand and explain**
+Module 1: **From the collection through modelling decisions to the diagram – understand and explain**
 
 Unit 3: **Introduction to CIDOC CRM**  
 
@@ -104,7 +104,7 @@ CIDOC CRM provides a **common conceptual framework** for describing cultural inf
 
 **Getting to know CIDOC CRM**
 
-CIDOC CRM not only describes classes and properties, but also explains the **structure, modeling principles, and conceptual foundations** of the model. For practical work with CIDOC CRM, it is therefore helpful to first become familiar with its basic structure.
+CIDOC CRM not only describes classes and properties, but also explains the **structure, modelling principles, and conceptual foundations** of the model. For practical work with CIDOC CRM, it is therefore helpful to first become familiar with its basic structure.
 
 The official documentation provides a comprehensive introduction:
 
@@ -116,18 +116,18 @@ The official documentation provides a comprehensive introduction:
 >
 > CIDOC CRM consists not only of classes and properties.
 >
-> Its documentation also explains the structure, meaning, and modeling principles of the model.
+> Its documentation also explains the structure, meaning, and modelling principles of the model.
 >
-> For practical modeling, we therefore need to understand both:
+> For practical modelling, we therefore need to understand both:
 > 
 > - the elements of the model: Classes and properties
-> - the meaning of the elements: Definitions, scope notes, and modeling principles.
+> - the meaning of the elements: Definitions, scope notes, and modelling principles.
 
 ---
 
 **Exploring classes and properties**
 
-For practical modeling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
+For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
 - **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)**  
   The official representation of **Version 7.1.3** serves as a reference for targeted lookup. It contains definitions and Scope Notes as well as information on class hierarchies and properties.
@@ -182,9 +182,9 @@ The **scope note** of a CIDOC CRM class specifies:
 - its hierarchical position,
 - or intuitive associations.
 
-**Scope notes are authoritative for correct modeling.**
+**Scope notes are authoritative for correct modelling.**
 
-> **Scope notes guide modeling decisions**
+> **Scope notes guide modelling decisions**
 >
 > A scope note explains the intended meaning and use of a CIDOC CRM class or property.
 >
@@ -212,7 +212,7 @@ The **scope note** of a CIDOC CRM class specifies:
 
 CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (SIG2024cidoc, p. 33)
 
-Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalized semantic data modeling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
+Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modelling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
 
 **RDF (Resource Description Framework)** is a standard for the formal description of statements about resources in the form of triples in WissKI. (W3C2014rdf)
 
