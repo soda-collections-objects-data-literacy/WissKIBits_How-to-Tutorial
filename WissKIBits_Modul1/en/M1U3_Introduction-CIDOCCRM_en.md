@@ -46,9 +46,9 @@ Unit 3 (U3): **Introduction to CIDOC CRM**
 
 **Duration:** ~ 15 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - name an ontology for describing resources. (LO-ID 03\_007\_0778)
 - explain an ontology for describing resources. (LO-ID 03\_007\_0779)

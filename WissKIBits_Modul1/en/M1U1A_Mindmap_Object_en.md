@@ -48,7 +48,7 @@ Activation Unit (U1A): **Mindmap of the Application Example from Object Collecti
 
 **Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa\_03\_007\_0856)

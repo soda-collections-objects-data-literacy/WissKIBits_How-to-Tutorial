@@ -40,9 +40,9 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modelling with CIDOC CRM – Understand and Apply**
+Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Activation Unit M2E1A: **Setting up the working environment with Protégé**  
+Activation Unit (U1A): **Setting Up the Working Environment with Protégé**  
 
 **Duration:** ~ 20 min.
 

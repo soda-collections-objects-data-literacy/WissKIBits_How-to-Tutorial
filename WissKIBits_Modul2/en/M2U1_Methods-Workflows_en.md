@@ -40,15 +40,15 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modelling with CIDOC CRM – understand and apply**
+Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Unit 1: **Methods and workflows of semantic modelling**  
+Unit 1 (U1): **Methods and Workflows of Semantic Modelling**  
 
 **Duration:** ~ 10 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)

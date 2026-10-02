@@ -47,9 +47,9 @@ Unit 2 (u2): **Fundamentals of Ontologies**
 
 **Duration:**  ~ 10 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)

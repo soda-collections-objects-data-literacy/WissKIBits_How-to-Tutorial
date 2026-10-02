@@ -40,9 +40,9 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE**
 
-Module 3: **From Diagram to Paths – Explain and Apply**
+Module 3 (M3): **From Diagram to Paths – Explain and Apply**
 
-Unit 0: **Welcome, Objectives and Workflow**
+Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 **Duration:** ~ 10 min.
 

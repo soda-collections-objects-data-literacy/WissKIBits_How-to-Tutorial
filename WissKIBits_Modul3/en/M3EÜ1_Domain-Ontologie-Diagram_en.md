@@ -41,15 +41,15 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 3: **From Diagram to Paths – Explain and Apply**
+Module 3 (M3): **From Diagram to Paths – Explain and Apply**
 
-Exercise Unit Ü1: **Visualizing a Semantic Domain Ontology**  
+Unit Exercise (UE1): **Visualizing a Semantic Domain Ontology**  
 
 **Duration:** ~ 35 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
 - Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)

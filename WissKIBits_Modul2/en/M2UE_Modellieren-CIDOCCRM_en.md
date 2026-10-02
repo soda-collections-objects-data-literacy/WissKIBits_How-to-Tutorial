@@ -40,9 +40,9 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 2: **Modelling with CIDOC CRM – Understand and Apply**
+Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Exercise Unit M2E2E: **Semantic Modelling with CIDOC CRM**  
+Unit Exercise (UE): **Semantic Modelling with CIDOC CRM**  
 
 **Duration:** ~ 45 min.
 

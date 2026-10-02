@@ -46,9 +46,9 @@ Unit 4 (U4): **FAIR Compliance with WissKI**
 
 **Duration:** ~ 15 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
 - name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)

@@ -41,15 +41,15 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 3: **From Diagram to Paths – Explain and Apply**
+Module 3 (M3): **From Diagram to Paths – Explain and Apply**
 
-Exercise Unit E3: **Transforming Semantic Models into WissKI Paths**  
+Unit Exercise (UE2): **Transforming Semantic Models into WissKI Paths**  
 
 **Duration:** ~ 45 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
 - With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)

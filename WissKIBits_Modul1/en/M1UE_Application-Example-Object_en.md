@@ -46,9 +46,9 @@ Unit 1 Exercise (UE): **Application Example: Object Collections**
 
 **Duration:** ~ 20 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808) 

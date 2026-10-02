@@ -47,9 +47,9 @@ Unit 1 (U1): **Basic concepts of conceptual knowledge modelling**
 
 **Duration:** ~ 15 min.
 
-**Learning objectives:**
+**Learning Objectives:**
 
-Participants can...
+Participants will be able to...
 
 - name the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0847)
 - explain the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0848)
