@@ -166,7 +166,7 @@ Individual units may also be reused separately for specific teaching or training
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
 | 4 | FAIR compliance with WissKI | 15 min. |
-| E1E | Excersise: Conceptual structure and first CIDOC CRM draft| 20 min. |
+| E1E | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
 **Total duration of Module 2: approx. 90 min.**
@@ -177,7 +177,7 @@ Individual units may also be reused separately for specific teaching or training
 | E2A | Activation: | xx min. |
 | 1 | Methods and workflows of semantic modelling | xx min. |
 | 2 | Introduction to Protégé | xx min. |
-| E2E | Excersise: Semantic modelling with CIDOC CRM | xx min. |
+| E2E | Exercise: Semantic modelling with CIDOC CRM | xx min. |
 |  | **Total** | **90 min.** |
 
 **Total duration of Module 3: approx. 90 min.**

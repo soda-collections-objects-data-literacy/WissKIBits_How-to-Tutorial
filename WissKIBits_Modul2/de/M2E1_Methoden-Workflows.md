@@ -30,7 +30,7 @@ keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellier
 
 community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
 
-PublicationDate: 2026-09-09
+PublicationDate: 2026-10-05
 
 LearningResourceType: SODa How-to-Tutorial
 

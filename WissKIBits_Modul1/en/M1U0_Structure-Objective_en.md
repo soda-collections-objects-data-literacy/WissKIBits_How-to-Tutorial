@@ -30,7 +30,7 @@ keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, rese
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
-PublicationDate: 2026-09-09
+PublicationDate: 2026-10-05
 
 LearningResourceType: SODa How-to Tutorial
 
@@ -118,7 +118,7 @@ You will:
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
 | 4 | FAIR compliance with WissKI | 15 min. |
-| E1E | Excersise: Conceptual structure and first CIDOC CRM draft| 20 min. |
+| E1E | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
 ---

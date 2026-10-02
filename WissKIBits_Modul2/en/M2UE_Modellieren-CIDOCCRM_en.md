@@ -8,7 +8,7 @@ email: info@igsd-ev.de
 
 version:  v1.0.0
 
-language: de
+language: en
 
 icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
 
@@ -30,7 +30,7 @@ keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellier
 
 community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
 
-PublicationDate: 2026-09-09
+PublicationDate: 2026-10-05
 
 LearningResourceType: SODa How-to-Tutorial
 
