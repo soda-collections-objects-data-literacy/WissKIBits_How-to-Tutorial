@@ -24,7 +24,7 @@ module: From Diagram to Paths – Explain and Apply
 
 unit: Welcome, Objectives and Workflow
 
-description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
@@ -52,7 +52,7 @@ Unit 0: **Welcome, Objectives and Workflow**
 
 Welcome to **SODa WissKI Bits: Ontology-based Modelling of Research Data**.
 
-This how-to tutorial provides a practice-oriented introduction to the ontology-based modelling of research data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
+This how-to tutorial provides a practice-oriented introduction to the ontology-based modelling of reseach data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
 
 In Module 1, a conceptual model sketch was developed from object data and contextual information. In Module 2, this sketch was methodically reviewed and implemented as a formal ontology structure using CIDOC CRM and Protégé.
 
