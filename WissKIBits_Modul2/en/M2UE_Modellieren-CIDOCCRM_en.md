@@ -64,7 +64,7 @@ Participants will be able to...
 
 This is a practical exercise. 
 
-The starting point is the conceptual model of the video game domain developed in Module 1.
+The starting point is the conceptual model of the computer games domain developed in Module 1.
 
 Using **“The Legend of Zelda: A Link to the Past”** as an example, you will examine how this conceptual model sketch can be gradually transformed into a **formal ontology structure**.
 

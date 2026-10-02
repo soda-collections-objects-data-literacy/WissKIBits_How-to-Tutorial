@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Basic concepts of conceptual knowledge modelling
 
@@ -70,7 +70,7 @@ In **conceptual knowledge modelling**, the aim is to determine which knowledge i
 
 A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modelled. In semantic modelling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
-> **What is..?**
+> **Key Concepts**
 >
 > **Conceptual knowledge modelling** identifies and organises the knowledge relevant to a particular domain.
 >

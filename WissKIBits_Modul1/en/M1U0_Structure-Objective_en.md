@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Welcome, objectives and structure
 
@@ -41,7 +41,7 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
+Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
 Unit 0 (U0): **Welcome, Structure and Objectives**  
 
@@ -54,7 +54,8 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 In this module, you use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
 
-In Module 1, **“From the collection through modelling decisions to the diagram – understand and explain”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+In Module 1, **Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
+”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
 
 The goal is to document the domain-specific logic in such a way that modelling decisions become transparent and research data can later be recorded, linked, analysed, and reused consistently.
 
@@ -71,7 +72,7 @@ Subsequent units transfer this approach to learners’ own research data and dee
 
 ---
 
-## Why we Model Semantically?
+## Why Do We Model Semantically?
 
 - Research and collection data are complex object and contextual data. They describe not only objects and their properties. They arise in the context of scholarly research and are connected with historical, cultural, and social meanings and relationships.
 - Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
@@ -102,7 +103,7 @@ You will:
 - identify relevant **concepts, events, and relationships** in an example game collection,
 - align them with **classes and properties of CIDOC CRM**,
 - develop and justify a coherent domain logic, and
-- visualise this logic as a **conceptual model** that can later be implemented as a **semantic data modell** in WissKI.
+- visualise this logic as a **conceptual model** that can later be implemented as a **semantic data model** in WissKI.
 
 ---
 
@@ -273,7 +274,7 @@ At the end of Module 1, you will have developed a first **conceptual model sketc
 
 ## Outlook
 
-The following unit first clarifies the basic concepts of conceptual knowledge modelling and presents them as a foundation for semantic data modelling. 
+The following unit first clarifies the basic concepts of conceptual knowledge modelling and presents them as a foundation for semantic data modeling. 
 The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
 The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
 

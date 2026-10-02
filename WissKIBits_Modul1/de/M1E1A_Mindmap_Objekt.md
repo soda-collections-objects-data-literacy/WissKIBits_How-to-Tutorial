@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Application Example: Object Collections
 

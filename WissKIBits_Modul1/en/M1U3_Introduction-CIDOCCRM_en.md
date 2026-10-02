@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Introduction to CIDOC CRM
 
@@ -40,7 +40,7 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
+Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
 Unit 3 (U3): **Introduction to CIDOC CRM**  
 
@@ -212,11 +212,11 @@ The **scope note** of a CIDOC CRM class specifies:
 
 CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (SIG2024cidoc, p. 33)
 
-Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modelling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
+Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modeling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
 
 **RDF (Resource Description Framework)** is a standard for the formal description of statements about resources in the form of triples in WissKI. (W3C2014rdf)
 
- Example: Zelda game (SNES) *The video game “The Legend of Zelda: A Link to the Past” was developed by Nintendo in Kyoto, Japan, in 1991.* (Wikio.D.zelda)
+ Example: Zelda game (SNES) *The computer game “The Legend of Zelda: A Link to the Past” was developed by Nintendo in Kyoto, Japan, in 1991.* (Wikio.D.zelda)
 
 | Natural-language statement | CIDOC CRM representation |
 |-----------------------------|--------------------------|

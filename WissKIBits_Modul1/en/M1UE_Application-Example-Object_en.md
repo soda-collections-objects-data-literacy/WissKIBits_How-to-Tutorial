@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Application Example: Object Collections
 
@@ -40,7 +40,7 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
+Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
 Unit 1 Exercise (UE): **Application Example: Object Collections**  
 
@@ -59,7 +59,7 @@ Participants will be able to...
 
 This is a practical exercise.
 
-you use **"The Legend of Zelda: A Link to the Past"** as an example, you select some concepts and we will tentatively map them to **CIDOC CRM** classes.
+Using **"The Legend of Zelda: A Link to the Past"** as an example, you select some concepts and we will tentatively map them to **CIDOC CRM** classes.
 
 The aim here is not to create a complete or formally correct CIDOC CRM model.
 
@@ -75,7 +75,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 > **Transfer: From Conceptual Model to CIDOC CRM**
 >
-> The model sketch created during the activation exercise (M1E1A) is now being further developed.
+> You will now further develop the model sketch created during the activation exercise (M1E1A).
 >
 > Selected concepts and events are described using CIDOC CRM.
 >
@@ -107,7 +107,7 @@ The **goal is not** to develop a complete data model for computer games. Instead
 
 The starting point is **“The Legend of Zelda: A Link to the Past”**.
 
-Using this example, an analysis was conducted to determine which **concepts, events, and relationships** might be relevant for describing a collection object and its context.
+Using this example, you identified **concepts, events, and relationships** that may be relevant for describing a collection object and its context.
 
 > **From Model Sketch to CIDOC CRM Draft**
 >
@@ -271,7 +271,7 @@ The following figure illustrates how such a model sketch can evolve into a more 
 
 ![Concept Mind Map](../WissKIBits_Modul1/assets/Mindmap.png)
 
-> **Figure:** The figure shows an example of a mind map for the video game "The Legend of Zelda: A Link to the Past."
+> **Figure:** The figure shows an example of a mind map for the computer game "The Legend of Zelda: A Link to the Past."
 
 In this process, the initially loosely formulated elements and relationships are gradually transformed into CIDOC CRM classes and properties. Consequently, the figure should not be viewed as the only possible solution, but rather as a modelling proposal that can be reviewed and further developed.
 

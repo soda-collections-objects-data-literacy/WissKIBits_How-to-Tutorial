@@ -16,7 +16,7 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This module is part of the how-to tutorial “Ontology-based Modelling of Research Data”. Using a video game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
+comment: This module is part of the how-to tutorial “Ontology-based Modelling of Research Data”. Using a computer game collection as an example, the tutorial guides learners step by step through the development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
 title: WissKI Bits Ontology-based Modelling of Research Data
 
@@ -24,11 +24,11 @@ module: From Diagram to Paths – Explain and Apply
 
 unit: Welcome, Objectives and Workflow
 
-description: The SODa how-to tutorial uses a video game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
-community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacies (SODa)
+community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
 PublicationDate: 2026-10-05
 
@@ -60,7 +60,7 @@ Module 3, **“From Diagram to Paths – Explain and Apply”**, continues this 
 
 The generated file is imported into WissKI. There, the paths and path groups are analysed and prepared as the basis for the structured capture, storage, and querying of research data.
 
-The module follows the principle of **Learning by Doing**. Using an example from the video game domain, participants work through the entire processing chain from the semantic diagram and file conversion to the imported path structure in the WissKI Pathbuilder.
+The module follows the principle of **Learning by Doing**. Using an example from the computer games domain, participants work through the entire processing chain from the semantic diagram and file conversion to the imported path structure in the WissKI Pathbuilder.
 
 > **What is this module about?**
 >

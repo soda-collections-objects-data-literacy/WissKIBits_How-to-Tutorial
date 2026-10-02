@@ -20,7 +20,7 @@ comment: This module is part of the how-to tutorial “Ontology-Based Modelling 
 
 title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: From the collection through modelling decisions to the diagram – understand and explain
+module: From collection to modelling decisions to diagram – understand and explain
 
 unit: Application Example: Object Collections
 
@@ -40,7 +40,7 @@ LearningResourceType: SODa How-to Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
+Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
 Activation Unit (U1A): **Mindmap of the Application Example from Object Collections**  
 
