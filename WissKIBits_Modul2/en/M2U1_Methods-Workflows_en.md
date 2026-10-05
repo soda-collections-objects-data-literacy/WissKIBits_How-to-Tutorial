@@ -24,7 +24,7 @@ module: Modelling with CIDOC CRM – Understand and Apply
 
 unit: Methods and workflows of semantic modelling
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 

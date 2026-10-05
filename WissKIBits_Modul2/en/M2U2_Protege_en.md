@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Unit 2 (U2): **Introduction in Protégé**  
+Unit 2 (U2): **Introduction to Protégé**  
 
 **Duration:** ~ 10 min.
 

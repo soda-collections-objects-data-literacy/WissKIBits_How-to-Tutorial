@@ -24,7 +24,7 @@ module: From collection to modelling decisions to diagram – understand and exp
 
 unit: Fundamentals of Ontologies
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to Tutorial
 
 Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
-Unit 2 (u2): **Fundamentals of Ontologies**  
+Unit 2 (U2): **Fundamentals of Ontologies**  
 
 **Duration:**  ~ 10 min.
 

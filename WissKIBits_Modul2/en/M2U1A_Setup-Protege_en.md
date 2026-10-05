@@ -58,7 +58,7 @@ Participants will be able to...
 
 ## Objective
 
-Before you will start working with Protégé, let us establish our starting point.
+Before you start working with Protégé, let us establish our starting point.
 
 Some of you may already have experience with ontology editors or Protégé, while others may be using them for the first time. 
 

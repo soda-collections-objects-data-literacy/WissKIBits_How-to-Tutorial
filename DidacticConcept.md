@@ -30,7 +30,7 @@ The tutorial is available in **German and English** and is published under a **C
 
 ## Topic Areas and Topics
 
-The tutorial covers key steps in the ontology-based modelling of reseach data and their practical implementation in WissKI.
+The tutorial covers key steps in the ontology-based modelling of research data and their practical implementation in WissKI.
 
 The content is organised into three sequential topic areas:
 
@@ -51,12 +51,12 @@ The content is organised into three sequential topic areas:
 - Exploring CIDOC CRM
 - Selecting suitable classes and properties
 - Developing domain-specific subclasses
-- Formalizing and validating the data model
+- Formalising and validating the data model
 - Preparing the model for implementation in WissKI
 
 **Module 3: From Semantic Model to WissKI Pathbuilder**
 
-- Visualizing the semantic data model with Draw.io
+- Visualising the semantic data model with Draw.io
 - Modelling nodes, edges, and semantic paths
 - Preparing the diagram for transformation
 - Transforming the Draw.io diagram using the gnm-service
@@ -185,7 +185,7 @@ Individual units may also be reused separately for specific teaching or training
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and workflow | 10 min. |
-| E3A | Visualizing semantic data models | 35 min. |
+| E3A | Visualising semantic data models | 35 min. |
 | E3E | Transforming semantic models into WissKI paths | 40 min. |
 |  | **Total** | **90 min.** |
 

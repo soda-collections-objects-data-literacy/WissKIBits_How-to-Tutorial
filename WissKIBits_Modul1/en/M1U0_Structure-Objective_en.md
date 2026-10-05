@@ -24,7 +24,7 @@ module: From collection to modelling decisions to diagram – understand and exp
 
 unit: Welcome, objectives and structure
 
-description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of reseach data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
@@ -54,7 +54,7 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 In this module, you use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
 
-In Module 1, **Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
+In Module 1, **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 ”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
 
 The goal is to document the domain-specific logic in such a way that modelling decisions become transparent and research data can later be recorded, linked, analysed, and reused consistently.
