@@ -57,45 +57,39 @@ Participants will be able to...
 
 ## Goal and Scenario
 
-This is an activation exercise.
+In this activation exercise, you begin with a **concrete collection object** before working with formal ontology concepts or CIDOC CRM.
 
-> **Activation: From the Object to a Conceptual Model**
+Your task is to explore what knowledge is relevant for describing the object and how this knowledge is connected.
+
+> **Activation: From Object to Conceptual Model**
 >
-> You start with a collection or research object and ask:
+> Your guiding question is:
 >
 > **What do you need to know about this object – and how is this knowledge connected?**
 >
-> You use **The Legend of Zelda: A Link to the Past** as an example.
+> Using **The Legend of Zelda: A Link to the Past** as an example, you identify relevant **concepts, events, and relationships**.
 >
-> You identify relevant **concepts, events, and relationships** to describe this example.
->
-> The goal is not yet to use CIDOC CRM, but to **create a first conceptual model sketch of the domain**.
+> The goal is not yet to use CIDOC CRM, but to create a **first conceptual model sketch of the domain**.
 
 --- 
 
 ## Starting Point: Example Object “Zelda”
 
-The computer game **“The Legend of Zelda: A Link to the Past”** serves as the starting point. 
+Your starting point is the computer game **The Legend of Zelda: A Link to the Past**.
 
-Using this example, you examine which **concepts, events, and relationships** may be relevant for describing a collection object and its context.
-
-The **goal is not** to develop a complete data model for computer games. 
-
-Instead, we create an **initial model sketch** that
-
-- distinguishes central concepts and events in a way that is understandable to people,
-- makes their relationships visible, and
-- serves as the basis for subsequent mapping to CIDOC CRM.
+Use the available information about the object and its context to decide **what should become part of your conceptual model**.
 
 > **Starting from the Object**
 >
-> Our example is the computer game **The Legend of Zelda: A Link to the Past.**
+> Do not think about CIDOC CRM classes yet.
 >
-> You use it to explore which concepts, events, and relationships may be relevant for describing such a collection object and its context.
+> Start with the domain itself:
 >
-> **Remember:** The goal is not to develop a complete data model.
->
-> You start small and focus on what is relevant for understanding this object.
+> - What is the object?
+> - Who or what is connected to it?
+> - What happened to or around it?
+> - Which places and times are relevant?
+> - How are these elements related?
 
 ---
 

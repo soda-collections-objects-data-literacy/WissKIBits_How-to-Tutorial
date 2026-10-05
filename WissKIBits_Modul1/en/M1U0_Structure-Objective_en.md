@@ -52,23 +52,18 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In this module, you use a concrete collection object to explore how research data can be transformed step by step into a semantic data model. The resulting conceptual model provides the basis for later implementation in WissKI.
+In Module 1, you develop the **conceptual foundation of a semantic data model**. Starting with information about a collection object, you identify relevant concepts, events, and relationships and explore how they can be organised into a conceptual model.
 
-In Module 1, **From Collection to Modelling Decisions to Diagram – Understand and Explain**
-”**, you develop the conceptual foundation of this data model. To do so, you analyse object data and contextual information from a specialist domain. You identify relevant concepts, events, and relationships, clarify their meaning, and align them with classes (Entities) and properties (Properties) of the CIDOC CRM reference model.
+Using an example from the **computer games domain**, you move from the collection perspective to the modelling perspective. You then explore how selected elements of your conceptual model can be related to **CIDOC CRM**.
 
-The goal is to document the domain-specific logic in such a way that modelling decisions become transparent and research data can later be recorded, linked, analysed, and reused consistently.
-
-The module is designed as a **learning-by-doing tutorial** for the **Scientific Communication Infrastructure WissKI**. Using an example from the domain of computer games, you move from the collection perspective to the modelling perspective. The resulting conceptual model forms the basis for a diagram and for later technical implementation in the WissKI Pathbuilder.
-
-Subsequent units transfer this approach to learners’ own research data and deepen both formal modelling and implementation in WissKI.
+The resulting conceptual model provides the basis for **formalisation in Module 2** and later **technical implementation in WissKI in Module 3**.
 
 
-> **What is the Module About?**
+> **What is the module about?**
 >
-> You start with **information about an object** and gradually develop a semantic data model.
+> You start with **information about a collection object** and gradually develop a **conceptual model of the domain**.
 >
-> Along the way, you identify **concepts, events, and relationships** from a domain, make their meaning explicit, and prepare them for later implementation in WissKI.
+> Along the way, you identify **concepts, events, and relationships**, make their meaning explicit, and explore how selected elements can be related to **CIDOC CRM**.
 
 ---
 
