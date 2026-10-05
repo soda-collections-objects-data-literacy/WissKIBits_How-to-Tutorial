@@ -105,7 +105,7 @@ The domain is particularly suitable because it...
 - allows **versions/editions** and **series memberships** to be represented,
 - uses clear identifiers and names (title variants, product codes).
 
-This makes the domain a clear starting point for recognizing different perspectives on an object and deriving initial **modelling decisions** from them.
+This makes the domain a clear starting point for recognising different perspectives on an object and deriving initial **modelling decisions** from them.
 
 > **Why Computer Games?**
 >
@@ -119,7 +119,7 @@ This makes the domain a clear starting point for recognizing different perspecti
 > - places and times
 > - ...
 >
-> This makes it possible to explore different perspectives on certain collection object.
+> This makes it possible to explore different perspectives on a collection object.
 
 ---
 
@@ -128,10 +128,10 @@ This makes the domain a clear starting point for recognizing different perspecti
 For the model sketch, you consider selected information about the example object. You focus on three areas:
 
 - **Game title** 
-- **Game characteristics** (e.g. genre, such as action-adventure, RPG, or platform, such as Nintendo 64, PlayStation, PC)
-- **Narrative elements** (e.g. description, perspective, such as first-person, third-person, or characters such as Zelda)
+- **Game characteristics** (e.g. genre, such as action-adventure or RPG, and platform, such as Nintendo 64, PlayStation, PC)
+- **Narrative elements** (e.g. description, perspective, such as first-person, third-person, and characters such as Zelda)
 
-These areas serve as the starting point for recognizing different types of **concepts and events** and formulating their **relationships**.
+These areas serve as the starting point for recognising different types of **concepts and events** and formulating their **relationships**.
 
 > **Think about the object**
 >
@@ -145,13 +145,13 @@ These areas serve as the starting point for recognizing different types of **con
 
 ## Activation Puzzle – Create a Mini Sketch Model of "Zelda"
 
-**Working format:** Breakout rooms / individual work or teams (2–5 people)  
+**Working format:** Individual work or small groups (2–5 people); breakout rooms may be used in facilitated online sessions
 
 **Material:** Paper & pen (or digital whiteboard)  
 
 **Time:** 15 minutes
 
-> **Preperation**
+> **Preparation**
 >
 > Open [Draw.io](https://app.diagrams.net/)
 >
@@ -169,7 +169,7 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > Connect the relevant elements using meaningful relationships.
 > 
-> Formulate with each connection a meaningful statement about the example object; such as....
+> Use each connection to formulate a meaningful statement about the example object, such as....
 > 
 > **Examples**
 > 
@@ -181,11 +181,11 @@ These areas serve as the starting point for recognizing different types of **con
 >
 > **Step 3 · Check**
 >
-> Read connections as statements and ask: **Do they express what you actually like to describe?**
+> Read connections as statements and ask: **Does it express what you actually want to describe?**
 >
 > **Tip: Less is more**
 >
-> Focus on a small number of elements and try to generate particularly relevant assumptions to understanding the object.
+> Focus on a small number of elements and create only those connections that are particularly relevant to understanding the object.
 
 ---
 
@@ -201,7 +201,12 @@ You now have a first conceptual model sketch containing:
 
 > **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
 
-**Keep this sketch: we will return to it after introducing CIDOC CRM.**
+---
 
+> **Next: Understanding What You Have Modelled**
+>
+> Keep your conceptual model sketch. In **Unit 1**, you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
+>
+> You will return to this sketch later when you explore **CIDOC CRM**.
 
 
