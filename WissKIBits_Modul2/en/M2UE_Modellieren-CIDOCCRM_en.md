@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Unit Exercise (UE): **Semantic Modelling with CIDOC CRM**  
+Unit Exercise (2UE): **Semantic Modelling with CIDOC CRM**  
 
 **Duration:** ~ 45 min.
 

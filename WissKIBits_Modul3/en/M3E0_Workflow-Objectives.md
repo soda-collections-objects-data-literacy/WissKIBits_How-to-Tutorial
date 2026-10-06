@@ -103,9 +103,9 @@ You will:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, workflow and objectives| 10 min. |
-| UE1 | Visualising semantic data models | 35 min. |
-| UE2 | Transforming semantic models into WissKI paths | 45 min. |
+| M3U0 | Welcome, workflow and objectives| 10 min. |
+| M3UE1 | Visualising semantic data models | 35 min. |
+| M3UE2 | Transforming semantic models into WissKI paths | 45 min. |
 |  | **Total** | **90 min.** |
 
 ---

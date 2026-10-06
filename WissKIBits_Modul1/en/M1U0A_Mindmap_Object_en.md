@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to Tutorial
 
 Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
-Activation Unit (U1A): **Mindmap of the Application Example from Object Collections**  
+Activation Unit (U0A): **Mindmap of the Application Example from Object Collections**  
 
 **Duration:** ~ 15 min.
 

@@ -108,13 +108,13 @@ You will:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and structure | 5 min. |
-| E1A | Activation: Collection object "Zelda" | 15 min. |
-| 1 | Basic concepts of conceptual knowledge modelling | 10 min. |
-| 2 | Fundamentals of ontologies | 10 min. |
-| 3 | Introduction to CIDOC CRM | 15 min. |
-| 4 | FAIR compliance with WissKI | 15 min. |
-| E1E | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
+| M1U0 | Welcome, objectives and structure | 5 min. |
+| M1U0A | Activation: Collection object "Zelda" | 15 min. |
+| M1U1 | Basic concepts of conceptual knowledge modelling | 10 min. |
+| M1U2 | Fundamentals of ontologies | 10 min. |
+| M1U3 | Introduction to CIDOC CRM | 15 min. |
+| M1U4 | FAIR compliance with WissKI | 15 min. |
+| M1UE | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
 ---
