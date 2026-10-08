@@ -76,8 +76,6 @@ This unit explains **why ontologies are used and what benefits they offer for co
 > Conceptual knowledge modelling identifies and organises the relevant concepts, events, and relationships within a domain.
 >
 > An ontology takes the next step: it represents this conceptual structure formally and in a machine-readable way.
->
-> With ontologies conceptual knowledge can be formally represented and made machine-readable.
 
 ---
 
@@ -113,17 +111,16 @@ The best-known definition describes an ontology as an explicit, formal specifica
 - how these concepts are **related** to one another,
 - and which **rules** apply so that **statements** about them can be modelled meaningfully and consistently.
 
-> **What is an ontology?**
+> **What is an Ontology?**
 > 
-> An **ontology** is an formal representation of a domain knowledge.
+> An **ontology** formally defines concepts, relationships, and relevant modelling constraints within a domain.
 >
-> It specfies:
+> **Classes** describe kinds of things.
+> **Properties** describe relationships or attributes.
+> **Instances** represent individual things described using the ontology.
+> **Constraints** specify additional conditions for interpreting or using the model.
 >
-> - what concepts and events are relevant,
-> - how they are related, and
-> - which rules apply to their use.
->
-> In this way, an ontology provides a shared and formally defined structure for describing knowledge within a domain.
+> **Key takeaway:** Ontologies provide a shared, formally defined structure for representing and interpreting domain knowledge.
 
 ---
 
