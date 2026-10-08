@@ -20,9 +20,9 @@ comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Model
 
 title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
 
-module: Modellieren mit CIDOC CRM – verstehen und anwenden
+module: Modelling with CIDOC CRM – Understand and Apply
 
-einheit: Semantische Modellierung mit CIDOC CRM
+unit: Semantic Modelling with CIDOC CRM
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 
@@ -279,7 +279,7 @@ Compare your result with the original model sketch:
 ---
 
 
-### Step 5: Document the Model
+### Step 6: Document the Model
 
 Document your decision mapping:
 

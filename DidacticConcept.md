@@ -161,7 +161,7 @@ Individual units may also be reused separately for specific teaching or training
 | Unit | Content | Duration |
 |---|---|---:|
 | 0 | Welcome, objectives and structure | 5 min. |
-| E1A| Activation: Collection object "Zelda" | 15 min. |
+| U0A| Activation: Collection object "Zelda" | 15 min. |
 | 1 | Basic concepts of conceptual knowledge modelling | 10 min. |
 | 2 | Fundamentals of ontologies | 10 min. |
 | 3 | Introduction to CIDOC CRM | 15 min. |
@@ -195,7 +195,7 @@ Individual units may also be reused separately for specific teaching or training
 
 Upon completion of Module 1, participants will be able to…
 
-**E1A: Application example from object collections**
+**U0A: Application example from object collections**
 
 - Apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 
@@ -267,7 +267,7 @@ Upon completion of Module 1, participants will be able to…
 
 Upon completion of Module 2, participants will be able to…
 
-**E1A: xxxx**
+**U0A: xxxx**
 
 
 **1. Semantic Modelling Methods and Workflows**

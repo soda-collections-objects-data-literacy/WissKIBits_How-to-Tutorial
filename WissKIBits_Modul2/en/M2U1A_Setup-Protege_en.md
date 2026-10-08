@@ -16,13 +16,13 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
 title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
 
-module: Modellieren mit CIDOC CRM – verstehen und anwenden
+module: Modelling with CIDOC CRM – Understand and Apply
 
-einheit: Semantische Modellierung mit CIDOC CRM
+unit: Setting Up the Working Environment with Protégé
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 
@@ -44,7 +44,7 @@ Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
 Activation Unit (U1A): **Setting Up the Working Environment with Protégé**  
 
-**Duration:** ~ 20 min.
+**Duration:** ~ 15 min.
 
 **Learning Objectives:**
 

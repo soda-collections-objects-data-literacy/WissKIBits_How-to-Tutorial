@@ -45,7 +45,7 @@ Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram 
 
 Unit 1 (U1): **Basic concepts of conceptual knowledge modelling**  
 
-**Duration:** ~ 15 min.
+**Duration:** ~ 10 min.
 
 **Learning Objectives:**
 
@@ -160,7 +160,7 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 > **Reflection**
 >
-> You look back to your model sketch you created in E1A.
+> You look back to your model sketch you created in U0A.
 >
 > You have sorted elements of domain knowledge and connected them through meaningful relationships.
 >
@@ -206,7 +206,7 @@ You identified **concepts, events, and relationships** in your own model sketch 
 
 Conceptual knowledge modelling structures the relevant domain knowledge using concepts, events, and relationships. 
 
-In E1A, you created a first conceptual model sketch from information about a collection object.
+In U0A, you created a first conceptual model sketch from information about a collection object.
 
 In this unit, you have introduced the terminology needed to describe what happened during this process:
 

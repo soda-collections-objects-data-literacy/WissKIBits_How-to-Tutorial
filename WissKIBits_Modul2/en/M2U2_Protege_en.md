@@ -22,7 +22,7 @@ title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
 
 module: Modellieren mit CIDOC CRM – verstehen und anwenden
 
-einheit: Einführung in Protégé
+unit: Introduction to Protégé
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 

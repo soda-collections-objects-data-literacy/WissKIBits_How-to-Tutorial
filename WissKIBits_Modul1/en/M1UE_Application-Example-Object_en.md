@@ -75,7 +75,7 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 > **Transfer: From Conceptual Model to CIDOC CRM**
 >
-> You will now further develop the model sketch created during the activation exercise (M1E1A).
+> You will now further develop the model sketch created during the activation exercise (M1U0A).
 >
 > Selected concepts and events are described using CIDOC CRM.
 >
@@ -89,9 +89,9 @@ This model sketch will be progressively refined in the subsequent modules (2 and
 
 ---
 
-## Starting Point: Your Model Sketch from E1A
+## Starting Point: Your Model Sketch from U0A
 
-In **E1A**, you started with the computer game **The Legend of Zelda: A Link to the Past** and created a first **conceptual model sketch**.
+In **U0A**, you started with the computer game **The Legend of Zelda: A Link to the Past** and created a first **conceptual model sketch**.
 
 You identified relevant **concepts, events, and relationships** and connected them to represent knowledge about the collection object and its context.
 
@@ -341,7 +341,7 @@ In **Module 2**, the developed model will be implemented using **Protégé** as 
 
 Finally, **Module 3** demonstrates how the previously developed model is implemented in **WissKI**. The focus here is on transferring the model into the **path structure of the WissKI Pathbuilder**.
 
-> The conceptual model sketch developed in E1A has now been expanded to include initial CIDOC CRM mappings and substantiated modelling decisions.
+> The conceptual model sketch developed in U0A has now been expanded to include initial CIDOC CRM mappings and substantiated modelling decisions.
 > In Module 2, this model will be further formalised using Protégé and implemented as a machine-readable ontology structure. In Module 3, the model will then be converted into a structure compatible with the WissKI Pathbuilder.
 
 ---

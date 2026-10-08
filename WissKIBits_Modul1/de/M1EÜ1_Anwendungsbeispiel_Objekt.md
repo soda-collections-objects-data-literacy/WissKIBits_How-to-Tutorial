@@ -97,7 +97,7 @@ An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehung
 
 > **Von der Modellskizze zum CIDOC CRM Entwurf
 >
-> Relevante Konzepte, Ereignisse und Beziehungen für das Beispielobjekt **The Legend of Zelda: A Link to the Past** wurden identifiziert (M1E1A).
+> Relevante Konzepte, Ereignisse und Beziehungen für das Beispielobjekt **The Legend of Zelda: A Link to the Past** wurden identifiziert (M1U0A).
 >
 > Nun betrachten Sie diese Modellskizze aus einer neuen Perspektive:
 > - Welche Bedeutung haben die identifizierten Konzepte?
@@ -329,7 +329,7 @@ In **Modul 2** wird das entwickelte Modell mit **Protégé** als maschinenlesbar
 
 In **Modul 3** wird schließlich gezeigt, wie die zuvor entwickelte Modellierung in WissKI umgesetzt wird. Im Mittelpunkt steht dabei die Übertragung des Modells in die **Pfadstruktur des WissKI Pathbuilders**.
 
-> Die in E1A entwickelte konzeptionelle Modellskizze wurde nun um erste CIDOC-CRM-Zuordnungen und begründete Modellierungsentscheidungen erweitert.
+> Die in U0A entwickelte konzeptionelle Modellskizze wurde nun um erste CIDOC-CRM-Zuordnungen und begründete Modellierungsentscheidungen erweitert.
 > In Modul 2 wird dieses Modell mit Protégé weiter formalisiert und als maschinenlesbare Ontologiestruktur umgesetzt. In Modul 3 wird die Modellierung anschließend in eine für den WissKI Pathbuilder nutzbare Struktur überführt.
 
 ---

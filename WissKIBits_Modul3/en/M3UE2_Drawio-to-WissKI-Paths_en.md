@@ -51,7 +51,7 @@ Unit Exercise (UE2): **Transforming Semantic Models into WissKI Paths**
 
 Participants will be able to...
 
-- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
+- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804) Hinweis: Vielleicht lieber "configuring an ontology-based path structures" ?
 - With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
 - With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
 - With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
@@ -321,24 +321,6 @@ Also look at the other imported paths.
 
 ## Summary
 
-In this practical unit, the **Draw.io diagram** completed in Unit 1 was transformed into a **Pathbuilder XML file** using the gnm-service and then imported into WissKI.
-
-Three successive representations were used:
-
-| Representation | Function |
-|---|---|
-| **Draw.io diagram** | Visualization of the semantic domain model |
-| **Pathbuilder XML** | Transformation and exchange format |
-| **WissKI Pathbuilder** | Organization of ontology relationships as groups and semantic paths |
-
-> **Draw.io diagram → Pathbuilder XML → WissKI Pathbuilder**
-
-At the end of this exercise, there is an **imported WissKI Pathbuilder based on the semantic domain model**.
-
----
-
-## Summary
-
 In this practical unit, a semantic Draw.io diagram was transformed step by step into a **WissKI Pathbuilder structure**.
 
 Three tools or representations were used:
@@ -349,7 +331,7 @@ Three tools or representations were used:
 | **gnm-service** | Transformation of the diagram into a Pathbuilder XML file |
 | **WissKI Pathbuilder** | Implementation of ontology relationships as groups and semantic paths |
 
-The result is an **imported and checked WissKI Pathbuilder** based on the semantic domain model.
+The result is an **imported and validated WissKI Pathbuilder** based on the semantic domain model.
 
 This traces the transition from semantic modelling to technical implementation in WissKI:
 
