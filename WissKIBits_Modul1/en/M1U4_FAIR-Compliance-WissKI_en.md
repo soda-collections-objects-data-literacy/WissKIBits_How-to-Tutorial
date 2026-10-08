@@ -90,7 +90,19 @@ Participants will be able to...
 
 ---
 
-## FAIR Compliance of WissKI
+## FAIR Compliance with WissKI
+
+> **How does WissKI support FAIR data?**
+>
+> The FAIR principles aim to make research data **Findable · Accessible · Interoperable · Reusable**
+>
+> WissKI can support these goals by combining structured data management with ontology-based semantic descriptions. For example, explicitly defined classes and properties can help make the meaning of research data more transparent and support interoperability between datasets.
+>
+> **Important:** However, using WissKI does not automatically make research data FAIR. FAIRness also depends on how data are identified, documented, made accessible, licensed, and maintained.
+>
+> In this tutorial, we focus particularly on the contribution of semantic modelling to **interoperability** and **reuse**.
+
+---
 
 WissKI is **not just** a collection database.
 
@@ -107,16 +119,6 @@ As part of its technical foundation, WissKI uses the current version of **[Erlan
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 
 This creates interoperable and reusable knowledge resources. Their specific FAIR compliance additionally depends on modelling, licensing, and provision.
-
-> **How does WissKI support FAIR data?**
->
-> WissKI supports the FAIR principles: **Findable · Accessible · Interoperable · Reusable**
->
-> It uses Semantic Web technologies and standards such as RDF and OWL to represent and connect knowledge in a machine-readable form.
->
-> Ontologies such as CIDOC CRM provide shared semantic structures that support interoperability and reuse.
->
-> **Important:** Using WissKI can support FAIR data management, but FAIRness also depends on factors such as modelling decisions, metadata, licensing, and data provision.
 
 ---
 
@@ -141,38 +143,52 @@ WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of 
 
 ## WissKI and Drupal 
 
-WissKI is **not standalone software**, but a set of modules (knurg2025wisski) that semantically extend the [**Drupal**](https://new.drupal.org/) content management system. (Drupal2024core)
+WissKI is **not standalone software**, but a set of modules (knurg2025wisski) that semantically extend the [**Drupal**](https://new.drupal.org/) content management system with functionality for ontology-based research data management. (Drupal2024core)
 
 ![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
 > **Figure:** WissKI integration in Drupal (Fichtner2023wisski, p. 2)
 
----
+Drupal provides the underlying web application framework, while WissKI supports the use of semantic models for structuring and managing research data.
 
-### Drupal and WissKI
+The important point is that WissKI connects a semantic model with the way research information is organised and edited in the system.
 
- WissKI extends the Drupal content management system with ontology-based and semantic functionality.
+### Together: Drupal provides the application framework; WissKI adds the semantic data layer.
 
-> **Drupal provides:**
-> 
-> - user, role, and rights management
-> - access control
-> - modular architecture
-> - interfaces for users (GUI) and data exchange (REST/JSON)  
-> - multilingual support
->
-> **WissKI adds:**
-> - ontology-based data structures
-> - semantic paths
-> - RDF triple store for storing semantic data  
-> - SPARQL endpoint for queries and access  
-> - Publication as Linked Open Data (LOD)  
-> 
-> **Together: Drupal provides the application framework; WissKI adds the semantic data layer.**
+ **Drupal provides:**
+ 
+- user, role, and rights management
+- access control
+- modular architecture
+- interfaces for users (GUI) and data exchange (REST/JSON)  
+- multilingual support
+
+**WissKI adds:**
+
+- ontology-based data structures
+- semantic paths
+- RDF triple store for storing semantic data  
+- SPARQL endpoint for queries and access  
+- Publication as Linked Open Data (LOD)  
 
 ---
 
 ## The WissKI Pathbuilder
+
+> **What does the Pathbuilder do?**
+>
+> The WissKI Pathbuilder connects elements of an ontology with the structure used to organise and edit information in WissKI.
+>
+> It uses **groups** and **paths** within the ontology to specify the classes and properties relevant for particular data structures, enabling strucutured data ingestion:
+> 
+> **Groups** organise semantic entities, such as objects, persons, places, or events.
+> **Paths** define semantic relationships between these entities.
+> **Widgets / fields** provide user-friendly interfaces for entering and managing data based on these structures.
+>
+> 
+> For now, it is sufficient to understand that the Pathbuilder builds on an existing semantic model. It does not replace the process of developing or defining that model. 
+
+---
 
 The **Pathbuilder** is the **core of WissKI**.
 
@@ -191,16 +207,6 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 ![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
 
 > **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain
-
-> **What does the Pathbuilder do?**
->
-> The WissKI Pathbuilder translates ontology-based structures into paths that can be used for data entry and management in WissKI.
-> 
-> **Groups** organise semantic entities such as objects, persons, places, or events.
-> **Paths** define semantic relationships between these entities.
-> **Widgets / fields** make these structures usable for data entry.
->
-> **Ontology → Groups and paths → Data entry → RDF knowledge graph**
 
 ---
 

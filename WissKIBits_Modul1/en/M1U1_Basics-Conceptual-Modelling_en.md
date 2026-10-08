@@ -123,31 +123,19 @@ The result of this process is a **semantic data model**. It does not represent t
 
 ## From Domain Knowledge to a Semantic Data Model
 
-**Learning path**
+A collection object can be described through many individual pieces of information. **Conceptual modelling** helps us decide which of these are relevant and how they are connected.
 
-The graphic illustrates the path from defining a subject domain through the conceptual organisation of relevant knowledge to the semantic data model.
+Consider the computer game **The Legend of Zelda: A Link to the Past**. A collection record may contain its **title**, information about the **publisher**, a **release date**, and the **platform** on which it was published.
 
-**Define the subject domain**  
+To develop a conceptual model, we ask what these pieces of information refer to. For example, 
 
-↓  
+- a title is a designation, 
+- a publisher is an organisation, and 
+- a release can be considered in terms of an event. 
 
-**Identify relevant knowledge**  
+We then examine how these elements relate to the game and to one another.
 
-↓  
-
-**Organise concepts, events, and relationships**  
-
-↓  
-
-**Describe domain-specific semantic relationships**  
-
-↓  
-
-**Model semantically**  
-
-↓ 
-
-**Semantic data model**
+The resulting model does not simply reproduce the collection record. It makes **selected concepts and relationships explicit** so that their meaning can be discussed and refined.
 
 
 ---
@@ -158,17 +146,15 @@ The graphic illustrates the path from defining a subject domain through the conc
 
 **Time:** 5 min.
 
-> **Reflection**
+> **Reflect on you model sketch**
 >
-> You look back to your model sketch you created in U0A.
->
-> You have sorted elements of domain knowledge and connected them through meaningful relationships.
->
-> Now use the terminology (concept, event, relationship) introduced in this unit to reflect on your model:
+> Choose one relationship from your sketch and read it as a complete statement.
 >
 > - Which elements are concepts?
 > - Which elements represent events?
 > - Which connections are relationships?
+> 
+> If necessary, revise the label of the relationship in your sketch.
 
 ---
 

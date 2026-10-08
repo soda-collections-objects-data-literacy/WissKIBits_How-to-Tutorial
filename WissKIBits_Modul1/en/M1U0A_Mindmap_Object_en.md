@@ -95,15 +95,11 @@ Use the available information about the object and its context to decide **what 
 
 ## The Domain Computer Games
 
-Computer games are well suited as an example domain because they illustrate different aspects of modelling clearly.
+Computer games are a useful example for conceptual modelling because they can be described from several perspectives. 
 
-The domain is particularly suitable because it...
+Depending on the research question, a collection may focus on a **physical game copy**, the game as **digital content**, its **production** and **publication history**, or its **narrative** and technical **characteristics**.
 
-- includes both **physical** and **digital** objects,
-- has clearly traceable **production and publication contexts**,
-- contains typical **events** (e.g. release, porting, reissue),
-- allows **versions/editions** and **series memberships** to be represented,
-- uses clear identifiers and names (title variants, product codes).
+The following overview highlights some of the elements that may become relevant when developing a conceptual model.
 
 This makes the domain a clear starting point for recognising different perspectives on an object and deriving initial **modelling decisions** from them.
 
@@ -117,7 +113,7 @@ This makes the domain a clear starting point for recognising different perspecti
 > - versions and genre
 > - identifiers
 > - places and times
-> - ...
+> - narratives and characteristics
 >
 > This makes it possible to explore different perspectives on a collection object.
 
@@ -151,6 +147,7 @@ These areas serve as the starting point for recognising different types of **con
 
 **Time:** 15 minutes
 
+
 > **Preparation**
 >
 > Open [Draw.io](https://app.diagrams.net/)
@@ -158,13 +155,15 @@ These areas serve as the starting point for recognising different types of **con
 > Download ![puzzle template](../WissKIBits_Modul1/assets/puzzle.drawio_en.xml)
 >
 > **Note: You use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
->
+
+
 > **Step 1 · Identify**
 > 
 > Identify relevant concepts and events related to the example object domain.
 > 
 > These may include person or organisation, place, time, or event and more. 
->
+
+
 > **Step 2 · Connect**
 >
 > Connect the relevant elements using meaningful relationships.
@@ -178,14 +177,19 @@ These areas serve as the starting point for recognising different types of **con
 > Nintendo → participated in → Development
 > 
 > Development → created → Game
->
+
+
 > **Step 3 · Check**
 >
-> Read connections as statements and ask: **Does it express what you actually want to describe?**
+> Read connections as statements and ask: 
+> - **Does each connection express what you actually want to describe?**
+> - **Is the relationship clear and meaningful?**
+> - **Which statements are supported by the available information about the object?**
+> - **Which connections are assumptions or possible interpretations?**
 >
-> **Tip: Less is more**
+> Mark uncertain connections with a question mark (?).
 >
-> Focus on a small number of elements and create only those connections that are particularly relevant to understanding the object.
+> At this stage, you do not need to resolve every uncertainty. You will return to these questions when you explore semantic modelling and CIDOC CRM.
 
 ---
 

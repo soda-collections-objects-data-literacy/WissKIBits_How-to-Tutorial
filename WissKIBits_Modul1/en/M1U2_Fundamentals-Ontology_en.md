@@ -97,19 +97,7 @@ When modelling research data from the humanities and cultural studies, the aim i
 
 ---
 
-## Definitions
-
-### Basic Concepts of Ontologies
-
-An ontology is a **formal description of a part of the world**, or a **“formal, schematic representation of a domain of knowledge, consisting of a vocabulary and rules for its composition.”** (Weller2013ontologies, p. 207)
-
-The best-known definition describes an ontology as an explicit, formal specification of a conceptualization; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber1993knowledge, p. 200)
-
-**An ontology specifies...**
-
-- which **concepts** and **events** are relevant in a subject or application area (domain),
-- how these concepts are **related** to one another,
-- and which **rules** apply so that **statements** about them can be modelled meaningfully and consistently.
+## Definitions and Basic Concepts of Ontologies
 
 > **What is an Ontology?**
 > 
@@ -124,9 +112,33 @@ The best-known definition describes an ontology as an explicit, formal specifica
 
 ---
 
+An ontology is a **formal description of a part of the world**, or a **“formal, schematic representation of a domain of knowledge, consisting of a vocabulary and rules for its composition.”** (Weller2013ontologies, p. 207)
+
+The best-known definition describes an ontology as an explicit, formal specification of a conceptualization; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber1993knowledge, p. 200)
+
+**An ontology specifies...**
+
+- which **concepts** and **events** are relevant in a subject or application area (domain),
+- how these concepts are **related** to one another,
+- and which **rules** apply so that **statements** about them can be modelled meaningfully and consistently.
+
+---
+
 ### Aspects of Ontologies
 
-Ontologies typically consist of the following building blocks:
+> **Ontologies typically consist of the following building blocks:**
+>
+> **Classes** → What kinds of things are there? Examples: Game, Person, Organisation
+>
+> **Instances** → Which concrete things are we talking about? Example: The Legend of Zelda: A Link to the Past
+>
+> **Properties** → How are things described or related? Example: A game has a title.
+>
+> **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent such as generalisation and inheritance.
+
+---
+
+**Four building blocks of ontologies in detail**
 
 **Classes (Classes/Concepts)**  
 
@@ -159,29 +171,13 @@ A property can be restricted to connect only certain types of classes or values.
 
 Example: A release date must be represented as a date value rather than as a person or organisation.
 
-> **Four building blocks of ontologies**
->
-> **Classes** → What kinds of things are there? Examples: Game, Person, Organisation
->
-> **Instances** → Which concrete things are we talking about? Example: The Legend of Zelda: A Link to the Past
->
-> **Properties** → How are things described or related? Example: A game has a title.
->
-> **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent such as generalisation and inheritance.
-
 ---
 
 ## Benefits of Ontologies
 
-Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
-
-The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyse data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
-
-Ontologies therefore provide a foundation for not only documenting complex research and collection data, but also for representing the domain knowledge contained within them in a structured way and making it usable for further research.
-
 > **What do ontologies enable?**
 >
-> Because ontologies describe domain knowledge formally and explicitly, they make it possible to:
+> Ontologies provide a shared framework for describing a domain in a structured and consistent way.
 >
 > - integrate and relate heterogeneous data,
 > - exchange and reuse knowledge across collections, projects, and systems,
@@ -189,16 +185,26 @@ Ontologies therefore provide a foundation for not only documenting complex resea
 > - support logical inference based on formally defined relationships.
 >
 > Ontologies therefore provide a bridge between domain knowledge and machine-processable research data.
+>
+> These benefits depend on how an ontology is designed, documented, and used. Simply using an ontology does not automatically make data consistent or interoperable.
+
+---
+
+Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
+
+The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyse data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
+
+Ontologies therefore provide a foundation for not only documenting complex research and collection data, but also for representing the domain knowledge contained within them in a structured way and making it usable for further research.
 
 ---
 
 ## Outlook
 
+You have learned how ontologies use classes and properties to describe concepts and relationships in a structured way.
+
 Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
 
-In the next unit, we will introduce the CIDOC Conceptual Reference Model (CIDOC CRM), an ontology developed specifically as a reference for modelling cultural heritage information.
-
-> Next: Ontologies provide the formal structure for representing domain knowledge. In Unit 3, we introduce CIDOC CRM, a reference ontology for modelling cultural heritage information.
+> Next: In Unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
 
 ---
 

@@ -65,23 +65,6 @@ Participants will be able to...
 
 ## What is CIDOC CRM?
 
-[CIDOC CRM](https://cidoc-crm.org/) is an **ISO-certified ontology (ISO 21127)** developed by the **CIDOC Committee of ICOM (International Council of Museums)**.
-
-It is **not a technical standard**, but a **paper document** ([Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)) and was developed specifically for the **documentation of cultural heritage**. 
-
-It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
-
-It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (SIG2026cidoc)
-
-CIDOC CRM includes:
-
-- events  
-- persons  
-- objects  
-- places  
-- time-spans  
-- and their semantic relationships
-
 **In short:**  
 
 CIDOC CRM provides a **common conceptual framework** for describing cultural information in an **understandable and interoperable** way.
@@ -100,28 +83,51 @@ CIDOC CRM provides a **common conceptual framework** for describing cultural inf
 
 ---
 
+[CIDOC CRM](https://cidoc-crm.org/) is an **ISO-certified ontology (ISO 21127)** developed by the **CIDOC Committee of ICOM (International Council of Museums)**.
+
+It is **not a technical standard**, but a **paper document** ([Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)) and was developed specifically for the **documentation of cultural heritage**. 
+
+It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
+
+It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (SIG2026cidoc)
+
+CIDOC CRM includes:
+
+- events  
+- persons  
+- objects  
+- places  
+- time-spans  
+- and their semantic relationships
+
+---
+
 ## Content and Principles of CIDOC CRM
 
-**Getting to know CIDOC CRM**
+CIDOC CRM provides a **conceptual framework** for describing cultural heritage information and the relationships between people, objects, places, times, and activities.
 
-CIDOC CRM not only describes classes and properties, but also explains the **structure, modelling principles, and conceptual foundations** of the model. For practical work with CIDOC CRM, it is therefore helpful to first become familiar with its basic structure.
+An important characteristic of CIDOC CRM is its **event-centred** approach. Instead of describing an object only through a list of attributes, the model can **represent events and activities associated with the object**, such as its production, modification, or transfer of custody.
+
+For example, information about the creation of a physical game copy may involve a production activity, participating actors, and a time-span.
+
+CIDOC CRM defines **classes and properties** for expressing such relationships. In a machine-readable implementation, these relationships can be represented as statements, for example in RDF.
+
+**The distinction is important:** 
+
+- Event-centred modelling describes how information is conceptually organised. 
+- RDF describes one way in which such information can be technically represented.
+
+---
+
+## Getting to know CIDOC CRM
+
+CIDOC CRM not only describes **classes and properties**, but also explains the **structure, meaning, modelling principles, and conceptual foundations** of the model. For practical work with CIDOC CRM, it is therefore helpful to first become familiar with its basic structure.
 
 The official documentation provides a comprehensive introduction:
 
 ![CIDOC CRM Table of Contents](../WissKIBits_Modul1/assets/M1E3_CIDOC_TableofContents.png)
 
 > **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, p. 3).
-
-> **How do we work with CIDOC CRM?**
->
-> CIDOC CRM consists not only of classes and properties.
->
-> Its documentation also explains the structure, meaning, and modelling principles of the model.
->
-> For practical modelling, we therefore need to understand both:
-> 
-> - the elements of the model: Classes and properties
-> - the meaning of the elements: Definitions, scope notes, and modelling principles.
 
 ---
 
@@ -139,13 +145,15 @@ For practical modelling, it is important to become familiar with the **classes a
 
 Use it for orientation and for exploring the model. For the precise definition and use of classes and properties, the official documentation for Version 7.1.3 is authoritative.
 
-> **Resources for exploring CIDOC CRM are**
+> **Where to look up CIDOC CRM classes and properties**
 >
-> **Official CIDOC CRM documentation Version 7.1.3**: A document for authoritative definitions, scope notes, class hierarchies, and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+> **Official CIDOC CRM documentation Version 7.1.3**: Use this to read authoritative definitions, scope notes, and information about classes and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
 >
-> **CIDOC CRM web-based HTML navigator**: The official representation of **Version 7.1.3** serves as a reference for targeted lookup. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> **CIDOC CRM web-based HTML navigator**: Use this to browse the model and follow links between related classes and properties. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 > 
-> **CIDOC CRM Periodic Table**: Use it as a visual tool for exploring classes, properties, and their relationships. [link](https://remogrillo.github.io/cidoc-crm_periodic_table)
+> **CIDOC CRM Periodic Table**: Use these as additional orientation aids when you want to explore the overall structure. [link](https://remogrillo.github.io/cidoc-crm_periodic_table)
+>
+> Always check the scope note before deciding whether a class or property represents the intended meaning of a domain concept.
 
 ---
 
@@ -208,7 +216,20 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ---
 
-## Expressing Meaning with CIDOC CRM
+## Choosing a CIDOC CRM Class
+
+> A domain term and a CIDOC CRM class may have similar names without referring to the same kind of entity.
+> 
+> Before selecting a class, ask:
+> 
+> - What does the term refer to in our collection context?
+> - Does it refer to an object, an information object, an actor, an event, a designation, or a type?
+> - Does the scope note of the proposed CIDOC CRM class match this meaning?
+> - Which relationships would we need to express using this class?
+> 
+> The aim is not to find a class with a matching label, but to select a class whose definition supports the intended modelling statement.
+
+---
 
 CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (SIG2024cidoc, p. 33)
 
@@ -226,6 +247,10 @@ Statements about resources take the form of **triples: subject–predicate–obj
 | The place of production is Kyoto. | *took place at* → **E53 Place (Kyoto)** |
 | The year of publication is: 1991 | *has time-span* → **E52 Time-Span (1991)** |
 
+---
+
+## Expressing Meaning with CIDOC CRM
+
 > **CIDOC CRM is event-centered**
 >
 > CIDOC CRM describes not only what something is, but also what happened, who was involved, where it happened, and when.
@@ -234,7 +259,6 @@ Statements about resources take the form of **triples: subject–predicate–obj
 >
 > Example: Object → Event ← Actor
 
-
 > **Meaning can be expressed as triples**
 >
 > Semantic statements can be represented as: Subject → Predicate → Object
@@ -242,7 +266,6 @@ Statements about resources take the form of **triples: subject–predicate–obj
 > For example: Production → carried out by → Nintendo
 >
 > RDF (Resource Description Framework) provides a standard for representing statements about resources as triples in machine-readable form.
-
 
 > You have to decide between **class alignement or relationships**
 >
@@ -271,7 +294,7 @@ A **domain ontology** specifies fundamental concepts of a top-level ontology for
 >
 > A **domain ontology** adapts and specializes this framework for the concepts and requirements of a particular research domain.
 >
-> **Note**: In this tutorial, CIDOC CRM provides the common framework, while the computer games domain requires more specific concepts.
+> **Note**: CIDOC CRM provides general concepts that can be reused across different cultural heritage domains. A domain-specific model builds on this shared framework to describe the particular information relevant to a collection or research context.
 
 ---
 
