@@ -128,7 +128,7 @@ By the end of the module, you will be able to:
 
 After completing Module 1, participants can…
 
-### U1A. Application Example from Object Collections
+### UA0. Application Example from Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 - apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa_03_007_0856)
@@ -201,23 +201,28 @@ After completing Module 1, participants can…
 
 The module follows a step-by-step approach, starting with a concrete collection object and gradually introducing semantic modelling concepts.
 
-**Explore the collection object (M1U0A):** Identify relevant information and create an initial model sketch.
+**Explore the collection object (M1U0A):** 
+Identify relevant information and create an initial model sketch.
 
 ↓  
 
-**Explore the collection object (M1U0A):** Identify relevant information and create an initial model sketch. Understand conceptual modelling (M1U1): Learn how concepts, events, and relationships can be used to organise domain knowledge.
+**Explore the collection object (M1U0A):** 
+Identify relevant information and create an initial model sketch. Understand conceptual modelling (M1U1): Learn how concepts, events, and relationships can be used to organise domain knowledge.
 
 ↓  
 
-**Explore ontologies (M1U2):** Become familiar with the basic elements of ontologies and their role in semantic modelling.
+**Explore ontologies (M1U2):** 
+Become familiar with the basic elements of ontologies and their role in semantic modelling.
 
 ↓  
 
-**Discover CIDOC CRM (M1U3):** Learn how a reference ontology can support the description of cultural heritage information.
+**Discover CIDOC CRM (M1U3):** 
+Learn how a reference ontology can support the description of cultural heritage information.
 
 ↓  
 
-**Apply CIDOC CRM (M1UE):** Revisit your model sketch, examine possible CIDOC CRM mappings, and justify selected modelling decisions. 
+**Apply CIDOC CRM (M1UE):** 
+Revisit your model sketch, examine possible CIDOC CRM mappings, and justify selected modelling decisions. 
 
 Your result: A conceptual model sketch with initial, documented CIDOC CRM mappings that can be refined in Module 2.
 
