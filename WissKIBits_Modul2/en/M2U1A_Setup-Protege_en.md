@@ -103,48 +103,41 @@ Before setting up your working environment, consider your previous experience wi
 
 **Format:** Individual setup    
 
-**Materials:** Computer with Protégé Desktop or access to WebProtégé    
+**Materials:** Computer with internet access 
 
-**Time:** ~10 min   
-
-
-### Step 1: Set up your Protégé working environment
-
-For the practical modelling activities in this module, you need either:
-
-- [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
-- [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
-
-Both are available via the [**official Protégé website**](https://protege.stanford.edu/).
+**Time:** ~ 10 min   
 
 
-Choose the environment you want to use and make sure it is ready before continuing.
+> **Step 1: Set up your Protégé working environment**
+>
+> For the practical modelling activities in this module, you need either:
+> 
+> - [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
+> - [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
+>
+> Both are available via the [**official Protégé website**](https://protege.stanford.edu/).
+>
+> Choose the environment you want to use and make sure it is ready before continuing. Follow the installation or registration instructions provided on the website.
 
+> **Step 2: Check Your Protégé Working Environment**
+>
+> Make sure that your chosen ontology editor is ready to use.
+> 
+> If you are using **Protégé Desktop**:
+> 
+> - Confirm that you have downloaded and installed Protégé Desktop.
+> - Start the application.
+> - Check that you can access the ontology editing environment.
+> 
+> If you are using **WebProtégé**:
+> 
+> - Open WebProtégé in your browser. 
+> - Confirm that you have an account and can sign in successfully.
+> - Check that you can access the ontology editing environment.
 
-### Step 2: Check Your Protégé Working Environment (ab hier)
+**Expected result:** Your chosen Protégé environment is ready for the following exercises.
 
-Make sure that your chosen ontology editor is ready to use.
-
-## If you are using Protégé Desktop:
-
-- Confirm that the application is installed and starts correctly.
-- Open the ontology editor.
-- Check that you can access the main editing interface.
-
-doppelt...
-
-- you have downloaded the latest version,
-- Protégé is installed,
-- the application starts correctly, and
-- you can access the ontology editor.
-
-If you are using **WebProtégé**, check that:
-
-- you can access WebProtégé,
-- you have an account, and
-- you can sign in successfully.
-
-**The aim is simply to make sure that your working environment is ready for the following exercises.**
+You do not need to create or edit an ontology at this stage.
 
 ---
 
@@ -162,6 +155,8 @@ At the end of this unit, you have:
 
 > **Next:**
 >
-> You are now ready to explore **Protégé** and become familiar with the ontology editor as well as its basic functions.
->
-> This will prepare you for the practical modelling exercise, where you will use Protégé to implement your domain model.
+> In the next unit, you will become familiar with the ontology editor and its basic functions.
+> 
+> You will learn how to open an existing OWL ontology, explore its structure, and create a domain-specific subclass.
+> 
+> These skills will prepare you for the practical modelling exercise later in Module 2.

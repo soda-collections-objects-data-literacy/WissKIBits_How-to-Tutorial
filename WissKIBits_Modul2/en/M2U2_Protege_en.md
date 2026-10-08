@@ -61,71 +61,71 @@ Participants will be able to...
 
 ## Protégé – OWL Ontology Editor
 
-**Protégé** is a free, open-source editor for creating, editing, and managing ontologies. The current version specifically supports the **OWL 2 Web Ontology Language** (ref), thereby providing an environment for the formal and machine-readable modelling of ontologies. (Stanford n.d. software)
+In Module 1, you developed a conceptual model sketch and explored possible CIDOC CRM mappings. 
 
-Protégé is available both as a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) and as a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). (Stanfordo.D.protege)
+In this Module 2, you will review these decisions and represent selected parts of your model in a machine-readable form.
 
-**Protégé Desktop** is used in the practical session (M2EÜ) of this module. The editor provides a graphical interface for creating, editing, and structuring ontologies. Existing ontologies can be opened in Protégé and used as a basis for further modelling. The resulting models can then be saved in a **machine-readable format** and used for further processing.
+For this purpose, we use **Protégé** to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
+
+The practical demonstration uses **Protégé Desktop**. Some steps may differ if you work with WebProtégé.
 
 > **What is Protégé?**
 >
 > Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
-> It supports OWL 2 and provides a graphical environment for developing formal, machine-readable ontology structures.
+> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford n.d. software)
 >
-> Protégé is available as:
+> Protégé is available as: (Stanfordo.D.protege)
 >
-> - Protégé Desktop – a locally installed application
-> - WebProtégé – a web-based ontology editor
+> - a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) 
+> - a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). 
 
 ---
 
 ## Protégé in this Tutorial
 
-In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling.
+In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
 
-To explore and extend CIDOC CRM in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
+For the practical work in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
 
-Protégé provides the working environment for exploring the existing ontology structure and extending it with selected **domain-specific elements**. 
+Following the modelling strategy introduced in M2U1, we will:
 
-In the following video, you will see the basic steps needed to prepare for the practical modelling exercise.
+- **explore existing classes and properties** in the ontology,
+- **reuse CIDOC CRM properties** to represent relationships,
+- **create domain-specific subclasses** where further specialisation is required, and
+- **document the modelling decisions** behind these extensions.
 
-> **Resources**
->
-> Further resources for working with Protégé are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanfordo.D.protege):
->
-> - [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-> - [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
+We will not introduce new properties in this tutorial.
+
+The following video demonstrates the basic steps for exploring an existing ontology and creating a subclass in Protégé.
+
+**Resources**
+
+Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanfordo.D.protege):
+- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
+- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
 
 ---
 
 # Video Demonstration
 
-The live demo illustrates:
+The video introduces three basic operations in Protégé:
 
-- Step 1: Loading an existing ontology,
-- Step 2: Exploring the structure, and
-- Step 3: Creating a custom subclass (entity) for the computer games domain ontology.
+- **Load:** Open an existing OWL ontology.
+- **Explore:** Navigate the class hierarchy and inspect ontology elements.
+- **Extend:** Create a domain-specific subclass within the existing ontology structure.
 
-Watch how an existing ontology is opened, how its structure is explored, and how a domain-specific subclass is added.
+While watching, pay attention to how the editor distinguishes existing ontology elements from newly created classes.
 
-> **Watch the workflow**
->
-> The video demonstrates the complete introductory workflow: Load → Explore → Extend
-> 
-> !?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+**Watch the workflow: Load → Explore → Extend**
 
----
-
-## Outcome
-
-You have seen how to **load and explore an existing ontology in Protégé** and how it can be extended with a **domain-specific subclass**.
+!?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
 
 ---
 
 ## Outlook
 
-> **Next: Semantic Modelling with CIDOC CRM**
+> **Next:**
 >
 > You have learned how to open and explore an ontology in Protégé.
 >
