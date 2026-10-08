@@ -76,24 +76,27 @@ No previous experience with Protégé is required.
 
 ## Activation – Your Starting Point
 
-**Format:** Call-out and short discussion     
+**Format:**  Individual reflection or short group discussion
 
 **Time:** ~ 5 min.   
 
-Question: Which statement best describes your experience with Protégé or other ontology editors?
+Before setting up your working environment, consider your previous experience with ontology editors.
 
-**Raise your hand when your option is called**
+**Question: Which statement best describes your experience with Protégé or other ontology editors?**
+
+**Which statement best describes your experience?**
 
 - You have **not used** Protégé before.
 - You have **explored** Protégé, but have not created or edited an ontology yourself.
 - You have **actively used** Protégé to create or edit an ontology.
 - You **regularly use** Protégé or another ontology editor.
 
-**Brief reflection**
+**Reflection**
 
-- If Protégé is new to you: **What do you expect an ontology editor to help you do?**
-- If you have used Protégé before: **What did you use it for?**
-  
+- If ontology editors are new to you, consider what you expect them to help you do.
+- If you have previous experience, think about which tasks you have already performed and which functions you would like to explore further.
+- No previous experience with Protégé is required for this module.
+
 ---
 
 ## Activation – Setting Up Protégé
@@ -104,6 +107,7 @@ Question: Which statement best describes your experience with Protégé or other
 
 **Time:** ~10 min   
 
+
 ### Step 1: Set up your Protégé working environment
 
 For the practical modelling activities in this module, you need either:
@@ -113,11 +117,21 @@ For the practical modelling activities in this module, you need either:
 
 Both are available via the [**official Protégé website**](https://protege.stanford.edu/).
 
+
 Choose the environment you want to use and make sure it is ready before continuing.
 
-### Step 2: Check Your Protégé Working Environment
 
-If you are using **Protégé Desktop**, check that:
+### Step 2: Check Your Protégé Working Environment (ab hier)
+
+Make sure that your chosen ontology editor is ready to use.
+
+## If you are using Protégé Desktop:
+
+- Confirm that the application is installed and starts correctly.
+- Open the ontology editor.
+- Check that you can access the main editing interface.
+
+doppelt...
 
 - you have downloaded the latest version,
 - Protégé is installed,

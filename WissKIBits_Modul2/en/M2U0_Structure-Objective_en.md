@@ -54,24 +54,22 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 Welcome to **WissKI Bits: Ontology-Based Modelling of Research Data**.
 
-In this module, you formalise the conceptual domain model developed in Module 1. We use **CIDOC CRM and Protégé** to translate modelling decisions into a machine-readable ontology structure and prepare it for later implementation in WissKI.
+In Module 1, you developed a conceptual model sketch and explored how selected concepts and relationships could be represented using CIDOC CRM.
 
-Module 2, **“Modelling with CIDOC CRM – understand and apply,”** continues the learning path from Module 1. The conceptual domain model is systematically reviewed and formalised using CIDOC CRM and Protégé. Modelling decisions are not only made, but are also justified from a domain perspective using Scope Notes and implemented in a machine-readable ontology structure.
+Module 2 takes the next step: You will review these initial modelling decisions and learn how to formalise selected parts of the model using **Protégé and an OWL implementation of CIDOC CRM**.
 
-The module continues to follow the principle of **Learning by Doing**. Using an example from the computer games domain, it demonstrates how a model sketch becomes a formal ontology structure. Participants become familiar with Protégé as an ontology editor, explore an OWL implementation of CIDOC CRM, and extend it with selected domain-specific concepts.
-
-The result forms the basis for the subsequent implementation of the ontology structure and semantic paths in the WissKI Pathbuilder.
-
+Following a learning-by-doing approach, you will continue working with the computer game example **The Legend of Zelda: A Link to the Past.**
 
 > **What is the module about?**
 >
-> In Module 1, you developed a **conceptual model** by identifying concepts, events, and relationships and relating them to CIDOC CRM.
+> In this module, you move from a **conceptual model sketch** towards a **formal, machine-readable ontology structure** using **CIDOC CRM and Protégé**.
 >
-> In Module 2, you will transform this model into a **formal, machine-readable ontology structure** using **CIDOC CRM and Protégé**.
+> You will:
+> - use **CIDOC CRM scope notes** to review and justify modelling decisions,
+> - explore an OWL implementation of CIDOC CRM using Protégé,
+> - reuse existing ontology elements and introduce selected domain-specific extensions where needed.
 >
-> Therefore you use **CIDOC CRM scope notes** to evaluate modelling choices and implement selected domain-specific structures.
->
-> The resulting **formalised domain model** provides the basis for visualisation and technical implementation in **WissKI** in Module 3.
+>**Outsome:**A small, documented OWL model section that provides a basis for the visualisation and Pathbuilder workflow in Module 3. 
 
 ---
 
@@ -88,10 +86,13 @@ Our guiding question is...
 In this module, you will learn how to:
 
 - apply a systematic **workflow for semantic modelling**,
-- use **Protégé** to explore and edit an ontology,
+- use **Protégé** to explore and edit an OWL ontology,
 - select suitable **CIDOC CRM classes and properties** based on their scope notes,
-- add **domain-specific concepts** to an existing ontology structure, and
-- prepare the resulting ontology for further implementation in **WissKI**.
+- distinguish between reusing existing ontology elements and introducing domain-specific extensions,
+- add **domain-specific concepts** to an existing ontology structure, 
+- formalise and document selected modelling decisions, and
+- prepare the resulting ontology for further implementation in **WissKI**,
+- save the resulting ontology structure for further use in Module 3.
   
 ---
 
@@ -115,7 +116,7 @@ In this module, you will learn how to:
 
 After completing Module 2, participants can…
 
-### E2A. Setting up the Working Environment with Protégé
+### U1A. Setting up the Working Environment with Protégé
 
 - name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
 - use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
@@ -140,7 +141,7 @@ After completing Module 2, participants can…
 - name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
 
-### E2. Semantic Modelling with CIDOC CRM
+### UE. Semantic Modelling with CIDOC CRM
 
 - apply an ontology for describing resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
@@ -154,38 +155,23 @@ After completing Module 2, participants can…
 
 ## Learning Path through this Module
 
-The diagram illustrates the learning path of the module.
+Building on your conceptual model sketch from Module 1, you will work through the following stages:
 
-**Conceptual Model Sketch from Module 1**
+**Explore modelling methods (M2U1):** Explore modelling methods (M2U1): Learn how different approaches and an iterative workflow support ontology development.
  
 ↓
    
-**Define the methodological workflow**
+**Prepare your working environment (M2U1A):** Set up Protégé Desktop or WebProtégé.
    
 ↓
 
-**Prepare your technical setup**
+**Explore Protégé (M2U2):** Learn how to load an existing ontology, inspect its structure, and create a domain-specific subclass.
    
 ↓
-   
-**Explore CIDOC CRM in Protégé**
+    
+**Formalise your model (M2UE):** Review selected CIDOC CRM mappings, implement justified extensions, and document your decisions.
  
-↓
- 
-**Select classes (entities) and properties (properties) using scope notes**
- 
-↓
- 
-**Add domain-specific subclasses**
- 
-↓
- 
-**Review and and document modelling decisions**
-
-↓
-
-**Save the ontology and prepare it for WissKI**
-
+**Your result:** A selected part of your domain model represented in OWL, together with the reasoning behind your modelling decisions.
 
 ---
 
@@ -252,16 +238,17 @@ Participants should…
 
 At the end of Module 2, an initial formally implemented domain ontology or ontology extension is available. 
 
-> **What will you take away?**
->
-> By the end of the module, you will have created a first **formal domain ontology** or **ontology extension** that includes:
->
-> - selected and justified CIDOC CRM classes and properties,
-> - domain-specific subclasses,
-> - semantic relationships and datatype properties, and
-> - documented modelling decisions based on scope notes.
->
-> The ontology is saved as an OWL file and provides the basis for subsequent implementation in WissKI.
+**What will you take away?**
+
+By the end of the module 2, you will have 
+
+- reviewed selected modelling decisions using CIDOC CRM scope notes,
+- explored and reused relevant classes and properties,
+- created justified domain-specific extensions,
+- documented your decisions, and
+- saved a selected section of your model in a machine-readable OWL format.
+
+You are not expected to develop a complete ontology for the computer games domain. The focus is on a small, understandable, and formally represented model section.
 
 ---
 

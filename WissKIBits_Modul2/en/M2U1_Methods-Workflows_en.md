@@ -61,62 +61,70 @@ Participants will be able to...
 
 ## Methods and Workflows of Semantic Modelling
 
-The development of a domain ontology typically follows a methodological, multi-stage, and iterative approach. 
+Developing a domain ontology typically follows a methodological, multi-stage, and iterative approach and involves more than translating domain terms into ontology classes. 
 
 This includes, among other things, identifying central terms and definitions (so-called “ontology capture”) (Uschold1995method, p. 3), structuring concepts into classes and properties/relations, and continuously reviewing and revising the domain model with regard to consistency and usability. (Gruber1993knowledge)
 
+In Module 1, you created a conceptual model sketch and explored possible CIDOC CRM mappings. These initial decisions now need to be reviewed, refined, and represented more formally.
+
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
-> **Semantic modelling is an Iterative Process**
+> **Semantic modelling is an iterative process**
 >
-> - Semantic modelling combines domain knowledge, application requirements, and explicit modelling decisions.
+> - Semantic modelling combines **domain knowledge, application requirements, ontology definitions, and explicit modelling decisions**.
 >
-> - Models are developed, reviewed, and refined through repeated cycles rather than in a strictly linear sequence.
+> - A model is developed and refined through repeated steps of analysis, implementation, and review rather than in a strictly linear sequence.
 >
-> -"Key takeaway:" Modelling decisions must be understandable, justified, and revisable.
+> - The aim is not simply to create classes and properties, but to represent the intended meaning consistently and transparently.
 
 ---
 
-## Four Approaches to Ontology Development
+## Approaches and Methods for Ontology Development
 
 Ontologies are often developed using a combination of different modelling approaches (Noy2001ontology, pp. 4 ff.):
 
-- **Bottom-up modelling:** Classes (Entities) and properties (Properties) are gradually identified and derived from existing data or example objects.
-- **Top-down modelling:** A reference model, such as CIDOC CRM, provides the starting point for developing a domain-specific specialisation.
-- **Competency Questions:** Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
-- **Iterative prototyping:** The model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
+**Bottom-up modelling:** 
+
+Start with existing data, examples, and domain terminology. Identify relevant concepts and relationships and gradually organise them into a model. Classes (Entities) and properties (Properties) are gradually identified and derived from existing data or example objects. 
+
+**Top-down modelling:** Start with an established ontology or conceptual framework. Examine how its classes and properties can represent the intended domain knowledge. A reference model, such as CIDOC CRM, provides the starting point for developing a domain-specific specialisation.
+
+**Competency Questions:** Formulate questions that the resulting model should help to answer. These questions clarify the intended scope and requirements of the ontology. Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
+
+- **Iterative prototyping:** A small part of the model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
+
+These approaches serve different purposes and are not mutually exclusive.
+
+**In this tutorial, we combine a bottom-up analysis of the computer game example with a top-down alignment to CIDOC CRM. We refine selected modelling decisions iteratively while implementing them in Protégé.**
 
 
 ### The Practical Modelling Workflow
 
-In this module, you follow a systematic workflow to transform the conceptual model into a formal ontology structure:
+The following workflow guides the practical exercise in this module:
 
-**Start with CIDOC CRM as the reference model**
-
-↓
-
-**Use research questions to guide the modelling**
+**Review the conceptual model:** Select relevant concepts and relationships from your model sketch. 
 
 ↓
 
-**Identify suitable CIDOC CRM classes and properties**
+**Clarify their meaning:** Define what each selected element represents in the domain.
 
 ↓
 
-**Reuse or specialise them for the domain**
+**Examine CIDOC CRM:** Identify suitable classes and properties and consult their scope notes.
 
 ↓
 
-**Review the model against the research questions**
+**Make modelling decisions:** Decide which existing ontology elements can be reused and whether extensions are necessary.
 
 ↓
 
-**Revise and refine the model**
+**Implement the model:** Represent selected decisions in Protégé.
 
 ↓
 
-↺ **Repeat where necessary**
+**Review and document:** Check the resulting structure, record your reasoning, and revise the model where needed.
 
+The workflow is iterative. If a proposed class or relationship does not adequately express the intended meaning, return to the relevant earlier step and reconsider your decision.
 
 ---
 
@@ -133,25 +141,22 @@ Possible strategies include:
 
 > **Our strategy in this tutorial**
 >
-> We follow a **lightweight extension strategy**:
+> In this tutorial, we follow a **lightweight extension strategy** based on CIDOC CRM.
 >
-> - create **domain-specific subclasses** for concepts that need to be represented explicitly in the domain model;
-> - reuse existing **CIDOC CRM properties** wherever their meaning adequately represents the intended relationship.
->
-> This keeps the domain model close to the CIDOC CRM structure, reduces unnecessary complexity, and supports interoperability while making domain-specific concepts explicit.
+> - **Reuse existing CIDOC CRM classes and properties** wherever possible.
+> - **Create domain-specific subclasses** to represent concepts from the computer games domain that require further specialisation.
+> - **Do not introduce new properties.** Relationships are modelled using existing CIDOC CRM properties.
+> - **Check the scope notes** to ensure that new subclasses are placed under appropriate CIDOC CRM classes.
+> - **Document modelling decisions** to make the resulting ontology understandable and reusable.
 >
 > **Example**
 >
 > - **Domain concept:** *Game Genre* → create a domain-specific subclass of an appropriate CIDOC CRM class.
 > - **Relationship:** *has type* → reuse an appropriate CIDOC CRM property, such as **P2 has type**, rather than creating a more specific property such as *is designed according to*, provided that the meaning of P2 adequately represents the intended relationship.
 >
-> **Why this strategy?**
->
-> By adding domain-specific subclasses while reusing established CIDOC CRM properties, you can **specialise the model without creating a separate seamntic relationship structure**.
->
-> Domain-specific concepts remain explicit, while their relationships retain the established semantics of CIDOC CRM.
->
-> This keeps the extension **small, transparent, and easier to maintain and implement**.
+> **The guiding principle: Extend CIDOC CRM through subclasses while preserving its existing property structure.**
+> 
+> This deliberately restricted approach keeps the practical exercise manageable and allows us to focus on class hierarchies, semantic meaning, and the reuse of an established reference ontology.
 
 ---
 
