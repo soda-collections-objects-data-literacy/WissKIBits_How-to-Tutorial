@@ -214,38 +214,74 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 In WissKI, **not only data** are stored and recorded; **meaning** is modelled.
 
-Guiding question: **What real-world relationship exists between the things?**
+This means, research data are not simply recorded as isolated pieces of information. Their meaning and relationships are described using a semantic model.
+
+The guiding question is: 
+
+- **How are the things we want to describe related to one another?**
+- **What real-world relationship exists between the things?**
 
 !?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
 
-> **Video:** How statements of semantic meaning shape a knowledge graph in WissKI and connect relevant information into a network.
+> **Video:** How statements about people, objects, places, and events form a network of connected information in WissKI.
 
-- **Albrecht Dürer** → Person  
-- was born in → **Nuremberg** (Place)  
-- at → **a specific point in time**  
-- had a mother → **Barbara Dürer** (Person)  
-- created → **Self-Portrait** (Object)
-- **Time of creation** mentioned in a **source**
-- during → **his artistic creative period**  
-- in → **Nuremberg**
+Consider the example of the person **Albrecht Dürer**. Information about him may include:
 
-The basis for this is the **event-centered modelling principle of CIDOC CRM**: 
+- his birth in → **Nuremberg** (Place)  
+- his date of birth → **a specific point in time**  (Date)
+- his relationship to his mother → **Barbara Dürer** (Person)  
+- the creation of a → **Self-Portrait** (Object)
+- the **time of creation** mentioned in a historical **source** documenting these events (Date and Object)
+- during → **his artistic creative period**  (Time-Span)
+- and place of its creation → **Nuremberg** (Place)
 
-Objects are not described in isolation, but are placed in a comprehensible context through **events** (e.g. production, use, acquisition) and the actors, places, and times involved.
+Rather than treating these details as unrelated facts, semantic modelling makes their relationships explicit.
 
-Technically, this knowledge graph is based on the Resource Description Framework (RDF). Information is stored as so-called triples:
+The documentation follows the **event-centered modelling principle of CIDOC CRM**.
+
+---
+
+## Event-Centred Modelling with CIDOC CRM
+
+A central principle of CIDOC CRM is event-centred modelling.
+
+Objects, people, and places are not described only through isolated attributes. Instead, **events and activities** - such as birth, production, use, or acquisition - provide a context in which actors, objects, places, and times can be related.
+
+For example, the creation of Dürer's self-portrait can be modelled as a production activity involving the artist, the artwork, and a time-span.
+
+This approach helps us describe not only **what** is known about an object, but also **how** it is connected to other entities.
+
+---
+
+## From Semantic Relationships to a Knowledge Graph
+
+The relationships defined in a semantic model can be represented in a machine-readable form using the Resource Description Framework (RDF).
+
+RDF expresses information as statements consisting of three parts, known as triples:
 
 - Subject – the resource being described
 - Predicate – its property or relationship
 - Object – a value or another resource
 
-A statement such as: **“The self-portrait was created by Albrecht Dürer.”** is stored as a single, uniquely referenceable relationship. Many such statements connect to form a directed graph that represents complex relationships in a machine-readable way. 
+For example, the statement such as: **“Albrecht Dürer created a self-portrait.”** can be expressed as a relationship between the artist and the artwork.
 
-Together, these triples form the knowledge graph managed by WissKI.
+In an event-centred CIDOC CRM model, this relationship can be described more precisely through a **production event** connecting the artist with the artwork.
 
-The WissKI Pathbuilder translates ontology models based on CIDOC CRM directly into such RDF structures.
+Many interconnected RDF statements form a **knowledge graph**. This graph makes relationships between resources explicit and allows information to be connected and processed by software.
 
-Path groups correspond to entities, paths define relationships, and the forms generated from them automatically create consistent statements in the knowledge graph during data entry.
+---
+
+### How WissKI Uses These Relationships
+
+WissKI uses an ontology-based semantic model to structure the information recorded in the system.
+
+The **WissKI Pathbuilder** defines paths through the ontology that can be used to organise data entry and connect information.
+
+Path groups organise related paths, while individual paths specify sequences of classes and properties. These configurations can be used to generate data-entry structures in WissKI.
+
+When users enter information through these structures, WissKI can store the resulting statements as RDF data in accordance with the configured semantic model.
+
+In Module 3, you will explore how a diagram representing selected ontology paths can be transformed into a WissKI Pathbuilder configuration.
 
 ---
 
@@ -267,7 +303,7 @@ WissKI...
 > 
 > It supports:
 > 
-> - ontology-based rather than purely table-based data structures,
+> - ontology-based data rather than purely table-based data structures,
 > - semantic consistency through shared ontologies,
 > - structured data entry based on semantic paths,
 > - machine-readable data and semantic queries, and

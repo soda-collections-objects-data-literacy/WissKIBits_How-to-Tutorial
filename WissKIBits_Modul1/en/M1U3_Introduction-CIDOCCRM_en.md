@@ -135,8 +135,8 @@ The official documentation provides a comprehensive introduction:
 
 For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
-- **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)**  
-  The official representation of **Version 7.1.3** serves as a reference for targeted lookup. It contains definitions and Scope Notes as well as information on class hierarchies and properties.
+- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)**  
+  The official representation of **Version 7.1.3** enables interactive exploration of 81 classes and 160 properties, including translations. It contains definitions and scope notes as well as information on class hierarchies and properties.
 
 - **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**  
   The interactive representation provides a **visual and exploratory approach** to classes, properties, and their relationships.
