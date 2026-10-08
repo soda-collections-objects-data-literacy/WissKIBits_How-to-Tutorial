@@ -52,18 +52,22 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In Module 1, you develop the **conceptual foundation of a semantic data model**. Starting with information about a collection object, you identify relevant concepts, events, and relationships and explore how they can be organised into a conceptual model.
+In Module 1, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
 
-Using an example from the **computer games domain**, you move from the collection perspective to the modelling perspective. You then explore how selected elements of your conceptual model can be related to **CIDOC CRM**.
+Using an example from a **computer games collection**, you move from the collection perspective to the modelling perspective. 
 
-The resulting conceptual model provides the basis for **formalisation in Module 2** and later **technical implementation in WissKI in Module 3**.
+You then relate selected elements of your conceptual model to **CIDOC CRM**.
+
+The resulting conceptual model provides the basis for further **formalisation** in module 2 and later **technical implementation in WissKI** in module 3.
 
 
-> **What is the module about?**
+> **What is the Module About?**
 >
-> You start with **information about a collection object** and gradually develop a **conceptual model of the domain**.
+> Starting from **information about a collection object**, you identify relevant **concepts, events, and relationships** and organise them into a **conceptual model sketch of the domain**..
 >
-> Along the way, you identify **concepts, events, and relationships**, make their meaning explicit, and explore how selected elements can be related to **CIDOC CRM**.
+> You then explore how selected elements can be represented using **CIDOC CRM** and make initial modelling decisions.
+>
+> The resulting model sketch serves as the starting point for further formalisation in Module 2.
 
 ---
 
@@ -77,7 +81,7 @@ The resulting conceptual model provides the basis for **formalisation in Module 
 >
 > Their meaning and relationships are equally important.
 >
-> **Semantic modelling makes these connections explicit, understandable, and reusable.**
+> **Semantic Modelling Makes these Connections Explicit, Understandable, and Reusable.**
 
 ---
 
@@ -91,14 +95,15 @@ Our guiding question through this module is:
 
 ## Module Objectives
 
-You will learn how to move from a collection perspective to a modelling perspective. 
+In this module, you learn how to move from information about a collection object towards a conceptual model of its domain.
 
-You will:
+By the end of the module, you will be able to:
 
-- identify relevant **concepts, events, and relationships** in an example game collection,
-- align them with **classes and properties of CIDOC CRM**,
-- develop and justify a coherent domain logic, and
-- visualise this logic as a **conceptual model** that can later be implemented as a **semantic data model** in WissKI.
+- identify relevant **concepts, events, and relationships** in an game collection example,
+- distinguish between domain-specific terms and the meanings they are intended to express, to develop and justify a coherent domain logic,
+- explore how selected concepts can be represented using **CIDOC CRM classes and properties**,
+- explain initial modelling decisions, and
+- develop a **conceptual model sketch** that can be refined and formalised in Module 2.
 
 ---
 
@@ -192,31 +197,29 @@ After completing Module 1, participants can…
   
 ---
 
-## Learning Path through the Module
+## Learning Path Through the Module
 
-You move step by step from a collection perspective to a semantic model.  
+The module follows a step-by-step approach, starting with a concrete collection object and gradually introducing semantic modelling concepts.
 
-The following diagram illustrates the learning path of the module:
-
-**Collection object and research question**  
+**Explore the collection object (M1U0A):** Identify relevant information and create an initial model sketch.
 
 ↓  
 
-**Concepts, events, and relationships**  
+**Explore the collection object (M1U0A):** Identify relevant information and create an initial model sketch. Understand conceptual modelling (M1U1): Learn how concepts, events, and relationships can be used to organise domain knowledge.
 
 ↓  
 
-**Classes (Entities), properties, and modelling assumptions**  
+**Explore ontologies (M1U2):** Become familiar with the basic elements of ontologies and their role in semantic modelling.
 
 ↓  
 
-**Alignment with CIDOC CRM**  
+**Discover CIDOC CRM (M1U3):** Learn how a reference ontology can support the description of cultural heritage information.
 
 ↓  
 
-**Model sketch and justified decisions**  
+**Apply CIDOC CRM (M1UE):** Revisit your model sketch, examine possible CIDOC CRM mappings, and justify selected modelling decisions. 
 
-
+Your result: A conceptual model sketch with initial, documented CIDOC CRM mappings that can be refined in Module 2.
 
 ---
 
