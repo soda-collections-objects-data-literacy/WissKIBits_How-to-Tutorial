@@ -65,7 +65,7 @@ In Module 1, you developed a conceptual model sketch and explored possible CIDOC
 
 In this Module 2, you will review these decisions and represent selected parts of your model in a machine-readable form.
 
-For this purpose, we use **Protégé** to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
+For this purpose, you use **Protégé** to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
 
 The practical demonstration uses **Protégé Desktop**. Some steps may differ if you work with WebProtégé.
 
@@ -86,7 +86,7 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 
 In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
 
-For the practical work in Protégé, we use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
+For the practical work in Protégé, you use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
 
 Following the modelling strategy introduced in M2U1, we will:
 

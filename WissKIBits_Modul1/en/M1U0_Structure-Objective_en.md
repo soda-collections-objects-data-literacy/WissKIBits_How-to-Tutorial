@@ -240,11 +240,11 @@ The module combines short inputs alternate with analysis, discussion, and modell
 
 The goal is not a complete data model. What matters is a **small, consistent, and justifiable model draft** that can later be expanded and technically implemented.
 
-> **How we work**
+> **How you work**
 >
 > We begin with a short activation excersise using a concrete collection object.
 >
-> After the conceptual inputs, we return to the same example and develop a small, consistent, and justified model sketch.
+> After the conceptual inputs, you return to the same example and develop a small, consistent, and justified model sketch.
 > 
 > Our shared example is **The Legend of Zelda: A Link to the Past.**
 
