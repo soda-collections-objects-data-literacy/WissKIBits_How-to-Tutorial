@@ -65,7 +65,20 @@ This fast track contains the practical tasks from Modules 1–3. For explanation
 
 ### Before You Start
 
-Prepare a computer with internet access, [Draw.io](https://app.diagrams.net/), [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), and access to a WissKI instance. Keep the [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), [computer games domain ontology](http://games.m-e-g-a.org/game_domain.rdf), and [CIDOC CRM documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) available. The [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) is an option for accessing a WissKI environment.
+**Prepare**
+
+- a computer with internet access, 
+- [Draw.io](https://app.diagrams.net/), 
+- [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), and 
+- access to a WissKI instance. 
+
+**Keep**
+
+- the [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), 
+- [computer games domain ontology](http://games.m-e-g-a.org/game_domain.rdf), and 
+- [CIDOC CRM documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) available.
+
+The [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) is an option for accessing a WissKI environment.
 
 ---
 
