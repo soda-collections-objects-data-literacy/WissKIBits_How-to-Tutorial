@@ -100,7 +100,7 @@ Participants will be able to...
 >
 > **Important:** However, using WissKI does not automatically make research data FAIR. FAIRness also depends on how data are identified, documented, made accessible, licensed, and maintained.
 >
-> In this tutorial, we focus particularly on the contribution of semantic modelling to **interoperability** and **reuse**.
+> In this tutorial, you focus particularly on the contribution of semantic modelling to **interoperability** and **reuse**.
 
 ---
 
@@ -218,7 +218,7 @@ This means, research data are not simply recorded as isolated pieces of informat
 
 The guiding question is: 
 
-- **How are the things we want to describe related to one another?**
+- **How are the things you want to describe related to one another?**
 - **What real-world relationship exists between the things?**
 
 !?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)

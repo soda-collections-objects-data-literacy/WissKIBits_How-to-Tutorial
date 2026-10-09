@@ -88,7 +88,7 @@ In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.o
 
 For the practical work in Protégé, you use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
 
-Following the modelling strategy introduced in M2U1, we will:
+Following the modelling strategy introduced in M2U1, you will:
 
 - **explore existing classes and properties** in the ontology,
 - **reuse CIDOC CRM properties** to represent relationships,

@@ -130,7 +130,7 @@ The best-known definition describes an ontology as an explicit, formal specifica
 >
 > **Classes** → What kinds of things are there? Examples: Game, Person, Organisation
 >
-> **Instances** → Which concrete things are we talking about? Example: The Legend of Zelda: A Link to the Past
+> **Instances** → Which concrete things are you talking about? Example: The Legend of Zelda: A Link to the Past
 >
 > **Properties** → How are things described or related? Example: A game has a title.
 >

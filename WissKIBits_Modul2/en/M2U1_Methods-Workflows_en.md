@@ -95,7 +95,7 @@ Start with existing data, examples, and domain terminology. Identify relevant co
 
 These approaches serve different purposes and are not mutually exclusive.
 
-**In this tutorial, we combine a bottom-up analysis of the computer game example with a top-down alignment to CIDOC CRM. We refine selected modelling decisions iteratively while implementing them in Protégé.**
+**In this tutorial, you combine a bottom-up analysis of the computer game example with a top-down alignment to CIDOC CRM. We refine selected modelling decisions iteratively while implementing them in Protégé.**
 
 
 ### The Practical Modelling Workflow
@@ -141,7 +141,7 @@ Possible strategies include:
 
 > **Our strategy in this tutorial**
 >
-> In this tutorial, we follow a **lightweight extension strategy** based on CIDOC CRM.
+> In this tutorial, you follow a **lightweight extension strategy** based on CIDOC CRM.
 >
 > - **Reuse existing CIDOC CRM classes and properties** wherever possible.
 > - **Create domain-specific subclasses** to represent concepts from the computer games domain that require further specialisation.

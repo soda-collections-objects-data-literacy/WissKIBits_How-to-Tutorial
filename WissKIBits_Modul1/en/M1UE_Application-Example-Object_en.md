@@ -81,7 +81,7 @@ You are not expected to create a complete or formally implemented ontology at th
 >
 > The crucial question is:
 > 
-> **What do we mean by a specific term—and which CIDOC CRM class best captures that meaning?**
+> **What do you mean by a specific term—and which CIDOC CRM class best captures that meaning?**
 >
 > The goal is to make, review, and justify initial modelling decisions.
 

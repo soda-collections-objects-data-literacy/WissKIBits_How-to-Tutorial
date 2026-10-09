@@ -111,7 +111,7 @@ Consider the following statements from the conceptual model:
 >
 > Computer game → **has type** → Platform type
 
-To represent these statements formally, we need to distinguish between three levels:
+To represent these statements formally, you need to distinguish between three levels:
 
 | Level | Example |
 |---|---|
@@ -121,7 +121,7 @@ To represent these statements formally, we need to distinguish between three lev
 
 The important point is that these levels serve different purposes.
 
-The **domain statement** expresses what we want to describe and say about the research object.
+The **domain statement** expresses what you want to describe and say about the research object.
 
 The **CIDOC CRM mapping** identifies exisiting ontology elements that may represent the intended meaning.
 
@@ -283,11 +283,11 @@ Document the modelling decisions made during the exercise.
 
 | Question                                             | Answer |
 | ---------------------------------------------------- | ------ |
-| Which domain term are we modelling?                  |        |
-| Which CIDOC CRM class or property are we using?      |        |
-| What meaning do we want to express?                  |        |
+| Which domain term are you modelling?                  |        |
+| Which CIDOC CRM class or property are you using?      |        |
+| What meaning do you want to express?                  |        |
 | What does the Scope Note say about it?               |        |
-| Why do we consider the mapping appropriate?          |        |
+| Why do you consider the mapping appropriate?          |        |
 
 For each domain-specific extension, record its intended meaning, its relationship to CIDOC CRM, and the reason for introducing it. **The aim is not to find a single “correct” solution.** What matters is that the modelling decision is comprehensible from a domain perspective and compatible with the reference model being used.
 

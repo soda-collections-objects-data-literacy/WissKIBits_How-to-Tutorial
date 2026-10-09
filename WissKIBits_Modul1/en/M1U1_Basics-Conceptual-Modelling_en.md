@@ -127,7 +127,7 @@ A collection object can be described through many individual pieces of informati
 
 Consider the computer game **The Legend of Zelda: A Link to the Past**. A collection record may contain its **title**, information about the **publisher**, a **release date**, and the **platform** on which it was published.
 
-To develop a conceptual model, we ask what these pieces of information refer to. For example, 
+To develop a conceptual model, you ask what these pieces of information refer to. For example, 
 
 - a title is a designation, 
 - a publisher is an organisation, and 
@@ -160,7 +160,7 @@ The resulting model does not simply reproduce the collection record. It makes **
 
 > **Step 1: Revisit**
 >
-> You look at the model sketch we created.
+> You look at the model sketch you created.
 >
 > **Step 2 · Classify**
 >

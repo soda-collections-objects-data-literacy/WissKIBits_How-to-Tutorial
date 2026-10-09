@@ -225,7 +225,7 @@ The **scope note** of a CIDOC CRM class specifies:
 > - What does the term refer to in our collection context?
 > - Does it refer to an object, an information object, an actor, an event, a designation, or a type?
 > - Does the scope note of the proposed CIDOC CRM class match this meaning?
-> - Which relationships would we need to express using this class?
+> - Which relationships would you need to express using this class?
 > 
 > The aim is not to find a class with a matching label, but to select a class whose definition supports the intended modelling statement.
 
