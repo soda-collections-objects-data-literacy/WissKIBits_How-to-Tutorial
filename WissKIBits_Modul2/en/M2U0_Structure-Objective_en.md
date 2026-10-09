@@ -32,7 +32,7 @@ community: Scientific Communication Infrastructure (WissKI) and Collections, Obj
 
 PublicationDate: 2026-10-05
 
-LearningResourceType: How-to Tutorial
+LearningResourceType: How-to-Tutorial
 
 -->
 
