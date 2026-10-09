@@ -51,82 +51,84 @@ Unit Exercise (UE2): **Transforming Semantic Models into WissKI Paths**
 
 Participants will be able to...
 
-- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804) Hinweis: Vielleicht lieber "configuring an ontology-based path structures" ?
+- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804) Hinweis: Vielleicht lieber "configuring an ontology-based path structures" ? Vorschlag: Explain the WissKI Pathbuilder as a tool for configuring ontology-based paths and path groups.
+
 - With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
+Vorschlag: With guidance, convert a diagram created with visualisation software into a reusable file format. 
+
 - With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
+Vorschlag: With guidance, import a Pathbuilder XML configuration into the WissKI Pathbuilder.
+
 - With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
+Vorschlag: With guidance, examine the imported paths and path groups in the WissKI Pathbuilder.
+
 - Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0317) 
+Vorschlag: Name the gnm-service Draw.io diagrams to WissKI pathbuilders as a tool for file conversion.
+
 - With guidance, use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0318)
+Vorschlag: With guidance, use the gnm-service to convert Draw.io XML into WissKI Pathbuilder XML.
 
 ---
 
 ## Objective and Scenario
 
-The starting point for this practical unit is the **Draw.io diagram of the computer games domain completed in Unit 1**.
+In this unit, you will continue working with the completed Draw.io diagram from Unit 1.
 
-The diagram is now processed technically: Using the **gnm-service**, the Draw.io XML file is transformed into a **WissKI Pathbuilder XML file**. This file is then imported into WissKI and examined in the **Pathbuilder**.
+You will export the diagram as XML, convert it into a WissKI Pathbuilder XML file using the gnm-service, and import the generated configuration into WissKI.
 
-> **Draw.io diagram → gnm-service → Pathbuilder XML → WissKI Pathbuilder**
+You will then inspect the imported paths and path groups and compare them with the original diagram.
+
+> **Draw.io diagram → Draw.io XML → gnm-service → Pathbuilder XML → WissKI Pathbuilder**
 
 ---
 
 ## From the Semantic Model to the Pathbuilder
 
-In the previous unit, the domain model formalised with CIDOC CRM was visualised as a Draw.io diagram.
+In Module 2, you formalised selected concepts of the computer games domain as subclasses of CIDOC CRM classes and reused existing CIDOC CRM properties.
 
-**Example:**
+In Unit 1 of this module, you visualised selected relationships in Draw.io.
 
-> A relationship from the model can be represented as follows:
->
-> Computer Game → P102 has title → Game Title
+**For example:** Computer_Game → P102 has title → Game_Title
 
-In the WissKI Pathbuilder, such a sequence of classes (Entities) and relationships (Properties) becomes a **semantic path**.
+In the WissKI Pathbuilder, sequences of ontology classes and properties are configured as semantic paths and organised into path groups.
 
-We distinguish three levels:
+The workflow involves three levels:
 
 | Level                         | Example                                    |
 | ----------------------------- | ------------------------------------------- |
-| **Semantic model**       | Computer Game – P102 has title – Game Title |
-| **Transformation format**     | Draw.io XML → Pathbuilder XML               |
-| **Implementation in WissKI** | Group and semantic path in the Pathbuilder |
+| **Ontology structure**       | Computer Game – P102 has title – Game Title |
+| **XML transformation**     | Draw.io XML → Pathbuilder XML               |
+| **WissKI configuration** | Semantic paths and path groups in the Pathbuilder |
 
-The Pathbuilder thus provides the connection between the ontology structure and the data structures that WissKI uses for data entry, storage, and querying. It organizes the model into groups and paths and can generate Drupal bundles and fields from them. (wisski2021pathbuilder)
+The Pathbuilder connects the ontology structure with the configuration of data entry and display structures in WissKI. It can be used to generate Drupal bundles and fields from the configured paths and groups. (wisski2021pathbuilder) BIBLIOGRAPHIE prüfen!!!
 
 ---
 
 ## Focus of this Practical Unit
 
-The focus is on five fundamental work steps:
+You will complete five steps:
 
-- **Step 1: Transform Draw.io XML into Pathbuilder XML**
+- **Step 1: Transform Draw.io XML into Pathbuilder XML.**
 
-- **Step 2: Check or load the ontology in WissKI**
+- **Step 2: Check that the required ontology is available in WissKI.**
 
-- **Step 3: Create a Pathbuilder and import XML**
+- **Step 3: Create a Pathbuilder and import the generated XML.**
 
-- **Step 4: Analyse the generated groups and paths**
+- **Step 4: Examine the imported paths and path groups.**
 
-- **Step 5: Verify the generated paths against the original semantic model**
+- **Step 5: Compare the imported structure with the source diagram.**
 
 ---
 
 ## The WissKI Pathbuilder
 
-The Pathbuilder represents the **implementation layer of WissKI**.
+The WissKI Pathbuilder uses classes and properties from a loaded ontology to configure semantic paths and path groups.
 
-The **WissKI Pathbuilder** connects the ontology being used with the concrete data structure in WissKI.
+- **Paths** represent sequences of ontology classes and properties.
+- **Path groups** organise related paths.
+- **Bundles and fields** can be generated from these configurations for data entry and display in WissKI.
 
-Semantic relationship chains consisting of **classes (Entities) and Properties** are represented as **paths**. Related paths can be organised into **groups**.
-
-A Pathbuilder organizes in particular
-
-- **paths** that represent classes and Properties as semantic relationship chains,
-- **groups** that structure related paths according to their subject matter,
-- and the assignment of these structures to WissKI or Drupal structures.
-
-On this basis, **bundles and input fields** can later be generated for data entry.
-
-> **Note:** The Pathbuilder does not define the ontology itself. It uses classes and Properties from the loaded ontology to define the groups and semantic paths required for WissKI.
+> **Note:** The Pathbuilder does not define the ontology itself. It uses the existing ontology to configure the semantic structures required in WissKI.
 
 <table>
   <tr>
@@ -134,7 +136,7 @@ On this basis, **bundles and input fields** can later be generated for data entr
   </tr>
 </table>
 
-> **Figure:** The graphic shows a screenshot of the WissKI Pathbuilder.
+> **Figure:** The WissKI Pathbuilder interface showing the organisation of paths and path groups.
 
 ---
 
@@ -142,11 +144,7 @@ On this basis, **bundles and input fields** can later be generated for data entr
 
 The **“Draw.io diagrams to WissKI pathbuilders”** web service supports the transformation of a semantic Draw.io diagram into a **WissKI Pathbuilder XML file**.
 
-The service thus provides a technical interface between graphical modelling and implementation of the model in the WissKI Pathbuilder.
-
-The basic transformation process is:
-
-**Draw.io diagram → Draw.io XML → gnm-service → Pathbuilder XML → WissKI Pathbuilder**
+This reduces the need to recreate paths manually and helps maintain a traceable connection between the diagram and its implementation in WissKI.
 
 The transformation enables:
 
@@ -154,9 +152,7 @@ The transformation enables:
 - **reduction of manual transfer work**,
 - and a traceable connection between the diagram and the Pathbuilder.
 
-**Note:** 
-
-> Automatic transformation does not replace domain-specific validation. After import, the generated groups and paths should be compared with the source diagram.
+> **Note:** Automatic transformation does not guarantee that the generated paths are complete or semantically correct. After importing the file, you must compare the paths and path groups with the source diagram.
 
 ---
 
@@ -164,94 +160,64 @@ The transformation enables:
 
 **Work format:** Individual work 
 
-**Material:** Laptop, Draw.io XML file, access to a WissKI instance
+**Material:** Completed Draw.io XML file from Unit 1, computer with internet access, and access to a WissKI instance
 
-**Time:** 20 min.
+**Time:** ~ 20 min.
 
-**Task:**
+In this exercise, you will transform your completed Draw.io diagram into a WissKI Pathbuilder XML file and import the generated configuration into WissKI.
 
-Complete the prepared semantic Draw.io diagram, transform it into a WissKI Pathbuilder XML file, import it into WissKI, and check the generated path structure.
+Follow the five steps below to check the required ontology, import the configuration, and examine whether the resulting paths and path groups correspond to your source diagram.
 
-**Workflow from the domain ontology diagram to WissKI paths**
+**Step 1: Transform the Draw.io Diagram**
 
-The following overview shows the individual steps used to turn the diagram into a usable WissKI Pathbuilder.
-
-| Step | Action                                |
-| -------- | ------------------------------------ |
-| 1        | Export the Draw.io model as an .xml file.  |
-| 2        | Load the Draw.io.xml file into the WissKI Pathbuilder web service. |
-| 3        | Check whether the ontology structure is valid. |
-| 4        | Generate the WissKI Pathbuilder .xml file. |
-| 5        | Import the Pathbuilder .xml file into WissKI.   |
-| 6        | Check the path structure. |
-
-This process bridges the gap between modelling a domain ontology and creating the Pathbuilder in WissKI by automatically converting the semantic Draw.io model into WissKI paths via a transformation pipeline.
-
----
-
-### Step 1: Transform the Draw.io Diagram
-
-**Open** the web service:
-
-[**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
+Open the [**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) conversion service.
 
 Proceed as follows:
 
-- Export or use the prepared **Draw.io XML file**.
-- Upload the file under **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+- Export your completed diagram from Unit 1 as a **Draw.io XML file**, if you have not already saved it in this format.
+- Upload the file using **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 - Start the transformation.
 - Check the response from the web service.
-- Open or copy the address of the generated **Pathbuilder XML file**.
+- Copy or save the address of the generated **Pathbuilder XML file** for the import into WissKI.
 
-**Note:**
-
-> The transformation thus represents the technical intermediate step:
-
-> Draw.io XML → Web service: Draw.io diagrams to WissKI pathbuilders → WissKI Pathbuilder XML
-
-
-**Prompt question**
-
-> What information from the diagram must be preserved so that a semantically meaningful Pathbuilder can be generated from it?
-
-Write down a short answer.
+> **Prompt question**
+>
+> Which elements of the source diagram must be preserved to generate meaningful paths and path groups in WissKI?
+>
+> Write down a short answer.
 
 ---
 
-### Step 2: Check the Ontology in WissKI
+**Step 2: Check the Ontology in WissKI**
 
-The classes and Properties used in the Pathbuilder must be available to WissKI through the ontology. The Pathbuilder uses these elements to construct semantic paths.
+The classes and properties used in the generated paths must be available in the ontology used by WissKI.
 
-**Log in** to the prepared **WissKI instance**. 
-
-**First check** whether the ontology required for the domain model is already available: 
+Log in to the prepared **WissKI instance**:
 
 - Navigate to **WissKI → Configuration → WissKI Ontology**
-- Check the adapter being used and the loaded ontology.
-- If the domain ontology has not yet been loaded, select the designated WissKI adapter, enter the address of the **Games Ontology**, and load the ontology.
+- Check the configured adapter and the ontology available in the instance.
+- If the required domain ontology has not yet available, select the designated WissKI adapter, enter the address of the **Games Ontology**, and load the ontology.
 
 **Games ontology:**
 
 [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
 
-**Note:**
-
-> If no WissKI instances are provided as part of the tutorial, a provided WissKI environment in the SODa Semantic Co-Working Space (SCS) can be used for the tutorial.
+> **Note: Access to WissKI**
 >
-> Use is free of charge.
+> If no WissKI instance is provided for the tutorial, you can use the WissKI environment available through the theSODa Semantic Co-Working Space (SCS).
 >
-> Please register free of charge here: https://manager.scs.sammlungen.io/user/register
+> Please register for an account: https://manager.scs.sammlungen.io/user/register
 >
 > Once your account has been activated, you can log in to the SCS and access the WissKI environment required for the tutorial.
 >
-> You do not need to set up your own WissKI installation for the tutorial. The SCS provides the required technical environment.
+> You do not need to set up your own WissKI installation for the tutorial. The SCS provides the required technical environment free of charge.
 
 ---
 
-### Step 3: Create a new Pathbuilder and Import XML
+**Step 3: Create a new Pathbuilder and Import XML**
 
-**Navigate** to: **Configuration → Pathbuilders**
+Navigate to: **Configuration → Pathbuilders**
 
 **Create** a new Pathbuilder:
 
@@ -268,21 +234,19 @@ In the **Pathbuilder Definition Import** section:
 - start the import,
 - wait until the Pathbuilder structure is displayed.
 
-**Note:** 
-
-> Check the imported structure first before generating any additional bundles or fields.
+> **Note:** Examine the imported configuration before generating any additional bundles or fields.
 
 --- 
 
-### Step 4: Examine the Imported Pathbuilder
+**Step 4: Examine the Imported Pathbuilder**
 
-**Examine** the generated **Pathbuilder** and compare it with the source diagram.
+Examine the imported paths and path groups and compare them with your Draw.io diagram.
 
 Use the following path as an example:
 
 > `Computer_Game → P102 has title → Game_Title`
 
-**Question 1: Which group does the path belong to?**
+**Question 1: Which path group contains this relationship?**
 
 [(X)] Computer Game  
 [( )] Game Title  
@@ -296,26 +260,42 @@ Use the following path as an example:
 
 ---
 
-**Question 3: Does the path correspond to the source diagram?**
+**Question 3: Does the imported path correspond to the source diagram?**
 
 [(X)] Yes  
 [( )] No
 
 
-Compare the source class, Property, and target class with the corresponding relationship in the Draw.io diagram.
+Compare the source class, property, and target class with the corresponding relationship in your Draw.io diagram.
 
----
-
-**Finally:**
+**Check the remaining paths**
 
 Also look at the other imported paths.
 
 - Are the expected groups and paths present?
-- Do you notice any missing or unexpected paths?
+- Are any paths missing or unexpected?
+- Do the imported paths reflect the relationships represented in the source diagram?
 
-**Prompt question:**
+> **Prompt question:**
+>
+> What are the advantages of automatically generating paths instead of creating them manually?
 
-> What advantage does automatic transformation have over creating the paths manually?
+---
+
+**Step 5: Verify the Generated Paths**
+
+Compare the imported Pathbuilder configuration with the completed Draw.io diagram from Unit 1.
+
+Check whether:
+
+- the expected path groups have been created,
+- the relevant classes and CIDOC CRM properties appear in the imported paths,
+- the relationships correspond to the source diagram, and
+- the resulting paths support the selected information requirements.
+
+Document any missing or unexpected paths and note which parts of the diagram may need to be checked or corrected.
+
+**Result: You have imported a Pathbuilder configuration and checked its correspondence with the source diagram.**
 
 ---
 
@@ -327,45 +307,37 @@ Three tools or representations were used:
 
 | Tool / Representation | Function |
 |---|---|
-| **Draw.io diagram** | Visualization of the semantic domain model |
-| **gnm-service** | Transformation of the diagram into a Pathbuilder XML file |
-| **WissKI Pathbuilder** | Implementation of ontology relationships as groups and semantic paths |
+| **Draw.io diagram** | Visual representation of selected ontology classes, properties, and semantic paths |
+| **gnm-service** | Transformation of Draw.io XML into WissKI Pathbuilder XML |
+| **WissKI Pathbuilder** | Configuration of semantic paths and path groups based on the ontology |
 
-The result is an **imported and validated WissKI Pathbuilder** based on the semantic domain model.
-
-This traces the transition from semantic modelling to technical implementation in WissKI:
-
-> **semantic model → Draw.io diagram → Pathbuilder XML → WissKI Pathbuilder**
+The result is an imported and checked Pathbuilder configuration that reflects selected relationships from the computer games domain model.
 
 ---
 
 ## Outlook
 
-In the next step, the imported groups and paths are made usable for **data entry in WissKI**.
-
-For this purpose, the Pathbuilder is further configured and then the function
-
-> **Save and generate bundles and fields**
-
-is used.
-
-The semantic paths are thus used to create **bundles and fields** that can be used for data entry and display in WissKI.
-
+> **Next**
+> 
+> The imported paths and path groups can be used to configure data entry structures in WissKI.
+>
+> After reviewing the Pathbuilder configuration, you can use Save and generate bundles and fields to create the corresponding bundles and fields for data entry and display.
+> 
 > **Ontology → Pathbuilder → Bundles and fields → Data entry**
 
 ---
 
 ## Final Reflection
 
-You have now completed the learning path from a collection object to its semantic implementation in WissKI:
+You have now completed the learning path from identifying a research object to configuring ontology-based semantic paths in WissKI.
 
-**Research object → conceptual model → CIDOC CRM → formal ontology → diagram → Pathbuilder XML → WissKI paths**
+**Research Object → Conceptual Model → CIDOC CRM Mapping → Formal Ontology → Draw.io Diagram → Pathbuilder XML → WissKI Paths and Path Groups**
 
-Look back at the complete process:
+Reflect on the complete process:
 
-- How did your representation of the domain change from the first model sketch to the WissKI Pathbuilder?
-- Which modelling decisions remained visible throughout the process?
-- Which step was most challenging?
+- How did your representation of the domain change from the initial model sketch to the WissKI Pathbuilder?
+- Which modelling decisions remained visible throughout the workflow?
+- Which step was most challenging, and why?
 - How could you apply this workflow to your own research or collection data?
 
 ---
@@ -374,8 +346,8 @@ Look back at the complete process:
 
 - [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
 - [Erlangen CRM](http://erlangen-crm.org/240307/)
-- [Games Ontology](http://games.m-e-g-a.org/game_domain.rdf)
-- [Example Pathbuilder XML](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
+- [Computer Games Domain Ontology](http://games.m-e-g-a.org/game_domain.rdf)
+- [Example WissKI Pathbuilder XML](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
 - [WissKI Pathbuilder Documentation](https://wiss-ki.eu/documentation/data-modelling/pathbuilder)
 
 ---

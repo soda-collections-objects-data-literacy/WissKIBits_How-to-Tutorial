@@ -52,27 +52,19 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 Welcome to **SODa WissKI Bits: Ontology-Based Modelling of Research Data**.
 
-This how-to tutorial provides a practice-oriented introduction to the ontology-based modelling of research data. Starting from information about a collection object, a semantically meaningful data model is developed step by step and implemented for use in WissKI.
+In Module 1, you developed a conceptual model sketch. In Module 2, you reviewed selected CIDOC CRM mappings and formalised part of your domain model in Protégé.
 
-In Module 1, a conceptual model sketch was developed from object data and contextual information. In Module 2, this sketch was methodically reviewed and implemented as a formal ontology structure using CIDOC CRM and Protégé.
+In Module 3, you will prepare this model for use in WissKI. Using the computer games example, you will create a structured diagram in Draw.io, transform it into a Pathbuilder XML file, and examine the imported paths and path groups in WissKI.
 
-Module 3, **“From Diagram to Paths – Explain and Apply”**, continues this learning path into technical implementation: The semantic data model is visualised in Draw.io as a formally structured diagram. The diagram is then checked using the **“Draw.io diagrams to WissKI pathbuilders”** web service and transformed into a WissKI Pathbuilder XML file.
-
-The generated file is imported into WissKI. There, the paths and path groups are analysed and prepared as the basis for the structured capture, storage, and querying of research data.
-
-The module follows the principle of **Learning by Doing**. Using an example from the computer games domain, participants work through the entire processing chain from the semantic diagram and file conversion to the imported path structure in the WissKI Pathbuilder.
+The focus is on a practical, reproducible workflow rather than configuring a complete WissKI instance.
 
 > **What is This Module About?**
 >
-> In this module, you move from a formal ontology structure to its technical implementation in WissKI.
+> In this module, you move from a formal ontology structure to a WissKI Pathbuilder configuration.
 >
-> You visualise the semantic model in Draw.io, transform the diagram into a Pathbuilder XML file, import and inspect the resulting paths and path groups in WissKI.
+> Module 3 turns this structure into usable semantic paths: **Ontology → Draw.io Diagram → Pathbuilder XML → WissKI path groups and paths**
 >
-> Module 2 resulted in a formal ontology structure.
->
-> Module 3 turns this structure into usable semantic paths: **Ontology → Diagram → Pathbuilder XML → WissKI paths**
->
-> The focus shifts from defining the semantic model to making it technically usable for structured data capture and querying in WissKI.
+> You will learn how to prepare a semantic diagram for transformation, generate the required XML file, and check whether the imported structure reflects the intended model.
 
 ---
 
@@ -86,14 +78,15 @@ The module follows the principle of **Learning by Doing**. Using an example from
 
 In this module, you will convert the formalised domain ontology from Module 2 into a path structure that can be used in WissKI.
 
-You will:
+In this module, you will learn how to:
 
-- visualise a semantic data model in **Draw.io** according to defined modelling rules,
-- represent **classes, properties, and semantic paths** in a machine-processable diagram,
-- check the diagram and the **attribute values required for conversion**,
-- transform the Draw.io XML into a **WissKI Pathbuilder XML file**,
-- import the generated structure into **WissKI**, and
-- analyse and verify the resulting **paths and path groups**.
+- visualise the partial model in **Draw.io** according to defined modelling rules,
+- apply the diagram structure and attribute values required for conversion,
+- export and transform the Draw.io XML into a **WissKI Pathbuilder XML**,
+- import the generated strucconfiguration into **WissKI**, and
+- inspect and verify the resulting **paths and path groups**.
+
+The goal is to understand and complete the workflow from a semantic model to a usable Pathbuilder configuration.
 
 ---
 
@@ -141,27 +134,27 @@ After completing Module 3, participants can…
 
 ## Learning Path in the Module
 
-**Formal ontology structure from Module 2**
+**Formal ontology structure from Module 2** You start with the domain-specific ontology structure developed in Protégé.
  
 ↓
  
-**Semantic diagram in Draw.io**
- 
-↓
-  
-**Check paths and attribute values**
- 
-↓
- 
-**Generate Pathbuilder XML**
- 
-↓
- 
-**Import file into WissKI**
+**Visualise classes and properties in Draw.io** You represent selected ontology classes and relationships in a structured diagram.
  
 ↓
   
-**Verify the path structure against the requirements**
+**Check the diagram** You review the connections and attribute values required for transformation.
+ 
+↓
+ 
+**Generate Pathbuilder XML** You export the Draw.io XML file and transform it into a WissKI Pathbuilder XML file.
+ 
+↓
+ 
+**Import into WissKI** You import the generated file into the WissKI Pathbuilder.
+ 
+↓
+  
+**Review paths and path groups** You inspect the imported structure and compare it with the original diagram.
 
 
 
@@ -171,95 +164,72 @@ After completing Module 3, participants can…
 
 ## Working Method and Example
 
-The module combines activation, guided modelling, technical transformation, and result verification:
+The computer game example **“The Legend of Zelda: A Link to the Past”** and the domain model developed in Modules 1 and 2 continue to serve as the starting point.
 
-- The example object **“The Legend of Zelda: A Link to the Past”** and the domain ontology developed in the previous modules again serve as a common thread.
-- Draw.io is used to complete a prepared diagram by adding missing classes (Entities) and properties (Properties).
-- The paths, node-edge connections, naming, and the attribute values required for conversion needs to be checked.
-- The diagram is submitted to the transformation service as an XML file.
-- The generated Pathbuilder XML file is imported into WissKI.
-- Finally, paths and path groups are compared with the original diagram and the domain-specific query requirements.
+You will work with a prepared Draw.io diagram, complete missing classes and properties, and check the connections and attribute values required for transformation.
 
-The aim is not the complete technical configuration of a WissKI instance. 
+You will then export the diagram, use the Draw.io diagrams to WissKI pathbuilders service to generate a Pathbuilder XML file, and import the result into WissKI.
 
-What matters is a **traceable and repeatable processing chain** that transforms the semantic model into a usable WissKI path structure.
+Finally, you will compare the generated paths and path groups with the source diagram and the intended information requirements.
 
-> **How we work**
->
-> In this module, you move from a formal ontology structure to its technical implementation in WissKI.
->
-> Using The Legend of Zelda: A Link to the Past and the domain ontology developed in the previous modules, you will:
->
-> - visualise and complete the semantic model in Draw.io
-> - review classes, properties, paths, and information required for transformation,
-> - transform the diagram into a Pathbuilder XML file,
-> - import the generated structure into WissKI, and
-> - verify the resulting paths and path groups against the original model and domain-specific query requirements.
->
-> The workflow is: Ontology → Diagram → Pathbuilder XML → WissKI paths and path groups
-> 
-> Finally, we compare the imported paths and path groups with the original model and our initial information requirements.
->
-> The goal is not a complete WissKI configuration, but a traceable and repeatable workflow from semantic model to usable WissKI path structure.
+The aim is a **traceable and repeatable processing chain**, not a complete technical configuration of WissKI.
 
 ---
 
 ## Prerequisites
 
-The content from Module 1 and Module 2, or comparable basic knowledge and work results, is assumed. Participants should …
+This module builds on the knowledge and results from Modules 1 and 2, or comparable prior experience.
+
+Before starting, you should:
 
 - be able to identify concepts, events, and relationships within a domain,
-- be familiar with the event-centered modelling principle and selected elements of CIDOC CRM,
-- be able to use Scope Notes for modelling decisions,
-- be familiar with a formally implemented domain ontology or ontology extension,
-- and understand the basic principle of semantic paths.
+- understand the event-centred modelling approach of CIDOC CRM,
+- be familiar with CIDOC CRM classes, properties, and scope notes,
+- understand how domain-specific concepts can be represented as subclasses of CIDOC CRM classes, and
+- have access to the ontology structure developed in Module 2 or the prepared example ontology.
 
-
-> **Be ready for module 3**
->
-> Before continuing, check whether you:
->
-> - can identify concepts, events, and relationships;
-> - are familiar with classes, properties, CIDOC CRM, and Scope Notes;
-> - understand the basic principle of semantic paths; and
-> - have a formalised domain ontology or ontology extension available.
->
-> If you completed Modules 1 and 2, you are ready to continue.
-
+You do not need prior experience with the WissKI Pathbuilder. Its basic functions are introduced in this module.
 
 **Technical Setup**
 
 - a computer with internet access,
 - access to [diagrams.net (Draw.io)](https://app.diagrams.net/),
-- the prepared [Draw.io XML gap diagram](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml),
+- the prepared [Draw.io XML gap diagram](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml),
 - access to the conversion service [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
 - access to a WissKI instance via the [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
 - as well as the [domain ontology](http://games.m-e-g-a.org/game_domain.rdf) used in the tutorial and the reference ontology [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
+---
 
 ## Result and Outcome of the Module
 
-> ** What you will take away**
->
-> By the end of the module, you will have completed the workflow from a semantic model to a usable WissKI path structure.
->
-> Your results include:
->
-> - a validated semantic [Draw.io diagram](../WissKIBits_Modul3/assets/GamesDrawioDiagramm.png),
-> - an exported [Draw.io XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml),
-> - a generated [WissKI Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml),
-> - imported paths and path groups in WissKI, and
-> - a documented check of whether the implemented structure reflects the original model and selected research and query requirements.
-> 
-> This provides the basis for creating data entry structures and working with semantically structured research data in WissKI.
+By the end of the module, you will have completed the workflow from a semantic model to a usable WissKI path structure.
+
+Your results include:
+
+- a completed and checked Draw.io diagram,
+- an exported Draw.io XML file,
+- a generated WissKI Pathbuilder XML file,
+- imported paths and path groups in WissKI, and
+- a documented comparison of the imported structure with the original model and selected research and query requirements.
+
+For reference, you can consult the provided example files: 
+
+- a validated semantic [Draw.io diagram](../WissKIBits_Modul3/assets/GamesDrawioDiagramm.png),
+- an exported [Draw.io XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml),
+- a generated [WissKI Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml),
+
+These results provide a basis for creating data entry structures and working with semantically structured research data in WissKI.
 
 ---
 
 ## Outlook
 
-> In the next step, the imported paths and path groups can be used to create data entry structures in WissKI. Example data can then be entered and tested against the research and query questions defined at the beginning.
+> **Next**
+>
+> The imported paths and path groups can be used to create data entry structures in WissKI. Example data can then be entered and examined in relation to the initial research and query requirements.
 
-For further news, information about WissKI, the WissKI documentation, and the WissKI community (as of August 2026), please refer to the website: https://wiss-ki.eu/de.
+For further information, documentation, and community resources, visit the website: https://wiss-ki.eu/de. (as of August 2026)
 
 ---
 

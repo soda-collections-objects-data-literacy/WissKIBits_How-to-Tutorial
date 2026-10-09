@@ -67,7 +67,9 @@ Participants will be able to...
 
 ## Visualising a Domain Ontology as a Diagram with Draw.io
 
-In this unit, the data model developed in Modules 1 and 2 is visualised as a diagram in Draw.io (Ltd2026drawio). 
+In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in Modules 1 and 2 (Ltd2026drawio). 
+
+The diagram helps you examine semantic relationships, discuss modelling decisions, and develop a shared understanding of the ontology structure.
 
 The Draw.io created diagram forms the **prerequisite for the (semi-)automated pipeline** for the **WissKI Pathbuilder**.
 
@@ -79,41 +81,35 @@ Visualising in Draw.io is therefore not only a **visualisation exercise**, but a
 
 **Visualisation**
 
-Visualisations are graphical representations of subject matter intended to facilitate understanding. 
+Visualisation refers to the graphical representation of information, concepts, or relationships to support understanding.
 
 "In the humanities, visualisations are used as illustrations, as memory aids for known subject matter, in the organisation of knowledge, and as tools for insight in the communication and generation of (new) knowledge." (Freyberg2023visual)
 
 "Visualisations are particularly suitable for learning when the subject to be conveyed has properties that are difficult to communicate verbally." (Scheiter2021visual)
 
-They are therefore used alongside knowledge acquisition to make content more concrete and easier to understand and to clarify structures. (Levin1987visual)
+Visualisations can therefore support knowledge acquisition by making abstract concepts more concrete and revealing structures and relationships that may be difficult to explain through text alone. (Levin1987visual)
 
 ---
 
 ## Benefits of Draw.io
 
-Draw.io is used to...
+Draw.io helps you to:
 
-- clearly define **classes (Entities) and their relationships (Properties)**,
-- make a **domain logic and its semantic relationships** visible and open to discussion,  
-- develop domain models **collaboratively and transparently**,  
-- check a **domain ontology before importing it into WissKI**,  
-- reflect on and validate **semantic modelling decisions**.
+- visualise selected **ontology classes and properties** and their relationships,
+- make semantic structures easier to understand and discuss,
+- communicate and document **modelling decisions** collaboratively,
+- check whether the diagram **reflects the intended ontology structure**, and
+- prepare the selected semantic paths for transformation into WissKI Pathbuilder XML.
 
-Especially in collaborative projects, Draw.io facilitates **coordination between domain experts, data modelers, and developers**, because semantic decisions can be visually understood and documented over time.
+Especially in collaborative projects, visual diagrams support communication between **domain experts, data modellers, and developers.**
 
 ---
 
 ## Example
 
-The previous questions have clarified which central concepts of the example domain are relevant and how they can be classified from a domain-specific perspective.
+In Modules 1 and 2, you identified central concepts of the computer games domain and represented selected concepts as domain-specific subclasses of CIDOC CRM classes.
 
-The next step is no longer about recognising or naming these central concepts, but about transforming this selection into a **formalised path structure**:
-
-- How are the central concepts linked to one another in a semantically correct way?
-- How does this result in a formalised path structure that can be used in the form of **paths and path groups in the WissKI Pathbuilder**?
-
-For this purpose, the conceptual domain model is now implemented **visually and formally in Draw.io**.  
-
+The next step is to visualise how these classes are connected through existing CIDOC CRM properties. The resulting diagram illustrates semantic paths that can later be transformed into paths and path groups in the WissKI Pathbuilder.
 
 <table>
   <tr>
@@ -122,25 +118,25 @@ For this purpose, the conceptual domain model is now implemented **visually and 
 </table>
 
 
-> **Figure:** The graphic shows how the excerpt from the example domain can be implemented in CIDOC CRM.
+> **Figure:** Example of a Draw.io diagram showing selected classes and CIDOC CRM properties used to represent semantic paths in the computer games domain.
 
 ---
 
 ## Quiz
 
-The following quiz is intended to reactivate the central concepts of the domain and help place the subsequent modelling task in context.
+Before working with the Draw.io diagram, review the example object and the central concepts of the computer games domain.
 
-Which central concepts are relevant to the example object in the context of game features and narrative elements?
+The following questions help you recall the concepts and classifications used in the modelling exercise.
 
 
-### Which Example Object is used in the Module? 
+### Which Example Object Is Used in This Tutorial?
 
 * [( )] A PC game: *Minecraft*
-* [(x)] An SNES game: *The Legend of Zelda*
+* [(x)] An SNES game: *The Legend of Zelda: A Link to the Past*
 * [( )] A PlayStation console: *PS1*
 * [( )] An arcade machine: *Pac-Man*
 
-### Which Semantic Assumption is Explicitly made in the Example?
+### Which Title Is Assigned to the Example Game?
 
 * [( )] The game is “Open World”
 * [(x)] The title of the object is defined as *The Legend of Zelda: A Link to the Past*
@@ -169,59 +165,76 @@ Which central concepts are relevant to the example object in the context of game
 
 **Work format:** Individual work   
 
-**Material:** own laptop
+**Material:** Computer with internet access
 
-**Time:** 20 min.
+**Time:** ~ 20 min.
 
 
-Complete the diagram by adding the missing **nodes and edges** using suitable classes (Entities) and appropriate relationships (Properties).
+In this exercise, you will complete a prepared Draw.io diagram using selected classes and properties from the computer games domain ontology.
 
-Then remove all temporary placeholders `(???)`.
+**Download** the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) and open it in Draw.io.
 
-**Use the following classes and Properties:**
+Add the missing nodes and edges, connect them correctly, and replace all temporary placeholders marked `(???)`.
+
+**Use the following ontology elements where required:**
 
 - P102\_has\_title
 - P1 is identified by
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Download** the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml).
+Your completed diagram should represent connected semantic paths and contain the attribute values required for the subsequent XML transformation.
 
-**Note:**
+**Modelling Rules and Checks**
 
-Rules for visualisation with Draw.io**
-
-> - The nodes and edges must be connected correctly.
+> - Use the domain-specific subclasses already defined in the domain ontology.
+>
+> - Reuse existing CIDOC CRM properties to connect the classes.
 > 
 > - The edge label must be connected to the edge.
 > 
-> - Names may, but do not have to, contain underscores.
+> - Do not introduce individual instances into the diagram.
 > 
-> - No individual instances are represented.
+> - Ensure that all nodes and edges are connected correctly.
 > 
-> - The domain-specific subclasses from the domain ontology already created are used.
+> - Ensure that each property label is attached to its corresponding edge.
 > 
-> - Relationships from CIDOC CRM are reused.
+> - Use consistent class and property names. Underscores may be used but are not mandatory.#
 > 
-> - Complete paths must be created. (e.g. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
+> - Represent complete semantic paths rather than isolated classes or properties.
 
-> **Check attribute values**
-> 
-> - The central start node and each group node are each assigned **element\_id**, **group\_name**, and **name**. (e.g. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
-> - Each end node is each assigned **group\_name** (e.g. name=Computer\_Game)
->   
-> The transformation can only process structures that are represented unambiguously and consistently in the source diagram.
+
+**For example:**
+
+mega:E73_Computer_Game → P102_has_title → mega:E35_Game_Title → P190 has symbolic content → E62_String
+
+
+**Check the required attribute values**
+
+The diagram must also contain the attribute values needed for conversion into WissKI Pathbuilder XML.
+
+For the central start node and each group node, check the attributes:
+ 
+- **element\_id**, 
+- **group\_name**, and 
+- **name**. 
+
+For example:
+
+- element\_id = Computer\_Game; 
+- group\_name = Computer\_Game; 
+- name = Computer\_Game
+
+Check the required attributes of the end nodes against the prepared diagram and the transformation requirements.
+
+The transformation depends on consistent connections, labels, and attribute values in the source diagram.
 
 **Resources**
 
-> - Domain ontology: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
-> 
-> - The official CIDOC CRM documentation (.pdf file): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
->
-> - Official CIDOC CRM documentation as HTML: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
-> 
-> - Visual and exploratory access: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
-
+- Computer games domain ontology: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+- CIDOC CRM documentation, Version 7.1.3 (PDF): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+- CIDOC CRM documentation, Version 7.1.3 (HTML): [https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html]
+- CIDOC CRM Periodic Table, Version 7.1 [https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1]
 
 ---
 
@@ -230,16 +243,19 @@ Rules for visualisation with Draw.io**
 | Step | Action |
 |---:|---|
 | 1 | Download the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) |
-| 2 | Import the downloaded Draw.io file into Draw.io ([here](https://app.diagrams.net/)) |
-| 3 | Complete the domain ontology diagram |
-| 4 | Check attribute values on the start node, each group node, and end node |
-| 5 | Check the node-edge connections |
+| 2 | Open the downloaded file in Draw.io ([here](https://app.diagrams.net/)) |
+| 3 | Complete the missing nodes and edges using the specified ontology classes and properties.|
+| 4 | Remove all (???) placeholders and check the required attribute values. |
+| 5 | Check that the semantic paths are complete and that all nodes, edges, and property labels are connected correctly. |
+| 6 | Save the completed Draw.io diagram for the next unit. |
 
 ---
 
 ## Outlook
 
-In the next step, the Draw.io diagram created is automatically converted into a WissKI Pathbuilder and the generated path structure is imported into WissKI.
+> **Next**
+>
+> In the next unit, you will export the completed Draw.io diagram as XML, transform it into WissKI Pathbuilder XML, and import the generated paths and path groups into WissKI.
 
 ---
 
@@ -249,7 +265,7 @@ In the next step, the Draw.io diagram created is automatically converted into a 
 
 [Scheiter2021visual] Scheiter, Katharina (2021). Visualisierung. Dorsch - Lexikon der Psychologie. https://dorsch.hogrefe.com/stichwort/visualisierung
 
-[Levin1987visual] Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating fuctions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
+[Levin1987visual] Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating functions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
 
 [Ltd2026drawio] Draw.io LTD. (2026). draw.io. https://www.drawio.com/
 
