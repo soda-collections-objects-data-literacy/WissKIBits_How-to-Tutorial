@@ -325,6 +325,7 @@ In this exercise, you revisited your conceptual model sketch and explored how se
 By consulting scope notes and discussing possible mappings, you have taken a first step towards a more precise semantic model.
 
 > **Next**
+>
 > You have extended your conceptual model sketch with initial CIDOC CRM mappings and justified modelling decisions.
 >
 > Module 2: You will review and refine these decisions and formalise selected parts of the model as a machine-readable OWL ontology using Protégé.
