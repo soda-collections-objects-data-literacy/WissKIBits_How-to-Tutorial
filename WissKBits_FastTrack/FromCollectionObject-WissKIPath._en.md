@@ -293,7 +293,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 
 ![WissKI Pathbuilder example](../WissKIBits_Modul3/assets/pathbuilder.jpg)
 
-> Step 1: Transform the Draw.io Diagram
+> **Step 1: Transform the Draw.io Diagram**
 >
 > 1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 > 2. Upload the **completed Draw.io XML file** from Exercise 4.
@@ -302,7 +302,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 >
 > The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
 
-> Step 2: Check the Ontology in WissKI
+> **Step 2: Check the Ontology in WissKI**
 >
 > Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
 > 
@@ -310,7 +310,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 > 
 > **Important:** Importing Pathbuilder XML does **not** import or define the ontology. The referenced classes and properties must already be available in the ontology used by WissKI.
 
-> Step 3: Create a Pathbuilder and Import the XML
+> **Step 3: Create a Pathbuilder and Import the XML**
 >
 > 1. Navigate to **Configuration → Pathbuilders**.
 > 2. Select **Add Pathbuilder**, assign a unique name and choose the designated adapter.
@@ -318,7 +318,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 > 4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
 > 5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
 
-> Step 4: Examine the Imported Paths and Path Groups
+> **Step 4: Examine the Imported Paths and Path Groups**
 >
 > Find the relationship:
 > 
@@ -331,7 +331,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 > - Which property connects the source and target classes? (**P102 has title**.)
 > - Does the imported path correspond to your source diagram? **Check the actual result**, rather than assuming that the import guarantees correctness.
 
-> Step 5: Verify the Generated Paths
+> **Step 5: Verify the Generated Paths**
 > 
 > Compare the imported Pathbuilder configuration with the Draw.io diagram. Check whether the expected path groups exist, the relevant classes and properties are present, and any paths are missing, unexpected or incorrectly grouped. Record anything that may need to be corrected in the diagram or configuration.
 > 
