@@ -22,7 +22,7 @@ title: WissKI Bits Ontology-Based Modelling of Research Data
 
 module: Fast Track – From Collection Object to WissKI Paths
 
-unit: Exercise-Based Walkthrough for Experienced Users
+unit: Exercise-Based Walkthrough for Expert Users
 
 description: This SODa WissKI Bits fast track guides experienced users through the practical steps of ontology-based modelling of research data. Using a computer game collection as an example, participants create a conceptual model sketch, map selected concepts to CIDOC CRM, formalise an ontology section in Protégé, prepare a Draw.io diagram, and generate and import semantic paths and path groups in WissKI.
 
@@ -67,7 +67,7 @@ You will begin with a conceptual model sketch, examine selected CIDOC CRM mappin
 
 **Important:** The activities share a domain and modelling approach, but they do not constitute an automatic file-to-file pipeline. In particular, the Draw.io exercise starts from its **own prepared diagram** rather than an export of the ontology you edit in Protégé.
 
-### Time plan
+**Time Plan**
 
 | Activity | Time |
 |---|---:|
@@ -81,7 +81,9 @@ You will begin with a conceptual model sketch, examine selected CIDOC CRM mappin
 
 The time plan assumes familiarity with basic semantic modelling and access to a **prepared working environment**. Follow the bounded tasks below; use the linked full units for further explanation or extended exercises.
 
-## Before You Start — 5 min
+---
+
+### Before You Start — 5 min
 
 Have the following ready:
 
@@ -100,7 +102,7 @@ You will use the existing prepared files when prompted below. **Do not start by 
 
 *Based on Module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.*
 
-### Goal and starting point
+**Goal and starting point**
 
 Begin with the collection object *The Legend of Zelda: A Link to the Past*. Ask: **What do you need to know about this object, and how is this knowledge connected?** At this stage, use ordinary domain terminology rather than formal CIDOC CRM classes.
 
@@ -112,7 +114,9 @@ Consider three areas from the original activation exercise:
 
 Actors, events, places and times can be considered where they help explain the selected relationships. Distinguish the game as content from a physical game copy if this affects your statements.
 
-### Task: Complete the conceptual-model puzzle
+---
+
+### Task 1: Complete the Conceptual-Model Puzzle
 
 1. Open [Draw.io](https://app.diagrams.net/) and load the tutorial's prepared [puzzle template (`puzzle.drawio_en.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/assets/puzzle.drawio_en.xml).
 2. Review the **provided** concepts, events and relationships. Arrange and connect the relevant elements to form a meaningful conceptual model sketch of the example object.
@@ -122,7 +126,7 @@ Actors, events, places and times can be considered where they help explain the s
 
 **Result:** A conceptual sketch that makes selected domain concepts and relationships visible. **Do not assign CIDOC CRM classes yet.**
 
-### Transition to the next exercise
+**Transition to the Next Exercise**
 
 Your sketch expresses domain knowledge in familiar terms. The next exercise asks whether selected concepts can be represented adequately by **existing CIDOC CRM classes**, and why.
 
@@ -132,13 +136,15 @@ Your sketch expresses domain knowledge in familiar terms. The next exercise asks
 
 *Based on Module 1, Exercise M1UE: Application Example from Object Collections.*
 
-### Goal
+**Goal**
 
 Use the conceptual sketch as the starting point for **provisional** semantic mappings. A similar-sounding class name is not enough: compare the intended meaning of each concept with the class's **scope note**.
 
 ![Concept mind map from the Module 1 exercise](../WissKIBits_Modul1/assets/mindmap_en.png)
 
-### Task 1: Explore and justify initial mappings
+---
+
+### Task 1: Explore and Justify Initial Mappings
 
 1. Select **two concepts or events** from your sketch. Clarify what each means in the collection context.
 2. Consult the [CIDOC CRM documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) and identify candidate classes. Depending on your chosen concepts, useful starting points may include `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` or `E74 Group`.
@@ -150,13 +156,15 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 | Concept 1 | | | |
 | Concept 2 | | | |
 
-### Task 2: Compare modelling decisions
+---
+
+### Task 2: Compare Modelling Decisions
 
 Discuss or reflect briefly: Could the same domain term refer to different things depending on the research question? For example, is a name being used as a title, an identifier, or another kind of appellation? Which additional information would resolve the ambiguity?
 
 **Result:** Two **justified, provisional mappings** and any remaining uncertainty. This is a semantic modelling decision, **not yet an OWL ontology**.
 
-### Transition to the next exercise
+**Transition to the next exercise**
 
 You have explored the difference between a domain concept and a reference-model class. In Protégé, you will now make selected modelling choices explicit as **domain-specific subclasses** of existing CIDOC CRM classes.
 
@@ -166,30 +174,36 @@ You have explored the difference between a domain concept and a reference-model 
 
 *Based on Module 2, Exercise M2UE: Modelling with CIDOC CRM in Protégé.*
 
-### Goal
+**Goal**
 
 Formalise a **limited section** of the computer games domain. Follow the tutorial's lightweight extension strategy: **create subclasses of existing CIDOC CRM classes and reuse existing CIDOC CRM properties; do not define new properties.**
 
 ![Concept mind map from the Module 2 exercise](../WissKIBits_Modul2/assets/Mindmap.png)
 
-### Step 1: Load Erlangen CRM
+> **Step 1: Load Erlangen CRM**
+>
+> Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé. 
+> 
+> If you need a reminder of the interface, consult the original [Module 2 exercise](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial) and its first-steps video.
 
-Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé. If you need a reminder of the interface, consult the original [Module 2 exercise](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial) and its first-steps video.
+> **Step 2: Explore relevant classes**
+> 
+> Find these classes in the hierarchy:
+> 
+> - `E41 Appellation`
+> - `E35 Title` (a subclass of `E41 Appellation`)
+> - `E55 Type`
+> - `E73 Information Object`
+>
+> For each, inspect its place in the hierarchy, annotations and **scope note**. Pay particular attention to the distinction between a general appellation and a title.
 
-### Step 2: Explore relevant classes
-
-Find these classes in the hierarchy:
-
-- `E41 Appellation`
-- `E35 Title` (a subclass of `E41 Appellation`)
-- `E55 Type`
-- `E73 Information Object`
-
-For each, inspect its place in the hierarchy, annotations and **scope note**. Pay particular attention to the distinction between a general appellation and a title.
-
-### Step 3: Revisit selected mappings
-
-Compare the conceptual decisions from Exercise 2 with the formal classes. The original exercise uses examples such as:
+> **Step 3: Revisit selected mappings**
+>
+> Compare the conceptual decisions from Exercise 2 with the formal classes. 
+>
+> Do not assume that a mapping is correct merely because the names resemble one another.
+>
+> The original exercise uses examples such as:
 
 | Domain concept | Possible CIDOC CRM class | Question to check |
 |---|---|---|
@@ -197,23 +211,14 @@ Compare the conceptual decisions from Exercise 2 with the formal classes. The or
 | Game genre | `E55 Type` | What exactly is being classified? |
 | Game platform type | `E55 Type` | Is this a classification of the game? |
 
-Do not assume that a mapping is correct merely because the names resemble one another.
 
-### Step 4: Create domain-specific subclasses
-
-Create the selected example subclasses under the corresponding CIDOC CRM classes:
-
-```text
-E73 Information Object
-└── Computer_Game
-
-E35 Title
-└── Game_Title
-
-E55 Type
-├── Game_Genre_Type
-└── Game_Platform_Type
-```
+> **Step 4: Create domain-specific subclasses**
+> 
+> Create the selected example subclasses under the corresponding CIDOC CRM classes:
+> 
+> - E73 Information Object →  Computer_Game
+> - E35 Title → Game_Title
+> - E55 Type → Game_Genre_Type, Game_Platform_Type
 
 Use existing CIDOC CRM properties to express intended relationships; the original exercise highlights:
 
@@ -225,13 +230,13 @@ Use existing CIDOC CRM properties to express intended relationships; the origina
 
 **Do not create new CIDOC CRM properties.** These rows describe the intended model; inspect the corresponding properties in Protégé and document your choices rather than assuming that the table itself implements the relations.
 
-### Steps 5–6: Review, document and save
+**Steps 5–6: Review, document and save**
 
 Check that the subclasses are placed under suitable superclasses, that the reused properties express the intended relationships, and that unresolved questions are recorded. Save your work as described in the original exercise if you wish to retain the edited ontology section.
 
 **Result:** A small formalised and documented ontology section, **not** a complete games ontology.
 
-### Transition to the next exercise
+**Transition to the next exercise**
 
 The next exercise uses the **prepared Draw.io gap diagram** from Module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
 
@@ -241,13 +246,15 @@ The next exercise uses the **prepared Draw.io gap diagram** from Module 3. It re
 
 *Based on Module 3, Exercise M3UE1: Visualising a Domain Ontology as a Diagram.*
 
-### Goal
+**Goal**
 
 Represent connected semantic paths using selected ontology classes and existing CIDOC CRM properties. Work with the **prepared gap diagram** rather than drawing a new model from scratch.
 
 ![Example of the ontology diagram](../WissKIBits_Modul3/assets/MusterDrawio.png)
 
-### Task: Complete the prepared diagram
+---
+
+### Task 1: Complete the prepared diagram
 
 1. Download the original [Draw.io XML gap diagram (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) and open it in [Draw.io](https://app.diagrams.net/).
 2. Identify the missing nodes and edges and replace the temporary `(???)` placeholders.
@@ -270,7 +277,7 @@ mega:E73_Computer_Game
 
 **Result:** A completed Draw.io XML diagram ready for the existing gnm-service.
 
-### Transition to the next exercise
+**Transition to the next exercise**
 
 The diagram describes semantic paths visually. The gnm-service converts its XML representation into a **WissKI Pathbuilder XML configuration**, which you will import and inspect in WissKI.
 
@@ -280,13 +287,13 @@ The diagram describes semantic paths visually. The gnm-service converts its XML 
 
 *Based on Module 3, Exercise M3UE2: Draw.io to WissKI Paths.*
 
-### Goal
+**Goal**
 
 Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting **configuration** into WissKI, and compare the imported paths and path groups with the source diagram.
 
 ![WissKI Pathbuilder example](../WissKIBits_Modul3/assets/pathbuilder.jpg)
 
-### Step 1: Transform the Draw.io diagram
+### Step 1: Transform the Draw.io Diagram
 
 1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 2. Upload the **completed Draw.io XML file** from Exercise 4.
@@ -295,7 +302,9 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 
 The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
 
-### Step 2: Check the ontology in WissKI
+---
+
+### Step 2: Check the Ontology in WissKI
 
 Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
 
@@ -303,7 +312,9 @@ Log in to your prepared WissKI instance and navigate to **WissKI → Configurati
 
 **Important:** Importing Pathbuilder XML does **not** import or define the ontology. The referenced classes and properties must already be available in the ontology used by WissKI.
 
-### Step 3: Create a Pathbuilder and import the XML
+---
+
+### Step 3: Create a Pathbuilder and Import the XML
 
 1. Navigate to **Configuration → Pathbuilders**.
 2. Select **Add Pathbuilder**, assign a unique name and choose the designated adapter.
@@ -311,13 +322,14 @@ Log in to your prepared WissKI instance and navigate to **WissKI → Configurati
 4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
 5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
 
-### Step 4: Examine the imported paths and path groups
+---
+
+### Step 4: Examine the Imported Paths and Path Groups
 
 Find the relationship:
 
-```text
-Computer_Game → P102 has title → Game_Title
-```
+**Computer_Game → P102 has title → Game_Title**
+
 
 Check which path group contains it, identify the property linking the classes, and compare the result with the source diagram. Use the following questions from the original exercise as a quick check:
 
@@ -325,7 +337,9 @@ Check which path group contains it, identify the property linking the classes, a
 - Which property connects the source and target classes? (**P102 has title**.)
 - Does the imported path correspond to your source diagram? **Check the actual result**, rather than assuming that the import guarantees correctness.
 
-### Step 5: Verify the generated paths
+---
+
+### Step 5: Verify the Generated Paths
 
 Compare the imported Pathbuilder configuration with the Draw.io diagram. Check whether the expected path groups exist, the relevant classes and properties are present, and any paths are missing, unexpected or incorrectly grouped. Record anything that may need to be corrected in the diagram or configuration.
 
@@ -346,7 +360,9 @@ Compare the imported Pathbuilder configuration with the Draw.io diagram. Check w
 >
 > After reviewing the imported Pathbuilder configuration, you can proceed to generating bundles and fields for data entry and display in WissKI, as described in the full tutorial.
 
-## Optional Reference: gnm-service Example Files
+---
+
+## Optional Reference: Gnm-service Example Files
 
 The service provides additional examples for checking the transformation format. **They are references, not extra mandatory inputs for this fast track.**
 
