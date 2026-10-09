@@ -170,7 +170,7 @@ You have explored the difference between a domain concept and a reference-model 
 
 Formalise a **limited section** of the computer games domain. Follow the tutorial's lightweight extension strategy: **create subclasses of existing CIDOC CRM classes and reuse existing CIDOC CRM properties; do not define new properties.**
 
-![Concept mind map from the Module 2 exercise](../WissKIBits_Modul2/assets/mindmap_en.png)
+![Concept mind map from the Module 2 exercise](../WissKIBits_Modul2/assets/Mindmap.png)
 
 ### Step 1: Load Erlangen CRM
 
