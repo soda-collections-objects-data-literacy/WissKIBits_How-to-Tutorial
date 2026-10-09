@@ -240,7 +240,7 @@ The module combines short inputs alternate with analysis, discussion, and modell
 
 The goal is not a complete data model. What matters is a **small, consistent, and justifiable model draft** that can later be expanded and technically implemented.
 
-> **How we Work**
+> **How we work**
 >
 > We begin with a short activation excersise using a concrete collection object.
 >

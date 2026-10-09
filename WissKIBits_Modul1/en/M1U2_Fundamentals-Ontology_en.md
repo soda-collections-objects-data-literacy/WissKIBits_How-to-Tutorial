@@ -83,7 +83,7 @@ This unit explains **why ontologies are used and what benefits they offer for co
 
 When modelling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardized way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
 
-> **Why Ontologies?**
+> **Why ontologies?**
 >
 > Ontologies help us to:
 >
@@ -99,7 +99,7 @@ When modelling research data from the humanities and cultural studies, the aim i
 
 ## Definitions and Basic Concepts of Ontologies
 
-> **What is an Ontology?**
+> **What is an ontology?**
 > 
 > An **ontology** formally defines concepts, relationships, and relevant modelling constraints within a domain.
 >

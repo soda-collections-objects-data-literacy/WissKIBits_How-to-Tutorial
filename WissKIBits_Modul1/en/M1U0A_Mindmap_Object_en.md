@@ -79,7 +79,7 @@ Your starting point is the computer game **The Legend of Zelda: A Link to the Pa
 
 Use the available information about the object and its context to decide **what should become part of your conceptual model**.
 
-> **Starting from the Object**
+> **Starting from the object**
 >
 > Do not think about CIDOC CRM classes yet.
 >
@@ -103,7 +103,7 @@ The following overview highlights some of the elements that may become relevant 
 
 This makes the domain a clear starting point for recognising different perspectives on an object and deriving initial **modelling decisions** from them.
 
-> **Why Computer Games?**
+> **Why computer games?**
 >
 > Computer games provide a useful modelling example because they combine:
 >
@@ -207,7 +207,7 @@ You now have a first conceptual model sketch containing:
 
 ---
 
-> **Next: Understanding What You Have Modelled**
+> **Next:**
 >
 > Keep your conceptual model sketch. In **Unit 1**, you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
 >
