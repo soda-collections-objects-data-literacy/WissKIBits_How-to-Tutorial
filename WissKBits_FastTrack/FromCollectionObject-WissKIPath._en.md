@@ -219,6 +219,8 @@ Formalise a **limited section** of the computer games domain. Follow the tutoria
 > - E73 Information Object →  Computer_Game
 > - E35 Title → Game_Title
 > - E55 Type → Game_Genre_Type, Game_Platform_Type
+>
+> **Do not create new CIDOC CRM properties.** These rows describe the intended model; inspect the corresponding properties in Protégé and document your choices rather than assuming that the table itself implements the relations.
 
 Use existing CIDOC CRM properties to express intended relationships; the original exercise highlights:
 
@@ -228,17 +230,15 @@ Use existing CIDOC CRM properties to express intended relationships; the origina
 | `Computer_Game` | `P2 has type` | `Game_Genre_Type` | A game is assigned to a genre type. |
 | `Computer_Game` | `P2 has type` | `Game_Platform_Type` | A game is assigned to a platform type. |
 
-**Do not create new CIDOC CRM properties.** These rows describe the intended model; inspect the corresponding properties in Protégé and document your choices rather than assuming that the table itself implements the relations.
-
-**Steps 5–6: Review, document and save**
-
-Check that the subclasses are placed under suitable superclasses, that the reused properties express the intended relationships, and that unresolved questions are recorded. Save your work as described in the original exercise if you wish to retain the edited ontology section.
-
-**Result:** A small formalised and documented ontology section, **not** a complete games ontology.
-
-**Transition to the next exercise**
-
-The next exercise uses the **prepared Draw.io gap diagram** from Module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
+> **Steps 5–6: Review, document and save**
+>
+> Check that the subclasses are placed under suitable superclasses, that the reused properties express the intended relationships, and that unresolved questions are recorded. Save your work as described in the original exercise if you wish to retain the edited ontology section.
+> 
+> **Result:** A small formalised and documented ontology section, **not** a complete games ontology.
+> 
+> **Transition to the next exercise**
+> 
+> The next exercise uses the **prepared Draw.io gap diagram** from Module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
 
 ---
 
@@ -265,13 +265,13 @@ Represent connected semantic paths using selected ontology classes and existing 
 
 A path illustrated in the original exercise is:
 
-```text
 mega:E73_Computer_Game
+
   → P102_has_title
   → mega:E35_Game_Title
   → P190 has symbolic content
   → E62_String
-```
+
 
 **Check before conversion:** No `(???)` placeholders remain; connections are complete; class/property names and required attributes are consistent; the diagram contains **classes and properties**, not individual instances.
 
@@ -293,57 +293,49 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 
 ![WissKI Pathbuilder example](../WissKIBits_Modul3/assets/pathbuilder.jpg)
 
-### Step 1: Transform the Draw.io Diagram
+> Step 1: Transform the Draw.io Diagram
+>
+> 1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
+> 2. Upload the **completed Draw.io XML file** from Exercise 4.
+> 3. Start the transformation and inspect the service response.
+> 4. Copy or retain the URL of the generated **Pathbuilder XML** file for the WissKI import.
+>
+> The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
 
-1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-2. Upload the **completed Draw.io XML file** from Exercise 4.
-3. Start the transformation and inspect the service response.
-4. Copy or retain the URL of the generated **Pathbuilder XML** file for the WissKI import.
+> Step 2: Check the Ontology in WissKI
+>
+> Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
+> 
+> [Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf)
+> 
+> **Important:** Importing Pathbuilder XML does **not** import or define the ontology. The referenced classes and properties must already be available in the ontology used by WissKI.
 
-The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
+> Step 3: Create a Pathbuilder and Import the XML
+>
+> 1. Navigate to **Configuration → Pathbuilders**.
+> 2. Select **Add Pathbuilder**, assign a unique name and choose the designated adapter.
+> 3. Save and open the new Pathbuilder.
+> 4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
+> 5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
 
----
+> Step 4: Examine the Imported Paths and Path Groups
+>
+> Find the relationship:
+> 
+> **Computer_Game → P102 has title → Game_Title**
+> 
+> 
+> Check which path group contains it, identify the property linking the classes, and compare the result with the source diagram. Use the following questions from the original exercise as a quick check:
+>
+> - Which path group contains this relationship? (Look for **Computer Game**.)
+> - Which property connects the source and target classes? (**P102 has title**.)
+> - Does the imported path correspond to your source diagram? **Check the actual result**, rather than assuming that the import guarantees correctness.
 
-### Step 2: Check the Ontology in WissKI
-
-Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
-
-[Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf)
-
-**Important:** Importing Pathbuilder XML does **not** import or define the ontology. The referenced classes and properties must already be available in the ontology used by WissKI.
-
----
-
-### Step 3: Create a Pathbuilder and Import the XML
-
-1. Navigate to **Configuration → Pathbuilders**.
-2. Select **Add Pathbuilder**, assign a unique name and choose the designated adapter.
-3. Save and open the new Pathbuilder.
-4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
-5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
-
----
-
-### Step 4: Examine the Imported Paths and Path Groups
-
-Find the relationship:
-
-**Computer_Game → P102 has title → Game_Title**
-
-
-Check which path group contains it, identify the property linking the classes, and compare the result with the source diagram. Use the following questions from the original exercise as a quick check:
-
-- Which path group contains this relationship? (Look for **Computer Game**.)
-- Which property connects the source and target classes? (**P102 has title**.)
-- Does the imported path correspond to your source diagram? **Check the actual result**, rather than assuming that the import guarantees correctness.
-
----
-
-### Step 5: Verify the Generated Paths
-
-Compare the imported Pathbuilder configuration with the Draw.io diagram. Check whether the expected path groups exist, the relevant classes and properties are present, and any paths are missing, unexpected or incorrectly grouped. Record anything that may need to be corrected in the diagram or configuration.
-
-**Result:** A generated, imported and **checked WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
+> Step 5: Verify the Generated Paths
+> 
+> Compare the imported Pathbuilder configuration with the Draw.io diagram. Check whether the expected path groups exist, the relevant classes and properties are present, and any paths are missing, unexpected or incorrectly grouped. Record anything that may need to be corrected in the diagram or configuration.
+> 
+> **Result:** A generated, imported and **checked WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
 
 ---
 
