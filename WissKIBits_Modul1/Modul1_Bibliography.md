@@ -28,7 +28,8 @@ Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
  
   Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford University. https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
  
-  (Rehbein, 2017)           Rehbein, M. (2017). Ontologien. In F. Jannidis, H. Kohle, & M. Rehbein (Eds), Digital Humanities: Eine Einführung (pp. 162–176). J.B. Metzler. https://doi.org/10.1007/978-3-476-05446-3_11
+  (Rehbein, 2017)           Rehbein, M. (2017). Ontologien. In F. Jannidis, H. Kohle, & M. Rehbein (Eds), Digital Humanities: Eine Einführung (pp. 162–176). J.B. 
+                            Metzler. https://doi.org/10.1007/978-3-476-05446-3_11
  
   Reichert, R., & Hastik, C. (2025). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1: Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. https://doi.org/10.5281/ZENODO.16761352
  
