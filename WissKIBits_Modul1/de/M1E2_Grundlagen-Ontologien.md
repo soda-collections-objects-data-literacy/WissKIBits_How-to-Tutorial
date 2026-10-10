@@ -93,7 +93,7 @@ Ontologien helfen dabei:
 
 **Ontologie**
 
-Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Weller2013ontologies, S. 207)
+Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Weller, 2013, S. 207)
 
 Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber1993knowledge, S. 200)
 
@@ -118,7 +118,7 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 
 **Klassen (Classes/Concepts)**  
 
-"Klassen (Classes/Concepts) repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller2013ontologies, S. 208)
+"Klassen (Classes/Concepts) repräsentieren Allgemeinbegriffe, also Konzepte eines Interessensgebiets, die reale Objekte anhand von gemeinsamen Eigenschaften bündeln sollen. Sie sind meist grundlegend hierarchisch strukturiert." (Weller, 2013, S. 208)
 
 > Beispiel:
 >
@@ -126,7 +126,7 @@ Ontologien bestehen typischerweise aus folgenden Bausteinen:
 
 **Instanzen (Instances)**    
 
-"Instanzen (Instances) repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller2013ontologies, S. 208)
+"Instanzen (Instances) repräsentieren Individualbegriffe, also konkrete Vertreter der einzelnen Klassen." (Weller, 2013, S. 208)
 
 > Beispiel:
 >
@@ -138,7 +138,7 @@ Klassen (Classes/Concepts) und Instanzen (Instances) können in ihrer Bedeutung 
 Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Relationen. Dabei gibt es zwei grundlegende Möglichkeiten in der Umsetzung:
 
 - Eine Eigenschaft (Property) stellt eine Beziehung her zwischen zwei Klassen (Classes/Concepts) 
-- Eine Eigenschaft (Property) beschreibt eine einzelne Klasse (Class/Concept) , ohne sie mit anderen Klassen (Classes/Concepts) zu verbinden. (Weller2013ontologies, S. 208)
+- Eine Eigenschaft (Property) beschreibt eine einzelne Klasse (Class/Concept) , ohne sie mit anderen Klassen (Classes/Concepts) zu verbinden. (Weller, 2013, S. 208)
 
 > Beispiel:
 >
@@ -178,7 +178,7 @@ In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CI
 
 [Rehbein, 2017] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
-[Weller2013ontologies] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
+[Weller, 2013] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
 ---
 

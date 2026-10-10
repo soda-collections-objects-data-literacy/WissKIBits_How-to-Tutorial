@@ -53,7 +53,8 @@ Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
  
   Uschold, M., & King, M. (1995). Towards a Methodology for Building Ontologies. IJCAI-95 - Workshop on Basic Ontological Issues in Knowledge Sharing. https://www.aiai.ed.ac.uk/project/oplan/documents/1995/95-ont-ijcai95-ont-method.pdf
   
-  Weller, K. (2013). B 6 Ontologien. In R. Kuhlen, W. Semar, & D. Strauch (Eds), Grundlagen der praktischen Information und Dokumentation (pp. 207–218). DE GRUYTER SAUR. https://doi.org/10.1515/9783110258264.207
+  (Weller, 2013)            Weller, K. (2013). B 6 Ontologien. In R. Kuhlen, W. Semar, & D. Strauch (Eds), Grundlagen der praktischen Information und Dokumentation 
+                            (pp. 207–218). DE GRUYTER SAUR. https://doi.org/10.1515/9783110258264.207
   
   Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
   
