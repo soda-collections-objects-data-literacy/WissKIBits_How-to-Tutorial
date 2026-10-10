@@ -67,7 +67,7 @@ Teilnehmende können...
 
 ## Grundlage von Ontologien
 
-Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein2017ontologies, S. 164) und in einer maschinenlesbaren Form darzustellen.
+Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein, 2017, S. 164) und in einer maschinenlesbaren Form darzustellen.
 
 In dieser Einheit wird erläutert, **warum Ontologien genutzt werden und welchen Nutzen sie für die Sammlungsdokumentation haben.** Dazu werden die wichtigsten **Begriffe** und **Bausteine von Ontologien** definiert und erläutert und ihe **Funktion** für die strukturierte und semantische Beschreibung von Sammlungsinformationen erläutert.
 
@@ -146,7 +146,7 @@ Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Re
 
 **Bedingungen (Constraints)**  
 
-"Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein2017ontologies, S. 164)
+"Für Attribute und Relationen kann eine Ontologie **Bedingungen** *(constraints)* festlegen, die ihren Gebrauch näher definieren und sicherstellen sollen, dass die Ontologie in sich logisch konsistent ist." (Rehbein, 2017, S. 164)
 
 > Beispiel:
 >
@@ -156,7 +156,7 @@ Eigenschaften (Properties) modellieren Klasseneigenschaften über semantische Re
 
 ## Nutzen von Ontologien
 
-Ontologien sind eine Form der Wissensrepräsention mit einem hohen Abstraktionsniveau. Sie haben **"einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell"** (Herv. d. A.) verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant. (Rehbein2017ontologies, S. 162)
+Ontologien sind eine Form der Wissensrepräsention mit einem hohen Abstraktionsniveau. Sie haben **"einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell"** (Herv. d. A.) verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant. (Rehbein, 2017, S. 162)
 
 Der besondere Nutzen von Ontologien liegt darin, dass sie Konzepte und Begriffe, Eigenschaften und Beziehungen und ihre Bedeutung aus einem Wissensbereich **formal und eindeutig beschreibbar machen**. Damit können Daten auch über einzelne Sammlungen, Proijekte oder Systeme hinweg miteinander in Beziehung gesetzt und gemeinsam ausgewertet werden. Die formale Beschreibung emröglicht zudem eine maschinelle Verarbeitung der Daten. 
 
@@ -176,7 +176,7 @@ In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CI
 
 [Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
+[Rehbein, 2017] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
 [Weller2013ontologies] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 

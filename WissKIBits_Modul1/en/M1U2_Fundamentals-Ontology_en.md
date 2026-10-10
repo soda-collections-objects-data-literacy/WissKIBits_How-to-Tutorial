@@ -67,7 +67,7 @@ Participants will be able to...
 
 ## Fundamentals of Ontologies
 
-**Conceptual knowledge modelling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein2017ontologies, p. 164) and represent them in a machine-readable form.
+**Conceptual knowledge modelling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein, 2017, p. 164) and represent them in a machine-readable form.
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
@@ -167,7 +167,7 @@ A property can be restricted to connect only certain types of classes or values.
 
 **Constraints**  
 
-“For attributes and relations, an ontology can define **constraints** that specify their use in greater detail and are intended to ensure that the ontology is logically consistent in itself.” (Rehbein2017ontologies, p. 164)
+“For attributes and relations, an ontology can define **constraints** that specify their use in greater detail and are intended to ensure that the ontology is logically consistent in itself.” (Rehbein, 2017, p. 164)
 
 Example: A release date must be represented as a date value rather than as a person or organisation.
 
@@ -190,7 +190,7 @@ Example: A release date must be represented as a date value rather than as a per
 
 ---
 
-Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein2017ontologies, p. 162)
+Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein, 2017, p. 162)
 
 The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyse data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
 
@@ -212,7 +212,7 @@ Ontologies provide the foundation for modelling knowledge about collection objec
 
 [Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-[Rehbein2017ontologies] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
+(Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
 [Weller2013ontologies] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
