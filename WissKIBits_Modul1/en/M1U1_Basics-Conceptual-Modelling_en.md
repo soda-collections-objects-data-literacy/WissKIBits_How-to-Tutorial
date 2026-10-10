@@ -107,9 +107,9 @@ Examples include “person participated in production,” “production took pla
 
 **Conceptual knowledge modelling** identifies and organises the knowledge relevant to a particular domain.
 
-**Semantic modelling** is preceded by the conceptualisation of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modelling** represents this conceptual knowledge structure in a formalised model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modelling (Fichtner2025paths, p. 86).
+**Semantic modelling** is preceded by the conceptualisation of a domain of knowledge. In this step, relevant terms, concepts, and relationships are identified, structured, and defined in terms of their domain-specific meaning. The subsequent **semantic modelling** represents this conceptual knowledge structure in a formalised model (Rehbein2017ontology, p. 164; Schwenk2025conservation, p. 23). It therefore requires both an understanding of the respective subject area and competencies in formal modelling (Fichtner, 2025, p. 86).
 
-The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner2025paths, p. 58)
+The result of this process is a **semantic data model**. It does not represent the individual concrete research data themselves, but instead describes, as a conceptual and formal framework, how data within a domain are understood, interpreted, and related to one another. (Spasojevic2025glossary; Schwenk2025conservation, p. 21) By making the meaning of the data explicit and describing it formally, it creates the conditions for the data to remain interpretable and reusable in the long term. (Fichtner, 2025, p. 58)
 
 > **Key takeaway is:**
 >
@@ -238,7 +238,7 @@ Through conceptual knowledge modelling, you have taken a first step in determini
 
 ## Bibliography
 
-[Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
+[Fichtner, 2025] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
 
 (Fischer & Hofer, 2010) Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
 
