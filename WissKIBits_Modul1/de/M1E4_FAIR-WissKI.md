@@ -98,7 +98,7 @@ So entstehen interoperable und nachnutzbare Wissensbestände. Ihre konkrete FAIR
 
 WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/) in Nürnberg eingesetzt —
 
-- dem größten kulturhistorischen Museum im deutschsprachigen Raum (GNMo.D.stakeholders)
+- dem größten kulturhistorischen Museum im deutschsprachigen Raum ()
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
 Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
@@ -115,11 +115,11 @@ Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair
 
 ## WissKI und Drupal 
 
-WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg2025wisski), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. (Drupal2024core)
+WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg2025wisski), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. ((Drupal, 2024))
 
 ![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
->  **Abbildung:** WissKI Integration in Drupal (Fichtner2023wisski, S.2)
+>  **Abbildung:** WissKI Integration in Drupal (Fichtner et al., 2023, S.2)
 
 ---
 
@@ -274,11 +274,11 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 
 ## Bibliografie
 
-[Drupal2024core] Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
+[(Drupal, 2024)] Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
 
-[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure* , 1. https://doi.org/10.52825/cordi.v1i.353
+[Fichtner et al., 2023] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure* , 1. https://doi.org/10.52825/cordi.v1i.353
 
-[GNMo.D.stakeholders] Germanisches Nationalmuseum (GNM) (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
+[] Germanisches Nationalmuseum (GNM) (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
 [GNMo.D.research] Germanisches Nationalmuseum (GNM) (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
 

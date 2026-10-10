@@ -126,7 +126,7 @@ This creates interoperable and reusable knowledge resources. Their specific FAIR
 
 WissKI is used, among other places, at the [**Germanisches Nationalmuseum (GNM)**](https://www.gnm.de/) in Nuremberg —
 
-- the largest museum of cultural history in the German-speaking world (GNMo.D.stakeholders)
+- the largest museum of cultural history in the German-speaking world 
 - which sets standards for digital research infrastructures.
 
 WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of its digital research infrastructure. This illustrates how semantic technologies can support research and collection data management in an institutional context.
@@ -143,11 +143,11 @@ WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of 
 
 ## WissKI and Drupal 
 
-WissKI is **not standalone software**, but a set of modules (knurg2025wisski) that semantically extend the [**Drupal**](https://new.drupal.org/) content management system with functionality for ontology-based research data management. (Drupal2024core)
+WissKI is **not standalone software**, but a set of modules (knurg2025wisski) that semantically extend the [**Drupal**](https://new.drupal.org/) content management system with functionality for ontology-based research data management. (Drupal, 2024)
 
 ![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
-> **Figure:** WissKI integration in Drupal (Fichtner2023wisski, p. 2)
+> **Figure:** WissKI integration in Drupal (Fichtner et al., 2023, p. 2)
 
 Drupal provides the underlying web application framework, while WissKI supports the use of semantic models for structuring and managing research data.
 
@@ -372,11 +372,9 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 (CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-[Drupal2024core] Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
+(Drupal, 2024) Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
 
-[Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1. https://doi.org/10.52825/cordi.v1i.353
-
-[GNMo.D.stakeholders] Germanisches Nationalmuseum (GNM) (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
+(Fichtner et al., 2023) Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1. https://doi.org/10.52825/cordi.v1i.353
 
 [GNMo.D.research] Germanisches Nationalmuseum (GNM) (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
 
