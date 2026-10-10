@@ -68,7 +68,7 @@ Participants will be able to...
 
 In **conceptual knowledge modelling**, the aim is to determine which knowledge is relevant within a domain and how this knowledge can be organised conceptually.
 
-A **domain** is a professionally delimited area of values, knowledge, and application (Fischer2010encyclop, p. 257) for which knowledge is described and modelled. In semantic modelling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
+A **domain** is a professionally delimited area of values, knowledge, and application (Fischer & Hofer, 2010) for which knowledge is described and modelled. In semantic modelling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
 > **Key Concepts**
 >
@@ -240,7 +240,7 @@ Through conceptual knowledge modelling, you have taken a first step in determini
 
 [Fichtner2025paths] Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung (Doctoral thesis, Friedrich-Alexander-Universität Erlangen-Nürnberg, Technische Fakultät). https://doi.org/10.25593/open-fau-2143
 
-[Fischer2010encyclop] Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
+(Fischer & Hofer, 2010) Fischer, P. & Hofer, P. (2010). Lexikon der Informatik. https://doi.org/10.1007/978-3-642-15126-2
 
 [Spasojevic2025glossary] Spasojević, A. (2024). Was ist ein semantisches Datenmodell? phoenixNAP IT Glossary. https://phoenixnap.de/Glossar/Semantisches-Datenmodell
 
