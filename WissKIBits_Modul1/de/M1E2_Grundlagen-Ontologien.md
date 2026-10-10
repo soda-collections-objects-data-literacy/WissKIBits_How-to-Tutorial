@@ -95,7 +95,7 @@ Ontologien helfen dabei:
 
 Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **"formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung."** (Weller, 2013, S. 207)
 
-Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber1993knowledge, S. 200)
+Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten spezifischen Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen. (Gruber, 1993, S. 200)
 
 **Eine Ontologie legt fest,...**
 
@@ -174,7 +174,7 @@ In der nächsten Einheit lernen wir mit dem CIDOC Conceptual Reference Model (CI
 
 ## Bibliografie
 
-[Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
+[Gruber, 1993] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
 [Rehbein, 2017] Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 

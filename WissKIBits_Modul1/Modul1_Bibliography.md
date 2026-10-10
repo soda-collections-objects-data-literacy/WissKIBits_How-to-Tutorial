@@ -18,7 +18,8 @@
   Germanisches Nationalmuseum (GNM). (n.d.-b). Sammlungen
 Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
  
-  Gruber, T. R. (1993). A translation approach to portable ontology specifications. Knowledge Acquisition, 5(2), 199–220. https://doi.org/10.1006/knac.1993.1008
+  (Gruber, 1993)            Gruber, T. R. (1993). A translation approach to portable ontology specifications. Knowledge Acquisition, 5(2), 199–220. 
+                            https://doi.org/10.1006/knac.1993.1008
  
   Harm Buss, M. C., Bayle Deutz, D., Holmstrand, F., Væring Larsen, A., & Vlachos, E. (2022). How to FAIR. What is FAIR? https://howtofair.dk/what-is-fair
  

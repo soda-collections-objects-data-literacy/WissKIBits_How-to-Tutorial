@@ -114,7 +114,7 @@ When modelling research data from the humanities and cultural studies, the aim i
 
 An ontology is a **formal description of a part of the world**, or a **“formal, schematic representation of a domain of knowledge, consisting of a vocabulary and rules for its composition.”** (Weller, 2013, p. 207)
 
-The best-known definition describes an ontology as an explicit, formal specification of a conceptualization; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber1993knowledge, p. 200)
+The best-known definition describes an ontology as an explicit, formal specification of a conceptualization; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber, 1993, p. 200)
 
 **An ontology specifies...**
 
@@ -210,11 +210,11 @@ Ontologies provide the foundation for modelling knowledge about collection objec
 
 ## Bibliography
 
-[Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
+(Gruber, 1993) Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
-[Weller, 2013] Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
+(Weller, 2013) Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
 ---
 

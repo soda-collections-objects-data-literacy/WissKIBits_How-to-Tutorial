@@ -63,7 +63,7 @@ Participants will be able to...
 
 Developing a domain ontology typically follows a methodological, multi-stage, and iterative approach and involves more than translating domain terms into ontology classes. 
 
-This includes, among other things, identifying central terms and definitions (so-called “ontology capture”) (Uschold1995method, p. 3), structuring concepts into classes and properties/relations, and continuously reviewing and revising the domain model with regard to consistency and usability. (Gruber1993knowledge)
+This includes, among other things, identifying central terms and definitions (so-called “ontology capture”) (Uschold1995method, p. 3), structuring concepts into classes and properties/relations, and continuously reviewing and revising the domain model with regard to consistency and usability. (Gruber, 1993)
 
 In Module 1, you created a conceptual model sketch and explored possible CIDOC CRM mappings. These initial decisions now need to be reviewed, refined, and represented more formally.
 
@@ -174,7 +174,7 @@ In the following unit, **Protégé** is introduced as an editor for modelling on
 
 ## Bibliography
 
-[Gruber1993knowledge] Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
+(Gruber, 1993) Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
 [Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
 
