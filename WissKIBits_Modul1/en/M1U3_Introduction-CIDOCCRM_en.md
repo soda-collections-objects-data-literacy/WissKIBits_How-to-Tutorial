@@ -89,7 +89,7 @@ It is **not a technical standard**, but a **paper document** ([Release Version 7
 
 It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
 
-It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (SIG2026cidoc)
+It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024)
 
 CIDOC CRM includes:
 
@@ -127,7 +127,7 @@ The official documentation provides a comprehensive introduction:
 
 ![CIDOC CRM Table of Contents](../WissKIBits_Modul1/assets/M1E3_CIDOC_TableofContents.png)
 
-> **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (SIG2024cidoc, p. 3).
+> **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (CiDOC, 2024, p. 3).
 
 ---
 
@@ -212,7 +212,7 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ![Example E39 Actor](../WissKIBits_Modul1/assets/E39Actor.jpg)
 
-> **Figure:** The figure illustrates the structure of a class description using “E39 Actor” in CIDOC CRM as an example. (SIG2024cidoc, p. 83)
+> **Figure:** The figure illustrates the structure of a class description using “E39 Actor” in CIDOC CRM as an example. (CiDOC, 2024, p. 83)
 
 ---
 
@@ -231,11 +231,11 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ---
 
-CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (SIG2024cidoc, p. 33)
+CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (CiDOC, 2024, p. 33)
 
 Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modeling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
 
-**RDF (Resource Description Framework)** is a standard for the formal description of statements about resources in the form of triples in WissKI. (W3C2014rdf)
+**RDF (Resource Description Framework)** is a standard for the formal description of statements about resources in the form of triples in WissKI. (W3C, 2014)
 
  Example: Zelda game (SNES) *The computer game “The Legend of Zelda: A Link to the Past” was developed by Nintendo in Kyoto, Japan, in 1991.* (Wikio.D.zelda)
 
@@ -279,7 +279,9 @@ Statements about resources take the form of **triples: subject–predicate–obj
 
 A **top-level ontology** describes general concepts such as time, space, or events independently of a specific subject or application area or a particular problem. (Rehbein, 2017, p. 165)
 
-A **domain ontology** specifies fundamental concepts of a top-level ontology for a particular subject or application area (domain) (Rehbein, 2017, p. 166). In a project- or application-specific implementation, the concepts, events, and relationships relevant to the domain are described.
+A **domain ontology** specifies fundamental concepts of a top-level ontology for a particular subject or application area (domain). (Rehbein, 2017, p. 166) 
+
+In a project- or application-specific implementation, the concepts, events, and relationships relevant to the domain are described.
 
 | Top-level ontology (basic structure) | Domain ontology (domain-specific) |
 |--------------------------------------|-----------------------------------|
@@ -325,9 +327,9 @@ WissKI uses CIDOC CRM because it …
 
 ## Outlook
 
-CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (SIG2024cidoc; Schwenk & Fischer, 2025)
+CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (CiDOC, 2024; Schwenk & Fischer, 2025)
 
-The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKIo.D.features). 
+The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.). 
 
 > **Next:**
 >
@@ -339,15 +341,15 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 ## Bibliography
 
-[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
 (Schwenk & Fischer, 2025) Schwenk, G. A. & Fischer, K. (2025). SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - Ontologieentwicklung im Dialog. https://doi.org/10.5281/zenodo.15481743
 
-[Wiki2026zelda] Wikipedia (2026) The Legend of Zelda: A Link to the Past. https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
+[Wikipedia, 2026] Wikipedia (2026) The Legend of Zelda: A Link to the Past. https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
 
-[WissKIo.D.features] WissKI (n.d.). Features. https://wiss-ki.eu/features
+(WissKI, n.d.) WissKI (n.d.). Features. https://wiss-ki.eu/features
 
-[W3C2014rdf] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts
+[W3C, 2014] World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts
 

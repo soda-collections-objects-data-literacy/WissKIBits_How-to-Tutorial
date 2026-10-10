@@ -69,7 +69,7 @@ Participants will be able to...
 
 ## WissKI in Brief
 
-**WissKI** (Scientific Communication Infrastructure) is (WissKIo.D.features):
+**WissKI** (Scientific Communication Infrastructure) is (WissKI, n.d.):
 
 - a free, open-source virtual research environment
 - developed for cultural heritage and research data
@@ -106,7 +106,7 @@ Participants will be able to...
 
 WissKI is **not just** a collection database.
 
-As a **semantic data management system**, it supports Linked Open Data (LOD) and therefore the FAIR principles: **Findable, Accessible, Interoperable, and Reusable** (WissKIo.D.features).
+As a **semantic data management system**, it supports Linked Open Data (LOD) and therefore the FAIR principles: **Findable, Accessible, Interoperable, and Reusable** (WissKI, n.d.).
 
 The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm2022fair) explains the **FAIR principles** and shows concrete areas of action for implementing them in research projects. (Reichert2025soda) 
 
@@ -370,6 +370,8 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 ## Bibliography
 
+(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+
 [Drupal2024core] Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
 
 [Fichtner2023wisski] Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1. https://doi.org/10.52825/cordi.v1i.353
@@ -388,15 +390,13 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 [W3C2001owl] OWL Working Group. (2012, Dezemberg 11). OWL - Web Ontology Language (OWL). World Wide Web Consortium. https://www.w3.org/OWL/
 
-[RDF2014rdf] RDF Working Group. (2014, Februar 25). RDF - Resource Description Framework (RDF). World Wide Web Consortium. https://www.w3.org/RDF/
+(W3C, 2014) RDF Working Group. (2014, Februar 25). RDF - Resource Description Framework (RDF). World Wide Web Consortium. https://www.w3.org/RDF/
 
 [Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
-[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
-
 [WissKIo.D.events] WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
 
-[WissKIo.D.features] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
+(WissKI, n.d.) WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
 [WissK2026wat] WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 

@@ -84,7 +84,7 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 
 ## Protégé in this Tutorial
 
-In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (SIG2024cidoc) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
+In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (CiDOC, 2024) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
 
 For the practical work in Protégé, you use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of CIDOC CRM.
 
@@ -135,7 +135,7 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 ## Bibliography
 
-[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
 [Schiemann2024crm] Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
 

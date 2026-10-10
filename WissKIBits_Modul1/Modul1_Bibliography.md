@@ -1,6 +1,7 @@
 # WissKI Bits How-to-Tutorial Module 1 Bibliography
 
-  CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from https://cidoc-crm.org/get-last-official-release
+  (CiDOC, 2024)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
+                            https://cidoc-crm.org/get-last-official-release
   
   Drupal Association. (2024). Drupal 11.4.5 Drupal Core [Computer software]. https://new.drupal.org/
  
@@ -57,14 +58,15 @@ Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
   (Weller, 2013)            Weller, K. (2013). B 6 Ontologien. In R. Kuhlen, W. Semar, & D. Strauch (Eds), Grundlagen der praktischen Information und Dokumentation 
                             (pp. 207–218). DE GRUYTER SAUR. https://doi.org/10.1515/9783110258264.207
   
-  Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
+  (Wikipedia, 2026)     Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. 
+                        https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
   
   WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
   WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
   
-  WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
+  (WissKI, n.d.)            WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
   
   World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer
   
-  World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax (W3C Recommendation). https://www.w3.org/TR/rdf11-concepts
+ (W3C, 2014)                World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax (W3C Recommendation). https://www.w3.org/TR/rdf11-concepts

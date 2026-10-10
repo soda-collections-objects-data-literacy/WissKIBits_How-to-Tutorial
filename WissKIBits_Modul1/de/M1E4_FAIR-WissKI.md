@@ -69,7 +69,7 @@ Teilnehmende können...
 
 ## WissKI in Kürze
 
-**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist (WissKIo.D.features):
+**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist (WissKI, n.d.):
 
 - eine freie, quelloffene virtuelle Forschungsumgebung
 - entwickelt für Kulturerbe- und Forschungsdaten
@@ -80,7 +80,7 @@ Teilnehmende können...
 
 WissKI ist **nicht nur** eine Sammlungsdatenbank.
 
-Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable** (WissKIo.D.features).
+Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable** (WissKI, n.d.).
 
 Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt (Hausenblast2012lod).
 
@@ -296,11 +296,11 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 
 [Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
-[SIG2024cidoc] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+[CiDOC, 2024] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
 [WissKIo.D.events] WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
 
-[WissKIo.D.features] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
+[WissKI, n.d.] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
 [WissK2026wat] WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 
