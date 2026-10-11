@@ -66,7 +66,7 @@
   
   (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
-  (WissKI, n.d.-b)          WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
+  (WissKI, n.d.)            WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
   
   (WissKI, n.d.-a)          WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
   

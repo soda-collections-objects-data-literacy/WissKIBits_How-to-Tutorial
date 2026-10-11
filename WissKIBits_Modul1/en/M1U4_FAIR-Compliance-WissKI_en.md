@@ -347,7 +347,7 @@ As a result, collection data are not merely documented, but semantically structu
 
 
 - **WissKI User Meeting:** https://wiss-ki.eu/taxonomy/term/63  
-  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.-b; WissKI2026wat).
+  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.; WissKI2026wat).
 
 
 ---
@@ -392,7 +392,7 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 (Reichert & Hastik, 2025) Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
-(WissKI, n.d.-b) WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
+(WissKI, n.d.) WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
 
 (WissKI, n.d.-a) WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
