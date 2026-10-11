@@ -38,7 +38,7 @@
                             Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. 
                             https://doi.org/10.5281/ZENODO.16761352
  
-  (Schiemann, 2024)         Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of      
+  (Schiemann, 2024)        Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of      
                             Erlangen-Nuremberg, Department of Computer Science, Chair of Artificial Intelligence. Retrieved 27 August 2026, from https://erlangen-crm.org/current-version
  
  (Schwenk & Fischer, 2025) Schwenk, G. A., & Fischer, K. (2025, May 21). SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - 
@@ -47,23 +47,11 @@
  (Spasojevic, 2024)        Spasojevic, A. (2024, June 18). Was ist ein semantisches Datenmodell? | phoenixNAP IT-Glossar. phoenixNAP IT Glossary. 
                             https://phoenixnap.de/Glossar/Semantisches-Datenmodell
  
-  Stanford University. (2022). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
- 
-  Stanford University. (2026a). Protégé. https://protege.stanford.edu/
- 
-  Stanford University. (2026b). Protégé Documentation. https://protege.stanford.edu/support/#documentation
- 
-  Stanford University. (2026c). Software Protégé. https://protege.stanford.edu/software
- 
-  Stuckenschmidt, H. (2011). Ontologien. Konzepte, Technologien und Anwendungen (2. Aufl.). Springer.
- 
-  Uschold, M., & King, M. (1995). Towards a Methodology for Building Ontologies. IJCAI-95 - Workshop on Basic Ontological Issues in Knowledge Sharing. https://www.aiai.ed.ac.uk/project/oplan/documents/1995/95-ont-ijcai95-ont-method.pdf
-  
  (Weller, 2013)            Weller, K. (2013). B 6 Ontologien. In R. Kuhlen, W. Semar, & D. Strauch (Eds), Grundlagen der praktischen Information und Dokumentation 
                             (pp. 207–218). DE GRUYTER SAUR. https://doi.org/10.1515/9783110258264.207
   
- (Wikipedia, 2026)     Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. 
-                        https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
+ (Wikipedia, 2026)         Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. 
+                            https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
   
  (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
@@ -71,7 +59,7 @@
   
  (WissKI, n.d.-a)          WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
   
- (W3C, 2001)                World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. 
+ (W3C, 2001)               World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. 
                             https://www.w3.org/TR/owl2-primer
   
  (W3C, 2014)                World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax (W3C Recommendation). https://www.w3.org/TR/rdf11-concepts
