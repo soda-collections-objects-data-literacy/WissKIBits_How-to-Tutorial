@@ -115,7 +115,7 @@ Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm, et al.
 
 ## WissKI und Drupal 
 
-WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg, 2025), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. ((Drupal, 2024))
+WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg, 2025), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. (Drupal, 2024)
 
 ![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
