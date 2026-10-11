@@ -124,7 +124,7 @@ This creates interoperable and reusable knowledge resources. Their specific FAIR
 
 ## WissKI at the GNM
 
-WissKI is used, among other places, at the [**Germanisches Nationalmuseum (GNM)**](https://www.gnm.de/) in Nuremberg —
+WissKI is used, among other places, at the [**Germanisches Nationalmuseum (GNM)**](https://www.gnm.de/) in Nuremberg
 
 - the largest museum of cultural history in the German-speaking world 
 - which sets standards for digital research infrastructures.
