@@ -214,6 +214,8 @@ Ontologies provide the foundation for modelling knowledge about collection objec
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), *Digital Humanities* (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
+(Stuckenschmidt, 2011) im Text referenziert? Fehlt nun schon zum zweiten Mal in den Einheiten obwohl in Zotero
+
 (Weller, 2013) Weller, K. (2013). B 6 Ontologien. In: R. Kuhlen, W. Semar, & D. Strauch (Hrsg.), *Grundlagen der praktischen Information und Dokumentationen* (S. 207-218). De Gruyter Saur.
 
 ---
