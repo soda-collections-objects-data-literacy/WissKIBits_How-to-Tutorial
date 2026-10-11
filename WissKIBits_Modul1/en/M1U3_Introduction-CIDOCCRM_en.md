@@ -329,7 +329,7 @@ WissKI uses CIDOC CRM because it …
 
 CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (CiDOC, 2024; Schwenk & Fischer, 2025)
 
-The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.). 
+The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.-a). 
 
 > **Next:**
 >
@@ -349,7 +349,7 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 (Wikipedia, 2026) Wikipedia (2026) The Legend of Zelda: A Link to the Past. https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
 
-(WissKI, n.d.) WissKI (n.d.). Features. https://wiss-ki.eu/features
+(WissKI, n.d.-a) WissKI (n.d.). Features. https://wiss-ki.eu/features
 
 (W3C, 2014) World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts
 

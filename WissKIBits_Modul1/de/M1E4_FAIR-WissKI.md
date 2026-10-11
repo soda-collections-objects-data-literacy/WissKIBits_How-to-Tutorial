@@ -69,7 +69,7 @@ Teilnehmende können...
 
 ## WissKI in Kürze
 
-**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist (WissKI, n.d.):
+**WissKI** (Wissenschaftliche Kommunikationsinfrastruktur) ist (WissKI, n.d.-a):
 
 - eine freie, quelloffene virtuelle Forschungsumgebung
 - entwickelt für Kulturerbe- und Forschungsdaten
@@ -80,11 +80,11 @@ Teilnehmende können...
 
 WissKI ist **nicht nur** eine Sammlungsdatenbank.
 
-Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable** (WissKI, n.d.).
+Als **semantisches Datenmanagementsystem** unterstützt es Linked Open Data (LOD) und damit die FAIR-Prinzipien: **Findable, Accessible, Interoperable und Reusable** (WissKI, n.d.-a).
 
 Einen Einstieg in LOD bietet das  [**5-Sterne-Modell** für offene Daten](https://5stardata.info/de/), das den Weg von digitalen Dokumenten zu vernetzten, maschinenlesbaren Daten beschreibt (Hausenblast2012lod).
 
-Technologien wie [Ressource Description Framework (RDF)](https://www.w3.org/RDF/) (RDF2014rdf) und die vom W3C standardisierte [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C2001owl) ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
+Technologien wie [Ressource Description Framework (RDF)](https://www.w3.org/RDF/) (RDF2014rdf) und die vom W3C standardisierte [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) ermöglichen es, Wissen formal und maschinenlesbar darzustellen sowie Daten semantisch zu verknüpfen.
 
 WissKI verwendet in der technischen Grundlage das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** in der aktuellen Version (Schiemann2024crm), eine OWL-Implementierung der aktuellen Version des CIDOC Conceptual Reference Model (CIDOC CRM). (SIG2026cidoc)
 
@@ -101,21 +101,21 @@ WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/
 - dem größten kulturhistorischen Museum im deutschsprachigen Raum ()
 - das Maßstäbe für digitale Forschungsinfrastrukturen setzt.
   
-Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm2022fair) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert2025soda) 
+Die Webseite [**How to FAIR**](https://howtofair.dk/what-is-fair/) (Harm, et al., 2022) erläutert die **FAIR-Prinzipien** und zeigt konkrete Handlungsfelder für ihre Umsetzung in Forschungsprojekten. (Reichert & Hastik, 2025) 
 
 ![GNM](../WissKIBits_Modul1/assets/gnm.jpg)
 
->  **Abbildung:** [Überblicksseite der Forschungsprojekte Archiv am GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) (GNMo.D.research)
+>  **Abbildung:** [Überblicksseite der Forschungsprojekte Archiv am GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) ( GNM, n.d.-a)
 
 ![GNM innen](../WissKIBits_Modul1/assets/gnm_2.JPG)
 
->  **Abbildung:** [Überblicksseite Sammlungen am GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNMo.D.collections)
+>  **Abbildung:** [Überblicksseite Sammlungen am GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) ( GNM, n.d.-b)
 
 ---
 
 ## WissKI und Drupal 
 
-WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg2025wisski), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. ((Drupal, 2024))
+WissKI ist **keine eigenständige Software** sondern ein Set an Modulen (knurg, 2025), die das Content-Management-System [**Drupal**](https://new.drupal.org/) semantisch erweitern. ((Drupal, 2024))
 
 ![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
 
@@ -256,7 +256,7 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
     
 - **WissKI Anwender\*innentreffen:** https://wiss-ki.eu/taxonomy/term/63
-**Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKIo.D.events; WissKI2026wat).
+**Jährliche Zusammenkunft der WissKI-Community** am Germanischen Nationalmuseum Nürnberg (GNM), um gemeinsam über Projekte und Themen zu diskutieren, sich über aktuelle Entwicklungen zu informieren und gemeinsam **Lösungen für Herausforderungen rund um die Weiterentwicklung und Nutzung von WissKI** zu finden (WissKI, n.d.-b; WissKI2026wat).
 
 ---
 
@@ -280,29 +280,29 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 
 [] Germanisches Nationalmuseum (GNM) (o. D.). Akteure, Architektur, Abteilungen. https://www.gnm.de/museum
 
-[GNMo.D.research] Germanisches Nationalmuseum (GNM) (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
+[ GNM, n.d.-a] Germanisches Nationalmuseum (GNM) (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
 
-[GNMo.D.collections] Germanisches Nationalmuseum (GNM) (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
+[ GNM, n.d.-b] Germanisches Nationalmuseum (GNM) (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
 
-[Hausenblas2012lod] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
+[Hausenblas, 2012] Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
 
-[Harm2022fair] Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). How to FAIR. https://howtofair.dk/what-is-fair/
+[Harm, et al., 2022] Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). How to FAIR. https://howtofair.dk/what-is-fair/
 
-[knurg2025wisski] knurg (2025). Drupal Modul WissKI. https://www.drupal.org/project/wisski
+[knurg, 2025] knurg (2025). Drupal Modul WissKI. https://www.drupal.org/project/wisski
 
-[W3C2001owl] OWL Working Group. (2012, Dezemberg 11). OWL - Web Ontology Language (OWL). World Wide Web Consortium. https://www.w3.org/OWL/
+[W3C, 2001] OWL Working Group. (2012, Dezemberg 11). OWL - Web Ontology Language (OWL). World Wide Web Consortium. https://www.w3.org/OWL/
 
 [RDF2014rdf] RDF Working Group. (2014, Februar 25). RDF - Resource Description Framework (RDF). World Wide Web Consortium. https://www.w3.org/RDF/
 
-[Reichert2025soda] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
+[Reichert & Hastik, 2025] Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
 [CiDOC, 2024] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-[WissKIo.D.events] WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
+[WissKI, n.d.-b] WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
 
-[WissKI, n.d.] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
+[WissKI, n.d.-a] WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
-[WissK2026wat] WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
+[WissKI, 2026 WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 
 
 

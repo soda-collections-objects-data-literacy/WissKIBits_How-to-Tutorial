@@ -15,25 +15,28 @@
  
   Freyberg, L. (2023). Visualisierung. Zeitschrift für digitale Geisteswissenschaften, 2. https://doi.org/10.17175/WP_2023_014_V2
  
-  Germanisches Nationalmuseum (GNM). (n.d.-a). Forschungsprojekte-Archiv. Retrieved https://www.gnm.de/forschung/forschungsprojekte-archiv
+  (GNM, n.d.-a)             Germanisches Nationalmuseum (GNM). (n.d.-a). Forschungsprojekte-Archiv. Retrieved https://www.gnm.de/forschung/forschungsprojekte-archiv
  
-  Germanisches Nationalmuseum (GNM). (n.d.-b). Sammlungen Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
+  (GNM, a.d.-b)             Germanisches Nationalmuseum (GNM). (n.d.-b). Sammlungen Von der Archäologie bis ins 20. Jahrhundert. Überblick Sammlungen.
  
   (Gruber, 1993)            Gruber, T. R. (1993). A translation approach to portable ontology specifications. Knowledge Acquisition, 5(2), 199–220. 
                             https://doi.org/10.1006/knac.1993.1008
  
-  Harm Buss, M. C., Bayle Deutz, D., Holmstrand, F., Væring Larsen, A., & Vlachos, E. (2022). How to FAIR. What is FAIR? https://howtofair.dk/what-is-fair
+  (Harm, et al., 2022)      Harm Buss, M. C., Bayle Deutz, D., Holmstrand, F., Væring Larsen, A., & Vlachos, E. (2022). How to FAIR. What is FAIR? 
+                            https://howtofair.dk/what-is-fair
  
-  Hausenblas, M. (2012). 5 ★ Offene Daten (M. Findeisen, Trans.). https://5stardata.info/de
+  (Hausenblas, 2012)        Hausenblas, M. (2012). 5 ★ Offene Daten (M. Findeisen, Trans.). https://5stardata.info/de
  
-  knurg. (2025, December 1). Drupal Modul: WissKi. WissKI | Drupal. https://www.drupal.org/project/wisski
+  (knurg, 2025)             knurg. (2025, December 1). Drupal Modul: WissKi. WissKI | Drupal. https://www.drupal.org/project/wisski
  
   Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford University. https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
  
   (Rehbein, 2017)           Rehbein, M. (2017). Ontologien. In F. Jannidis, H. Kohle, & M. Rehbein (Eds), Digital Humanities: Eine Einführung (pp. 162–176). J.B. 
                             Metzler. https://doi.org/10.1007/978-3-476-05446-3_11
  
-  Reichert, R., & Hastik, C. (2025). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1: Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. https://doi.org/10.5281/ZENODO.16761352
+  (Reichert & Hastik, 2025) Reichert, R., & Hastik, C. (2025). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1:     
+                            Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. 
+                            https://doi.org/10.5281/ZENODO.16761352
  
   Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of Erlangen-Nuremberg, Department of Computer Science, Chair of Artificial Intelligence. Retrieved 27 August 2026, from https://erlangen-crm.org/current-version
  
@@ -61,12 +64,13 @@
   (Wikipedia, 2026)     Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. 
                         https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
   
-  WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
+  (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
-  WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
+  (WissKI, n.d.-b)          WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
   
-  (WissKI, n.d.)            WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
+  (WissKI, n.d.-a)          WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
   
-  World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. https://www.w3.org/TR/owl2-primer
+  (W3C, 2001)                World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. 
+                            https://www.w3.org/TR/owl2-primer
   
- (W3C, 2014)                World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax (W3C Recommendation). https://www.w3.org/TR/rdf11-concepts
+  (W3C, 2014)                World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax (W3C Recommendation). https://www.w3.org/TR/rdf11-concepts
