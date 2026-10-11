@@ -114,7 +114,7 @@ An introduction to LOD is provided by the [**5-star model** for open data](https
 
 Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (RDF2014rdf) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
 
-As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann2024crm), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (SIG2026cidoc)
+As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (SIG2026cidoc)
 
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 

@@ -181,7 +181,7 @@ The module combines methodological input, demonstration, and guided application:
 
 - Participants learn basic methods and an iterative workflow for ontology development.
 - The user interface and central areas of Protégé are introduced in a live or video demonstration.
-- The current version of the OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann2024crm) is loaded and explored through its classes, object properties, and datatype properties.
+- The current version of the OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) is loaded and explored through its classes, object properties, and datatype properties.
 - The example object **“The Legend of Zelda: A Link to the Past”** and the model sketch developed in Module 1 once again serve as a common thread.
 - Selected concepts are compared with CIDOC CRM using the Scope Notes.
 - Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are modelled as subclasses.
