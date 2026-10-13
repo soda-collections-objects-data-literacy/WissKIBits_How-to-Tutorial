@@ -370,15 +370,15 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 ## Bibliography
 
-(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
 (Drupal, 2024) Drupal Association (2024) Drupal 11.4.5 Drupal Core. https://www.drupal.org/project/drupal/releases/11.4.5
 
 (Fichtner et al., 2023) Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. *Proceedings of the Conference on Research Data Infrastructure*, 1. https://doi.org/10.52825/cordi.v1i.353
 
-(GNM, n.d.-a) Germanisches Nationalmuseum (GNM) (o. D.). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
+(GNM, n.d.-a) Germanisches Nationalmuseum (GNM) (n.d.-a). Forschungsprojekte-Archiv. https://www.gnm.de/forschung/forschungsprojekte-archiv
 
-(GNM, n.d.-b) Germanisches Nationalmuseum (GNM) (o. D.). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
+(GNM, n.d.-b) Germanisches Nationalmuseum (GNM) (n.d.-b). Sammlungen. Von der Archäologie bis ins 20. Jahrhundert. https://www.gnm.de/sammlungen/ueberblick-sammlungen
 
 (Harm, et al., 2022) Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). How to FAIR. https://howtofair.dk/what-is-fair/
 
@@ -392,9 +392,9 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 (Reichert & Hastik, 2025) Reichert, R., & Hastik, C. (2025, August 7). *SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 1*. Zenodo. https://doi.org/10.5281/zenodo.16761352
 
-(WissKI, n.d.) WissKI. (o. D.). WissKI Events. https://wiss-ki.eu/events
+(WissKI, n.d.-a) WissKI. (n.d.-a). WissKI Events. https://wiss-ki.eu/events
 
-(WissKI, n.d.-a) WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
+(WissKI, n.d.-b) WissKI. (n.d.-b). WissKI Features. https://wiss-ki.eu/features
 
-(WissKI, 2026) WissKI. (o. D.). WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
+(WissKI, 2026) WissKI. (2026). WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 
