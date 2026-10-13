@@ -62,7 +62,7 @@ Participants will be able to...
 
 ## Objective and Scenario
 
-In this exercise, you will continue working with the **conceptual model sketch** developed in Module 1. You move from this **conceptual model sketch model** gradually further and transform it into a **formal ontology structure**.
+In this exercise, you will continue working with the **conceptual model sketch** developed in module 1. You move from this **conceptual model sketch model** gradually further and transform it into a **formal ontology structure**.
 
 
 Using **“The Legend of Zelda: A Link to the Past”** as an example, you will review selected CIDCO CRM mappings and implement a small section of the domain model in Protégé. 
@@ -75,7 +75,7 @@ Your goal is to create and document a small, formally represented model section 
 
 ## Starting Point
 
-Return to the conceptual model sketch and the initial CIDOC CRM mappings you developed in Module 1.
+Return to the conceptual model sketch and the initial CIDOC CRM mappings you developed in module 1.
 
 ![Concept Mind Map](../WissKIBits_Modul2/assets/mindmap_en.png)
 
@@ -135,7 +135,7 @@ These levels are related, but they are not interchangeable.
 
 **Format:** Individual work
 
-**Materials:** Computer with Protégé Desktop or WebProtégé, provided Erlangen CRM OWL file, model sketch from Module 1 
+**Materials:** Computer with Protégé Desktop or WebProtégé, provided Erlangen CRM OWL file, model sketch from module 1 
 
 **Time:** ~ 45 min.
 
@@ -167,7 +167,7 @@ Open your Protégé environment and load the provided OWL implementation of CIDO
 
 ---
 
-*Step 2: Explore Relevant CIDOC CRM classes**
+**Step 2: Explore relevant CIDOC CRM classes**
 
 Locate the following classes in the class hierarchy:
 
@@ -181,7 +181,7 @@ For each class, examine:
 - its position in the hierarchy,
 - its superclasses and subclasses,
 - its description and annotations,
-- and the information provided in its Scope Note.
+- and the information provided in its scope note.
 
 > Note:
 >
@@ -193,7 +193,7 @@ For each class, examine:
 
 ---
 
-**Step 3: Compare and Document Concepts**
+**Step 3: Compare and document concepts**
 
 Now your return to the conceptual model and first semantic mapping:
 
@@ -217,11 +217,11 @@ Ask:
 
 ---
 
-**Step 4: Create Domain-Specific Subclasses**
+**Step 4: Create domain-specific subclasses**
 
 Following the lightweight extension strategy introduced in M2U1, you will now create domain-specific subclasses in Protégé.
 
-**Example:** Domain-Specific Subclasses
+**Example:** Domain-specific subclasses
 
 E73 Information Object
 
@@ -238,7 +238,7 @@ E55 Type
 └── Game_Platform_Type
 
 
-**Example:** Reusing CIDOC CRM Properties
+**Example:** Reusing CIDOC CRM properties
 
 To express relationships between these concepts, use existing CIDOC CRM properties:
 
@@ -258,7 +258,7 @@ Briefly document your reasoning for your mapping as you can see in the table.
 
 ---
 
-**Step 5: Review the Model**
+**Step 5: Review the model**
 
 Inspect the ontology structure you have created in Protégé.
 
@@ -277,7 +277,7 @@ Revise the ontology where necessary.
 ---
 
 
-**Step 6: Document and Save the Model**
+**Step 6: Document and save the model**
 
 Document the modelling decisions made during the exercise.
 
@@ -286,18 +286,18 @@ Document the modelling decisions made during the exercise.
 | Which domain term are you modelling?                  |        |
 | Which CIDOC CRM class or property are you using?      |        |
 | What meaning do you want to express?                  |        |
-| What does the Scope Note say about it?               |        |
+| What does the scope note say about it?               |        |
 | Why do you consider the mapping appropriate?          |        |
 
 For each domain-specific extension, record its intended meaning, its relationship to CIDOC CRM, and the reason for introducing it. **The aim is not to find a single “correct” solution.** What matters is that the modelling decision is comprehensible from a domain perspective and compatible with the reference model being used.
 
 Save your ontology in OWL format and ensure that you can reopen the file.
 
-Expected result: A small, documented OWL model section based on CIDOC CRM, ready for further use in Module 3.
+Expected result: A small, documented OWL model section based on CIDOC CRM, ready for further use in module 3.
 
 ---
 
-## Sample solution
+## Sample Solution
 
 The following example illustrates **one possible way** of representing selected concepts and relationships from the **computer games domain using CIDOC CRM**.
 
@@ -334,4 +334,4 @@ The result is a **partial model**, not a complete ontology of the computer games
 
 > **Next**
 >
-> In Module 3, you will visualise selected parts of your ontology, prepare them for transformation, and use the resulting structures to configure **semantic paths and path groups in the WissKI Pathbuilder**.
+> In module 3, you will visualise selected parts of your ontology, prepare them for transformation, and use the resulting structures to configure **semantic paths and path groups in the WissKI Pathbuilder**.
