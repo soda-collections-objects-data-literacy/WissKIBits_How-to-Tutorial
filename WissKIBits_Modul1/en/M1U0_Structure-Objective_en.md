@@ -52,7 +52,7 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In Module 1, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
+In module 1, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
 
 Using an example from a **computer games collection**, you move from the collection perspective to the modelling perspective. 
 
@@ -63,7 +63,7 @@ The resulting conceptual model provides the basis for further **formalisation** 
 
 > **What is the module about?**
 >
-> Starting from **information about a collection object**, you identify relevant **concepts, events, and relationships** and organise them into a **conceptual model sketch of the domain**..
+> Starting from **information about a collection object**, you identify relevant **concepts, events, and relationships** and organise them into a **conceptual model sketch of the domain**.
 >
 > You then explore how selected elements can be represented using **CIDOC CRM** and make initial modelling decisions.
 >
@@ -260,7 +260,7 @@ Experience with collection, object, or research data is helpful.
 
 ## Result and Outcome of the Module
 
-At the end of Module 1, you will have developed a first **conceptual model sketch** showing relevant **concepts and events, their relationships**, and **initial mappings to CIDOC CRM**.
+At the end of module 1, you will have developed a first **conceptual model sketch** showing relevant **concepts and events, their relationships**, and **initial mappings to CIDOC CRM**.
 
 > **What will you take away**
 >
