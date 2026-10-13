@@ -2,11 +2,9 @@
 
  (CiDOC, 2024)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
                             https://cidoc-crm.org/get-last-official-release
-                        
- (CIDOC, n.d.)
 
- (CIDOC, n.d.-a)
-  
+(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+                    
  (Drupal, 2024)            Drupal Association. (2024). Drupal 11.4.5 Drupal Core [Computer software]. https://new.drupal.org/
  
  (Fichtner, 2025)          Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung [Friedrich-Alexander-Universität
@@ -33,6 +31,8 @@
  
  (Rehbein, 2017)           Rehbein, M. (2017). Ontologien. In F. Jannidis, H. Kohle, & M. Rehbein (Eds), Digital Humanities: Eine Einführung (pp. 162–176). JB. 
                             Metzler. https://doi.org/10.1007/978-3-476-05446-3_11
+
+(RemoGrillo & claude, 2026). RemoGrillo & claude (2026). cidoc-crm_periodic_table. https://github.com/RemoGrillo/cidoc-crm_periodic_table
  
  (Reichert & Hastik, 2025) Reichert, R., & Hastik, C. (2025). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul1:     
                             Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. 
