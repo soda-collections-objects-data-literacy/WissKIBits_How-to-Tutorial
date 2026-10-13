@@ -110,11 +110,11 @@ As a **semantic data management system**, it supports Linked Open Data (LOD) and
 
 The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm, et al., 2022) explains the **FAIR principles** and shows concrete areas of action for implementing them in research projects. (Reichert & Hastik, 2025) 
 
-An introduction to LOD is provided by the [**5-star model** for open data](https://5stardata.info/de/), which describes the path from digital documents to linked, machine-readable data (Hausenblast2012lod).
+An introduction to LOD is provided by the [**5-star model** for open data](https://5stardata.info/de/), which describes the path from digital documents to linked, machine-readable data (Hausenblas, 2012).
 
-Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (RDF2014rdf) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
+Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (W3C, 2014) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
 
-As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (SIG2026cidoc)
+As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (CIDOC, 2024)
 
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 
@@ -126,7 +126,7 @@ This creates interoperable and reusable knowledge resources. Their specific FAIR
 
 WissKI is used, among other places, at the [**Germanisches Nationalmuseum (GNM)**](https://www.gnm.de/) in Nuremberg
 
-- the largest museum of cultural history in the German-speaking world 
+- the largest museum of cultural history in the german-speaking world 
 - which sets standards for digital research infrastructures.
 
 WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of its digital research infrastructure. This illustrates how semantic technologies can support research and collection data management in an institutional context.
@@ -281,7 +281,7 @@ Path groups organise related paths, while individual paths specify sequences of 
 
 When users enter information through these structures, WissKI can store the resulting statements as RDF data in accordance with the configured semantic model.
 
-In Module 3, you will explore how a diagram representing selected ontology paths can be transformed into a WissKI Pathbuilder configuration.
+In module 3, you will explore how a diagram representing selected ontology paths can be transformed into a WissKI Pathbuilder configuration.
 
 ---
 
@@ -347,7 +347,7 @@ As a result, collection data are not merely documented, but semantically structu
 
 
 - **WissKI User Meeting:** https://wiss-ki.eu/taxonomy/term/63  
-  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.; WissKI2026wat).
+  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.; WissKI, 2026).
 
 
 ---
@@ -396,5 +396,5 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 (WissKI, n.d.-a) WissKI. (o. D.). WissKI Features. https://wiss-ki.eu/features
 
-(WissKI, 2026) WissKI. (o. D.). WissKI WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
+(WissKI, 2026) WissKI. (o. D.). WissKI Anwender*innentreffen (WAT). https://wiss-ki.eu/taxonomy/term/63
 
