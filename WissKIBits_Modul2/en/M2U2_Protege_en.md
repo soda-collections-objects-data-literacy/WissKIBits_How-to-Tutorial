@@ -73,9 +73,9 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 >
 > Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
-> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, n.d.-c)
+> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, 2026a)
 >
-> Protégé is available as: (Stanford, n.d.-a)
+> Protégé is available as: (Stanford 2026c)
 >
 > - a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) 
 > - a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). 
@@ -84,7 +84,7 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 
 ## Protégé in this Tutorial
 
-In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (CiDOC, 2024) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
+In this tutorial, **CIDOC CRM [Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)** (CiDOC, 2024a) serves as the **reference ontology** for semantic modelling. Its definitions and scope notes help us examine the meaning of classes and properties and justify our modelling decisions.
 
 For the practical work in Protégé, you use **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of CIDOC CRM.
 
@@ -101,9 +101,9 @@ The following video demonstrates the basic steps for exploring an existing ontol
 
 **Resources**
 
-Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, n.d.-a):
-- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, n.d.)
-- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, n.d.-b)
+Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, 2026a) ):
+- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026b)
+- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022)
 
 ---
 
@@ -135,17 +135,17 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 ## Bibliography
 
-(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-[Schiemann, 2024] Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
+(Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
 
-(Stanford, n.d.) Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. https://protege.stanford.edu/
 
-(Stanford, n.d.-a) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026b). Protégé Documentation. https://protege.stanford.edu/support/#documentation
 
-(Stanford, n.d.-b) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
+(Stanford, 2022) Stanford Center for Biomedical Informatics Research. (2022). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
 
-(Stanford, n.d.-c) Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
+(Stanford, 2026c) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. https://protege.stanford.edu/software/
 
 [ref] https://www.w3.org/TR/owl2-primer/ und https://av.tib.eu/media/11276
 
