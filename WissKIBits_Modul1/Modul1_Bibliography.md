@@ -52,7 +52,7 @@
  (Wikipedia, 2026)         Wikipedia. (2026). The Legend of Zelda: A Link to the Past. In Wikipedia. 
                             https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
   
- (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
+ (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (2026). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
  (WissKI, n.d.-a)            WissKI Events. (n.d.-a). Retrieved 27 August 2026, from https://wiss-ki.eu/events
   
