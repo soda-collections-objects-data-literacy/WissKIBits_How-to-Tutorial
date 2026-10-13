@@ -61,9 +61,9 @@ Participants will be able to...
 
 ## Protégé – OWL Ontology Editor
 
-In Module 1, you developed a conceptual model sketch and explored possible CIDOC CRM mappings. 
+In module 1, you developed a conceptual model sketch and explored possible CIDOC CRM mappings. 
 
-In this Module 2, you will review these decisions and represent selected parts of your model in a machine-readable form.
+In this module 2, you will review these decisions and represent selected parts of your model in a machine-readable form.
 
 For this purpose, you use **Protégé** to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
 
