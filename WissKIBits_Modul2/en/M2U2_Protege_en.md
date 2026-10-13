@@ -101,7 +101,7 @@ The following video demonstrates the basic steps for exploring an existing ontol
 
 **Resources**
 
-Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, 2026a) ):
+Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, 2026a):
 - [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026b)
 - [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022)
 
