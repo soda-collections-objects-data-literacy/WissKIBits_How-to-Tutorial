@@ -71,7 +71,7 @@ Participants will be able to...
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
-> **From Conceptual Knowledge to an Ontology**
+> **From conceptual knowledge to an ontology**
 >
 > Conceptual knowledge modelling identifies and organises the relevant concepts, events, and relationships within a domain.
 >
@@ -204,7 +204,7 @@ You have learned how ontologies use classes and properties to describe concepts 
 
 Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
 
-> Next: In Unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
+> Next: In unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
 
 ---
 
