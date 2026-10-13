@@ -54,7 +54,7 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 Welcome to **WissKI Bits: Ontology-Based Modelling of Research Data**.
 
-In Module 1, you developed a conceptual model sketch and explored how selected concepts and relationships could be represented using CIDOC CRM.
+In module 1, you developed a conceptual model sketch and explored how selected concepts and relationships could be represented using CIDOC CRM.
 
 Module 2 takes the next step: You will review these initial modelling decisions and learn how to formalise selected parts of the model using **Protégé and an OWL implementation of CIDOC CRM**.
 
@@ -69,7 +69,7 @@ Following a learning-by-doing approach, you will continue working with the compu
 > - explore an OWL implementation of CIDOC CRM using Protégé,
 > - reuse existing ontology elements and introduce selected domain-specific extensions where needed.
 >
->**Outsome:**A small, documented OWL model section that provides a basis for the visualisation and Pathbuilder workflow in Module 3. 
+>**Outsome:**A small, documented OWL model section that provides a basis for the visualisation and Pathbuilder workflow in module 3. 
 
 ---
 
@@ -92,7 +92,7 @@ In this module, you will learn how to:
 - add **domain-specific concepts** to an existing ontology structure, 
 - formalise and document selected modelling decisions, and
 - prepare the resulting ontology for further implementation in **WissKI**,
-- save the resulting ontology structure for further use in Module 3.
+- save the resulting ontology structure for further use in module 3.
   
 ---
 
@@ -114,7 +114,7 @@ In this module, you will learn how to:
 
 ## Learning Objectives of this Module
 
-After completing Module 2, participants can…
+After completing module 2, participants can…
 
 ### U1A. Setting up the Working Environment with Protégé
 
@@ -155,7 +155,7 @@ After completing Module 2, participants can…
 
 ## Learning Path through this Module
 
-Building on your conceptual model sketch from Module 1, you will work through the following stages:
+Building on your conceptual model sketch from module 1, you will work through the following stages:
 
 **Explore modelling methods (M2U1):** Explore modelling methods (M2U1): Learn how different approaches and an iterative workflow support ontology development.
  
@@ -182,7 +182,7 @@ The module combines methodological input, demonstration, and guided application:
 - Participants learn basic methods and an iterative workflow for ontology development.
 - The user interface and central areas of Protégé are introduced in a live or video demonstration.
 - The current version of the OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) is loaded and explored through its classes, object properties, and datatype properties.
-- The example object **“The Legend of Zelda: A Link to the Past”** and the model sketch developed in Module 1 once again serve as a common thread.
+- The example object **“The Legend of Zelda: A Link to the Past”** and the model sketch developed in module 1 once again serve as a common thread.
 - Selected concepts are compared with CIDOC CRM using the Scope Notes.
 - Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are modelled as subclasses.
 - Suitable relationships between the concepts and events are selected.
@@ -194,7 +194,7 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 >
 > Short methodological inputs alternate with demonstrations and hands-on modelling activities.
 >
-> You will continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in Module 1.
+> You will continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in module 1.
 >
 > You use:
 > 
@@ -208,19 +208,19 @@ The goal is not a complete domain ontology. What matters is a **small, comprehen
 
 ## Prerequisites
 
-The content of Module 1 or comparable basic knowledge is assumed, such as having one's own semantic domain model based on CIDOC CRM. 
+The content of module 1 or comparable basic knowledge is assumed, such as having one's own semantic domain model based on CIDOC CRM. 
 
 Participants should…
 
 - be able to distinguish the terms domain, concept, event, and relationship,
-- know the building blocks classes (Entities), properties (Properties), instances (Instances), and modelling assumptions (Assumptions),
+- know the building blocks classes (entities), properties (properties), instances (instances), and modelling assumptions (assumptions),
 - understand the basic principle of event-centered modelling with CIDOC CRM,
-- know Scope Notes as a basis for modelling decisions,
+- know scope notes as a basis for modelling decisions,
 - and have at least an initial conceptual model sketch, ideally a CIDOC CRM-based semantic domain model.
 
 > **What do you need?**
 >
-> Module 2 builds on **Module 1 or equivalent prior knowledge**.
+> Module 2 builds on **module 1 or equivalent prior knowledge**.
 >
 > You can therefore start with this module if you are already familiar with the basic concepts and have a conceptual model sketch to work with.
 >
@@ -236,7 +236,7 @@ Participants should…
  
 ## Result and Outcome of this Module
 
-At the end of Module 2, an initial formally implemented domain ontology or ontology extension is available. 
+At the end of module 2, an initial formally implemented domain ontology or ontology extension is available. 
 
 **What will you take away?**
 
