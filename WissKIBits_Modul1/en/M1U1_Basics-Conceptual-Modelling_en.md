@@ -70,7 +70,7 @@ In **conceptual knowledge modelling**, the aim is to determine which knowledge i
 
 A **domain** is a professionally delimited area of values, knowledge, and application (Fischer & Hofer, 2010) for which knowledge is described and modelled. In semantic modelling, a domain in the present context comprises the professionally relevant concepts, events, and relationships, for example the area of a research or object collection. 
 
-> **Key Concepts**
+> **Key concepts**
 >
 > **Conceptual knowledge modelling** identifies and organises the knowledge relevant to a particular domain.
 >
@@ -214,7 +214,7 @@ Collection-related research questions may concern, for example:
 - **Identification:** How can the object be precisely identified and referenced using unique characteristics such as inventory numbers?
 
 
-> **What you have Learned**
+> **What you have learned**
 >
 > You created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
 >
@@ -232,7 +232,7 @@ Through conceptual knowledge modelling, you have taken a first step in determini
 >
 >  You have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
 >
-> In Unit 2, you explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
+> In unit 2, you explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
 ---
 
