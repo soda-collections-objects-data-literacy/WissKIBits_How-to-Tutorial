@@ -61,7 +61,7 @@ In this activation exercise, you begin with a **concrete collection object** bef
 
 Your task is to explore what knowledge is relevant for describing the object and how this knowledge is connected.
 
-> **Activation: From Object to Conceptual Model**
+> **Activation: From object to conceptual model**
 >
 > Your guiding question is:
 >
