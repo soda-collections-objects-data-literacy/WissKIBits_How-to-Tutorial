@@ -89,7 +89,7 @@ It is **not a technical standard**, but a **paper document** ([Release Version 7
 
 It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
 
-It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024, p. 9)
+It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024a, p. 9)
 
 CIDOC CRM includes:
 
@@ -106,7 +106,7 @@ CIDOC CRM includes:
 
 CIDOC CRM provides a **conceptual framework** for describing cultural heritage information and the relationships between people, objects, places, times, and activities.
 
-An important characteristic of CIDOC CRM is its **event-centred** approach (CIDOC, 2024, p. 33). Instead of describing an object only through a list of attributes, the model can **represent events and activities associated with the object**, such as its production, modification, or transfer of custody.
+An important characteristic of CIDOC CRM is its **event-centred** approach (CIDOC, 2024a, p. 33). Instead of describing an object only through a list of attributes, the model can **represent events and activities associated with the object**, such as its production, modification, or transfer of custody.
 
 For example, information about the creation of a physical game copy may involve a production activity, participating actors, and a time-span.
 
@@ -127,7 +127,7 @@ The official documentation provides a comprehensive introduction:
 
 ![CIDOC CRM Table of Contents](../WissKIBits_Modul1/assets/M1E3_CIDOC_TableofContents.png)
 
-> **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (CIDOC, 2024, p. 3).
+> **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (CIDOC, 2024a, p. 3).
 
 ---
 
@@ -135,7 +135,7 @@ The official documentation provides a comprehensive introduction:
 
 For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
-- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** (CIDOC, 2024a)
+- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** (CIDOC, 2024b)
   The official representation of **Version 7.1.3** enables interactive exploration of 81 classes and 160 properties, including translations. It contains definitions and scope notes as well as information on class hierarchies and properties.
 
 - **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)** (RemoGrillo & claude, 2026)
@@ -147,11 +147,11 @@ Use it for orientation and for exploring the model. For the precise definition a
 
 > **Where to look up CIDOC CRM classes and properties**
 >
-> **Official CIDOC CRM documentation Version 7.1.3**: Use this to read authoritative definitions, scope notes, and information about classes and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) 
+> **Official CIDOC CRM documentation Version 7.1.3**: Use this to read authoritative definitions, scope notes, and information about classes and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (CIDOC, 2024a)
 >
-> **CIDOC CRM web-based HTML navigator**: Use this to browse the model and follow links between related classes and properties. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CiDOC, n.d.-b)
+> **CIDOC CRM web-based HTML navigator**: Use this to browse the model and follow links between related classes and properties. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
 > 
-> **CIDOC CRM Periodic Table**: Use these as additional orientation aids when you want to explore the overall structure. [link](https://remogrillo.github.io/cidoc-crm_periodic_table)
+> **CIDOC CRM Periodic Table**: Use these as additional orientation aids when you want to explore the overall structure. [link](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
 >
 > Always check the scope note before deciding whether a class or property represents the intended meaning of a domain concept.
 
@@ -212,7 +212,7 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ![Example E39 Actor](../WissKIBits_Modul1/assets/E39Actor.jpg)
 
-> **Figure:** The figure illustrates the structure of a class description using “E39 Actor” in CIDOC CRM as an example. (CIDOC, 2024, p. 83)
+> **Figure:** The figure illustrates the structure of a class description using “E39 Actor” in CIDOC CRM as an example. (CIDOC, 2024a, p. 83)
 
 ---
 
@@ -231,7 +231,7 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ---
 
-CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (CIDOC, 2024, p. 33)
+CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (CIDOC, 2024a, p. 33)
 
 Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modeling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
 
@@ -327,9 +327,9 @@ WissKI uses CIDOC CRM because it …
 
 ## Outlook
 
-CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (CIDOC, 2024; Schwenk & Fischer, 2025)
+CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (CIDOC, 2024a; Schwenk & Fischer, 2025)
 
-The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.-a). 
+The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.-b). 
 
 > **Next:**
 >
@@ -341,9 +341,9 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 ## Bibliography
 
-(CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
+(CIDOC, 2024b) CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
@@ -353,7 +353,7 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 (Wikipedia, 2026) Wikipedia (2026) The Legend of Zelda: A Link to the Past. https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
 
-(WissKI, n.d.-a) WissKI (n.d.). Features. https://wiss-ki.eu/features
+(WissKI, n.d.-b) WissKI (n.d.-b). Features. https://wiss-ki.eu/features
 
 (W3C, 2014) World Wide Web Consortium (W3C). (2014). RDF 1.1 concepts and abstract syntax. https://www.w3.org/TR/rdf11-concepts
 
