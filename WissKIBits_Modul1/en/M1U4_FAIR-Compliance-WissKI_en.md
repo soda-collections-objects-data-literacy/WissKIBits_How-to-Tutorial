@@ -106,7 +106,7 @@ Participants will be able to...
 
 WissKI is **not just** a collection database.
 
-As a **semantic data management system**, it supports Linked Open Data (LOD) and therefore the FAIR principles: **Findable, Accessible, Interoperable, and Reusable** (WissKI, n.d.-a).
+As a **semantic data management system**, it supports Linked Open Data (LOD) and therefore the FAIR principles: **Findable, Accessible, Interoperable, and Reusable** (WissKI, n.d.-b).
 
 The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm, et al., 2022) explains the **FAIR principles** and shows concrete areas of action for implementing them in research projects. (Reichert & Hastik, 2025) 
 
