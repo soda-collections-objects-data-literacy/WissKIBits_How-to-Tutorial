@@ -73,9 +73,9 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 >
 > Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
-> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford n.d. software)
+> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, n.d.-c)
 >
-> Protégé is available as: (Stanfordo.D.protege)
+> Protégé is available as: (Stanford, n.d.-a)
 >
 > - a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) 
 > - a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). 
@@ -101,9 +101,9 @@ The following video demonstrates the basic steps for exploring an existing ontol
 
 **Resources**
 
-Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanfordo.D.protege):
-- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)
+Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, n.d.-a):
+- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, n.d.)
+- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, n.d.-b)
 
 ---
 
@@ -139,13 +139,13 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 [Schiemann, 2024] Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
 
-[Stanfordo.D.docu] Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
+(Stanford, n.d.) Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
 
-[Stanfordo.D.protege] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
+(Stanford, n.d.-a) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
 
-[Stanfordo.D.wiki] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
+(Stanford, n.d.-b) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
 
-[Stanfordo.D.software] Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
+(Stanford, n.d.-c) Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
 
 [ref] https://www.w3.org/TR/owl2-primer/ und https://av.tib.eu/media/11276
 
