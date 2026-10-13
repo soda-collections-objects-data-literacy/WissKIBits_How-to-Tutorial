@@ -106,7 +106,7 @@ CIDOC CRM includes:
 
 CIDOC CRM provides a **conceptual framework** for describing cultural heritage information and the relationships between people, objects, places, times, and activities.
 
-An important characteristic of CIDOC CRM is its **event-centred** approach. Instead of describing an object only through a list of attributes, the model can **represent events and activities associated with the object**, such as its production, modification, or transfer of custody.
+An important characteristic of CIDOC CRM is its **event-centred** approach (CIDOC, 2024, p. 33). Instead of describing an object only through a list of attributes, the model can **represent events and activities associated with the object**, such as its production, modification, or transfer of custody.
 
 For example, information about the creation of a physical game copy may involve a production activity, participating actors, and a time-span.
 
@@ -135,7 +135,7 @@ The official documentation provides a comprehensive introduction:
 
 For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
-- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** (CIDOC, 2024)
+- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** (CIDOC, 2024a)
   The official representation of **Version 7.1.3** enables interactive exploration of 81 classes and 160 properties, including translations. It contains definitions and scope notes as well as information on class hierarchies and properties.
 
 - **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)** (RemoGrillo & claude, 2026)
@@ -343,7 +343,7 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 
 (CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-(CIDOC, n.d.-a)
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
