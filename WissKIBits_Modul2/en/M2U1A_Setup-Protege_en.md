@@ -159,4 +159,4 @@ At the end of this unit, you have:
 > 
 > You will learn how to open an existing OWL ontology, explore its structure, and create a domain-specific subclass.
 > 
-> These skills will prepare you for the practical modelling exercise later in Module 2.
+> These skills will prepare you for the practical modelling exercise later in module 2.
