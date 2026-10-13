@@ -67,7 +67,7 @@ The resulting conceptual model provides the basis for further **formalisation** 
 >
 > You then explore how selected elements can be represented using **CIDOC CRM** and make initial modelling decisions.
 >
-> The resulting model sketch serves as the starting point for further formalisation in Module 2.
+> The resulting model sketch serves as the starting point for further formalisation in module 2.
 
 ---
 
