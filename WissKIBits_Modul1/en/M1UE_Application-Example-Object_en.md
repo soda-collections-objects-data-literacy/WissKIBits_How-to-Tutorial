@@ -71,7 +71,7 @@ The aim is to develop an initial, justified CIDOC CRM mapping for a small part o
 
 You are not expected to create a complete or formally implemented ontology at this stage.
 
-> **Transfer: From Conceptual Model to CIDOC CRM**
+> **Transfer: From conceptual model to CIDOC CRM**
 >
 > You will now further develop the model sketch created during the activation exercise of this module (M1U0A).
 >
@@ -93,7 +93,7 @@ Return to the model sketch you created during the activation exercise. It contai
 
 Keep your original sketch available so that you can compare your initial ideas with the modelling decisions made during this exercise.
 
-**From Conceptual Model to a First CIDOC CRM Draft**
+**From conceptual model to a first CIDOC CRM draft**
 
 Your sketch describes the collection object and its context using your own terminology. The next step is to examine how selected elements could be represented using CIDOC CRM.
 
@@ -106,7 +106,7 @@ Now, look at the same model from a **CIDOC CRM perspective**:
 
 Remember: **A similar label does not necessarily imply the same meaning.**
 
-At this stage, you are not expected to create a complete or formally implemented CIDOC CRM model. The goal is to develop **a first CIDOC CRM-informed version of your conceptual model**, which you will refine and formalise in Module 2.
+At this stage, you are not expected to create a complete or formally implemented CIDOC CRM model. The goal is to develop **a first CIDOC CRM-informed version of your conceptual model**, which you will refine and formalise in module 2.
 
 ---
 
@@ -217,11 +217,11 @@ Mark uncertain assignments with a question mark (?) and note what remains unclea
 
 **Remember:** The goal is not to assign as many CIDOC CRM classes as possible. What matters is whether you can explain and justify a small number of modelling decisions.
 
-**Mini-Demo: CIDOC CRM as a Building-Block System**
+**Mini-Demo: CIDOC CRM as a building-block system**
 
 The following classes may provide useful starting points for your exploration.
 
-| CIDOC CRM class (Entity) | Meaning in the example |
+| CIDOC CRM class (entity) | Meaning in the example |
 |--------------------------|------------------------|
 | **E73 Information Object** | Game as identifiable information content |
 | **E22 Human-Made Object** | Physical copy (cartridge, disc, box…) |
@@ -255,7 +255,7 @@ Compare your proposed CIDOC CRM mappings with those of other participants or wit
 
 Revise your sketch where necessary and record any open questions.
 
-**Key Takeaway: Modelling Meaning**
+**Key takeaway: Modelling meaning**
 
 Semantic modelling involves more than finding classes with similar names.
 
@@ -279,7 +279,7 @@ You have revisited your initial conceptual model sketch and examined selected el
 
 This is a first CIDOC-CRM-informed version of your conceptual model, not yet a complete formal ontology.
 
-In Module 2, you will review and refine these decisions and begin formalising selected parts of the model using Protégé.
+In module 2, you will review and refine these decisions and begin formalising selected parts of the model using Protégé.
 
 ---
 
