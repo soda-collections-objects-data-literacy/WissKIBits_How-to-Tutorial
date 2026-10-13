@@ -1,9 +1,9 @@
 # WissKI Bits How-to-Tutorial Module 1 Bibliography
 
- (CiDOC, 2024)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
+ (CiDOC, 2024a)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (2024a). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
                             https://cidoc-crm.org/get-last-official-release
 
-(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+(CIDOC, 2024b)              CIDOC CRM Special Interest Group. (2024b). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
                     
  (Drupal, 2024)            Drupal Association. (2024). Drupal 11.4.5 Drupal Core [Computer software]. https://new.drupal.org/
  
@@ -54,9 +54,9 @@
   
  (WissKI, 2026)            WissKI Anwender*innentreffen (WAT). (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/news/wat26-announcement
   
- (WissKI, n.d.)            WissKI Events. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/events
+ (WissKI, n.d.-a)            WissKI Events. (n.d.-a). Retrieved 27 August 2026, from https://wiss-ki.eu/events
   
- (WissKI, n.d.-a)          WissKI Features. (n.d.). Retrieved 27 August 2026, from https://wiss-ki.eu/features
+ (WissKI, n.d.-b)          WissKI Features. (n.d.-b). Retrieved 27 August 2026, from https://wiss-ki.eu/features
   
  (W3C, 2001)               World Wide Web Consortium (W3C). (2001). OWL 2 Web Ontology Language Primer (Second Edition). W3C Recommendation. 
                             https://www.w3.org/TR/owl2-primer
