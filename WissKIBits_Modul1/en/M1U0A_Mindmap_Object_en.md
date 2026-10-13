@@ -168,7 +168,7 @@ These areas serve as the starting point for recognising different types of **con
 >
 > Connect the relevant elements using meaningful relationships.
 > 
-> Use each connection to formulate a meaningful statement about the example object, such as....
+> Use each connection to formulate a meaningful statement about the example object, such as...
 > 
 > **Examples**
 > 
