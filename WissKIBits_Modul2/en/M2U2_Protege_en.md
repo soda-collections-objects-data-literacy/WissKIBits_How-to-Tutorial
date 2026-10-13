@@ -75,7 +75,7 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 >
 > It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, 2026a)
 >
-> Protégé is available as: (Stanford 2026c)
+> Protégé is available as: (Stanford, 2026c)
 >
 > - a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) 
 > - a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). 
