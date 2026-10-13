@@ -61,7 +61,7 @@ You then relate selected elements of your conceptual model to **CIDOC CRM**.
 The resulting conceptual model provides the basis for further **formalisation** in module 2 and later **technical implementation in WissKI** in module 3.
 
 
-> **What is the Module About?**
+> **What is the module about?**
 >
 > Starting from **information about a collection object**, you identify relevant **concepts, events, and relationships** and organise them into a **conceptual model sketch of the domain**..
 >
@@ -81,7 +81,7 @@ The resulting conceptual model provides the basis for further **formalisation** 
 >
 > Their meaning and relationships are equally important.
 >
-> **Semantic Modelling Makes these Connections Explicit, Understandable, and Reusable.**
+> **Semantic modelling makes these connections explicit, understandable, and reusable.**
 
 ---
 
@@ -103,13 +103,13 @@ By the end of the module, you will be able to:
 - distinguish between domain-specific terms and the meanings they are intended to express, to develop and justify a coherent domain logic,
 - explore how selected concepts can be represented using **CIDOC CRM classes and properties**,
 - explain initial modelling decisions, and
-- develop a **conceptual model sketch** that can be refined and formalised in Module 2.
+- develop a **conceptual model sketch** that can be refined and formalised in module 2.
 
 ---
 
 ## Module Structure
 
-**Total Duration of Module 1: Approx. 90 min.**
+**Total duration of module 1: Approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
@@ -126,7 +126,7 @@ By the end of the module, you will be able to:
 
 ## Learning Objectives of the Module
 
-After completing Module 1, participants can…
+After completing module 1, participants can…
 
 ### UA0. Application Example from Object Collections
 
@@ -224,7 +224,7 @@ Learn how a reference ontology can support the description of cultural heritage 
 **Apply CIDOC CRM (M1UE):** 
 Revisit your model sketch, examine possible CIDOC CRM mappings, and justify selected modelling decisions. 
 
-Your result: A conceptual model sketch with initial, documented CIDOC CRM mappings that can be refined in Module 2.
+Your result: A conceptual model sketch with initial, documented CIDOC CRM mappings that can be refined in module 2.
 
 ---
 
@@ -252,7 +252,7 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 
 ## Prerequisites
 
-**No prior Knowledge of Ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
+**No prior knowledge of ontologies, RDF, OWL, CIDOC CRM, or WissKI** is required.
 
 Experience with collection, object, or research data is helpful. 
 
@@ -268,7 +268,7 @@ At the end of Module 1, you will have developed a first **conceptual model sketc
 >
 > - the concepts and events relevant to the example,
 > - their semantic relationships,
-> - initial mappings to classes (Entities) and properties (Properties) of CIDOC CRM,
+> - initial mappings to classes (entities) and properties (properties) of CIDOC CRM,
 > - as well as justified modelling decisions.
 >
 > This sketch serves as the starting point for further formalisation and implementation in WissKI.
