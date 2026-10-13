@@ -89,7 +89,7 @@ It is **not a technical standard**, but a **paper document** ([Release Version 7
 
 It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
 
-It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024)
+It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024, p. 9)
 
 CIDOC CRM includes:
 
@@ -342,8 +342,6 @@ The next unit introduces the Scientific Communication Infrastructure WissKI. Wis
 ## Bibliography
 
 (CIDOC, 2024) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
-
-(CIDOC, n.d.) (n.d.). The CIDOC-CRM periodic table. 
 
 (CIDOC, n.d.-a)
 
