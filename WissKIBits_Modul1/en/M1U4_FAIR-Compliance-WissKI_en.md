@@ -114,7 +114,7 @@ An introduction to LOD is provided by the [**5-star model** for open data](https
 
 Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (W3C, 2014) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
 
-As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (CIDOC, 2024)
+As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (CIDOC, 2024a)
 
 However, WissKI can also integrate other ontologies, provided that they are available in a machine-readable format such as RDF or OWL.   
 
@@ -347,7 +347,7 @@ As a result, collection data are not merely documented, but semantically structu
 
 
 - **WissKI User Meeting:** https://wiss-ki.eu/taxonomy/term/63  
-  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.; WissKI, 2026).
+  **Annual gathering of the WissKI community** at the Germanisches Nationalmuseum Nürnberg (GNM) to discuss projects and topics together, learn about current developments, and jointly find **solutions to challenges relating to the further development and use of WissKI** (WissKI, n.d.-a; WissKI, 2026).
 
 
 ---
