@@ -3,7 +3,7 @@
  (CiDOC, 2024)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
                             https://cidoc-crm.org/get-last-official-release
 
-(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
                     
  (Drupal, 2024)            Drupal Association. (2024). Drupal 11.4.5 Drupal Core [Computer software]. https://new.drupal.org/
  
