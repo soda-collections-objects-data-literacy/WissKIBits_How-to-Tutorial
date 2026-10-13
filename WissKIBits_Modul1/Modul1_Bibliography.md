@@ -3,7 +3,7 @@
  (CiDOC, 2024)             CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (n.d.). CIDOC CRM Special Interest Group. Retrieved 23 July 2026, from 
                             https://cidoc-crm.org/get-last-official-release
 
-(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+(CIDOC, 2024a)              CIDOC CRM Special Interest Group. (2024). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
                     
  (Drupal, 2024)            Drupal Association. (2024). Drupal 11.4.5 Drupal Core [Computer software]. https://new.drupal.org/
  
@@ -38,8 +38,7 @@
                             Einführung in das sammlungsbezogene Forschungsdatenmanagement: Sammlungs- und Objektdaten als Forschungsdaten managen. 
                             https://doi.org/10.5281/ZENODO.16761352
  
-  (Schiemann, 2024)        Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of      
-                            Erlangen-Nuremberg, Department of Computer Science, Chair of Artificial Intelligence. Retrieved 27 August 2026, from https://erlangen-crm.org/current-version
+  (Schiemann, 2024)        Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of Erlangen-Nuremberg, Department of Computer Science, Chair of Artificial Intelligence. Retrieved 27 August 2026, from https://erlangen-crm.org/current-version
  
  (Schwenk & Fischer, 2025) Schwenk, G. A., & Fischer, K. (2025, May 21). SODa Forum: Konservierungs- und Restaurierungsdokumentation gemeinsam weiterdenken - 
                             Ontologieentwicklung im Dialog. https://doi.org/10.5281/zenodo.15481743
