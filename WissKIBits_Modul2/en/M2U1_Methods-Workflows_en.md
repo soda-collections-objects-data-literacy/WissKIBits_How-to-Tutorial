@@ -65,7 +65,7 @@ Developing a domain ontology typically follows a methodological, multi-stage, an
 
 This includes, among other things, identifying central terms and definitions (so-called “ontology capture”) (Uschold, 1995, p. 3), structuring concepts into classes and properties/relations, and continuously reviewing and revising the domain model with regard to consistency and usability. (Gruber, 1993)
 
-In Module 1, you created a conceptual model sketch and explored possible CIDOC CRM mappings. These initial decisions now need to be reviewed, refined, and represented more formally.
+In module 1, you created a conceptual model sketch and explored possible CIDOC CRM mappings. These initial decisions now need to be reviewed, refined, and represented more formally.
 
 Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
 
@@ -81,15 +81,15 @@ Practical ontology development is often understood as a process that integrates 
 
 ## Approaches and Methods for Ontology Development
 
-Ontologies are often developed using a combination of different modelling approaches (Noy2001ontology, pp. 4 ff.):
+Ontologies are often developed using a combination of different modelling approaches (Noy & McGuiness, 2001, p. 4 ff.):
 
 **Bottom-up modelling:** 
 
-Start with existing data, examples, and domain terminology. Identify relevant concepts and relationships and gradually organise them into a model. Classes (Entities) and properties (Properties) are gradually identified and derived from existing data or example objects. 
+Start with existing data, examples, and domain terminology. Identify relevant concepts and relationships and gradually organise them into a model. Classes (entities) and properties (properties) are gradually identified and derived from existing data or example objects. 
 
 **Top-down modelling:** Start with an established ontology or conceptual framework. Examine how its classes and properties can represent the intended domain knowledge. A reference model, such as CIDOC CRM, provides the starting point for developing a domain-specific specialisation.
 
-**Competency Questions:** Formulate questions that the resulting model should help to answer. These questions clarify the intended scope and requirements of the ontology. Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
+**Competency questions:** Formulate questions that the resulting model should help to answer. These questions clarify the intended scope and requirements of the ontology. Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
 
 - **Iterative prototyping:** A small part of the model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
 
@@ -134,9 +134,9 @@ When developing a domain ontology based on an existing reference ontology, you n
 
 Possible strategies include:
 
-- **reusing** existing CIDOC CRM classes (Entities) and properties (Properties),
-- creating domain-specific **subclasses (Entities)**,
-- defining new domain-specific **properties (Properties)**, or
+- **reusing** existing CIDOC CRM classes (entities) and properties (properties),
+- creating domain-specific **subclasses (entities)**,
+- defining new domain-specific **properties (properties)**, or
 - using a **combination** of these approaches.
 
 > **Our strategy in this tutorial**
@@ -176,7 +176,7 @@ In the following unit, **Protégé** is introduced as an editor for modelling on
 
 (Gruber, 1993) Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-[Noy2001ontology] Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
+(Noy & McGuiness, 2001) Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
 
-[Uschold, 1995] Uschold, M., & King, M. (1995). Towards an Methodology for Building Ontologies. Presented at Workshop on Basic Ontological Issues in Knowledge Sharing held in conjunction with IJCAI. The University of Edinburgh.
+(Uschold, 1995) Uschold, M., & King, M. (1995). Towards an Methodology for Building Ontologies. Presented at Workshop on Basic Ontological Issues in Knowledge Sharing held in conjunction with IJCAI. The University of Edinburgh.
 
