@@ -52,13 +52,13 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 Welcome to **SODa WissKI Bits: Ontology-Based Modelling of Research Data**.
 
-In Module 1, you developed a conceptual model sketch. In Module 2, you reviewed selected CIDOC CRM mappings and formalised part of your domain model in Protégé.
+In module 1, you developed a conceptual model sketch. In module 2, you reviewed selected CIDOC CRM mappings and formalised part of your domain model in Protégé.
 
-In Module 3, you will prepare this model for use in WissKI. Using the computer games example, you will create a structured diagram in Draw.io, transform it into a Pathbuilder XML file, and examine the imported paths and path groups in WissKI.
+In module 3, you will prepare this model for use in WissKI. Using the computer games example, you will create a structured diagram in Draw.io, transform it into a Pathbuilder XML file, and examine the imported paths and path groups in WissKI.
 
 The focus is on a practical, reproducible workflow rather than configuring a complete WissKI instance.
 
-> **What is This Module About?**
+> **What is this module about?**
 >
 > In this module, you move from a formal ontology structure to a WissKI Pathbuilder configuration.
 >
@@ -76,7 +76,7 @@ The focus is on a practical, reproducible workflow rather than configuring a com
 
 ## Module Objectives
 
-In this module, you will convert the formalised domain ontology from Module 2 into a path structure that can be used in WissKI.
+In this module, you will convert the formalised domain ontology from module 2 into a path structure that can be used in WissKI.
 
 In this module, you will learn how to:
 
@@ -92,7 +92,7 @@ The goal is to understand and complete the workflow from a semantic model to a u
 
 ## Module Workflow
 
-**Total duration of Module 3: approx. 90 min.**
+**Total duration of module 3: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
@@ -105,7 +105,7 @@ The goal is to understand and complete the workflow from a semantic model to a u
 
 ## Module Learning Objectives
 
-After completing Module 3, participants can…
+After completing module 3, participants can…
 
 ### UE1. Visualising Semantic Data Models
 
@@ -134,7 +134,7 @@ After completing Module 3, participants can…
 
 ## Learning Path in the Module
 
-**Formal ontology structure from Module 2** You start with the domain-specific ontology structure developed in Protégé.
+**Formal ontology structure from module 2** You start with the domain-specific ontology structure developed in Protégé.
  
 ↓
  
@@ -164,7 +164,7 @@ After completing Module 3, participants can…
 
 ## Working Method and Example
 
-The computer game example **“The Legend of Zelda: A Link to the Past”** and the domain model developed in Modules 1 and 2 continue to serve as the starting point.
+The computer game example **“The Legend of Zelda: A Link to the Past”** and the domain model developed in modules 1 and 2 continue to serve as the starting point.
 
 You will work with a prepared Draw.io diagram, complete missing classes and properties, and check the connections and attribute values required for transformation.
 
@@ -178,7 +178,7 @@ The aim is a **traceable and repeatable processing chain**, not a complete techn
 
 ## Prerequisites
 
-This module builds on the knowledge and results from Modules 1 and 2, or comparable prior experience.
+This module builds on the knowledge and results from modules 1 and 2, or comparable prior experience.
 
 Before starting, you should:
 
@@ -190,7 +190,7 @@ Before starting, you should:
 
 You do not need prior experience with the WissKI Pathbuilder. Its basic functions are introduced in this module.
 
-**Technical Setup**
+**Technical setup**
 
 - a computer with internet access,
 - access to [diagrams.net (Draw.io)](https://app.diagrams.net/),

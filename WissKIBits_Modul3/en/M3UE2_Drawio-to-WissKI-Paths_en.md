@@ -72,7 +72,7 @@ Vorschlag: With guidance, use the gnm-service to convert Draw.io XML into WissKI
 
 ## Objective and Scenario
 
-In this unit, you will continue working with the completed Draw.io diagram from Unit 1.
+In this unit, you will continue working with the completed Draw.io diagram from unit 1.
 
 You will export the diagram as XML, convert it into a WissKI Pathbuilder XML file using the gnm-service, and import the generated configuration into WissKI.
 
@@ -84,9 +84,9 @@ You will then inspect the imported paths and path groups and compare them with t
 
 ## From the Semantic Model to the Pathbuilder
 
-In Module 2, you formalised selected concepts of the computer games domain as subclasses of CIDOC CRM classes and reused existing CIDOC CRM properties.
+In module 2, you formalised selected concepts of the computer games domain as subclasses of CIDOC CRM classes and reused existing CIDOC CRM properties.
 
-In Unit 1 of this module, you visualised selected relationships in Draw.io.
+In unit 1 of this module, you visualised selected relationships in Draw.io.
 
 **For example:** Computer_Game → P102 has title → Game_Title
 
@@ -160,7 +160,7 @@ The transformation enables:
 
 **Work format:** Individual work 
 
-**Material:** Completed Draw.io XML file from Unit 1, computer with internet access, and access to a WissKI instance
+**Material:** Completed Draw.io XML file from unit 1, computer with internet access, and access to a WissKI instance
 
 **Time:** ~ 20 min.
 
@@ -168,13 +168,13 @@ In this exercise, you will transform your completed Draw.io diagram into a WissK
 
 Follow the five steps below to check the required ontology, import the configuration, and examine whether the resulting paths and path groups correspond to your source diagram.
 
-**Step 1: Transform the Draw.io Diagram**
+**Step 1: Transform the Draw.io diagram**
 
 Open the [**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) conversion service.
 
 Proceed as follows:
 
-- Export your completed diagram from Unit 1 as a **Draw.io XML file**, if you have not already saved it in this format.
+- Export your completed diagram from unit 1 as a **Draw.io XML file**, if you have not already saved it in this format.
 - Upload the file using **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 - Start the transformation.
 - Check the response from the web service.
@@ -188,7 +188,7 @@ Proceed as follows:
 
 ---
 
-**Step 2: Check the Ontology in WissKI**
+**Step 2: Check the ontology in WissKI**
 
 The classes and properties used in the generated paths must be available in the ontology used by WissKI.
 
@@ -196,7 +196,7 @@ Log in to the prepared **WissKI instance**:
 
 - Navigate to **WissKI → Configuration → WissKI Ontology**
 - Check the configured adapter and the ontology available in the instance.
-- If the required domain ontology has not yet available, select the designated WissKI adapter, enter the address of the **Games Ontology**, and load the ontology.
+- If the required domain ontology has not yet available, select the designated WissKI adapter, enter the address of the **games Ontology**, and load the ontology.
 
 **Games ontology:**
 
@@ -205,7 +205,7 @@ Log in to the prepared **WissKI instance**:
 
 > **Note: Access to WissKI**
 >
-> If no WissKI instance is provided for the tutorial, you can use the WissKI environment available through the theSODa Semantic Co-Working Space (SCS).
+> If no WissKI instance is provided for the tutorial, you can use the WissKI environment available through the the SODa Semantic Co-Working Space (SCS).
 >
 > Please register for an account: https://manager.scs.sammlungen.io/user/register
 >
@@ -215,7 +215,7 @@ Log in to the prepared **WissKI instance**:
 
 ---
 
-**Step 3: Create a new Pathbuilder and Import XML**
+**Step 3: Create a new Pathbuilder and import XML**
 
 Navigate to: **Configuration → Pathbuilders**
 
@@ -238,7 +238,7 @@ In the **Pathbuilder Definition Import** section:
 
 --- 
 
-**Step 4: Examine the Imported Pathbuilder**
+**Step 4: Examine the imported Pathbuilder**
 
 Examine the imported paths and path groups and compare them with your Draw.io diagram.
 
@@ -282,9 +282,9 @@ Also look at the other imported paths.
 
 ---
 
-**Step 5: Verify the Generated Paths**
+**Step 5: Verify the generated paths**
 
-Compare the imported Pathbuilder configuration with the completed Draw.io diagram from Unit 1.
+Compare the imported Pathbuilder configuration with the completed Draw.io diagram from unit 1.
 
 Check whether:
 
@@ -321,7 +321,7 @@ The result is an imported and checked Pathbuilder configuration that reflects se
 > 
 > The imported paths and path groups can be used to configure data entry structures in WissKI.
 >
-> After reviewing the Pathbuilder configuration, you can use Save and generate bundles and fields to create the corresponding bundles and fields for data entry and display.
+> After reviewing the Pathbuilder configuration, you can use save and generate bundles and fields to create the corresponding bundles and fields for data entry and display.
 > 
 > **Ontology → Pathbuilder → Bundles and fields → Data entry**
 

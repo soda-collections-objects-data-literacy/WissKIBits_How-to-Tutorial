@@ -67,7 +67,7 @@ Participants will be able to...
 
 ## Visualising a Domain Ontology as a Diagram with Draw.io
 
-In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in Modules 1 and 2 (Ltd2026drawio). 
+In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in modules 1 and 2 (Ltd2026drawio). 
 
 The diagram helps you examine semantic relationships, discuss modelling decisions, and develop a shared understanding of the ontology structure.
 
@@ -107,7 +107,7 @@ Especially in collaborative projects, visual diagrams support communication betw
 
 ## Example
 
-In Modules 1 and 2, you identified central concepts of the computer games domain and represented selected concepts as domain-specific subclasses of CIDOC CRM classes.
+In modules 1 and 2, you identified central concepts of the computer games domain and represented selected concepts as domain-specific subclasses of CIDOC CRM classes.
 
 The next step is to visualise how these classes are connected through existing CIDOC CRM properties. The resulting diagram illustrates semantic paths that can later be transformed into paths and path groups in the WissKI Pathbuilder.
 
@@ -185,7 +185,7 @@ Add the missing nodes and edges, connect them correctly, and replace all tempora
 
 Your completed diagram should represent connected semantic paths and contain the attribute values required for the subsequent XML transformation.
 
-**Modelling Rules and Checks**
+**Modelling rules and checks**
 
 > - Use the domain-specific subclasses already defined in the domain ontology.
 >
