@@ -54,14 +54,14 @@ Participants will be able to...
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)
 - name aspects of ontologies. (LO-ID 03\_007\_0776)
-- name the term classes (Classes/Concepts). (LO-ID SODa\_03\_007\_0829)
-- explain the term classes (Classes/Concepts). (LO-ID SODa\_03\_007\_0830)
-- name the term instances (Instances). (LO-ID SODa\_03\_007\_0833)
-- explain the term instances (Instances). (LO-ID SODa\_03\_007\_0834)
-- name the term properties (Properties). (LO-ID SODa\_03\_007\_0831)
-- explain the term properties (Properties). (LO-ID SODa\_03\_007\_0832)
-- name the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0835)
-- explain the term modelling assumptions (Constraints). (LO-ID SODa\_03\_007\_0836)
+- name the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0829)
+- explain the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0830)
+- name the term instances (instances). (LO-ID SODa\_03\_007\_0833)
+- explain the term instances (instances). (LO-ID SODa\_03\_007\_0834)
+- name the term properties (properties). (LO-ID SODa\_03\_007\_0831)
+- explain the term properties (properties). (LO-ID SODa\_03\_007\_0832)
+- name the term modelling assumptions (constraints). (LO-ID SODa\_03\_007\_0835)
+- explain the term modelling assumptions (constraints). (LO-ID SODa\_03\_007\_0836)
 
 ---
 
