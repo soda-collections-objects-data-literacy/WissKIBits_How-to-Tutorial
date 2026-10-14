@@ -59,7 +59,7 @@ This fast track contains the practical tasks from Modules 1–3. For explanation
 
 ## About This Fast Track
 
-This fast track brings together the **five practical exercises from Modules 1–3** of the WissKI Bits tutorial in one continuous walkthrough. It follows the original sequence and uses the **existing exercise materials**, including the prepared conceptual-model puzzle, the computer games example, Erlangen CRM, the Games ontology, the Draw.io gap diagram, and the gnm-service.
+This fast track brings together the **five practical exercises from modules 1–3** of the WissKI Bits tutorial in one continuous walkthrough. It follows the original sequence and uses the **existing exercise materials**, including the prepared conceptual-model puzzle, the computer games example, Erlangen CRM, the Games ontology, the Draw.io gap diagram, and the gnm-service.
 
 **Example object:** *The Legend of Zelda: A Link to the Past*.
 
@@ -100,7 +100,7 @@ You will use the existing prepared files when prompted below. **Do not start by 
 
 ## 1. Explore the Collection Object — 10 min
 
-*Based on Module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.*
+*Based on module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.*
 
 **Goal and starting point**
 
@@ -132,7 +132,7 @@ Actors, events, places and times can be considered where they help explain the s
 
 ## 2. Map Selected Concepts to CIDOC CRM — 15 min
 
-*Based on Module 1, Exercise M1UE: Application Example from Object Collections.*
+*Based on module 1, Exercise M1UE: Application Example from Object Collections.*
 
 **Goal**
 
@@ -140,7 +140,7 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 
 ![Concept mind map from the Module 1 exercise](../WissKIBits_Modul1/assets/mindmap_en.png)
 
-> ** Step 1: Explore and Justify Initial Mappings** 
+> **Step 1: Explore and justify initial mappings** 
 >
 > 1. Select **two concepts or events** from your sketch. Clarify what each means in the collection context.
 > 2. Consult the [CIDOC CRM documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) and identify candidate classes. Depending on your chosen concepts, useful starting points may include `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` or `E74 Group`.
@@ -166,7 +166,7 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 
 ## 3. Formalise a Small Ontology Section in Protégé — 25 min
 
-*Based on Module 2, Exercise M2UE: Modelling with CIDOC CRM in Protégé.*
+*Based on module 2, Exercise M2UE: Modelling with CIDOC CRM in Protégé.*
 
 **Goal**
 
@@ -193,7 +193,7 @@ Formalise a **limited section** of the computer games domain. Follow the tutoria
 
 > **Step 3: Revisit selected mappings**
 >
-> Compare the conceptual decisions from Exercise 2 with the formal classes. 
+> Compare the conceptual decisions from exercise 2 with the formal classes. 
 >
 > Do not assume that a mapping is correct merely because the names resemble one another.
 >
@@ -231,7 +231,7 @@ Use existing CIDOC CRM properties to express intended relationships; the origina
 > 
 > **Transition to the next exercise**
 > 
-> The next exercise uses the **prepared Draw.io gap diagram** from Module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
+> The next exercise uses the **prepared Draw.io gap diagram** from module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
 
 ---
 
@@ -285,7 +285,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 > **Step 1: Transform the Draw.io diagram**
 >
 > 1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Upload the **completed Draw.io XML file** from Exercise 4.
+> 2. Upload the **completed Draw.io XML file** from exercise 4.
 > 3. Start the transformation and inspect the service response.
 > 4. Copy or retain the URL of the generated **Pathbuilder XML** file for the WissKI import.
 >
