@@ -54,8 +54,8 @@ Participants will be able to...
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
 - name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
 - explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
-- name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
-- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
 ---
 
