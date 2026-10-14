@@ -114,32 +114,32 @@ In this module, you will learn how to:
 
 ## Learning Objectives of this Module
 
-After completing module 2, participants can…
+After completing module 2, participants will be able to…
 
 ### U1A. Setting up the Working Environment with Protégé
 
-- name software used for creating ontologies. (LZ-ID SODa\_03\_007\_0809)
-- use software for creating ontologies. (LZ-ID SODa\_03\_007\_0840)
-- analyse their own experience with software used for creating ontologies. (LZ-ID SODa\_03\_007\_0857)
+- name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
+- use software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
 
 
-### 1. Methods and Workflows of Semantic Modelling
+### U1. Methods and Workflows of Semantic Modelling
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
 - name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
 - explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
-- name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0784a)
-- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
-### 2. Introduction to Protégé
+### U2. Introduction to Protégé
 
 - name software for creating ontologies. (LO-ID SODa\_03\_007\_0809)
 - explain software for creating ontologies. (LO-ID SODa\_03\_007\_0810)
 - name Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0841)
 - apply software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
 - name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
-- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
 ### UE. Semantic Modelling with CIDOC CRM
 
