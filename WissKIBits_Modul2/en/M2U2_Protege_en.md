@@ -73,17 +73,9 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 >
 > Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
-<<<<<<< HEAD
-> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, n.d.-c)
-=======
 > It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, 2026a)
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 >
-<<<<<<< HEAD
-> Protégé is available as: (Stanford, n.d.-a)
-=======
 > Protégé is available as: (Stanford, 2026c)
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 >
 > - a desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) 
 > - a web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)). 
@@ -109,15 +101,9 @@ The following video demonstrates the basic steps for exploring an existing ontol
 
 **Resources**
 
-<<<<<<< HEAD
-Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, n.d.-a):
-- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, n.d.)
-- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, n.d.-b)
-=======
 Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, 2026a):
 - [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026b)
 - [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022)
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 
 ---
 
@@ -153,29 +139,13 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 (Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
 
-<<<<<<< HEAD
-(Stanford, n.d.) Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
-=======
 (Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. https://protege.stanford.edu/
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 
-<<<<<<< HEAD
-(Stanford, n.d.-a) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
-=======
 (Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026b). Protégé Documentation. https://protege.stanford.edu/support/#documentation
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 
-<<<<<<< HEAD
-(Stanford, n.d.-b) Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
-=======
 (Stanford, 2022) Stanford Center for Biomedical Informatics Research. (2022). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 
-<<<<<<< HEAD
-(Stanford, n.d.-c) Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
-=======
 (Stanford, 2026c) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. https://protege.stanford.edu/software/
->>>>>>> 0b20c2b9ce3c79de2a14c568fb39513462564512
 
 [ref] https://www.w3.org/TR/owl2-primer/ und https://av.tib.eu/media/11276
 
