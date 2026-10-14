@@ -51,21 +51,21 @@ Unit Exercise (UE2): **Transforming Semantic Models into WissKI Paths**
 
 Participants will be able to...
 
-- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804) Hinweis: Vielleicht lieber "configuring an ontology-based path structures" ? Vorschlag: Explain the WissKI Pathbuilder as a tool for configuring ontology-based paths and path groups.
+- explain WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0804) Hinweis: Vielleicht lieber "configuring an ontology-based path structures" ? Vorschlag: Explain the WissKI Pathbuilder as a tool for configuring ontology-based paths and path groups.
 
-- With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
+- perform with guidance data conversion from visualisation software into a reusable file format. (LO-ID SODa\_02\_005\_0298a)
 Vorschlag: With guidance, convert a diagram created with visualisation software into a reusable file format. 
 
-- With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
+- use with guidance WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LO-ID SODa\_03\_007\_0818)
 Vorschlag: With guidance, import a Pathbuilder XML configuration into the WissKI Pathbuilder.
 
-- With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
+- analyse With guidance the imported domain-specific ontology structure in the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0819)
 Vorschlag: With guidance, examine the imported paths and path groups in the WissKI Pathbuilder.
 
-- Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0317) 
+- name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LO-ID SODa\_02\_005\_0317) 
 Vorschlag: Name the gnm-service Draw.io diagrams to WissKI pathbuilders as a tool for file conversion.
 
-- With guidance, use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0318)
+- use with guidance a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LO-ID SODa\_02\_005\_0318)
 Vorschlag: With guidance, use the gnm-service to convert Draw.io XML into WissKI Pathbuilder XML.
 
 ---

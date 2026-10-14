@@ -51,17 +51,17 @@ Unit Exercise (UE1): **Visualising a Semantic Domain Ontology**
 
 Participants will be able to...
 
-- Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
-- Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
-- Explain the concept of visualisation. (LZ-ID SODa\_03\_007\_0851)
-- Explain the benefits of visualisations. (LZ-ID SODa\_03\_007\_0852)
-- Name the benefits of software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0814) 
-- Use software for visualising a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
-- Name the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0806)
-- Apply the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
-- Name rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0820)
-- Apply rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0816)
-- Apply attribute values to predefined classes of the domain ontology in visualisation software. (LZ-ID SODa\_03\_007\_0817)
+- name software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0812)
+- explain software for visualising a domain ontology. (LO-ID LZ-ID SODa\_03\_007\_0813)
+- explain the concept of visualisation. (LO-ID SODa\_03\_007\_0851)
+- explain the benefits of visualisations. (LO-ID SODa\_03\_007\_0852)
+- name the benefits of software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0814) 
+- use software for visualising a domain ontology with guidance. (LO-ID SODa\_03\_007\_0815)
+- name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
+- name rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0820)
+- apply rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0816)
+- apply attribute values to predefined classes of the domain ontology in visualisation software. (LO-ID SODa\_03\_007\_0817)
 
 ---
 
