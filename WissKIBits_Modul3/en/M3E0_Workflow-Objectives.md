@@ -105,30 +105,30 @@ The goal is to understand and complete the workflow from a semantic model to a u
 
 ## Module Learning Objectives
 
-After completing module 3, participants can…
+After completing module 3, participants will be able to…
 
 ### UE1. Visualising Semantic Data Models
 
-- Name software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0812)
-- Explain software for visualising a domain ontology. (LZ-ID LZ-ID SODa\_03\_007\_0813)
-- Explain the concept of visualisation. (LZ-ID SODa\_03\_007\_0851)
-- Explain the benefits of visualisations. (LZ-ID SODa\_03\_007\_0852)
-- Name the benefits of software for visualising a domain ontology. (LZ-ID SODa\_03\_007\_0814)
-- Use software for visualising a domain ontology with guidance. (LZ-ID SODa\_03\_007\_0815)
-- Name the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0806)
-- Apply the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
-- Name rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0820)
-- Apply rules for modelling a domain ontology using visualisation software. (LZ-ID SODa\_03\_007\_0816)
-- Apply attribute values to predefined classes of the domain ontology in visualisation software. (LZ-ID SODa\_03\_007\_0817)
+- name software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0812)
+- explain software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0813)
+- explain the concept of visualisation. (LO-ID SODa\_03\_007\_0851)
+- explain the benefits of visualisations. (LO-ID SODa\_03\_007\_0852)
+- name the benefits of software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0814)
+- use software for visualising a domain ontology with guidance. (LO-ID SODa\_03\_007\_0815)
+- name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
+- name rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0820)
+- apply rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0816)
+- apply attribute values to predefined classes of the domain ontology in visualisation software. (LO-ID SODa\_03\_007\_0817)
 
 ### UE2. Transforming Semantic Models into WissKI Paths
 
-- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0804)
-- With guidance, perform data conversion from visualisation software into a reusable file format. (LZ-ID SODa\_02\_005\_0298a)
-- With guidance, use WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LZ-ID SODa\_03\_007\_0818)
-- With guidance, analyse the imported domain-specific ontology structure in the WissKI Pathbuilder. (LZ-ID SODa\_03\_007\_0819)
-- Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0317)
-- With guidance, use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa\_02\_005\_0318)
+- explain WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0804)
+- perform with guidance data conversion from visualisation software into a reusable file format. (LO-ID SODa\_02\_005\_0298a)
+- use with guidance WissKI Pathbuilder as a tool for importing a domain-specific ontology structure (Pathbuilder XML file into the WissKI Pathbuilder). (LO-ID SODa\_03\_007\_0818)
+- analyse with guidance the imported domain-specific ontology structure in the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0819)
+- name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LO-ID SODa\_02\_005\_0317)
+- use with guidance a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LO-ID SODa\_02\_005\_0318)
 
 ---
 
