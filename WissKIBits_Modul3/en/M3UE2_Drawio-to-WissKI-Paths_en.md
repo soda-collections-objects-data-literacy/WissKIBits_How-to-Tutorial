@@ -195,7 +195,22 @@ Proceed as follows:
 
 ---
 
-**Step 2: Check the ontology and adapter in WissKI**
+**Step 2: Login to WissKI and reset configurations**
+
+After successfully logging in to WissKI, delete the following configurations:
+
+- Nvigate to **Administration → Configuration → WissKI → Pathbuilders**, delete pathbuilder, and check **Path usage** and delete **Checked paths**.
+- Navigate to **Administration → Configuration → WissKI → Ontology** and delete "Default" ontology.
+- Naviagte to **Administration → Structure → WissKI Entities and Bundles** and **Delete all Bundles**.
+- Finally navigate to **Administration → Configuration → Development → Performance** and **Clear all Caches**
+
+Watch the workflow:
+
+!?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul3/assets/Delete-all.mp4)
+
+---
+
+**Step 3: Check the ontology and adapter in WissKI**
 
 The classes and properties used in the generated paths must be available in the ontology used by WissKI.
 
