@@ -51,7 +51,7 @@ LearningResourceType: How-to-Tutorial
 
 This fast track contains the practical tasks from Modules 1–3. For explanations, definitions, quizzes, and detailed screenshots, refer to the full tutorial.
 
-**Example:** *The Legend of Zelda: A Link to the Past*  
+**Example:** **The Legend of Zelda: A Link to the Past**  
 
 **Duration:** ~ 90 min.
 
@@ -61,7 +61,7 @@ This fast track contains the practical tasks from Modules 1–3. For explanation
 
 This fast track brings together the **five practical exercises from modules 1–3** of the WissKI Bits tutorial in one continuous walkthrough. It follows the original sequence and uses the **existing exercise materials**, including the prepared conceptual-model puzzle, the computer games example, Erlangen CRM, the Games ontology, the Draw.io gap diagram, and the gnm-service.
 
-**Example object:** *The Legend of Zelda: A Link to the Past*.
+**Example object:** **The Legend of Zelda: A Link to the Past**
 
 You will begin with a conceptual model sketch, examine selected CIDOC CRM mappings, formalise a small section in Protégé, complete a prepared Draw.io diagram, and convert that diagram into a WissKI Pathbuilder configuration.
 
@@ -71,13 +71,13 @@ You will begin with a conceptual model sketch, examine selected CIDOC CRM mappin
 
 | Activity | Time |
 |---|---:|
-| Preparation and orientation | 5 min |
-| 1. Explore the collection object and create a conceptual sketch | 10 min |
-| 2. Map selected concepts to CIDOC CRM | 15 min |
-| 3. Formalise a model section in Protégé | 25 min |
-| 4. Complete the Draw.io diagram | 15 min |
-| 5. Transform and import WissKI paths | 20 min |
-| **Total** | **90 min** |
+| Preparation and orientation | 5 min. |
+| 1. Explore the collection object and create a conceptual sketch | 10 min. |
+| 2. Map selected concepts to CIDOC CRM | 15 min. |
+| 3. Formalise a model section in Protégé | 25 min. |
+| 4. Complete the Draw.io diagram | 15 min. |
+| 5. Transform and import WissKI paths | 20 min. |
+| **Total** | **90 min.** |
 
 The time plan assumes familiarity with basic semantic modelling and access to a **prepared working environment**. Follow the bounded tasks below; use the linked full units for further explanation or extended exercises.
 
@@ -98,13 +98,13 @@ You will use the existing prepared files when prompted below. **Do not start by 
 
 ---
 
-## 1. Explore the Collection Object — 10 min
+## 1. Explore the Collection Object — 10 min.
 
-*Based on module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.*
+**Based on module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.**
 
 **Goal and starting point**
 
-Begin with the collection object *The Legend of Zelda: A Link to the Past*. Ask: **What do you need to know about this object, and how is this knowledge connected?** At this stage, use ordinary domain terminology rather than formal CIDOC CRM classes.
+Begin with the collection object **The Legend of Zelda: A Link to the Past**. Ask: **What do you need to know about this object, and how is this knowledge connected?** At this stage, use ordinary domain terminology rather than formal CIDOC CRM classes.
 
 Consider three areas from the original activation exercise:
 
