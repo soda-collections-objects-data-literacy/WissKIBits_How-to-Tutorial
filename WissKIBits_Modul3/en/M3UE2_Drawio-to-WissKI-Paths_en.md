@@ -168,6 +168,18 @@ In this exercise, you will transform your completed Draw.io diagram into a WissK
 
 Follow the five steps below to check the required ontology, import the configuration, and examine whether the resulting paths and path groups correspond to your source diagram.
 
+> **Note: Access to WissKI**
+>
+> If no WissKI instance is provided for the tutorial, you can use the WissKI environment available through the the SODa Semantic Co-Working Space (SCS).
+>
+> Please register for an account: https://manager.scs.sammlungen.io/user/register
+>
+> Once your account has been activated, you can log in to the SCS and access the WissKI environment required for the tutorial.
+>
+> You do not need to set up your own WissKI installation for the tutorial. The SCS provides the required technical environment free of charge.
+
+---
+
 **Step 1: Transform the Draw.io diagram**
 
 Open the [**Draw.io diagrams to WissKI pathbuilders**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) conversion service.
@@ -188,30 +200,26 @@ Proceed as follows:
 
 ---
 
-**Step 2: Check the ontology in WissKI**
+**Step 2: Check the ontology and adapter in WissKI**
 
 The classes and properties used in the generated paths must be available in the ontology used by WissKI.
 
 Log in to the prepared **WissKI instance**:
 
 - Navigate to **WissKI → Configuration → WissKI Ontology**
-- Check the configured adapter and the ontology available in the instance.
-- If the required domain ontology has not yet available, select the designated WissKI adapter, enter the address of the **games Ontology**, and load the ontology.
+- Check the ontology available in the WissKI instance.
+- If the required domain Games ontology has not yet available, select the designated WissKI adapter, If necessary, delete the existing ontology(ies) first.
+- Clear Cache
+- Then enter the address of the **games Ontology** to load the ontology.
 
 **Games ontology:**
 
 [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
-
-> **Note: Access to WissKI**
->
-> If no WissKI instance is provided for the tutorial, you can use the WissKI environment available through the the SODa Semantic Co-Working Space (SCS).
->
-> Please register for an account: https://manager.scs.sammlungen.io/user/register
->
-> Once your account has been activated, you can log in to the SCS and access the WissKI environment required for the tutorial.
->
-> You do not need to set up your own WissKI installation for the tutorial. The SCS provides the required technical environment free of charge.
+- Next navigate to **Configuration → WissKI → WissKI Salz Adapter**
+- Open **Compute Type and Property Hierarchy and Domains and Ranges**
+- First **Delete reasoning tables** then **Re-Compute results**
+- **Update adapter**
 
 ---
 
@@ -223,16 +231,15 @@ Navigate to: **Configuration → Pathbuilders**
 
 - select **Add Pathbuilder**,
 - assign a unique name,
-- select the designated adapter,
-- save the Pathbuilder.
+- save the Pathbuilder **without form generation**.
 
-Then **open** the newly created Pathbuilder.
+Then **edit** the newly created Pathbuilder.
 
 In the **Pathbuilder Definition Import** section:
 
 - paste the previously copied address of the generated Pathbuilder XML file,
-- start the import,
-- wait until the Pathbuilder structure is displayed.
+- start the **import**,
+- then open again and **save generate bundles and fields**.
 
 > **Note:** Examine the imported configuration before generating any additional bundles or fields.
 
@@ -298,6 +305,10 @@ Document any missing or unexpected paths and note which parts of the diagram may
 **Result: You have imported a Pathbuilder configuration and checked its correspondence with the source diagram.**
 
 ---
+
+**Step 6: 
+
+ **Administration → Structure → WissKI Entities and Bundles**
 
 ## Summary
 
