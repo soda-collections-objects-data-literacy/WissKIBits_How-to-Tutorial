@@ -113,7 +113,7 @@ The next step is to visualise how these classes are connected through existing C
 
 <table>
   <tr>
-    <td><img src="../WissKIBits_Modul3/assets/MusterDrawio.png" width="100%"></td>
+    <td><img src="../assets/MusterDrawio.png" width="100%"></td>
   </tr>
 </table>
 
