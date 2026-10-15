@@ -357,11 +357,11 @@ The result is an imported and checked Pathbuilder configuration that reflects se
 
 > **Next**
 > 
-> The imported paths and path groups can be used to configure data entry structures in WissKI.
+> This concludes the tutorial.
 >
-> After reviewing the Pathbuilder configuration, you can use save and generate bundles and fields to create the corresponding bundles and fields for data entry and display.
-> 
-> **Ontology → Pathbuilder → Bundles and fields → Data entry**
+> You have learned how to transform an ontology-based model into a WissKI Pathbuilder configuration and generate bundles and fields for data entry.
+>
+> Building on this, you can extend your pathbuilder by adding further paths and path groups, adapt the generated bundles and fields, and enter and manage collection data using the WissKI.
 
 ---
 
