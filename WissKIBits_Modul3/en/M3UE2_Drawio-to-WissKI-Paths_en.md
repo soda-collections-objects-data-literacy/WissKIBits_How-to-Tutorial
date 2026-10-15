@@ -131,7 +131,7 @@ The WissKI Pathbuilder uses classes and properties from a loaded ontology to con
 
 <table>
   <tr>
-    <td><img src="../WissKIBits_Modul3/assets/pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
+    <td><img src="../assets/pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
   </tr>
 </table>
 
