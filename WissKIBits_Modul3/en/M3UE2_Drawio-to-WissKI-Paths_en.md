@@ -197,7 +197,7 @@ Proceed as follows:
 
 **Step 2: Login to WissKI and reset configurations**
 
-After successfully logging in to WissKI, delete the following configurations:
+After successfully logging in to WissKI, if necessary, reset the following preconfigurations:
 
 - Nvigate to **Administration → Configuration → WissKI → Pathbuilders**, delete pathbuilder, and check **Path usage** and delete **Checked paths**.
 - Navigate to **Administration → Configuration → WissKI → Ontology** and delete "Default" ontology.
