@@ -103,15 +103,19 @@ The Pathbuilder connects the ontology structure with the configuration of data e
 
 You will complete five steps:
 
-- **Step 1: Transform Draw.io XML into Pathbuilder XML.**
+- **Step 1: Transform Draw.io XML into Pathbuilder XML**
 
-- **Step 2: Check that the required ontology is available in WissKI.**
+- **Step 2: Login to WissKI and reset configurations**
 
-- **Step 3: Create a Pathbuilder and import the generated XML.**
+- **Step 3: Load the Games ontology and update adapter in WissKI**
 
-- **Step 4: Examine the imported paths and path groups.**
+- **Step 4: Create a Pathbuilder and import the generated XML**
 
-- **Step 5: Compare the imported structure with the source diagram.**
+- **Step 5: Examine the imported paths structure**
+
+- **Step 6: Compare the imported structure with the source diagram**
+
+- **Step 7: Verify the generated bundles and fields, and create a new entity**
 
 ---
 
@@ -199,41 +203,39 @@ Proceed as follows:
 
 After successfully logging in to WissKI, if necessary, reset the following preconfigurations:
 
-- Nvigate to **Administration → Configuration → WissKI → Pathbuilders**, delete pathbuilder, and check **Path usage** and delete **Checked paths**.
+- Navigate to **Administration → Configuration → WissKI → Pathbuilders**, delete pathbuilder, and check **Path usage** and delete **Checked paths**.
 - Navigate to **Administration → Configuration → WissKI → Ontology** and delete "Default" ontology.
 - Naviagte to **Administration → Structure → WissKI Entities and Bundles** and **Delete all Bundles**.
-- Finally navigate to **Administration → Configuration → Development → Performance** and **Clear all Caches**
+
+**Finally navigate to "Administration → Configuration → Development → Performance" and "Clear all Caches"**
 
 Watch the workflow:
 
-!?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul3/assets/Delete-all.mp4)
+!?[Video Demonstration: Reset WissKI SCS Preconfiguration](../WissKIBits_Modul3/assets/Delete-all.mp4)
 
 ---
 
-**Step 3: Check the ontology and adapter in WissKI**
+**Step 3: Load the Games ontology and update adapter in WissKI**
 
-The classes and properties used in the generated paths must be available in the ontology used by WissKI.
+The required **Games ontology** needs to be available in WissKI:
 
-Log in to the prepared **WissKI instance**:
-
-- Navigate to **WissKI → Configuration → WissKI Ontology**
-- Check the ontology available in the WissKI instance.
-- If the required domain Games ontology has not yet available, select the designated WissKI adapter, If necessary, delete the existing ontology(ies) first.
-- Clear Cache
-- Then enter the address of the **games Ontology** to load the ontology.
+- Navigate to **Administration → Configuration → WissKI Ontology**   
+- If the required domain Games ontology has not yet available, select the designated default WissKI adapter
+- Then enter the address of the **Games ontology** to **Load Ontology**.
 
 **Games ontology:**
 
 [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
-- Next navigate to **Configuration → WissKI → WissKI Salz Adapter**
+Update the **WissKI Salz adapter** to ensure that the ontology's class and property hierarchies, domains, and ranges are correctly represented:
+
+- Next navigate to **Administration → Configuration → WissKI Salz Adapter**
 - Open **Compute Type and Property Hierarchy and Domains and Ranges**
-- First **Delete reasoning tables** then **Re-Compute results**
-- **Update adapter**
+- Klick **Re-Compute results** then **Update adapter**
 
 ---
 
-**Step 3: Create a new Pathbuilder and import XML**
+**Step 4: Create a new Pathbuilder and import XML**
 
 Navigate to: **Configuration → Pathbuilders**
 
@@ -243,19 +245,26 @@ Navigate to: **Configuration → Pathbuilders**
 - assign a unique name,
 - save the Pathbuilder **without form generation**.
 
-Then **edit** the newly created Pathbuilder.
-
-In the **Pathbuilder Definition Import** section:
+Then **edit** the new pathbuilder and **Import Templates** in the **Pathbuilder Definition Import** section:
 
 - paste the previously copied address of the generated Pathbuilder XML file,
-- start the **import**,
-- then open again and **save generate bundles and fields**.
+- start the **import**.
 
 > **Note:** Examine the imported configuration before generating any additional bundles or fields.
 
+- then **Save generate bundles and fields**.
+
+> **Note:** Edit one more time the newly created pathbuilder and **save** again.
+
+
+Check the **WissKI Entities and Bundles** overview to verify that the generated bundles are available and ready for creating new entities.
+
+- Navigate to **Administration → Strucutre → WissKI Entities and Bundles**
+- If there are no entities and bundles, **Recreate WissKI Menues**
+
 --- 
 
-**Step 4: Examine the imported Pathbuilder**
+**Step 5: Examine the imported paths structure**
 
 Examine the imported paths and path groups and compare them with your Draw.io diagram.
 
@@ -299,9 +308,9 @@ Also look at the other imported paths.
 
 ---
 
-**Step 5: Verify the generated paths**
+**Step 6: Compare the imported structure with the source diagram**
 
-Compare the imported Pathbuilder configuration with the completed Draw.io diagram from unit 1.
+Compare the imported Pathbuilder configuration with your completed Draw.io diagram from unit 1.
 
 Check whether:
 
@@ -316,9 +325,17 @@ Document any missing or unexpected paths and note which parts of the diagram may
 
 ---
 
-**Step 6: 
+**Step 7: Verify the generated bundles and fields, and create a new entity**
 
- **Administration → Structure → WissKI Entities and Bundles**
+ Now you navigate to the **WissKI Site** and **create a new entity**
+
+ ---
+
+**Watch the workflow from Step 3 until Step 7**
+
+!?[Video Demonstration: Reset WissKI SCS Preconfiguration](../WissKIBits_Modul3/assets/Insert-new-Ontology.mp4)
+
+ --- 
 
 ## Summary
 
