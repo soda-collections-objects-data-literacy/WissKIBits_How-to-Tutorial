@@ -67,7 +67,7 @@ Participants will be able to...
 
 ## Visualising a Domain Ontology as a Diagram with Draw.io
 
-In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in modules 1 and 2 (Ltd2026drawio). 
+In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in modules 1 and 2 (draw.io AG, 2026). 
 
 The diagram helps you examine semantic relationships, discuss modelling decisions, and develop a shared understanding of the ontology structure.
 
@@ -83,11 +83,11 @@ Visualising in Draw.io is therefore not only a **visualisation exercise**, but a
 
 Visualisation refers to the graphical representation of information, concepts, or relationships to support understanding.
 
-"In the humanities, visualisations are used as illustrations, as memory aids for known subject matter, in the organisation of knowledge, and as tools for insight in the communication and generation of (new) knowledge." (Freyberg2023visual)
+"In the humanities, visualisations are used as illustrations, as memory aids for known subject matter, in the organisation of knowledge, and as tools for insight in the communication and generation of (new) knowledge." (Freyberg, 2023)
 
-"Visualisations are particularly suitable for learning when the subject to be conveyed has properties that are difficult to communicate verbally." (Scheiter2021visual)
+"Visualisations are particularly suitable for learning when the subject to be conveyed has properties that are difficult to communicate verbally." (Scheiter, 2021)
 
-Visualisations can therefore support knowledge acquisition by making abstract concepts more concrete and revealing structures and relationships that may be difficult to explain through text alone. (Levin1987visual)
+Visualisations can therefore support knowledge acquisition by making abstract concepts more concrete and revealing structures and relationships that may be difficult to explain through text alone. (Levin et al., 1987)
 
 ---
 
@@ -261,11 +261,12 @@ The transformation depends on consistent connections, labels, and attribute valu
 
 ## Bibliography
 
-[Freyberg2023visual] Freyberg, Linda (2023) Visualisierung. In: AG Digital Humanities Theorie des Verbandes Digital Humanities im deutschsprachigen Raum e. V. (Hg.): Begriffe der Digital Humanities. Ein diskursives Glossar (= Zeitschrift für digitale Geisteswissenschaften / Working Papers, 2). DOI: 10.17175/wp_2023_014_v2
+(draw.io AG, 2026)  Ltd, draw.io AG. (2026). draw.io. Retrieved 15 October 2026, from https://www.drawio.com/docs/about
 
-[Scheiter2021visual] Scheiter, Katharina (2021). Visualisierung. Dorsch - Lexikon der Psychologie. https://dorsch.hogrefe.com/stichwort/visualisierung
+(Freyberg, 2023) Freyberg, Linda (2023) Visualisierung. In: AG Digital Humanities Theorie des Verbandes Digital Humanities im deutschsprachigen Raum e. V. (Hg.): Begriffe der Digital Humanities. Ein diskursives Glossar (= Zeitschrift für digitale Geisteswissenschaften / Working Papers, 2). DOI: 10.17175/wp_2023_014_v2
 
-[Levin1987visual] Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating functions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
+(Levin et al., 1987) Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating functions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
 
-[Ltd2026drawio] Draw.io LTD. (2026). draw.io. https://www.drawio.com/
+(Scheiter, 2021) Scheiter, Katharina (2021). Visualisierung. Dorsch - Lexikon der Psychologie. Retrieved 15 October 2026, from https://dorsch.hogrefe.com/stichwort/visualisierung
+
 

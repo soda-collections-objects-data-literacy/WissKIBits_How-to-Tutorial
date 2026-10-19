@@ -121,7 +121,7 @@ You will complete five steps:
 
 ## The WissKI Pathbuilder
 
-The WissKI Pathbuilder uses classes and properties from a loaded ontology to configure semantic paths and path groups.
+The WissKI Pathbuilder uses classes and properties from a loaded ontology to configure semantic paths and path groups. (rnsrk, 2021)
 
 - **Paths** represent sequences of ontology classes and properties.
 - **Path groups** organise related paths.
@@ -392,5 +392,7 @@ Reflect on the complete process:
 
 ## Bibliography
 
-[wisski2012pathbuilder] WissKI Pathbuilder (n.d.) https://wiss-ki.eu/documentation/data-modelling/pathbuilder?utm_source=chatgpt.com
+
+(rnsrk, 2021) rnsrk. (2021). WissKI Documentation: Pathbuilder.  Retrieved 15 October 2026, from https://wiss-ki.eu/documentation/data-modeling/pathbuilder
+
 
