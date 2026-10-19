@@ -88,7 +88,7 @@ The time plan assumes familiarity with basic semantic modelling and access to a 
 Have the following ready:
 
 - A computer with internet access and [Draw.io / diagrams.net](https://app.diagrams.net/).
-- [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), already available and ready to use. For installation help, consult the tutorial's **M2U1A – Setup Protégé** unit.
+- [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), already available and ready to use. For installation help, consult the tutorial's **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)** unit.
 - Access to a configured WissKI instance with a suitable adapter. The [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) is an option for the tutorial environment.
 - [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), based on CIDOC CRM 7.1.3.
 - [CIDOC CRM 7.1.3 documentation and scope notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html).
@@ -100,7 +100,7 @@ You will use the existing prepared files when prompted below. **Do not start by 
 
 ## 1. Explore the Collection Object - 10 min.
 
-**Based on module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.**
+**Based on module 1, [Activation Unit M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)** and **[Unit M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)**.
 
 **Goal and starting point**
 
@@ -152,6 +152,8 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 | Concept 1 | | | |
 | Concept 2 | | | |
 
+For an introduction to CIDOC CRM, its core classes, and the use of scope notes, see Module 1, Unit 3 **[M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)**.
+
 > **Step 2: Compare modelling decisions**
 > 
 > Discuss or reflect briefly: Could the same domain term refer to different things depending on the research question? For example, is a name being used as a title, an identifier, or another kind of appellation? Which additional information would resolve the ambiguity?
@@ -161,6 +163,8 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 > **Transition to the next exercise**
 > 
 > You have explored the difference between a domain concept and a reference-model class. In Protégé, you will now make selected modelling choices explicit as **domain-specific subclasses** of existing CIDOC CRM classes.
+
+For an exercise on selecting and ustifying CIDOC-CRM classes based on application exaple object, see Module 1, **[M1UE](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md)**.
 
 ---
 
@@ -178,7 +182,7 @@ Formalise a **limited section** of the computer games domain. Follow the tutoria
 >
 > Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé. 
 > 
-> If you need a reminder of the interface, consult the original [Module 2 exercise](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial) and its first-steps video.
+> If you need a reminder of the interface, consult the !?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4).
 
 > **Step 2: Explore relevant classes**
 > 
@@ -190,6 +194,8 @@ Formalise a **limited section** of the computer games domain. Follow the tutoria
 > - `E73 Information Object`
 >
 > For each, inspect its place in the hierarchy, annotations and **scope note**. Pay particular attention to the distinction between a general appellation and a title.
+
+For mor details about the methodological approach, iterative modeling, and ontology development, see **[M2U1: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2UE_Modelling-CIDOCCRM_en.md)**
 
 > **Step 3: Revisit selected mappings**
 >
@@ -270,6 +276,8 @@ Represent connected semantic paths using selected ontology classes and existing 
 > 
 > The diagram describes semantic paths visually. The gnm-service converts its XML representation into a **WissKI Pathbuilder XML configuration**, which you will import and inspect in WissKI.
 
+For a detailed description of Draw.io, modeling rules, nodes, edges, attributes, and XML, see Module 3, **[M3UE1 Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)**.
+
 ---
 
 ## 5. Transform and Import WissKI Paths — 20 min
@@ -291,7 +299,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 >
 > The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
 
-> **Step 2: Check the ontology in WissKI**
+> **Step 2: Login and check the ontology in WissKI**
 >
 > Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
 > 
@@ -306,6 +314,8 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 > 3. Save and open the new Pathbuilder.
 > 4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
 > 5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
+
+For more details about WissKI configuration and XML-Import, see module 3, **[M3UE2 Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)**.
 
 > **Step 4: Examine the imported paths and path groups**
 >
@@ -328,7 +338,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 
 ---
 
-## Completion Check
+## Completion Self-Check
 
 - [ ] The prepared conceptual-model puzzle has been completed and uncertain relationships identified.
 - [ ] Two provisional CIDOC CRM mappings have been justified using scope notes.
@@ -343,7 +353,7 @@ Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting
 
 ---
 
-## Optional Reference: Gnm-service Example Files
+## Optional Reference: Gnm-Service Example Files
 
 The service provides additional examples for checking the transformation format. **They are references, not extra mandatory inputs for this fast track.**
 
