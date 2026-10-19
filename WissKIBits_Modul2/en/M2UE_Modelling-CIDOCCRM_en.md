@@ -143,12 +143,12 @@ These levels are related, but they are not interchangeable.
 
 **Prerequisite:**
 
-To work with Protégé, either
+To work with Protégé software (Stanford, 2026b), either
 
 - the desktop application ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) or
 - an account for the web-based editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege))
 
-must be set up via the [**official Protégé website**](https://protege.stanford.edu/).
+must be set up via the [**official Protégé website**](https://protege.stanford.edu/). (Stanford, 2026a)
 
 ----
 
@@ -156,7 +156,7 @@ must be set up via the [**official Protégé website**](https://protege.stanford
 
 Open your Protégé environment and load the provided OWL implementation of CIDOC CRM:
 
-[**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
+[**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl (Schiemann, 2024)
 
 
 > Note: Follow the steps shown in M2E2 and the corresponding video:
@@ -335,3 +335,12 @@ The result is a **partial model**, not a complete ontology of the computer games
 > **Next**
 >
 > In module 3, you will visualise selected parts of your ontology, prepare them for transformation, and use the resulting structures to configure **semantic paths and path groups in the WissKI Pathbuilder**.
+
+## Bibliography
+
+(Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. Retrieved 15 October 2026, from https://erlangen-crm.org/
+
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
+
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
+

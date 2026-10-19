@@ -65,7 +65,7 @@ In module 1, you developed a conceptual model sketch and explored possible CIDOC
 
 In this module 2, you will review these decisions and represent selected parts of your model in a machine-readable form.
 
-For this purpose, you use **Protégé** to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
+For this purpose, you use **Protégé** (Stanford, 2026a) to explore an existing OWL ontology, examine its class and property structure, and create selected domain-specific subclasses.
 
 The practical demonstration uses **Protégé Desktop**. Some steps may differ if you work with WebProtégé.
 
@@ -73,7 +73,7 @@ The practical demonstration uses **Protégé Desktop**. Some steps may differ if
 >
 > Protégé is a **free, open-source ontology editor** for creating, editing, and managing ontologies.
 >
-> It supports **OWL 2 Web Ontology Language** and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, 2026a)
+> It supports **OWL 2 Web Ontology Language** (Sack, 2009) and provides a graphical environment for developing formal, machine-readable ontology structures. (Stanford, 2026a)
 >
 > Protégé is available as: (Stanford, 2026c)
 >
@@ -102,8 +102,8 @@ The following video demonstrates the basic steps for exploring an existing ontol
 **Resources**
 
 Further information and guidance are available on the [**official Protégé website**](https://protege.stanford.edu/) (Stanford, 2026a):
-- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026b)
-- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022)
+- [**Protégé Documentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026c)
+- [**Protégé Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022d)
 
 ---
 
@@ -135,25 +135,19 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 ## Bibliography
 
-(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. Retrieved 15 October 2026, from https://cidoc-crm.org/Version/version-7.1.3
 
-(Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
+(Sack, 2009) Sack, H. (2009). OWL 2 [Video recording]. Hasso Plattner Institut (HPI). Retrieved 15 October 2026, from  https://av.tib.eu/media/11276
 
-(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. https://protege.stanford.edu/
+(Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. Retrieved 15 October 2026, from https://erlangen-crm.org/
 
-(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026b). Protégé Documentation. https://protege.stanford.edu/support/#documentation
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
 
-(Stanford, 2022) Stanford Center for Biomedical Informatics Research. (2022). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
 
-(Stanford, 2026c) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. https://protege.stanford.edu/software/
+(Stanford, 2026c) Stanford Center for Biomedical Informatics Research. (2026b). Protégé Documentation. Retrieved 15 October 2026, from https://protege.stanford.edu/support/#documentation
 
-[ref] https://www.w3.org/TR/owl2-primer/ und https://av.tib.eu/media/11276
-
-
-
-
-
-
+(Stanford, 2022) Stanford Center for Biomedical Informatics Research. (2022). Protégé Wiki. Retrieved 15 October 2026, from https://protegewiki.stanford.edu/wiki/Main_Page
 
 
 

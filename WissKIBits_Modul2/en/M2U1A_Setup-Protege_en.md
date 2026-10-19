@@ -115,7 +115,7 @@ Before setting up your working environment, consider your previous experience wi
 > - [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
 > - [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
 >
-> Both are available via the [**official Protégé website**](https://protege.stanford.edu/).
+> Both are available via the [**official Protégé website**](https://protege.stanford.edu/). (Stanford, 2026a)
 >
 > Choose the environment you want to use and make sure it is ready before continuing. Follow the installation or registration instructions provided on the website.
 
@@ -123,13 +123,13 @@ Before setting up your working environment, consider your previous experience wi
 >
 > Make sure that your chosen ontology editor is ready to use.
 > 
-> If you are using **Protégé Desktop**:
+> If you are using **Protégé Desktop** (Stanford, 2026b):
 > 
 > - Confirm that you have downloaded and installed Protégé Desktop.
 > - Start the application.
 > - Check that you can access the ontology editing environment.
 > 
-> If you are using **WebProtégé**:
+> If you are using **WebProtégé** (Stanford, 2026b):
 > 
 > - Open WebProtégé in your browser. 
 > - Confirm that you have an account and can sign in successfully.
@@ -160,3 +160,11 @@ At the end of this unit, you have:
 > You will learn how to open an existing OWL ontology, explore its structure, and create a domain-specific subclass.
 > 
 > These skills will prepare you for the practical modelling exercise later in module 2.
+
+
+## Bibliography
+
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
+
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
+
