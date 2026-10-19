@@ -83,7 +83,7 @@ The time plan assumes familiarity with basic semantic modelling and access to a 
 
 ---
 
-### Before You Start — 5 min
+### Before You Start - 5 min
 
 Have the following ready:
 
@@ -98,7 +98,7 @@ You will use the existing prepared files when prompted below. **Do not start by 
 
 ---
 
-## 1. Explore the Collection Object — 10 min.
+## 1. Explore the Collection Object - 10 min.
 
 **Based on module 1, Activation Unit M1U0A: Mindmap of the Application Example from Object Collections.**
 
@@ -130,7 +130,7 @@ Actors, events, places and times can be considered where they help explain the s
 
 ---
 
-## 2. Map Selected Concepts to CIDOC CRM — 15 min
+## 2. Map Selected Concepts to CIDOC CRM - 15 min
 
 *Based on module 1, Exercise M1UE: Application Example from Object Collections.*
 
@@ -164,7 +164,7 @@ Use the conceptual sketch as the starting point for **provisional** semantic map
 
 ---
 
-## 3. Formalise a Small Ontology Section in Protégé — 25 min
+## 3. Formalise a Small Ontology Section in Protégé - 25 min
 
 *Based on module 2, Exercise M2UE: Modelling with CIDOC CRM in Protégé.*
 
