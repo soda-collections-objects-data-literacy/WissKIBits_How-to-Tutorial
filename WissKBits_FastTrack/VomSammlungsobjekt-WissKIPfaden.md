@@ -90,7 +90,7 @@ Sie verwenden die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden
 
 ---
 
-## 1. Das Sammlungsobjekt untersuchen — 10 Min.
+## 1. Das Sammlungsobjekt untersuchen - 10 Min.
 
 *Basierend auf Modul 1, AKTIVIERUNG M1E1A: Anwendungsbeispiel: Objektsammlung · Vom Objekt zum konzeptionellen Modell*
 
@@ -227,7 +227,7 @@ Verwende bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehungen a
 
 ---
 
-## 4. Das Draw.io-Diagramm vervollständigen — 15 Min.
+## 4. Das Draw.io-Diagramm vervollständigen - 15 Min.
 
 *Basierend auf Modul 3, Übung M3EÜ1: Visualisierung einer Domänenontologie als Diagramm.*
 
@@ -268,7 +268,7 @@ Stelle zusammenhängende semantische Pfade mithilfe ausgewählter Ontologieklass
 
 ---
 
-## 5. WissKI-Pfade umwandeln und importieren — 20 Min.
+## 5. WissKI-Pfade umwandeln und importieren - 20 Min.
 
 *Basierend auf Modul 3, Übung M3EÜ2: Von Draw.io zu WissKI-Pfaden.*
 
