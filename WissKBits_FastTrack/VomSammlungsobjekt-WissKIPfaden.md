@@ -42,11 +42,13 @@ LearningResourceType: How-to-Tutorial
 
 **Eine übungsbasierte Schritt-für-Schritt-Anleitung für Fortgeschrittene**
 
-**Zielgruppe:** Nutzende die mit den Grundlagen der semantischen Modellierung, dem CIDOC CRM und Ontologie-Editoren vertraut sind.
+**Zielgruppe:** Nutzende die mit den Grundlagen der semantischen Modellierung, CIDOC CRM und Ontologie-Editoren vertraut sind.
 
 **Ziel:** Von einer konzeptionellen Modell-Skizze und einer formalisierten Modell-Skizze über ein Draw.io-Diagramm und einen kleinen OWL-Ontologieausschnitt zu importierten WissKI-Pfaden und -Pfadgruppen gelangen.
 
-Dieser Fast Track enthält die Übungsaufgaben aus den Modulen 1–3. Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Sie im vollständigen Tutorial.
+Dieser Fast Track enthält die Übungsaufgaben aus den Modulen 1–3 des WissKI Bits How-to-Tutorials. 
+
+Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Sie im vollständigen Tutorial.
 
 **Beispiel:** **The Legend of Zelda: A Link to the Past**
 
@@ -57,13 +59,22 @@ Dieser Fast Track enthält die Übungsaufgaben aus den Modulen 1–3. Erläuteru
 ## Über diesen Fast Track
 
 Dieser Fast Track führt die **fünf praktischen Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
-Der Fast Track folgt dabei der ursprünglichen Reihenfolge der Übungen im Tutorial und verwendet die **vorhandenen Übungsmaterialien**, darunter das vorbereitete Puzzle zur konzeptionellen Modell-Skizze, das Computerspielbeispiel, Erlangen CRM, eine vorbereitete Games-Ontologie, das Draw.io-Lückendiagramm und den gnm-service.
 
-**Beispielobjekt: The Legend of Zelda: A Link to the Past**
-Sie beginnen mit einer konzeptionellen Modellskizze, formalisieren in CIDOC CRM, überführen einen kleinen Ausschnitt in Protégé, vervollständigen ein vorbereitetes Draw.io-Diagramm und wandeln dieses Diagramm in eine WissKI-Pathbuilder-Konfiguration um.
+Dabei folgt der **Fast Track** folgt der ursprünglichen Reihenfolge der Übungen im Tutorial und verwendet die **vorhandenen Übungsmaterialien**, darunter 
+- das vorbereitete Puzzle zur konzeptionellen Modell-Skizze,
+- Erlangen CRM,
+- die vorbereitete Games-Ontologie,
+- das Draw.io-Lückendiagramm und
+- den GNM-Service.
 
-**Wichtig:** Die Aktivitäten beziehen sich auf die Domäne und den Modellierungsansatz aus dem Tutorial, bilden jedoch keine automatische Verarbeitungskette von Datei zu Datei wie im Tutorial. 
-Die Draw.io-Übung beginnt dabei mit einem **eigenen vorbereiteten Diagramm** und nicht mit einem Export der Ontologie, die im How-To-Tutorial in Protégé vorbereitet wird.
+Ausgehend von diesem **Beispielobjekt: The Legend of Zelda: A Link to the Past** durchlaufen Sie die folgenden aufeinander aufbauenden Schritte der ontologiegestützten Modellierung:
+- Konzeptionelle Modellierung
+- Zuordnung zu CIDOC CRM
+- Formalisierung eines kleinen Ausschnitts in Protégé
+- vervollständigen ein vorbereitetes Draw.io-Diagramm und
+- wandeln dieses Diagramm in eine WissKI-Pathbuilder-Konfiguration um.
+
+**Wichtig:** Die Aktivitäten beziehen sich auf die Beispiel-Domäne und den Modellierungsansatz aus dem Tutorial. Sie bilden jedoch keine automatische Verarbeitungskette von Datei zu Datei wie im Tutorial. 
 
 **Zeitplan**
 
@@ -77,40 +88,50 @@ Die Draw.io-Übung beginnt dabei mit einem **eigenen vorbereiteten Diagramm** un
 | 5. WissKI-Pfade umwandeln und importieren | 20 Min. |
 | **Gesamt** | **90 Min.** |
 
-Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu einer **vorbereiteten Arbeitsumgebung** haben. Bearbeiten Sie die nachfolgenden, klar abgegrenzten Aufgaben. Für weitere Erläuterungen oder vertiefende Übungen können Sie die verlinkten vollständigen Lerneinheiten heranziehen.
+Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu einer **vorbereiteten Arbeitsumgebung** haben. 
+
+Bearbeiten Sie die nachfolgenden, klar abgegrenzten Aufgaben. Für weitere Erläuterungen oder vertiefende Übungen können Sie die verlinkten vollständigen Lerneinheiten heranziehen.
 
 ---
 
-### Bevor Sie beginnen — 5 Min.
+### Bevor Sie beginnen - 5 Min.
 
 Halten Sie Folgendes bereit:
 
 - Einen Computer mit Internetzugang und [Draw.io / diagrams.net](https://app.diagrams.net/).
-- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/), bereits verfügbar und einsatzbereit. Hilfe zur Installation finden Sie in der Tutorial-Einheit **M2U1A – Setup Protégé**.
+- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/), bereits verfügbar und einsatzbereit. Hilfe zur Installation finden Sie in **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)**.
 - Zugang zu einer konfigurierten WissKI-Instanz mit einem geeigneten Adapter. Der [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) ist eine Möglichkeit für die Tutorial-Umgebung.
 - [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), basierend auf CIDOC CRM 7.1.3.
 - [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html).
 - [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf), die im WissKI-Arbeitsablauf des Tutorials verwendet wird.
 
-Sie verwenden die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Aufgaben dazu aufgefordert werden. **Beginnen Sie nicht damit, eine vollständig neue Ontologie oder ein neues Diagramm zu entwerfen.**
+Sie verwenden die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Aufgaben dazu aufgefordert werden. 
+
+**Beginnen Sie nicht damit, eine vollständig neue Ontologie oder ein neues Diagramm zu entwerfen.**
 
 ---
 
 ## 1. Das Sammlungsobjekt untersuchen - 10 Min.
 
-*Basierend auf Modul 1, AKTIVIERUNG M1E1A: Anwendungsbeispiel: Objektsammlung · Vom Objekt zum konzeptionellen Modell*
+*Basierend auf Modul 1, [Activation Unit M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md) and [Unit M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)*
 
 **Ziel und Ausgangspunkt**
 
-Beginnen Sie mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**. Fragen Sie sich: **Was müssen Sie über dieses Objekt wissen und wie hängt dieses Wissen zusammen?** Verwenden Sie in dieser Phase die üblichen Fachbegriffe der Domäne und noch keine formalen CIDOC CRM-Klassen.
+Beginnen Sie mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**. 
 
-Berücksichtigen Sie drei Bereiche aus der ursprünglichen Aktivierungsübung:
+Fragen Sie sich: **Welche charakteristischen Merkmale beschreiben das Computerspiel The Legend of Zelda: A Link to the Past, und wie hängen diese Merkmale miteinander zusammen?** 
+
+Verwenden Sie in dieser Phase die üblichen Fachbegriffe der Domäne und noch keine formalen CIDOC CRM-Klassen.
+
+Berücksichtigen Sie drei Aspekte:
 
 - **Spieltitel:** Wie wird das Spiel bezeichnet?
 - **Spieleigenschaften:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant?
 - **Narrative Elemente:** Welche Beschreibungen, Perspektiven oder Figuren sind relevant?
 
-Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. Unterscheiden Sie das Spiel als Inhalt von einem physischen Spieleexemplar, wenn dies für Ihre Aussagen relevant ist.
+Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. 
+
+Unterscheiden Sie das Spiel als Inhalt von einem physischen Spieleexemplar, wenn dies für Ihre Aussagen relevant ist.
 
 > **Schritt 1: Das Puzzle zum konzeptionellen Modell vervollständigen**
 >
