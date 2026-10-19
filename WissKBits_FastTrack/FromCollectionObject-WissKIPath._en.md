@@ -24,7 +24,7 @@ module: Fast Track – From Collection Object to WissKI Paths
 
 unit: Exercise-Based Walkthrough for Expert Users
 
-description: This SODa WissKI Bits fast track guides experienced users through the practical steps of ontology-based modelling of research data. Using a computer game collection as an example, participants create a conceptual model sketch, map selected concepts to CIDOC CRM, formalise an ontology section in Protégé, prepare a Draw.io diagram, and generate and import semantic paths and path groups in WissKI.
+description: This WissKI Bits fast track guides experienced users through the practical steps of ontology-based modelling of research data. Using a computer game collection as an example, participants create a conceptual model sketch, map selected concepts to CIDOC CRM, formalise an ontology section in Protégé, prepare a Draw.io diagram, and generate and import semantic paths and path groups in WissKI.
 
 keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
