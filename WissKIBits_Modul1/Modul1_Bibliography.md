@@ -8,8 +8,7 @@
  
 (Fichtner, 2025)                Fichtner, M. (2025). Grundlagen der Erzeugung und Verwaltung von Ontologiepfaden und ihre Anwendung [Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)]. https://doi.org/10.25593/OPEN-FAU-2143
  
-(Fichtner et al., 2023)         Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. Proceedings of the         
-                                Conference on Research Data Infrastructure, 1. https://doi.org/10.52825/cordi.v1i.353
+(Fichtner et al., 2023)         Fichtner, M., Nasarek, R., & Wiesing, T. (2023). WissKI: A Virtual Research Environment Based on Drupal. Proceedings of the Conference on Research Data Infrastructure, 1. https://doi.org/10.52825/cordi.v1i.353
  
 (Fischer & Hofer, 2010)         Fischer, P., & Hofer, P. (2010). Lexikon der Informatik (15. überarb. Aufl.). Springer. https://doi.org/doi.org/10.1007/978-3-642-15126-2
  
