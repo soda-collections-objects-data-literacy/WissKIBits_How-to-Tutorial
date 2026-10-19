@@ -1,11 +1,18 @@
 <!--
 author: Canan Hastik (0000-0003-1729-4642)
+
 author: Gudrun Schwenk (0009-0002-3156-8339)
+
 email: info@igsd-ev.de
+
 version:  v1.0.0
+
 language: de
+
 icon: https\://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
+
 link: https\://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
+
 license: CC BY 4.0 <https\://creativecommons.org/licenses/by/4.0/>
 
 comment: Dieser Fast Track ist Teil des How-to-Tutorials „Ontologiebasierte Modellierung von Forschungsdaten“. Anhand einer Computerspielsammlung bietet er erfahrenen Nutzenden einen kompakten, übungsorientierten Arbeitsablauf von der konzeptionellen Modellierung und Zuordnung zu CIDOC CRM über die Formalisierung einer Ontologie bis zur Konfiguration semantischer Pfade in WissKI.
