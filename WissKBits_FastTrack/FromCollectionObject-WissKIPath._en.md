@@ -47,7 +47,7 @@ LearningResourceType: How-to-Tutorial
 
 **Audience:** Users familiar with basic semantic modelling, CIDOC CRM, and ontology editors.  
 
-**Goal:** Move from a conceptual sketch through a small OWL ontology section and a Draw.io diagram to imported WissKI paths and path groups.
+**Goal:** Move from a conceptual model sketch and a formalised model sketch, through a Draw.io diagram and a small excerpt from an OWL ontology, to imported WissKI paths and path groups.
 
 This fast track contains the practical tasks from Modules 1–3. For explanations, definitions, quizzes, and detailed screenshots, refer to the full tutorial.
 
