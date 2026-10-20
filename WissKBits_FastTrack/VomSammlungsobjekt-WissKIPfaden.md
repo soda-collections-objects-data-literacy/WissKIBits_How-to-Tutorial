@@ -193,16 +193,18 @@ Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze
 
 ---
 
-### Schritt 1: Erlangen CRM laden**
+### Schritt 1: Erlangen CRM in Protégé laden
 
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
->
-> Für eine detaillierte Beschreibung, nutzen Sie die [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md) und [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
+
+> **Zur Vertiefung, siehe Modul 2, u.a.:**
+> - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
+> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
 ---
 
-### Schritt 2: Relevante Klassen untersuchen**
->
+### Schritt 2: Relevante Klassen untersuchen
+
 > Suchen Sie die folgenden Klassen in der Hierarchie:
 >
 > - `E41 Appellation`
@@ -210,18 +212,16 @@ Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze
 > - `E55 Type`
 > - `E73 Information Object`
 >
-> Untersuchen Sie für jede Klasse ihre Position in der Hierarchie, ihre Annotationen und ihre **Scope Note**.
-> Achten Sie besonders auf den Unterschied zwischen einer allgemeinen Benennung und einem Titel.
+> Untersuchen Sie für jede Klasse ihre Position in der Hierarchie, ihre Beziehungen und **Scope Note**.
 
 ---
 
-### Schritt 3: Ausgewählte Zuordnungen erneut prüfen**
->
-> Vergleichen Sie Ihre konzeptionellen Entscheidungen aus *2. Ausgewählte Konzepte dem CIDOC CRM zuordnen* mit den formalen Klassen in CIDOC CRM.
->
-> Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Bezeichnungen ähneln.
->
-> Die ursprüngliche Übung verwendet unter anderem folgende Beispiele:
+### Schritt 3: Ausgewählte Zuordnungen erneut prüfen
+
+> 1. Vergleichen Sie Ihre semantische Modellskizze mit den formalen Klassen in CIDOC CRM.
+> 2. Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Bezeichnungen ähneln.
+
+Das Tutorial verwendet unter anderem folgende CIDOC CRM Klassen:
 
 | Domänenkonzept | Mögliche CIDOC CRM-Klasse | Zu prüfende Frage |
 |---|---|---|
@@ -231,17 +231,18 @@ Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze
 
 ---
 
-### Schritt 4: Domänenspezifische Unterklassen erstellen**
+### Schritt 4: Domänenspezifische Unterklassen erstellen
 
-> Erstellen Sie die ausgewählten Unterklassen unter den passenden CIDOC-CRM Klassen:
+> 1. Erstellen Sie die ausgewählten **Unterklassen** unter den passenden CIDOC-CRM Klassen, z.B.:
 >
 > - E73 Information Object → Computer_Game
 > - E35 Title → Game_Title
 > - E55 Type → Game_Genre_Type, Game_Platform_Type
 >
-> **Erstellen Sie keine neuen CIDOC CRM-Eigenschaften.** untersuchen Sie nur die entsprechenden Eigenschaften in Protégé und dokumentieren Sie ihre Entscheidungen.
+> 2. **Erstellen Sie keine neuen CIDOC CRM Eigenschaften.**
+> 3. Untersuchen Sie nur die entsprechenden Eigenschaften in Protégé und dokumentieren Sie ihre Entscheidungen.
 
-Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehungen auszudrücken. Die Übung hebt folgende hervor:
+Das Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
 
 | Ausgangsklasse | Bestehende Eigenschaft | Zielklasse | Beabsichtigte Aussage |
 |---|---|---|---|
@@ -251,33 +252,21 @@ Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehun
 
 ---
 
-### Schritte 5–6: Überprüfen, dokumentieren und speichern**
+### Schritte 5: Überprüfen, dokumentieren und speichern
 
-> Prüfen Sie, ob...
+> 1. Prüfen Sie, ob...
 > - die Unterklassen unter den richtigen Oberklassen eingeordnet sind,
 > - die wiederverwendeten Eigenschaften die beabsichtigten Beziehungen ausdrücken und
 > - offene Fragen dokumentiert wurden.
-> 
-> Speichern Sie ihre Ontologie.
+> 2. Speichern Sie ihre Ontologie.
 >
 > **Ergebnis:** Ein kleiner formalisierter und dokumentierter Ontologieausschnitt, **keine** vollständige Computerspieleontologie.
->
-> **Übergang zur nächsten Übung**
->
-> Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3.
-> Es stellt ausgewählte Klassen und Eigenschaften derselben Beispieldomäne dar, wird jedoch **nicht automatisch aus deiner Protégé-Datei erzeugt**.
-> Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
+> **Übergang zur nächsten Übung:**
+> Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
-
-
-Folgen Sie der einfachen Erweiterungsstrategie des Tutorials: 
-- **Erstellen Sie Unterklassen bestehender CIDOC-CRM-Klassen**
-- **verwenden Sie bestehende CIDOC CRM-Eigenschaften wieder;**
-- **definieren Sie keine neuen Eigenschaften.**
-  
-*Basierend auf Modul 2, [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md) und [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
-
-
+> **Zur Vertiefung, siehe Modul 2, u.a.:** 
+> - [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
+> - [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
 
 ---
 
