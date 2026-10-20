@@ -99,15 +99,17 @@ Bearbeiten Sie die nachfolgenden, klar abgegrenzten Aufgaben. Für weitere Erlä
 Halten Sie Folgendes bereit:
 
 - Einen Computer mit Internetzugang und [Draw.io / diagrams.net](https://app.diagrams.net/).
-- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/), bereits verfügbar und einsatzbereit. Hilfe zur Installation finden Sie in **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)**.
-- Zugang zu einer konfigurierten WissKI-Instanz mit einem geeigneten Adapter. Der [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) ist eine Möglichkeit für die Tutorial-Umgebung.
+- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/), bereits verfügbar und einsatzbereit.
+  (Hilfe zur Installation finden Sie in **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)**.)
+- Zugang zu einer konfigurierten WissKI-Instanz mit einem geeigneten Adapter.
+  (Der [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) bietet eine Möglichkeit für kostenfreie WissKI-Instanz.)
 - [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), basierend auf CIDOC CRM 7.1.3.
 - [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html).
-- [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf), die im WissKI-Arbeitsablauf des Tutorials verwendet wird.
+- [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf), die im WissKI Bits How-to-Tutorial verwendet wird.
 
-Sie verwenden die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Aufgaben dazu aufgefordert werden. 
+Sie nutzen die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Aufgaben dazu aufgefordert werden. 
 
-**Beginnen Sie nicht damit, eine vollständig neue Ontologie oder ein neues Diagramm zu entwerfen.**
+**Beginnen Sie nicht damit, eine neue Ontologie oder ein neues Diagramm zu entwerfen.**
 
 ---
 
