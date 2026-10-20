@@ -153,7 +153,7 @@ Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erk
 
 ## 2. Ausgewählte Konzepte dem CIDOC CRM zuordnen — 15 Min.
 
-*Basierend auf Modul 1, [Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
+*Basierend auf Modul 1, [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
 
 **Ziel**
 
@@ -178,23 +178,32 @@ Verwenden Sie die folgende konzeptionelle Skizze nun als Ausgangspunkt für **vo
 
 > **Schritt 2: Modellierungsentscheidungen vergleichen**
 >
-> Diskutieren oder reflektieren Sie kurz: Kann derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen? Wird beispielsweise ein Name als Titel, als Identifikator oder als andere Art einer Benennung verwendet? Welche zusätzlichen Informationen würden die Mehrdeutigkeit auflösen?
+> Diskutieren oder reflektieren Sie kurz:
+> - Kann derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen?
+> - Wird beispielsweise ein Name als Titel, als Identifikator oder als andere Art einer Benennung verwendet?
+> - Welche zusätzlichen Informationen würden die Mehrdeutigkeit auflösen?
 >
-> **Ergebnis:** Zwei **begründete, vorläufige Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten. Dies ist eine semantische Modellierungsentscheidung und **noch keine OWL-Ontologie**.
+> **Ergebnis:** Ihre semantische Modellierungsentscheidung umfasst zwei **begründete, vorläufige Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
+> Sie haben **noch keine OWL-Ontologie**.
 >
 > **Übergang zur nächsten Übung**
 >
-> Sie haben den Unterschied zwischen einem Domänenkonzept und einer Klasse eines Referenzmodells untersucht. In Protégé werden Sie nun ausgewählte Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
+> Nachdem Sie den Unterschied zwischen einem Domänenkonzept und einer CIDOC CRM Klasse des Referenzmodells untersucht haben, werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
 
 ---
 
 ## 3. Einen kleinen Ontologieausschnitt in Protégé formalisieren — 25 Min.
 
-*Basierend auf Modul 2, Übung M2E2A: Modellierung mit CIDOC CRM in Protégé.*
+*Basierend auf Modul 2, [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md) und [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
 
 **Ziel**
 
-Formalisieren Sie einen **begrenzten Ausschnitt** der Computerspieldomäne. Folgen Sie der einfachen Erweiterungsstrategie des Tutorials: **Erstellen Sie Unterklassen bestehender CIDOC-CRM-Klassen und verwenden Sie bestehende CIDOC CRM-Eigenschaften wieder; definieren Sie keine neuen Eigenschaften.**
+Formalisieren Sie einen **den Ausschnitt** der Beispieldomäne. 
+
+Folgen Sie der einfachen Erweiterungsstrategie des Tutorials: 
+- **Erstellen Sie Unterklassen bestehender CIDOC-CRM-Klassen**
+- **verwenden Sie bestehende CIDOC CRM-Eigenschaften wieder;**
+- **definieren Sie keine neuen Eigenschaften.**
 
 ![Konzept-Mindmap aus der Übung in Modul 2](../WissKIBits_Modul2/assets/Mindmap.png)
 
