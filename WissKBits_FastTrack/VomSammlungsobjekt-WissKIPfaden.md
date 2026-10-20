@@ -330,7 +330,7 @@ Arbeiten Sie mit dem **vorbereiteten Lückendiagramm**:
 
 ## 5. WissKI-Pfade umwandeln und importieren - 20 Min.
 
-*Basierend auf Modul 3, Übung M3EÜ2: Von Draw.io zu WissKI-Pfaden.*
+*Basierend auf Modul 3, [MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)*
 
 **Ziel**
 
@@ -340,20 +340,21 @@ Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, import
 
 > **Schritt 1: Das Draw.io-Diagramm umwandeln**
 >
-> 1. Öffne den [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
+> 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 > 2. Laden Sie die **vervollständigte Draw.io-XML-Datei** aus Übung 4 hoch.
 > 3. Starten Sie die Transformation und untersuchen Sie die Antwort des Dienstes.
 > 4. Kopieren oder speichern Sie die URL der erzeugten **Pathbuilder-XML-Datei** für den Import in WissKI.
 >
-> Die aktuelle Dokumentation des Dienstes nennt **Erlangen CRM 240307** und die **Games-Ontologie** als unterstützte Ontologiegrundlage. Dieser Fast Track verwendet diese vorhandenen Ressourcen und erfordert keine Änderung des Dienstes.
+> Die aktuelle Dokumentation des Dienstes nennt **Erlangen CRM 240307** und die **Games-Ontologie** als unterstützte Ontologiegrundlage.
 
 > **Schritt 2: Die Ontologie in WissKI überprüfen**
 >
-> Melden Sie sich bei Ihrer vorbereiteten WissKI-Instanz an und navigieren Sie zu **WissKI → Configuration → WissKI Ontology**. Überprüfen Sie den konfigurierten Adapter und die in der Instanz verfügbare Ontologie. Falls die benötigte Games-Ontologie nicht vorhanden ist, folgen Sie der ursprünglichen Übung und den Anweisungen für Ihre Instanz, um sie über den vorgesehenen Adapter zu laden:
->
-> [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf)
->
-> **Wichtig:** Der Import von Pathbuilder XML importiert oder definiert **nicht** die Ontologie. Die referenzierten Klassen und Eigenschaften müssen bereits in der von WissKI verwendeten Ontologie verfügbar sein.
+> Melden Sie sich bei Ihrer WissKI-Instanz an und navigieren Sie zu **WissKI → Configuration → WissKI Ontology**.
+> Überprüfen Sie den konfigurierten Adapter und die in der Instanz verfügbare Ontologie.
+> Falls die benötigte [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) nicht vorhanden ist, fügen Sie diese hinzu und aktualisieren Sie den Salz-Adapter
+> 
+> **Wichtig:** Der Import der Pathbuilder XML-Datei definiert **nicht** die Ontologie.
+> Die referenzierten Klassen und Eigenschaften müssen bereits in der von WissKI verwendeten Ontologie verfügbar sein.
 
 > **Schritt 3: Einen Pathbuilder erstellen und die XML-Datei importieren**
 >
@@ -361,7 +362,8 @@ Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, import
 > 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
 > 3. Speichern und öffnen Sie den neuen Pathbuilder.
 > 4. Suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte XML-URL ein und starten Sie den Import.
-> 5. Warten Sie, bis die Pathbuilder-Struktur erscheint. **Überprüfen Sie die Pfade, bevor Sie Bundles oder Felder erzeugen.**
+> 5. Warten Sie, bis die Pathbuilder-Struktur erscheint.
+> 6. **Überprüfen Sie die Pfade, bevor Sie Bundles oder Felder erzeugen.**
 
 > **Schritt 4: Die importierten Pfade und Pfadgruppen untersuchen**
 >
@@ -377,7 +379,8 @@ Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, import
 
 > **Schritt 5: Die erzeugten Pfade überprüfen**
 >
-> Vergleichen Sie die importierte Pathbuilder-Konfiguration mit dem Draw.io-Diagramm. Prüfen Sie, ob die erwarteten Pfadgruppen vorhanden sind, ob die relevanten Klassen und Eigenschaften enthalten sind und ob Pfade fehlen, unerwartet auftreten oder falsch gruppiert wurden. Dokumentieren Sie alles, was gegebenenfalls im Diagramm oder in der Konfiguration korrigiert werden muss.
+> Vergleichen Sie die importierte Pathbuilder-Konfiguration mit dem Draw.io-Diagramm. Prüfen Sie, ob die erwarteten Pfadgruppen vorhanden sind, ob die relevanten Klassen und Eigenschaften enthalten sind und ob Pfade fehlen, unerwartet auftreten oder falsch gruppiert wurden.
+> Dokumentieren Sie alles, was gegebenenfalls im Diagramm oder in der Konfiguration korrigiert werden muss.
 >
 > **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
@@ -394,11 +397,11 @@ Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, import
 
 > **Nächster Schritt**
 >
-> Nach der Überprüfung der importierten Pathbuilder-Konfiguration können Sie mit der Erzeugung von Bundles und Feldern für die Dateneingabe und -anzeige in WissKI fortfahren, wie im vollständigen Tutorial beschrieben.
+> Nach der Überprüfung der importierten Pathbuilder-Konfiguration können Sie mit der Erzeugung von **Bundles und Feldern** für die Dateneingabe und -anzeige in WissKI fortfahren.
 
 ---
 
-## Optionale Referenz: Beispieldateien des gnm-service
+## Optionale Referenz: Beispieldateien des GNM-Service
 
 Der Dienst stellt zusätzliche Beispiele zur Überprüfung des Transformationsformats bereit. **Sie dienen als Referenz und sind keine zusätzlichen verpflichtenden Eingabedateien für diesen Fast Track.**
 
@@ -406,7 +409,11 @@ Der Dienst stellt zusätzliche Beispiele zur Überprüfung des Transformationsfo
 - [Optionale JSON-Konfiguration mit Standardwerten](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/config_defaults.json).
 - [Beispiel einer Pathbuilder-XML-Ausgabedatei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml).
 
-**Umfang:** Dieser Fast Track ist eine begrenzte Auswahl und Verknüpfung der **bestehenden praktischen Übungen**. Er erfordert weder die Entwicklung eines neuen durchgängigen Modells von Grund auf noch eine Erweiterung des gnm-service. Für vertiefende Erläuterungen, optionale Aufgaben, vollständige Screenshots und weiterführende Reflexionen können Sie die entsprechenden ursprünglichen Einheiten (M1U0A, M1UE, M2UE, M3UE1 und M3UE2) konsultieren.
+**Umfang:** Dieser Fast Track ist eine begrenzte Auswahl und Verknüpfung der **bestehenden praktischen Übungen**. 
+
+Er erfordert weder die Entwicklung eines neuen durchgängigen Modells von Grund auf noch eine Erweiterung des GNM-Service. 
+
+Für vertiefende Erläuterungen, optionale Aufgaben, vollständige Screenshots und weiterführende Reflexionen können Sie das vollständige Tutorial konsultieren.
 
 
 
