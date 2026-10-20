@@ -399,6 +399,8 @@ Sie arbeiten in Ihrer [WissKI-Test-Instanz]() weiter.
 > **Nächster Schritt**
 >
 > Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen:  **save and generate bundles und fields**
+> Danach können Sie Daten eingeben.
+> Hier stellen wir Ihnen einen [Pathbuilder Export](../WissKIBits_Modul3/assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
 
 
 
