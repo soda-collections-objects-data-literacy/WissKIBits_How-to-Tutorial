@@ -119,11 +119,14 @@ Sie nutzen die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Au
 
 **Ziel und Ausgangspunkt**
 
-Beginnen Sie mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**. 
+Sie beginnen mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**. 
 
-Fragen Sie sich: **Welche charakteristischen Merkmale beschreiben das Computerspiel The Legend of Zelda: A Link to the Past, und wie hängen diese Merkmale miteinander zusammen?** 
+Fragen Sie sich: 
 
-Verwenden Sie in dieser Phase die üblichen Fachbegriffe der Domäne und noch keine formalen CIDOC CRM-Klassen.
+- **Welche charakteristischen Merkmale beschreiben das Computerspiel The Legend of Zelda: A Link to the Past?**
+- **Wie hängen diese Merkmale miteinander zusammen?** 
+
+Verwenden Sie in dieser Phase die üblichen Fachbegriffe aus der Computerspiele-Domäne und noch keine formalen CIDOC CRM-Klassen.
 
 Berücksichtigen Sie drei Aspekte:
 
@@ -133,15 +136,12 @@ Berücksichtigen Sie drei Aspekte:
 
 Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. 
 
-Unterscheiden Sie das Spiel als Inhalt von einem physischen Spieleexemplar, wenn dies für Ihre Aussagen relevant ist.
-
 > **Schritt 1: Das Puzzle zum konzeptionellen Modell vervollständigen**
 >
-> 1. Öffnen Sie [Draw.io](https://app.diagrams.net/) und laden Sie die vorbereitete [Puzzle-Vorlage (`puzzle.drawio_en.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/assets/puzzle.drawio_en.xml) des Tutorials.
-> 2. Untersuchen Sie die **vorgegebenen** Konzepte, Ereignisse und Beziehungen. Ordnen und verbinden Sie die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze des Beispielobjekts.
+> 1. Öffnen Sie **[Draw.io](https://app.diagrams.net/)** und laden Sie die vorbereitete **[Puzzle-Vorlage (`puzzle.drawio_en.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/assets/puzzle.drawio_en.xml)**.
+> 2. Untersuchen Sie die **vorgegebenen** Konzepte, Ereignisse und Beziehungen. **Ordnen und verbinden** Sie die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze des Beispielobjekts.
 > 3. Lesen Sie die Verbindungen als Aussagen: *Welche Entität steht mit welcher anderen Entität in welcher Beziehung?* Verwenden Sie aussagekräftige Beziehungsbezeichnungen.
-> 4. Prüfen Sie, ob jede Aussage durch die verfügbaren Objektinformationen gestützt wird. Kennzeichnen Sie ungeklärte oder unsichere Verbindungen mit `?`, anstatt Vermutungen anzustellen.
-> 5. Erläutern Sie kurz eine Beziehung und eine Unsicherheit in Ihrer Skizze.
+> 4. Prüfen Sie, ob die Beziehungen zwischen den Konzepten und Ereignissen die Fragen zur Merkmalen des Beispielobjektes stüzen.
 >
 > **Ergebnis:** Eine konzeptionelle Skizze, die ausgewählte Domänenkonzepte und Beziehungen sichtbar macht. **Ordnen Sie noch keine CIDOC-CRM-Klassen zu.**
 >
@@ -153,20 +153,23 @@ Unterscheiden Sie das Spiel als Inhalt von einem physischen Spieleexemplar, wenn
 
 ## 2. Ausgewählte Konzepte dem CIDOC CRM zuordnen — 15 Min.
 
-*Basierend auf Modul 1, AKTIVIERUNG M1E1A: Anwendungsbeispiel: Objektsammlung · Vom Objekt zum konzeptionellen Modell*
+*Basierend auf Modul 1, [Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
 
 **Ziel**
 
-Verwenden Sie die konzeptionelle Skizze als Ausgangspunkt für **vorläufige** semantische Zuordnungen. Ein ähnlich klingender Klassenname reicht nicht aus: Vergleichen Sie die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen Klasse.
+Verwenden Sie die folgende konzeptionelle Skizze nun als Ausgangspunkt für **vorläufige** semantische Zuordnungen. 
 
 ![Konzept-Mindmap aus der Übung in Modul 1](../WissKIBits_Modul1/assets/mindmap_en.png)
 
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung.
+
 > **Schritt 1: Erste Zuordnungen untersuchen und begründen**
 >
-> 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus Ihrer Skizze aus. Klären Sie, was diese jeweils im Sammlungskontext bedeuten.
-> 2. Konsultieren Sie die [CIDOC-CRM-Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) und identifizieren Sie mögliche Klassen. Je nach ausgewählten Konzepten können `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group` geeignete Ausgangspunkte sein.
-> 3. Lesen Sie die **Scope Notes** und vergleichen Sie die möglichen Klassen mit Ihrem Domänenkonzept. Berücksichtigen Sie dabei, was die jeweilige Klasse einschließt oder ausschließt.
-> 4. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
+> 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Skizze aus und klären Sie, was diese jeweils im Sammlungskontext bedeuten.
+> 2. Konsultieren Sie die **[CIDOC-CRM-Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** und identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten und Ereignissen.
+> (Je nach ausgewählten Konzepten können `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group` geeignete Ausgangspunkte sein.)
+> 4. Lesen Sie die **Scope Notes** und vergleichen Sie die Klassen mit Ihrem Domänenkonzept. Berücksichtigen Sie dabei, was die jeweilige Klasse einschließt oder ausschließt.
+> 5. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
 
 | Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Begründung anhand der Scope Note | Offene Frage |
 |---|---|---|---|
