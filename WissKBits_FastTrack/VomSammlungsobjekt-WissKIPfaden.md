@@ -211,7 +211,7 @@ Folgen Sie der einfachen Erweiterungsstrategie des Tutorials:
 >
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
 >
-> Falls Sie eine Auffrischung zur Benutzeroberfläche benötigen, konsultieren Sie die ursprüngliche [Übung aus Modul 2](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial) und das zugehörige Video zu den ersten Schritten.
+> Für eine detaillierte Beschreibung, nutzen Sie die [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md) und [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
 > **Schritt 2: Relevante Klassen untersuchen**
 >
@@ -222,11 +222,12 @@ Folgen Sie der einfachen Erweiterungsstrategie des Tutorials:
 > - `E55 Type`
 > - `E73 Information Object`
 >
-> Untersuchen Sie für jede Klasse ihre Position in der Hierarchie, ihre Annotationen und ihre **Scope Note**. Achten Sie besonders auf den Unterschied zwischen einer allgemeinen Benennung und einem Titel.
+> Untersuchen Sie für jede Klasse ihre Position in der Hierarchie, ihre Annotationen und ihre **Scope Note**.
+> Achten Sie besonders auf den Unterschied zwischen einer allgemeinen Benennung und einem Titel.
 
 > **Schritt 3: Ausgewählte Zuordnungen erneut prüfen**
 >
-> Vergleichen Sie die konzeptionellen Entscheidungen aus Übung 2 mit den formalen Klassen in CIDOC CRM.
+> Vergleichen Sie Ihre konzeptionellen Entscheidungen aus *2. Ausgewählte Konzepte dem CIDOC CRM zuordnen* mit den formalen Klassen in CIDOC CRM.
 >
 > Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Bezeichnungen ähneln.
 >
@@ -246,9 +247,9 @@ Folgen Sie der einfachen Erweiterungsstrategie des Tutorials:
 > - E35 Title → Game_Title
 > - E55 Type → Game_Genre_Type, Game_Platform_Type
 >
-> **Erstellen Sie keine neuen CIDOC CRM-Eigenschaften.** Diese Zeilen beschreiben das beabsichtigte Modell. Untersuchen Sie die entsprechenden Eigenschaften in Protégé und dokumentieren Sie ihre Entscheidungen, anstatt davon auszugehen, dass die Tabelle selbst die Beziehungen implementiert.
+> **Erstellen Sie keine neuen CIDOC CRM-Eigenschaften.** untersuchen Sie nur die entsprechenden Eigenschaften in Protégé und dokumentieren Sie ihre Entscheidungen.
 
-Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehungen auszudrücken. Die ursprüngliche Übung hebt folgende hervor:
+Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehungen auszudrücken. Die Übung hebt folgende hervor:
 
 | Ausgangsklasse | Bestehende Eigenschaft | Zielklasse | Beabsichtigte Aussage |
 |---|---|---|---|
@@ -258,36 +259,47 @@ Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehun
 
 > **Schritte 5–6: Überprüfen, dokumentieren und speichern**
 >
-> Prüfen Sie, ob die Unterklassen unter geeigneten Oberklassen eingeordnet sind, ob die wiederverwendeten Eigenschaften die beabsichtigten Beziehungen ausdrücken und ob offene Fragen dokumentiert wurden. Speichern Sie ihre Arbeit wie in der ursprünglichen Übung beschrieben, wenn Sie den bearbeiteten Ontologieausschnitt aufbewahren möchten.
+> Prüfen Sie, ob...
+> - die Unterklassen unter den richtigen Oberklassen eingeordnet sind,
+> - die wiederverwendeten Eigenschaften die beabsichtigten Beziehungen ausdrücken und
+> - offene Fragen dokumentiert wurden.
+> 
+> Speichern Sie ihre Ontologie.
 >
-> **Ergebnis:** Ein kleiner formalisierter und dokumentierter Ontologieausschnitt, **keine** vollständige Spieleontologie.
+> **Ergebnis:** Ein kleiner formalisierter und dokumentierter Ontologieausschnitt, **keine** vollständige Computerspieleontologie.
 >
 > **Übergang zur nächsten Übung**
 >
-> Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Es stellt ausgewählte Klassen und Eigenschaften derselben Beispieldomäne dar, wird jedoch **nicht automatisch aus deiner Protégé-Datei erzeugt**. Du vervollständigst das Diagramm gemäß den Konventionen, die der Transformationsdienst voraussetzt.
+> Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3.
+> Es stellt ausgewählte Klassen und Eigenschaften derselben Beispieldomäne dar, wird jedoch **nicht automatisch aus deiner Protégé-Datei erzeugt**.
+> Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
 ---
 
 ## 4. Das Draw.io-Diagramm vervollständigen - 15 Min.
 
-*Basierend auf Modul 3, Übung M3EÜ1: Visualisierung einer Domänenontologie als Diagramm.*
+*Basierend auf Modul 3, [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)*
 
 **Ziel**
 
-Stellen Sie zusammenhängende semantische Pfade mithilfe ausgewählter Ontologieklassen und bestehender CIDOC-CRM-Eigenschaften dar. Arbeiten Sie mit dem **vorbereiteten Lückendiagramm**, anstatt ein neues Modell von Grund auf zu zeichnen.
+Stellen Sie zusammenhängende semantische Pfade mithilfe ausgewählter Ontologieklassen und bestehender CIDOC-CRM-Eigenschaften als Diagramm dar. 
+
+Arbeiten Sie mit dem **vorbereiteten Lückendiagramm**:
 
 ![Beispiel des Ontologiediagramms](../WissKIBits_Modul3/assets/MusterDrawio.png)
 
 > **Schritt 1: Das vorbereitete Diagramm vervollständigen**
 >
-> 1. Laden Sie das ursprüngliche [Draw.io-XML-Lückendiagramm (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) herunter und öffnen Sie es in [Draw.io](https://app.diagrams.net/).
+> 1. Laden Sie das ursprüngliche **[Draw.io-XML-Lückendiagramm (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml)** herunter und öffnen Sie es in **[Draw.io](https://app.diagrams.net/)**.
 > 2. Identifizieren Sie die fehlenden Knoten und Kanten und ersetzen Sie die temporären Platzhalter `(???)`.
 > 3. Verwenden Sie die in der ursprünglichen Übung angegebenen Elemente **an den entsprechenden Stellen**, darunter `P102_has_title`, `P1 is identified by`, `P190 has symbolic content` und `mega:E41_Game_Character_Name`.
-> 4. Verbinden Sie die Klassen und Eigenschaften zu **vollständigen semantischen Pfaden**. Stellen Sie sicher, dass jede Eigenschaftsbezeichnung der zugehörigen Kante zugeordnet ist. Fügen Sie keine einzelnen Spielinstanzen hinzu.
-> 5. Untersuchen Sie die Attribute des zentralen Startknotens und der Gruppenknoten: `element_id`, `group_name` und `name`. Die ursprüngliche Übung nennt `Computer_Game` als Beispielwert für diese Attribute. Prüfen Sie die Attribute der Endknoten anhand des **vorbereiteten Diagramms und der ursprünglichen Übung**, anstatt Werte zu erfinden.
-> 6. Speichern óder exportieren Sie das vervollständigte Diagramm als **Draw.io XML**.
->
-> Ein in der ursprünglichen Übung dargestellter Pfad lautet:
+> 4. Verbinden Sie die Klassen und Eigenschaften zu **vollständigen semantischen Pfaden** und stellen Sie sicher, dass jede Eigenschaftsbezeichnung der zugehörigen Kante zugeordnet ist.
+> 5. Fügen Sie keine einzelnen Spielinstanzen hinzu.
+> 6. Untersuchen Sie die Attribute des zentralen Startknotens und der Gruppenknoten: `element_id`, `group_name` und `name`.
+> 7. Die ursprüngliche Übung nennt `Computer_Game` als Beispielwert für diese Attribute. Prüfen Sie die Attribute der Endknoten anhand des **vorbereiteten Diagramms und der ursprünglichen Übung**, anstatt Werte zu erfinden.
+> 8. Speichern óder exportieren Sie das vervollständigte Diagramm als **Draw.io XML**.
+
+> **Ein Beispiel-Pfad lautet:**
 >
 > mega:E73_Computer_Game
 >
@@ -298,14 +310,21 @@ Stellen Sie zusammenhängende semantische Pfade mithilfe ausgewählter Ontologie
 > → P190 has symbolic content
 >
 > → E62_String
+
+> **Prüfen Sie die Modellierungsregeln:**
 >
-> **Prüfung vor der Konvertierung:** Es sind keine `(???)`-Platzhalter mehr vorhanden; die Verbindungen sind vollständig; Klassen- und Eigenschaftsnamen sowie die erforderlichen Attribute sind konsistent; das Diagramm enthält **Klassen und Eigenschaften**, keine einzelnen Instanzen.
+> (Eine detaillierte Beschreibung finden Sie in [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md))
+> 
+> - Es sind keine `(???)`-Platzhalter mehr vorhanden;
+> - Die Verbindungen sind vollständig;
+> - Klassen- und Eigenschaftsnamen sowie die erforderlichen Attribute sind konsistent;
+> - Das Diagramm enthält **Klassen und Eigenschaften**, keine einzelnen Instanzen.
 >
 > **Ergebnis:** Ein vervollständigtes Draw.io-XML-Diagramm, das für den bestehenden gnm-service bereit ist.
 >
 > **Übergang zur nächsten Übung**
 >
-> Das Diagramm beschreibt semantische Pfade visuell. Der gnm-service wandelt seine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
+> Das Diagramm beschreibt semantische Pfade visuell. Der GNM-Service wandelt seine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
 
 ---
 
