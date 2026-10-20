@@ -123,8 +123,8 @@ Sie beginnen mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**
 
 Fragen Sie sich: 
 
-- **Welche charakteristischen Merkmale beschreiben das Computerspiel The Legend of Zelda: A Link to the Past?**
-- **Wie hängen diese Merkmale miteinander zusammen?** 
+- **Welche charakteristischen Merkmale beschreiben das SNES-Computerspiel 'The Legend of Zelda: A Link to the Past'?**
+- **Wie hängen diese spezifischen Merkmale miteinander zusammen?** 
 
 Verwenden Sie in dieser Phase die üblichen Fachbegriffe aus der Computerspiele-Domäne und noch keine formalen CIDOC CRM-Klassen.
 
