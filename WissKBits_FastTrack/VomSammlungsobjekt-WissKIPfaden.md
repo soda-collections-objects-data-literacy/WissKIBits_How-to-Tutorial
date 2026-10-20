@@ -148,7 +148,7 @@ Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus M
 
 ---
 
-### Schritt 1: Erste Zuordnungen untersuchen und begründen
+### Schritt 1: Erste Klassen-Zuordnungen untersuchen und begründen
 
 > 1. wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten,
 > 2. konsultieren Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**,
@@ -216,7 +216,7 @@ Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze
 
 ---
 
-### Schritt 3: Ausgewählte Zuordnungen erneut prüfen
+### Schritt 3: Ausgewählte Klassen-Zuordnungen erneut prüfen
 
 > 1. Vergleichen Sie Ihre semantische Modellskizze mit den formalen Klassen in CIDOC CRM.
 > 2. Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Bezeichnungen ähneln.
@@ -274,96 +274,101 @@ Das Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
 
 **Ausgangspunkt**
 
-Sie arebiten mit dem **vorbereiteten Lückendiagramm**:
+Sie arbeiten mit dem **vorbereiteten Lückendiagramm**:
 
-![Beispiel des Ontologiediagramms](../WissKIBits_Modul3/assets/MusterDrawio.png)
+![Beispiel des Ontologiediagramms](../WissKIBits_Modul3/assets/Gruppe_B.drawio.png)
 
 ---
 
 ### Schritt 1: Das vorbereitete Diagramm vervollständigen
 
-> 1. Laden Sie das **[Draw.io-XML-Lückendiagramm (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml)** herunter und öffnen Sie es in **[Draw.io](https://app.diagrams.net/)**.
-> 2. Identifizieren Sie die fehlenden Knoten und Kanten und ersetzen Sie die temporären Platzhalter `(???)`.
-> 3. Verwenden Sie die in der ursprünglichen Übung angegebenen Elemente **an den entsprechenden Stellen**, darunter `P102_has_title`, `P1 is identified by`, `P190 has symbolic content` und `mega:E41_Game_Character_Name`.
-> 4. Verbinden Sie die Klassen und Eigenschaften zu **vollständigen semantischen Pfaden** und stellen Sie sicher, dass jede Eigenschaftsbezeichnung der zugehörigen Kante zugeordnet ist.
-> 5. Fügen Sie keine einzelnen Spielinstanzen hinzu.
-> 6. Untersuchen Sie die Attribute des zentralen Startknotens und der Gruppenknoten: `element_id`, `group_name` und `name`.
-> 7. Die ursprüngliche Übung nennt `Computer_Game` als Beispielwert für diese Attribute. Prüfen Sie die Attribute der Endknoten anhand des **vorbereiteten Diagramms und der ursprünglichen Übung**, anstatt Werte zu erfinden.
-> 8. Speichern óder exportieren Sie das vervollständigte Diagramm als **Draw.io XML**.
-
-> **Ein Beispiel-Pfad lautet:**
->
-> mega:E73_Computer_Game
->
-> → P102_has_title
->
-> → mega:E35_Game_Title
->
-> → P190 has symbolic content
->
-> → E62_String
+> 1. Laden Sie das **[Draw.io-XML-Lückendiagramm](../WissKIBits_Modul3/assets/Gruppe_B.drawio.xml)** herunter oder öffnen Sie es direkt von GitHub in **[Draw.io](https://app.diagrams.net/)**.
+> 3. Identifizieren Sie die fehlenden Knoten und Kanten und ersetzen Sie die **vier** temporären Platzhalter `(???)`.
+> 4. Verwenden Sie die angegebenen Elemente **an den richtigen Stellen**:
+>    `P102_has_title`,
+>    `P1 is identified by`,
+>    `P190 has symbolic content`,
+>    `mega:E41_Game_Character_Name`.
+> 5. Prüfen Sie, dass die Klassen und Eigenschaften **vollständigee semantischee Pfade** bilden und dass jede Eigenschaftsbezeichnung der zugehörigen Beziehung zugeordnet ist.
+> 6. Untersuchen Sie die **Attribute** `element_id`, `group_name` und `name` sowie **-werte** des zentralen Startknotens, der Gruppenknoten und Endknoten:
+>    Beispielsweise, die Attributwerte des **Gruppenknoten** mega:E89_Game_Characteristic ist `Game_Characteristic`.
+> 7. Exportieren Sie das Diagramm als **Draw.io XML** und speichern Sie es lokal.
 
 > **Prüfen Sie die Modellierungsregeln:**
 >
+> - Das Diagramm enthält **Klassen und Eigenschaften** die Pfade und Pfadgruppen aber keine keine einzelnen Instanzen repräsentieren
 > - Es sind keine `(???)`-Platzhalter mehr vorhanden;
 > - Die Verbindungen sind vollständig;
-> - Klassen- und Eigenschaftsnamen sowie die erforderlichen Attribute sind konsistent;
-> - Das Diagramm enthält **Klassen und Eigenschaften**, keine einzelnen Instanzen.
+> - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent;
 >
-> **Ergebnis:** Ein vervollständigtes Draw.io-XML-Diagramm, das für den bestehenden gnm-service bereit ist.
+> **Ergebnis:** Ein vervollständigtes Draw.io-XML-Diagramm, das für den bestehenden GNM-Service bereit ist.
 > **Übergang zur nächsten Übung:**
 > Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
 
-
-
-(Eine detaillierte Beschreibung finden Sie in [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md))
-*Basierend auf Modul 3, [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)*
-
-
+> **Zur Vertiefung, siehe Modul 3, u.a.:**
+> [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
+> [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 
 ---
 
 ## 5. WissKI-Pfade umwandeln und importieren - 20 Min.
 
-*Basierend auf Modul 3, [MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)*
+**Ausgangspunkt**
 
-**Ziel**
+Sie arbeiten mit der exportierten [Draw.io XML Datei](../WissKIBits_FastTrack/assets/SODa_ISWC2025.drawio.xml) und dem [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) weiter.
 
-Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, importieren Sie die erzeugte **Konfiguration** in WissKI und vergleichen Sie die importierten Pfade und Pfadgruppen mit dem Ausgangsdiagramm.
+---
 
-![Beispiel des WissKI Pathbuilders](../WissKIBits_Modul3/assets/pathbuilder.jpg)
+### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
-> **Schritt 1: Das Draw.io-Diagramm umwandeln**
->
 > 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Laden Sie die **vervollständigte Draw.io-XML-Datei** aus Übung 4 hoch.
-> 3. Starten Sie die Transformation und untersuchen Sie die Antwort des Dienstes.
-> 4. Kopieren oder speichern Sie die URL der erzeugten **Pathbuilder-XML-Datei** für den Import in WissKI.
->
-> Die aktuelle Dokumentation des Dienstes nennt **Erlangen CRM 240307** und die **Games-Ontologie** als unterstützte Ontologiegrundlage.
+> 2. Laden Sie die [Draw.io XML Datei](../WissKIBits_FastTrack/assets/SODa_ISWC2025.drawio.xml) hier hoch:
+>    `Upload draw.io XML file for conversion to WissKI Pathbuilder XML`
+> 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
+> 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
 
-> **Schritt 2: Die Ontologie in WissKI überprüfen**
->
-> Melden Sie sich bei Ihrer WissKI-Instanz an und navigieren Sie zu **WissKI → Configuration → WissKI Ontology**.
-> Überprüfen Sie den konfigurierten Adapter und die in der Instanz verfügbare Ontologie.
-> Falls die benötigte [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) nicht vorhanden ist, fügen Sie diese hinzu und aktualisieren Sie den Salz-Adapter
-> 
-> **Wichtig:** Der Import der Pathbuilder XML-Datei definiert **nicht** die Ontologie.
-> Die referenzierten Klassen und Eigenschaften müssen bereits in der von WissKI verwendeten Ontologie verfügbar sein.
+**Wichtig:** Behalte den Link!
 
-> **Schritt 3: Einen Pathbuilder erstellen und die XML-Datei importieren**
->
+---
+
+## 6. WissKi Pathbuilder erstellen
+
+**Ausgangspunkt**
+
+Sie arbeiten in Ihrer [WissKI-Test-Instanz]() weiter.
+
+---
+
+### Schritt 1: Games-Ontologie in WissKI laden und SALZ Adapter aktualisieren
+
+> 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
+> 2. Navigieren Sie zu **WissKI → Configuration → WissKI Ontology**.
+> 3. Löschen Sie die bestehende Ontologie.
+> 4. Laden Sie die [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) hier **Pathbuilder Definition Import** als URL.
+> 5. Aktualisiere den **WissKI Salz Adapter**:
+>    - Navigieren Sie **WissKI → Configuration → WissKI Salz Adapter**
+>    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
+>    - Lösche die bestehende Schlussfolgerungstabelle: **Delete Reasoning Table**
+>    - Berechnen Sie die Schlussfolgerungstabelle neu mit **Re-Compute results** und **Start Reasoning**
+>    - Aktualisieren Sie den Adapter **update adapter**.
+
+---
+
+### Schritt 2: Pathbuilder erstellen und importieren**  
+
 > 1. Navigieren Sie zu **Configuration → Pathbuilders**.
 > 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
 > 3. Speichern und öffnen Sie den neuen Pathbuilder.
-> 4. Suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte XML-URL ein und starten Sie den Import.
+> 4. Suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
 > 5. Warten Sie, bis die Pathbuilder-Struktur erscheint.
-> 6. **Überprüfen Sie die Pfade, bevor Sie Bundles oder Felder erzeugen.**
+> 6. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
 
-> **Schritt 4: Die importierten Pfade und Pfadgruppen untersuchen**
->
-> Suchen Sie die Beziehung:
->
+---
+
+### Schritt 3: Importierten Pfade und Pfadgruppen untersuchen**
+
+> Überprüfen Sie die Pfadgruppen und Pfade:
+> 
 > **Computer_Game → P102 has title → Game_Title**
 >
 > Prüfen Sie, welche Pfadgruppe diese Beziehung enthält, identifizieren Sie die Eigenschaft, die die Klassen verbindet, und vergleichen Sie das Ergebnis mit dem Ausgangsdiagramm. Verwenden Sie die folgenden Fragen aus der ursprünglichen Übung als kurze Kontrolle:
@@ -372,43 +377,30 @@ Wandeln Sie das vervollständigte Draw.io-Diagramm in Pathbuilder XML um, import
 > - Welche Eigenschaft verbindet die Ausgangs- und Zielklasse? (**P102 has title**.)
 > - Entspricht der importierte Pfad Ihrem Ausgangsdiagramm? **Prüfen Sie das tatsächliche Ergebnis**, anstatt anzunehmen, dass der Import die Korrektheit garantiert.
 
-> **Schritt 5: Die erzeugten Pfade überprüfen**
+> **Schritt 5: Erzeugten Pfadgruppen und Pfade überprüfen und dokumentieren**
 >
-> Vergleichen Sie die importierte Pathbuilder-Konfiguration mit dem Draw.io-Diagramm. Prüfen Sie, ob die erwarteten Pfadgruppen vorhanden sind, ob die relevanten Klassen und Eigenschaften enthalten sind und ob Pfade fehlen, unerwartet auftreten oder falsch gruppiert wurden.
-> Dokumentieren Sie alles, was gegebenenfalls im Diagramm oder in der Konfiguration korrigiert werden muss.
->
+> 1. Vergleichen Sie den importierten **Pathbuilder** und das **Draw.io-Diagramm.**
+> 2. Prüfen Sie,
+> - ob die erwarteten Pfadgruppen vorhanden sind,
+> - ob die relevanten Klassen und Eigenschaften enthalten sind.
+> - ob Pfade fehlen, unerwartet auftreten oder falsch gruppiert wurden.
+>   
+> 3. Erstellen Sie eine Dokumentation und Archivieren Sie relevante Dateien. [[VERWEIS Basiskurs - Dokumentation von Forschungsdaten]]]
+> 
 > **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
+![Beispiel des WissKI Pathbuilders](../WissKIBits_Modul3/assets/pathbuilder.jpg) 
+
+> **Zur Vertiefung, siehe Modul 3, u.a.:**
+> -[MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
+
 ---
-
-## Abschlusskontrolle
-
-- [ ] Das vorbereitete Puzzle zum konzeptionellen Modell wurde vervollständigt und unsichere Beziehungen wurden identifiziert.
-- [ ] Zwei vorläufige CIDOC-CRM-Zuordnungen wurden anhand der Scope Notes begründet.
-- [ ] Ein ausgewählter Ontologieausschnitt wurde in Protégé mithilfe domänenspezifischer Unterklassen und **bestehender Eigenschaften** formalisiert.
-- [ ] Das bereitgestellte Lückendiagramm `Gruppe_B.drawio.xml` wurde vervollständigt und als Draw.io XML gespeichert.
-- [ ] Das Diagramm wurde mit dem bestehenden gnm-service umgewandelt.
-- [ ] Die Pathbuilder-XML-Datei wurde importiert und die entstandenen Pfade und Pfadgruppen wurden in WissKI überprüft.
 
 > **Nächster Schritt**
 >
-> Nach der Überprüfung der importierten Pathbuilder-Konfiguration können Sie mit der Erzeugung von **Bundles und Feldern** für die Dateneingabe und -anzeige in WissKI fortfahren.
+> Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen:  **save and generate bundles und fields**
 
----
 
-## Optionale Referenz: Beispieldateien des GNM-Service
-
-Der Dienst stellt zusätzliche Beispiele zur Überprüfung des Transformationsformats bereit. **Sie dienen als Referenz und sind keine zusätzlichen verpflichtenden Eingabedateien für diesen Fast Track.**
-
-- [Beispiel einer Draw.io-XML-Eingabedatei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml) ([in diagrams.net öffnen](https://app.diagrams.net/#Uhttps%3A%2F%2Fisl.ics.forth.gr%2Fgnm_services%2Ffiles%2Fexamples%2Fdiagrams_to_pathbuilders%2FSODa_ISWC2025.drawio.xml#%7B%22pageId%22%3A%22iUIuGOhsytNMqk53lauw%22%7D); [PNG-Vorschau](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.png)).
-- [Optionale JSON-Konfiguration mit Standardwerten](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/config_defaults.json).
-- [Beispiel einer Pathbuilder-XML-Ausgabedatei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml).
-
-**Umfang:** Dieser Fast Track ist eine begrenzte Auswahl und Verknüpfung der **bestehenden praktischen Übungen**. 
-
-Er erfordert weder die Entwicklung eines neuen durchgängigen Modells von Grund auf noch eine Erweiterung des GNM-Service. 
-
-Für vertiefende Erläuterungen, optionale Aufgaben, vollständige Screenshots und weiterführende Reflexionen können Sie das vollständige Tutorial konsultieren.
 
 
 
