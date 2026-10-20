@@ -272,19 +272,17 @@ Das Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
 
 ## 4. Das Draw.io-Diagramm vervollständigen - 15 Min.
 
-*Basierend auf Modul 3, [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)*
+**Ausgangspunkt**
 
-**Ziel**
-
-Stellen Sie zusammenhängende semantische Pfade mithilfe ausgewählter Ontologieklassen und bestehender CIDOC-CRM-Eigenschaften als Diagramm dar. 
-
-Arbeiten Sie mit dem **vorbereiteten Lückendiagramm**:
+Sie arebiten mit dem **vorbereiteten Lückendiagramm**:
 
 ![Beispiel des Ontologiediagramms](../WissKIBits_Modul3/assets/MusterDrawio.png)
 
-> **Schritt 1: Das vorbereitete Diagramm vervollständigen**
->
-> 1. Laden Sie das ursprüngliche **[Draw.io-XML-Lückendiagramm (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml)** herunter und öffnen Sie es in **[Draw.io](https://app.diagrams.net/)**.
+---
+
+### Schritt 1: Das vorbereitete Diagramm vervollständigen
+
+> 1. Laden Sie das **[Draw.io-XML-Lückendiagramm (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml)** herunter und öffnen Sie es in **[Draw.io](https://app.diagrams.net/)**.
 > 2. Identifizieren Sie die fehlenden Knoten und Kanten und ersetzen Sie die temporären Platzhalter `(???)`.
 > 3. Verwenden Sie die in der ursprünglichen Übung angegebenen Elemente **an den entsprechenden Stellen**, darunter `P102_has_title`, `P1 is identified by`, `P190 has symbolic content` und `mega:E41_Game_Character_Name`.
 > 4. Verbinden Sie die Klassen und Eigenschaften zu **vollständigen semantischen Pfaden** und stellen Sie sicher, dass jede Eigenschaftsbezeichnung der zugehörigen Kante zugeordnet ist.
@@ -307,18 +305,21 @@ Arbeiten Sie mit dem **vorbereiteten Lückendiagramm**:
 
 > **Prüfen Sie die Modellierungsregeln:**
 >
-> (Eine detaillierte Beschreibung finden Sie in [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md))
-> 
 > - Es sind keine `(???)`-Platzhalter mehr vorhanden;
 > - Die Verbindungen sind vollständig;
 > - Klassen- und Eigenschaftsnamen sowie die erforderlichen Attribute sind konsistent;
 > - Das Diagramm enthält **Klassen und Eigenschaften**, keine einzelnen Instanzen.
 >
 > **Ergebnis:** Ein vervollständigtes Draw.io-XML-Diagramm, das für den bestehenden gnm-service bereit ist.
->
-> **Übergang zur nächsten Übung**
->
-> Das Diagramm beschreibt semantische Pfade visuell. Der GNM-Service wandelt seine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
+> **Übergang zur nächsten Übung:**
+> Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
+
+
+
+(Eine detaillierte Beschreibung finden Sie in [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md))
+*Basierend auf Modul 3, [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)*
+
+
 
 ---
 
