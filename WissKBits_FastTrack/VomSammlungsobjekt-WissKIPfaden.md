@@ -42,15 +42,13 @@ LearningResourceType: How-to-Tutorial
 
 **Eine übungsbasierte Schritt-für-Schritt-Anleitung für Fortgeschrittene**
 
-**Zielgruppe:** Nutzende die mit den Grundlagen der semantischen Modellierung, CIDOC CRM und Ontologie-Editoren vertraut sind.
+**Zielgruppe:** Fortgeschrittene die mit den Grundlagen der semantischen Modellierung, CIDOC CRM und Ontologie-Editoren sehr gut vertraut sind.
 
-**Ziel:** Von einer konzeptionellen Modell-Skizze und einer formalisierten Modell-Skizze über ein Draw.io-Diagramm und einen kleinen OWL-Ontologieausschnitt zu importierten WissKI-Pfaden und -Pfadgruppen gelangen.
+**Ziel:** Dieser Fast Track enthält alle Übungsaufgaben aus den Modulen 1–3 des WissKI Bits How-to-Tutorials: von einer konzeptionellen und formalisierten Modell-Skizze, über ein Draw.io-Diagramm und einen kleinen OWL-Ontologieausschnitt bis zu importierten WissKI-Pfaden und -Pfadgruppen sowie Dateneingabefeldern..
 
-Dieser Fast Track enthält die Übungsaufgaben aus den Modulen 1–3 des WissKI Bits How-to-Tutorials. 
+**Wichtig:** Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Sie im vollständigen WissKI Bits How-to-Tutorial.
 
-Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Sie im vollständigen Tutorial.
-
-**Beispiel:** **The Legend of Zelda: A Link to the Past**
+**Beispielobjekt:** Das Computerspiel 'The Legend of Zelda: A Link to the Past'
 
 **Dauer:** ca. 90 Min.
 
@@ -58,23 +56,16 @@ Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Si
 
 ## Über diesen Fast Track
 
-Dieser Fast Track führt die **fünf praktischen Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
+Dieser Fast Track führt **fünf praktischen Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials der ursprünglichen Reihenfolge unter Verwendung **vorhandenen Übungsmaterialien** zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
 
-Dabei folgt der **Fast Track** folgt der ursprünglichen Reihenfolge der Übungen im Tutorial und verwendet die **vorhandenen Übungsmaterialien**, darunter 
-- das vorbereitete Puzzle zur konzeptionellen Modell-Skizze,
-- Erlangen CRM,
-- die vorbereitete Games-Ontologie,
-- das Draw.io-Lückendiagramm und
-- den GNM-Service.
-
-Ausgehend von diesem **Beispielobjekt: The Legend of Zelda: A Link to the Past** durchlaufen Sie die folgenden aufeinander aufbauenden Schritte der ontologiegestützten Modellierung:
-- Konzeptionelle Modellierung
-- Zuordnung zu CIDOC CRM
-- Formalisierung eines kleinen Ausschnitts in Protégé
+Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** führen Sie folgenden aufeinander aufbauenden Schritte durch:
+- konzeptionelle Modellierung,
+- Zuordnung zu CIDOC CRM,
+- Formalisierung eines kleinen Ausschnitts in Protégé,
 - vervollständigen ein vorbereitetes Draw.io-Diagramm und
-- wandeln dieses Diagramm in eine WissKI-Pathbuilder-Konfiguration um.
+- umwandeln des Draw.io-Diagramms in eine WissKI-Pathbuilder-Konfiguration.
 
-**Wichtig:** Die Aktivitäten beziehen sich auf die Beispiel-Domäne und den Modellierungsansatz aus dem Tutorial. Sie bilden jedoch keine automatische Verarbeitungskette von Datei zu Datei wie im Tutorial. 
+**Wichtig:** Die Aktivitäten beziehen sich auf die Beispiel-Domäne und den Modellierungsansatz aus dem Tutorial. 
 
 **Zeitplan**
 
@@ -82,15 +73,15 @@ Ausgehend von diesem **Beispielobjekt: The Legend of Zelda: A Link to the Past**
 |---|---:|
 | Vorbereitung und Orientierung | 5 Min. |
 | 1. Sammlungsobjekt untersuchen und konzeptionelle Skizze erstellen | 10 Min. |
-| 2. Ausgewählte Konzepte mit CIDOC CRM formalisieren | 15 Min. |
-| 3. Einen Modellausschnitt in Protégé umsetzen | 25 Min. |
-| 4. Das Draw.io-Diagramm vervollständigen | 15 Min. |
+| 2. Ausgewählte Konzepte auf CIDOC CRM mappen | 15 Min. |
+| 3. Einen Modellausschnitt in Protégé umsetzen und formalisieren | 25 Min. |
+| 4. Ein Draw.io-Diagramm vervollständigen | 15 Min. |
 | 5. WissKI-Pfade umwandeln und importieren | 20 Min. |
 | **Gesamt** | **90 Min.** |
 
-Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu einer **vorbereiteten Arbeitsumgebung** haben. 
+Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu den **Werkzeugen und Beispieldaten** haben. 
 
-Bearbeiten Sie die nachfolgenden, klar abgegrenzten Aufgaben. Für weitere Erläuterungen oder vertiefende Übungen können Sie die verlinkten vollständigen Lerneinheiten heranziehen.
+Für weiterführende Erläuterungen und vertiefende Inhalte sind die vollständigen Lerneinheiten an entsprechenden Stellen verlinkt.
 
 ---
 
@@ -98,122 +89,119 @@ Bearbeiten Sie die nachfolgenden, klar abgegrenzten Aufgaben. Für weitere Erlä
 
 Halten Sie Folgendes bereit:
 
-- Einen Computer mit Internetzugang und [Draw.io / diagrams.net](https://app.diagrams.net/).
-- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/), bereits verfügbar und einsatzbereit.
-  (Hilfe zur Installation finden Sie in **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)**.)
-- Zugang zu einer konfigurierten WissKI-Instanz mit einem geeigneten Adapter.
-  (Der [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) bietet eine Möglichkeit für kostenfreie WissKI-Instanz.)
-- [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), basierend auf CIDOC CRM 7.1.3.
-- [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html).
-- [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf), die im WissKI Bits How-to-Tutorial verwendet wird.
-
-Sie nutzen die vorhandenen vorbereiteten Dateien, sobald Sie in den folgenden Aufgaben dazu aufgefordert werden. 
-
-**Beginnen Sie nicht damit, eine neue Ontologie oder ein neues Diagramm zu entwerfen.**
+- Computer mit Internetzugang,
+- [Draw.io / diagrams.net](https://app.diagrams.net/),
+- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/),
+- Zugang zu einer WissKI-Instanz im [SODa Semantic Coworking Space](https://manager.scs.sammlungen.io/),
+- [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), (Version 7.1.3),
+- [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
+- [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf),
+- [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 
 ---
 
 ## 1. Das Sammlungsobjekt untersuchen - 10 Min.
 
-*Basierend auf Modul 1, [Activation Unit M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md) and [Unit M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)*
+**Ausgangspunkt**
 
-**Ziel und Ausgangspunkt**
-
-Sie beginnen mit dem Sammlungsobjekt **The Legend of Zelda: A Link to the Past**. 
+Sie machen sich mit dem Sammlungsobjekt **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** und grundlegenden Begriffen aus der Computerspiele-Domäne vertraut. 
 
 Fragen Sie sich: 
+- **Welche Merkmale beschreiben das SNES-Computerspiel: The Legend of Zelda: A Link to the Past?**
+- **Wie hängen diese Merkmale miteinander zusammen?** 
 
-- **Welche charakteristischen Merkmale beschreiben das SNES-Computerspiel 'The Legend of Zelda: A Link to the Past'?**
-- **Wie hängen diese spezifischen Merkmale miteinander zusammen?** 
-
-Verwenden Sie in dieser Phase die üblichen Fachbegriffe aus der Computerspiele-Domäne und noch keine formalen CIDOC CRM-Klassen.
-
-Berücksichtigen Sie drei Aspekte:
+Berücksichtigen Sie folgende Aspekte:
 
 - **Spieltitel:** Wie wird das Spiel bezeichnet?
 - **Spieleigenschaften:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant?
-- **Narrative Elemente:** Welche Beschreibungen, Perspektiven oder Figuren sind relevant?
+- **Narrative Elemente:** Welche Beschreibungen, Perspektiven und Figuren sind charakteristisch?
 
-Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. 
-
-> **Schritt 1: Das Puzzle zum konzeptionellen Modell vervollständigen**
->
-> 1. Öffnen Sie **[Draw.io](https://app.diagrams.net/)** und laden Sie die vorbereitete **[Puzzle-Vorlage (`puzzle.drawio_en.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/assets/puzzle.drawio_en.xml)**.
-> 2. Untersuchen Sie die **vorgegebenen** Konzepte, Ereignisse und Beziehungen. **Ordnen und verbinden** Sie die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze des Beispielobjekts.
-> 3. Lesen Sie die Verbindungen als Aussagen: *Welche Entität steht mit welcher anderen Entität in welcher Beziehung?* Verwenden Sie aussagekräftige Beziehungsbezeichnungen.
-> 4. Prüfen Sie, ob die Beziehungen zwischen den Konzepten und Ereignissen die Fragen zur Merkmalen des Beispielobjektes stüzen.
->
-> **Ergebnis:** Eine konzeptionelle Skizze, die ausgewählte Domänenkonzepte und Beziehungen sichtbar macht. **Ordnen Sie noch keine CIDOC-CRM-Klassen zu.**
->
-> **Übergang zur nächsten Übung**
->
-> Ihre Skizze beschreibt Domänenwissen in vertrauten Begriffen. In der nächsten Übung prüfen Sie, ob ausgewählte Konzepte durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können und warum.
+Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. 
 
 ---
 
-## 2. Ausgewählte Konzepte dem CIDOC CRM zuordnen — 15 Min.
+### Schritt 1: Vervollständigen Sie das Puzzle 
 
-*Basierend auf Modul 1, [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
-
-**Ziel**
-
-Verwenden Sie die folgende konzeptionelle Skizze nun als Ausgangspunkt für **vorläufige** semantische Zuordnungen. 
-
-![Konzept-Mindmap aus der Übung in Modul 1](../WissKIBits_Modul1/assets/mindmap_en.png)
-
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung.
-
-> **Schritt 1: Erste Zuordnungen untersuchen und begründen**
+> 1. Speichern Sie das vorbereitete **[Puzzle](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKBits_FastTrack/assets/puzzle.drawio_en.xml)** auf Ihrem Computer, 
+> 2. Öffnen Sie **[Draw.io](https://app.diagrams.net/)** und öffnen Sie die heruntergeladene **Puzzle-Datei**.
+> 3. Untersuchen Sie die **vorgegebenen** Kernelemente.
+> 4. **Ordnen und verbinden** Sie nur die Elemente zu einer konzeptionellen Modellskizze, die aus Ihrer Sicht die Merkmale von **The Legend of Zelda: A Link to the Past** sinnvoll beschreiben.
+> 5. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes stüzen.
 >
-> 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Skizze aus und klären Sie, was diese jeweils im Sammlungskontext bedeuten.
-> 2. Konsultieren Sie die **[CIDOC-CRM-Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** und identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten und Ereignissen.
-> (Je nach ausgewählten Konzepten können `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group` geeignete Ausgangspunkte sein.)
-> 4. Lesen Sie die **Scope Notes** und vergleichen Sie die Klassen mit Ihrem Domänenkonzept. Berücksichtigen Sie dabei, was die jeweilige Klasse einschließt oder ausschließt.
-> 5. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
+> **Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernelemente und Beziehungen sichtbar macht. 
+> **Übergang zur nächsten Übung:**
+> In der nächsten Übung prüfen Sie, ob die Kernelemente durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
+
+> **Zur Vertiefung, siehe Modul 1, u.a.:**
+> - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
+> - [M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
+
+---
+
+## 2. Zuordnung der Kernentitäten zu CIDOC CRM  — 15 Min.
+
+**Ausgangspunkt**
+
+Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus Modul 1**:
+
+![Konzept-Mindmap aus Modul 1](../WissKIBits_Modul1/assets/mindmap_en.png) 
+
+---
+
+### Schritt 1: Erste Zuordnungen untersuchen und begründen
+
+> 1. wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten,
+> 2. konsultieren Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**,
+> 3. identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten und Ereignissen,
+> 4. lesen Sie die **Scope Notes** und vergleichen Sie die Klassen mit Ihrem Domänenkonzept,
+> 5. berücksichtigen Sie, was die jeweilige Klasse einschließt oder ausschließt,
+> 6. halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
 
 | Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Begründung anhand der Scope Note | Offene Frage |
 |---|---|---|---|
 | Konzept 1 | | | |
 | Konzept 2 | | | |
+| <input type="text" value="Konzept 1" style="width:100%"> | <input type="text" placeholder="z. B. E22" style="width:100%"> | <textarea rows="3" placeholder="Begründung eingeben" style="width:100%"></textarea> | <textarea rows="3" placeholder="Offene Frage" style="width:100%"></textarea> |
+| <input type="text" value="Konzept 2" style
 
-> **Schritt 2: Modellierungsentscheidungen vergleichen**
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group`
+
+---
+
+### Schritt 2: Modellierungsentscheidungen vergleichen
+
+> 1. Diskutieren oder reflektieren Sie ob...
+> - derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen kann?
+> - beispielsweise ein Name als `Title`, als `Identifikator` oder mit einer andere Klasse formalisiert wird?
 >
-> Diskutieren oder reflektieren Sie kurz:
-> - Kann derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen?
-> - Wird beispielsweise ein Name als Titel, als Identifikator oder als andere Art einer Benennung verwendet?
-> - Welche zusätzlichen Informationen würden die Mehrdeutigkeit auflösen?
->
-> **Ergebnis:** Ihre semantische Modellierungsentscheidung umfasst zwei **begründete, vorläufige Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
-> Sie haben **noch keine OWL-Ontologie**.
->
-> **Übergang zur nächsten Übung**
->
-> Nachdem Sie den Unterschied zwischen einem Domänenkonzept und einer CIDOC CRM Klasse des Referenzmodells untersucht haben, werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
+> **Ergebnis:** Ihre semantische Modellierungsskizze umfasst mindestens zwei **begründete, vorläufige Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
+> **Übergang zur nächsten Übung:**
+> Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
+
+> **Zur Vertiefung, siehe Modul 1, u.a.:**
+> - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
 
 ---
 
 ## 3. Einen kleinen Ontologieausschnitt in Protégé formalisieren — 25 Min.
 
-*Basierend auf Modul 2, [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md) und [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
+**Ausgangspunkt**
 
-**Ziel**
+Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze aus Modul 2**:
 
-Formalisieren Sie einen **den Ausschnitt** der Beispieldomäne. 
+![Konzept-Mindmap aus Modul 2](../WissKIBits_Modul2/assets/Mindmap.png)
 
-Folgen Sie der einfachen Erweiterungsstrategie des Tutorials: 
-- **Erstellen Sie Unterklassen bestehender CIDOC-CRM-Klassen**
-- **verwenden Sie bestehende CIDOC CRM-Eigenschaften wieder;**
-- **definieren Sie keine neuen Eigenschaften.**
+---
 
-![Konzept-Mindmap aus der Übung in Modul 2](../WissKIBits_Modul2/assets/Mindmap.png)
+### Schritt 1: Erlangen CRM laden**
 
-> **Schritt 1: Erlangen CRM laden**
->
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
 >
 > Für eine detaillierte Beschreibung, nutzen Sie die [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md) und [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
-> **Schritt 2: Relevante Klassen untersuchen**
+---
+
+### Schritt 2: Relevante Klassen untersuchen**
 >
 > Suchen Sie die folgenden Klassen in der Hierarchie:
 >
@@ -225,7 +213,9 @@ Folgen Sie der einfachen Erweiterungsstrategie des Tutorials:
 > Untersuchen Sie für jede Klasse ihre Position in der Hierarchie, ihre Annotationen und ihre **Scope Note**.
 > Achten Sie besonders auf den Unterschied zwischen einer allgemeinen Benennung und einem Titel.
 
-> **Schritt 3: Ausgewählte Zuordnungen erneut prüfen**
+---
+
+### Schritt 3: Ausgewählte Zuordnungen erneut prüfen**
 >
 > Vergleichen Sie Ihre konzeptionellen Entscheidungen aus *2. Ausgewählte Konzepte dem CIDOC CRM zuordnen* mit den formalen Klassen in CIDOC CRM.
 >
@@ -239,8 +229,10 @@ Folgen Sie der einfachen Erweiterungsstrategie des Tutorials:
 | Spielgenre | `E55 Type` | Was genau wird klassifiziert? |
 | Spielplattformtyp | `E55 Type` | Handelt es sich um eine Klassifikation des Spiels? |
 
-> **Schritt 4: Domänenspezifische Unterklassen erstellen**
->
+---
+
+### Schritt 4: Domänenspezifische Unterklassen erstellen**
+
 > Erstellen Sie die ausgewählten Unterklassen unter den passenden CIDOC-CRM Klassen:
 >
 > - E73 Information Object → Computer_Game
@@ -257,8 +249,10 @@ Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehun
 | `Computer_Game` | `P2 has type` | `Game_Genre_Type` | Ein Spiel wird einem Genretyp zugeordnet. |
 | `Computer_Game` | `P2 has type` | `Game_Platform_Type` | Ein Spiel wird einem Plattformtyp zugeordnet. |
 
-> **Schritte 5–6: Überprüfen, dokumentieren und speichern**
->
+---
+
+### Schritte 5–6: Überprüfen, dokumentieren und speichern**
+
 > Prüfen Sie, ob...
 > - die Unterklassen unter den richtigen Oberklassen eingeordnet sind,
 > - die wiederverwendeten Eigenschaften die beabsichtigten Beziehungen ausdrücken und
@@ -273,6 +267,17 @@ Verwenden Sie bestehende CIDOC-CRM-Eigenschaften, um die beabsichtigten Beziehun
 > Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3.
 > Es stellt ausgewählte Klassen und Eigenschaften derselben Beispieldomäne dar, wird jedoch **nicht automatisch aus deiner Protégé-Datei erzeugt**.
 > Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
+
+
+
+Folgen Sie der einfachen Erweiterungsstrategie des Tutorials: 
+- **Erstellen Sie Unterklassen bestehender CIDOC-CRM-Klassen**
+- **verwenden Sie bestehende CIDOC CRM-Eigenschaften wieder;**
+- **definieren Sie keine neuen Eigenschaften.**
+  
+*Basierend auf Modul 2, [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md) und [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
+
+
 
 ---
 
