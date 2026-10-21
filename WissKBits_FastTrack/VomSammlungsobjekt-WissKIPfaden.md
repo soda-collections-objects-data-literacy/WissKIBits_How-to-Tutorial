@@ -161,8 +161,7 @@ Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus M
 |---|---|---|---|
 | Konzept 1 | | | |
 | Konzept 2 | | | |
-| <input type="text" value="Konzept 1" style="width:100%"> | <input type="text" placeholder="z. B. E22" style="width:100%"> | <textarea rows="3" placeholder="Begründung eingeben" style="width:100%"></textarea> | <textarea rows="3" placeholder="Offene Frage" style="width:100%"></textarea> |
-| <input type="text" value="Konzept 2" style
+| [[Lösung]]| [[Lösung]] |[[Lösung]] | [[Lösung]] |
 
 **Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group`
 
