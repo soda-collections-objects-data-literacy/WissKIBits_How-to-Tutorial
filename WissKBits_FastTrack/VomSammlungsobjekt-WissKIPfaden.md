@@ -91,16 +91,15 @@ Relevante vertiefende Inhalte sind an entsprechenden Stellen verlinkt. Die volls
 
 ### Bevor Sie beginnen - 5 Min.
 
-Halten Sie Folgendes bereit:
+Richten Sie Ihre Arbeitsumgebung ein:
 
-- Computer mit Internetzugang,
-- [Draw.io / diagrams.net](https://app.diagrams.net/),
-- [Protégé Desktop oder WebProtégé](https://protege.stanford.edu/),
-- Zugang zu einer WissKI-Instanz im [SODa Semantic Coworking Space](https://manager.scs.sammlungen.io/),
-- [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), (Version 7.1.3),
-- [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
-- [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf),
-- [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
+- Sie benötigen einen Computer mit Internetzugang.
+- Öffnen Sie in jeweils einem Browser-Tab (Firefox wird empfohlen):
+  - [Draw.io / diagrams.net](https://app.diagrams.net/),
+  - [WebProtégé](https://protege.stanford.edu/) oder alternativ Protégé Desktop,
+  - Ihre WissKI-Instanz im [SODa Semantic Coworking Space](https://manager.scs.sammlungen.io/),
+  - [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
+  - [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 
 **Hinweis zu den Benutzeroberflächen:**  Die Benutzeroberflächen von Protégé, Draw.io und WissKI können sich durch Softwareupdates verändern. Daher können einzelne Menübezeichnungen, Schaltflächen und Ansichten von den Abbildungen und Beschreibungen in diesem Tutorial abweichen.
 
