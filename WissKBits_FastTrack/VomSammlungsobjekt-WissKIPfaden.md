@@ -38,15 +38,15 @@ LearningResourceType: How-to-Tutorial
 
 **ENTWICKLUNG UND IMPLEMENTIERUNG EINES DATENMODELLS ANHAND EINES BEISPIELS**
 
-**Fast Track: Vom Sammlungsobjekt zu WissKI-Pfaden**
+**Fast Track: Vom Sammlungsobjekt zur Dateneingabe in WissKI**
 
 **Eine übungsbasierte Schritt-für-Schritt-Anleitung für Fortgeschrittene**
 
-**Zielgruppe:** Fortgeschrittene die mit den Grundlagen der semantischen Modellierung, CIDOC CRM und Ontologie-Editoren sehr gut vertraut sind.
+**Zielgruppe:** Fortgeschrittene, die mit den Grundlagen der semantischen Modellierung, CIDOC CRM und Ontologie-Editoren sehr gut vertraut sind.
 
 **Ziel:** Dieser Fast Track enthält alle Übungsaufgaben aus den Modulen 1–3 des WissKI Bits How-to-Tutorials: von einer konzeptionellen und formalisierten Modell-Skizze, über ein Draw.io-Diagramm und einen kleinen OWL-Ontologieausschnitt bis zu importierten WissKI-Pfaden und -Pfadgruppen sowie Dateneingabefeldern..
 
-**Wichtig:** Erläuterungen, Definitionen, Quizfragen und ausführliche Screenshots finden Sie im vollständigen WissKI Bits How-to-Tutorial.
+**Wichtig:** Erläuterungen, Definitionen, Quizfragen sowie weiterführende Bild-/Video-Dokumentation finden Sie im WissKI Bits How-to-Tutorial.
 
 **Beispielobjekt:** Das Computerspiel 'The Legend of Zelda: A Link to the Past'
 
@@ -56,7 +56,7 @@ LearningResourceType: How-to-Tutorial
 
 ## Über diesen Fast Track
 
-Dieser Fast Track führt **fünf praktischen Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials der ursprünglichen Reihenfolge unter Verwendung **vorhandenen Übungsmaterialien** zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
+Dieser Fast Track führt **fünf praktische Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials in der ursprünglichen Reihenfolge unter Verwendung **vorhandener Übungsmaterialien** zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
 
 Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** führen Sie folgenden aufeinander aufbauenden Schritte durch:
 - konzeptionelle Modellierung,
@@ -65,7 +65,7 @@ Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** f�
 - vervollständigen ein vorbereitetes Draw.io-Diagramm und
 - umwandeln des Draw.io-Diagramms in eine WissKI-Pathbuilder-Konfiguration.
 
-**Wichtig:** Die Aktivitäten beziehen sich auf die Beispiel-Domäne und den Modellierungsansatz aus dem Tutorial. 
+**Wichtig:** Die Aktivitäten orientieren sich an der Beispieldomäne und dem Modellierungsansatz des Tutorials. Zu Beginn jeder Übung werden Ihnen die benötigten Materialien bereitgestellt. Vergleichen Sie Ihre Ergebnisse anschließend mit den bereitgestellten Musterlösungen und überprüfen Sie Ihre Modellierungsentscheidungen.
 
 **Zeitplan**
 
@@ -74,14 +74,18 @@ Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** f�
 | Vorbereitung und Orientierung | 5 Min. |
 | 1. Sammlungsobjekt untersuchen und konzeptionelle Skizze erstellen | 10 Min. |
 | 2. Ausgewählte Konzepte auf CIDOC CRM mappen | 15 Min. |
-| 3. Einen Modellausschnitt in Protégé umsetzen und formalisieren | 25 Min. |
+| 3. Einen Modellausschnitt in Protégé umsetzen und formalisieren | 15 Min. |
 | 4. Ein Draw.io-Diagramm vervollständigen | 15 Min. |
-| 5. WissKI-Pfade umwandeln und importieren | 20 Min. |
+| 5. WissKI Pathbuilder importieren und prüfen | 20 Min. |
+| 6. Dateineingabefelder prüfen und Daten eingeben | 10 Min. |
 | **Gesamt** | **90 Min.** |
 
-Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu den **Werkzeugen und Beispieldaten** haben. 
+Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu den **Werkzeugen, Beispieldaten und Musterlösungen** haben. 
 
-Für weiterführende Erläuterungen und vertiefende Inhalte sind die vollständigen Lerneinheiten an entsprechenden Stellen verlinkt.
+Relevante vertiefende Inhalte sind an entsprechenden Stellen verlinkt. Die vollständigen Module sind in Englisch und Deutsch verfügbar:
+- [Modul 1](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
+- [Modul 2](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
+- [Modul 3](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
 ---
 
