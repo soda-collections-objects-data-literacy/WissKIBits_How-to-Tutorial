@@ -144,7 +144,7 @@ Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie
 
 Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus Modul 1**:
 
-![Konzept-Mindmap aus Modul 1](../WissKIBits_Modul1/assets/mindmap_en.png) 
+![Konzept-Mindmap aus Modul 1](assets/mindmap_en.png)
 
 ---
 
@@ -188,7 +188,7 @@ Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus M
 
 Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze aus Modul 2**:
 
-![Konzept-Mindmap aus Modul 2](../WissKIBits_Modul2/assets/Mindmap.png)
+![Konzept-Mindmap aus Modul 2](assets/Mindmap.png)
 
 ---
 
@@ -275,9 +275,7 @@ Das Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
 
 Sie arbeiten mit dem **vorbereiteten Lückendiagramm**:
 
-![Beispiel des Ontologiediagramms](/assets/Gruppe_B.dawio.png)
-![Beispiel des Ontologiediagramms](../assets/Gruppe_B.dawio.png)
-
+![Beispiel des Ontologiediagramms](assets/Gruppe_B.dawio.png)
 
 ---
 
@@ -390,7 +388,7 @@ Sie arbeiten in Ihrer [WissKI-Test-Instanz]() weiter.
 > 
 > **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
-![Beispiel des WissKI Pathbuilders](../WissKIBits_Modul3/assets/pathbuilder.jpg) 
+![Beispiel des WissKI Pathbuilders](assets/pathbuilder.jpg) 
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
 > -[MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
@@ -401,7 +399,7 @@ Sie arbeiten in Ihrer [WissKI-Test-Instanz]() weiter.
 >
 > Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen:  **save and generate bundles und fields**
 > Danach können Sie Daten eingeben.
-> Hier stellen wir Ihnen einen [Pathbuilder Export](../WissKIBits_Modul3/assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
+> Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
 
 
 
