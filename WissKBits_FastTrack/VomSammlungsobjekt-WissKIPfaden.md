@@ -127,15 +127,14 @@ Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie
 
 ### Schritt 1: Vervollständigen Sie das Puzzle 
 
-> 1. Speichern Sie das vorbereitete **[Puzzle](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKBits_FastTrack/assets/puzzle.drawio_en.xml)** auf Ihrem Computer, 
-> 2. Öffnen Sie **[Draw.io](https://app.diagrams.net/)** und öffnen Sie die heruntergeladene **Puzzle-Datei**.
-> 3. Untersuchen Sie die **vorgegebenen** Kernelemente.
-> 4. **Ordnen und verbinden** Sie nur die Elemente zu einer konzeptionellen Modellskizze, die aus Ihrer Sicht die Merkmale von **The Legend of Zelda: A Link to the Past** sinnvoll beschreiben.
-> 5. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes stüzen.
->
-> **Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernelemente und Beziehungen sichtbar macht. 
-> **Übergang zur nächsten Übung:**
-> In der nächsten Übung prüfen Sie, ob die Kernelemente durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
+> 1. Speichern Sie das vorbereitete **[Puzzle](assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
+> 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
+> 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze.
+> 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes stüzen.
+
+**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernelemente und Beziehungen zum Beispielobjekt sichtbar macht. 
+
+**Übergang zur nächsten Übung:** In der nächsten Übung prüfen Sie, ob die Kernelemente durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
 
 > **Zur Vertiefung, siehe Modul 1, u.a.:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
