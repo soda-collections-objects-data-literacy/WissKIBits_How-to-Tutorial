@@ -333,12 +333,11 @@ Sie arbeiten nun mit der Musterlösung [Draw.io XML Datei](assets/SODa_ISWC2025.
 ### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
 > 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Laden Sie die [Draw.io XML Datei](../WissKIBits_FastTrack/assets/SODa_ISWC2025.drawio.xml) hier hoch:
->    `Upload draw.io XML file for conversion to WissKI Pathbuilder XML`
+> 2. Laden Sie die [Draw.io XML Datei](assets/SODa_ISWC2025.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 > 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
 > 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
 
-**Wichtig:** Behalte den Link!
+**Wichtig:** Behalten Sie den Link!
 
 ---
 
@@ -355,13 +354,14 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
 > 2. Navigieren Sie zu **WissKI → Configuration → WissKI Ontology**.
 > 3. Löschen Sie die bestehende Ontologie.
-> 4. Laden Sie die [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) hier **Pathbuilder Definition Import** als URL.
-> 5. Aktualisiere den **WissKI Salz Adapter**:
+> 4. Laden Sie die [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) hier **Pathbuilder Definition Import** über die URL.
+> 5. Aktualisieren Sie den **WissKI Salz Adapter**:
 >    - Navigieren Sie **WissKI → Configuration → WissKI Salz Adapter**
 >    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
 >    - Lösche die bestehende Schlussfolgerungstabelle: **Delete Reasoning Table**
 >    - Berechnen Sie die Schlussfolgerungstabelle neu mit **Re-Compute results** und **Start Reasoning**
 >    - Aktualisieren Sie den Adapter **update adapter**.
+> 6. Navigieren Sie zu **WissKI → Configuration → Development → Performance** und leeren Sie den **Cache**.
 
 ---
 
@@ -369,36 +369,24 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
 > 1. Navigieren Sie zu **Configuration → Pathbuilders**.
 > 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
-> 3. Speichern und öffnen Sie den neuen Pathbuilder.
-> 4. Suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
-> 5. Warten Sie, bis die Pathbuilder-Struktur erscheint.
-> 6. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
+> 3. Speichern Sie den neuen Pathbuilder.
+> 4. Öffnen Sie den neuen Pathbuilder erneut, suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
+> 6. Warten Sie, bis die Pathbuilder-Struktur erscheint.
+> 7. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
 
 ---
 
-### Schritt 3: Importierten Pfade und Pfadgruppen untersuchen**
+### Schritt 3: Erzeugten Pfadgruppen und Pfade überprüfen und dokumentieren**
 
-> Überprüfen Sie die Pfadgruppen und Pfade:
-> 
-> **Computer_Game → P102 has title → Game_Title**
->
-> Prüfen Sie, welche Pfadgruppe diese Beziehung enthält, identifizieren Sie die Eigenschaft, die die Klassen verbindet, und vergleichen Sie das Ergebnis mit dem Ausgangsdiagramm. Verwenden Sie die folgenden Fragen aus der ursprünglichen Übung als kurze Kontrolle:
->
-> - Welche Pfadgruppe enthält diese Beziehung? (Suche nach **Computer Game**.)
-> - Welche Eigenschaft verbindet die Ausgangs- und Zielklasse? (**P102 has title**.)
-> - Entspricht der importierte Pfad Ihrem Ausgangsdiagramm? **Prüfen Sie das tatsächliche Ergebnis**, anstatt anzunehmen, dass der Import die Korrektheit garantiert.
-
-> **Schritt 5: Erzeugten Pfadgruppen und Pfade überprüfen und dokumentieren**
->
 > 1. Vergleichen Sie den importierten **Pathbuilder** und das **Draw.io-Diagramm.**
 > 2. Prüfen Sie,
-> - ob die erwarteten Pfadgruppen vorhanden sind,
+> - ob die erwarteten Pfadgruppen vorhanden sind.
 > - ob die relevanten Klassen und Eigenschaften enthalten sind.
-> - ob Pfade fehlen, unerwartet auftreten oder falsch gruppiert wurden.
+> - ob Pfade fehlen, falsch gruppiert wurden oder unerwartet auftreten.
 >   
 > 3. Erstellen Sie eine Dokumentation und Archivieren Sie relevante Dateien. [[VERWEIS Basiskurs - Dokumentation von Forschungsdaten]]]
-> 
-> **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
+
+**Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
 ![Beispiel des WissKI Pathbuilders](assets/pathbuilder.jpg) 
 
@@ -407,12 +395,22 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
 ---
 
-> **Nächster Schritt**
->
-> Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen:  **save and generate bundles und fields**
-> Danach können Sie Daten eingeben.
-> Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
+### Schritt 4: Eingabefelder generieren und Daten eingeben**
 
+Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen.
+
+> Navigieren Sie zu **Configuration → Pathbuilders**.
+> Editieren Sie Ihren Pathbuilder und speichern Sie **save and generate bundles und fields**.
+> Danach können Sie auf der WissKI Seite unter **Create** Daten eingeben.
+
+**Ergebnis:** Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
+
+---
+
+# Bibliografie
+
+
+(Wikipedia, 2026)  The Legend of Zelda: A Link to the Past. (2026). In Wikipedia. Zuletzt abgerufen am 15. Oktober 2026 von https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
 
 
 
