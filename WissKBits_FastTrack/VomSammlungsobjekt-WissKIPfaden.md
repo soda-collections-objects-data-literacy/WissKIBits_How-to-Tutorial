@@ -281,7 +281,7 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Eigen
 
 **Ausgangspunkt**
 
-Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bild davon):
+Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bild):
 
 ![Beispiel des Ontologiediagramms](assets/Gruppe_B.dawio.png)
 
@@ -312,7 +312,9 @@ Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bil
 > - Die Verbindungen sind vollständig.
 > - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent.
 
-**Ergebnis:** Ein vervollständigtes Draw.io-Diagramm und einen Draw.io XML-Export, das für den GNM-Service nachgenutzt werden kann.
+**Ergebnis:** Ein einen Draw.io XML-Export basierend auf dem vervollständigten Draw.io-Diagramm:
+
+![Beispiel des Ontologiediagramms](assets/GamesDrawioDiagramm.png) und 
 
 **Übergang zur nächsten Übung:** Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
 
