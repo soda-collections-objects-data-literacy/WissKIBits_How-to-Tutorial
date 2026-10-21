@@ -275,7 +275,9 @@ Das Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
 
 Sie arbeiten mit dem **vorbereiteten Lückendiagramm**:
 
-![Beispiel des Ontologiediagramms](../assets/Gruppe_B.drawio.png)
+![Beispiel des Ontologiediagramms](/assets/Gruppe_B.dawio.png)
+![Beispiel des Ontologiediagramms](../assets/Gruppe_B.dawio.png)
+
 
 ---
 
