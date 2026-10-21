@@ -83,9 +83,9 @@ Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** f�
 Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellierung vertraut sind und Zugang zu den **Werkzeugen, Beispieldaten und Musterlösungen** haben. 
 
 Relevante vertiefende Inhalte sind an entsprechenden Stellen verlinkt. Die vollständigen Module sind in Englisch und Deutsch verfügbar:
-- [Modul 1](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
-- [Modul 2](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
-- [Modul 3](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
+- [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
+- [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
+- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
 ---
 
@@ -146,7 +146,7 @@ Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie
 
 **Ausgangspunkt**
 
-Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus Modul 1**:
+Verwenden Sie für Ihr semantisches Modell die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
 
 ![Konzept-Mindmap aus Modul 1](assets/mindmap_en.png)
 
@@ -154,20 +154,24 @@ Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus M
 
 ### Schritt 1: Erste Klassen-Zuordnungen untersuchen und begründen
 
-> 1. wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten,
-> 2. konsultieren Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**,
-> 3. identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten und Ereignissen,
-> 4. lesen Sie die **Scope Notes** und vergleichen Sie die Klassen mit Ihrem Domänenkonzept,
-> 5. berücksichtigen Sie, was die jeweilige Klasse einschließt oder ausschließt,
-> 6. halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
+> 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten.
+> 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**, um passende CIDOC CRM Klassen zu den Konzepten und Ereignissen zu identifizieren.
+> 3. Lesen Sie die **Scope Notes** und vergleichen Sie die mit der konzeptuelle Modellskizze.
+> 4. Berücksichtigen Sie, was die jeweilige Klasse ein- und/oder ausschließt.
+> 5. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage in der folgenden Tabelle fest.
 
-| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Scope Note zutreffend| Offene Frage |
+| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Scope Note zutreffend| Begründung und offene Frage |
 |---|---|---|---|
-| Game Titel | E35 |  [(X)] |  keine |
+| Game Titel | E35 |  [(X)] |  Gibt es eine andere Klasse? |
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group`
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: 
+- `E73 Information Object`,
+- `E35 Title`,
+- `E55 Type`,
+- `E21 Person` oder
+- `E74 Group`.
 
 ---
 
