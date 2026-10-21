@@ -56,7 +56,7 @@ LearningResourceType: How-to-Tutorial
 
 ## Über diesen Fast Track
 
-Dieser Fast Track führt **fünf praktische Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials in der ursprünglichen Reihenfolge unter Verwendung **vorhandener Übungsmaterialien** zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
+Dieser Fast Track führt **sechs praktische Übungen aus den Modulen 1–3** des WissKI Bits How-To-Tutorials in der ursprünglichen Reihenfolge unter Verwendung **vorhandener Übungsmaterialien** zu einer zusammenhängenden Schritt-für-Schritt-Anleitung zusammen. 
 
 Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** führen Sie folgenden aufeinander aufbauenden Schritte durch:
 - konzeptionelle Modellierung,
@@ -97,6 +97,7 @@ Richten Sie Ihre Arbeitsumgebung ein:
 - Öffnen Sie in jeweils einem Browser-Tab (Firefox wird empfohlen):
   - [Draw.io / diagrams.net](https://app.diagrams.net/),
   - [WebProtégé](https://protege.stanford.edu/) oder alternativ Protégé Desktop,
+  - [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), 
   - Ihre WissKI-Instanz im [SODa Semantic Coworking Space](https://manager.scs.sammlungen.io/),
   - [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
   - [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
@@ -109,7 +110,7 @@ Richten Sie Ihre Arbeitsumgebung ein:
 
 **Ausgangspunkt**
 
-Sie machen sich mit im Rahmen einer kurzen Recherche auf Wikipedia mit dem Sammlungsobjekt **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** und grundlegenden Begriffen aus der Computerspiele-Domäne vertraut. (Wikipedia, 2026)
+Sie machen sich im Rahmen einer kurzen Recherche auf Wikipedia mit dem Sammlungsobjekt **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** und grundlegenden Begriffen aus der Computerspiele-Domäne vertraut. (Wikipedia, 2026)
 
 Fragen Sie sich: 
 - **Welche Merkmale beschreiben das SNES-Computerspiel: The Legend of Zelda: A Link to the Past?**
@@ -146,7 +147,7 @@ Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie
 
 **Ausgangspunkt**
 
-Verwenden Sie für Ihr semantisches Modell die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
+Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
 
 ![Konzept-Mindmap aus Modul 1](assets/mindmap_en.png)
 
@@ -165,8 +166,10 @@ Verwenden Sie für Ihr semantisches Modell die Musterlösung **konzeptuelle Mode
 | Game Titel | E35 |  [(X)] |  Gibt es eine andere Klasse? |
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
+| [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
+| [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: 
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
 - `E73 Information Object`,
 - `E35 Title`,
 - `E55 Type`,
@@ -177,13 +180,14 @@ Verwenden Sie für Ihr semantisches Modell die Musterlösung **konzeptuelle Mode
 
 ### Schritt 2: Modellierungsentscheidungen vergleichen
 
-> 1. Diskutieren oder reflektieren Sie ob...
+> Diskutieren oder reflektieren Sie ob...
 > - derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen kann?
 > - beispielsweise ein Name als `Title`, als `Identifikator` oder mit einer andere Klasse formalisiert wird?
->
-> **Ergebnis:** Ihre semantische Modellierungsskizze umfasst mindestens zwei **begründete, vorläufige Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
-> **Übergang zur nächsten Übung:**
-> Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
+
+**Ergebnis:** Ihre semantische Modellierungsskizze umfasst mindestens zwei **begründete, vorläufige Klassen-Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
+
+**Übergang zur nächsten Übung:**
+Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
 
 > **Zur Vertiefung, siehe Modul 1, u.a.:**
 > - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
@@ -194,7 +198,7 @@ Verwenden Sie für Ihr semantisches Modell die Musterlösung **konzeptuelle Mode
 
 **Ausgangspunkt**
 
-Verwenden Sie für Ihre Modellierung in Protégé die **semantische Modellskizze aus Modul 2**:
+Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semantische Modellskizze aus Modul 2**:
 
 ![Konzept-Mindmap aus Modul 2](assets/Mindmap.png)
 
