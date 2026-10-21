@@ -157,10 +157,11 @@ Verwenden Sie für Ihr semantisches Modell die **konzeptuelle Modellskizze aus M
 > 5. berücksichtigen Sie, was die jeweilige Klasse einschließt oder ausschließt,
 > 6. halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage fest.
 
-| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Begründung anhand der Scope Note | Offene Frage |
+| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Scope Note zutreffend| Offene Frage |
 |---|---|---|---|
-| Konzept 1 |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
-| Konzept 2 | `[[Lösung]]` | `[[Lösung]]` | `[[Lösung]]` |
+| Game Titel | E35 |  [(X)] |  keine |
+| [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
+| [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
 **Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Entscheidung. Geeignete Konzepte können sein: `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` oder `E74 Group`
 
