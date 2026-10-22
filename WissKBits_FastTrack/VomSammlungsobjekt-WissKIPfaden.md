@@ -314,7 +314,7 @@ Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bil
 
 **Ergebnis:** Ein einen Draw.io XML-Export basierend auf dem vervollständigten Draw.io-Diagramm:
 
-![Beispiel des Ontologiediagramms](assets/GamesDrawioDiagramm.png) und 
+![Beispiel des Ontologiediagramms](assets/WissKIBits.drawio.png) und 
 
 **Übergang zur nächsten Übung:** Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
 
@@ -328,14 +328,14 @@ Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bil
 
 **Ausgangspunkt**
 
-Sie arbeiten nun mit der Musterlösung [Draw.io XML Datei](assets/SODa_ISWC2025.drawio.xml) und dem [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) weiter.
+Sie arbeiten nun mit der Musterlösung [Draw.io XML Datei](assets/WissKIBits.drawio.xml) und dem [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) weiter.
 
 ---
 
 ### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
 > 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Laden Sie die [Draw.io XML Datei](assets/SODa_ISWC2025.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 2. Laden Sie die [Draw.io XML Datei](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 > 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
 > 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
 
