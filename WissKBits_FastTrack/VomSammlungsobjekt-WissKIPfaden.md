@@ -319,8 +319,8 @@ Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bil
 **Übergang zur nächsten Übung:** Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
-> [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
-> [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
+> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
+> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 
 ---
 
@@ -354,22 +354,22 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 ### Schritt 1: Games-Ontologie in WissKI laden und SALZ Adapter aktualisieren
 
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
-> 2. Navigieren Sie zu **WissKI → Configuration → WissKI Ontology**.
+> 2. Navigieren Sie zu **Configuration → WissKI → WissKI Ontology**.
 > 3. Löschen Sie die bestehende Ontologie.
 > 4. Laden Sie die [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) hier **Pathbuilder Definition Import** über die URL.
 > 5. Aktualisieren Sie den **WissKI Salz Adapter**:
->    - Navigieren Sie **WissKI → Configuration → WissKI Salz Adapter**
+>    - Navigieren Sie **Configuration → WissKI → WissKI Salz Adapters**
 >    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
 >    - Lösche die bestehende Schlussfolgerungstabelle: **Delete Reasoning Table**
 >    - Berechnen Sie die Schlussfolgerungstabelle neu mit **Re-Compute results** und **Start Reasoning**
 >    - Aktualisieren Sie den Adapter **update adapter**.
-> 6. Navigieren Sie zu **WissKI → Configuration → Development → Performance** und leeren Sie den **Cache**.
+> 6. Navigieren Sie zu **Configuration → Development → Performance** und leeren Sie den Cache mit **Clear all caches**.
 
 ---
 
 ### Schritt 2: Pathbuilder erstellen und importieren**  
 
-> 1. Navigieren Sie zu **Configuration → Pathbuilders**.
+> 1. Navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
 > 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
 > 3. Speichern Sie den neuen Pathbuilder.
 > 4. Öffnen Sie den neuen Pathbuilder erneut, suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
@@ -401,7 +401,7 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
 Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen.
 
-> Navigieren Sie zu **Configuration → Pathbuilders**.
+> Navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
 > Editieren Sie Ihren Pathbuilder und speichern Sie **save and generate bundles und fields**.
 > Danach können Sie auf der WissKI Seite unter **Create** Daten eingeben.
 
