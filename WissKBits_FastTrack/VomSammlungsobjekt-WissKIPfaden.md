@@ -131,19 +131,19 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 > 1. Speichern Sie das vorbereitete **[XML-Puzzle](assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
 > 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
 > 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze.
-> 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes stüzen.
+> 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes formuliert.
 
 **Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernelemente und Beziehungen zum Beispielobjekt sichtbar macht. 
 
 **Übergang zur nächsten Übung:** In der nächsten Übung prüfen Sie, ob die Kernelemente durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
 
-> **Zur Vertiefung, siehe Modul 1, u.a.:**
+> **Zur Vertiefung siehe Modul 1, u.a.:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
 > - [M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
 
 ---
 
-## 2. Zuordnung der Kernentitäten zu CIDOC CRM  — 15 Min.
+## 2. Zuordnung der Kernentitäten zu CIDOC CRM - 15 Min.
 
 **Ausgangspunkt**
 
@@ -189,7 +189,7 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 **Übergang zur nächsten Übung:**
 Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
 
-> **Zur Vertiefung, siehe Modul 1, u.a.:**
+> **Zur Vertiefung siehe Modul 1, u.a.:**
 > - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
 
 ---
@@ -208,7 +208,7 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
 
-> **Zur Vertiefung, siehe Modul 2, u.a.:**
+> **Zur Vertiefung siehe Modul 2, u.a.:**
 > - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
 > - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
