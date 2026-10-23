@@ -19,7 +19,7 @@ comment: Dieser Fast Track ist Teil des How-to-Tutorials „Ontologiebasierte Mo
 
 title: WissKI Bits – Ontologiebasierte Modellierung von Forschungsdaten
 
-module: Fast Track – Vom Sammlungsobjekt zu WissKI-Pfaden
+module: Fast Track –  Vom Sammlungsobjekt zur Dateneingabe in WissKI
 
 unit: Übungsorientierte Schritt-für-Schritt-Anleitung für Fortgeschrittene
 
@@ -62,8 +62,8 @@ Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** f�
 - konzeptionelle Modellierung,
 - Zuordnung zu CIDOC CRM,
 - Formalisierung eines kleinen Ausschnitts in Protégé,
-- vervollständigen ein vorbereitetes Draw.io-Diagramm und
-- umwandeln des Draw.io-Diagramms in eine WissKI-Pathbuilder-Konfiguration.
+- Vervollständigung eines vorbereiteten Draw.io-Diagramms und
+- Umwandlung des Draw.io-Diagramms in eine WissKI-Pathbuilder-Konfiguration.
 
 **Wichtig:** Die Aktivitäten orientieren sich an der Beispieldomäne und dem Modellierungsansatz des Tutorials. Zu Beginn jeder Übung werden Ihnen die benötigten Materialien bereitgestellt. Vergleichen Sie Ihre Ergebnisse anschließend mit den bereitgestellten Musterlösungen und überprüfen Sie Ihre Modellierungsentscheidungen.
 
@@ -102,7 +102,7 @@ Richten Sie Ihre Arbeitsumgebung ein:
   - [CIDOC CRM 7.1.3 – Dokumentation und Scope Notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
   - [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 
-**Hinweis zu den Benutzeroberflächen:**  Die Benutzeroberflächen von Protégé, Draw.io und WissKI können sich durch Softwareupdates verändern. Daher können einzelne Menübezeichnungen, Schaltflächen und Ansichten von den Abbildungen und Beschreibungen in diesem Tutorial abweichen.
+**Hinweis zur Aktualität der Werkzeuge:**  Die Benutzeroberflächen von Protégé (Version 5.6.3), WebProtégé (4.0.2:20200731), Draw.io (V32.6.1), WissKI (Version 8.X-4.9) und Drupal (Version 11.4.11) können sich durch Softwareupdates verändern. Daher können einzelne Menübezeichnungen, Schaltflächen und Ansichten von den Abbildungen und Beschreibungen in diesem Tutorial abweichen. Sollte eine neue ISO-zertifizierte CIDOC CRM Version (Version 7.1.3 	February 2024) publiziert werden, ist diese zu verwenden.
 
 ---
 
@@ -116,19 +116,19 @@ Fragen Sie sich:
 - **Welche Merkmale beschreiben das SNES-Computerspiel: The Legend of Zelda: A Link to the Past?**
 - **Wie hängen diese Merkmale miteinander zusammen?** 
 
-Berücksichtigen Sie folgende Aspekte:
+Berücksichtigen Sie folgende Merkmale:
 
 - **Spieltitel:** Wie wird das Spiel bezeichnet?
 - **Spieleigenschaften:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant?
 - **Narrative Elemente:** Welche Beschreibungen, Perspektiven und Figuren sind charakteristisch?
 
-Weitere Akteure, Ereignisse, Orte und Zeiten können Sie einbeziehen, sofern sie zur Erklärung der ausgewählten Beziehungen beitragen. 
+Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, sofern sie zur Erklärung der oben genannten Merkmale beitragen. 
 
 ---
 
 ### Schritt 1: Vervollständigen Sie das Puzzle 
 
-> 1. Speichern Sie das vorbereitete **[Puzzle](assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
+> 1. Speichern Sie das vorbereitete **[XML-Puzzle](assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
 > 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
 > 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze.
 > 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes stüzen.
@@ -156,7 +156,7 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 ### Schritt 1: Erste Klassen-Zuordnungen untersuchen und begründen
 
 > 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten.
-> 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**, um passende CIDOC CRM Klassen zu den Konzepten und Ereignissen zu identifizieren.
+> 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**, um passende CIDOC CRM Klassen zu den Konzepten zu identifizieren.
 > 3. Lesen Sie die **Scope Notes** und vergleichen Sie die mit der konzeptuelle Modellskizze.
 > 4. Berücksichtigen Sie, was die jeweilige Klasse ein- und/oder ausschließt.
 > 5. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage in der folgenden Tabelle fest.
@@ -169,7 +169,7 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname reicht nicht aus um eine semantische Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname zur Benennung Ihres Domänenkonzept reicht nicht aus um eine semantisch korrekte Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
 - `E73 Information Object`,
 - `E35 Title`,
 - `E55 Type`,
