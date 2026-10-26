@@ -16,17 +16,17 @@ link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/W
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: This fast-track walkthrough is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, it provides a condensed, exercise-based workflow for experienced users, from conceptual modelling and CIDOC CRM mapping to ontology formalisation and the configuration of semantic paths in WissKI.
+comment: This Fast Track is part of the how-to tutorial “Ontology-Based Modeling of Research Data.” Using a video game collection as an example, it provides experienced users with a concise, hands-on workflow covering conceptual modeling and mapping to CIDOC CRM, ontology formalization, and the configuration of semantic paths in WissKI.
 
-title: WissKI Bits Ontology-Based Modelling of Research Data
+title: WissKI Bits – Ontology-Based Modeling of Research Data
 
-module: Fast Track – From Collection Object to WissKI Paths
+module: Fast Track – From Collection Object to Data Entry in WissKI
 
-unit: Exercise-Based Walkthrough for Expert Users
+unit: Practice-Oriented Step-by-Step Guide for Advanced Users
 
-description: This WissKI Bits fast track guides experienced users through the practical steps of ontology-based modelling of research data. Using a computer game collection as an example, participants create a conceptual model sketch, map selected concepts to CIDOC CRM, formalise an ontology section in Protégé, prepare a Draw.io diagram, and generate and import semantic paths and path groups in WissKI.
+description: This WissKI Bit Fast Track guides experienced users through the practical steps of ontology-based research data modeling. Using a video game collection as an example, they create a conceptual model sketch, formalise selected concepts using CIDOC CRM, transfer a section of the ontology into Protégé, prepare a Draw.io diagram, and generate and import semantic paths and path groups into WissKI.
 
-keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modeling, research data, research data management, OER
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
@@ -41,17 +41,17 @@ LearningResourceType: How-to-Tutorial
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
 
-**Fast Track: From Collection Object to WissKI Paths**
+**Fast Track: From Collection Object to Data Entry in WissKI**
 
 **An Exercise-Based Walkthrough for Expert Users**  
 
-**Audience:** Users familiar with basic semantic modelling, CIDOC CRM, and ontology editors.  
+**Audience:** Advanced users familiar with basic semantic modelling, CIDOC CRM, and ontology editors.  
 
-**Goal:** Move from a conceptual model sketch and a formalised model sketch, through a Draw.io diagram and a small excerpt from an OWL ontology, to imported WissKI paths and path groups.
+**Objective:** This Fast Track includes all practical exercises from Modules 1–3 of the WissKI Bits how-to tutorial: from a conceptual and formalised model sketch to a Draw.io diagram and an OWL ontology excerpt, through to imported WissKI paths, path groups, and data entry fields for initial data entry.
 
-This fast track contains the practical tasks from Modules 1–3. For explanations, definitions, quizzes, and detailed screenshots, refer to the full tutorial.
+**Important:** Explanations, definitions, quiz questions, and additional image and video documentation are available in the WissKI Bits how-to tutorial.
 
-**Example:** **The Legend of Zelda: A Link to the Past**  
+**Example:** The Legend of Zelda: A Link to the Past
 
 **Duration:** ~ 90 min.
 
@@ -59,42 +59,54 @@ This fast track contains the practical tasks from Modules 1–3. For explanation
 
 ## About This Fast Track
 
-This fast track brings together the **five practical exercises from modules 1–3** of the WissKI Bits tutorial in one continuous walkthrough. It follows the original sequence and uses the **existing exercise materials**, including the prepared conceptual-model puzzle, the computer games example, Erlangen CRM, the Games ontology, the Draw.io gap diagram, and the gnm-service.
+This fast track brings together the **five practical exercises from modules 1–3** of the WissKI Bits how-to tutorial, following their original sequence and using **existing exercise materials**, to form a coherent step-by-step guide.
 
-**Example object:** **The Legend of Zelda: A Link to the Past**
+Starting with the **example object:** **The Legend of Zelda: A Link to the Past**, you will complete the following steps in sequence:
 
-You will begin with a conceptual model sketch, examine selected CIDOC CRM mappings, formalise a small section in Protégé, complete a prepared Draw.io diagram, and convert that diagram into a WissKI Pathbuilder configuration.
+- Conceptual modelling,
+- Mapping to CIDOC CRM,
+- Formalising a small section of the ontology in Protégé,
+- Completing a prepared Draw.io diagram, and
+- Converting the Draw.io diagram into a WissKI Pathbuilder configuration.
 
-**Important:** The activities share a domain and modelling approach, but they do not constitute an automatic file-to-file pipeline. In particular, the Draw.io exercise starts from its **own prepared diagram** rather than an export of the ontology you edit in Protégé.
+**Important:** The activities follow the example domain and modelling approach used in the tutorial. The required materials are provided at the beginning of each exercise. Afterwards, compare your results with the provided model solutions and review your modelling decisions.
 
 **Time plan**
 
 | Activity | Time |
 |---|---:|
-| Preparation and orientation | 5 min. |
-| 1. Explore the collection object and create a conceptual sketch | 10 min. |
-| 2. Map selected concepts to CIDOC CRM | 15 min. |
-| 3. Formalise a model section in Protégé | 25 min. |
-| 4. Complete the Draw.io diagram | 15 min. |
-| 5. Transform and import WissKI paths | 20 min. |
-| **Total** | **90 min.** |
+| Preparation and orientation | 5 min |
+| 1. Examine a collection object and create a conceptual model sketch | 10 min |
+| 2. Map selected concepts to CIDOC CRM | 15 min |
+| 3. Implement and formalise a section of the model in Protégé | 15 min |
+| 4. Complete a Draw.io diagram | 15 min |
+| 5. Import and review the WissKI Pathbuilder configuration | 20 min |
+| 6. Review data entry fields and enter data | 10 min |
+| **Total** | **90 min** |
 
-The time plan assumes familiarity with basic semantic modelling and access to a **prepared working environment**. Follow the bounded tasks below; use the linked full units for further explanation or extended exercises.
+The schedule assumes that you are familiar with the fundamentals of semantic modelling and have access to the **tools, sample data and model solutions**.
+
+Relevant supplementary materials are linked where appropriate. The complete modules are available in English and German:
+- [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
+- [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
+- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
 ---
 
 ### Before You Start - 5 min
 
-Have the following ready:
+Set up your working environment:
 
-- A computer with internet access and [Draw.io / diagrams.net](https://app.diagrams.net/).
-- [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), already available and ready to use. For installation help, consult the tutorial's **[M2U1A – Setup Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)** unit.
-- Access to a configured WissKI instance with a suitable adapter. The [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de) is an option for the tutorial environment.
-- [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl), based on CIDOC CRM 7.1.3.
-- [CIDOC CRM 7.1.3 documentation and scope notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html).
-- [Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf), used in the tutorial's WissKI workflow.
+- You will need a computer with internet access.
+- Open each of the following in a separate browser tab (Firefox is recommended):
+  - [Draw.io / diagrams.net](https://app.diagrams.net/),
+  - [Protégé Desktop or WebProtégé](https://protege.stanford.edu/), 
+  - [Erlangen CRM 240307 (OWL)](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) based on CIDOC CRM 7.1.3,
+  - WissKI instance in the [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io/de),
+  - [CIDOC CRM 7.1.3 documentation and scope notes](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html),
+  - [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
 
-You will use the existing prepared files when prompted below. **Do not start by designing an entirely new ontology or diagram.**
+**Note on software versions:** The user interfaces of Protégé (version 5.6.3), WebProtégé (4.0.2:20200731), Draw.io (v32.6.1), WissKI (version 8.X-4.9) and Drupal (version 11.4.11) may change as a result of software updates. Consequently, some menu labels, buttons and views may differ from the screenshots and descriptions provided in this tutorial. If a newer ISO-certified version of CIDOC CRM (currently version 7.1.3, February 2024) is published, it should be used.
 
 ---
 
