@@ -112,71 +112,87 @@ Set up your working environment:
 
 ## 1. Explore the Collection Object - 10 min.
 
-**Based on module 1, [Activation Unit M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)** and **[Unit M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)**.
+**Starting Point**
 
-**Goal and starting point**
+As part of a brief research task on Wikipedia, familiarise yourself with the collection object **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** and basic terminology from the video game domain. (Wikipedia, 2026)
 
-Begin with the collection object **The Legend of Zelda: A Link to the Past**. Ask: **What do you need to know about this object, and how is this knowledge connected?** At this stage, use ordinary domain terminology rather than formal CIDOC CRM classes.
+Consider the following questions:
+- **What characteristics describe the SNES video game The Legend of Zelda: A Link to the Past?**
+- **How are these characteristics related to one another?**
 
-Consider three areas from the original activation exercise:
+Consider the following characteristics:
 
-- **Game title:** How is the game designated?
-- **Game characteristics:** Which genre, platform or other classifications matter?
-- **Narrative elements:** Which descriptions, perspectives or characters are relevant?
+- **Game title:** What is the game called?
+- **Game properties:** Which genres, platforms or other classifications are relevant?
+- **Narrative elements:** Which descriptions, perspectives and characters are characteristic of the game?
 
-Actors, events, places and times can be considered where they help explain the selected relationships. Distinguish the game as content from a physical game copy if this affects your statements.
+You may include additional metadata (e.g. place and date of publication) where relevant to explaining the characteristics listed above.
 
-> **Step 1: Complete the conceptual-model puzzle**
->
-> 1. Open [Draw.io](https://app.diagrams.net/) and load the tutorial's prepared [puzzle template (`puzzle.drawio_en.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/assets/puzzle.drawio_en.xml).
-> 2. Review the **provided** concepts, events and relationships. Arrange and connect the relevant elements to form a meaningful conceptual model sketch of the example object.
-> 3. Read the connections as statements: *Which entity is related to which other entity, and how?* Use meaningful relationship labels.
-> 4. Check whether each statement is supported by the available object information. Mark unresolved or uncertain connections with `?` rather than guessing.
-> 5. Briefly explain one relationship and one uncertainty in your sketch.
->
-> **Result:** A conceptual sketch that makes selected domain concepts and relationships visible. **Do not assign CIDOC CRM classes yet.**
-> 
-> **Transition to the next exercise**
->
-> Your sketch expresses domain knowledge in familiar terms. The next exercise asks whether selected concepts can be represented adequately by **existing CIDOC CRM classes**, and why.
+### Step 1: Complete the Puzzle
+
+> 1. Save the prepared **[XML puzzle](assets/puzzle.drawio_en.xml)** to your computer.
+> 2. Open the downloaded **puzzle file** in **[Draw.io](https://app.diagrams.net/)**.
+> 3. **Examine, arrange and connect** only the relevant elements to create a meaningful conceptual model sketch.
+> 4. Check whether your conceptual model sketch expresses meaningful statements about the characteristic features of the example object.
+
+**Result:** A conceptual model sketch that illustrates selected key elements and relationships associated with the example object.
+
+**Transition to the next exercise:** In the next exercise, you will examine whether the key elements can be adequately represented using **existing CIDOC CRM classes**.
+
+> **For further information, see Module 1, including:**
+> - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
+> - [M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
 
 ---
 
-## 2. Map Selected Concepts to CIDOC CRM - 15 min
+## 2. Map Selected Concepts to CIDOC CRM - 15 min.
 
-*Based on module 1, Exercise M1UE: Application Example from Object Collections.*
+**Starting Point**
 
-**Goal**
+Now use the model solution **conceptual model sketch from Module 1** for your semantic model:
 
-Use the conceptual sketch as the starting point for **provisional** semantic mappings. A similar-sounding class name is not enough: compare the intended meaning of each concept with the class's **scope note**.
+![Conceptual mind map from Module 1](assets/mindmap_en.png)
 
-![Concept mind map from the Module 1 exercise](../WissKIBits_Modul1/assets/mindmap_en.png)
+---
 
-> **Step 1: Explore and justify initial mappings** 
->
-> 1. Select **two concepts or events** from your sketch. Clarify what each means in the collection context.
-> 2. Consult the [CIDOC CRM documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) and identify candidate classes. Depending on your chosen concepts, useful starting points may include `E73 Information Object`, `E35 Title`, `E55 Type`, `E21 Person` or `E74 Group`.
-> 3. Read the **scope notes** and compare the candidates with your domain concept. Consider what the class includes or excludes.
-> 4. Record a brief justification and an open question for each mapping.
+### Step 1: Examine and Justify Initial Class Mappings
 
-| Domain concept from your sketch | Candidate CIDOC CRM class | Scope-note-based justification | Open question |
+> 1. Select **two concepts or events** from the provided conceptual model sketch and clarify what they mean in the context of the collection.
+> 2. Use the CIDOC CRM **[documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** or explore CIDOC CRM using the **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)** to identify suitable CIDOC CRM classes for the selected concepts.
+> 3. Read the **Scope Notes** and compare them with the conceptual model sketch.
+> 4. Consider what each class includes and/or excludes.
+> 5. Record a brief justification and an open question for each mapping in the following table.
+
+| Domain concept from your sketch | Possible CIDOC CRM class | Scope Note applicable | Justification and open question |
 |---|---|---|---|
-| Concept 1 | | | |
-| Concept 2 | | | |
+| Game title | E35 | [(X)] | Is there another suitable class? |
+| [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
+| [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
+| [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
+| [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
 
-For an introduction to CIDOC CRM, its core classes, and the use of scope notes, see Module 1, Unit 3 **[M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)**.
+**Important:** A CIDOC CRM class name that sounds similar to your domain concept is not sufficient to establish a semantically correct mapping. Always compare the intended meaning of each concept with the **Scope Note** of the corresponding CIDOC CRM class before making a modelling decision. Suitable classes may include:
+- `E73 Information Object`,
+- `E35 Title`,
+- `E55 Type`,
+- `E21 Person` or
+- `E74 Group`.
 
-> **Step 2: Compare modelling decisions**
-> 
-> Discuss or reflect briefly: Could the same domain term refer to different things depending on the research question? For example, is a name being used as a title, an identifier, or another kind of appellation? Which additional information would resolve the ambiguity?
-> 
-> **Result:** Two **justified, provisional mappings** and any remaining uncertainty. This is a semantic modelling decision, **not yet an OWL ontology**.
-> 
-> **Transition to the next exercise**
-> 
-> You have explored the difference between a domain concept and a reference-model class. In Protégé, you will now make selected modelling choices explicit as **domain-specific subclasses** of existing CIDOC CRM classes.
+---
 
-For an exercise on selecting and ustifying CIDOC-CRM classes based on application exaple object, see Module 1, **[M1UE](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md)**.
+### Step 2: Compare Modelling Decisions
+
+> Discuss or reflect on whether...
+> - the same domain term can refer to different things depending on the research question.
+> - a name, for example, can be formalised as a `Title`, an `Identifier` or using another class.
+
+**Result:** Your semantic model sketch includes at least two **justified, provisional class mappings** and, where applicable, any remaining uncertainties.
+
+**Transition to the next exercise:**
+Next, you will use Protégé to explicitly define your modelling decisions as **domain-specific subclasses** of existing CIDOC CRM classes.
+
+> **For further information, see Module 1, including:**
+> - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)
 
 ---
 
