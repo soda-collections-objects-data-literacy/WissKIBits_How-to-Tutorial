@@ -196,197 +196,218 @@ Next, you will use Protégé to explicitly define your modelling decisions as **
 
 ---
 
-## 3. Formalise a Small Ontology Section in Protégé - 25 min
+## 3. Formalise a Small Section of the Ontology in Protégé — 15 min.
 
-*Based on module 2, Exercise M2UE: Modelling with CIDOC CRM in Protégé.*
+**Starting Point**
 
-**Goal**
-
-Formalise a **limited section** of the computer games domain. Follow the tutorial's lightweight extension strategy: **create subclasses of existing CIDOC CRM classes and reuse existing CIDOC CRM properties; do not define new properties.**
+Now use the model solution **semantic model sketch from Module 2** for your modelling in Protégé:
 
 ![Concept mind map from the Module 2 exercise](../WissKIBits_Modul2/assets/Mindmap.png)
 
-> **Step 1: Load Erlangen CRM**
->
-> Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé. 
-> 
-> If you need a reminder of the interface, consult the !?[Video Demonstration: Getting Started with Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4).
+### Step 1: Load Erlangen CRM into Protégé
 
-> **Step 2: Explore relevant classes**
-> 
-> Find these classes in the hierarchy:
-> 
+> Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
+
+> **For further information, see Module 2, including:**
+> - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
+> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
+
+---
+
+### Step 2: Examine Relevant Classes
+
+> Find and examine the labels, **Scope Notes** and examples of the following classes in the CIDOC CRM hierarchy:
+>
 > - `E41 Appellation`
 > - `E35 Title` (a subclass of `E41 Appellation`)
 > - `E55 Type`
 > - `E73 Information Object`
->
-> For each, inspect its place in the hierarchy, annotations and **scope note**. Pay particular attention to the distinction between a general appellation and a title.
 
-For mor details about the methodological approach, iterative modeling, and ontology development, see **[M2U1: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2UE_Modelling-CIDOCCRM_en.md)**
+---
 
-> **Step 3: Revisit selected mappings**
->
-> Compare the conceptual decisions from exercise 2 with the formal classes. 
->
-> Do not assume that a mapping is correct merely because the names resemble one another.
->
-> The original exercise uses examples such as:
+### Step 3: Re-examine Selected Class Mappings
 
-| Domain concept | Possible CIDOC CRM class | Question to check |
+> 1. Compare your semantic model sketch with the formal class descriptions in CIDOC CRM.
+> 2. Do not assume that a mapping is correct simply because the class names are similar.
+
+The WissKI Bits how-to tutorial uses the following CIDOC CRM classes, among others:
+
+| Domain concept | Possible CIDOC CRM class | Question to consider |
 |---|---|---|
-| Game title | `E35 Title` | Which entity is assigned this title? |
+| Game title | `E35 Title` | Which entity is this title assigned to? |
 | Game genre | `E55 Type` | What exactly is being classified? |
 | Game platform type | `E55 Type` | Is this a classification of the game? |
 
-> **Step 4: Create domain-specific subclasses**
-> 
-> Create the selected example subclasses under the corresponding CIDOC CRM classes:
-> 
-> - E73 Information Object →  Computer_Game
+---
+
+### Step 4: Create Domain-Specific Subclasses
+
+> 1. Create the selected **subclasses** under the appropriate CIDOC CRM classes, for example:
+>
+> - E73 Information Object → Computer_Game
 > - E35 Title → Game_Title
 > - E55 Type → Game_Genre_Type, Game_Platform_Type
 >
-> **Do not create new CIDOC CRM properties.** These rows describe the intended model; inspect the corresponding properties in Protégé and document your choices rather than assuming that the table itself implements the relations.
+> 2. Examine only the corresponding properties in Protégé and document your modelling decisions, but **do not create any new CIDOC CRM properties**.
 
-Use existing CIDOC CRM properties to express intended relationships; the original exercise highlights:
+The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among others:
 
-| Source | Existing property | Target | Intended statement |
+| Source class | Existing property | Target class | Intended statement |
 |---|---|---|---|
 | `Computer_Game` | `P102 has title` | `Game_Title` | A computer game has a title. |
 | `Computer_Game` | `P2 has type` | `Game_Genre_Type` | A game is assigned to a genre type. |
 | `Computer_Game` | `P2 has type` | `Game_Platform_Type` | A game is assigned to a platform type. |
 
-> **Steps 5–6: Review, document and save**
->
-> Check that the subclasses are placed under suitable superclasses, that the reused properties express the intended relationships, and that unresolved questions are recorded. Save your work as described in the original exercise if you wish to retain the edited ontology section.
-> 
-> **Result:** A small formalised and documented ontology section, **not** a complete games ontology.
-> 
-> **Transition to the next exercise**
-> 
-> The next exercise uses the **prepared Draw.io gap diagram** from module 3. It represents selected classes and properties from the same example domain, but it is **not generated automatically from your Protégé file**. You will complete the diagram according to the conventions required by the transformation service.
+---
+
+### Step 5: Review, Document and Save
+
+> 1. Check whether...
+> - the subclasses are placed under the correct superclasses,
+> - the reused properties express the intended relationships and any open questions have been documented.
+> 2. Save your ontology.
+
+**Result:** A small, formalised and documented section of an ontology, **not** a complete video game ontology.
+
+**Transition to the next exercise:** The next exercise uses the **prepared Draw.io diagram with missing elements** from Module 3. You will complete the diagram according to the conventions required by the GNM Service transformation tool.
+
+> **For further information, see Module 2, including:**
+> - [M2U1: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
+> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
 ---
 
 ## 4. Complete the Draw.io Diagram — 15 min
 
-*Based on Module 3, Exercise M3UE1: Visualising a Domain Ontology as a Diagram.*
+**Starting Point**
 
-**Goal**
+You will now work with the **prepared diagram with missing elements** (shown in the image below):
 
-Represent connected semantic paths using selected ontology classes and existing CIDOC CRM properties. Work with the **prepared gap diagram** rather than drawing a new model from scratch.
-
-![Example of the ontology diagram](../WissKIBits_Modul3/assets/MusterDrawio.png)
-
-> **Step 1: Complete the prepared diagram**
->
-> 1. Download the original [Draw.io XML gap diagram (`Gruppe_B.drawio.xml`)](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) and open it in [Draw.io](https://app.diagrams.net/).
-> 2. Identify the missing nodes and edges and replace the temporary `(???)` placeholders.
-> 3. Use the elements specified in the original exercise **where required**, including `P102_has_title`, `P1 is identified by`, `P190 has symbolic content` and `mega:E41_Game_Character_Name`.
-> 4. Connect the classes and properties into **complete semantic paths**. Ensure each property label is attached to its corresponding edge; do not add individual game instances.
-> 5. Inspect the attributes of the central start node and group nodes: `element_id`, `group_name` and `name`. The original exercise gives `Computer_Game` as an example value for these attributes. Check end-node attributes against the **prepared diagram and the original exercise** rather than inventing values.
-> 6. Save or export the completed diagram as **Draw.io XML**.
->
-> A path illustrated in the original exercise is:
->
-> mega:E73_Computer_Game
->
-> → P102_has_title
-> → mega:E35_Game_Title
-> → P190 has symbolic content
-> → E62_String
->
-> **Check before conversion:** No `(???)` placeholders remain; connections are complete; class/property names and required attributes are consistent; the diagram contains **classes and properties**, not individual instances.
-> **Result:** A completed Draw.io XML diagram ready for the existing gnm-service.
->
-> **Transition to the next exercise**
-> 
-> The diagram describes semantic paths visually. The gnm-service converts its XML representation into a **WissKI Pathbuilder XML configuration**, which you will import and inspect in WissKI.
-
-For a detailed description of Draw.io, modeling rules, nodes, edges, attributes, and XML, see Module 3, **[M3UE1 Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)**.
+![Example of the ontology diagram](assets/Gruppe_B.dawio.png)
 
 ---
 
-## 5. Transform and Import WissKI Paths — 20 min
+### Step 1: Complete the Prepared Diagram
 
-*Based on Module 3, Exercise M3UE2: Draw.io to WissKI Paths.*
+> 1. Download the **[Draw.io XML diagram with missing elements](assets/Gruppe_B.drawio.xml)**.
+> 2. Open the downloaded file in **[Draw.io](https://app.diagrams.net/)**.
+> 3. Find the **four** temporary placeholders `(???)`.
+> 4. Replace the placeholders with the specified elements:
+>    - `P102_has_title`,
+>    - `P1 is identified by`,
+>    - `P190 has symbolic content`,
+>    - `mega:E41_Game_Character_Name`.
+> 5. Check that the classes and properties form **complete semantic paths** and that each property label is assigned to the correct relationship. Refer to **Check the Modelling Rules** below.
+> 6. Examine the **attributes** of the central starting node, group nodes and end nodes:
+>    - `element_id`,
+>    - `group_name` and
+>    - `name`.
+> 7. Set the **attribute values**. For example, the `group_name` attribute value of the **group node** `mega:E89_Game_Characteristic` would be `Game_Characteristic`.
+> 8. Export the diagram as **Draw.io XML** and save it locally.
 
-**Goal**
-
-Convert the completed Draw.io diagram into Pathbuilder XML, import the resulting **configuration** into WissKI, and compare the imported paths and path groups with the source diagram.
-
-![WissKI Pathbuilder example](../WissKIBits_Modul3/assets/pathbuilder.jpg)
-
-> **Step 1: Transform the Draw.io diagram**
+> **Check the Modelling Rules:**
 >
-> 1. Open the [gnm-service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Upload the **completed Draw.io XML file** from exercise 4.
-> 3. Start the transformation and inspect the service response.
-> 4. Copy or retain the URL of the generated **Pathbuilder XML** file for the WissKI import.
->
-> The current service documentation names **Erlangen CRM 240307** and the **Games ontology** as its supported ontology basis. This fast track uses those existing resources and does not require changing the service.
+> - The diagram contains **classes and properties** representing paths and path groups, but no individual instances.
+> - No `(???)` placeholders remain.
+> - All connections are complete.
+> - Class and property labels, as well as the required attribute values, are consistent.
 
-> **Step 2: Login and check the ontology in WissKI**
->
-> Log in to your prepared WissKI instance and navigate to **WissKI → Configuration → WissKI Ontology**. Check the configured adapter and the ontology available in the instance. If the required Games ontology is not present, follow the original exercise and the instructions for your instance to load it via the designated adapter:
-> 
-> [Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf)
-> 
-> **Important:** Importing Pathbuilder XML does **not** import or define the ontology. The referenced classes and properties must already be available in the ontology used by WissKI.
+**Result:** A **Draw.io XML export** based on the completed Draw.io diagram:
 
-> **Step 3: Create a pathbuilder and import the XML**
->
-> 1. Navigate to **Configuration → Pathbuilders**.
-> 2. Select **Add Pathbuilder**, assign a unique name and choose the designated adapter.
-> 3. Save and open the new Pathbuilder.
-> 4. Find **Pathbuilder Definition Import**, paste the generated XML URL, and start the import.
-> 5. Wait for the Pathbuilder structure to appear. **Review the paths before generating bundles or fields.**
+![Example of the ontology diagram](assets/WissKIBits.drawio.png)
 
-For more details about WissKI configuration and XML-Import, see module 3, **[M3UE2 Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)**.
+**Transition to the next exercise:** Next, you will use the GNM Service to convert the diagram into a **WissKI Pathbuilder XML configuration**, which you will then import into WissKI and examine.
 
-> **Step 4: Examine the imported paths and path groups**
->
-> Find the relationship:
-> 
-> **Computer_Game → P102 has title → Game_Title**
-> 
-> 
-> Check which path group contains it, identify the property linking the classes, and compare the result with the source diagram. Use the following questions from the original exercise as a quick check:
->
-> - Which path group contains this relationship? (Look for **Computer Game**.)
-> - Which property connects the source and target classes? (**P102 has title**.)
-> - Does the imported path correspond to your source diagram? **Check the actual result**, rather than assuming that the import guarantees correctness.
-
-> **Step 5: Verify the generated paths**
-> 
-> Compare the imported Pathbuilder configuration with the Draw.io diagram. Check whether the expected path groups exist, the relevant classes and properties are present, and any paths are missing, unexpected or incorrectly grouped. Record anything that may need to be corrected in the diagram or configuration.
-> 
-> **Result:** A generated, imported and **checked WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
+> **For further information, see Module 3, including:**
+> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
+> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 
 ---
 
-## Completion Self-Check
+## 5. Convert and Import WissKI Paths — 20 min
 
-- [ ] The prepared conceptual-model puzzle has been completed and uncertain relationships identified.
-- [ ] Two provisional CIDOC CRM mappings have been justified using scope notes.
-- [ ] A selected ontology section has been formalised in Protégé using domain-specific subclasses and **existing properties**.
-- [ ] The provided `Gruppe_B.drawio.xml` gap diagram has been completed and saved as Draw.io XML.
-- [ ] The diagram has been converted with the existing gnm-service.
-- [ ] The Pathbuilder XML has been imported and the resulting paths and path groups checked in WissKI.
+**Starting Point**
 
-> **Next**
->
-> After reviewing the imported Pathbuilder configuration, you can proceed to generating bundles and fields for data entry and display in WissKI, as described in the full tutorial.
+You will now continue working with the model solution [Draw.io XML file](assets/WissKIBits.drawio.xml) and the [GNM Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder).
 
 ---
 
-## Optional Reference: Gnm-Service Example Files
+### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
-The service provides additional examples for checking the transformation format. **They are references, not extra mandatory inputs for this fast track.**
+> 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
+> 2. Laden Sie die [Draw.io XML Datei](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
+> 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
 
-- [Example Draw.io XML input](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml) ([open in diagrams.net](https://app.diagrams.net/#Uhttps%3A%2F%2Fisl.ics.forth.gr%2Fgnm_services%2Ffiles%2Fexamples%2Fdiagrams_to_pathbuilders%2FSODa_ISWC2025.drawio.xml#%7B%22pageId%22%3A%22iUIuGOhsytNMqk53lauw%22%7D); [PNG preview](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.png)).
-- [Optional JSON configuration with default values](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/config_defaults.json).
-- [Example Pathbuilder XML output](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml).
+**Wichtig:** Behalten Sie den Link!
 
-**Scope:** This fast track is a time-bounded selection and connection of the **existing practical exercises**. It does not require developing a new end-to-end model from scratch or extending the gnm-service. For deeper explanations, optional tasks, full screenshots and further reflection, consult the corresponding original units (M1U0A, M1UE, M2UE, M3UE1 and M3UE2).
+---
+
+## 6. Create a WissKI Pathbuilder — 10 min
+
+**Starting Point**
+
+You will now continue working in your **WissKI test instance in the SCS**.
+
+---
+
+### Step 1: Load the Games Ontology into WissKI and Update the SALZ Adapter
+
+> 1. Log in to your WissKI test instance.
+> 2. Navigate to **Configuration → WissKI → WissKI Ontology**.
+> 3. Delete the existing ontology.
+> 4. Load the [Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf) via its URL under **Pathbuilder Definition Import**.
+> 5. Update the **WissKI SALZ Adapter**:
+>    - Navigate to **Configuration → WissKI → WissKI Salz Adapters**.
+>    - Edit the **Default Salz Adapter** and go to **Compute Type and Property Hierarchy and Domains and Ranges**.
+>    - Delete the existing reasoning table using **Delete Reasoning Table**.
+>    - Recompute the reasoning table using **Re-Compute results** and **Start Reasoning**.
+>    - Update the adapter using **Update Adapter**.
+> 6. Navigate to **Configuration → Development → Performance** and clear the cache using **Clear all caches**.
+
+---
+
+### Step 2: Create and Import the Pathbuilder
+
+> 1. Navigate to **Configuration → WissKI → Pathbuilders**.
+> 2. Select **Add Pathbuilder**, enter a unique name and select the appropriate adapter.
+> 3. Save the new Pathbuilder.
+> 4. Open the new Pathbuilder again, locate **Pathbuilder Definition Import**, insert the generated **Pathbuilder XML Output: Download XML file** and start the import.
+> 5. Wait until the Pathbuilder structure appears.
+> 6. Edit the starting node **Computer Game** and save again.
+
+---
+
+### Step 3: Review and Document the Generated Path Groups and Paths
+
+> 1. Compare the imported **Pathbuilder** with the **Draw.io diagram**.
+> 2. Check whether:
+>    - the expected path groups are present.
+>    - the relevant classes and properties are included.
+>    - any paths are missing, incorrectly grouped or appear unexpectedly.
+> 3. Document your results and archive the relevant files. [[REFERENCE Basic Course – Research Data Documentation]]
+
+**Result:** A generated, imported and **verified WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
+
+![Example of the WissKI Pathbuilder](assets/pathbuilder.jpg)
+
+> **For further information, see Module 3, including:**
+> - [M3UE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
+
+---
+
+### Step 4: Generate Data Entry Fields and Enter Data
+
+After reviewing the Pathbuilder, you can generate the structure and fields required for data entry.
+
+> Navigate to **Configuration → WissKI → Pathbuilders**.
+> Edit your Pathbuilder and select **Save and generate bundles and fields**.
+> You can then enter data on your WissKI site under **Create**.
+
+**Result:** We provide a [Pathbuilder export](assets/games_ontology_20261020T220812) containing some data relating to the **example object: The Legend of Zelda: A Link to the Past**.
+
+---
+
+# Bibliography
+
+(Wikipedia, 2026) The Legend of Zelda: A Link to the Past. (2026). In *Wikipedia*. Last accessed on 15 October 2026, from https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
