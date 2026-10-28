@@ -45,13 +45,13 @@ LearningResourceType: How-to-Tutorial
 
 **An Exercise-Based Walkthrough for Expert Users**  
 
-**Audience:** Advanced users familiar with basic semantic modelling, CIDOC CRM, and ontology editors.  
+**Audience:** Advanced/Expert users familiar with basic semantic modelling, CIDOC CRM, and ontology editors.  
 
 **Objective:** This Fast Track includes all practical exercises from Modules 1–3 of the WissKI Bits how-to tutorial: from a conceptual and formalised model sketch to a Draw.io diagram and an OWL ontology excerpt, through to imported WissKI paths, path groups, and data entry fields for initial data entry.
 
 **Important:** Explanations, definitions, quiz questions, and additional image and video documentation are available in the WissKI Bits how-to tutorial.
 
-**Example:** The Legend of Zelda: A Link to the Past
+**Example:** The 1991 Super Nintendo Entertainment System (SNES) game 'The Legend of Zelda: A Link to the Past'.
 
 **Duration:** ~ 90 min.
 
@@ -86,7 +86,9 @@ Starting with the **example object:** **The Legend of Zelda: A Link to the Past*
 
 The schedule assumes that you are familiar with the fundamentals of semantic modelling and have access to the **tools, sample data and model solutions**.
 
-Relevant supplementary materials are linked where appropriate. The complete modules are available in English and German:
+Relevant supplementary materials are linked where appropriate. 
+
+The complete modules are available in English and German:
 - [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
 - [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
 - [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
