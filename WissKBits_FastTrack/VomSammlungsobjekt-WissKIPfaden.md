@@ -108,11 +108,11 @@ Richten Sie Ihre Arbeitsumgebung ein:
 
 ---
 
-## 1. Das Sammlungsobjekt untersuchen - 10 Min.
+## 1. Das Sammlungsobjekt kennenlernen - 10 Min.
 
 **Ausgangspunkt**
 
-Sie machen sich im Rahmen einer kurzen Recherche auf Wikipedia mit dem Sammlungsobjekt **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** und grundlegenden Begriffen aus der Computerspiele-Domäne vertraut. (Wikipedia, 2026)
+Sie machen sich im Rahmen einer kurzen Recherche auf Wikipedia mit dem Sammlungsobjekt **[The Legend of Zelda: A Link to the Past](https://de.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past)** und grundlegenden Begriffen der Videospieldomäne vertraut. (Wikipedia, 2026)
 
 Fragen Sie sich: 
 - **Welche Merkmale beschreiben das SNES-Computerspiel: The Legend of Zelda: A Link to the Past?**
@@ -120,9 +120,9 @@ Fragen Sie sich:
 
 Berücksichtigen Sie folgende Merkmale:
 
-- **Spieltitel:** Wie wird das Spiel bezeichnet?
-- **Spieleigenschaften:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant?
-- **Narrative Elemente:** Welche Beschreibungen, Perspektiven und Figuren sind charakteristisch?
+- **Titel des Videospiel:** Wie wird das Spiel bezeichnet?
+- **Eigenschaften des Videospiels:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant für die Videospieldomäne?
+- **Narrative Elemente:** Welche Beschreibungen, Perspektiven und Figuren sind charakteristisch für das Videospiel?
 
 Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, sofern sie zur Erklärung der oben genannten Merkmale beitragen. 
 
@@ -132,16 +132,16 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 
 > 1. Speichern Sie das vorbereitete **[XML-Puzzle](assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
 > 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
-> 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Elemente zu einer sinnvollen konzeptionellen Modellskizze.
+> 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Merkmale zu einer sinnvollen konzeptionellen Modellskizze.
 > 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes formuliert.
 
-**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernelemente und Beziehungen zum Beispielobjekt sichtbar macht. 
+**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählten Kernmerkmalen und Beziehungen zum Beispielobjekt sichtbar macht. 
 
-**Übergang zur nächsten Übung:** In der nächsten Übung prüfen Sie, ob die Kernelemente durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
+**Übergang zur nächsten Übung:** In der nächsten Übung prüfen Sie, ob diese Kernmerkmalen durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
-> - [M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
+> - [M1U1: Basic in Conceptual Knowledge Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
 
 ---
 
