@@ -124,9 +124,9 @@ Consider the following questions:
 
 Consider the following characteristics:
 
-- **Game title:** What is the game called?
-- **Game properties:** Which genres, platforms or other classifications are relevant?
-- **Narrative elements:** Which descriptions, perspectives and characters are characteristic of the game?
+- **Video game title:** What is the game called?
+- **Video game properties:** Which genres, platforms or other classifications are relevant to the video game domain?
+- **Narrative elements:** Which descriptions, perspectives and characters are characteristic of the video game?
 
 You may include additional metadata (e.g. place and date of publication) where relevant to explaining the characteristics listed above.
 
@@ -134,16 +134,16 @@ You may include additional metadata (e.g. place and date of publication) where r
 
 > 1. Save the prepared **[XML puzzle](assets/puzzle.drawio_en.xml)** to your computer.
 > 2. Open the downloaded **puzzle file** in **[Draw.io](https://app.diagrams.net/)**.
-> 3. **Examine, arrange and connect** only the relevant elements to create a meaningful conceptual model sketch.
+> 3. **Examine, arrange and connect** only the relevant characteristics to create a meaningful conceptual model sketch.
 > 4. Check whether your conceptual model sketch expresses meaningful statements about the characteristic features of the example object.
 
-**Result:** A conceptual model sketch that illustrates selected key elements and relationships associated with the example object.
+**Result:** A conceptual model sketch that illustrates selected key characteristics and relationships associated with the example object.
 
-**Transition to the next exercise:** In the next exercise, you will examine whether the key elements can be adequately represented using **existing CIDOC CRM classes**.
+**Transition to the next exercise:** In the next exercise, you will examine whether this key characteristics can be adequately represented using **existing CIDOC CRM classes**.
 
 > **For further information, see Module 1, including:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
-> - [M1U1: Basic concepts of conceptual knowledge modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
+> - [M1U1: Basics in Conceptual Knowledge Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
 
 ---
 
