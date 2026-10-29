@@ -121,7 +121,7 @@ Fragen Sie sich:
 Berücksichtigen Sie folgende Merkmale:
 
 - **Titel des Videospiel:** Wie wird das Spiel bezeichnet?
-- **Eigenschaften des Videospiels:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant für die Videospieldomäne?
+- **Merkmale des Videospiels:** Welche Genres, Plattformen oder anderen Klassifikationen sind relevant für die Videospieldomäne?
 - **Narrative Elemente:** Welche Beschreibungen, Perspektiven und Figuren sind charakteristisch für das Videospiel?
 
 Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, sofern sie zur Erklärung der oben genannten Merkmale beitragen. 
@@ -135,9 +135,9 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 > 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Merkmale zu einer sinnvollen konzeptionellen Modellskizze.
 > 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes formuliert.
 
-**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählten Kernmerkmalen und Beziehungen zum Beispielobjekt sichtbar macht. 
+**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernmerkmale und Beziehungen zum Beispielobjekt sichtbar macht. 
 
-**Übergang zur nächsten Übung:** In der nächsten Übung prüfen Sie, ob diese Kernmerkmalen durch **bestehende CIDOC-CRM-Klassen** angemessen repräsentiert werden können.
+**Übergang zur nächsten Übung:** In der nächsten Übung erarbeiten Sie eine angemessene Repräsentation dieser Kernmerkmale durch **bestehende CIDOC-CRM-Klassen**.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
@@ -151,17 +151,17 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 
 Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
 
-![Konzept-Mindmap aus Modul 1](assets/mindmap_en.png)
+![Konzeptuelle Modellskizze aus Modul 1](assets/mindmap_en.png)
 
 ---
 
-### Schritt 1: Erste Klassen-Zuordnungen untersuchen und begründen
+### Schritt 1: Klassen-Zuordnungen untersuchen und begründen
 
 > 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten.
-> 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**, um passende CIDOC CRM Klassen zu den Konzepten zu identifizieren.
-> 3. Lesen Sie die **Scope Notes** und vergleichen Sie die mit der konzeptuelle Modellskizze.
-> 4. Berücksichtigen Sie, was die jeweilige Klasse ein- und/oder ausschließt.
-> 5. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage in der folgenden Tabelle fest.
+> 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**.
+> 3. Identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten in dem Sie die **Scope Notes** lesen und vergleichen Sie diese mit der konzeptuelle Modellskizze.
+> 5. Berücksichtigen Sie, was die jeweilige Klasse ein- und/oder ausschließt und welche CIDOC CRM Beziehungen verfügbar sind.
+> 6. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage in der folgenden Tabelle fest.
 
 | Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Scope Note zutreffend| Begründung und offene Frage |
 |---|---|---|---|
