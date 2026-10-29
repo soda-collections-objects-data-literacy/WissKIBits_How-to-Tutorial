@@ -220,19 +220,19 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 
 ### Schritt 2: Relevante Klassen untersuchen
 
-> Suchen und untersuchen Sie die Bezeichnung, **Scope Note** und Beispiele der folgenden Klassen in der CIDOC CRM Hierarchie:
+> Suchen Sie die folgenden Klassen in der CIDOC-CRM-Klassenhierarchie und untersuchen Sie deren **Scope Notes**:
 >
 > - `E41 Appellation`
-> - `E35 Title` (eine Unterklasse von `E41 Appellation`)
+> - `E35 Title` (Unterklasse von `E41 Appellation`)
 > - `E55 Type`
 > - `E73 Information Object`
 
 ---
 
-### Schritt 3: Ausgewählte Klassen-Zuordnungen erneut prüfen
+### Schritt 3: Ausgewählte Klassen-Zuordnungen prüfen
 
 > 1. Vergleichen Sie Ihre semantische Modellskizze mit den formalen Klassenbeschreibungen in CIDOC CRM.
-> 2. Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Klassen-Bezeichnungen ähneln.
+> 2. Merke: Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Klassen-Bezeichnungen ähneln.
 
 Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Klassen:
 
@@ -267,13 +267,14 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Eigen
 ### Schritte 5: Überprüfen, dokumentieren und speichern
 
 > 1. Prüfen Sie, ob...
-> - die Unterklassen unter den richtigen Oberklassen eingeordnet sind,
-> - die wiederverwendeten Eigenschaften die beabsichtigten Beziehungen ausdrücken und ob offene Fragen dokumentiert wurden.
+> - die Domänen-Unterklassen unter den richtigen CIDOC CRM Oberklassen eingeordnet sind,
+> - die wiederverwendeten CIDOC CRM Eigenschaften die beabsichtigten Beziehungen ausdrücken und ob offene Fragen dokumentiert wurden.
 > 2. Speichern Sie ihre Ontologie.
+> 3. Vergleichen Sie Ihre Ontologie mit der [Musterlösung: Games Charcteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
 
-**Ergebnis:** Ein kleiner formalisierter und dokumentierter Ontologieausschnitt, **keine** vollständige Computerspieleontologie.
+**Ergebnis:** Ein kleiner, formalisierter und dokumentierter Ontologieausschnitt zur Beschreibung von Videospielmerkmalen, jedoch **keine** vollständige Videospielontologie.
 
-**Übergang zur nächsten Übung:** Die nächste Übung verwendet das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
+**Übergang zur nächsten Übung:** In der nächsten Übung verwenden Sie das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
 > **Zur Vertiefung, siehe Modul 2, u.a.:** 
 > - [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
@@ -285,45 +286,47 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Eigen
 
 **Ausgangspunkt**
 
-Sie arbeiten nun mit dem **vorbereiteten Lückendiagramm** (im Folgenden ein Bild):
+Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die ausgewählten Klassen und Beziehungen einer Domänenontologie für Videospiele visualisiert (siehe folgende Abbildung):
 
-![Beispiel des Ontologiediagramms](assets/Gruppe_B.dawio.png)
+![Draw.io Lückendiagramm der](assets/Gruppe_B.dawio.png)
 
 ---
 
 ### Schritt 1: Das vorbereitete Diagramm vervollständigen
 
-> 1. Laden Sie das **[Draw.io-XML-Lückendiagramm](assets/Gruppe_B.drawio.xml)** herunter.
-> 2. Öffnen Sie die heruntergeladene Datei in **[Draw.io](https://app.diagrams.net/)**.
-> 3. Suchen Sie nach den **vier** temporären Platzhalter `(???)`.
-> 4. Ersetzen Sie die Platzhalter durch die angegebenen Elemente:
+> 1. Laden Sie das vorbereitete **[Draw.io-Lückendiagramm](assets/Gruppe_B.drawio.xml)** herunter.
+> 2. Öffnen Sie die heruntergeladene XML-Datei in **[Draw.io](https://app.diagrams.net/)**.
+> 3. Suchen Sie nach **vier** Platzhaltern `(???)`.
+> 4. Ersetzen Sie diese Platzhalter `(???)` durch folgende Klassen und Beziehungen:
 >    - `P102_has_title`,
 >    - `P1 is identified by`,
 >    - `P190 has symbolic content`,
 >    - `mega:E41_Game_Character_Name`.
-> 5. Prüfen Sie, ob die Klassen und Eigenschaften **vollständige semantische Pfade** bilden und dass jede Eigenschaftsbezeichnung der zugehörigen Beziehung zugeordnet ist, siehe hierfür weiter unten **Prüfen Sie die Modellierregeln**.
-> 6. Untersuchen Sie die **Attribute** des zentralen Startknotens, der Gruppenknoten und Endknoten:
+> 5. Prüfen Sie, ob die Klassen und Beziehungen **vollständige semantische Pfade** bilden, siehe hierfür **Modellierregeln in Draw.io**.
+> 6. Untersuchen Sie die **Attribute** des zentralen Startknotens, der Gruppenknoten und Endknoten des Diagramm. Wählen Sie dazu jeweils einen Knoten aus und öffnen Sie mit **Strg + M** (Windows) den Attributdialog. Prüfen Sie die folgenden Attribute:
+>    - `element_id`,
+>    - `group_name` und
+>    - `name`.
 >    - `element_id`,
 >    - `group_name` und
 >    - `name` sowie
->  7. Setzen Sie die **Attributwerte**, z.B. die Attributwerte des **Gruppenknoten** mega:E89_Game_Characteristic wäre `Game_Characteristic`.
-> 8. Exportieren Sie das Diagramm als **Draw.io XML** und speichern Sie es lokal.
+> 7. Setzen Sie die **Attributwerte**, z.B. die Attributwerte des **Gruppenknoten** mega:E89_Game_Characteristic wäre `Game_Characteristic`.
+> 8. Exportieren Sie Ihr Diagramm als **Draw.io XML** und speichern Sie es lokal.
 
-> **Prüfen Sie die Modellierungsregeln:**
+> **Modellierungsregeln in Draw.io:**
 >
-> - Das Diagramm enthält **Klassen und Eigenschaften** die Pfade und Pfadgruppen aber keine keine einzelnen Instanzen repräsentieren.
-> - Es sind keine `(???)`-Platzhalter mehr vorhanden.
-> - Die Verbindungen sind vollständig.
-> - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent.
+> - Das Diagramm enthält **Klassen und Eigenschaften** die Pfade und Pfadgruppen aber keine einzelnen Instanzen repräsentieren.
+> - Alle vier Platzhalter `(???)` wurden ersetzt. 
+> - Die Verbindungen der Knoten und Beziehungen sind vollständig.
+> - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent und entsprechen der [Musterlösung: Games Charcteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
 
-**Ergebnis:** Ein einen Draw.io XML-Export basierend auf dem vervollständigten Draw.io-Diagramm:
+**Ergebnis:** Ein [Draw.io XML-Export](assets/WissKIBits.drawio.xml) basierend auf dem vervollständigten Draw.io-Diagramm:
 
-![Beispiel des Ontologiediagramms](assets/WissKIBits.drawio.png) und 
+![Musterlösung des Ontologie-Diagramms](assets/WissKIBits.drawio.png) 
 
-**Übergang zur nächsten Übung:** Als nächstes wandelm Sie mit dem GNM-Service das Diagramm in eine XML-Repräsentation in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und untersuchen.
+**Übergang zur nächsten Übung:** Als nächstes wandeln Sie mit dem **GNM-Service** das XML-Diagramm in eine **WissKI-Pathbuilder-XML-Konfiguration** um, die Sie anschließend in WissKI importieren und dort weiter nutzen.
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
-> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 > - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 
 ---
