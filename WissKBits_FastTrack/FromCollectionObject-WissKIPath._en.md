@@ -331,18 +331,18 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 **Starting Point**
 
-You will now continue working with the model solution [Draw.io XML file](assets/WissKIBits.drawio.xml) and the [GNM Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder).
+You will now continue working with the model solution [Draw.io XML-Export](assets/WissKIBits.drawio.xml) and the [GNM Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder).
 
 ---
 
-### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
+### Step 1: Convert the Draw.io XML File into a Pathbuilder XML File
 
-> 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Laden Sie die [Draw.io XML Datei](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
-> 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
-> 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
-
-**Wichtig:** Behalten Sie den Link!
+> 1. Open the [GNM Service: Draw.io Diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) in your browser.
+> 2. Upload your Draw.io XML export or the model solution [Draw.io XML export](assets/WissKIBits.drawio.xml) under **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 3. Start the conversion and check the status of the uploaded file.
+> 4. If the conversion is successful, you will need one of the following links **later in WissKI** (6: Create a WissKI Pathbuilder – Step 2: Create and Import the Pathbuilder):
+>    - a copy of the link to your **Pathbuilder XML Output: Download XML file**, or
+>    - a copy of the link to the model solution: [**Example Output Pathbuilder XML File**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml).
 
 ---
 
