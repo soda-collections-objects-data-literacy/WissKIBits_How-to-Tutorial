@@ -220,8 +220,8 @@ Now use the model solution **semantic model sketch from Module 2** for your mode
 
 ### Step 2: Examine Relevant Classes
 
-> Find and examine the labels, **Scope Notes** and examples of the following classes in the CIDOC CRM hierarchy:
->
+> Find the following classes in the CIDOC CRM class hierarchy and examine their **Scope Notes**:
+> 
 > - `E41 Appellation`
 > - `E35 Title` (a subclass of `E41 Appellation`)
 > - `E55 Type`
@@ -229,10 +229,10 @@ Now use the model solution **semantic model sketch from Module 2** for your mode
 
 ---
 
-### Step 3: Re-examine Selected Class Mappings
+### Step 3: Review Selected Class Mappings
 
 > 1. Compare your semantic model sketch with the formal class descriptions in CIDOC CRM.
-> 2. Do not assume that a mapping is correct simply because the class names are similar.
+> 2. Remember: Do not assume that a mapping is correct simply because the class names are similar.
 
 The WissKI Bits how-to tutorial uses the following CIDOC CRM classes, among others:
 
@@ -267,13 +267,13 @@ The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among o
 ### Step 5: Review, Document and Save
 
 > 1. Check whether...
-> - the subclasses are placed under the correct superclasses,
-> - the reused properties express the intended relationships and any open questions have been documented.
+> - the domain subclasses are placed under the correct CIDOC CRM superclasses,
+> - the reused CIDOC CRM properties express the intended relationships and any open questions have been documented.
 > 2. Save your ontology.
 
-**Result:** A small, formalised and documented section of an ontology, **not** a complete video game ontology.
+**Result:** A small, formalised and documented section of an ontology describing video game characteristics, **not** a complete video game ontology.
 
-**Transition to the next exercise:** The next exercise uses the **prepared Draw.io diagram with missing elements** from Module 3. You will complete the diagram according to the conventions required by the GNM Service transformation tool.
+**Transition to the next exercise:** In the next exercise, you will use the **prepared Draw.io diagram with missing elements** from Module 3. You will complete the diagram according to the conventions required by the GNM Service transformation tool.
 
 > **For further information, see Module 2, including:**
 > - [M2U1: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
@@ -281,49 +281,48 @@ The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among o
 
 ---
 
-## 4. Complete the Draw.io Diagram — 15 min
+## 4. Complete the Draw.io Diagram — 15 min.
 
 **Starting Point**
 
-You will now work with the **prepared diagram with missing elements** (shown in the image below):
+You will now work with a **prepared Draw.io diagram with missing elements**, which visualises selected classes and relationships of a video game domain ontology (see the figure below):
 
-![Example of the ontology diagram](assets/Gruppe_B.dawio.png)
+![Prepared Draw.io diagram](assets/Gruppe_B.dawio.png)
 
 ---
 
 ### Step 1: Complete the Prepared Diagram
 
-> 1. Download the **[Draw.io XML diagram with missing elements](assets/Gruppe_B.drawio.xml)**.
-> 2. Open the downloaded file in **[Draw.io](https://app.diagrams.net/)**.
-> 3. Find the **four** temporary placeholders `(???)`.
-> 4. Replace the placeholders with the specified elements:
+> 1. Download the prepared **[Draw.io diagram with missing elements](assets/Gruppe_B.drawio.xml)**.
+> 2. Open the downloaded XML file in **[Draw.io](https://app.diagrams.net/)**.
+> 3. Find the **four** placeholders `(???)`.
+> 4. Replace these placeholders `(???)` with the following classes and properties:
 >    - `P102_has_title`,
 >    - `P1 is identified by`,
 >    - `P190 has symbolic content`,
 >    - `mega:E41_Game_Character_Name`.
-> 5. Check that the classes and properties form **complete semantic paths** and that each property label is assigned to the correct relationship. Refer to **Check the Modelling Rules** below.
-> 6. Examine the **attributes** of the central starting node, group nodes and end nodes:
+> 5. Check whether the classes and properties form **complete semantic paths**. Refer to the **Modelling Rules in Draw.io** below.
+> 6. Examine the **attributes** of the central starting node, group nodes and end nodes in the diagram. To do this, select each node and press **Ctrl + M** (Windows) to open the attribute dialogue. Check the following attributes:
 >    - `element_id`,
 >    - `group_name` and
 >    - `name`.
-> 7. Set the **attribute values**. For example, the `group_name` attribute value of the **group node** `mega:E89_Game_Characteristic` would be `Game_Characteristic`.
-> 8. Export the diagram as **Draw.io XML** and save it locally.
+> 7. Set the **attribute values**. For example, the `group_name` attribute of the **group node** `mega:E89_Game_Characteristic` should have the value `Game_Characteristic`.
+> 8. Export your diagram as **Draw.io XML** and save it locally.
 
-> **Check the Modelling Rules:**
+> **Modelling Rules in Draw.io:**
 >
 > - The diagram contains **classes and properties** representing paths and path groups, but no individual instances.
-> - No `(???)` placeholders remain.
-> - All connections are complete.
-> - Class and property labels, as well as the required attribute values, are consistent.
+> - All four placeholders `(???)` have been replaced.
+> - All connections between nodes and properties are complete.
+> - Class and property labels, as well as the required attribute values, are consistent and correspond to the [model solution: Game Characteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
 
-**Result:** A **Draw.io XML export** based on the completed Draw.io diagram:
+**Result:** A [Draw.io XML export](assets/WissKIBits.drawio.xml) based on the completed Draw.io diagram:
 
-![Example of the ontology diagram](assets/WissKIBits.drawio.png)
+![Model solution of the ontology diagram](assets/WissKIBits.drawio.png)
 
-**Transition to the next exercise:** Next, you will use the GNM Service to convert the diagram into a **WissKI Pathbuilder XML configuration**, which you will then import into WissKI and examine.
+**Transition to the next exercise:** Next, you will use the **GNM Service** to convert the XML diagram into a **WissKI Pathbuilder XML configuration**, which you will then import into WissKI for further use.
 
 > **For further information, see Module 3, including:**
-> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 > - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
 
 ---
