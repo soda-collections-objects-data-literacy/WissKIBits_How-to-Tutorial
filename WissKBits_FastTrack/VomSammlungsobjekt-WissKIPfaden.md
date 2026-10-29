@@ -171,7 +171,7 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname zur Benennung Ihres Domänenkonzept reicht nicht aus um eine semantisch korrekte Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname zur Benennung Ihres Domänenkonzeptes reicht nicht aus um eine semantisch korrekte Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
 - `E73 Information Object`,
 - `E35 Title`,
 - `E55 Type`,
@@ -183,13 +183,13 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 ### Schritt 2: Modellierungsentscheidungen vergleichen
 
 > Diskutieren oder reflektieren Sie ob...
-> - derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Dinge bezeichnen kann?
-> - beispielsweise ein Name als `Title`, als `Identifikator` oder mit einer andere Klasse formalisiert wird?
+> - derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Merkmale bezeichnen kann?
+> - beispielsweise ein Name als `Title`, als `Identifikator` oder mit einer andere Klasse representiert wird?
 
 **Ergebnis:** Ihre semantische Modellierungsskizze umfasst mindestens zwei **begründete, vorläufige Klassen-Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
 
 **Übergang zur nächsten Übung:**
-Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen explizit festlegen.
+Als Nächstes werden Sie Ihre Modellierungsentscheidungen in Protégé umsetzen, indem Sie **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen festlegen und damit einen Ausschnitt Ihres semantischen Modells formalisieren.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
 > - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
@@ -202,13 +202,15 @@ Als nächstes werden Sie in Protégé Ihre Modellierungsentscheidungen als **dom
 
 Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semantische Modellskizze aus Modul 2**:
 
-![Konzept-Mindmap aus Modul 2](assets/Mindmap.png)
+![Semantische Modellskizze aus Modul 2](assets/SemanticModell.png)
 
 ---
 
 ### Schritt 1: Erlangen CRM in Protégé laden
 
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
+
+!?[Video Demonstration: Einführung in Protégé](assets/Short_Protege_Intro.mp4)
 
 > **Zur Vertiefung siehe Modul 2, u.a.:**
 > - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
