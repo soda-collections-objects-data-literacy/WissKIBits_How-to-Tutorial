@@ -125,8 +125,8 @@ Consider the following questions:
 Consider the following characteristics:
 
 - **Video game title:** What is the game called?
-- **Video game properties:** Which genres, platforms or other classifications are relevant to the video game domain?
-- **Narrative elements:** Which descriptions, perspectives and characters are characteristic of the video game?
+- **Video game characteristics:** Which genres, platforms or other classifications are relevant to the video game domain?
+- **Narrative elements:** Which descriptions, narrative or gameplay perspectives, and characters are characteristic of the video game?
 
 You may include additional metadata (e.g. place and date of publication) where relevant to explaining the characteristics listed above.
 
@@ -139,7 +139,7 @@ You may include additional metadata (e.g. place and date of publication) where r
 
 **Result:** A conceptual model sketch that illustrates selected key characteristics and relationships associated with the example object.
 
-**Transition to the next exercise:** In the next exercise, you will examine whether this key characteristics can be adequately represented using **existing CIDOC CRM classes**.
+**Transition to the next exercise:** In the next exercise, you will explore how to appropriately represent these key characteristics using **existing CIDOC CRM classes**.
 
 > **For further information, see Module 1, including:**
 > - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
@@ -153,17 +153,17 @@ You may include additional metadata (e.g. place and date of publication) where r
 
 Now use the model solution **conceptual model sketch from Module 1** for your semantic model:
 
-![Conceptual mind map from Module 1](assets/mindmap_en.png)
+![Conceptual model sketch from Module 1](assets/mindmap_en.png)
 
 ---
 
-### Step 1: Examine and Justify Initial Class Mappings
+### Step 1: Examine and Justify Class Mappings
 
 > 1. Select **two concepts or events** from the provided conceptual model sketch and clarify what they mean in the context of the collection.
-> 2. Use the CIDOC CRM **[documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** or explore CIDOC CRM using the **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)** to identify suitable CIDOC CRM classes for the selected concepts.
-> 3. Read the **Scope Notes** and compare them with the conceptual model sketch.
-> 4. Consider what each class includes and/or excludes.
-> 5. Record a brief justification and an open question for each mapping in the following table.
+> 2. Use the CIDOC CRM **[documentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** or explore CIDOC CRM using the **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**
+> 3. Identify suitable CIDOC CRM classes for the selected concepts by reading the **Scope Notes** and compare them with the conceptual model sketch.
+> 5. Consider what each class includes and/or excludes, what CIDOC CRM relationships are available.
+> 6. Record a brief justification and an open question for each mapping in the following table.
 
 | Domain concept from your sketch | Possible CIDOC CRM class | Scope Note applicable | Justification and open question |
 |---|---|---|---|
