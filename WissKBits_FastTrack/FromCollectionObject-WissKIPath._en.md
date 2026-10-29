@@ -173,7 +173,7 @@ Now use the model solution **conceptual model sketch from Module 1** for your se
 | [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
 | [[Solution]] | [[Solution]] | [[Solution]] | [[Solution]] |
 
-**Important:** A CIDOC CRM class name that sounds similar to your domain concept is not sufficient to establish a semantically correct mapping. Always compare the intended meaning of each concept with the **Scope Note** of the corresponding CIDOC CRM class before making a modelling decision. Suitable classes may include:
+**Important:** A CIDOC CRM class name that sounds similar to your domain concept is not sufficient to establish a semantically correct mapping. Always compare the intended meaning of each concept based on the **Scope Note** of the corresponding CIDOC CRM class before making a modelling decision. Suitable classes may include:
 - `E73 Information Object`,
 - `E35 Title`,
 - `E55 Type`,
@@ -185,13 +185,13 @@ Now use the model solution **conceptual model sketch from Module 1** for your se
 ### Step 2: Compare Modelling Decisions
 
 > Discuss or reflect on whether...
-> - the same domain term can refer to different things depending on the research question.
+> - the same domain term can refer to different characteritics depending on the research question.
 > - a name, for example, can be formalised as a `Title`, an `Identifier` or using another class.
 
 **Result:** Your semantic model sketch includes at least two **justified, provisional class mappings** and, where applicable, any remaining uncertainties.
 
 **Transition to the next exercise:**
-Next, you will use Protégé to explicitly define your modelling decisions as **domain-specific subclasses** of existing CIDOC CRM classes.
+Next, you will implement your modelling decisions in Protégé by defining **domain-specific subclasses** of existing CIDOC CRM classes, thereby formalising a section of your semantic model.
 
 > **For further information, see Module 1, including:**
 > - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)
@@ -204,11 +204,13 @@ Next, you will use Protégé to explicitly define your modelling decisions as **
 
 Now use the model solution **semantic model sketch from Module 2** for your modelling in Protégé:
 
-![Concept mind map from the Module 2 exercise](../WissKIBits_Modul2/assets/Mindmap.png)
+![Semantic model sketch from the Module 2](assets/SemanticModell.png)
 
 ### Step 1: Load Erlangen CRM into Protégé
 
 > Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
+
+!?[Video Demonstration: Getting Started with Protégé](assets/Short_Protege_Intro.mp4)
 
 > **For further information, see Module 2, including:**
 > - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
