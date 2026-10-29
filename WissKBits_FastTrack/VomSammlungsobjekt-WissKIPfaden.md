@@ -335,18 +335,18 @@ Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die au
 
 **Ausgangspunkt**
 
-Sie arbeiten nun mit der Musterlösung [Draw.io XML Datei](assets/WissKIBits.drawio.xml) und dem [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) weiter.
+Sie arbeiten nun mit der Musterlösung [Draw.io XML-Export](assets/WissKIBits.drawio.xml) und dem [GNM-Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) weiter.
 
 ---
 
 ### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
-> 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/).
-> 2. Laden Sie die [Draw.io XML Datei](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) im Browser.
+> 2. Laden Sie Ihren Draw.io XML-Export oder die Musterlösung [Draw.io XML-Export](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 > 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
-> 5. Kopieren Sie den Link des [**Pathbuilder XML Output: Download XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml)
-
-**Wichtig:** Behalten Sie den Link!
+> 5. Wenn die Tranformation erfolgreich war, benötigen Sie **später in WissKI** (6. WissKi Pathbuilder erstellen - Schritt 2: Pathbuilder erstellen und importieren)
+>    - die Kopie des Links Ihres **Pathbuilder XML Output: Download XML file** oder
+>    - die Kopie des Links der Musterlösung [**Example output Pathbuilder XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml)
 
 ---
 
