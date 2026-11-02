@@ -352,21 +352,23 @@ You will now continue working with the model solution [Draw.io XML-Export](asset
 
 You will now continue working in your **WissKI test instance in the SCS**.
 
+If you don't have your own WissKI instance yet, you can request one here: **https://manager.scs.sammlungen.io**
+
 ---
 
 ### Step 1: Load the Games Ontology into WissKI and Update the SALZ Adapter
 
 > 1. Log in to your WissKI test instance.
 > 2. Navigate to **Configuration → WissKI → WissKI Ontology**.
-> 3. Delete the existing ontology.
-> 4. Load the [Games domain ontology](http://games.m-e-g-a.org/game_domain.rdf) via its URL under **Pathbuilder Definition Import**.
+> 3. Delete the existing default ontology: **Delete ontology**
+> 4. Load the [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf) via its URL under **Pathbuilder Definition Import**.
 > 5. Update the **WissKI SALZ Adapter**:
 >    - Navigate to **Configuration → WissKI → WissKI Salz Adapters**.
 >    - Edit the **Default Salz Adapter** and go to **Compute Type and Property Hierarchy and Domains and Ranges**.
 >    - Delete the existing reasoning table using **Delete Reasoning Table**.
 >    - Recompute the reasoning table using **Re-Compute results** and **Start Reasoning**.
 >    - Update the adapter using **Update Adapter**.
-> 6. Navigate to **Configuration → Development → Performance** and clear the cache using **Clear all caches**.
+> 6. Navigate to **WissKI → Tools → Flush all caches** and clear the cache using **Clear all caches**.
 
 ---
 
