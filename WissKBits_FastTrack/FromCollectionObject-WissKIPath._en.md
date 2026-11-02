@@ -198,7 +198,7 @@ Next, you will implement your modelling decisions in Protégé by defining **dom
 
 ---
 
-## 3. Formalise a Small Section of the Ontology in Protégé — 15 min.
+## 3. Formalise a Small Section of the Ontology in Protégé - 15 min.
 
 **Starting Point**
 
@@ -281,7 +281,7 @@ The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among o
 
 ---
 
-## 4. Complete the Draw.io Diagram — 15 min.
+## 4. Complete the Draw.io Diagram - 15 min.
 
 **Starting Point**
 
@@ -327,7 +327,7 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 ---
 
-## 5. Convert and Import WissKI Paths — 20 min
+## 5. Convert and Import WissKI Paths - 20 min
 
 **Starting Point**
 
@@ -346,7 +346,7 @@ You will now continue working with the model solution [Draw.io XML-Export](asset
 
 ---
 
-## 6. Create a WissKI Pathbuilder — 10 min
+## 6. Create a WissKI Pathbuilder - 10 min
 
 **Starting Point**
 
