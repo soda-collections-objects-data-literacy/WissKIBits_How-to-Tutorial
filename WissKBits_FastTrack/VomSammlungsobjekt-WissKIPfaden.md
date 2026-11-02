@@ -383,7 +383,8 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 > 3. Speichern Sie den neuen Pathbuilder.
 > 4. Öffnen Sie den neuen Pathbuilder erneut, suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
 > 6. Warten Sie, bis die Pathbuilder-Struktur erscheint.
-> 7. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
+
+![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
 
 ---
 
@@ -395,11 +396,12 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 > - ob die relevanten Klassen und Eigenschaften enthalten sind.
 > - ob Pfade fehlen, falsch gruppiert wurden oder unerwartet auftreten.
 >   
-> 3. Erstellen Sie eine Dokumentation und Archivieren Sie relevante Dateien. [[VERWEIS Basiskurs - Dokumentation von Forschungsdaten]]]
+> 3. Erstellen Sie eine Dokumentation und Archivieren Sie relevante Dateien. 
 
 **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
-![Beispiel des WissKI Pathbuilders](assets/pathbuilder.jpg) 
+> 8. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
+
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
 > -[MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
