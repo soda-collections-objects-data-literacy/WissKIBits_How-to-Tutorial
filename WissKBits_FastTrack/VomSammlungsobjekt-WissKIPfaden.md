@@ -344,7 +344,7 @@ Sie arbeiten nun mit der Musterlösung [Draw.io XML-Export](assets/WissKIBits.dr
 > 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) im Browser.
 > 2. Laden Sie Ihren Draw.io XML-Export oder die Musterlösung [Draw.io XML-Export](assets/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
 > 4. Starten Sie die Transformation und prüfen Sie den Status der Eingabedatei.
-> 5. Wenn die Tranformation erfolgreich war, benötigen Sie **später in WissKI** (6. WissKi Pathbuilder erstellen - Schritt 2: Pathbuilder erstellen und importieren)
+> 5. Wenn die Tranformation erfolgreich war, benötigen Sie **später in WissKI** (siehe 6. WissKi Pathbuilder erstellen - Schritt 2: Pathbuilder erstellen und importieren)
 >    - die Kopie des Links Ihres **Pathbuilder XML Output: Download XML file** oder
 >    - die Kopie des Links der Musterlösung [**Example output Pathbuilder XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml)
 
@@ -356,21 +356,23 @@ Sie arbeiten nun mit der Musterlösung [Draw.io XML-Export](assets/WissKIBits.dr
 
 Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
+Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantragen: **https://manager.scs.sammlungen.io**
+
 ---
 
 ### Schritt 1: Games-Ontologie in WissKI laden und SALZ Adapter aktualisieren
 
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
 > 2. Navigieren Sie zu **Configuration → WissKI → WissKI Ontology**.
-> 3. Löschen Sie die bestehende Ontologie.
-> 4. Laden Sie die [Games-Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) hier **Pathbuilder Definition Import** über die URL.
+> 3. Löschen Sie die bestehende default Ontologie: **Delete Ontology**
+> 4. Laden Sie die [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf) hier **Pathbuilder Definition Import** über die URL.
 > 5. Aktualisieren Sie den **WissKI Salz Adapter**:
 >    - Navigieren Sie **Configuration → WissKI → WissKI Salz Adapters**
 >    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
 >    - Lösche die bestehende Schlussfolgerungstabelle: **Delete Reasoning Table**
 >    - Berechnen Sie die Schlussfolgerungstabelle neu mit **Re-Compute results** und **Start Reasoning**
 >    - Aktualisieren Sie den Adapter **update adapter**.
-> 6. Navigieren Sie zu **Configuration → Development → Performance** und leeren Sie den Cache mit **Clear all caches**.
+> 6. Navigieren Sie zu **WissKI → Tools → Flush all caches** und leeren Sie den Cache mit **Clear all caches**.
 
 ---
 
