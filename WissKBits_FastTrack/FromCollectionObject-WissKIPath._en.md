@@ -379,7 +379,8 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 > 3. Save the new Pathbuilder.
 > 4. Open the new Pathbuilder again, locate **Pathbuilder Definition Import**, insert the generated **Pathbuilder XML Output: Download XML file** and start the import.
 > 5. Wait until the Pathbuilder structure appears.
-> 6. Edit the starting node **Computer Game** and save again.
+
+![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
 
 ---
 
@@ -390,11 +391,9 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 >    - the expected path groups are present.
 >    - the relevant classes and properties are included.
 >    - any paths are missing, incorrectly grouped or appear unexpectedly.
-> 3. Document your results and archive the relevant files. [[REFERENCE Basic Course – Research Data Documentation]]
+> 3. Document your results and archive the relevant files. 
 
 **Result:** A generated, imported and **verified WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
-
-![Example of the WissKI Pathbuilder](assets/pathbuilder.jpg)
 
 > **For further information, see Module 3, including:**
 > - [M3UE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
@@ -403,7 +402,7 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 
 ### Step 4: Generate Data Entry Fields and Enter Data
 
-After reviewing the Pathbuilder, you can generate the structure and fields required for data entry.
+After reviewing the Pathbuilder, you can generate the **structure and fields** required for data entry.
 
 > Navigate to **Configuration → WissKI → Pathbuilders**.
 > Edit your Pathbuilder and select **Save and generate bundles and fields**.
