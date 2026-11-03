@@ -126,7 +126,7 @@ Achten Sie beim Ansehen darauf, wie im Editor zwischen bestehenden Ontologieelem
 
 ## Ausblick
 
-> **Als Nächstes:**
+> **Wie geht es weiter?**
 >
 > Sie haben gelernt, wie Sie eine Ontologie in Protégé öffnen und erkunden.
 >
