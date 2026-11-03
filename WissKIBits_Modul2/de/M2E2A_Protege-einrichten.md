@@ -149,7 +149,7 @@ Am Ende dieser Einheit haben Sie:
 
 ## Ausblick
 
-> **Als Nächstes:**
+> **Wie geht es weiter?**
 >
 > In der folgenden Einheit lernen Sie den Ontologie-Editor und seine grundlegenden Funktionen kennen.
 >
