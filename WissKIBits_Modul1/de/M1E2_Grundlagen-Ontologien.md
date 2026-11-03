@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit 2: **Grundlage von Ontologien**  
+Einheit (E2): **Grundlage von Ontologien**  
 
 **Dauer:**  ~ 10 Min.
 
