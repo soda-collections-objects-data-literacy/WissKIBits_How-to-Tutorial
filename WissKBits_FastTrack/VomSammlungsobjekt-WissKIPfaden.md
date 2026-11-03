@@ -376,7 +376,7 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 ---
 
-### Schritt 2: Pathbuilder erstellen und importieren**  
+### Schritt 2: Pathbuilder erstellen und importieren
 
 > 1. Navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
 > 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
@@ -388,7 +388,7 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 ---
 
-### Schritt 3: Erzeugten Pfadgruppen und Pfade überprüfen und dokumentieren**
+### Schritt 3: Erzeugten Pfadgruppen und Pfade überprüfen und dokumentieren
 
 > 1. Vergleichen Sie den importierten **Pathbuilder** und das **Draw.io-Diagramm.**
 > 2. Prüfen Sie,
@@ -408,7 +408,7 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 ---
 
-### Schritt 4: Eingabefelder generieren und Daten eingeben**
+### Schritt 4: Eingabefelder generieren und Daten eingeben
 
 Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen.
 
