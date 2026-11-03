@@ -123,17 +123,24 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
 - einen Workflow für die semantische Modellierung als Datendokumentation benennen. (LZ-ID SODa\_03\_001\_0626)
 - einen Workflow für die semantische Modellierung als Datendokumentation erläutern. (LZ-ID SODa\_03\_001\_0853)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
-### E3/E2A. Einführung in Protégé
+### E2. Arbeitsumgebung mit Protégé vorbereiten
+
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
+
+
+### E3. Einführung in Protégé
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
 ### EÜ. Semantische Modellierung mit CIDOC CRM
 
@@ -144,7 +151,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_0855)
 - Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-
+  
 
 ---
 
