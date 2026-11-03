@@ -227,10 +227,10 @@ The following classes may provide useful starting points for your exploration.
 | **E22 Human-Made Object** | Physical copy (cartridge, disc, box…) |
 | **E21 Person** | Participating person / contributor (designer, musician) |
 | **E74 Group** | Organization or group (development studio, publisher, team) |
-| **E12 Production** | Production / (possibly publication as an event) |
+| **E12 Production** | Production / (production of a physical copy as an event) |
 | **E42 Identifier** | Identifiers (inventory numbers, product codes …) |
 | **E35 Title** | Title of the object as a separate entity |
-| **E42 Appellation** | Name by which something is identified or designated |
+| **E41 Appellation** | Name by which something is identified or designated |
 | **E55 Type** | Controlled characteristics (e.g. genre, platform) |
 
 These are possible starting points, not predefined solutions. Always check the relevant scope notes before deciding whether a class is suitable.
@@ -289,7 +289,7 @@ In our initial model sketch, you can state simply:
 
 > Game → has a designation → “The Legend of Zelda: A Link to the Past”
 
-CIDOC CRM allows to distinguish more precisely between different forms of designation:
+CIDOC CRM allows us to distinguish more precisely between different forms of designation:
 
  **E41 Appellation** represents a designation used to identify or refer to an instance of a CRM class. 
  
@@ -304,7 +304,7 @@ Both E35 Title and E42 Identifier are subclasses of E41 Appellation, but they ex
 
 Initial model sketch: 
 
-Game  →  has designation  →  "TheLegend of Zelda: A Link to the Past"
+Game  →  has designation  →  "The Legend of Zelda: A Link to the Past"
 
 **CIDOC CRM distinction:** 
 
@@ -338,9 +338,9 @@ By consulting scope notes and discussing possible mappings, you have taken a fir
 
 ## Bibliography
 
-(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
-(CIDOC, 2024b) CIDOC CRM Special Interest Group. (2024a). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+(CIDOC, 2024b) CIDOC CRM Special Interest Group. (2024b). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
 
 (RemoGrillo & claude, 2026). RemoGrillo & claude (2026). cidoc-crm_periodic_table. https://github.com/RemoGrillo/cidoc-crm_periodic_table
 
