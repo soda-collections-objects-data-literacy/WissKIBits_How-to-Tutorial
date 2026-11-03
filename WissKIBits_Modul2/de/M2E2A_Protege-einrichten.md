@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 2 (M2): **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
-Einheit 2 (E2): **Arbeitsumgebung mit Protégé vorbereiten**
+Einheit 2 (E2A): **Arbeitsumgebung mit Protégé vorbereiten**
 
 **Dauer:** ~  15 Min.
 
