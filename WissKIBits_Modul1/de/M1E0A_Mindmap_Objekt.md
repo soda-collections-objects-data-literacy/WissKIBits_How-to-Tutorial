@@ -164,7 +164,7 @@ Ziel ist es, die verschiedenen Informationen zu strukturieren und ihre Beziehung
 > **Vorbereitung**
 >
 > 1. Öffnen Sie [Draw.io](https://app.diagrams.net/).
-> 2. Laden Sie die bereitgestellte Puzzle-Vorlage herunter ![puzzle template](../WissKIBits_Modul1/assets/puzzle.drawio_en.xml) und öffnen Sie diese in Draw.io.
+> 2. Laden Sie die bereitgestellte Puzzle-Vorlage herunter [puzzle template](../assets/puzzle.drawio_en.xml) und öffnen Sie diese in Draw.io.
 > 3. Machen Sie sich mit den vorgegebenen Elementen (Konzepten, Ereignissen und Beziehungen) vertraut.
 >
 > **Aufgabe:** Erstellen Sie mithilfe der Vorlage eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
