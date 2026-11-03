@@ -77,7 +77,7 @@ Ihr Ziel ist es, einen kleinen Modellausschnitt in OWL formal abzubilden und zu 
 
 Greifen Sie auf die konzeptuelle Modellskizze und die ersten Zuordnungen zu CIDOC CRM zurück, die Sie in Modul 1 erarbeitet haben.
 
-![Konzeptuelle Mindmap](../WissKIBits_Modul2/assets/mindmap_en.png)
+![Konzeptuelle Mindmap](../assets/mindmap_en.png)
 
 > **Abbildung:** Die Grafik zeigt die konzeptuelle Modellskizze eines Ausschnitts der Beispieldomäne.
 
@@ -93,7 +93,7 @@ Das folgende Beispiel veranschaulicht **eine mögliche Zuordnung** ausgewählter
 
 Vergleichen Sie diesen Vorschlag mit Ihren eigenen Modellierungsentscheidungen. Achten Sie dabei insbesondere auf die ausgewählten Klassen, die Beziehungen zwischen ihnen und mögliche Unterschiede bei der Interpretation der Domänenkonzepte.
 
-![Konzeptuelle Mindmap](../WissKIBits_Modul2/assets/Mindmap.png)
+![Konzeptuelle Mindmap](../assets/Mindmap.png)
 
 > **Abbildung:** Die Grafik zeigt die Zuordnung zu den übergeordneten Klassen von CIDOC CRM sowie die Aussagen zur Beschreibung der Domäne.
 
@@ -160,7 +160,7 @@ Beide Varianten sind über die [**offizielle Protégé-Webseite**](https://prote
 
 > **Hinweis:** Orientieren Sie sich an den in M2E3 gezeigten Arbeitsschritten und dem zugehörigen Video:
 
-!?[Videodemonstration: Erste Schritte mit Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+!?[Videodemonstration: Erste Schritte mit Protégé](../assets/Short_Protege_Intro.mp4)
 
 > **Video:** Das Video demonstriert die ersten Schritte in Protégé und zeigt, wie Erlangen CRM / OWL geladen wird.
 
@@ -299,7 +299,7 @@ Speichern Sie Ihre Ontologie im OWL-Format und stellen Sie sicher, dass Sie die 
 
 Das folgende Beispiel veranschaulicht **eine mögliche Umsetzung** ausgewählter Konzepte und Beziehungen aus der **Domäne der Computerspiele auf Basis von CIDOC CRM**.
 
-[**Game Domain Ontology – RDF**](http://games.m-e-g-a.org/game_domain.rdf)
+[**Game Characteristics Domain Ontology – RDF**](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf))
 
 Vergleichen Sie Ihr eigenes Modell **erst nach Abschluss der Aufgabe** mit der Beispiellösung.
 
