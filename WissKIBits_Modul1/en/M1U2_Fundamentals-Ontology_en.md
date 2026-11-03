@@ -206,7 +206,9 @@ You have learned how ontologies use classes and properties to describe concepts 
 
 Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
 
-> Next: In unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
+> **Next:**
+> 
+>  In unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
 
 ---
 
