@@ -207,7 +207,16 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und unte
 
 ![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
 
-> **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele.
+
+
+
+![Pathbuilder](../assets/pathbuilder.jpg)
+
+> **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele bis WissKI (version 8.x-3.16) und Drupal (version 11.3.13).
+
+![Pathbuilder](../assets/pathbuilder_new.JPG)
+
+> **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele ab WissKI (version 8.X-4.9) und ab Drupal (version 11.4.11). 
 
 ---
 
