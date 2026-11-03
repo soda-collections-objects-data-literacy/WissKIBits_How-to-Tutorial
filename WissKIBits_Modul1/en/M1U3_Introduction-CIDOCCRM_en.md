@@ -81,7 +81,6 @@ CIDOC CRM provides a **common conceptual framework** for describing cultural inf
 >
 > **Important:** CIDOC CRM defines a conceptual model. Machine-readable implementations of the model, such as OWL representations, are used for technical applications.
 
----
 
 [CIDOC CRM](https://cidoc-crm.org/) is an **ISO-certified ontology (ISO 21127)** developed by the **CIDOC Committee of ICOM (International Council of Museums)**.
 
@@ -131,7 +130,7 @@ The official documentation provides a comprehensive introduction:
 
 ---
 
-**Exploring classes and properties**
+## Exploring classes and properties
 
 For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
@@ -267,7 +266,7 @@ Statements about resources take the form of **triples: subject–predicate–obj
 >
 > RDF (Resource Description Framework) provides a standard for representing statements about resources as triples in machine-readable form.
 
-> You have to decide between **class alignement or relationships**
+> You have to decide between **Class assignment vs. relationships**
 >
 > Classification: e.g. “The game is an object.” → E22 Human-Made Object, Game → instance of → E22 Human-Made Object
 >
