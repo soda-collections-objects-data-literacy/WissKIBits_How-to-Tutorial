@@ -40,9 +40,9 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 3: **Vom Diagramm zu Pfaden – erläutern und anwenden**
+Modul 3 (M3): **Vom Diagramm zu Pfaden – erläutern und anwenden**
 
-Einheit 0: **Willkommen, Zielsetzung und Ablauf**
+Einheit 0 (E0): **Willkommen, Zielsetzung und Ablauf**
 
 **Dauer:** ~ 10 Min.
 
