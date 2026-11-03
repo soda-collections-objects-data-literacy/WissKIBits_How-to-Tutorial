@@ -40,7 +40,7 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2 (M2): **Modllieren mit CIDOC CRM – verstehen und anwenden**
+Modul 2 (M2): **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
 Einheit 2 (E2): **Arbeitsumgebung mit Protégé vorbereiten**
 
