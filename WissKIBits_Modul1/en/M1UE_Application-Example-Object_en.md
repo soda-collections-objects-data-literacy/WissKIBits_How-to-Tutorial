@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
-Unit 1 Exercise (UE): **Application Example: Object Collections**  
+Unit Exercise (UE): **Application Example: Object Collections**  
 
 **Duration:** ~ 20 min.
 
