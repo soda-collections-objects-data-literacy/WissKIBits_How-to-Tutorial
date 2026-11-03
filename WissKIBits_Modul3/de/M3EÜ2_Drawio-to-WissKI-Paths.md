@@ -41,9 +41,9 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
+Modul 3 (M3): **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
-Übungseinheit Ü2: **Transformation semantischer Modelle in WissKI-Pfade**  
+Übungseinheit (EÜ2): **Transformation semantischer Modelle in WissKI-Pfade**  
 
 **Dauer:** ~ 45 Min.
 
