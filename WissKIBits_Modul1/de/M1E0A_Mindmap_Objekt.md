@@ -44,7 +44,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit E1A: **Anwendungsbeispiel: Objektsammlung**  
 
-**Dauer:** ~ 5 Min.
+**Dauer:** ~ 15 Min.
 
 
 **Lernziele:**
@@ -126,7 +126,7 @@ Computerspiele bieten damit einen anschaulichen Ausgangspunkt, um unterschiedlic
 
 ## Schwerpunkt dieser Aktivierungsübung
 
-Für die erste konzeptionelle Modellskizze betrachten Sie ausgewählte Informationen zum Beispielobjekt *The Legend of Zelda: A Link to the Past*.
+Für die erste konzeptionelle Modellskizze betrachten Sie ausgewählte Informationen zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
 
 Im Mittelpunkt stehen zunächst drei Bereiche:
 
@@ -158,7 +158,7 @@ Ziel ist es, die verschiedenen Informationen zu strukturieren und ihre Beziehung
 
 **Material:** Draw.io (diagrams.net) und bereitgestellte Puzzle-Vorlage
 
-**Zeit:** 15 Minuten
+**Zeit:** 10 Minuten
 
 > **Vorbereitung**
 >
@@ -207,19 +207,6 @@ Sie müssen nicht alle Unsicherheiten auflösen. Diese Fragen werden später bei
 
 ## Ergebnis
 
-Sie haben nun eine erste konzeptionelle Modellskizze erstellt, die Folgendes enthält:
-
-- relevante Konzepte, 
-- Ereignisse und
-- aussagekräftige Beziehungen zwischen diesen Elementen.
-
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
-
-> **Abbildung:** Beispiel einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.
-
-
-## Ergebnis
-
 Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes enthält:
 
 - relevante Konzepte,
@@ -228,14 +215,12 @@ Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes
 
 ![Beispiel einer konzeptionellen Modellskizze](../WissKIBits_Modul1/assets/mindmap.png)
 
-*Abbildung: Beispiel einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.*
+>**Abbildung:** Beispiel einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.
 
 ---
 
 > **Wie geht es weiter?**
 >
-> **Bewahren Sie Ihre Modellskizze auf.**
->
-> In **Lerneinheit 1** lernen Sie die grundlegenden Begriffe der konzeptuellen Wissensmodellierung kennen. Mithilfe dieser Begriffe betrachten Sie anschließend, was Sie in Ihrer Skizze bereits modelliert haben: **Konzepte, Ereignisse und Beziehungen**.
+> Erhalten Sie Ihre Modellskizze. In **Lerneinheit 1** lernen Sie die grundlegenden Begriffe der konzeptuellen Wissensmodellierung kennen. Mithilfe dieser Begriffe betrachten Sie anschließend, was Sie in Ihrer Skizze bereits modelliert haben: **Konzepte, Ereignisse und Beziehungen**.
 >
 > Wenn Sie sich später mit **CIDOC CRM** beschäftigen, greifen Sie erneut auf Ihre Modellskizze zurück.
