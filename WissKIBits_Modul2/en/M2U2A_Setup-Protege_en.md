@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Activation Unit (U1A): **Setting Up the Working Environment with Protégé**  
+Activation Unit (U2A): **Setting Up the Working Environment with Protégé**  
 
 **Duration:** ~ 15 min.
 
