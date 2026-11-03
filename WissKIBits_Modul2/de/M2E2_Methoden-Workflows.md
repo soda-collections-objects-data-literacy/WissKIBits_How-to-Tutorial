@@ -40,9 +40,9 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2: **Modllieren mit CIDOC CRM – verstehen und anwenden**
+Modul 2 (M2): **Modllieren mit CIDOC CRM – verstehen und anwenden**
 
-Einheit 1: **Methoden und Workflows semantischer Modellierung**  
+Einheit 2 (E2): **Methoden und Workflows semantischer Modellierung**  
 
 **Dauer:** ~  5 Min.
 
