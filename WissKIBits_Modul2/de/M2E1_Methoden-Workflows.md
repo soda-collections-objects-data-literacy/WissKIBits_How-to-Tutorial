@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 2 (M2): **Modllieren mit CIDOC CRM – verstehen und anwenden**
 
-Einheit 2 (E2): **Methoden und Workflows semantischer Modellierung**  
+Einheit 1 (E1): **Methoden und Workflows semantischer Modellierung**  
 
 **Dauer:** ~  5 Min.
 
