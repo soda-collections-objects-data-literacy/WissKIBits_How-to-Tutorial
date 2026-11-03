@@ -97,9 +97,9 @@ Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die K
 
 ## Ausblick
 
-Die vorgestellten **Methoden und Workflows semantischer Modellierung** sowie die im Tutorial erläuterte **Modellierungsstrategie** bilden die Grundlage für die Überführung der bisher erarbeiteten Konzepte und Modelle in die Praxis. 
-
-In der folgenden Einheit wird **Protégé** als Editor zur Modellierung von Ontologien vorgestellt. Anhand eines konkreten Beispiels wird gezeigt, wie auf Basis des CIDOC CRM mit Protégé eine **maschinenlesbare Domänenontologie** entwickelt, formal beschrieben und für die maschinelle Verarbeitung zugänglich gemacht werden kann.
+> **Wie geht es weiter?**
+>
+> In der folgenden Einheit lernen Sie **Protégé** als Editor zur Ontologiemodellierung kennen. Anhand eines konkreten Beispiels entwickeln Sie auf Basis des **CIDOC CRM** eine **maschinenlesbare Domänenontologie**, beschreiben diese formal und bereiten sie für die maschinelle Verarbeitung vor. Dabei wenden Sie die zuvor erarbeiteten Methoden und Strategien der semantischen Modellierung praktisch an.
 
 ---
 
