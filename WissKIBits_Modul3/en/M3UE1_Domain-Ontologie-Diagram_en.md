@@ -52,7 +52,7 @@ Unit Exercise (UE1): **Visualising a Semantic Domain Ontology**
 Participants will be able to...
 
 - name software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0812)
-- explain software for visualising a domain ontology. (LO-ID LZ-ID SODa\_03\_007\_0813)
+- explain software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0813)
 - explain the concept of visualisation. (LO-ID SODa\_03\_007\_0851)
 - explain the benefits of visualisations. (LO-ID SODa\_03\_007\_0852)
 - name the benefits of software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0814) 
