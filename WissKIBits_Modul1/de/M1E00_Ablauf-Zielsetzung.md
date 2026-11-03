@@ -22,7 +22,7 @@ title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
 
 module: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären
 
-einheit: Willkommen, Zielsetzung und Ablauf
+unit: Willkommen, Zielsetzung und Ablauf
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 
@@ -30,9 +30,9 @@ keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellier
 
 community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
 
-PublicationDate: 2026-10-05
+PublicationDate: 2026-11-05
 
-LearningResourceType: SODa How-to-Tutorial
+LearningResourceType: How-to-Tutorial
 
 -->
 
@@ -41,9 +41,9 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
+Modul 1 (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit (E00): **Willkommen, Zielsetzung und Ablauf**  
+Einheit 0 (E00): **Willkommen, Zielsetzung und Ablauf**  
 
 **Dauer:** ~ 5 Min.
 
