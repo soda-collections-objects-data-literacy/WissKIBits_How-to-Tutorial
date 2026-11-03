@@ -124,7 +124,7 @@ CIDOC CRM not only describes **classes and properties**, but also explains the *
 
 The official documentation provides a comprehensive introduction:
 
-![CIDOC CRM Table of Contents](../WissKIBits_Modul1/assets/M1E3_CIDOC_TableofContents.png)
+![CIDOC CRM Table of Contents](../assets/M1E3_CIDOC_TableofContents.png)
 
 > **Figure:** Excerpt from the table of contents of CIDOC CRM, [Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release) (CIDOC, 2024a, p. 3).
 
@@ -209,7 +209,7 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ### Example E39 Actor
 
-![Example E39 Actor](../WissKIBits_Modul1/assets/E39Actor.jpg)
+![Example E39 Actor](../assets/E39Actor.jpg)
 
 > **Figure:** The figure illustrates the structure of a class description using “E39 Actor” in CIDOC CRM as an example. (CIDOC, 2024a, p. 83)
 
