@@ -206,7 +206,11 @@ At the same time, WissKI remains flexible, enables semantic consistency, and pro
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain
+> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain until WissKI (version 8.x-3.16) and Drupal (version 11.3.13)
+
+![Pathbuilder](../assets/pathbuilder_new.JPG)
+
+> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain from up to WissKI (version 8.X-4.9) and Drupal (version 11.4.11) 
 
 ---
 
