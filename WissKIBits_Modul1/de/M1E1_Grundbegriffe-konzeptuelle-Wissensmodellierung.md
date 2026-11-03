@@ -68,7 +68,19 @@ Teilnehmende können...
 
 Bei der **konzeptuellen Wissensmodellierung** wird herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses Wissen konzeptuell geordnet werden kann.
 
-Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer & Hofer, 2010, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Modellierung umfasst eine Domäne im vorliegenden Kontext die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung. 
+Eine **Domäne** ist der fachlich abgegrenzte Werte-, Wissens- und Anwendungsbereich (Fischer & Hofer, 2010, S. 257), für den Wissen beschrieben und modelliert wird. In der semantischen Modellierung umfasst eine Domäne im vorliegenden Kontext die fachlich relevanten Konzepte, Ereignisse und Beziehungen, beispielsweise den Bereich einer Forschungs- oder Objektsammlung.
+
+> **Zentrale Begriffe**
+>
+> **Konzeptuelle Wissensmodellierung** identifiziert und ordnet das für eine bestimmte Domäne relevante Wissen.
+>
+> Eine **Domäne** ist ein abgegrenzter Wissens- oder Anwendungsbereich, beispielsweise eine Forschungs- oder Objektsammlung.
+>
+> **Ziel ist es, relevante Konzepte, Ereignisse und Beziehungen zu identifizieren** und **ihre fachspezifische Bedeutung zu klären**.
+
+---
+
+### Bausteine der konzeptuellen Modellierung
 
 Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereignisse und Beziehungen**:
 
@@ -78,150 +90,134 @@ Zentrale Elemente der konzeptuellen Wissensmodellierung sind **Konzepte, Ereigni
 
 Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der **semantischen Modellierung**.
 
+---
+
+### Vom konzeptuellen Wissen zum semantischen Datenmodell
+
+**Konzeptuelle Wissensmodellierung** identifiziert und ordnet das für eine bestimmte Domäne relevante Wissen.
+
 Der **semantischen Modellierung** geht die Konzeptualisierung eines Wissensbereichs voraus. In diesem Schritt werden relevante Begriffe, Konzepte und Beziehungen identifiziert, strukturiert und in ihrer fachlichen Bedeutung bestimmt. Die anschließende **semantische Modellierung** stellt diese konzeptuelle Wissensstruktur in einem formalisierten Modell dar (Rehbein, 2017, S. 164; Schwenk & Fischer, 2025, S. 23). Sie erfordert somit sowohl ein Verständnis des jeweiligen Fachgebiets als auch Kompetenzen in der formalen Modellierung (Fichtner, 2025, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden. (Spasojevic, 2025; Schwenk & Fischer, 2025, S. 21) Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben. (Fichtner, 2025, S. 58)
+Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Spasojevic, 2025; Schwenk & Fischer, 2025, S. 21). Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben (Fichtner, 2025, S. 58).
 
-> **Merksatz:** Die konzeptuelle Wissensmodellierung klärt, welches Wissen relevant ist und wie es geordnet wird. Die semantische Modellierung formalisiert diese fachliche Ordnung. Das semantische Datenmodell ist das Ergebnis dieses Prozesses.
-
-**Fachliche Domäne bestimmen**  
-
-↓  
-
-**Relevantes Wissen identifizieren**  
-
-↓  
-
-**Konzepte, Ereignisse und Beziehungen ordnen**  
-
-↓  
-
-**Fachliche Bedeutungszusammenhänge beschreiben**  
-
-↓  
-
-**Semantisch modellieren**  
-
-↓ 
-
-**Semantisches Datenmodell**
-
-
-> **Abbildung:** Die Grafik veranschaulicht den Weg von der Bestimmung einer fachlichen Domäne über die konzeptuelle Ordnung des relevanten Wissens bis zum semantischen Datenmodell.
+> **Merksatz**
+>
+> Die **konzeptuelle Wissensmodellierung** klärt, welches Wissen relevant ist und wie es geordnet wird.
+>
+> Die **semantische Modellierung** formalisiert diese fachliche Ordnung.
+>
+> Das **semantische Datenmodell** ist das Ergebnis dieses Prozesses.
 
 ---
 
-## Übung: Wissen einer Sammlung konzeptuell ordnen
+## Vom Domänenwissen zum semantischen Datenmodell
 
-**Arbeitsform:** Einzel- oder Kleingruppenarbeit  
+Ein Sammlungsobjekt kann durch viele einzelne Informationen beschrieben werden. Die **konzeptuelle Modellierung** hilft uns zu entscheiden, welche davon relevant sind und wie sie miteinander zusammenhängen.
 
-**Material:** Board, Moderationskarten oder Papier  
+Betrachten wir das Computerspiel **The Legend of Zelda: A Link to the Past**. Ein Sammlungsdatensatz kann beispielsweise den **Titel**, Angaben zum **Publisher**, ein **Veröffentlichungsdatum** und die **Plattform**, für die das Spiel veröffentlicht wurde, enthalten.
 
-**Zeit:** 10 Min.
+Um ein konzeptuelles Modell zu entwickeln, fragen wir, worauf sich diese Informationen beziehen. Beispielsweise:
 
-**Aufgabe:**
+- Ein Titel ist eine Bezeichnung.
+- Ein Publisher ist eine Organisation.
+- Eine Veröffentlichung kann als Ereignis betrachtet werden.
 
-Denkt an ein typisches Objekt aus eurer Sammlung oder Forschung. 
+Anschließend untersuchen wir, wie diese Elemente mit dem Spiel und miteinander in Beziehung stehen.
 
-Ziel ist es, aus Informationen über dieses Objekt **Konzepte, Ereignisse und deren Beziehungen** abzuleiten.
-
----
-
-#### Schritt 1: Informationen auswählen
-
-Wählt ein oder zwei Informationen aus, die für das Verständnis des Objekts relevant sind, und formuliert daraus zwei kurze Aussagen.
-
-**Beispiel:**
-
-> Das Spiel „The Legend of Zelda: A Link to the Past“ wurde von Nintendo entwickelt.
-> Es wurde 1991 in Japan veröffentlicht.
-
-**Prüft eure Aussagen:**
-
-- Welche Informationen sind für das Verständnis des Objekts zentral? 
-- Welche beschreiben lediglich ein Merkmal?
-- Welche stellen das Objekt in einen größeren Zusammenhang?
-- Welche Personen, Organisationen, Orte und Zeiten kommen vor?
-- Welche Zusammenhänge bleiben unausgesprochen?
+Das entstehende Modell bildet den Sammlungsdatensatz nicht einfach ab. Es macht **ausgewählte Konzepte und Beziehungen explizit**, sodass ihre Bedeutung diskutiert und weiter präzisiert werden kann.
 
 ---
 
-#### Schritt 2: Konzepte und Ereignis identifizieren
+## Wissen einer Sammlung konzeptuell ordnen
 
-Bestimmt anhand eurer Aussagen:
+**Arbeitsform:** Kurze Plenumsdiskussion
 
-- zwei **Konzepte**, die sich sinnvoll miteinander in Beziehung setzen lassen;
-- ein **Ereignis**, das mit mindestens einem **Konzept** verbunden ist.
+**Zeit:** 5 Min.
 
-**Hinweis**
-
-> 1. **Konzepte** bezeichnen beispielsweise Objekte, Personen, Organisationen, Orte oder andere zentrale Bausteine der Domäne.
-> 2. **Ereignisse** bezeichnen Geschehnisse oder Prozesse, beispielsweise eine Entwicklung, Herstellung, Veröffentlichung oder Ausstellung.
-> 3. **Beziehungen** verbinden Konzepte und Konzepte oder Konzepte und Ereignisse miteinander.
-
----
-
-#### Schritt 3: Beziehungen formulieren
-
-Beschreibt nun, wie die identifizierten Konzepte und Ereignisse miteinander verbunden sind. 
-
-Formuliert die Beziehungen als kurze Aussagen.
-
-**Beispiele:**
-
-| Konzept | Konzept | Beziehung |
-|---|---|---|
-| Spiel | Titel | Das Spiel hat den Titel "The Legend of Zelda..." |
-
-
-
-| Konzept | Ereignis | Beziehungen |
-|---|---|---|
-| Spiel | Entwicklung | Spiel wurde durch Entwicklung geschaffen |
-| Nintendo | Veröffentlichung | Nintendo war an Entwicklung beteiligt |
-| Japan | Veröffentlichung | Veröffentlichung fand in Japan statt |
-| 1991 | Veröffentlichung  | Veröffentlichung fand 1991 statt |
+> **Reflektieren Sie Ihre Modellskizze**
+>
+> Wählen Sie eine Beziehung aus Ihrer Modellskizze aus und lesen Sie diese als vollständige Aussage.
+>
+> - Welche Elemente sind Konzepte?
+> - Welche Elemente stellen Ereignisse dar?
+> - Welche Verknüpfungen sind Beziehungen?
+>
+> Überarbeiten Sie bei Bedarf die Bezeichnung der Beziehung in Ihrer Modellskizze.
 
 ---
 
-## Ergebnis
-
-Am Ende habt ihr einen ersten Ausschnitt einer konzeptuellen Ordnung eures Wissensbereichs: 
-
-- relevante Konzepte wurden benannt,
-- Ereignisse wurden identifiziert,
-- Beziehungen zwischen wurden formuliert.
-
----
-
-### Musterbeispiel als Grafik
-
-![Konzept-Mindmap](../WissKIBits_Modul1/assets/mindmap.png)
-
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels „The Legend of Zelda: A Link to the Past“. Eigene Darstellung, erstellt mit ChatGPT (OpenAI), 2026.
+> **Schritt 1: Erneut betrachten**
+>
+> Betrachten Sie die Modellskizze, die Sie bereits erstellt haben.
+>
+> **Schritt 2: Einordnen**
+>
+> Identifizieren Sie Beispiele für **Konzepte, Ereignisse und Beziehungen**.
+>
+> **Schritt 3: Reflektieren**
+>
+> Wählen Sie eine Beziehung aus und fragen Sie sich:
+>
+> - Könnten dieselben beiden Konzepte durch unterschiedliche Beziehungen miteinander verbunden werden, wenn eine andere Bedeutung ausgedrückt werden soll?
 
 ---
 
-## Zusammenfassung
+## Erwartetes Ergebnis
 
-Die konzeptuelle Wissensmodellierung strukturiert das relevante Fachwissen einer Domäne anhand von Konzepten, Ereignissen und Beziehungen. 
+Sie haben **Konzepte, Ereignisse und Beziehungen** in Ihrer eigenen Modellskizze identifiziert und erläutert, wie diese zur konzeptuellen Ordnung des Domänenwissens beitragen.
 
-Anforderungen aus der Sammlungspraxis bilden die Grundlage, um in diesem Modul 1 zentrale Konzepte, Ereignisse und Beziehungen zu identifizieren und daraus ein konsistentes, nachvollziehbares Domänenmodell und -diagramm zu entwickeln. 
+**Konzepte, Ereignisse und Beziehungen können beispielsweise sein:**
 
-Damit können Forschungsfragen an Sammlungen gestellt und beantwortet werden, wie:
+- **Konzepte** bezeichnen beispielsweise Objekte, Personen, Organisationen, Orte oder andere zentrale Bausteine einer Domäne und repräsentieren relevante Elemente des Wissensbereichs.
+- **Ereignisse** bezeichnen Geschehnisse oder Prozesse, beispielsweise Entwicklung, Herstellung, Veröffentlichung oder Ausstellung.
+- **Beziehungen** verbinden Konzepte miteinander oder Konzepte mit Ereignissen und drücken aus, wie diese Elemente inhaltlich zusammenhängen.
+
+---
+
+## Ergebnis und Zusammenfassung
+
+Die konzeptuelle Wissensmodellierung strukturiert das relevante Fachwissen einer Domäne anhand von Konzepten, Ereignissen und Beziehungen.
+
+In Einheit M1U0A habt ihr aus Informationen über ein Sammlungsobjekt eine erste konzeptuelle Modellskizze erstellt.
+
+In dieser Einheit habt ihr die Begriffe kennengelernt, mit denen sich dieser Prozess beschreiben lässt:
+
+- **Konzepte** repräsentieren relevante Elemente einer Domäne.
+- **Ereignisse** repräsentieren Geschehnisse und Prozesse.
+- **Beziehungen** drücken bedeutungstragende Verknüpfungen zwischen diesen Elementen aus.
+
+**Von der Modellskizze zu Forschungsfragen**
+
+Welche Konzepte, Ereignisse und Beziehungen relevant sind, hängt davon ab, welche Fragen euer Datenmodell unterstützen soll.
+
+Forschungsfragen im Sammlungskontext können beispielsweise sein:
 
 - **Herstellung & Entstehung:** In welchem konkreten Kontext und durch welche Prozesse entstand das Objekt?
 - **Akteur:innen & Rollen:** Welche Personen waren beteiligt und welche spezifischen Rollen nehmen sie ein?
-- **Provenienz:** Über welche Stationen und Ereinisse gelangte das Objekt in die Sammlung?
+- **Provenienz:** Über welche Stationen und Ereignisse gelangte das Objekt in die Sammlung?
 - **Ort & Zeit:** Wie verlässlich lassen sich die geografischen und zeitlichen Angaben der Objekthistorie belegen?
-- **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibunen im Datenmodell abbilden?
+- **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibungen im Datenmodell abbilden?
 - **Identifikation:** Wie lässt sich das Objekt über eindeutige Merkmale wie Inventarnummern exakt identifizieren und referenzieren?
+
+> **Was habt ihr gelernt?**
+>
+> Ihr habt eine **erste konzeptuelle Modellskizze** erstellt, indem ihr relevante Informationen über ein Sammlungsobjekt identifiziert und miteinander verbunden habt.
+>
+> Ihr könnt diesen Prozess nun als **konzeptuelle Wissensmodellierung** beschreiben: die Ordnung von Domänenwissen anhand von Konzepten, Ereignissen und Beziehungen.
+>
+> Diese konzeptuelle Struktur bildet die Grundlage für die Entwicklung eines semantischen Datenmodells.
 
 ---
 
 ## Ausblick
 
 Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses strukturell geordnet werden kann. Um diese gedankliche oder konzeptuelle Ordnung nun in einem formalen, maschinenlesbaren System darzustellen, werden Ontologien herangezogen. In Einheit 2 werden die allgemeinen Grundlagen von Ontologien vorgestellt.
+
+> **Wie geht es weiter?**
+>
+> Ihr habt Domänenwissen konzeptuell geordnet und könnt diese Struktur nun anhand von Konzepten, Ereignissen und Beziehungen beschreiben.
+>
+> In Einheit 2 untersucht ihr, wie Ontologien formale Strukturen bereitstellen, um dieses Wissen maschinenlesbar darzustellen.
 
 ---
 
