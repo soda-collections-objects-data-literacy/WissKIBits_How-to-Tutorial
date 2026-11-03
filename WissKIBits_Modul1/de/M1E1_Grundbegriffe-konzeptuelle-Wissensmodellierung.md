@@ -45,7 +45,7 @@ Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verst
 
 Einheit (E1): **Grundbegriffe konzeptueller Wissensmodellierung**  
 
-**Dauer:** ~ 20 Min.
+**Dauer:** ~ 10 Min.
 
 **Lernziele:**
 
