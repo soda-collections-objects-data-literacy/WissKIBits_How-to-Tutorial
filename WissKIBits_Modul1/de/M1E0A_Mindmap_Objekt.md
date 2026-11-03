@@ -52,8 +52,8 @@ Einheit (E0A): **Anwendungsbeispiel: Objektsammlung**
 
 Die Teilnehmenden können...
 
-- die Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LO-ID SODa_03_007_0811)
-- (LO-ID SODa_03_007_0856)
+- die Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
+- die Methode der konzeptuellen Wissensmodellierung zur Beschreibung eines Forschungsobjektes anwenden. (LZ-ID SODa\_03\_007\_0856)
 
 ---
 
