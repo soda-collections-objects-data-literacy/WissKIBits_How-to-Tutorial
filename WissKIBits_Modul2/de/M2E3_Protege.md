@@ -40,11 +40,11 @@ LearningResourceType: SODa How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
+Modul 2 (M2): **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
-Einheit 2: **Einführung in Protégé**  
+Einheit 3 (E3): **Einführung in Protégé**  
 
-**Dauer:** ~ 20 Min.
+**Dauer:** ~ 10 Min.
 
 **Lernziele:**
 
@@ -59,115 +59,97 @@ Teilnehmende können...
 
 ---
 
-## Protége - OWL Ontologie-Editor
+## Protégé – OWL-Ontologie-Editor
 
-**Protégé** ist ein freier und quelloffener Editor zur Erstellung, Bearbeitung und Verwaltung von Ontologien. Die aktuelle Version unterstützt insbesondere die **OWL 2 Web Ontology Language** und bietet damit eine Umgebung für die formale und maschinenlesbare Modellierung von Ontologien. (Stanfordo.D.software) 
+In Modul 1 haben Sie eine konzeptuelle Modellskizze entwickelt und mögliche Zuordnungen zu CIDOC CRM untersucht.
 
-Protégé ist sowohl als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege)) als auch als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)) verfügbar. (Stanfordo.D.protege)
+In Modul 2 überprüfen Sie diese Modellierungsentscheidungen und überführen ausgewählte Teile Ihres Modells in eine maschinenlesbare Form.
 
-In der Praxiseinheit (M2EÜ) dieses Moduls wird **Protégé Desktop** verwendet. Der Editor bietet eine grafische Oberfläche, mit der Ontologien erstellt, bearbeitet und strukturiert werden können. Bereits vorhandene Ontologien können in Protégé geöffnet und als Grundlage für die weitere Modellierung verwendet werden. Die vorgenommenen Modellierungen lassen sich anschließend in einem **maschinenlesbaren Format** speichern und für die weitere Verarbeitung nutzen.
+Dazu verwenden Sie **Protégé** (Stanford, 2026a), um eine bestehende OWL-Ontologie zu erkunden, ihre Klassen- und Eigenschaftenstruktur zu untersuchen und ausgewählte domänenspezifische Subklassen anzulegen.
 
-Im Rahmen dieses Moduls dient Protégé dazu, das in Modul 1 entwickelte **semantische Modell der Domäne Computerspiele in eine formale, maschinenlesbare OWL-Ontologie zu überführen**. 
+Die praktische Demonstration erfolgt mit **Protégé Desktop**. Wenn Sie mit WebProtégé arbeiten, können einzelne Arbeitsschritte abweichen.
 
-Als Referenzontologie dient das **CIDOC CRM ([Release Version 7.1.3 Stand Februar 2024](https://cidoc-crm.org/get-last-official-release))** (CiDOC, 2024), konkret die bestehende OWL-Implementierung des CIDOC CRM, das **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024). 
-
-**Hinweis**
-
-Für die Arbeit mit Protégé stehen auf der [**offiziellen Protégé-Website**](https://protege.stanford.edu/) (Stanfordo.D.protege) zur Verfügung:
-
-> - [Dokumentationen](https://protege.stanford.edu/support/#documentation) (Stanfordo.D.docu)
-> 
-> - [Wiki](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanfordo.D.wiki)  
-
-Das Ergebnis der Praxiseinheit ist eine **maschinenlesbare OWL-Domänenontologie**, die als Grundlage für die anschließende Implementierung in **WissKI** in Modul 3 dient. 
-
----
-
-## Live-Demo in Protégé
-
-In dieser Einheit wird gezeigt, wie eine **OWL-Implementierung des CIDOC CRM** in **Protégé geladen und geöffnet** wird.
-
-Anhand der geladenen Ontologie wird die Arbeitsoberfläche von Protégé vorgestellt. Dabei werden die verschiedenen Bereiche der Ontologie, insbesondere die Klassen und ihre Hierarchie, betrachtet und erste Einblicke in deren Darstellung und Struktur gegeben. 
-
-Die **Live-Demo** dient damit als **erste Orientierung in Protégé** und schafft die Grundlage für die anschließende **Praxiseinheit**, in der das zuvor entwickelte Modell der Domäne Computerspiele in Protégé umgesetzt wird.
-
-### Schritte im Überblick
-
-Entweder ist Protégé Desktop bereits lokal installiert oder für WebProtégé ist ein Account vorhanden:
-
-- Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege))
-- webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)).
-
-
-**Schritt 1: Vorhandene Ontologie laden**
-
-Für die Arbeit mit Protégé wird die **Erlangen CRM / OWL**, eine **maschinenlesbare OWL-Implementierung des CIDOC CRM** verwendet: 
-
-- Das **Erlangen CRM / OWL** kann hier herunter geladen werden: https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl
-- Diese wird in **Protégé Desktop** geladen.
-
-
-**Schritt 2: Struktur erkunden**
-
-- In Protége lässt sich die **Struktur des CIDOC CRM erkunden**.
-- Dazu gehören insbesondere die **Hierarchie der Klassen (Entities) sowie die Objekteigenschaften (Properties)**, über die Klassen (Entities) miteinander in Beziehung gestzt oder beschrieben werden.
-
-**Hinweis**
-
-> - Klassen (Entities): die zentralen Klassen bzw. Entitätstypen des CIDOC CRM
-> - Objekteigenschaften (Properties): Relationen zwischen Klassen (Entities)
-> - Datentyp-Eigenschaften (Datatype-Properties): Eigenschaften, die Werte bzw. Literale beschreiben
-
-
-**Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele**
-
-- Neue, domänenspezifische Entities werden als **Subklassen bestehender CIDOC CRM-Entities** angelegt.
-
-**Beispiel:**
-
->  E35 Title --> Game_Title
+> **Was ist Protégé?**
 >
->  **Game_Title** ist dabei eine domänenspezifische Subklasse von **E35 Title** und dient dazu, Titel im Kontext der Domäne Computerspiele spezifischer zu modellieren.
+> Protégé ist ein **kostenloser Open-Source-Ontologie-Editor** zur Erstellung, Bearbeitung und Verwaltung von Ontologien.
+>
+> Protégé unterstützt die **OWL 2 Web Ontology Language** (Sack, 2009) und bietet eine grafische Arbeitsumgebung zur Entwicklung formaler, maschinenlesbarer Ontologiestrukturen. (Stanford, 2026a)
+>
+> Protégé ist in zwei Varianten verfügbar: (Stanford, 2026c)
+>
+> - als Desktop-Anwendung ([**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege))
+> - als webbasierter Editor ([**WebProtégé**](https://protege.stanford.edu/software/#web-protege)).
 
 ---
 
-## Video-Demonstration
+## Protégé in diesem Tutorial
 
-Die Live-Demo veranschaulicht:
+In diesem Tutorial dient **CIDOC CRM [Version 7.1.3, Februar 2024](https://cidoc-crm.org/get-last-official-release)** (CiDOC, 2024a) als **Referenzontologie** für die semantische Modellierung. Die Definitionen und Scope Notes helfen Ihnen dabei, die Bedeutung von Klassen und Eigenschaften zu untersuchen und Ihre Modellierungsentscheidungen fachlich zu begründen.
 
-- Schritt 1: Vorhandene Ontologie laden,
-- Schritt 2: Struktur erkunden und Schritt
-- Schritt 3: Eigene Subklasse (Entity) anlegen für Domänenontologie Computerspiele
-  
+Für die praktische Arbeit in Protégé verwenden Sie **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), eine OWL-Implementierung von CIDOC CRM.
 
-!?[Video-Demonstration Erste Schritte in Protége](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+Entsprechend der in M2U1 vorgestellten Modellierungsstrategie werden Sie:
 
-> **Video:** Kurzeinführung in die Benutzeroberfläche von Protégé
+- **bestehende Klassen und Eigenschaften** in der Ontologie erkunden,
+- **CIDOC-CRM-Eigenschaften wiederverwenden**, um Beziehungen abzubilden,
+- **domänenspezifische Subklassen anlegen**, wenn eine weitere Spezialisierung erforderlich ist,
+- und **die Modellierungsentscheidungen** hinter diesen Erweiterungen dokumentieren.
+
+In diesem Tutorial werden keine neuen Eigenschaften eingeführt.
+
+Das folgende Video zeigt die grundlegenden Arbeitsschritte, um eine bestehende Ontologie in Protégé zu erkunden und eine Subklasse anzulegen.
+
+**Weiterführende Ressourcen**
+
+Weitere Informationen und Anleitungen finden Sie auf der [**offiziellen Protégé-Webseite**](https://protege.stanford.edu/) (Stanford, 2026a):
+
+- [**Protégé-Dokumentation**](https://protege.stanford.edu/support/#documentation) (Stanford, 2026c)
+- [**Protégé-Wiki**](https://protegewiki.stanford.edu/wiki/Main_Page) (Stanford, 2022d)
+
+---
+
+# Videodemonstration
+
+Das Video stellt drei grundlegende Arbeitsschritte in Protégé vor:
+
+- **Laden:** Eine bestehende OWL-Ontologie öffnen.
+- **Erkunden:** Durch die Klassenhierarchie navigieren und Ontologieelemente untersuchen.
+- **Erweitern:** Eine domänenspezifische Subklasse innerhalb der bestehenden Ontologiestruktur anlegen.
+
+Achten Sie beim Ansehen darauf, wie im Editor zwischen bestehenden Ontologieelementen und neu angelegten Klassen unterschieden wird.
+
+**Sehen Sie sich den Arbeitsablauf an: Laden → Erkunden → Erweitern**
+
+!?[Videodemonstration: Erste Schritte mit Protégé](../assets/Short_Protege_Intro.mp4)
 
 ---
 
 ## Ausblick
 
-Die bisherigen Schritte haben gezeigt, wie das **CIDOC CRM in Protégé geöffnet und erkundet** werden kann und wie bestehende Entities für die Modellierung einer eigenen Domäne erweitert werden können.
+> **Als Nächstes:**
+>
+> Sie haben gelernt, wie Sie eine Ontologie in Protégé öffnen und erkunden.
+>
+> Im nächsten Schritt wenden Sie diese Arbeitsschritte auf die **Domäne der Computerspiele** an: Sie wählen geeignete CIDOC-CRM-Klassen und -Eigenschaften aus, ergänzen domänenspezifische Subklassen und modellieren deren Beziehungen.
 
-In der nun folgenden **Praxiseinheit** wird dieses Vorgehen auf die **Domäne Computerspiele** übertragen. Das zuvor entwickelte semantische Modell wird dabei Schritt für Schritt in Protégé umgesetzt. Dabei werden geeignete CIDOC CRM-Entities ausgewählt, um domänenspezifische Subklassen erweitert und die entsprechenden Properties modelliert. 
-
-So entsteht aus der konzeptionellen Modellskizze eine **formal beschriebene und maschinenlesbare OWL-Ontologie**, die anschließend für die Implementierung in WissKI verwendet werden kann.
-
+---
 
 ## Bibliografie
 
-[CiDOC, 2024] CIDOC CRM Special Interest Group. (2024). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
+(CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. Retrieved 15 October 2026, from https://cidoc-crm.org/Version/version-7.1.3
 
-[Schiemann, 2024] Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. https://erlangen-crm.org/
+(Sack, 2009) Sack, H. (2009). OWL 2 [Video recording]. Hasso Plattner Institut (HPI). Retrieved 15 October 2026, from  https://av.tib.eu/media/11276
 
-[Stanfordo.D.docu] Stanford Center for Biomedical Informatics Research. (o. D.). Documentation. https://protege.stanford.edu/support/#documentation
+(Schiemann, 2024) Schiemann, B., Oischinger, M., Götz, G., Merges, J., Fichtner, M., & Scholz, M. (o. D.). Erlangen CRM / OWL. Retrieved 15 October 2026, from https://erlangen-crm.org/
 
-[Stanfordo.D.protege] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé. https://protege.stanford.edu/
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
 
-[Stanfordo.D.wiki] Stanford Center for Biomedical Informatics Research. (o. D.). Protégé Wiki. https://protegewiki.stanford.edu/wiki/Main_Page
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
 
-[Stanfordo.D.software] Stanford Center for Biomedical Informatics Research. (o. D.). Software. https://protege.stanford.edu/software/
+(Stanford, 2026c) Stanford Center for Biomedical Informatics Research. (2026b). Protégé Documentation. Retrieved 15 October 2026, from https://protege.stanford.edu/support/#documentation
+
+(Stanford, 2022) Stanford Center for Biomedical Informatics Research. (2022). Protégé Wiki. Retrieved 15 October 2026, from https://protegewiki.stanford.edu/wiki/Main_Page
+
 
 
 
