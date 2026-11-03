@@ -44,7 +44,7 @@ Modul (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – ve
 
 Übungseinheit (EÜ): **Anwendungsbeispiel: Objektsammlungen**  
 
-**Dauer:** ~ 30 Min.
+**Dauer:** ~ 20 Min.
 
 **Lernziele:**
 
