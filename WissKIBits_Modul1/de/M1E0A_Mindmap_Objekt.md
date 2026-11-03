@@ -43,7 +43,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit (E0A): **Anwendungsbeispiel: Objektsammlung**  
+Einheit 0 (E0A): **Anwendungsbeispiel: Objektsammlung**  
 
 **Dauer:** ~ 15 Min.
 
