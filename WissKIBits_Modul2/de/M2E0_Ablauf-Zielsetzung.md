@@ -117,7 +117,7 @@ Die Teilnehmenden lernen,
 
 Nach Abschluss von Modul 2 können die Teilnehmenden…
 
-### 1. Methoden und Workflows semantischer Modellierung
+### E1. Methoden und Workflows semantischer Modellierung
 
 - Methoden zur Entwicklung von Ontologien benennen. (LZ-ID 03\_007\_0784)
 - Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
@@ -126,7 +126,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
-### 2. Einführung in Protégé
+### E3/E2A. Einführung in Protégé
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
@@ -135,7 +135,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
 
-### Ü1. Semantische Modellierung mit CIDOC CRM
+### EÜ. Semantische Modellierung mit CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 - Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
