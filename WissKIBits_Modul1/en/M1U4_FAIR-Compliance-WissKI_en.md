@@ -131,11 +131,11 @@ WissKI is used, among other places, at the [**Germanisches Nationalmuseum (GNM)*
 
 WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of its digital research infrastructure. This illustrates how semantic technologies can support research and collection data management in an institutional context.
 
-![GNM](../WissKIBits_Modul1/assets/gnm.jpg)
+![GNM](../assets/gnm.jpg)
 
 > **Figure:** [Overview page of the research projects archive at the GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) (GNM, n.d.-a)
 
-![GNM interior](../WissKIBits_Modul1/assets/gnm_2.JPG)
+![GNM interior](../assets/gnm_2.JPG)
 
 > **Figure:** [Overview page of the collections at the GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNM, n.d.-b)
 
@@ -145,7 +145,7 @@ WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg as part of 
 
 WissKI is **not standalone software**, but a set of modules (knurg, 2025) that semantically extend the [**Drupal**](https://new.drupal.org/) content management system with functionality for ontology-based research data management. (Drupal, 2024)
 
-![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
+![Drupal](../assets/drupal.JPG)
 
 > **Figure:** WissKI integration in Drupal (Fichtner et al., 2023, p. 2)
 
@@ -204,7 +204,7 @@ This makes it possible to work in WissKI **not with tables**, but with **ontolog
 
 At the same time, WissKI remains flexible, enables semantic consistency, and provides the best possible support for users in data maintenance.
 
-![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
+![Pathbuilder](../assets/pathbuilder.jpg)
 
 > **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain
 
@@ -221,7 +221,7 @@ The guiding question is:
 - **How are the things you want to describe related to one another?**
 - **What real-world relationship exists between the things?**
 
-!?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
+!?[Video](../assets/semanticModelling.mp4)
 
 > **Video:** How statements about people, objects, places, and events form a network of connected information in WissKI.
 
