@@ -146,7 +146,7 @@ The resulting model does not simply reproduce the collection record. It makes **
 
 **Time:** 5 min.
 
-> **Reflect on you model sketch**
+> **Reflect on your model sketch**
 >
 > Choose one relationship from your sketch and read it as a complete statement.
 >
@@ -170,7 +170,7 @@ The resulting model does not simply reproduce the collection record. It makes **
 >
 > You choose one relationship and ask:
 > 
-> - Could the same two concepts be connected with differnet relationships if you want to express another meaning?
+> - Could the same two concepts be connected with different relationships if you want to express another meaning?
 
 ---
 
@@ -180,7 +180,7 @@ You identified **concepts, events, and relationships** in your own model sketch 
 
 **Concepts, events, relationships could be...:**
 
-- **Concepts** refer, for example, to objects, persons, organssations, places, or other central building blocks of the domain and represent relevant elements of the domain.
+- **Concepts** refer, for example, to objects, persons, organisations, places, or other central building blocks of the domain and represent relevant elements of the domain.
  
 - **Events** refer to occurrences or processes, for example development, production, publication, or exhibition and represent occurrences or processes.
   
