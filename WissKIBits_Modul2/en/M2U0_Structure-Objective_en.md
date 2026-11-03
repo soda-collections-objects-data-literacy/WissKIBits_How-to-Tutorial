@@ -62,38 +62,48 @@ Following a learning-by-doing approach, you will continue working with the compu
 
 > **What is the module about?**
 >
-> In this module, you move from a **conceptual model sketch** towards a **formal, machine-readable ontology structure** using **CIDOC CRM and Protégé**.
+> In this module, you move from a **conceptual model sketch** towards a **formal, machine-readable ontology structure** using **OWL implementation of CIDOC CRM in Protégé**.
 >
 > You will:
 > - use **CIDOC CRM scope notes** to review and justify modelling decisions,
 > - explore an OWL implementation of CIDOC CRM using Protégé,
 > - reuse existing ontology elements and introduce selected domain-specific extensions where needed.
 >
->**Outsome:**A small, documented OWL model section that provides a basis for the visualisation and Pathbuilder workflow in module 3. 
+>**Outcome:**A small, documented selected part of an OWL ontology that provides a basis for the visualisation and Pathbuilder workflow in module 3. 
 
 ---
 
 ## Guiding Question
 
-Our guiding question is...
-
 > **How does a conceptual model sketch become a domain-informed and machine-readable ontology structure based on CIDOC CRM?**
+
+This guiding question accompanies all units of the module. Three interconnected steps can be distinguished:
+
+| Step | Guiding Question | Outcome |
+|---|---|---|
+| Plan methodologically and review the conceptual model | Which steps and modelling decisions are required? Which concepts and relationships can be represented using CIDOC CRM? | Modelling workflow and reviewed conceptual model sketch |
+| Justify modelling decisions | Do the selected CIDOC CRM elements correspond to the intended meaning according to their scope notes? Which domain-specific extensions are needed? | Documented and domain-informed modelling decisions |
+| Formalise the model | How can classes (entities) and properties be reused or extended in Protégé? | Documented, machine-readable ontology structure in OWL |
+
+Formal ontology development in Protégé must be distinguished from subsequent **technical implementation in WissKI**. The integration of the ontology and the configuration of semantic paths in the WissKI Pathbuilder take place in module 3.
 
 ---
 
 ## Objectives of this Module
 
+In module 2, selected parts of the conceptual domain model developed in module 1 are formalised using CIDOC CRM and Protégé.
+
 In this module, you will learn how to:
 
 - apply a systematic **workflow for semantic modelling**,
 - use **Protégé** to explore and edit an OWL ontology,
-- select suitable **CIDOC CRM classes and properties** based on their scope notes,
+- select suitable **CIDOC CRM classes (entities) and properties** based on their scope notes,
 - distinguish between reusing existing ontology elements and introducing domain-specific extensions,
-- add **domain-specific concepts** to an existing ontology structure, 
-- formalise and document selected modelling decisions, and
-- prepare the resulting ontology for further implementation in **WissKI**,
-- save the resulting ontology structure for further use in module 3.
-  
+- represent selected **domain-specific concepts** within an existing ontology structure,
+- justify, formalise, and document selected modelling decisions,
+- save the resulting ontology structure in a machine-readable **OWL format**, and
+- prepare it for further technical implementation in **WissKI** in module 3.
+
 ---
 
 ## Structure of this Module
@@ -177,63 +187,43 @@ Building on your conceptual model sketch from module 1, you will work through th
 
 ## Working Method and Example
 
-The module combines methodological input, demonstration, and guided application:
+The module combines methodological input, demonstration, and guided application. Short methodological introductions alternate with demonstrations and hands-on modelling activities:
 
 - Participants learn basic methods and an iterative workflow for ontology development.
 - The user interface and central areas of Protégé are introduced in a live or video demonstration.
-- The current version of the OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) is loaded and explored through its classes, object properties, and datatype properties.
+- The OWL implementation **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) is loaded and explored through its classes, object properties, and datatype properties.
 - The example object **“The Legend of Zelda: A Link to the Past”** and the model sketch developed in module 1 once again serve as a common thread.
-- Selected concepts are compared with CIDOC CRM using the Scope Notes.
-- Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are modelled as subclasses.
-- Suitable relationships between the concepts and events are selected.
+- Selected concepts are compared with CIDOC CRM using the scope notes, and modelling decisions are justified.
+- Domain-specific concepts such as game characteristic, platform type, genre type, or edition type are examined to determine their appropriate ontological representation and, where needed, modelled as subclasses or through other suitable ontology elements.
+- Suitable relationships between concepts and events are selected and, where necessary, extended through domain-specific properties.
 - Participants document their decisions and review the model step by step for comprehensibility and consistency.
 
-The goal is not a complete domain ontology. What matters is a **small, comprehensible, and formally usable extension of CIDOC CRM** that prepares the transition to implementation in WissKI.
-
-> **How you work**
->
-> Short methodological inputs alternate with demonstrations and hands-on modelling activities.
->
-> You will continue working with the example object **The Legend of Zelda: A Link to the Past** and the model sketch developed in module 1.
->
-> You use:
-> 
-> - **Protégé** and explore an **OWL implementation of CIDOC CRM** - the [Erlangen CRM](https://cidoc-crm.org/Version/version-7.1.3),
-> - **scope notes** to evaluate and justify modelling choices, and
-> - **extend the ontology with selected domain-specific concepts and relationships**.
->
-> **The goal is not a complete domain ontology, but a small, transparent, and formally usable extension of CIDOC CRM.**
+The goal is not a complete domain ontology. What matters is a **small, comprehensible, and formally usable extension of CIDOC CRM** that prepares the transition to technical implementation in WissKI.
 
 ---
 
 ## Prerequisites
 
-The content of module 1 or comparable basic knowledge is assumed, such as having one's own semantic domain model based on CIDOC CRM. 
+The content of module 1 or equivalent prior knowledge is assumed, along with an initial conceptual model sketch, ideally based on CIDOC CRM.
 
 Participants should…
 
 - be able to distinguish the terms domain, concept, event, and relationship,
-- know the building blocks classes (entities), properties (properties), instances (instances), and modelling assumptions (assumptions),
-- understand the basic principle of event-centered modelling with CIDOC CRM,
+- know the building blocks classes (entities), properties, instances, and modelling assumptions,
+- understand the basic principle of event-centred modelling with CIDOC CRM,
 - know scope notes as a basis for modelling decisions,
 - and have at least an initial conceptual model sketch, ideally a CIDOC CRM-based semantic domain model.
 
-> **What do you need?**
->
-> Module 2 builds on **module 1 or equivalent prior knowledge**.
->
-> You can therefore start with this module if you are already familiar with the basic concepts and have a conceptual model sketch to work with.
->
-> You should be familiar with **concepts, events, relationships, classes, properties, instances, modelling assumptions, CIDOC CRM, and scope notes**.
->
-> For the practical activities, you will need:
->
-> - a **conceptual model sketch** from Module 1 or your own modelling context,
-> - access to **Protégé Desktop or WebProtégé,** and
-> - the **OWL implementation of CIDOC CRM (Erlangen CRM)** used in this tutorial.
+For the practical activities, you will need:
+
+- a **conceptual model sketch** from module 1 or your own modelling context,
+- a computer with **Protégé Desktop** installed or access to **WebProtégé**,
+- the **OWL implementation of CIDOC CRM (Erlangen CRM)** used in this tutorial, available locally or accessible via a web address.
+
+Information about Protégé Desktop and WebProtégé is available on the [Stanford University website](https://protege.stanford.edu/software) (Stanford, n.d., Protégé).
 
 ---
- 
+
 ## Result and Outcome of this Module
 
 At the end of module 2, an initial formally implemented domain ontology or ontology extension is available. 
