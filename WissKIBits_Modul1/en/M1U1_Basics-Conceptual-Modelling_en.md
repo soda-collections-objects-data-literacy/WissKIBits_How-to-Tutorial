@@ -22,7 +22,7 @@ title: WissKI Bits Ontology-Based Modelling of Research Data
 
 module: From collection to modelling decisions to diagram – understand and explain
 
-unit: Basic concepts of conceptual knowledge modelling
+unit: Basic Concepts of Conceptual Knowledge Modelling
 
 description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
@@ -44,7 +44,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 1 (M1): **From the Collection Through Modelling Decisions to the Diagram – Understand and Explain**
 
-Unit 1 (U1): **Basic concepts of conceptual knowledge modelling**  
+Unit 1 (U1): **Basic Concepts of Conceptual Knowledge Modelling**  
 
 **Duration:** ~ 10 min.
 
