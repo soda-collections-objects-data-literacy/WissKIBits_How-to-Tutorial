@@ -42,7 +42,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Unit Exercise (2UE): **Semantic Modelling with CIDOC CRM**  
+Unit Exercise (UE): **Semantic Modelling with CIDOC CRM**  
 
 **Duration:** ~ 45 min.
 
@@ -62,10 +62,10 @@ Participants will be able to...
 
 ## Objective and Scenario
 
-In this exercise, you will continue working with the **conceptual model sketch** developed in module 1. You move from this **conceptual model sketch model** gradually further and transform it into a **formal ontology structure**.
+In this exercise, you will continue working with the **conceptual model sketch** developed in module 1. You move from this **conceptual sketch model** gradually further and transform it into a **formal ontology structure**.
 
 
-Using **“The Legend of Zelda: A Link to the Past”** as an example, you will review selected CIDCO CRM mappings and implement a small section of the domain model in Protégé. 
+Using **“The Legend of Zelda: A Link to the Past”** as an example, you will review selected CIDOC CRM mappings and implement a small section of the domain model in Protégé. 
 
 You will examine relevant classes and properties, consult their scope notes, and decide whether existing ontology elements are sufficient or whether domain-specific extensions are needed.
 
@@ -303,13 +303,13 @@ The following example illustrates **one possible way** of representing selected 
 
 [**Game Domain Ontology – RDF**](http://games.m-e-g-a.org/game_domain.rdf)
 
-Compare your own model with the sample **only after completing the task**. 
+Compare your own model with the sample **only after completing the task**.
 
 Pay particular attention to:
 
 - the placement of domain-specific classes,
 - the reuse of CIDOC CRM properties, and
-- and possible differences compared with your own modelling decisions.
+- possible differences compared with your own modelling decisions.
 
 The example is intended to support reflection. It is not necessarily the only valid modelling solution.
 
@@ -335,6 +335,8 @@ The result is a **partial model**, not a complete ontology of the computer games
 > **Next**
 >
 > In module 3, you will visualise selected parts of your ontology, prepare them for transformation, and use the resulting structures to configure **semantic paths and path groups in the WissKI Pathbuilder**.
+
+---
 
 ## Bibliography
 
