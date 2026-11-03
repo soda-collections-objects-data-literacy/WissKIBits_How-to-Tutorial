@@ -120,7 +120,7 @@ Domain concept → Clarify meaning → Check CIDOC CRM → Make modelling decisi
 
 The name of a class alone is not sufficient for selection. The decisive factor is whether its scope note aligns with the intended meaning of the domain concept.
 
---
+---
 
 ## Focus of this Modelling Exercise
 
@@ -128,7 +128,7 @@ Continue working with the three areas introduced in the activation exercise:
 
 - **Game title**
 - **Game characteristics** (e.g., genre, such as action-adventure, RPG, or platform, such as Nintendo 64, PlayStation, PC)
-- **Narrative elements** (e.g., description, perspective—such as first-person or third-person—or characters like Zelda)
+- **Narrative elements** (e.g., description, perspective - such as first-person or third-person - or characters like Zelda)
 
 These areas serve as a starting point for identifying various types of **concepts and events** and formulating the **relationships** between them.
 
@@ -154,7 +154,7 @@ For example, the following questions might be asked:
 
 **Materials:** Your model sketch from the activation exercise, paper and pen or a digital whiteboard, and access to the CIDOC CRM documentation
 
-**Time:** 20 minutes
+**Time:** 20 min.
 
 ### Starting Point: Your Model Sketch
 
