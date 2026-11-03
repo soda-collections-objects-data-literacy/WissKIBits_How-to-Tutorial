@@ -231,7 +231,7 @@ Die gespeicherte Ontologiestruktur bildet die Grundlage für die anschließende 
 
 ## Ausblick
 
-> **Als Nächstes:**
+> **Wie geht es weiter?**
 >
 > Sie erfahren, wie **unterschiedliche Modellierungsansätze und Workflows** die Entwicklung einer Domänenontologie unterstützen.
 
