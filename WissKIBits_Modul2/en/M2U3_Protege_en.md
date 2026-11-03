@@ -121,9 +121,6 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 !?[Video Demonstration: Getting Started with Protégé](assets/Short_Protege_Intro.mp4)
 
-!?[Video Demonstration: Getting Started with Protégé](/assets/Short_Protege_Intro.mp4)
-
-
 ---
 
 ## Outlook
