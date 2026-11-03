@@ -128,13 +128,13 @@ The best-known definition describes an ontology as an explicit, formal specifica
 
 > **Ontologies typically consist of the following building blocks:**
 >
-> **Classes** → What kinds of things are there? Examples: Game, Person, Organisation
+> **Classes** → What kinds of things are there? Examples: Game, Person, Organisation. Classes represent general concepts within a domain and are typically organised hierarchically (Weller, 2013, p. 208).
 >
-> **Instances** → Which concrete things are you talking about? Example: The Legend of Zelda: A Link to the Past
+> **Instances** → Which concrete things are you talking about? Example: *The Legend of Zelda: A Link to the Past*. Instances represent individual members of classes (Weller, 2013, p. 208).
 >
-> **Properties** → How are things described or related? Example: A game has a title.
+> **Properties** → How are things described or related? Example: A game has a title. Properties describe characteristics or express semantic relationships between elements of a domain (Weller, 2013, p. 208).
 >
-> **Constraints** define rules for how classes and properties may be used and help keep the model logically consistent such as generalisation and inheritance.
+> **Constraints** → What rules govern the use of classes and properties? Constraints help ensure the logical consistency of the ontology, for example by specifying which classes may be connected through a particular property (Rehbein, 2017, p. 164).
 
 ---
 
