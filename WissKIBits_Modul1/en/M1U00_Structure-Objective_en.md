@@ -43,7 +43,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
-Unit 0 (U0): **Welcome, Structure and Objectives**  
+Unit 0 (U00): **Welcome, Structure and Objectives**  
 
 **Duration:** ~ 5 min.
 
@@ -113,7 +113,7 @@ By the end of the module, you will be able to:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| M1U0 | Welcome, objectives and structure | 5 min. |
+| M1U00 | Welcome, objectives and structure | 5 min. |
 | M1U0A | Activation: Collection object "Zelda" | 15 min. |
 | M1U1 | Basic concepts of conceptual knowledge modelling | 10 min. |
 | M1U2 | Fundamentals of ontologies | 10 min. |
@@ -206,11 +206,6 @@ Identify relevant information and create an initial model sketch.
 
 ↓  
 
-**Explore the collection object (M1U0A):** 
-Identify relevant information and create an initial model sketch. Understand conceptual modelling (M1U1): Learn how concepts, events, and relationships can be used to organise domain knowledge.
-
-↓  
-
 **Explore ontologies (M1U2):** 
 Become familiar with the basic elements of ontologies and their role in semantic modelling.
 
@@ -218,6 +213,11 @@ Become familiar with the basic elements of ontologies and their role in semantic
 
 **Discover CIDOC CRM (M1U3):** 
 Learn how a reference ontology can support the description of cultural heritage information.
+
+↓  
+
+**Explore FAIR compliance with WissKI (M1U4):**
+Understand how semantic modelling and WissKI can support the FAIR principles and the reuse of research data.
 
 ↓  
 
@@ -230,7 +230,7 @@ Your result: A conceptual model sketch with initial, documented CIDOC CRM mappin
 
 ## Working Method and Example
 
-The module combines short inputs alternate with analysis, discussion, and modelling activities:
+The module combines short inputs with analysis, discussion, and modelling activities:
 
 - Terms are introduced using typical information from collections.
 - Modelling decisions are discussed and justified collaboratively.
@@ -242,7 +242,7 @@ The goal is not a complete data model. What matters is a **small, consistent, an
 
 > **How you work**
 >
-> We begin with a short activation excersise using a concrete collection object.
+> We begin with a short activation exercise using a concrete collection object.
 >
 > After the conceptual inputs, you return to the same example and develop a small, consistent, and justified model sketch.
 > 
