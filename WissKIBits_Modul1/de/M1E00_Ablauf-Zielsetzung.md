@@ -127,7 +127,12 @@ Am Ende des Moduls sind Sie in der Lage,
 
 Nach Abschluss von Modul 1 können die Teilnehmenden…
 
-### 1. Grundbegriffe konzeptueller Wissensmodellierung
+### E0. Anwendungsbeispiel: Objektsammlung
+
+- die Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LO-ID SODa_03_007_0811)
+- (LO-ID SODa_03_007_0856)
+  
+### E1. Grundbegriffe konzeptueller Wissensmodellierung
    
 - Begriff konzeptuelle Wissensmodellierung benennen. (LZ-ID SODa\_03\_007\_0847)
 - Begriff konzeptuelle Wissensmodellierung erläutern. (LZ-ID SODa\_03\_007\_0848)
@@ -140,7 +145,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
 - Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
 
-### 2. Grundlagen von Ontologien
+### E2. Grundlagen von Ontologien
    
 - den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
@@ -154,7 +159,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
 - Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
 
-### 3. Einführung in CIDOC CRM
+### E3. Einführung in CIDOC CRM
 
 - Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
 - Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
@@ -167,7 +172,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
  
-### 4. FAIR-Konformität mit WissKI
+### E4. FAIR-Konformität mit WissKI
 
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
@@ -184,7 +189,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
-### Ü1. Anwendungsbeispiel Objektsammlungen
+### EÜ. Anwendungsbeispiel Objektsammlungen
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
