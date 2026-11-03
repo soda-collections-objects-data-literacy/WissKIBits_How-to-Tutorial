@@ -37,7 +37,6 @@ LearningResourceType: How-to-Tutorial
 -->
 
 
-
 # WissKI Bits: Ontology-Based Modelling of Research Data
 
 **DEVELOPING AND IMPLEMENTING A DATA MODEL USING AN EXAMPLE** 
