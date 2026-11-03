@@ -145,7 +145,7 @@ These areas serve as the starting point for recognising different types of **con
 
 **Material:** Paper & pen (or digital whiteboard)  
 
-**Time:** 15 minutes
+**Time:** 10 min.
 
 
 > **Preparation**
