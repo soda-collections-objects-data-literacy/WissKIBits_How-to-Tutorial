@@ -41,9 +41,9 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 3: **Vom Diagramm zu Pfaden – Erläutern und anwenden**
+Modul 3 (M3): **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 
-Übungseinheit Ü1: **Semantische Domänenontologie visualisieren**  
+Übungseinheit (EÜ1): **Semantische Domänenontologie visualisieren**  
 
 **Dauer:** ~ 35 Min.
 
