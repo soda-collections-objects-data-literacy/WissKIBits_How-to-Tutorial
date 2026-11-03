@@ -118,7 +118,7 @@ Am Ende des Moduls sind Sie in der Lage,
 | M1E2 | Grundlagen von Ontologien | 10 Min. |
 | M1E3 | Einführung in CIDOC CRM | 15 Min. |
 | M1E4 | FAIR-Konformität mit WissKI | 15 Min. |
-| M1EE | Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf | 20 Min. |
+| M1EÜ | Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf | 20 Min. |
 | | **Gesamt** | **90 Min.** |
 
 ---
