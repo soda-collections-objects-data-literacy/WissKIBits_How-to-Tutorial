@@ -153,7 +153,7 @@ These areas serve as the starting point for recognising different types of **con
 >
 > Open [Draw.io](https://app.diagrams.net/)
 >
-> Download ![puzzle template](assets/puzzle.drawio_en.xml)
+> Download ![puzzle template](../../assets/puzzle.drawio_en.xml)
 >
 
 **Note: You use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
@@ -203,7 +203,7 @@ You now have a first conceptual model sketch containing:
 - events, and
 - meaningful relationships.
 
-![Concept mind map](assets/mindmap_en.png)
+![Concept mind map](../assets/mindmap_en.png)
 
 > **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
 
