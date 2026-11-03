@@ -43,7 +43,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit 1: **Grundbegriffe konzeptueller Wissensmodellierung**  
+Einheit (E1): **Grundbegriffe konzeptueller Wissensmodellierung**  
 
 **Dauer:** ~ 20 Min.
 
