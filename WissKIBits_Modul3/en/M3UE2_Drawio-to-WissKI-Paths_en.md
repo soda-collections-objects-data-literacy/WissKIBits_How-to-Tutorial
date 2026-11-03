@@ -53,15 +53,10 @@ Unit Exercise (UE2): **Transforming Semantic Models into WissKI Paths**
 Participants will be able to...
 
 - explain WissKI Pathbuilder as a tool for configuring ontology-based paths and path groups. (LO-ID SODa\_03\_007\_0804)
-
 - apply with guidance a conversion process starting from a diagram created with visualisation software into a reusable file format. (LO-ID SODa\_02\_005\_0298a)
-
 - use with guidance WissKI Pathbuilder as a tool for importing a Pathbuilder XML configuration into the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0818)
-
 - analyse with guidance the imported domain-specific ontology structure in the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0819)
-
 - name the gnm-service Draw.io diagrams to WissKI pathbuilders as a tool for file conversion. (LO-ID SODa\_02\_005\_0317) 
-
 - use with guidance the gnm-service to convert Draw.io XML into WissKI Pathbuilder XML. (LO-ID SODa\_02\_005\_0318)
 
 ---
