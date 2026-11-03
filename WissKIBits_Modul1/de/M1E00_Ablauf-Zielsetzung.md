@@ -43,26 +43,30 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit 0: **Willkommen, Zielsetzung und Ablauf**  
+Einheit 00: **Willkommen, Zielsetzung und Ablauf**  
 
 **Dauer:** ~ 5 Min.
 
 
 ---
 
-## Begrüßung
+## Willkommen bei WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
 
-> Willkommen zu **WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**.
+In **Modul 1** lernen Sie, wie Informationen über ein Sammlungsobjekt schrittweise in ein **konzeptionelles Modell** überführt werden können.
+
+Anhand eines Beispiels aus einer **Computerspielsammlung** wechseln Sie von der Sammlungsperspektive zur Modellierungsperspektive. Dabei identifizieren Sie relevante Konzepte, Ereignisse und Beziehungen und untersuchen, wie diese zusammenhängen.
+
+Anschließend setzen Sie ausgewählte Elemente Ihrer Modellskizze mit Klassen und Eigenschaften des Referenzmodells **CIDOC CRM** in Beziehung und treffen erste nachvollziehbare Modellierungsentscheidungen.
+
+Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weitere **Formalisierung in Modul 2** und die spätere **technische Implementierung in WissKI in Modul 3**.
+
+> **Worum geht es in diesem Modul?**
 >
-> Dieses How-to-Tutorial führt praxisorientiert in die ontologiegestützte Modellierung von Forschungsdaten ein. Ausgehend von Informationen zu einem Sammlungsobjekt wird schrittweise ein semantisch aussagekräftiges Datenmodell entwickelt und für die spätere Implementierung in WissKI vorbereitet.
+> Ausgehend von Informationen über ein konkretes Sammlungsobjekt untersuchen Sie, welche fachlichen Konzepte, Ereignisse und Beziehungen für dessen Beschreibung relevant sind.
 >
-> In Modul 1 **„Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären“** erarbeiten wir die konzeptuelle Grundlage dieses Datenmodells. Dafür analysieren wir Objektdaten und Kontextinformationen aus einer fachlichen Domäne. Wir identifizieren relevante Konzepte, Ereignisse und Beziehungen, präzisieren ihre Bedeutung und gleichen sie mit Klassen (Entities) und Eigenschaften (Properties) des Referenzmodells CIDOC CRM ab.
+> Sie strukturieren diese Informationen in einer ersten **konzeptionellen Modellskizze**, präzisieren ihre Bedeutung und lernen, wie ausgewählte Elemente mithilfe von **CIDOC CRM** beschrieben werden können.
 >
-> Ziel ist es, die fachliche Logik einer Domäne so zu dokumentieren, dass Modellierungsentscheidungen nachvollziehbar werden und Forschungsdaten später konsistent erfasst, verknüpft, ausgewertet und nachgenutzt werden können.
->
-> Das Modul ist als **Learning-by-Doing-Tutorial** für die **Wissenschaftliche Kommunikationsinfrastruktur WissKI** konzipiert. An einem Beispiel aus der Domäne Computerspiele wechseln wir von der Sammlungsperspektive in die Modellperspektive. Das entstehende konzeptuelle Modell bildet die Grundlage für ein Diagramm und für die spätere technische Umsetzung im WissKI Pathbuilder.
->
-> Weiterführende Einheiten übertragen dieses Vorgehen auf eigene Forschungsdaten und vertiefen die formale Modellierung sowie die Implementierung in WissKI.
+> Die entstandene Modellskizze dient als Ausgangspunkt für die weitere Formalisierung in Modul 2.
 
 ---
 
@@ -70,50 +74,52 @@ Einheit 0: **Willkommen, Zielsetzung und Ablauf**
 
 - Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
 - Tabellen bilden einzelne Eigenschaften und Informationen ab, während die Bedeutung und Zusammenhänge der Daten häufig implizit bleiben.
-- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung explit gemacht und formal beschrieben werden.
+- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung **explizit** gemacht und formal beschrieben werden.
 
----
-
-## Zielsetzung des Moduls
-
-In Modul 1 wird die konzeptionelle Basis für ein Domänenmodell geschaffen. Aus der Sammlungsperspektive entsteht eine Modellperspektive.
-
-- Objektdaten & deren Kontext werden analysiert.
-- Zentrale Konzepte der Objektdaten werden identifiziert und durch zugehörige Ereignisse und Beziehungen kontextualisiert. 
-- Abgleich der identifizierten Domänenkonzepte, Ereignisse und Beziehungen mit entsprechenen Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM
-- Daraus entsteht schrittweise eine ontologiebasierte Domänenstruktur bzw. -logik mit CIDOC CRM.
-- Diese Domänenlogik wird visualisiert und dient als Grundlage für das sammlungsbezogene Datenmanagement und die -verwaltung in WissKI.
-- Die entwickelte Domänenlogik wird in Draw.io visualisiert und für die spätere Umsetzung in WissKI vorbereitet.
+> Forschungs- und Sammlungsdaten bestehen aus mehr als einzelnen Fakten.
+>
+> Ihre Bedeutung und ihre Beziehungen sind ebenso wichtig.
+>
+> **Semantische Modellierung macht diese Zusammenhänge explizit, verständlich und nachnutzbar.**
 
 ---
 
 ## Leitfrage
 
-> **Wie wird aus den Informationen zu einem Sammlungsobjekt ein nachvollziehbares, interoperables und in WissKI umsetzbares semantisches Datenmodell?**
+Die Leitfrage, die uns durch dieses Modul begleitet, lautet:
 
-Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ebenen unterschieden:
+> **Wie können Informationen über ein Objekt in ein transparentes, interoperables semantisches Datenmodell überführt werden, das in WissKI implementiert werden kann?**
 
-| Ebene | Leitfrage | Ergebnis |
-|---|---|---|
-| Sammlungsperspektive | Welche Informationen und Forschungsfragen sind relevant? | fachliche Anforderungen |
-| Modellperspektive | Welche Konzepte, Ereignisse und Beziehungen drücken ihre Bedeutung aus? | konzeptuelles Domänenmodell |
-| Umsetzungsperspektive | Wie werden diese Strukturen mit CIDOC CRM und WissKI formal abgebildet? | Grundlage für Diagramm und Pathbuilder |
+---
+
+## Zielsetzung des Moduls
+
+In diesem Modul lernen Sie, wie Sie ausgehend von Informationen über ein Sammlungsobjekt ein konzeptionelles Modell des zugehörigen Fachbereichs entwickeln können.
+
+Am Ende des Moduls sind Sie in der Lage,
+
+- relevante **Konzepte, Ereignisse und Beziehungen** anhand eines Beispiels aus einer Computerspielsammlung zu identifizieren,
+- zwischen fachspezifischen Begriffen und den Bedeutungen, die sie ausdrücken sollen, zu unterscheiden, um eine schlüssige Domänenlogik zu entwickeln und zu begründen,
+- zu untersuchen, wie ausgewählte Konzepte mithilfe von **CIDOC-CRM-Klassen und -Eigenschaften** dargestellt werden können,
+- erste Modellierungsentscheidungen zu erläutern und
+- eine **konzeptionelle Modellskizze** zu entwickeln, die in Modul 2 weiter ausgearbeitet und formalisiert werden kann.
 
 ---
 
 ## Ablauf des Moduls
 
-**Gesamtdauer Modul 1: ca. 90 Min.**
+**Gesamtdauer von Modul 1: ca. 90 Minuten**
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| 0 | Willkommen, Zielsetzung und Ablauf | 5 Min. |
-| 1 | Grundbegriffe konzeptueller Wissensmodellierung | 20 Min. |
-| 2 | Grundlagen von Ontologien | 10 Min. |
-| 3 | Einführung in CIDOC CRM | 15 Min. |
-| 4 | FAIR-Konformität mit WissKI | 15 Min. |
-| Ü1 | Anwendungsbeispiel Objektsammlungen: Modellskizze „Zelda“ | 30 Min. |
-|  | **Gesamt** | **90 Min.** |
+| M1E00 | Willkommen, Lernziele und Ablauf | 5 Min. |
+| M1E0A | Aktivierung: Sammlungsobjekt „Zelda“ | 15 Min. |
+| M1E1 | Grundbegriffe der konzeptuellen Wissensmodellierung | 10 Min. |
+| M1E2 | Grundlagen von Ontologien | 10 Min. |
+| M1E3 | Einführung in CIDOC CRM | 15 Min. |
+| M1E4 | FAIR-Konformität mit WissKI | 15 Min. |
+| M1EE | Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf | 20 Min. |
+| | **Gesamt** | **90 Min.** |
 
 ---
 
@@ -187,37 +193,39 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-**Sammlungsobjekt und Forschungsfrage**  
+Das Modul folgt einem schrittweisen Ansatz: Ausgehend von einem konkreten Sammlungsobjekt werden nach und nach grundlegende Konzepte der semantischen Modellierung eingeführt.
 
-↓  
+**Sammlungsobjekt erkunden (M1U0A):**  
+Relevante Informationen identifizieren und eine erste Modellskizze erstellen.
 
-**Konzepte, Ereignisse und Beziehungen**  
+↓
 
-↓  
+**Ontologien kennenlernen (M1U2):**  
+Sich mit den grundlegenden Bestandteilen von Ontologien und ihrer Rolle in der semantischen Modellierung vertraut machen.
 
-**Klassen (Entities), Properties und Modellannahmen**  
+↓
 
-↓  
+**CIDOC CRM kennenlernen (M1U3):**  
+Verstehen, wie eine Referenzontologie die Beschreibung von Informationen zum kulturellen Erbe unterstützen kann.
 
-**Abgleich mit CIDOC CRM**  
+↓
 
-↓  
+**FAIR-Konformität mit WissKI erkunden (M1U4):**  
+Verstehen, wie semantische Modellierung und WissKI die FAIR-Prinzipien und die Nachnutzung von Forschungsdaten unterstützen können.
 
-**Modellskizze und begründete Entscheidungen**  
+↓
 
-↓  
-
-**Vorbereitung für den WissKI Pathbuilder**
-
+**CIDOC CRM anwenden (M1UE):**  
+Die eigene Modellskizze erneut betrachten, mögliche Zuordnungen zu CIDOC CRM untersuchen und ausgewählte Modellierungsentscheidungen begründen.
 
 
-> **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
+Ihr Ergebnis: Eine konzeptionelle Modellskizze mit ersten dokumentierten CIDOC-CRM-Zuordnungen, die in Modul 2 weiter ausgearbeitet werden kann.
 
 ---
 
 ## Arbeitsweise und Beispiel
 
-Das Modul verbindet kurze fachliche Inputs mit Aktivierung und Anwendung:
+Das Modul verbindet kurze fachliche Inputs mit Analyse, Diskussion und Modellierungsaktivitäten:
 
 - Begriffe werden anhand typischer Informationen aus Sammlungen eingeführt.
 - Modellierungsentscheidungen werden gemeinsam diskutiert und begründet.
@@ -227,40 +235,54 @@ Das Modul verbindet kurze fachliche Inputs mit Aktivierung und Anwendung:
 
 Das Ziel ist kein vollständiges Datenmodell. Entscheidend ist ein **kleiner, konsistenter und begründbarer Modellentwurf**, der später erweitert und technisch umgesetzt werden kann.
 
+> **So arbeiten Sie**
+>
+> Wir beginnen mit einer kurzen Aktivierungsübung anhand eines konkreten Sammlungsobjekts.
+>
+> Nach den fachlichen Einführungseinheiten greifen Sie das Beispiel erneut auf und entwickeln eine kleine, konsistente und begründete Modellskizze.
+>
+> Unser gemeinsames Beispiel ist **The Legend of Zelda: A Link to the Past**.
+
 ---
 
 ## Voraussetzungen
 
 Es werden **keine Vorkenntnisse in Ontologien, RDF, OWL, CIDOC CRM oder WissKI** vorausgesetzt.
 
-Hilfreich sind:
-
-- Erfahrungen mit Sammlungs-, Objekt- oder Forschungsdaten,
-- ein Beispielobjekt aus der eigenen Sammlung oder Forschung,
-- typische Forschungsfragen oder Dokumentationsanforderungen aus dem eigenen Arbeitsbereich.
+Erfahrungen im Umgang mit Sammlungs-, Objekt- oder Forschungsdaten sind hilfreich.
 
 ---
 
 ## Ergebnis des Moduls
 
-Am Ende von Modul 1 liegt eine erste konzeptuelle Modellskizze der Domänenlogik vor. Sie zeigt:
+Am Ende von Modul 1 liegt eine erste **konzeptuelle Modellskizze** vor, die relevante **Konzepte und Ereignisse, ihre Beziehungen** sowie **erste Zuordnungen zu CIDOC CRM** zeigt.
 
-- die für das Beispiel relevanten Konzepte und Ereignisse,
-- ihre semantischen Beziehungen,
-- erste Zuordnungen zu Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM,
-- sowie begründete Modellierungsentscheidungen.
-
-Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Implementierung in WissKI.
+> **Was nehmen Sie aus dem Modul mit?**
+>
+> Am Ende des Moduls liegt eine erste konzeptuelle Modellskizze der Domänenlogik (Computerspiele) vor. Sie zeigt:
+>
+> - die für das Beispiel relevanten Konzepte und Ereignisse,
+> - ihre semantischen Beziehungen,
+> - erste Zuordnungen zu Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM,
+> - sowie begründete Modellierungsentscheidungen.
+>
+> Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Implementierung in WissKI.
 
 ---
 
 ## Ausblick
 
-In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt und diese als Grundlage der semantischen Datenmodellierung präsentiert. 
+In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt und diese als Grundlage der semantischen Datenmodellierung präsentiert.
 
-Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur  konzeptuelle Modellskizze der Domänenlogik. 
+Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur konzeptuellen Modellskizze der Domänenlogik.
 
 Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wird in den weiterführenden Modulen behandelt.
+
+> **Wie geht es weiter?**
+>
+> Sie wissen nun, was Sie in diesem Modul entwickeln werden.
+>
+> Als Nächstes beginnen Sie mit einem konkreten Sammlungsobjekt und erstellen eine erste **konzeptuelle Modellskizze**, indem Sie relevante Konzepte, Ereignisse und Beziehungen identifizieren.
 
 ---
 
