@@ -50,9 +50,9 @@ Einheit 2 (E2): **Arbeitsumgebung mit Protégé vorbereiten**
 
 Teilnehmende können...
 
-- name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
-- use software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
-- analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
   
 ---
 
