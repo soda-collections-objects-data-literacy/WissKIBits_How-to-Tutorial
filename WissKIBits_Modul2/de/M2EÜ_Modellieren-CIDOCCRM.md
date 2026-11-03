@@ -299,7 +299,7 @@ Speichern Sie Ihre Ontologie im OWL-Format und stellen Sie sicher, dass Sie die 
 
 Das folgende Beispiel veranschaulicht **eine mögliche Umsetzung** ausgewählter Konzepte und Beziehungen aus der **Domäne der Computerspiele auf Basis von CIDOC CRM**.
 
-[**Game Characteristics Domain Ontology – RDF**](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf))
+[**Game Characteristics Domain Ontology – RDF**](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
 
 Vergleichen Sie Ihr eigenes Modell **erst nach Abschluss der Aufgabe** mit der Beispiellösung.
 
