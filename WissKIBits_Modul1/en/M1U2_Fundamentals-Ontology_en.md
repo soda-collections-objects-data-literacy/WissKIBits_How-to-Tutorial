@@ -10,7 +10,7 @@ version:  v1.0.0
 
 language: en
 
-icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_Wort-Bild_RGB.png
 
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
 
@@ -30,11 +30,12 @@ keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, rese
 
 community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
-PublicationDate: 2026-10-05
+PublicationDate: 2026-11-05
 
 LearningResourceType: How-to-Tutorial
 
 -->
+
 
 
 # WissKI Bits: Ontology-Based Modelling of Research Data
