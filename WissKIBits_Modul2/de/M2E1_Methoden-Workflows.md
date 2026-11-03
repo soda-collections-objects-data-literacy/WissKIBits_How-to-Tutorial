@@ -10,7 +10,7 @@ version:  v1.0.0
 
 language: de
 
-icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_Wort-Bild_RGB.png
 
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
 
@@ -22,7 +22,7 @@ title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
 
 module: Modellieren mit CIDOC CRM – verstehen und anwenden
 
-einheit: Methoden und Workflows semantischer Modellierung
+unit: Methoden und Workflows semantischer Modellierung
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 
@@ -30,9 +30,9 @@ keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellier
 
 community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
 
-PublicationDate: 2026-10-05
+PublicationDate: 2026-11-05
 
-LearningResourceType: SODa How-to-Tutorial
+LearningResourceType: How-to-Tutorial
 
 -->
 
