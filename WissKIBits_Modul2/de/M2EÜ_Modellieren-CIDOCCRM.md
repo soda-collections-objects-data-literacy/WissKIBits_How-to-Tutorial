@@ -1,5 +1,4 @@
 <!--
-
 author: Canan Hastik (0000-0003-1729-4642)
 
 author: Gudrun Schwenk (0009-0002-3156-8339)
@@ -42,7 +41,7 @@ LearningResourceType: SODa How-to-Tutorial
 
 Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
-Übungseinheit Ü1: **Semantische Modellierung mit CIDOC CRM**  
+Übungseinheit 1 (EÜ): **Semantische Modellierung mit CIDOC CRM**  
 
 **Dauer:** ~ 55 Min.
 
