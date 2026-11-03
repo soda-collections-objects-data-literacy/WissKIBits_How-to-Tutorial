@@ -330,7 +330,7 @@ Das Ergebnis ist ein **partielles Modell** und keine vollständige Ontologie der
 
 ## Ausblick
 
-> **Als Nächstes:**
+> **Wie geht es weiter?**
 >
 > In Modul 3 visualisieren Sie ausgewählte Teile Ihrer Ontologie, bereiten diese für die Transformation vor und verwenden die daraus entstehenden Strukturen, um **semantische Pfade und Pfadgruppen im WissKI Pathbuilder** zu konfigurieren.
 
