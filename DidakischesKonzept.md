@@ -181,8 +181,8 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 **E2. Grundlagen von Ontologien**
    
-- den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
-- den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
+- Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
+- Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
@@ -202,8 +202,8 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
 - Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
-- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
-- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+- Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
  
 **E4. FAIR-Konformität mit WissKI**
@@ -211,14 +211,14 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
 - FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
-- das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0172)
-- Formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
+- das 5-Sterne-Modell für offene Daten benennen. (SODa\_01\_008\_0172)
+- formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI erläutern. (LZ-ID SODa\_01\_010\_0192a)
 - Leistungsfähigkeit und Effizienz von IT-Infrastrukturen für das sammlungsbezogene Forschungsdatenmanagement (FDM) mit der Wissenschaftlichen Kommunikationsinfrastuktur WissKI benennen. (LZ-ID SODa\_01\_010\_0202)
 - WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur bennenen. (LZ-ID SODa\_03\_007\_0803)
-- WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0849)
+- WissKI Pathbuilder als Werkzeug zur Definition einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0804)
 - ereigniszentriertes Modellierungsprinzip mit CIDOC CRM am Beispiel erläutern. (LZ-ID SODa\_03\_007\_0850)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
