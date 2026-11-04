@@ -122,27 +122,29 @@ Die drei Module bauen aufeinander auf. Für den vollständigen Lernpfad wird dah
 
 ## Einheiten und Zeitbedarf 
 
-**Gesamtdauer Modul 1: ca. 90 Min.**
+**Gesamtdauer von Modul 1: ca. 90 Minuten**
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| 0 | Willkommen, Zielsetzung und Ablauf | 5 Min. |
-| 1 | Grundbegriffe konzeptueller Wissensmodellierung | 20 Min. |
-| 2 | Grundlagen von Ontologien | 10 Min. |
-| 3 | Einführung in CIDOC CRM | 15 Min. |
-| 4 | FAIR-Konformität mit WissKI | 15 Min. |
-| Ü1 | Anwendungsbeispiel Objektsammlungen: Modellskizze „Zelda“ | 30 Min. |
-|  | **Gesamt** | **90 Min.** |
+| M1E00 | Willkommen, Lernziele und Ablauf | 5 Min. |
+| M1E0A | Aktivierung: Sammlungsobjekt „Zelda“ | 15 Min. |
+| M1E1 | Grundbegriffe der konzeptuellen Wissensmodellierung | 10 Min. |
+| M1E2 | Grundlagen von Ontologien | 10 Min. |
+| M1E3 | Einführung in CIDOC CRM | 15 Min. |
+| M1E4 | FAIR-Konformität mit WissKI | 15 Min. |
+| M1EÜ | Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf | 20 Min. |
+| | **Gesamt** | **90 Min.** |
 
 **Gesamtdauer Modul 2: ca. 90 Min.**
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| 1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
-| 2 | Einführung in Protégé | 20 Min. |
-| Ü1 | Semantische Modellierung mit CIDOC CRM | 55 Min. |
-|  | **Gesamt** | **90 Min.** |
+| M2U0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
+| M2U1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
+| M2U1A | Aktivierung: Arbeitsumgebung mit Protégé vorbereiten | 15 Min. |
+| M2U2 | Einführung in Protégé | 10 Min. |
+| M2UE | Übung: Semantische Modellierung mit CIDOC CRM | 55 Min. |
+| | **Gesamt** | **90 Min.** |
 
 **Gesamtdauer Modul 3: ca. 90 Min.**
 
@@ -150,7 +152,7 @@ Die drei Module bauen aufeinander auf. Für den vollständigen Lernpfad wird dah
 |---|---|---:|
 | 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
 | Ü1 | Semantische Datenmodelle visualisieren | 35 Min. |
-| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 40 Min. |
+| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
 ---
@@ -159,12 +161,12 @@ Die drei Module bauen aufeinander auf. Für den vollständigen Lernpfad wird dah
 
 Nach Abschluss von Modul 1 können die Teilnehmenden…
 
-### E0. Anwendungsbeispiel: Objektsammlung
+**E0. Anwendungsbeispiel: Objektsammlung**
 
 - die Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - die Methode der konzeptuellen Wissensmodellierung zur Beschreibung eines Forschungsobjektes anwenden. (LZ-ID SODa\_03\_007\_0856)
   
-### E1. Grundbegriffe konzeptueller Wissensmodellierung
+**E1. Grundbegriffe konzeptueller Wissensmodellierung**
    
 - Begriff konzeptuelle Wissensmodellierung benennen. (LZ-ID SODa\_03\_007\_0847)
 - Begriff konzeptuelle Wissensmodellierung erläutern. (LZ-ID SODa\_03\_007\_0848)
@@ -177,7 +179,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff semantisches Datenmodell benennen. (LZ-ID SODa\_03\_007\_0845)
 - Begriff semantisches Datenmodell erläutern. (LZ-ID SODa\_03\_007\_0846)
 
-### E2. Grundlagen von Ontologien
+**E2. Grundlagen von Ontologien**
    
 - den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
 - den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
@@ -191,7 +193,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Modellannahmen (Constraints) benennen. (LZ-ID SODa\_03\_007\_0835)
 - Begriff Modellannahmen (Constraints) erläutern. (LZ-ID SODa\_03\_007\_0836)
 
-### E3. Einführung in CIDOC CRM
+**E3. Einführung in CIDOC CRM**
 
 - Ontologie zur Beschreibung von Ressourcen bennen. (LZ-ID 03\_007\_0778)
 - Ontologie zur Beschreibung von Ressourcen erläutern. (LZ-ID 03\_007\_0779)
@@ -204,7 +206,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
  
-### E4. FAIR-Konformität mit WissKI
+**E4. FAIR-Konformität mit WissKI**
 
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
@@ -221,36 +223,43 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
-### EÜ. Anwendungsbeispiel Objektsammlungen
+**EÜ. Anwendungsbeispiel Objektsammlungen**
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
-  
+    
 ---
 
 ## Lernziele in Modul 2: **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
 Nach Abschluss von Modul 2 können die Teilnehmenden…
 
-**1. Methoden und Workflows semantischer Modellierung**
+**E1. Methoden und Workflows semantischer Modellierung**
 
 - Methoden zur Entwicklung von Ontologien benennen. (LZ-ID 03\_007\_0784)
 - Methoden zur Entwicklung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0839)
 - einen Workflow für die semantische Modellierung als Datendokumentation benennen. (LZ-ID SODa\_03\_001\_0626)
 - einen Workflow für die semantische Modellierung als Datendokumentation erläutern. (LZ-ID SODa\_03\_001\_0853)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (SODa\_03\_007\_0784a)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
-**2. Einführung in Protégé**
+**E2. Arbeitsumgebung mit Protégé vorbereiten**
+
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
+
+
+**E3. Einführung in Protégé**
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
-- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (SODa\_03\_007\_0785a)
+- Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
-**Ü1. Semantische Modellierung mit CIDOC CRM**
+**EÜ. Semantische Modellierung mit CIDOC CRM**
 
 - Ontologie zur Beschreibung von Ressourcen anwenden. (LZ-ID 03\_007\_0780)
 - Methoden zur Entwicklung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0854)
@@ -259,7 +268,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa_03_007_0840)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM anwenden. (LZ-ID SODa_03_007_0855)
 - Scope Notes des Referenzmodells CIDOC CRM zur Beschreibung von Ressourcen anwenden. (LZ-ID SODa\_03\_007\_0780a)
-
+  
 ---
 
 ## Lernziele in Modul 3: **Vom Diagramm zu Pfaden – erläutern und anwenden**
@@ -289,7 +298,7 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 - ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung benennen. (LZ-ID SODa\_02\_005\_0317) 
 - unter Anleitung ein Werkzeug ("gnm-service: Draw.io diagrams to WissKI pathbuilders") zur Dateikonvertierung anwenden. (LZ-ID SODa\_02\_005\_0318)
 
-
+---
 
 ## Bibliografie
 
