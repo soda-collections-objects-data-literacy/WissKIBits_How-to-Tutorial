@@ -1,10 +1,10 @@
-# WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+# WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
 ## Beschreibung
 
-Das Tutorial **„WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten“** wurde entwickelt, um grundlegende und anwendungsbezogene Kompetenzen in der **semantischen Modellierung von Forschungsdaten** und deren Umsetzung mit der Wissenschaftlichen Kommunikationsinfrastruktur (WissKI) systematisch und praxisnah zu vermitteln. Im Mittelpunkt steht die Frage, wie fachliche Informationen und Forschungsfragen in ein nachvollziehbares, ontologiegestütztes Datenmodell überführt und für die strukturierte Erfassung von Forschungsdaten nutzbar gemacht werden können.
+Das Tutorial **WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten** wurde entwickelt, um grundlegende und anwendungsbezogene Kompetenzen in der **semantischen Modellierung von Forschungsdaten** und deren Umsetzung mit der Wissenschaftlichen Kommunikationsinfrastruktur (WissKI) systematisch und praxisnah zu vermitteln. Im Mittelpunkt steht die Frage, wie fachliche Informationen und Forschungsfragen in ein nachvollziehbares, ontologiegestütztes Datenmodell überführt und für die strukturierte Erfassung von Forschungsdaten nutzbar gemacht werden können.
 
 Das didaktische Konzept orientiert sich am **forschungsorientierten, handlungs- und problemorientierten Lernen**. Kurze Wissensimpulse werden mit angeleiteten Erkundungs-, Modellierungs- und Reflexionsphasen verbunden. Die Lernarchitektur greift dabei das **Ein- und Ausatem-Prinzip nach Klaus Döring** auf: Phasen der Wissensvermittlung und fachlichen Orientierung („Einatmen“) wechseln sich mit Phasen des selbstständigen Erkundens, Anwendens, Prüfens und Reflektierens („Ausatmen“) ab.[1]
 
