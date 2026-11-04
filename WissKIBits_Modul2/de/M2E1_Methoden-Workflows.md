@@ -40,7 +40,7 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2 (M2): **Modllieren mit CIDOC CRM – verstehen und anwenden**
+Modul 2 (M2): **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
 Einheit 1 (E1): **Methoden und Workflows semantischer Modellierung**  
 
@@ -191,6 +191,6 @@ Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem übe
 
 (Gruber, 1993) Gruber, T. R. (1993). A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2), 199–220.
 
-(Noy & McGuiness, 2001) Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
+(Noy & McGuinness, 2001) Noy, N. F., & McGuinness, D. L. (2001). Ontology Development 101: A Guide to Creating Your First Ontology. Stanford Knowledge Systems Laboratory.
 
 (Uschold & King, 1995) Uschold, M., & King, M. (1995). Towards an Methodology for Building Ontologies. Presented at Workshop on Basic Ontological Issues in Knowledge Sharing held in conjunction with IJCAI. The University of Edinburgh.
