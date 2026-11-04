@@ -178,7 +178,7 @@ After completing module 1, participants will be able to...
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
 - name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
 - name the FAIR principles. (LO-ID 01\_007\_0117)
-- name the 5-star model for open data. (LO-ID 01\_008\_0172)
+- name the 5-star model for open data. (LO-ID SODa\_01\_008\_0158a)
 - name the W3C Web Ontology Language (OWL) as a formal description language. (LO-ID SODa\_03\_007\_0842)
 - name Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0841)
 - name the specific functions and application areas of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0191a)
