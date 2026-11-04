@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 2 (M2): **Modllieren mit CIDCO CRM – verstehen und anwenden**
 
-Einheit 3 (E3): **Einführung in Protégé**  
+Einheit 2 (E2): **Einführung in Protégé**  
 
 **Dauer:** ~ 10 Min.
 
