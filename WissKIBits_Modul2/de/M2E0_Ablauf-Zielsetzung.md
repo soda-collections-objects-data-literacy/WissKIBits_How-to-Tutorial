@@ -126,14 +126,14 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
-### E2. Arbeitsumgebung mit Protégé vorbereiten
+### E1A. Arbeitsumgebung mit Protégé vorbereiten
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
 - die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
 
 
-### E3. Einführung in Protégé
+### E2. Einführung in Protégé
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien erläutern. (LZ-ID SODa\_03\_007\_0810)
