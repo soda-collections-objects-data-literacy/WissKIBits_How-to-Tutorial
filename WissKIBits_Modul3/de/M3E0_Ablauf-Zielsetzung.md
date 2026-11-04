@@ -101,7 +101,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 |---|---|---:|
 | 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
 | Ü1 | Semantische Datenmodelle visualisieren | 35 Min. |
-| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 40 Min. |
+| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
 ---
