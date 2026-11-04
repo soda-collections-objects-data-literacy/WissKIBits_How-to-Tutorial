@@ -18,7 +18,7 @@ license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
 comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
 
-title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
+title: WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
 module: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären
 
@@ -37,7 +37,7 @@ LearningResourceType: How-to-Tutorial
 -->
 
 
-# WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+# WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
@@ -50,7 +50,7 @@ Einheit 0 (E00): **Willkommen, Zielsetzung und Ablauf**
 
 ---
 
-## Willkommen bei WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten
+## Willkommen bei WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
 In **Modul 1** lernen Sie, wie Informationen über ein Sammlungsobjekt schrittweise in ein **konzeptionelles Modell** überführt werden können.
 
