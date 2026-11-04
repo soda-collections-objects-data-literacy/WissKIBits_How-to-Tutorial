@@ -162,13 +162,17 @@ Possible strategies include:
 
 ## Outlook
 
-The **methods and workflows of semantic modelling** presented here, together with the **modelling strategy** explained in the tutorial, form the basis for putting the concepts and models developed so far into practice. 
+**Note on naming domain-specific classes:**
 
-In the following unit, **Protégé** is introduced as an editor for modelling ontologies. Using a concrete example, it is shown how a **machine-readable domain ontology** can be developed and formally described in Protégé on the basis of CIDOC CRM and made accessible for machine processing.
+When extending CIDOC CRM, it is useful to **retain the CIDOC CRM class identifier in the name of a domain-specific subclass**, for example, `E73_Computer_Game` or `E35_Game_Title`. This makes the relationship to the corresponding CIDOC CRM class visible and helps make modelling decisions easier to trace.
 
-> **Next:**
+However, including the CIDOC CRM identifier in the class name does not replace the **formal subclass relationship** expressed through `rdfs:subClassOf`.
+
+When publishing a domain ontology, classes are also uniquely identified using a **dedicated namespace**. An example is provided by the [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
+
+> **What's next?**
 >
-> In the following unit, you will set up your working environment with Protégé.
+> In the following unit, you will become familiar with **Protégé** as an ontology editor. Using a concrete example, you will develop a **machine-readable domain ontology** based on **CIDOC CRM**, formally describe it, and prepare it for machine processing. In doing so, you will put the methods and strategies of semantic modelling introduced so far into practice.
 
 ---
 
