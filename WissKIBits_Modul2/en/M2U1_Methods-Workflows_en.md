@@ -91,14 +91,15 @@ Start with existing data, examples, and domain terminology. Identify relevant co
 
 **Competency questions:** Formulate questions that the resulting model should help to answer. These questions clarify the intended scope and requirements of the ontology. Typical analytical and research questions are formulated to guide the modelling process, for example: *“Which games have characteristic X?”*
 
-- **Iterative prototyping:** A small part of the model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
+**Iterative prototyping:** A small part of the model is developed, reviewed, and progressively refined with regard to consistency, extensibility, and its ability to support relevant queries.
 
 These approaches serve different purposes and are not mutually exclusive.
 
 **In this tutorial, you combine a bottom-up analysis of the computer game example with a top-down alignment to CIDOC CRM. We refine selected modelling decisions iteratively while implementing them in Protégé.**
 
+---
 
-### The Practical Modelling Workflow
+## The Practical Modelling Workflow
 
 The following workflow guides the practical exercise in this module:
 
