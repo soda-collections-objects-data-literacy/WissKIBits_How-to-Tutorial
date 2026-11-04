@@ -185,11 +185,22 @@ Entfernee Sie anschließend alle temporären Platzhalter `(???)`.
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
+**Workflow**
+
+| Schritt | Aktion |
+|---:|---|
+| 1 | Das vorbereitete XML-Lücken-Diagramm runterladen|
+| 2 | Die heruntergeladene Datei in Draw.io importieren|
+| 3 | Das Domänenontologie-Diagramm vervollständigen  |
+| 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
+| 5 | Die Knoten-Kanten-Verbindungen prüfen  |
+
 
 **Hinweis:**
 
-Regeln zur Visualisierung mit Draw.io**
+Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/Gruppe_B.drawio.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
+
+**Regeln zur Visualisierung mit Draw.io**
 
 > - Die Knoten und Kanten müssen korrekt verbunden sein.
 > 
@@ -218,19 +229,6 @@ Regeln zur Visualisierung mit Draw.io**
 > - Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 > 
 > - Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
-
-
----
-
-## Workflow
-
-| Schritt | Aktion |
-|---:|---|
-| 1 | Das vorbereitete XML-Lücken-Diagramm runterladen|
-| 2 | Die heruntergeladene Datei in Draw.io importieren|
-| 3 | Das Domänenontologie-Diagramm vervollständigen  |
-| 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
-| 5 | Die Knoten-Kanten-Verbindungen prüfen  |
 
 ---
 
