@@ -156,176 +156,180 @@ Individual units may also be reused separately for specific teaching or training
 
 ## Units and Time Requirements
 
-**Total duration of Module 1: approx. 90 min.**
+**Total duration of module 1: Approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and structure | 5 min. |
-| U0A| Activation: Collection object "Zelda" | 15 min. |
-| 1 | Basic concepts of conceptual knowledge modelling | 10 min. |
-| 2 | Fundamentals of ontologies | 10 min. |
-| 3 | Introduction to CIDOC CRM | 15 min. |
-| 4 | FAIR compliance with WissKI | 15 min. |
-| E1E | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
+| M1U00 | Welcome, objectives and structure | 5 min. |
+| M1U0A | Activation: Collection object "Zelda" | 15 min. |
+| M1U1 | Basic concepts of conceptual knowledge modelling | 10 min. |
+| M1U2 | Fundamentals of ontologies | 10 min. |
+| M1U3 | Introduction to CIDOC CRM | 15 min. |
+| M1U4 | FAIR compliance with WissKI | 15 min. |
+| M1UE | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 
-**Total duration of Module 2: approx. 90 min.**
+**Total duration of module 2: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and structure | 5 min. |
-| E2A | Activation: | xx min. |
-| 1 | Methods and workflows of semantic modelling | xx min. |
-| 2 | Introduction to Protégé | xx min. |
-| E2E | Exercise: Semantic modelling with CIDOC CRM | xx min. |
+| M2U0 | Welcome, structure and objectives | 10 min. |
+| M2U1 | Methods and workflows of semantic modelling | 5 min. |
+| M2U1A | Activation: Preparing to work with Protégé| 15 min. |
+| M2U2 | Introduction to Protégé | 10 min. |
+| M2UE | Exercise: Semantic modelling with CIDOC CRM | 55 min. |
 |  | **Total** | **90 min.** |
 
-**Total duration of Module 3: approx. 90 min.**
+**Total duration of module 3: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| 0 | Welcome, objectives and workflow | 10 min. |
-| E3A | Visualising semantic data models | 35 min. |
-| E3E | Transforming semantic models into WissKI paths | 40 min. |
+| M3U0 | Welcome, workflow and objectives| 10 min. |
+| M3UE1 | Visualising semantic data models | 35 min. |
+| M3UE2 | Transforming semantic models into WissKI paths | 45 min. |
 |  | **Total** | **90 min.** |
 
 ---
 
-## Learning Objectives in Module 1: **From Collection to Modelling Decisions to Diagram – Understanding and Explaining**
+## Learning Objectives in Module 1: **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
 Upon completion of Module 1, participants will be able to…
 
-**U0A: Application example from object collections**
+**UA0. Application Example from Object Collections**
 
-- Apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
+- apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa_03_007_0856)
+  
+**U1. Basic Concepts of Conceptual Knowledge Modelling**
+   
+- name the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0847)
+- explain the term conceptual knowledge modelling. (LO-ID SODa\_03\_007\_0848)
+- name the term domain. (LO-ID SODa\_03\_007\_0824)
+- name the term concept. (LO-ID SODa\_03\_007\_0821)
+- name the term event. (LO-ID SODa\_03\_007\_0822)
+- name the term relationship. (LO-ID SODa\_03\_007\_0823)
+- name the term semantic modelling. (LO-ID SODa\_03\_007\_0825)
+- explain the term semantic modelling. (LO-ID SODa\_03\_007\_0844)
+- name the term semantic data model. (LO-ID SODa\_03\_007\_0845)
+- explain the term semantic data model. (LO-ID SODa\_03\_007\_0846)
 
-**1. Basic concepts of conceptual knowledge modelling**
+**U2. Fundamentals of Ontologies**
+   
+- name the term ontology. (LO-ID SODa\_03\_007\_0826)
+- explain the term ontology. (LO-ID 03\_007\_0775)
+- name aspects of ontologies. (LO-ID 03\_007\_0776)
+- name the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0829)
+- explain the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0830)
+- name the term instances (instances). (LO-ID SODa\_03\_007\_0833)
+- explain the term instances (instances). (LO-ID SODa\_03\_007\_0834)
+- name the term properties (properties). (LO-ID SODa\_03\_007\_0831)
+- explain the term properties (properties). (LO-ID SODa\_03\_007\_0832)
+- name the term modelling assumptions (constraints). (LO-ID SODa\_03\_007\_0835)
+- explain the term modelling assumptions (constraints). (LO-ID SODa\_03\_007\_0836)
 
-- Name the term "conceptual knowledge modelling." (LO-ID SODa_03_007_0847)
-- Explain the term "conceptual knowledge modelling." (LO-ID SODa_03_007_0848)
-- Name the term "domain." (LO-ID SODa_03_007_0824)
-- Name the term "concept." (LO-ID SODa_03_007_0821)
-- Name the term "event." (LO-ID SODa_03_007_0822)
-- Name the term "relationship." (LO-ID SODa_03_007_0823)
-- Name the term "semantic modelling." (LO-ID SODa_03_007_0825)
-- Explain the term "semantic modelling." (LO-ID SODa_03_007_0844)
-- Name the term "semantic data model." (LO-ID SODa_03_007_0845)
-- Explain the term "semantic data model." (LO-ID SODa_03_007_0846)
+**U3. Introduction to CIDOC CRM**
 
-**2. Fundamentals of ontologies**
+- name an ontology for describing resources. (LO-ID 03\_007\_0778)
+- explain an ontology for describing resources. (LO-ID 03\_007\_0779)
+- name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
+- explain the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0807)
+- name the term Scope Notes. (LO-ID SODa\_03\_007\_0837)
+- explain the term Scope Notes. (LO-ID SODa\_03\_007\_0838)
+- name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
+- name the term domain ontology. (LO-ID SODa\_03\_007\_0827)
+- explain the term domain ontology. (LO-ID SODa\_03\_007\_0828)
+- name the benefits of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0805)
+ 
+**U4. FAIR Compliance with WissKI**
 
-- Name the concept of ontology. (LZ-ID SODa_03_007_0826)
-- Explain the concept of ontology. (LZ-ID 03_007_0775)
-- Name aspects of ontologies. (LZ-ID 03_007_0776)
-- Name the concept of classes (Classes/Concepts). (LZ-ID SODa_03_007_0829)
-- Explain the concept of classes (Classes/Concepts). (LZ-ID SODa_03_007_0830)
-- Name the concept of instances (Instances). (LZ-ID SODa_03_007_0833)
-- Explain the concept of instances (Instances). (LZ-ID SODa_03_007_0834)
-- Name the concept of properties (Properties). (LZ-ID SODa_03_007_0831)
-- Explain the concept of properties (Properties). (LZ-ID SODa_03_007_0832)
-- Name the concept of model assumptions (Constraints). (LZ-ID SODa_03_007_0835)
-- Explain the concept of model assumptions (Constraints). (LZ-ID SODa_03_007_0836)
+- explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
+- name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
+- name the FAIR principles. (LO-ID 01\_007\_0117)
+- name the 5-star model for open data. (LO-ID SODa\_01\_008\_0172)
+- name the W3C Web Ontology Language (OWL) as a formal description language. (LO-ID SODa\_03\_007\_0842)
+- name Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0841)
+- name the specific functions and application areas of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0191a)
+- explain the specific functions and application areas of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0192a)
+- name the capabilities and efficiency of IT infrastructures for collection-related research data management (RDM) using the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0202)
+- name the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0803)
+- explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0849)
+- explain the event-centered modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
+- name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
+- name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-**3. Introduction to CIDOC CRM**
+**UE. Application Example for Object Collections**
 
-- Name an ontology for describing resources. (LZ-ID 03_007_0778)
-- Explain an ontology for describing resources. (LZ-ID 03_007_0779)
-- Name core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa_03_007_0806)
-- Explain the core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa_03_007_0807)
-- Name the term "scope notes." (LZ-ID SODa_03_007_0837)
-- Explain the term "scope notes." (LZ-ID SODa_03_007_0838)
-- Name the Resource Description Framework (RDF) as a standard for describing resources. (LZ-ID SODa_03_007_0843)
-- Name the term "domain ontology." (LZ-ID SODa_03_007_0827)
-- Explain the term "domain ontology." (LZ-ID SODa_03_007_0828)
-- Name the benefits of the CIDOC CRM reference model. (LZ-ID SODa_03_007_0805)
-
-**4. FAIR Compliance with WissKI**
-
-- Explain (inter)national IT infrastructures relevant to collection-based research data management (RDM). (LZ-ID SODa_01_010_0203)
-- Identify suitable technologies to support the application of the FAIR principles. (LZ-ID 01_007_0121)
-- Name the FAIR principles. (LZ-ID 01_007_0117)
-- Name the 5-star model for open data. (LZ-ID SODa_01_008_0172)
-- Name the formal description language W3C Web Ontology Language (OWL). (LZ-ID SODa_03_007_0842)
-- Identify Erlangen CRM/OWL as the OWL implementation of the CIDOC CRM reference model. (LZ-ID SODa_03_007_0841)
-- Name the specific functions and application areas of the scientific communication infrastructure WissKI. (LZ-ID SODa_01_010_0191a)
-- Explain the specific functions and application areas of the scientific communication infrastructure WissKI. (LZ-ID SODa_01_010_0192a)
-- Describe the performance and efficiency of IT infrastructures for collection-based research data management (RDM) using the scientific communication infrastructure WissKI. (LZ-ID SODa_01_010_0202)
-- Identify WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa_03_007_0803)
-- Explain WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa\_03\_007\_0849)
-- Explain the event-centric modelling principle using CIDOC CRM, illustrated by an example. (LZ-ID SODa\_03\_007\_0850)
-- Identify the Resource Description Framework (RDF) as a standard for describing resources. (LZ-ID SODa\_03\_007\_0843)
-- Identify the benefits of the scientific communication infrastructure WissKI. (LZ-ID SODa\_01\_010\_0204)
-
-**E1: Application example – object collections**
-
-- Apply core entities (object/person/place/time/event) of an object collection. (LZ-ID SODa\_03\_007\_0811)
-- Identify the data type properties of the CIDOC CRM reference model. (LZ-ID SODa\_03\_007\_0808)
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
+- name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
 
 ---
 
-## Learning Objectives for Module 2: **Modelling with CIDOC CRM – Understanding and Application**
+## Learning Objectives for Module 2: **Modelling with CIDOC CRM – Understand and Apply**
 
 Upon completion of Module 2, participants will be able to…
 
-**U0A: xxxx**
+**U1A. Setting up the Working Environment with Protégé**
 
+- name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
+- use software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
 
-**1. Semantic Modelling Methods and Workflows**
+**U1. Methods and Workflows of Semantic Modelling**
 
-- Name methods for ontology development. (LZ-ID 03_007_0784)
-- Explain methods for ontology development. (LZ-ID SODa_03_007_0839)
-- Name a workflow for semantic modelling as data documentation. (LZ-ID SODa_03_001_0626)
-- Explain a workflow for semantic modelling as data documentation. (LZ-ID SODa_03_001_0853)
-- Name methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0784a)
-- Explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa_03_007_0785a)
+- name methods for developing ontologies. (LO-ID 03\_007\_0784)
+- explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
+- name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
+- explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
-**2. Introduction to Protégé**
+**U2. Introduction to Protégé**
 
-- Name software for creating ontologies. (LZ-ID SODa_03_007_0809)
-- Explain software for creating ontologies. (LZ-ID SODa_03_007_0810)
-- Identify CRM/OWL as the OWL implementation of the CIDOC CRM reference model. (LZ-ID SODa_03_007_0841)
-- Use software for creating ontologies. (LZ-ID SODa_03_007_0840)
-- Name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO ID SODa\_03\_007\_0784a)
-- Explain methods for modelling a domain ontology using the CIDOC CRM reference model. (SODa\_03\_007\_0785a)
+- name software for creating ontologies. (LO-ID SODa\_03\_007\_0809)
+- explain software for creating ontologies. (LO-ID SODa\_03\_007\_0810)
+- name Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0841)
+- apply software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
+- explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
-**E2. Semantic modelling with CIDOC CRM**
+**UE. Semantic Modelling with CIDOC CRM**
 
-- Apply an ontology to describe resources. (LO ID 03\_007\_0780)
-- Apply methods for ontology development. (LO ID SODa\_03\_007\_0854)
-- Apply a workflow for semantic modelling as data documentation. (LO ID SODa\_03\_001\_0627)
-- Apply methods for modelling a domain ontology using the CIDOC CRM reference model under guidance. (LO ID SODa\_03\_001\_0786a)
-- Use software for creating ontologies. (LO ID SODa_03_007_0840)
-- Use Erlangen CRM/OWL as an OWL implementation of the CIDOC CRM reference model. (LO ID SODa_03_007_0855)
-- Use the scope notes of the CIDOC CRM reference model to describe resources. (LO ID SODa\_03\_007\_0780a)
+- apply an ontology for describing resources. (LO-ID 03\_007\_0780)
+- apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
+- apply a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0627)
+- apply methods for modelling a domain ontology using the CIDOC CRM reference model under guidance. (LO-ID SODa\_03\_001\_0786a) 
+- apply software for creating ontologies. (LO-ID SODa_03_007_0840)
+- apply Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa_03_007_0855)
+- apply Scope Notes of the CIDOC CRM reference model for describing resources. (LO-ID SODa\_03\_007\_0780a)
 
 ---
 
-## Learning Objectives in Module 3: **From Diagram to Paths – Explaining and Applying**
+## Learning Objectives for Module 3: **From Diagram to Paths – Explain and Apply**
 
-Upon completion of Module 3, participants will be able to…
+Upon completion of Module 2, participants will be able to…
 
-**Ü1. Visualize semantic data models**
+**UE1. Visualising Semantic Data Models**
 
-- Name software used to visualize a domain ontology. (LO ID SODa_03_007_0812)
-- Explain software used to visualize a domain ontology. (LO ID SODa_03_007_0813)
-- Explain the concept of visualisation. (LO ID SODa_03_007_0851)
-- Explain the benefits of visualisations. (LO ID SODa_03_007_0852)
-- Name the benefits of software used to visualize a domain ontology. (LO ID SODa_03_007_0814)
-- Use software to visualize a domain ontology under guidance. (LO ID SODa_03_007_0815)
-- Name core entities (object/person/place/time/event) of an object collection. (LO ID SODa_03_007_0806)
-- Apply core entities (object/person/place/time/event) of an object collection. (LO ID SODa_03_007_0811)
-- Name rules for modelling a domain ontology using visualisation software. (LO ID SODa_03_007_0820)
-- Apply rules for modelling a domain ontology using visualisation software. (LO ID SODa_03_007_0816)
-- Apply attribute values ​​to predefined classes of the domain ontology within visualisation software. (LZ-ID SODa_03_007_0817)
+- name software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0812)
+- explain software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0813)
+- explain the concept of visualisation. (LO-ID SODa\_03\_007\_0851)
+- explain the benefits of visualisations. (LO-ID SODa\_03\_007\_0852)
+- name the benefits of software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0814)
+- use software for visualising a domain ontology with guidance. (LO-ID SODa\_03\_007\_0815)
+- name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
+- apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
+- name rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0820)
+- apply rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0816)
+- apply attribute values to predefined classes of the domain ontology in visualisation software. (LO-ID SODa\_03\_007\_0817)
 
-**E3. Transformation of semantic models into WissKI paths**
+**UE2. Transforming Semantic Models into WissKI Paths**
 
-- Explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LZ-ID SODa_03_007_0804)
-- Apply data conversion from visualisation software into a reusable file format under guidance. (LZ-ID SODa_02_005_0298a)
-- Use the WissKI Pathbuilder as a tool to import a domain-specific ontology structure (Pathbuilder XML file) under guidance. (LZ-ID SODa_03_007_0818)
-- Analyze the imported domain-specific ontology structure in the WissKI Pathbuilder under guidance. (LZ-ID SODa_03_007_0819)
-- Name a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion. (LZ-ID SODa_02_005_0317)
-- Use a tool ("gnm-service: Draw.io diagrams to WissKI pathbuilders") for file conversion under guidance. (LZ-ID SODa_02_005_0318)
+- explain WissKI Pathbuilder as a tool for configuring ontology-based paths and path groups. (LO-ID SODa\_03\_007\_0804)
+- apply with guidance a conversion process starting from a diagram created with visualisation software into a reusable file format. (LO-ID SODa\_02\_005\_0298a)
+- use with guidance WissKI Pathbuilder as a tool for importing a Pathbuilder XML configuration into the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0818)
+- analyse with guidance the imported domain-specific ontology structure in the WissKI Pathbuilder. (LO-ID SODa\_03\_007\_0819)
+- name the gnm-service Draw.io diagrams to WissKI pathbuilders as a tool for file conversion. (LO-ID SODa\_02\_005\_0317) 
+- use with guidance the gnm-service to convert Draw.io XML into WissKI Pathbuilder XML. (LO-ID SODa\_02\_005\_0318)
 
 ---
 
