@@ -178,9 +178,9 @@ Sie haben **Konzepte, Ereignisse und Beziehungen** in Ihrer eigenen Modellskizze
 
 Die konzeptuelle Wissensmodellierung strukturiert das relevante Fachwissen einer Domäne anhand von Konzepten, Ereignissen und Beziehungen.
 
-In Einheit M1U0A habt ihr aus Informationen über ein Sammlungsobjekt eine erste konzeptuelle Modellskizze erstellt.
+In Einheit [M1E0A: Anwendungsbeispiel: Objektsammlung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) haben Sie aus Informationen über ein Sammlungsobjekt eine erste konzeptuelle Modellskizze erstellt.
 
-In dieser Einheit habt ihr die Begriffe kennengelernt, mit denen sich dieser Prozess beschreiben lässt:
+In dieser Einheit haben Sie die Begriffe kennengelernt, mit denen sich dieser Prozess beschreiben lässt:
 
 - **Konzepte** repräsentieren relevante Elemente einer Domäne.
 - **Ereignisse** repräsentieren Geschehnisse und Prozesse.
@@ -188,7 +188,7 @@ In dieser Einheit habt ihr die Begriffe kennengelernt, mit denen sich dieser Pro
 
 **Von der Modellskizze zu Forschungsfragen**
 
-Welche Konzepte, Ereignisse und Beziehungen relevant sind, hängt davon ab, welche Fragen euer Datenmodell unterstützen soll.
+Welche Konzepte, Ereignisse und Beziehungen relevant sind, hängt davon ab, welche Fragen das Datenmodell unterstützen soll.
 
 Forschungsfragen im Sammlungskontext können beispielsweise sein:
 
@@ -199,11 +199,11 @@ Forschungsfragen im Sammlungskontext können beispielsweise sein:
 - **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibungen im Datenmodell abbilden?
 - **Identifikation:** Wie lässt sich das Objekt über eindeutige Merkmale wie Inventarnummern exakt identifizieren und referenzieren?
 
-> **Was habt ihr gelernt?**
+> **Was wurde gelernt?**
 >
-> Ihr habt eine **erste konzeptuelle Modellskizze** erstellt, indem ihr relevante Informationen über ein Sammlungsobjekt identifiziert und miteinander verbunden habt.
+> Sie haben eine **erste konzeptuelle Modellskizze** erstellt, indem Sie relevante Informationen über ein Sammlungsobjekt identifiziert und miteinander verbunden haben.
 >
-> Ihr könnt diesen Prozess nun als **konzeptuelle Wissensmodellierung** beschreiben: die Ordnung von Domänenwissen anhand von Konzepten, Ereignissen und Beziehungen.
+> Sie können diesen Prozess nun als **konzeptuelle Wissensmodellierung** beschreiben: die Ordnung von Domänenwissen anhand von Konzepten, Ereignissen und Beziehungen.
 >
 > Diese konzeptuelle Struktur bildet die Grundlage für die Entwicklung eines semantischen Datenmodells.
 
@@ -211,13 +211,11 @@ Forschungsfragen im Sammlungskontext können beispielsweise sein:
 
 ## Ausblick
 
-Durch die konzeptuelle Wissensmodellierung haben wir in einem ersten Schritt herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses strukturell geordnet werden kann. Um diese gedankliche oder konzeptuelle Ordnung nun in einem formalen, maschinenlesbaren System darzustellen, werden Ontologien herangezogen. In Einheit 2 werden die allgemeinen Grundlagen von Ontologien vorgestellt.
+Durch die konzeptuelle Wissensmodellierung haben Sie in einem ersten Schritt herausgearbeitet, welches Wissen innerhalb einer Domäne relevant ist und wie dieses strukturell geordnet werden kann. Um diese gedankliche oder konzeptuelle Ordnung nun in einem formalen, maschinenlesbaren System darzustellen, werden Ontologien herangezogen. 
 
 > **Wie geht es weiter?**
 >
-> Ihr habt Domänenwissen konzeptuell geordnet und könnt diese Struktur nun anhand von Konzepten, Ereignissen und Beziehungen beschreiben.
->
-> In Einheit 2 untersucht ihr, wie Ontologien formale Strukturen bereitstellen, um dieses Wissen maschinenlesbar darzustellen.
+> In der nächsten Einheit untersuchen Sie, wie Ontologien formale Strukturen bereitstellen, um dieses Wissen maschinenlesbar darzustellen.
 
 ---
 
