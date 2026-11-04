@@ -67,7 +67,7 @@ Teilnehmende können...
 
 ## Visualisierung einer Domänenontologie als Diagramm mit Draw.io
 
-In dieser Einheit wird das in Modul 1 und 2 entwickelte Datenmodell als Diagramm in Draw.io (Ltd2026drawio) visualisiert. 
+In dieser Einheit wird das in Modul 1 und Modul 2 entwickelte Datenmodell als Diagramm in Draw.io (Ltd2026drawio) visualisiert. 
 
 Das entwickelte Draw.io-Diagramm bildet die **Voraussetzung für die (halb-)automatisierte Pipeline** zur Erstellung eines **WissKI Pathbuilders**.
 
@@ -174,18 +174,18 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 **Zeit:** 20 Min.
 
 
-Vervollständige das Diagramm, indem du die fehlenden **Knoten und Kanten** mit geeigneten Klassen (Entities) und passenden Beziehungen (Properties) ergänzt.
+Vervollständigen Sie das Diagramm, indem Sie die fehlenden **Knoten und Kanten** mit geeigneten Klassen (Entities) und passenden Beziehungen (Properties) ergänzen.
 
-Entferne anschließend alle temporären Platzhalter `(???)`.
+Entfernee Sie anschließend alle temporären Platzhalter `(???)`.
 
-**Verwende dafür die folgenden Klassen und Properties:**
+**Verwenden Sie dafür die folgenden Klassen und Properties:**
 
 - P102\_has\_title
 - P1 is identified by
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Ladet** das vorbereitete [**Draw.io-XML-Lücken-Diagramm**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml) herunter.
+Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
 
 **Hinweis:**
 
@@ -211,7 +211,7 @@ Regeln zur Visualisierung mit Draw.io**
 
 **Ressourcen**
 
-> - Domänenontologie: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
+> - Domänenontologie: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf]
 > 
 > - Die offizielle CIDOC CRM Dokumentation (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
 >
@@ -226,8 +226,8 @@ Regeln zur Visualisierung mit Draw.io**
 
 | Schritt | Aktion |
 |---:|---|
-| 1 | Die vorbereitete [**Draw.io-XML-Lücken-Diagramm**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml) runterladen|
-| 2 | Die heruntergeladene Draw.io-Datei in Draw.io importieren ([hier](https://app.diagrams.net/)) |
+| 1 | Das vorbereitete XML-Lücken-Diagramm runterladen|
+| 2 | Die heruntergeladene Datei in Draw.io importieren|
 | 3 | Das Domänenontologie-Diagramm vervollständigen  |
 | 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
 | 5 | Die Knoten-Kanten-Verbindungen prüfen  |
@@ -236,7 +236,9 @@ Regeln zur Visualisierung mit Draw.io**
 
 ## Ausblick
 
-Im nächsten Schritt wird das erstellte Draw.io-Diagramm automatisch in einen WissKI Pathbuilder konvertiert und die erzeugte Pfadstruktur in WissKI importiert.
+> **Wie geht es weiter?**
+>
+> In der nächsten Einheit wird das erstellte Draw.io-Diagramm automatisch in einen WissKI Pathbuilder konvertiert und die erzeugte Pfadstruktur in WissKI importiert.
 
 ---
 
