@@ -170,11 +170,12 @@ The following questions help you recall the concepts and classifications used in
 **Time:** ~ 20 min.
 
 
-In this exercise, you will complete a prepared Draw.io diagram using selected classes and properties from the computer games domain ontology.
+In this exercise, you will complete a prepared Draw.io diagram using selected classes and properties from the computer games domain ontology, by...
 
-**Download** the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) and open it in Draw.io.
-
-Add the missing nodes and edges, connect them correctly, and replace all temporary placeholders marked `(???)`.
+- right-click the link  [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) and "Save link As…" to download the file.
+- open it in Draw.io.
+- connect correctly the missing nodes and edges, and
+- replace all temporary placeholders marked `(???)`.
 
 **Use the following ontology elements where required:**
 
@@ -242,8 +243,8 @@ The transformation depends on consistent connections, labels, and attribute valu
 
 | Step | Action |
 |---:|---|
-| 1 | Download the prepared [**Draw.io XML gap diagram**](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_B.drawio.xml) |
-| 2 | Open the downloaded file in Draw.io ([here](https://app.diagrams.net/)) |
+| 1 | Download the prepared XML gap diagram. |
+| 2 | Open the downloaded file in Draw.io. |
 | 3 | Complete the missing nodes and edges using the specified ontology classes and properties.|
 | 4 | Remove all (???) placeholders and check the required attribute values. |
 | 5 | Check that the semantic paths are complete and that all nodes, edges, and property labels are connected correctly. |
