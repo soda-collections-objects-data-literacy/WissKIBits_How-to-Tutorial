@@ -117,7 +117,7 @@ Dazu wird das konzeptionelle Domänenmodell nun **visuell und formal in Draw.io*
 
 <table>
   <tr>
-    <td><img src="../WissKIBits_Modul3/assets/MusterDrawio.png" width="100%"></td>
+    <td><img src="../assets/MusterDrawio.png" width="100%"></td>
   </tr>
 </table>
 
@@ -211,7 +211,7 @@ Regeln zur Visualisierung mit Draw.io**
 
 **Ressourcen**
 
-> - Domänenontologie: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+> - Domänenontologie: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
 > 
 > - Die offizielle CIDOC CRM Dokumentation (.pdf-Datei): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
 >
