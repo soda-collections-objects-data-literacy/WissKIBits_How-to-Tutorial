@@ -105,10 +105,10 @@ Die Teilnehmenden lernen,
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
 | M2U0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| M2U1 | Methoden und Workflows semantischer Modellierung | 10 Min. |
+| M2U1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
 | M2U1A | Aktivierung: Arbeitsumgebung mit Protégé vorbereiten | 15 Min. |
 | M2U2 | Einführung in Protégé | 10 Min. |
-| M2UE | Übung: Semantische Modellierung mit CIDOC CRM | 45 Min. |
+| M2UE | Übung: Semantische Modellierung mit CIDOC CRM | 55 Min. |
 | | **Gesamt** | **90 Min.** |
   
 ---
