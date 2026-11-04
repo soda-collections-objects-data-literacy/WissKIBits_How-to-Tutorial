@@ -199,16 +199,16 @@ Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grun
 - die vorbereitete [Draw.io-XML-Lücken-Diagramm](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml),
 - Zugriff auf den Konvertierungsdienst [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
 - Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
-- sowie die im Tutorial verwendete [Domänenontologie](http://games.m-e-g-a.org/game_domain.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
+- sowie die im Tutorial verwendete [Games Charcteristics Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
 
 ## Ergebnis des Moduls
 
 Am Ende von Modul 3 liegen folgende Arbeitsergebnisse vor:
 
-- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../WissKIBits_Modul3/assets/GamesDrawioDiagramm.png),
-- eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/SODa_ISWC2025.drawio.xml),
-- eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_ISWC2025.xml),
+- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../assets/GamesDrawioDiagramm.png),
+- eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml),
+- eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml),
 - eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
 - sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
 
