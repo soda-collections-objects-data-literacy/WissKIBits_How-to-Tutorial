@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Unit 3 (U3): **Introduction to Protégé**  
+Unit 3 (U2): **Introduction to Protégé**  
 
 **Duration:** ~ 10 min.
 
