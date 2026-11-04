@@ -114,7 +114,7 @@ In this module, you will learn how to:
 |---|---|---:|
 | M2U0 | Welcome, structure and objectives | 10 min. |
 | M2U1 | Methods and workflows of semantic modelling | 5 min. |
-| M2U1A | Activation: Preparing to work with Protégé| 15 min. |
+| M2U2A | Activation: Preparing to work with Protégé| 15 min. |
 | M2U2 | Introduction to Protégé | 10 min. |
 | M2UE | Exercise: Semantic modelling with CIDOC CRM | 55 min. |
 |  | **Total** | **90 min.** |
@@ -135,7 +135,7 @@ After completing module 2, participants will be able to…
 - name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
-### U1A. Preparing to work with Protégé
+### U2A. Preparing to work with Protégé
 
 - name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
 - apply software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
