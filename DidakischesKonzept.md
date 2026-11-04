@@ -211,7 +211,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - für das sammlungsbezogene Forschungsdatenmanagement (FDM) relevante (inter-)nationale IT-Infrastrukturen erläutern. (LZ-ID SODa\_01\_010\_0203)
 - geeignete Technologien zur Unterstützung der Anwendung der FAIR-Prinzipien benennen. (LZ-ID 01\_007\_0121)
 - FAIR Prinzipien benennen. (LZ-ID 01\_007\_0117)
-- das 5-Sterne-Modell für offene Daten benennen. (SODa\_01\_008\_0172)
+- das 5-Sterne-Modell für offene Daten benennen. (LZ-ID SODa\_01\_008\_0158a)
 - formale Beschreibungssprache W3C Web Ontology Language (OWL) benennen. (LZ-ID SODa\_03\_007\_0842)
 - Erlangen CRM / OWL als OWL-Implementierung des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0841)
 - die spezifischen Funktionen und Anwendungsbereiche der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen. (LZ-ID SODa\_01\_010\_0191a)
