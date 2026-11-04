@@ -126,9 +126,9 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 ## Outlook
 
+You have learned how to open and explore an ontology in Protégé.
+
 > **Next:**
->
-> You have learned how to open and explore an ontology in Protégé.
 >
 > Next, you will apply these steps to the **computer games domain**: select suitable CIDOC CRM classes and properties, add domain-specific subclasses, and model their relationships.
 
