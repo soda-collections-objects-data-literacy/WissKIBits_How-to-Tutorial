@@ -113,10 +113,10 @@ In this module, you will learn how to:
 | Unit | Content | Duration |
 |---|---|---:|
 | M2U0 | Welcome, structure and objectives | 10 min. |
-| M2U1 | Methods and workflows of semantic modelling | 10 min. |
+| M2U1 | Methods and workflows of semantic modelling | 5 min. |
 | M2U1A | Activation: Preparing to work with Protégé| 15 min. |
 | M2U2 | Introduction to Protégé | 10 min. |
-| M2UE | Exercise: Semantic modelling with CIDOC CRM | 45 min. |
+| M2UE | Exercise: Semantic modelling with CIDOC CRM | 55 min. |
 |  | **Total** | **90 min.** |
 
   
