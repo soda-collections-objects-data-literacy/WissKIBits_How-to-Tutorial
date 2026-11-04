@@ -99,9 +99,9 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| Ü1 | Semantische Datenmodelle visualisieren | 35 Min. |
-| Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
+| M3E0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
+| M3EÜ1 | Semantische Datenmodelle visualisieren | 35 Min. |
+| M3EÜ2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
 ---
@@ -110,7 +110,7 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 
 Nach Abschluss von Modul 3 können die Teilnehmenden…
 
-### Ü1. Semantische Datenmodelle visualisieren
+### EÜ1. Semantische Datenmodelle visualisieren
 
 - Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
 - Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0813)
@@ -124,7 +124,7 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 - Regeln zur Modellierung einer Domänenontologie mit einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0816)
 - Attributwerte an vordefinierten Klassen der Domänenontologie in einer Visualisierungssoftware anwenden. (LZ-ID SODa\_03\_007\_0817)
 
-### Ü2. Transformation semantischer Modelle in WissKI-Pfade
+### EÜ2. Transformation semantischer Modelle in WissKI-Pfade
 
 - WissKI Pathbuilder als Werkzeug zur Defintion einer Ontologiestruktur erläutern. (LZ-ID SODa\_03\_007\_0804)
 - unter Anleitung die Datenkonvertierung einer Visualisierungssoftware in ein nachnutzbares Dateiformat anwenden. (LZ-ID SODa\_02\_005\_0298a)
