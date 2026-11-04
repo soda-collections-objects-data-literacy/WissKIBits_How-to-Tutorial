@@ -108,7 +108,7 @@ Ein wesentliches Merkmal von CIDOC CRM ist sein **ereigniszentrierter Ansatz** (
 
 So können Informationen über die Herstellung eines physischen Spieleexemplars beispielsweise ein Herstellungsereignis, beteiligte Akteur:innen und einen Zeitraum umfassen.
 
-CIDOC CRM definiert **Klassen und Properties**, um solche Beziehungen auszudrücken. In einer maschinenlesbaren Implementierung können diese Beziehungen beispielsweise mithilfe von RDF als Aussagen dargestellt werden.
+CIDOC CRM definiert **Klassen und Properties**, um solche Beziehungen auszudrücken. In einer maschinenlesbaren Implementierung können diese Beziehungen beispielsweise mithilfe von **Resource Description Framework (RDF)** als Aussagen dargestellt werden (Cyganiak et al., 2014).
 
 **Die Unterscheidung ist wichtig:**
 
@@ -337,6 +337,8 @@ In der nächsten Einheit wird die Wissenschaftliche Kommunikationsinfrastruktur 
 (CIDOC, 2024a) CIDOC CRM Special Interest Group. (2024a). Definition of the CIDOC Conceptual Reference Model: Version 7.1.3. https://cidoc-crm.org/Version/version-7.1.3
 
 (CIDOC, 2024b) CIDOC CRM Special Interest Group. (2024b). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
+
+(Cyganiak et al., 2014) Cyganiak, R., Wood, D., & Lanthaler, M. (2014). RDF 1.1 Concepts and Abstract Syntax. W3C Recommendation, 25 February 2014. https://www.w3.org/TR/rdf11-concepts
 
 (Rehbein, 2017) Rehbein, M. (2017). Ontologien. In: F. Jannidis, H. Kohle, & M. Rehbein (Hrsg.), Digital Humanities (S. 162-176). J.B. Metzler, Stuttgart. https://doi.org/10.1007/978-3-476-05446-3_11.
 
