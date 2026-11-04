@@ -22,7 +22,7 @@ title: WissKI Bits Ontology-Based Modelling of Research Data
 
 module: Modelling with CIDOC CRM – Understand and Apply
 
-unit: Setting Up the Working Environment with Protégé
+unit: Preparing to work with Protégé
 
 description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Activation Unit (U2A): **Setting Up the Working Environment with Protégé**  
+Activation Unit (U1A): **Preparing to work with Protégé**  
 
 **Duration:** ~ 15 min.
 
