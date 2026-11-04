@@ -149,7 +149,7 @@ Possible strategies include:
 > - **Do not introduce new properties.** Relationships are modelled using existing CIDOC CRM properties.
 > - **Check the scope notes** to ensure that new subclasses are placed under appropriate CIDOC CRM classes.
 > - **Document modelling decisions** to make the resulting ontology understandable and reusable.
->
+
 > **Example**
 >
 > - **Domain concept:** *Game Genre* → create a domain-specific subclass of an appropriate CIDOC CRM class.
