@@ -112,9 +112,10 @@ Weitere Informationen und Anleitungen finden Sie auf der [**offiziellen Protég�
 
 Das Video stellt drei grundlegende Arbeitsschritte in Protégé vor:
 
-- **Laden:** Eine bestehende OWL-Ontologie öffnen.
-- **Erkunden:** Durch die Klassenhierarchie navigieren und Ontologieelemente untersuchen.
-- **Erweitern:** Eine domänenspezifische Subklasse innerhalb der bestehenden Ontologiestruktur anlegen.
+- **Starten:** Sie ihre Protégé Arbeitsumgebung.
+- **Öffnen:** Sie eine bestehende OWL-Ontologie, z.B. Erlangen CRM 240920 basierend auf CIDOC-CRM 7.1.3 [http://erlangen-crm.org/240920](http://erlangen-crm.org/240920).
+- **Erkunden:** Sie die Klassenhierarchie und Ontologieelemente.
+- **Erweitern:** Sie die bestehende Ontologiestruktur durch domänenspezifische Sub-klassen.
 
 Achten Sie beim Ansehen darauf, wie im Editor zwischen bestehenden Ontologieelementen und neu angelegten Klassen unterschieden wird.
 
