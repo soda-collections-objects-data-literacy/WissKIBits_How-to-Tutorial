@@ -130,7 +130,7 @@ Achten Sie beim Ansehen darauf, wie im Editor zwischen bestehenden Ontologieelem
 Sie haben gelernt, wie Sie eine Ontologie in Protégé öffnen und erkunden.
 
 > **Wie geht es weiter?**
->>
+>
 > In der nächsten Einheit wenden Sie diese Arbeitsschritte auf die **Domäne der Computerspiele** an: Sie wählen geeignete CIDOC-CRM-Klassen und -Eigenschaften aus, ergänzen domänenspezifische Subklassen und modellieren deren Beziehungen.
 
 ---
