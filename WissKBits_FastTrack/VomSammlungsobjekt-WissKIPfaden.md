@@ -48,7 +48,7 @@ LearningResourceType: How-to-Tutorial
 
 **Wichtig:** Erläuterungen, Definitionen, Quizfragen sowie weiterführende Bild-/Video-Dokumentation finden Sie im WissKI Bits How-to-Tutorial.
 
-**Beispielobjekt:** Das Super Nintendo Entertainment System (SNES) Spiel 'The Legend of Zelda: A Link to the Past' von 1991.
+**Beispielobjekt:** Das Super Nintendo Entertainment System (SNES) Spiel *The Legend of Zelda: A Link to the Past* von 1991.
 
 **Dauer:** ca. 90 Min.
 
