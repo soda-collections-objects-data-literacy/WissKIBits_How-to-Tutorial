@@ -40,7 +40,7 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
+Modul 1 (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
 Einheit (E3): **Einführung in CIDOC CRM**  
 
