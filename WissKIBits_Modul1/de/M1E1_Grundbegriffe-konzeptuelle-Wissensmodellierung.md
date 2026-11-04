@@ -41,7 +41,7 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 1: **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
+Modul 1 (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
 Einheit (E1): **Grundbegriffe konzeptueller Wissensmodellierung**  
 
