@@ -91,11 +91,19 @@ Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
 > - **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**  
 > - **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
 
-Das garantiert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
+Das fördert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
 
 ---
 
 ## Ausblick
+
+**Hinweis zur Benennung domänenspezifischer Klassen:**
+
+Bei der Erweiterung von CIDOC CRM ist es sinnvoll, die **CIDOC-CRM-Kennung im Namen einer domänenspezifischen Unterklasse beizubehalten**, beispielsweise `E73_Computer_Game` oder `E35_Game_Title`. Dadurch bleibt die Zuordnung zur jeweiligen CIDOC-CRM-Klasse erkennbar und die Modellierung nachvollziehbar.
+
+Die Kennung im Klassennamen ersetzt jedoch nicht die **formale Unterklassenbeziehung** über `rdfs:subClassOf`.
+
+Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem über einen **eigenen Namespace** eindeutig identifiziert. Ein Beispiel hierfür bietet die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
 
 > **Wie geht es weiter?**
 >
