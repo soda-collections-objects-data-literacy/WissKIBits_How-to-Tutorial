@@ -53,7 +53,7 @@ Participants will be able to...
 - apply an ontology to describe resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
 - apply a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0627)
-- apply, with guidance, methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_001\_0786a)
+- apply, with guidance, methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0786a)
 - use software for creating ontologies. (LO-ID SODa_03_007_0840)
 - use Erlangen CRM / OWL as an OWL implementation of the CIDOC CRM reference model. (LO-ID SODa_03_007_0855)
 - apply the Scope Notes of the CIDOC CRM reference model to describe resources. (LO-ID SODa\_03\_007\_0780a)
