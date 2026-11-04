@@ -10,29 +10,29 @@ version:  v1.0.0
 
 language: en
 
-icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_Wort-Bild_RGB.png
 
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
 module: Modelling with CIDOC CRM – Understand and Apply
 
 unit: Semantic Modelling with CIDOC CRM
 
-description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellierung, Forschungsdaten, Forschungsdatenmanagement, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
-community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
+community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
-PublicationDate: 2026-10-05
+PublicationDate: 2026-11-05
 
-LearningResourceType: SODa How-to-Tutorial
+LearningResourceType: How-to-Tutorial
 
 -->
 
@@ -77,7 +77,7 @@ Your goal is to create and document a small, formally represented model section 
 
 Return to the conceptual model sketch and the initial CIDOC CRM mappings you developed in module 1.
 
-![Concept Mind Map](../WissKIBits_Modul2/assets/mindmap_en.png)
+![Concept Mind Map](../assets/mindmap_en.png)
 
 > **Figure:** The graphic shows the conceptual model sketch of a section of the example domain.
 
@@ -93,7 +93,7 @@ The following example illustrates **one possible mapping** of selected concepts 
 
 Compare this proposal with your own modelling decisions. Pay particular attention to the selected classes, the relationships between them, and any differences in how the domain concepts have been interpreted.
 
-![Concept Mind Map](../WissKIBits_Modul2/assets/Mindmap.png)
+![Concept Mind Map](../assets/Mindmap.png)
 
 > **Figure:** The graphic shows the mapping to CIDOC CRM top levels and the statements describing the domain.
 
@@ -161,7 +161,7 @@ Open your Protégé environment and load the provided OWL implementation of CIDO
 
 > Note: Follow the steps shown in M2E2 and the corresponding video:
 
-!?[Video Demonstration: First Steps in Protégé](../WissKIBits_Modul2/assets/Short_Protege_Intro.mp4)
+!?[Video Demonstration: First Steps in Protégé](../assets/Short_Protege_Intro.mp4)
  
 > **Video:** The video demonstrates the first steps in Protégé and how to load Erlangen CRM / OWL.
 
@@ -301,7 +301,7 @@ Expected result: A small, documented OWL model section based on CIDOC CRM, ready
 
 The following example illustrates **one possible way** of representing selected concepts and relationships from the **computer games domain using CIDOC CRM**.
 
-[**Game Domain Ontology – RDF**](http://games.m-e-g-a.org/game_domain.rdf)
+[**Game Characteristics Domain Ontology – RDF**](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
 
 Compare your own model with the sample **only after completing the task**.
 
