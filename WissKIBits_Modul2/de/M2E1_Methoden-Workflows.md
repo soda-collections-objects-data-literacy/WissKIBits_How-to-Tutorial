@@ -59,43 +59,119 @@ Teilnehmende können...
 
 ---
 
-## Methoden zur Entwicklung von Ontologien
+## Methoden und Workflows semantischer Modellierung
 
-Die Entwicklung einer Domänenontologie folgt typischerweise einem methodischen, mehrstufigen und iterativen Vorgehen. 
+Die Entwicklung einer Domänenontologie folgt typischerweise einem methodischen, mehrstufigen und iterativen Vorgehen. Sie umfasst mehr als die bloße Übertragung domänenspezifischer Begriffe in Ontologieklassen.
 
-Dazu zählen u.a. die Erhebung zentraler Begriffe und Definitionen (sog. „ontology capture“) (Uschold, 1995, S. 3), die Strukturierung von Konzepten in Klassen und Eigenschafen/Relationen sowie die kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit. (Gruber, 1993)
+Dazu zählen unter anderem die Erhebung zentraler Begriffe und Definitionen (sogenanntes „Ontology Capture“) (Uschold & King, 1995, S. 3), die Strukturierung von Konzepten in Klassen und Eigenschaften beziehungsweise Relationen sowie die kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit (Gruber, 1993).
 
-Die praktische Ontologieentwicklung wird dabei häufig als ein Prozess verstanden, der sowohl Domänenwissen als auch Anwendungsanforderungen integriert und schrittweise in eine formal nutzbare Wissensstruktur überführt.
+In **Modul 1** haben Sie eine konzeptuelle Modellskizze entwickelt und mögliche Zuordnungen zu CIDOC CRM untersucht. Diese ersten Modellierungsentscheidungen werden nun überprüft, präzisiert und schrittweise formalisiert.
 
-**Ontologien entstehen häufig durch eine Kombination aus:** (Noy2001ontology, S.4ff)
+Die praktische Ontologieentwicklung integriert sowohl **Domänenwissen** als auch **Anwendungsanforderungen** und überführt diese schrittweise in eine formal nutzbare Wissensstruktur.
 
-- **Top-down-Modellierung:** Ausgehend von einem Referenzmodell (z.B. CIDOC CRM) erfolgt eine domänenspezifische Spezialisierung.
-- **Bottom-up-Modellierung:** Aus vorhandenen Daten werden schrittweise Klassen (Entities) und Eigenschaften (Properties) abgeleitet.
-- **Competency Questions:** Die Modellierung erfolgt aus typischen Analyse- und Forschungsfragen heraus (z.B. „Welche Spiele haben Merkmal X?“)
-- **Iteratives Prototyping:** Es wird ein Modell entworfen → überprüft → kontinuierlich mit Blick auf Konsistenz, Erweiterbarkeit und Abfragbarkeit angepasst.
+> **Semantische Modellierung ist ein iterativer Prozess**
+>
+> - Semantische Modellierung verbindet **Domänenwissen, Anwendungsanforderungen, Ontologiedefinitionen und explizite Modellierungsentscheidungen**.
+> - Ein Modell entsteht nicht in einer streng linearen Abfolge, sondern wird durch wiederholte Schritte der Analyse, Umsetzung und Überprüfung entwickelt und verfeinert.
+> - Ziel ist es nicht allein, Klassen und Eigenschaften anzulegen, sondern die beabsichtigte Bedeutung **konsistent und nachvollziehbar** abzubilden.
+
+---
+
+## Ansätze und Methoden der Ontologieentwicklung
+
+Bei der Entwicklung von Ontologien werden häufig verschiedene Modellierungsansätze miteinander kombiniert (Noy & McGuinness, 2001, S. 4 ff.):
+
+**Bottom-up-Modellierung:**
+
+Ausgangspunkt sind vorhandene Daten, Beispiele und domänenspezifische Begriffe. Relevante Konzepte und Beziehungen werden identifiziert und schrittweise zu einem Modell strukturiert. Klassen (Entities) und Eigenschaften (Properties) werden dabei aus konkreten Daten oder Beispielobjekten abgeleitet.
+
+**Top-down-Modellierung:**
+
+Ausgangspunkt ist eine bestehende Ontologie oder ein konzeptuelles Referenzmodell. Es wird untersucht, wie dessen Klassen und Eigenschaften das gewünschte Domänenwissen abbilden können. Ein Referenzmodell wie **CIDOC CRM** bildet die Grundlage für domänenspezifische Spezialisierungen.
+
+**Competency Questions:**
+
+Typische Analyse- und Forschungsfragen verdeutlichen, welche Anforderungen die Ontologie erfüllen soll. Sie helfen, den Gegenstandsbereich und die beabsichtigte Nutzung einzugrenzen, beispielsweise: *„Welche Spiele weisen das Merkmal X auf?“*
+
+**Iteratives Prototyping:**
+
+Ein zunächst kleiner Teil des Modells wird entwickelt, überprüft und schrittweise im Hinblick auf Konsistenz, Erweiterbarkeit und Abfragbarkeit verfeinert.
+
+Diese Ansätze verfolgen unterschiedliche Zwecke und schließen sich nicht gegenseitig aus.
+
+**In diesem Tutorial kombinieren Sie die Bottom-up-Analyse des Computerspielbeispiels mit einer Top-down-Ausrichtung am CIDOC CRM. Ausgewählte Modellierungsentscheidungen werden bei der Umsetzung in Protégé iterativ überprüft und verfeinert.**
+
+---
+
+## Der praktische Modellierungsworkflow
+
+Der folgende Workflow bildet die Grundlage für die praktische Übung in diesem Modul:
+
+**1. Konzeptuelles Modell überprüfen:** Wählen Sie relevante Konzepte und Beziehungen aus Ihrer Modellskizze aus.
+
+↓
+
+**2. Bedeutung klären:** Definieren Sie, was die ausgewählten Elemente innerhalb der Domäne repräsentieren.
+
+↓
+
+**3. CIDOC CRM untersuchen:** Identifizieren Sie geeignete Klassen und Eigenschaften und lesen Sie die zugehörigen Scope Notes.
+
+↓
+
+**4. Modellierungsentscheidungen treffen:** Entscheiden Sie, welche bestehenden Ontologieelemente wiederverwendet werden können und ob domänenspezifische Erweiterungen erforderlich sind.
+
+↓
+
+**5. Modell implementieren:** Setzen Sie ausgewählte Modellierungsentscheidungen in Protégé um.
+
+↓
+
+**6. Überprüfen und dokumentieren:** Prüfen Sie die entstandene Struktur, dokumentieren Sie Ihre Entscheidungen und überarbeiten Sie das Modell bei Bedarf.
+
+Der Workflow ist **iterativ**. Wenn eine ausgewählte Klasse oder Beziehung die beabsichtigte Bedeutung nicht angemessen wiedergibt, kehren Sie zu einem früheren Schritt zurück und überprüfen Ihre Modellierungsentscheidung.
 
 ---
 
 ## Modellierungsstrategie im Tutorial
 
-Es gibt verschiedene Ansätze, Domänenontologien zu erweitern:
+Bei der Entwicklung einer Domänenontologie auf Grundlage einer bestehenden Referenzontologie muss entschieden werden, **welche Ontologieelemente wiederverwendet werden können und wo domänenspezifische Erweiterungen erforderlich sind**.
 
-- Neue **Subklassen (Entities)** bilden
-- Neue **Eigenschaften (Properties)** definieren
-- **Reine Wiederverwendung** bestehender CIDOC CRM-Klassen (Entities) und -Eigenschaften (Properties)
-- **Kombinationen** der oben genannten Strategien
+Mögliche Strategien sind:
 
-**Hinweis**
+- **Wiederverwendung** bestehender CIDOC-CRM-Klassen (Entities) und -Eigenschaften (Properties)
+- Bildung domänenspezifischer **Unterklassen (Entities)**
+- Definition neuer domänenspezifischer **Eigenschaften (Properties)**
+- **Kombinationen** dieser Ansätze
 
-> In diesem Tutorial wird eine **leichtgewichtige Erweiterungsstrategie** empfohlen:
-> - **Domänenspezifische Subklassen (Entities) für die domänenspezifischen Konzepte anlegen**  
-> - **Eigenschaften (Properties) werden weitestgehend aus CIDOC CRM übernommen**
+> **Unsere Modellierungsstrategie im Tutorial**
+>
+> In diesem Tutorial verfolgen Sie eine **leichtgewichtige Erweiterungsstrategie** auf Grundlage des CIDOC CRM:
+>
+> - **Bestehende CIDOC-CRM-Klassen und -Eigenschaften wiederverwenden**, soweit sie die beabsichtigte Bedeutung angemessen abbilden.
+> - **Domänenspezifische Unterklassen anlegen**, wenn Konzepte aus der Computerspieldomäne eine weitere Spezialisierung erfordern.
+> - **Keine neuen Eigenschaften definieren.** Für die vorgesehenen Beziehungen werden bestehende CIDOC-CRM-Eigenschaften verwendet.
+> - **Scope Notes prüfen**, um neue Unterklassen geeigneten CIDOC-CRM-Klassen zuzuordnen.
+> - **Modellierungsentscheidungen dokumentieren**, damit die resultierende Ontologie verständlich und wiederverwendbar bleibt.
 
-Das fördert **Interoperabilität und CIDOC-Kompatibilität**, reduziert die Komplexität und macht dennoch die Domänenspezifik deutlich.
+> **Beispiel**
+>
+> - **Domänenkonzept:** *Spielgenre* → eine domänenspezifische Unterklasse einer geeigneten CIDOC-CRM-Klasse anlegen.
+> - **Beziehung:** *hat Typ* → eine bestehende CIDOC-CRM-Eigenschaft wie **P2 has type** wiederverwenden, sofern sie die beabsichtigte Beziehung angemessen beschreibt, statt eine neue Eigenschaft einzuführen.
+>
+> **Leitprinzip: CIDOC CRM durch domänenspezifische Unterklassen erweitern und die bestehende Eigenschaftsstruktur wiederverwenden.**
+>
+> Dieser bewusst eingeschränkte Ansatz hält die praktische Übung überschaubar und ermöglicht es, sich auf Klassenhierarchien, semantische Bedeutungen und die Wiederverwendung einer etablierten Referenzontologie zu konzentrieren.
+
+Die Strategie **fördert Interoperabilität und Kompatibilität mit CIDOC CRM**, reduziert die Modellierungskomplexität und macht zugleich domänenspezifische Erweiterungen sichtbar.
 
 ---
 
 ## Ausblick
+
+Die hier vorgestellten **Methoden und Workflows der semantischen Modellierung** bilden zusammen mit der erläuterten **Modellierungsstrategie** die Grundlage für die praktische Umsetzung der bisher entwickelten Konzepte und Modelle.
+
+In der folgenden Einheit lernen Sie **Protégé** als Editor zur Ontologiemodellierung kennen. Anhand eines konkreten Beispiels entwickeln Sie auf Grundlage des **CIDOC CRM** eine **maschinenlesbare Domänenontologie**, beschreiben diese formal und bereiten sie für die maschinelle Verarbeitung vor.
 
 **Hinweis zur Benennung domänenspezifischer Klassen:**
 
@@ -107,7 +183,7 @@ Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem übe
 
 > **Wie geht es weiter?**
 >
-> In der folgenden Einheit lernen Sie **Protégé** als Editor zur Ontologiemodellierung kennen. Anhand eines konkreten Beispiels entwickeln Sie auf Basis des **CIDOC CRM** eine **maschinenlesbare Domänenontologie**, beschreiben diese formal und bereiten sie für die maschinelle Verarbeitung vor. Dabei wenden Sie die zuvor erarbeiteten Methoden und Strategien der semantischen Modellierung praktisch an.
+> In der folgenden Einheit richten Sie Ihre Arbeitsumgebung mit **Protégé** ein.
 
 ---
 
