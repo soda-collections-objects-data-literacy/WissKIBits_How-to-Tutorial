@@ -130,7 +130,7 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 
 ### Schritt 1: Vervollständigen Sie das Puzzle 
 
-> 1. Speichern Sie das vorbereitete **[XML-Puzzle](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKBits_FastTrack/assets/puzzle.drawio_en.xml)** auf Ihrem Computer.
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
 > 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
 > 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Merkmale zu einer sinnvollen konzeptionellen Modellskizze.
 > 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes formuliert.
@@ -140,8 +140,8 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 **Übergang zur nächsten Übung:** In der nächsten Übung erarbeiten Sie eine angemessene Repräsentation dieser Kernmerkmale durch **bestehende CIDOC-CRM-Klassen**.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
-> - [M1E0A: Anwendungsbeispiel: Objektsammlung]()
-> - [M1E1: Grundbegriffe konzeptueller Wissensmodellierung]()
+> - [M1E0A: Anwendungsbeispiel: Objektsammlung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
+> - [M1E1: Grundbegriffe konzeptueller Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1)
 
 ---
 
@@ -178,6 +178,77 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 - `E21 Person` oder
 - `E74 Group`.
 
+
+## Übung – CIDOC-CRM-Klassen zuordnen
+
+Vergleichen Sie die Domänenkonzepte aus Ihrer Modellskizze mit den Klassen von CIDOC CRM.
+
+Prüfen Sie die jeweiligen Scope Notes und dokumentieren Sie Ihre Entscheidungen.
+
+| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Frage |
+|---|---|---|---|
+| Spieletitel | E35 Title | Zu prüfen | Gibt es eine andere geeignete Klasse? |
+| Computerspiel | ... | ... | ... |
+| Spielgenre | ... | ... | ... |
+| Plattformtyp | ... | ... | ... |
+| Spieledition | ... | ... | ... |
+
+### Mögliche Lösung
+
+Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgenden Vorschlag.
+
+[[ Mögliche Lösung anzeigen ]]
+<script>
+"Lösung anzeigen"
+</script>
+***
+
+| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Frage |
+|---|---|---|---|
+| Spieletitel | E35 Title | Ja, sofern ein Titel gemeint ist | Ein Titel dient der Benennung eines Spiels. Welcher Entität wird er zugeordnet? |
+| Computerspiel | E73 Information Object | Abhängig vom Modellierungskontext | Das Spiel wird als Informationsobjekt betrachtet. Welche Aspekte des Spiels werden modelliert? |
+| Spielgenre | E55 Type | Ja, als Klassifikation | Das Genre dient der Klassifikation eines Spiels, beispielsweise als Action-Adventure. |
+| Plattformtyp | E55 Type | Abhängig vom Modellierungskontext | Wird das Spiel, eine Edition oder eine technische Plattform klassifiziert? |
+| Spieledition | E73 Information Object | Zu prüfen | Eine Edition kann als eigenständiges Informationsobjekt betrachtet werden. Wie wird sie vom Spiel abgegrenzt? |
+
+
+## Übung – Domänenkonzepte CIDOC CRM zuordnen
+
+Ordnen Sie ausgewählte Domänenkonzepte aus Ihrer Modellskizze geeigneten CIDOC-CRM-Klassen zu. Prüfen Sie die jeweiligen Scope Notes und begründen Sie Ihre Entscheidungen.
+
+| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Fragen |
+|---|---|---|---|
+| Spieletitel | E35 Title | Zu prüfen | Gibt es eine andere geeignete Klasse? |
+| Ihr Domänenkonzept | ... | ... | ... |
+| Ihr Domänenkonzept | ... | ... | ... |
+| Ihr Domänenkonzept | ... | ... | ... |
+| Ihr Domänenkonzept | ... | ... | ... |
+
+**Wichtig:** Ein ähnlich klingender CIDOC-CRM-Klassenname reicht für eine semantisch korrekte Zuordnung nicht aus. Vergleichen Sie die beabsichtigte Bedeutung Ihres Domänenkonzepts immer mit der **Scope Note** der jeweiligen CIDOC-CRM-Klasse.
+
+Mögliche Klassen sind:
+
+- `E73 Information Object`
+- `E35 Title`
+- `E55 Type`
+- `E21 Person`
+- `E74 Group`
+
+### Mögliche Lösung
+
+<details>
+<summary>Mögliche Lösung anzeigen</summary>
+
+| Domänenkonzept | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Fragen |
+|---|---|---|---|
+| Spieletitel | E35 Title | Ja, sofern ein Titel gemeint ist | Welcher Entität wird der Titel zugeordnet? |
+| Computerspiel | E73 Information Object | Abhängig vom Kontext | Wird das Spiel als Informationsobjekt modelliert? |
+| Spielgenre | E55 Type | Ja, als Klassifikation | Welche Entität wird klassifiziert? |
+| Plattformtyp | E55 Type | Abhängig vom Kontext | Wird das Spiel oder eine Edition klassifiziert? |
+| Spieledition | E73 Information Object | Zu prüfen | Wie wird die Edition vom Spiel abgegrenzt? |
+
+</details>
+
 ---
 
 ### Schritt 2: Modellierungsentscheidungen vergleichen
@@ -192,11 +263,11 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 Als Nächstes werden Sie Ihre Modellierungsentscheidungen in Protégé umsetzen, indem Sie **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen festlegen und damit einen Ausschnitt Ihres semantischen Modells formalisieren.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
-> - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
+> - [M1E3: Einführung in CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
 
 ---
 
-## 3. Einen kleinen Ontologieausschnitt in Protégé formalisieren — 15 Min.
+## 3. Einen kleinen Ontologieausschnitt in Protégé formalisieren - 15 Min.
 
 **Ausgangspunkt**
 
@@ -213,8 +284,8 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 !?[Video Demonstration: Einführung in Protégé](assets/Short_Protege_Intro.mp4)
 
 > **Zur Vertiefung siehe Modul 2, u.a.:**
-> - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
-> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
+> - [M2E2A: Arbeitsumgebung mit Protégé vorbereiten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1)
+> - [M2E2: Einführung in Protégé](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
 
 ---
 
@@ -232,7 +303,7 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 ### Schritt 3: Ausgewählte Klassen-Zuordnungen prüfen
 
 > 1. Vergleichen Sie Ihre semantische Modellskizze mit den formalen Klassenbeschreibungen in CIDOC CRM.
-> 2. Merke: Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Klassen-Bezeichnungen ähneln.
+> 2. **Merke:** Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Klassen-Bezeichnungen ähneln.
 
 Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Klassen:
 
@@ -246,21 +317,36 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Klass
 
 ### Schritt 4: Domänenspezifische Unterklassen erstellen
 
-> 1. Erstellen Sie die ausgewählten **Unterklassen** unter den passenden CIDOC-CRM Klassen, z.B.:
+> 1. Erstellen Sie die ausgewählten **Unterklassen** unter den passenden CIDOC-CRM-Klassen, z. B.:
 >
-> - E73 Information Object → Computer_Game
-> - E35 Title → Game_Title
-> - E55 Type → Game_Genre_Type, Game_Platform_Type
+> - `E73 Information Object` → `Computer_Game`
+> - `E35 Title` → `Game_Title`
+> - `E55 Type` → `Game_Genre_Type`
+> - `E57 Material` → `Game_Platform_Type`
 >
-> 2. Untersuchen Sie nur die entsprechenden Eigenschaften in Protégé und dokumentieren Sie ihre Entscheidungen aber **erstellen Sie keine neuen CIDOC CRM Eigenschaften.** .
+> 2. Untersuchen Sie die entsprechenden Eigenschaften in Protégé und dokumentieren Sie Ihre Modellierungsentscheidungen. **Erstellen Sie keine neuen Eigenschaften.**
 
-Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Eigenschaften:
+Das WissKI-Bits-How-to-Tutorial verwendet unter anderem folgende bestehende CIDOC-CRM-Eigenschaften:
 
 | Ausgangsklasse | Bestehende Eigenschaft | Zielklasse | Beabsichtigte Aussage |
 |---|---|---|---|
 | `Computer_Game` | `P102 has title` | `Game_Title` | Ein Computerspiel hat einen Titel. |
 | `Computer_Game` | `P2 has type` | `Game_Genre_Type` | Ein Spiel wird einem Genretyp zugeordnet. |
 | `Computer_Game` | `P2 has type` | `Game_Platform_Type` | Ein Spiel wird einem Plattformtyp zugeordnet. |
+
+> **Hinweis zur Modellierung:**
+>
+> Die Tabelle beschreibt mögliche **semantische Beziehungen** zwischen den ausgewählten Domänenkonzepten. Sie stellt noch keine formal implementierten OWL dar.
+>
+> In diesem Schritt erstellen Sie ausschließlich domänenspezifische Unterklassen. Die bestehenden CIDOC-CRM-Eigenschaften werden untersucht und die vorgesehenen Beziehungen dokumentiert.
+>
+> **Hinweis zur Benennung:**
+>
+> Die Klassenbezeichnungen `Computer_Game` und `Game_Title` sind vereinfachte Namen für die praktische Übung.
+>
+> In einer veröffentlichten Domänenontologie können die Klassen über einen eigenen Namespace eindeutig identifiziert werden. Ein Beispiel ist die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf), in der die Klasse `E35_Game_Title` als Unterklasse von `E35 Title` definiert ist.
+> 
+> Die CIDOC-CRM-Kennung im Namen einer domänenspezifischen Klasse beizubehalten, ist sinnvoll, da sie die Zuordnung zur Referenzontologie sichtbar macht und die Nachvollziehbarkeit der Modellierung erleichtert. Sie ersetzt jedoch nicht die formale Unterklassenbeziehung über `rdfs:subClassOf`. Die formale Unterklassenbeziehung wird durch `rdfs:subClassOf` ausgedrückt.
 
 ---
 
@@ -270,15 +356,15 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Eigen
 > - die Domänen-Unterklassen unter den richtigen CIDOC CRM Oberklassen eingeordnet sind,
 > - die wiederverwendeten CIDOC CRM Eigenschaften die beabsichtigten Beziehungen ausdrücken und ob offene Fragen dokumentiert wurden.
 > 2. Speichern Sie ihre Ontologie.
-> 3. Vergleichen Sie Ihre Ontologie mit der [Musterlösung: Games Charcteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
+> 3. Vergleichen Sie Ihre Domänenontologie mit der [Musterlösung: Game Characteristics](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
 
 **Ergebnis:** Ein kleiner, formalisierter und dokumentierter Ontologieausschnitt zur Beschreibung von Videospielmerkmalen, jedoch **keine** vollständige Videospielontologie.
 
 **Übergang zur nächsten Übung:** In der nächsten Übung verwenden Sie das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
 > **Zur Vertiefung, siehe Modul 2, u.a.:** 
-> - [M2U2: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
-> - [M2U2: Introduction to Protégé.](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)*
+> - [M2E2: Methoden und Workflows semantischer Modellierung](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
+> - [M2U2: Introduction to Protégé.](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
 
 ---
 
@@ -365,7 +451,7 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
 > 2. Navigieren Sie zu **Configuration → WissKI → WissKI Ontology**.
 > 3. Löschen Sie die bestehende default Ontologie: **Delete Ontology**
-> 4. Laden Sie die [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf) hier **Pathbuilder Definition Import** über die URL.
+> 4. Laden Sie die [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) hier **Pathbuilder Definition Import** über die URL.
 > 5. Aktualisieren Sie den **WissKI Salz Adapter**:
 >    - Navigieren Sie **Configuration → WissKI → WissKI Salz Adapters**
 >    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
@@ -404,7 +490,7 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
-> -[MeUE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
+- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
 ---
 
@@ -421,7 +507,6 @@ Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder fü
 ---
 
 # Bibliografie
-
 
 (Wikipedia, 2026)  The Legend of Zelda: A Link to the Past. (2026). In Wikipedia. Zuletzt abgerufen am 15. Oktober 2026 von https://de.wikipedia.org/w/index.php?title=The_Legend_of_Zelda:_A_Link_to_the_Past&oldid=268272133
 
