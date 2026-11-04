@@ -44,7 +44,7 @@ Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
 Unit 1 (U1): **Methods and Workflows of Semantic Modelling**  
 
-**Duration:** ~ 10 min.
+**Duration:** ~ 5 min.
 
 **Learning Objectives:**
 
