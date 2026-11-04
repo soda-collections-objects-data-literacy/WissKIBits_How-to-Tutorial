@@ -126,13 +126,6 @@ In this module, you will learn how to:
 
 After completing module 2, participants will be able to…
 
-### U1A. Setting up the Working Environment with Protégé
-
-- name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
-- apply software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
-- analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
-
-
 ### U1. Methods and Workflows of Semantic Modelling
 
 - name methods for developing ontologies. (LO-ID 03\_007\_0784)
@@ -141,6 +134,12 @@ After completing module 2, participants will be able to…
 - explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
 - name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
+
+### U1A. Preparing to work with Protégé
+
+- name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
+- apply software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
 
 ### U2. Introduction to Protégé
 
