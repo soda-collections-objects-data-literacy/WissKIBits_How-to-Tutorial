@@ -10,29 +10,29 @@ version:  v1.0.0
 
 language: en
 
-icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/assets/SODa-Logo_Wort-Bild_RGB.png
 
 link: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/soda.css
 
 license: CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>
 
-comment: Dieses Modul ist Teil des How-to-Tutorials „Ontologiegestützte Modellierung von Forschungsdaten“. Das Tutorial vermittelt am Beispiel einer Computerspielsammlung schrittweise die Entwicklung eines semantischen Datenmodells auf Grundlage des CIDOC CRM und dessen Umsetzung mit WissKI.
+comment: This module is part of the how-to tutorial “Ontology-Based Modelling of Research Data”. Using a computer game collection as an example, the tutorial teaches the step-by-step development of a semantic data model based on CIDOC CRM and its implementation with WissKI.
 
-title: WissKI Bits Ontologiegestützte Modellierung von Forschungsdaten
+title: WissKI Bits Ontology-Based Modelling of Research Data
 
-module: Modellieren mit CIDOC CRM – verstehen und anwenden
+module: Modelling with CIDOC CRM – Understand and Apply
 
 unit: Introduction to Protégé
 
-description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
+description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
-keywords: WissKI, CIDOC CRM, Ontologie, Domänenontologie, semantische Modellierung, Forschungsdaten, Forschungsdatenmanagement, OER
+keywords: WissKI, CIDOC CRM, ontology, domain ontology, semantic modelling, research data, research data management, OER
 
-community: Wissenschaftliche Kommunikationsinfrastruktur (WissKI) und Sammlungen, Objekte, Datenkompetenzen (SODa)
+community: Scientific Communication Infrastructure (WissKI) and Collections, Objects, Data Literacy (SODa)
 
-PublicationDate: 2026-10-05
+PublicationDate: 2026-11-05
 
-LearningResourceType: SODa How-to-Tutorial
+LearningResourceType: How-to-Tutorial
 
 -->
 
@@ -119,7 +119,7 @@ While watching, pay attention to how the editor distinguishes existing ontology 
 
 **Watch the workflow: Load → Explore → Extend**
 
-!?[Video Demonstration: Getting Started with Protégé](assets/Short_Protege_Intro.mp4)
+!?[Video Demonstration: Getting Started with Protégé](../assets/Short_Protege_Intro.mp4)
 
 ---
 
