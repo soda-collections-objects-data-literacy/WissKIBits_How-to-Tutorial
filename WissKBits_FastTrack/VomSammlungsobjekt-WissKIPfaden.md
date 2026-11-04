@@ -73,10 +73,10 @@ Ausgehend von dem **Beispielobjekt: The Legend of Zelda: A Link to the Past** f�
 |---|---:|
 | Vorbereitung und Orientierung | 5 Min. |
 | 1. Sammlungsobjekt untersuchen und konzeptionelle Skizze erstellen | 10 Min. |
-| 2. Ausgewählte Konzepte auf CIDOC CRM mappen | 15 Min. |
-| 3. Einen Modellausschnitt in Protégé umsetzen und formalisieren | 15 Min. |
-| 4. Ein Draw.io-Diagramm vervollständigen | 15 Min. |
-| 5. WissKI Pathbuilder importieren und prüfen | 20 Min. |
+| 2. Ausgewählte Konzepte auf CIDOC CRM übertragen | 15 Min. |
+| 3. Modellausschnitt in Protégé mit CIDOC CRM formalisieren | 15 Min. |
+| 4. Draw.io-Diagramm vervollständigen | 15 Min. |
+| 5. WissKI Pathbuilder erstellen und prüfen | 20 Min. |
 | 6. Dateineingabefelder prüfen und Daten eingeben | 10 Min. |
 | **Gesamt** | **90 Min.** |
 
