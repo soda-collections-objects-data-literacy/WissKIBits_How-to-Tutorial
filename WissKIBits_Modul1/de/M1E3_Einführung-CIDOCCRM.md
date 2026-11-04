@@ -57,8 +57,8 @@ Teilnehmende können...
 - Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
 - Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
-- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
-- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+- Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
 
 ---
