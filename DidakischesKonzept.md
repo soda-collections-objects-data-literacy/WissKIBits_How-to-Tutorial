@@ -278,11 +278,11 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 **Ü1. Semantische Datenmodelle visualisieren**
 
 - Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
-- Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID LZ-ID SODa\_03\_007\_0813)
+- Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0813)
 - Begriff Visualisierung erläutern. (LZ-ID SODa\_03\_007\_0851)
 - Nutzen von Visualisierungen erläutern. (LZ-ID SODa\_03\_007\_0852)
 - Nutzen einer Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0814) 
-- Software zur Visualisierung einer Domänenontologie unter Anleitung anwenden. (LZ-ID SODa\_03\_007\_0815)
+- unter Anleitung Software zur Visualisierung einer Domänenontologie anwenden. (LZ-ID SODa\_03\_007\_0815)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung benennen. (LZ-ID SODa\_03\_007\_0806)
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Regeln zur Modellierung einer Domänenontologie mit einer Visualisierungssoftware benennen. (LZ-ID SODa\_03\_007\_0820)
