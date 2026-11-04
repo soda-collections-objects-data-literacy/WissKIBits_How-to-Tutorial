@@ -51,8 +51,8 @@ Einheit (E2): **Grundlage von Ontologien**
 
 Teilnehmende können...
 
-- den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
-- den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
+- Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
+- Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
