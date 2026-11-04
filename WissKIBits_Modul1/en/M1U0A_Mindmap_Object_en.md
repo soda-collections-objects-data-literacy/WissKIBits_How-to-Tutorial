@@ -154,6 +154,8 @@ These areas serve as the starting point for recognising different types of **con
 > Open [Draw.io](https://app.diagrams.net/)
 >
 > Right-click the link and "Save link As…" to download the file: [puzzle template](../assets/puzzle.drawio_en.xml)
+>
+> Open "puzzle template" in Draw.io
 
 **Note: You use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
 
