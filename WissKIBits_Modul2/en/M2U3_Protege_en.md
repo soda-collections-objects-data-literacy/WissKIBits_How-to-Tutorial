@@ -111,13 +111,14 @@ Further information and guidance are available on the [**official Protégé webs
 
 The video introduces three basic operations in Protégé:
 
-- **Load:** Open an existing OWL ontology.
-- **Explore:** Navigate the class hierarchy and inspect ontology elements.
-- **Extend:** Create a domain-specific subclass within the existing ontology structure.
+- **Open:** your Protégé working environment.
+- **Load:** an existing OWL ontology, e.g. Erlangen CRM 240920 based on CIDOC-CRM 7.1.3 [http://erlangen-crm.org/240920/](http://erlangen-crm.org/240920/).
+- **Explore:** the class hierarchy and inspect ontology elements.
+- **Extend:** the existing ontology structure with a domain-specific subclasses.
 
 While watching, pay attention to how the editor distinguishes existing ontology elements from newly created classes.
 
-**Watch the workflow: Load → Explore → Extend**
+**Watch the workflow: Open → Load → Explore → Extend**
 
 !?[Video Demonstration: Getting Started with Protégé](../assets/Short_Protege_Intro.mp4)
 
