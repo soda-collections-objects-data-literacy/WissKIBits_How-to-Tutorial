@@ -140,8 +140,8 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 **Übergang zur nächsten Übung:** In der nächsten Übung erarbeiten Sie eine angemessene Repräsentation dieser Kernmerkmale durch **bestehende CIDOC-CRM-Klassen**.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
-> - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
-> - [M1U1: Basic in Conceptual Knowledge Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
+> - [M1E0A: Anwendungsbeispiel: Objektsammlung]()
+> - [M1E1: Grundbegriffe konzeptueller Wissensmodellierung]()
 
 ---
 
