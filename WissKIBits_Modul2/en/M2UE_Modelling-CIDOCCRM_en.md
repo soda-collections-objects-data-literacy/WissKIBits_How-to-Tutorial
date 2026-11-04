@@ -44,7 +44,7 @@ Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
 Unit Exercise (UE): **Semantic Modelling with CIDOC CRM**  
 
-**Duration:** ~ 45 min.
+**Duration:** ~ 55 min.
 
 **Learning Objectives:**
 
