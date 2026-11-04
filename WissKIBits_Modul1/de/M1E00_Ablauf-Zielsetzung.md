@@ -147,8 +147,8 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 ### E2. Grundlagen von Ontologien
    
-- den Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
-- den Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
+- Begriff Ontologie benennen. (LZ-ID SODa\_03\_007\_0826)
+- Begriff Ontologie erläutern. (LZ-ID 03\_007\_0775)
 - Aspekte von Ontologien benennen. (LZ-ID 03\_007\_0776)
 - Begriff Klassen (Classes/Concepts) benennen. (LZ-ID SODa\_03\_007\_0829)
 - Begriff Klassen (Classes/Concepts) erläutern. (LZ-ID SODa\_03\_007\_0830)
@@ -168,8 +168,8 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Begriff Scope Notes benennen. (LZ-ID SODa\_03\_007\_0837)
 - Begriff Scope Notes erläutern. (LZ-ID SODa\_03\_007\_0838)
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
-- den Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
-- den Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
+- Begriff Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0827)
+- Begriff Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0828)
 - Nutzen des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0805)
  
 ### E4. FAIR-Konformität mit WissKI
