@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Activation Unit (U1A): **Preparing to work with Protégé**  
+Activation Unit (U2A): **Preparing to work with Protégé**  
 
 **Duration:** ~ 15 min.
 
