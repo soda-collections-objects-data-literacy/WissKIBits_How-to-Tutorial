@@ -129,7 +129,7 @@ After completing module 2, participants will be able to…
 ### U1A. Setting up the Working Environment with Protégé
 
 - name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
-- use software for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- apply software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
 - analyse their own experience with software used for creating ontologies. (LO-ID SODa\_03\_007\_0857)
 
 
