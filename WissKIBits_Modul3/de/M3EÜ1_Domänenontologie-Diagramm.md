@@ -52,7 +52,7 @@ Modul 3 (M3): **Vom Diagramm zu Pfaden – Erläutern und anwenden**
 Teilnehmende können...
 
 - Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
-- Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID LZ-ID SODa\_03\_007\_0813)
+- Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0813)
 - Begriff Visualisierung erläutern. (LZ-ID SODa\_03\_007\_0851)
 - Nutzen von Visualisierungen erläutern. (LZ-ID SODa\_03\_007\_0852)
 - Nutzen einer Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0814) 
