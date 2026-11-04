@@ -106,7 +106,7 @@ Die Teilnehmenden lernen,
 |---|---|---:|
 | M2E0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
 | M2E1 | Methoden und Workflows semantischer Modellierung | 5 Min. |
-| M2E1A | Aktivierung: Arbeitsumgebung mit Protégé vorbereiten | 15 Min. |
+| M2E2A | Aktivierung: Arbeitsumgebung mit Protégé vorbereiten | 15 Min. |
 | M2E2 | Einführung in Protégé | 10 Min. |
 | M2EÜ | Übung: Semantische Modellierung mit CIDOC CRM | 55 Min. |
 | | **Gesamt** | **90 Min.** |
@@ -126,7 +126,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
 
-### E1A. Arbeitsumgebung mit Protégé vorbereiten
+### E2A. Arbeitsumgebung mit Protégé vorbereiten
 
 - Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
 - Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
