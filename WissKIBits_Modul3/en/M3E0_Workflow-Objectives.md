@@ -97,7 +97,7 @@ The goal is to understand and complete the workflow from a semantic model to a u
 | Unit | Content | Duration |
 |---|---|---:|
 | M3U0 | Welcome, workflow and objectives| 10 min. |
-| M3UE1 | Visualising semantic data models | 35 min. |
+| M3UE1 | Visualising a semantic domain ontology | 35 min. |
 | M3UE2 | Transforming semantic models into WissKI paths | 45 min. |
 |  | **Total** | **90 min.** |
 
@@ -107,7 +107,7 @@ The goal is to understand and complete the workflow from a semantic model to a u
 
 After completing module 3, participants will be able to…
 
-### UE1. Visualising Semantic Data Models
+### UE1. Visualising a Semantic Domain Ontology
 
 - name software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0812)
 - explain software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0813)
