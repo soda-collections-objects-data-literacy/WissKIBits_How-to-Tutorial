@@ -323,7 +323,7 @@ Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die au
 
 ### Schritt 1: Das vorbereitete Diagramm vervollständigen
 
-> 1. Laden Sie das vorbereitete **[Draw.io-Lückendiagramm](assets/Gruppe_B.drawio.xml)** herunter.
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](assets/Gruppe_B.drawio.xml) und wählen Sie **„Link speichern unter …“**, um die vorbereitete Datei herunterzuladen.
 > 2. Öffnen Sie die heruntergeladene XML-Datei in **[Draw.io](https://app.diagrams.net/)**.
 > 3. Suchen Sie nach **vier** Platzhaltern `(???)`.
 > 4. Ersetzen Sie diese Platzhalter `(???)` durch folgende Klassen und Beziehungen:
