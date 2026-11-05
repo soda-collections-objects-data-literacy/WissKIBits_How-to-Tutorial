@@ -55,7 +55,7 @@ Participants will be able to...
 
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)
-- name aspects of ontologies. (LO-ID 03\_007\_0776)
+- name aspects of ontology. (LO-ID 03\_007\_0776)
 - name the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0829)
 - explain the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0830)
 - name the term instances (instances). (LO-ID SODa\_03\_007\_0833)
