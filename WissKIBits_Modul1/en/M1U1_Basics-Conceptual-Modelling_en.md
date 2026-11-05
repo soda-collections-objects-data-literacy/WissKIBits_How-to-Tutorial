@@ -192,7 +192,7 @@ You identified **concepts, events, and relationships** in your own model sketch 
 
 Conceptual knowledge modelling structures the relevant domain knowledge using concepts, events, and relationships. 
 
-In U0A, you created a first conceptual model sketch from information about a collection object.
+In [M1U0A: Mindmap of the Application Example from Object Collections](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) you created a first conceptual model sketch from information about a collection object.
 
 In this unit, you have introduced the terminology needed to describe what happened during this process:
 
