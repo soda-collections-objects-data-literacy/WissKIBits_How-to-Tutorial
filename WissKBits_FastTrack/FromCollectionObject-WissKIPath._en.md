@@ -331,6 +331,9 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 You will now continue working with the [**GNM Service**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) to convert the XML diagram into a **WissKI Pathbuilder XML configuration**
 
+
+![GNM Service](assets/gnm_service.png)
+
 ---
 
 ### Step 1: Convert the Draw.io XML File into a Pathbuilder XML File
