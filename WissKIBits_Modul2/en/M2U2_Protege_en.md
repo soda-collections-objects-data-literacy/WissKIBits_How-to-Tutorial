@@ -53,7 +53,7 @@ Participants will be able to...
 - name software used for creating ontologies. (LO-ID SODa\_03\_007\_0809)
 - explain software used for creating ontologies. (LO-ID SODa\_03\_007\_0810)
 - name Erlangen CRM / OWL as the OWL implementation of the CIDOC CRM reference model.(LO-ID SODa\_03\_007\_0841)
-- use software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
+- apply software used for creating ontologies. (LO-ID SODa\_03\_007\_0840)
 - name methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0784a)
 - explain methods for modelling a domain ontology using the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0785a)
 
