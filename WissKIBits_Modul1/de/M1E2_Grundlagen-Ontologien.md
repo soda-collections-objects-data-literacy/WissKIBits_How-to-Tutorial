@@ -22,7 +22,7 @@ title: WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
 module: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären
 
-unit: Grundlage von Ontologien
+unit: Grundlagen von Ontologien
 
 description: Das SODa How-to-Tutorial vermittelt am Beispiel einer Computerspielsammlung Grundlagen und praktische Arbeitsschritte der ontologiegestützten Modellierung von Forschungsdaten. Die Lernenden entwickeln ein semantisches Datenmodell auf Grundlage des CIDOC CRM und setzen dieses schrittweise mit Protégé, Draw.io und WissKI um.
 
@@ -43,7 +43,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 1 (M1): **Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**
 
-Einheit (E2): **Grundlage von Ontologien**  
+Einheit (E2): **Grundlagen von Ontologien**  
 
 **Dauer:**  ~ 10 Min.
 
