@@ -128,7 +128,7 @@ By the end of the module, you will be able to:
 
 After completing module 1, participants will be able to...
 
-### UA0. Application Example from Object Collections
+### U0A. Application Example from Object Collections
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa_03_007_0811)
 - apply the method of conceptual knowledge modelling to describe a research object. (LO-ID SODa_03_007_0856)
