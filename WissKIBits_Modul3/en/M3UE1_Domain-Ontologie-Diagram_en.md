@@ -56,7 +56,7 @@ Participants will be able to...
 - explain the concept of visualisation. (LO-ID SODa\_03\_007\_0851)
 - explain the benefits of visualisations. (LO-ID SODa\_03\_007\_0852)
 - name the benefits of software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0814) 
-- use with guidance software for visualising a domain ontology. (LO-ID SODa\_03\_007\_0815)
+- apply software for visualising a domain ontology with guidance. (LO-ID SODa\_03\_007\_0815)
 - name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name rules for modelling a domain ontology using visualisation software. (LO-ID SODa\_03\_007\_0820)
