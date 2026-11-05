@@ -89,9 +89,9 @@ The schedule assumes that you are familiar with the fundamentals of semantic mod
 Relevant supplementary materials are linked where appropriate. 
 
 The complete modules are available in English and German:
-- [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
-- [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
-- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
+- [Module 1: From Collection to Modelling Decisions to Diagram – Understand and Explain](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
+- [Module 2: Modelling with CIDOC CRM – Understand and Apply](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
+- [Module 3: From Diagram to Paths – Explain and Apply](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
 ---
 
@@ -142,8 +142,8 @@ You may include additional metadata (e.g. place and date of publication) where r
 **Transition to the next exercise:** In the next exercise, you will explore how to appropriately represent these key characteristics using **existing CIDOC CRM classes**.
 
 > **For further information, see Module 1, including:**
-> - [M1U0A: Mindmap of the Application Example from Object Collections](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md)
-> - [M1U1: Basics in Conceptual Knowledge Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md)
+> - [M1U0A: Mindmap of the Application Example from Object Collections](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1)
+> - [M1U1: Basic Concepts of Conceptual Knowledge Modelling](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1)
 
 ---
 
