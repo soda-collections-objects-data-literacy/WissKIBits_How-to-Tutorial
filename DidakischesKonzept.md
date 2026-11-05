@@ -151,7 +151,7 @@ Die drei Module bauen aufeinander auf. Für den vollständigen Lernpfad wird dah
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
 | 0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| Ü1 | Semantische Datenmodelle visualisieren | 35 Min. |
+| Ü1 | Semantische Domänenontologie visualisieren | 35 Min. |
 | Ü2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
@@ -275,7 +275,7 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 Nach Abschluss von Modul 3 können die Teilnehmenden…
 
-**Ü1. Semantische Datenmodelle visualisieren**
+**Ü1. Semantische Domänenontologie visualisieren**
 
 - Software zur Visualisierung einer Domänenontologie benennen. (LZ-ID SODa\_03\_007\_0812)
 - Software zur Visualisierung einer Domänenontologie erläutern. (LZ-ID SODa\_03\_007\_0813)
