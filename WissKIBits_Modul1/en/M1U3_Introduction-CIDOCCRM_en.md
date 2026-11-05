@@ -50,8 +50,8 @@ Unit 3 (U3): **Introduction to CIDOC CRM**
 
 Participants will be able to...
 
-- name an ontology for describing resources. (LO-ID 03\_007\_0778)
-- explain an ontology for describing resources. (LO-ID 03\_007\_0779)
+- name ontologies to describe resources. (LO-ID 03\_007\_0778)
+- explain ontologies to describe resources. (LO-ID 03\_007\_0779)
 - name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
 - explain the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0807)
 - name the term Scope Notes. (LO-ID SODa\_03\_007\_0837)
