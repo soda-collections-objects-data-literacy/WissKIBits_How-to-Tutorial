@@ -364,6 +364,8 @@ Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die au
 
 Sie arbeiten nun mit dem [**GNM Service**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) um den Draw.io XML-Export in eine **WissKI Pathbuilder XML Konfiguration** umzuwandeln.
 
+![GNM Service](assets/gnm_service.jpg)
+
 ---
 
 ### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
