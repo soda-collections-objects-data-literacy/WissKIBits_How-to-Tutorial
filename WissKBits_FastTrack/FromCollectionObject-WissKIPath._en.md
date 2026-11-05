@@ -293,7 +293,7 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 ### Step 1: Complete the Prepared Diagram
 
-> 1. Download the prepared **[Draw.io diagram with missing elements](assets/Gruppe_B.drawio.xml)**.
+> 1. Right-click the [**Draw.io Gap-Fill Diagram**](assets/Gruppe_B.drawio.xml) link and select **“Save link as…”** to download the prepared file.
 > 2. Open the downloaded XML file in **[Draw.io](https://app.diagrams.net/)**.
 > 3. Find the **four** placeholders `(???)`.
 > 4. Replace these placeholders `(???)` with the following classes and properties:
@@ -316,11 +316,9 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 > - All connections between nodes and properties are complete.
 > - Class and property labels, as well as the required attribute values, are consistent and correspond to the [model solution: Game Characteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
 
-**Result:** A [Draw.io XML export](assets/WissKIBits.drawio.xml) based on the completed Draw.io diagram:
+**Result:** A [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) based on the completed Draw.io diagram:
 
 ![Model solution of the ontology diagram](assets/WissKIBits.drawio.png)
-
-**Transition to the next exercise:** Next, you will use the **GNM Service** to convert the XML diagram into a **WissKI Pathbuilder XML configuration**, which you will then import into WissKI for further use.
 
 > **For further information, see Module 3, including:**
 > - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
@@ -331,16 +329,17 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 **Starting Point**
 
-You will now continue working with the model solution [Draw.io XML-Export](assets/WissKIBits.drawio.xml) and the [GNM Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder).
+You will now continue working with the [**GNM Service**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder) to convert the XML diagram into a **WissKI Pathbuilder XML configuration**
 
 ---
 
 ### Step 1: Convert the Draw.io XML File into a Pathbuilder XML File
 
 > 1. Open the [GNM Service: Draw.io Diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) in your browser.
-> 2. Upload your Draw.io XML export or the model solution [Draw.io XML export](assets/WissKIBits.drawio.xml) under **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
-> 3. Start the conversion and check the status of the uploaded file.
-> 4. If the conversion is successful, you will need one of the following links **later in WissKI** (6: Create a WissKI Pathbuilder – Step 2: Create and Import the Pathbuilder):
+> 2. Upload **your Draw.io XML export file** or use the model solution [Exported to XML from diagrams.net](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) here: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 3. Start the transformation and submit **Transform to pathbuilder XML**.
+> 4. Check the status of the transformation.
+> 5. **If the transformation is successful**, you will need one of the following links **later in WissKI** (6: Create a WissKI Pathbuilder – Step 2: Create and Import the Pathbuilder):
 >    - a copy of the link to your **Pathbuilder XML Output: Download XML file**, or
 >    - a copy of the link to the model solution: [**Example Output Pathbuilder XML File**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml).
 
