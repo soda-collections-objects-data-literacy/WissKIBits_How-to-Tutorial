@@ -50,7 +50,7 @@ Unit Exercise (UE): **Semantic Modelling with CIDOC CRM**
 
 Participants will be able to...
 
-- apply an ontology to describe resources. (LO-ID 03\_007\_0780)
+- apply ontologies to describe resources. (LO-ID 03\_007\_0780)
 - apply methods for developing ontologies. (LO-ID SODa\_03\_007\_0854)
 - apply a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0627)
 - apply methods for modelling a domain ontology using the CIDOC CRM reference model under guidance. (LO-ID SODa\_03\_007\_0786a)
