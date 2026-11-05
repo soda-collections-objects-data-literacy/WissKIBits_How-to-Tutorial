@@ -217,7 +217,7 @@ Upon completion of Module 1, participants will be able to…
    
 - name the term ontology. (LO-ID SODa\_03\_007\_0826)
 - explain the term ontology. (LO-ID 03\_007\_0775)
-- name aspects of ontologies. (LO-ID 03\_007\_0776)
+- name aspects of ontology. (LO-ID 03\_007\_0776)
 - name the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0829)
 - explain the term classes (classes/concepts). (LO-ID SODa\_03\_007\_0830)
 - name the term instances (instances). (LO-ID SODa\_03\_007\_0833)
@@ -229,8 +229,8 @@ Upon completion of Module 1, participants will be able to…
 
 **U3. Introduction to CIDOC CRM**
 
-- name an ontology for describing resources. (LO-ID 03\_007\_0778)
-- explain an ontology for describing resources. (LO-ID 03\_007\_0779)
+- name ontologies to describe resources. (LO-ID 03\_007\_0778)
+- explain ontologies to describe resources. (LO-ID 03\_007\_0779)
 - name the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0806)
 - explain the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0807)
 - name the term Scope Notes. (LO-ID SODa\_03\_007\_0837)
@@ -243,7 +243,7 @@ Upon completion of Module 1, participants will be able to…
 **U4. FAIR Compliance with WissKI**
 
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
-- name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
+- name appropriate technologies to support the application of the FAIR principles. (LO-ID 01\_007\_0121)
 - name the FAIR principles. (LO-ID 01\_007\_0117)
 - name the 5-star model for open data. (LO-ID SODa\_01\_008\_0158a)
 - name the W3C Web Ontology Language (OWL) as a formal description language. (LO-ID SODa\_03\_007\_0842)
