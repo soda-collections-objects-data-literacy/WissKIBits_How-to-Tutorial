@@ -321,7 +321,7 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 ![Model solution of the ontology diagram](assets/WissKIBits.drawio.png)
 
 > **For further information, see Module 3, including:**
-> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
+> - [M3UE1: Visualising a Semantic Domain Ontology](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1)
 
 ---
 
@@ -376,10 +376,18 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 ### Step 2: Create and Import the Pathbuilder
 
 > 1. Navigate to **Configuration → WissKI → Pathbuilders**.
-> 2. Select **Add Pathbuilder**, enter a unique name and select the appropriate adapter.
-> 3. Save the new Pathbuilder.
-> 4. Open the new Pathbuilder again, locate **Pathbuilder Definition Import**, insert the generated **Pathbuilder XML Output: Download XML file** and start the import.
-> 5. Wait until the Pathbuilder structure appears.
+> 2. Select **Add Pathbuilder**, enter a unique name, and save the new Pathbuilder **without form generation**.
+> 3. Go to **Import Templates**:
+>    - Open the **[GNM Service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)** and the **output Pathbuilder XML** in a new browser tab to copy the URL of [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml).
+>    - Under **Pathbuilder Definition Import**, paste the copied URL of [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml).
+>    - Click **Import**.
+> 4. Once the import is successful, the root node **Computer Game** of your Pathbuilder will appear.
+>    - Under **Operations**, click **Edit**.
+>    - The **Computer Game** path group will open.
+>    - Click **Save** without making any changes.
+>    - Click **Save** again to return to the root node **Computer Game** of your Pathbuilder.
+
+To display the complete Pathbuilder structure, click the expand arrow **>** next to the **Computer Game** node.
 
 ![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
 
@@ -391,13 +399,13 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 > 2. Check whether:
 >    - the expected path groups are present.
 >    - the relevant classes and properties are included.
->    - any paths are missing, incorrectly grouped or appear unexpectedly.
+>    - any paths are missing, incorrectly grouped, or appear unexpectedly.
 > 3. Document your results and archive the relevant files. 
 
-**Result:** A generated, imported and **verified WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
+**Result:** A generated, imported, and **verified WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
 
 > **For further information, see Module 3, including:**
-> - [M3UE2: Transforming Semantic Models into WissKI Paths](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
+> - [M3UE2: Transforming Semantic Models into WissKI Paths](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
 
 ---
 
