@@ -171,29 +171,9 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 
-**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname zur Benennung Ihres Domänenkonzeptes reicht nicht aus um eine semantisch korrekte Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. Geeignete Konzepte können sein: 
-- `E73 Information Object`,
-- `E35 Title`,
-- `E55 Type`,
-- `E21 Person` oder
-- `E74 Group`.
+**Wichtig:** Ein ähnlich klingender CIDOC CRM Klassenname zur Benennung Ihres Domänenkonzeptes reicht nicht aus um eine semantisch korrekte Zuordnung zu erreichen. Vergleichen Sie immer die beabsichtigte Bedeutung jedes Konzepts mit der **Scope Note** der jeweiligen CIDOC CRM Klasse und treffen Sie dann eine Modellierentscheidung. 
 
-
-## Übung – CIDOC-CRM-Klassen zuordnen
-
-Vergleichen Sie die Domänenkonzepte aus Ihrer Modellskizze mit den Klassen von CIDOC CRM.
-
-Prüfen Sie die jeweiligen Scope Notes und dokumentieren Sie Ihre Entscheidungen.
-
-| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Frage |
-|---|---|---|---|
-| Spieletitel | E35 Title | Zu prüfen | Gibt es eine andere geeignete Klasse? |
-| Computerspiel | ... | ... | ... |
-| Spielgenre | ... | ... | ... |
-| Plattformtyp | ... | ... | ... |
-| Spieledition | ... | ... | ... |
-
-### Mögliche Lösung
+**Musterlösung**
 
 Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgenden Vorschlag.
 
@@ -211,43 +191,6 @@ Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgend
 | Plattformtyp | E55 Type | Abhängig vom Modellierungskontext | Wird das Spiel, eine Edition oder eine technische Plattform klassifiziert? |
 | Spieledition | E73 Information Object | Zu prüfen | Eine Edition kann als eigenständiges Informationsobjekt betrachtet werden. Wie wird sie vom Spiel abgegrenzt? |
 
-
-## Übung – Domänenkonzepte CIDOC CRM zuordnen
-
-Ordnen Sie ausgewählte Domänenkonzepte aus Ihrer Modellskizze geeigneten CIDOC-CRM-Klassen zu. Prüfen Sie die jeweiligen Scope Notes und begründen Sie Ihre Entscheidungen.
-
-| Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Fragen |
-|---|---|---|---|
-| Spieletitel | E35 Title | Zu prüfen | Gibt es eine andere geeignete Klasse? |
-| Ihr Domänenkonzept | ... | ... | ... |
-| Ihr Domänenkonzept | ... | ... | ... |
-| Ihr Domänenkonzept | ... | ... | ... |
-| Ihr Domänenkonzept | ... | ... | ... |
-
-**Wichtig:** Ein ähnlich klingender CIDOC-CRM-Klassenname reicht für eine semantisch korrekte Zuordnung nicht aus. Vergleichen Sie die beabsichtigte Bedeutung Ihres Domänenkonzepts immer mit der **Scope Note** der jeweiligen CIDOC-CRM-Klasse.
-
-Mögliche Klassen sind:
-
-- `E73 Information Object`
-- `E35 Title`
-- `E55 Type`
-- `E21 Person`
-- `E74 Group`
-
-### Mögliche Lösung
-
-<details>
-<summary>Mögliche Lösung anzeigen</summary>
-
-| Domänenkonzept | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Fragen |
-|---|---|---|---|
-| Spieletitel | E35 Title | Ja, sofern ein Titel gemeint ist | Welcher Entität wird der Titel zugeordnet? |
-| Computerspiel | E73 Information Object | Abhängig vom Kontext | Wird das Spiel als Informationsobjekt modelliert? |
-| Spielgenre | E55 Type | Ja, als Klassifikation | Welche Entität wird klassifiziert? |
-| Plattformtyp | E55 Type | Abhängig vom Kontext | Wird das Spiel oder eine Edition klassifiziert? |
-| Spieledition | E73 Information Object | Zu prüfen | Wie wird die Edition vom Spiel abgegrenzt? |
-
-</details>
 
 ---
 
