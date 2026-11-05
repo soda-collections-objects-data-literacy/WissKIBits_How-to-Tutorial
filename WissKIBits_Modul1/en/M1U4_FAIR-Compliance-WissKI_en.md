@@ -51,7 +51,7 @@ Unit 4 (U4): **FAIR Compliance with WissKI**
 Participants will be able to...
 
 - explain (inter)national IT infrastructures relevant to collection-related research data management (RDM). (LO-ID SODa\_01\_010\_0203)
-- name suitable technologies that support the application of the FAIR principles. (LO-ID 01\_007\_0121)
+- name appropriate technologies to support the application of the FAIR principles. (LO-ID 01\_007\_0121)
 - name the FAIR principles. (LO-ID 01\_007\_0117)
 - name the 5-star model for open data. (LO-ID SODa\_01\_008\_0158a)
 - name the W3C Web Ontology Language (OWL) as a formal description language. (LO-ID SODa\_03\_007\_0842)
