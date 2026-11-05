@@ -362,14 +362,14 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 > 1. Log in to your WissKI test instance.
 > 2. Navigate to **Configuration → WissKI → WissKI Ontology**.
 > 3. Delete the existing default ontology: **Delete ontology**
-> 4. Load the [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf) via its URL under **Pathbuilder Definition Import**.
+> 4. Load the [Game Charcteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)  via its URL under **Pathbuilder Definition Import**.
 > 5. Update the **WissKI SALZ Adapter**:
 >    - Navigate to **Configuration → WissKI → WissKI Salz Adapters**.
->    - Edit the **Default Salz Adapter** and go to **Compute Type and Property Hierarchy and Domains and Ranges**.
->    - Delete the existing reasoning table using **Delete Reasoning Table**.
->    - Recompute the reasoning table using **Re-Compute results** and **Start Reasoning**.
->    - Update the adapter using **Update Adapter**.
-> 6. Navigate to **WissKI → Tools → Flush all caches** and clear the cache using **Clear all caches**.
+> 6. Edit the **Default Salz Adapter** and go to **Compute Type and Property Hierarchy and Domains and Ranges**.
+>    - Delete the existing reasoning table using **Delete reasoning tables**.
+>    - Recompute the reasoning table selecting **Re-Compute results** and **Start Reasoning**.
+>    - Update the adapter **Update Adapter**.
+> 7. Navigate to **Tools → Flush all caches**.
 
 ---
 
