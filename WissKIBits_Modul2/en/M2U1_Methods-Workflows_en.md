@@ -50,7 +50,7 @@ Unit 1 (U1): **Methods and Workflows of Semantic Modelling**
 
 Participants will be able to...
 
-- name methods for developing ontologies. (LO-ID 03\_007\_0784)
+- name methods to develope ontologies. (LO-ID 03\_007\_0784)
 - explain methods for developing ontologies. (LO-ID SODa\_03\_007\_0839)
 - name a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0626)
 - explain a workflow for semantic modelling as data documentation. (LO-ID SODa\_03\_001\_0853)
