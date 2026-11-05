@@ -398,11 +398,11 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 > 4. Laden Sie die [Games-Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) hier **Pathbuilder Definition Import** über die URL.
 > 5. Aktualisieren Sie den **WissKI Salz Adapter**:
 >    - Navigieren Sie **Configuration → WissKI → WissKI Salz Adapters**
->    - Editieren Sie den **Default Salz Adapter** und gehe zu **Compute Type and Property Hierarchy and Domains and Ranges**
->    - Lösche die bestehende Schlussfolgerungstabelle: **Delete Reasoning Table**
+> 6. Editieren Sie mit **Edit** den **Default Salz Adapter** und scrollen Sie zu **Compute Type and Property Hierarchy and Domains and Ranges**
+>    - Löschen Sie die bestehende Schlussfolgerungstabelle mit **Delete reasoning tables**
 >    - Berechnen Sie die Schlussfolgerungstabelle neu mit **Re-Compute results** und **Start Reasoning**
->    - Aktualisieren Sie den Adapter **update adapter**.
-> 6. Navigieren Sie zu **WissKI → Tools → Flush all caches** und leeren Sie den Cache mit **Clear all caches**.
+>    - Aktualisieren Sie den Adapter **Update adapter**.
+> 7. Navigieren Sie zu **Tools → Flush all caches**.
 
 ---
 
