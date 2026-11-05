@@ -409,10 +409,18 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 ### Schritt 2: Pathbuilder erstellen und importieren
 
 > 1. Navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
-> 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und wählen Sie den vorgesehenen Adapter.
-> 3. Speichern Sie den neuen Pathbuilder.
-> 4. Öffnen Sie den neuen Pathbuilder erneut, suchen Sie **Pathbuilder Definition Import**, fügen Sie die erzeugte **Pathbuilder XML Output: Download XML file** ein und starten Sie den Import.
-> 6. Warten Sie, bis die Pathbuilder-Struktur erscheint.
+> 2. Wählen Sie **Add Pathbuilder**, vergeben Sie einen eindeutigen Namen und speichern Sie den neuen Pathbuilder **without form generation**.
+> 3. Gehen Sie zu **Import Templates**
+>    - Öffnen Sie den **[GNM-Service**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) und den **output Pathbuilder XML** in einem neuen Browser-Tab um die URL des [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) zu kopieren.
+>    - Fügen Sie hier **Pathbuilder Definition Import** die kopierte URL des [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) ein.
+>    - Klicken Sie **Import**
+> 5. Bei erfolgreichem Import sehen Sie den Startknoten **Computer Game** Ihres Pathbuilders. 
+>    - Gehen Sie bei **Operations** auf **Edit**
+>    - Die Pfadgruppe **Computer Game** öffnet sich.
+>    - Klicken Sie **Save** ohne Änderungen vorzunehmen.
+>    - Klicken Sie erneut **Save** um auf den Startknoten **Computer Game** Ihres Pathbuilders zurückzukehren.
+
+Um den vollsändigen Pathbuilder anzuzeigen klicken Sie auf das Aufklappdreieck **>**
 
 ![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
 
@@ -430,9 +438,6 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
-> 8. Editieren Sie den Starknoten **Computer Game** und speichern Sie erneut.
-
-
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
 - [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
 
@@ -442,9 +447,11 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 
 Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen.
 
-> Navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
-> Editieren Sie Ihren Pathbuilder und speichern Sie **save and generate bundles und fields**.
-> Danach können Sie auf der WissKI Seite unter **Create** Daten eingeben.
+> 6. Generieren Sie nun die **Bundles and fields**
+>   - Wenn Sie nicht im Pathbuilder sind, navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
+>   - Klicken Sie auf **Save and generate bundles and fields**
+>   - Gehen Sie bei Startknoten **Computer Game** Ihres Pathbuilders zu **Operations** und auf **Edit**.
+>    - Klicken Sie **Save** ohne Änderungen vorzunehmen.
 
 **Ergebnis:** Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
 
