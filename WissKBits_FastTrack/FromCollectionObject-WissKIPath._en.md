@@ -132,7 +132,7 @@ You may include additional metadata (e.g. place and date of publication) where r
 
 ### Step 1: Complete the Puzzle
 
-> 1. Save the prepared **[XML puzzle](assets/puzzle.drawio_en.xml)** to your computer.
+> 1. Right-click the [**Puzzle Template**](assets/puzzle.drawio_en.xml) link and select **“Save link as…”** to download the provided puzzle file.
 > 2. Open the downloaded **puzzle file** in **[Draw.io](https://app.diagrams.net/)**.
 > 3. **Examine, arrange and connect** only the relevant characteristics to create a meaningful conceptual model sketch.
 > 4. Check whether your conceptual model sketch expresses meaningful statements about the characteristic features of the example object.
