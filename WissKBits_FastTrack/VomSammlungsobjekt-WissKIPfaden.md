@@ -203,10 +203,10 @@ Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgend
 Als Nächstes werden Sie Ihre Modellierungsentscheidungen in Protégé umsetzen, indem Sie **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen festlegen und damit einen Ausschnitt Ihres semantischen Modells formalisieren.
 
 > **Zur Vertiefung siehe Modul 1 (Dauer 90 Minuten):**
-> - [M1E00 Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1)
-> - [M1E0A Anwendungsbeispiel: Sammlungsobjekt „Zelda“](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
-> - [M1E1 Grundbegriffe konzeptueller Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1)
-> - [M1E2 Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1)
+> - [M1E00: Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1)
+> - [M1E0A: Anwendungsbeispiel: Sammlungsobjekt „Zelda“](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
+> - [M1E1: Grundbegriffe konzeptueller Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1)
+> - [M1E2: Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1)
 > - [M1E3: Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1)*
 
 ---
@@ -303,11 +303,11 @@ Das WissKI-Bits-How-to-Tutorial verwendet unter anderem folgende bestehende CIDO
 **Übergang zur nächsten Übung:** In der nächsten Übung verwenden Sie das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
 > **Zur Vertiefung siehe Modul 2 (Dauer 90 Minuten):**
-> - [M2E0 Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0_Ablauf-Zielsetzung.md#1)
-- [M2E1 Methoden und Workflows semantischer Modellierung](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md)
+> - [M2E0: Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0_Ablauf-Zielsetzung.md#1)
+- [M2E1: Methoden und Workflows semantischer Modellierung](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md)
 > - [M2E2A: Arbeitsumgebung mit Protégé vorbereiten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1)
 > - [M2E2: Einführung in Protégé](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
-> - [M2EÜ  Semantische Modellierung mit CIDOC CRM](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md)
+> - [M2EÜ:  Semantische Modellierung mit CIDOC CRM](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md)
 
 ---
 
@@ -317,7 +317,7 @@ Das WissKI-Bits-How-to-Tutorial verwendet unter anderem folgende bestehende CIDO
 
 Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die ausgewählten Klassen und Beziehungen einer Domänenontologie für Videospiele visualisiert (siehe folgende Abbildung):
 
-![Draw.io Lückendiagramm der](assets/Gruppe_B.dawio.png)
+![Draw.io Lückendiagramm der](assets/Gruppe_B.drawio.png)
 
 ---
 
@@ -347,15 +347,16 @@ Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die au
 > - Das Diagramm enthält **Klassen und Eigenschaften** die Pfade und Pfadgruppen aber keine einzelnen Instanzen repräsentieren.
 > - Alle vier Platzhalter `(???)` wurden ersetzt. 
 > - Die Verbindungen der Knoten und Beziehungen sind vollständig.
-> - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent und entsprechen der [Musterlösung: Games Charcteristics](https://games.m-e-g-a.org/ontology/game_characteristics/Game_characteristics_v1.0.3.rdf).
+> - Klassen- und Eigenschaftsbezeichnungen sowie die erforderlichen Attributewerte sind konsistent und entsprechen der [Musterlösung: Games Charcteristics](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
 
 **Ergebnis:** Ein [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) basierend auf dem vervollständigten Draw.io-Diagramm:
 
 ![Musterlösung des Ontologie-Diagramms](assets/WissKIBits.drawio.png) 
 
-> **Zur Vertiefung, siehe Modul 3, u.a.:**
-> - [M3UE1: Visualising a Semantic Domain Ontology](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md)
-
+> **Zur Vertiefung, siehe Modul 3 (Dauer 90 Minuten):**
+> - [M3E0: Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E0_Ablauf-Zielsetzung.md#1)
+> - [M3Ü1: Semantische Domänenontologie visualisieren](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C1_Dom%C3%A4nenontologie-Diagramm.md#1)
+> - [M3Ü2: Transformation semantischer Modelle in WissKI-Pfade](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C2_Drawio-to-WissKI-Paths.md#1)
 ---
 
 ## 5. WissKI-Pfade umwandeln und importieren - 20 Min.
@@ -371,10 +372,10 @@ Sie arbeiten nun mit dem [**GNM Service**](https://isl.ics.forth.gr/gnm_services
 ### Schritt 1: Die Draw.io-XML-Datei in Pathbuilder-XML-Datei umwandeln
 
 > 1. Öffnen Sie den [GNM-Service: Draw.io diagrams to WissKI Pathbuilders](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) im Browser.
-> 2. Laden Sie **Ihren Draw.io XML-Export** oder die Musterlösung [Exported to XML from diagrams.net](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
-> 4. Starten Sie die Transformation und klicken Sie  **Transform to pathbuilder XML**.
-> 5. Prüfen Sie den Status der Transformation.
-> 6. Wenn die Tranformation erfolgreich war, benötigen Sie **später in WissKI** (siehe 6. WissKi Pathbuilder erstellen - Schritt 2: Pathbuilder erstellen und importieren)
+> 2. Laden Sie **Ihren Draw.io XML-Export** oder die Musterlösung [Exported to XML from diagrams.net](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) (Klicken Sie mit der rechten Maustaste auf den folgenden Link und wählen Sie **„Link speichern unter …“** um die bereitgestellte Musterlösung herunter zu laden.) hier hoch: **Upload draw.io XML file for conversion to WissKI Pathbuilder XML**.
+> 3. Starten Sie die Transformation und klicken Sie  **Transform to pathbuilder XML**.
+> 4. Prüfen Sie den Status der Transformation.
+> 5. Wenn die Tranformation erfolgreich war, benötigen Sie **später in WissKI** (siehe 6. WissKi Pathbuilder erstellen - Schritt 2: Pathbuilder erstellen und importieren)
 >    - die Kopie des Links Ihres **Pathbuilder XML Output: Download XML file** oder
 >    - die Kopie des Links der Musterlösung [**Example output Pathbuilder XML file**](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml)
 
@@ -386,10 +387,11 @@ Sie arbeiten nun mit dem [**GNM Service**](https://isl.ics.forth.gr/gnm_services
 
 Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
-Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantragen: **https://manager.scs.sammlungen.io**
+Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantragen: [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io)
 
 ---
 
+<!-- 
 ### Schritt 1: Games-Ontologie in WissKI laden und SALZ Adapter aktualisieren
 
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
@@ -454,6 +456,8 @@ Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder fü
 >    - Klicken Sie **Save** ohne Änderungen vorzunehmen.
 
 **Ergebnis:** Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
+
+-->
 
 ---
 
