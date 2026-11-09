@@ -52,13 +52,13 @@ Einheit 0 (E00): **Willkommen, Zielsetzung und Ablauf**
 
 ## Willkommen bei WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
-In **Modul 1** lernen Sie, wie Informationen über ein Sammlungsobjekt schrittweise in ein **konzeptionelles Modell** überführt werden können.
+In **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** lernen Sie, wie Informationen über ein Sammlungsobjekt schrittweise in ein **konzeptionelles Modell** überführt werden können.
 
 Anhand eines Beispiels aus einer **Computerspielsammlung** wechseln Sie von der Sammlungsperspektive zur Modellierungsperspektive. Dabei identifizieren Sie relevante Konzepte, Ereignisse und Beziehungen und untersuchen, wie diese zusammenhängen.
 
 Anschließend setzen Sie ausgewählte Elemente Ihrer Modellskizze mit Klassen und Eigenschaften des Referenzmodells **CIDOC CRM** in Beziehung und treffen erste nachvollziehbare Modellierungsentscheidungen.
 
-Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weitere **Formalisierung in Modul 2** und die spätere **technische Implementierung in WissKI in Modul 3**.
+Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weitere Formalisierung in **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** und die spätere technische Implementierung in WissKI in **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden**.
 
 > **Worum geht es in diesem Modul?**
 >
