@@ -84,7 +84,7 @@ Der Zeitplan setzt voraus, dass Sie mit den Grundlagen der semantischen Modellie
 
 Relevante vertiefende Inhalte sind an entsprechenden Stellen verlinkt. 
 
-Die vollständigen Module sind in Englisch und Deutsch verfügbar:
+Die vollständigen Module sind in Englisch und Deutsch verfügbar (Dauer insgesamt 3 x 90 Minuten):
 - [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
 - [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
 - [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
@@ -130,17 +130,17 @@ Weitere Metadaten (z.B. Publikationsort, -datum, etc.) können Sie einbeziehen, 
 
 ### Schritt 1: Vervollständigen Sie das Puzzle 
 
-> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei **puzzle.drawio_en.xml** herunter zu laden.
 > 2. Öffnen Sie die heruntergeladene **Puzzle-Datei** in **[Draw.io](https://app.diagrams.net/)**.
 > 3. **Untersuchen, ordnen und verbinden** Sie nur die relevanten Merkmale zu einer sinnvollen konzeptionellen Modellskizze.
-> 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale des Beispielobjektes formuliert.
+> 4. Prüfen Sie, ob Ihre konzeptuelle Modellskizze sinnvolle Aussagen über die charakteristischen Merkmale wie Titel, Genre, Plattformen, andere Klassifikationen und narrative Elemente des Beispielobjektes formuliert.
 
-**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Kernmerkmale und Beziehungen zum Beispielobjekt sichtbar macht. 
+**Ergebnis:** Eine konzeptionelle Modellskizze, die ausgewählte Mermale und Beziehungen zum Beispielobjekt sichtbar macht. 
 
-**Übergang zur nächsten Übung:** In der nächsten Übung erarbeiten Sie eine angemessene Repräsentation dieser Kernmerkmale durch **bestehende CIDOC-CRM-Klassen**.
+**Übergang zur nächsten Übung:** In der nächsten Übung erarbeiten Sie eine angemessene Repräsentation dieser Merkmale durch **bestehende CIDOC-CRM-Klassen**.
 
 > **Zur Vertiefung siehe Modul 1, u.a.:**
-> - [M1E0A: Anwendungsbeispiel: Objektsammlung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
+> - [M1E0A: Anwendungsbeispiel: Sammlungsobjekt „Zelda“](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
 > - [M1E1: Grundbegriffe konzeptueller Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1)
 
 ---
@@ -153,19 +153,21 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 
 ![Konzeptuelle Modellskizze aus Modul 1](assets/mindmap_en.png)
 
+Vergleichen Sie die Musterlösung und Ihre konzeptionelle Modellskizze aus der Puzzle-Übung.
+
 ---
 
 ### Schritt 1: Klassen-Zuordnungen untersuchen und begründen
 
 > 1. Wählen Sie **zwei Konzepte oder Ereignisse** aus der bereitgestellten konzeptuellen Modellskizze aus und klären Sie, was diese im Sammlungskontext bedeuten.
 > 2. Nutzen Sie die CIDOC CRM **[Dokumentation](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** oder explorieren Sie CIDOC CRM mit dem **[Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**.
-> 3. Identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten in dem Sie die **Scope Notes** lesen und vergleichen Sie diese mit der konzeptuelle Modellskizze.
+> 3. Identifizieren Sie passende CIDOC CRM Klassen zu den Konzepten in dem Sie die **Scope Notes** lesen und vergleichen Sie diese mit der Musterlösung.
 > 5. Berücksichtigen Sie, was die jeweilige Klasse ein- und/oder ausschließt und welche CIDOC CRM Beziehungen verfügbar sind.
 > 6. Halten Sie für jede Zuordnung eine kurze Begründung und eine offene Frage in der folgenden Tabelle fest.
 
 | Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC CRM-Klasse | Scope Note zutreffend| Begründung und offene Frage |
 |---|---|---|---|
-| Game Titel | E35 |  [(X)] |  Gibt es eine andere Klasse? |
+| Game Titel | E35 |  ja |  Gibt es eine andere Klasse? |
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
 | [[Lösung]] | [[Lösung]] |  [[Lösung]] |  [[Lösung]] |
@@ -177,11 +179,6 @@ Verwenden Sie nun für Ihr semantisches Modell die Musterlösung **konzeptuelle 
 
 Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgenden Vorschlag.
 
-[[ Mögliche Lösung anzeigen ]]
-<script>
-"Lösung anzeigen"
-</script>
-***
 
 | Domänenkonzept aus Ihrer Skizze | Mögliche CIDOC-CRM-Klasse | Scope Note zutreffend? | Begründung und offene Frage |
 |---|---|---|---|
@@ -189,7 +186,7 @@ Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgend
 | Computerspiel | E73 Information Object | Abhängig vom Modellierungskontext | Das Spiel wird als Informationsobjekt betrachtet. Welche Aspekte des Spiels werden modelliert? |
 | Spielgenre | E55 Type | Ja, als Klassifikation | Das Genre dient der Klassifikation eines Spiels, beispielsweise als Action-Adventure. |
 | Plattformtyp | E55 Type | Abhängig vom Modellierungskontext | Wird das Spiel, eine Edition oder eine technische Plattform klassifiziert? |
-| Spieledition | E73 Information Object | Zu prüfen | Eine Edition kann als eigenständiges Informationsobjekt betrachtet werden. Wie wird sie vom Spiel abgegrenzt? |
+| Spiel als Konzept | E73 Information Object | Zu prüfen | Eine Edition kann als eigenständiges Informationsobjekt betrachtet werden. Wie wird sie vom Spiel abgegrenzt? |
 
 
 ---
@@ -198,15 +195,19 @@ Vergleichen Sie Ihre Zuordnungen erst nach Abschluss der Aufgabe mit dem folgend
 
 > Diskutieren oder reflektieren Sie ob...
 > - derselbe Domänenbegriff je nach Forschungsfrage unterschiedliche Merkmale bezeichnen kann?
-> - beispielsweise ein Name als `Title`, als `Identifikator` oder mit einer andere Klasse representiert wird?
+> - beispielsweise das Spiel als `Konzept`, als `physisches Objekt` oder `digitale Manifestation`?
 
 **Ergebnis:** Ihre semantische Modellierungsskizze umfasst mindestens zwei **begründete, vorläufige Klassen-Zuordnungen** und gegebenenfalls verbleibende Unsicherheiten.
 
 **Übergang zur nächsten Übung:**
 Als Nächstes werden Sie Ihre Modellierungsentscheidungen in Protégé umsetzen, indem Sie **domänenspezifische Unterklassen** bestehender CIDOC-CRM-Klassen festlegen und damit einen Ausschnitt Ihres semantischen Modells formalisieren.
 
-> **Zur Vertiefung siehe Modul 1, u.a.:**
-> - [M1E3: Einführung in CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)*
+> **Zur Vertiefung siehe Modul 1 (Dauer 90 Minuten):**
+> - [M1E00 Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1)
+> - [M1E0A Anwendungsbeispiel: Sammlungsobjekt „Zelda“](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1)
+> - [M1E1 Grundbegriffe konzeptueller Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1)
+> - [M1E2 Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1)
+> - [M1E3: Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1)*
 
 ---
 
@@ -214,7 +215,7 @@ Als Nächstes werden Sie Ihre Modellierungsentscheidungen in Protégé umsetzen,
 
 **Ausgangspunkt**
 
-Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semantische Modellskizze aus Modul 2**:
+Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung der semantischen Modellskizze aus [**Modul 2 des WissKi Bits How-to-Tutorials**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#4):
 
 ![Semantische Modellskizze aus Modul 2](assets/SemanticModell.png)
 
@@ -225,10 +226,6 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 > Öffnen Sie [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
 
 !?[Video Demonstration: Einführung in Protégé](assets/Short_Protege_Intro.mp4)
-
-> **Zur Vertiefung siehe Modul 2, u.a.:**
-> - [M2E2A: Arbeitsumgebung mit Protégé vorbereiten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1)
-> - [M2E2: Einführung in Protégé](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
 
 ---
 
@@ -245,7 +242,7 @@ Verwenden Sie nun für Ihre Modellierung in Protégé die Musterlösung **semant
 
 ### Schritt 3: Ausgewählte Klassen-Zuordnungen prüfen
 
-> 1. Vergleichen Sie Ihre semantische Modellskizze mit den formalen Klassenbeschreibungen in CIDOC CRM.
+> 1. Vergleichen Sie Ihre semantische Modellskizze mit den relevanten Klassenbeschreibungen in CIDOC CRM anhand der Scope Notes.
 > 2. **Merke:** Gehen Sie nicht davon aus, dass eine Zuordnung allein deshalb korrekt ist, weil sich die Klassen-Bezeichnungen ähneln.
 
 Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Klassen:
@@ -260,7 +257,7 @@ Das WissKI Bits How-to-Tutorial verwendet unter anderem folgende CIDOC CRM Klass
 
 ### Schritt 4: Domänenspezifische Unterklassen erstellen
 
-> 1. Erstellen Sie die ausgewählten **Unterklassen** unter den passenden CIDOC-CRM-Klassen, z. B.:
+> 1. Erstellen Sie nun die ausgewählten **Unterklassen** unter den passenden CIDOC-CRM-Klassen, z.B.:
 >
 > - `E73 Information Object` → `Computer_Game`
 > - `E35 Title` → `Game_Title`
@@ -281,15 +278,15 @@ Das WissKI-Bits-How-to-Tutorial verwendet unter anderem folgende bestehende CIDO
 >
 > Die Tabelle beschreibt mögliche **semantische Beziehungen** zwischen den ausgewählten Domänenkonzepten. Sie stellt noch keine formal implementierten OWL dar.
 >
-> In diesem Schritt erstellen Sie ausschließlich domänenspezifische Unterklassen. Die bestehenden CIDOC-CRM-Eigenschaften werden untersucht und die vorgesehenen Beziehungen dokumentiert.
+> **In diesem Schritt erstellen Sie ausschließlich domänenspezifische Unterklassen**. Die bestehenden CIDOC-CRM-Eigenschaften werden untersucht und die vorgesehenen Beziehungen dokumentiert.
 >
 > **Hinweis zur Benennung:**
 >
 > Die Klassenbezeichnungen `Computer_Game` und `Game_Title` sind vereinfachte Namen für die praktische Übung.
 >
-> In einer veröffentlichten Domänenontologie können die Klassen über einen eigenen Namespace eindeutig identifiziert werden. Ein Beispiel ist die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf), in der die Klasse `E35_Game_Title` als Unterklasse von `E35 Title` definiert ist.
+> In einer veröffentlichten Domänenontologie können die Klassen über einen eigenen Namensraum eindeutig identifiziert werden. Ein Beispiel ist die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf), in der die Klasse `E35_Game_Title` als Unterklasse von `E35 Title` definiert ist.
 > 
-> Die CIDOC-CRM-Kennung im Namen einer domänenspezifischen Klasse beizubehalten, ist sinnvoll, da sie die Zuordnung zur Referenzontologie sichtbar macht und die Nachvollziehbarkeit der Modellierung erleichtert. Sie ersetzt jedoch nicht die formale Unterklassenbeziehung über `rdfs:subClassOf`. Die formale Unterklassenbeziehung wird durch `rdfs:subClassOf` ausgedrückt.
+> Es ist sinnvoll, die CIDOC-CRM-Kennung im Namen einer domänenspezifischen Klasse beizubehalten, da diese die Zuordnung zur Referenzontologie sichtbar macht und die Nachvollziehbarkeit der Modellierung erleichtert. Sie ersetzt jedoch nicht die formale Unterklassenbeziehung über `rdfs:subClassOf`. Die formale Unterklassenbeziehung wird durch `rdfs:subClassOf` ausgedrückt.
 
 ---
 
@@ -305,9 +302,12 @@ Das WissKI-Bits-How-to-Tutorial verwendet unter anderem folgende bestehende CIDO
 
 **Übergang zur nächsten Übung:** In der nächsten Übung verwenden Sie das **vorbereitete Draw.io-Lückendiagramm** aus Modul 3. Sie vervollständigen das Diagramm gemäß der Konventionen, die der Transformationsdienst GNM-Service voraussetzt.
 
-> **Zur Vertiefung, siehe Modul 2, u.a.:** 
-> - [M2E2: Methoden und Workflows semantischer Modellierung](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
-> - [M2U2: Introduction to Protégé.](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
+> **Zur Vertiefung siehe Modul 2 (Dauer 90 Minuten):**
+> - [M2E0 Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0_Ablauf-Zielsetzung.md#1)
+- [M2E1 Methoden und Workflows semantischer Modellierung](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md)
+> - [M2E2A: Arbeitsumgebung mit Protégé vorbereiten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1)
+> - [M2E2: Einführung in Protégé](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md)
+> - [M2EÜ  Semantische Modellierung mit CIDOC CRM](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md)
 
 ---
 
@@ -323,7 +323,7 @@ Sie arbeiten nun mit einem **vorbereiteten Draw.io-Lückendiagramm**, das die au
 
 ### Schritt 1: Das vorbereitete Diagramm vervollständigen
 
-> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](assets/Gruppe_B.drawio.xml) und wählen Sie **„Link speichern unter …“**, um die vorbereitete Datei herunterzuladen.
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](assets/Gruppe_B.drawio.xml) und wählen Sie **„Ziel speichern unter …“**, um die vorbereitete Datei **Gruppe_B.drawio.xml** herunterzuladen.
 > 2. Öffnen Sie die heruntergeladene XML-Datei in **[Draw.io](https://app.diagrams.net/)**.
 > 3. Suchen Sie nach **vier** Platzhaltern `(???)`.
 > 4. Ersetzen Sie diese Platzhalter `(???)` durch folgende Klassen und Beziehungen:
