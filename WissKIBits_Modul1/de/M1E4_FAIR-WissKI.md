@@ -145,7 +145,7 @@ WissKI wird am Germanischen Nationalmuseum (GNM) in Nürnberg als Teil seiner di
 
 WissKI ist **keine eigenständige Software**, sondern ein Set an Modulen (knurg, 2025), die das Content-Management-System [**Drupal**](https://new.drupal.org/) um Funktionen für das ontologiebasierte Forschungsdatenmanagement semantisch erweitern (Drupal, 2024).
 
-![Drupal](../WissKIBits_Modul1/assets/drupal.JPG)
+![Drupal](../assets/drupal.JPG)
 
 > **Abbildung:** WissKI-Integration in Drupal (Fichtner et al., 2023, S. 2)
 
@@ -205,7 +205,7 @@ So ist es möglich, in WissKI **nicht mit Tabellen**, sondern mit **ontologiebas
 
 Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und unterstützt die Nutzenden bestmöglich bei der Datenpflege.
 
-![Pathbuilder](../WissKIBits_Modul1/assets/pathbuilder.jpg)
+![Pathbuilder](../assets/pathbuilder.jpg)
 
 
 
@@ -231,7 +231,7 @@ Die Leitfragen lauten:
 - **Wie hängen die Dinge, die wir beschreiben möchten, miteinander zusammen?**
 - **Welche realen Beziehungen bestehen zwischen diesen Dingen?**
 
-!?[Video](../WissKIBits_Modul1/assets/semanticModelling.mp4)
+!?[Video](../assets/semanticModelling.mp4)
 
 > **Video:** Wie Aussagen über Personen, Objekte, Orte und Ereignisse in WissKI ein Netzwerk miteinander verknüpfter Informationen bilden.
 
