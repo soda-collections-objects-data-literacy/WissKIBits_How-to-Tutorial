@@ -61,7 +61,7 @@ Die Teilnehmenden können...
 
 In dieser Aktivierungsübung gehen Sie von einem **konkreten Sammlungsobjekt** aus, bevor Sie sich mit formalen Ontologien oder CIDOC CRM beschäftigen.
 
-Ihre Aufgabe besteht darin, zu überlegen, welches Wissen für die Beschreibung des Objekts relevant ist und wie die einzelnen Informationen miteinander zusammenhängen.
+Ihre Aufgabe besteht darin, zu überlegen, welche Informationen für die Beschreibung des Objekts und seiner charakteristischen Merkmale relevant sind und wie diese Informationen miteinander in Beziehung stehen.
 
 > **AKTIVIERUNG · Vom Objekt zum konzeptionellen Modell**
 >
@@ -71,13 +71,13 @@ Ihre Aufgabe besteht darin, zu überlegen, welches Wissen für die Beschreibung 
 >
 > Identifizieren Sie am Beispiel von **The Legend of Zelda: A Link to the Past** relevante **Konzepte, Ereignisse und Beziehungen**.
 >
-> Ziel ist es zunächst nicht, CIDOC CRM anzuwenden, sondern eine **erste Skizze eines konzeptionellen Modells für den Fachbereich** zu entwickeln.
+> Ziel ist es zunächst nicht, CIDOC CRM anzuwenden, sondern eine **erste Skizze eines konzeptionellen Modells für den Gegenstandsbereich** zu entwickeln.
 
 ---
 
 ## Ausgangspunkt: Beispielobjekt „Zelda“
 
-Das Computerspiel **The Legend of Zelda: A Link to the Past** dient als Ausgangspunkt dieser Übung.
+Das Computerspiel [**The Legend of Zelda: A Link to the Past**](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past) dient als Ausgangspunkt dieser Übung.
 
 Anhand der verfügbaren Informationen über das Objekt und seinen Kontext untersuchen Sie, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts relevant sind und in ein erstes konzeptionelles Modell aufgenommen werden sollten.
 
