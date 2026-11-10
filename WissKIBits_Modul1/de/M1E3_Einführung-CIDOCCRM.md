@@ -67,19 +67,21 @@ Teilnehmende können...
 
 **Kurz gesagt:**
 
-CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um Informationen zum kulturellen Erbe **verständlich und interoperabel** zu beschreiben.
+CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um Informationen zum kulturellen Erbe verständlich, strukturiert und interoperabel zu beschreiben.
 
 > **CIDOC CRM**
 >
-> … ist eine ISO-zertifizierte Ontologie (ISO 21127), die für die Dokumentation und Integration von Kulturerbeinformationen entwickelt wurde.
+> … ist ein **konzeptuelles Referenzmodell und eine formale Ontologie**, die für die Dokumentation und Integration von Informationen zum kulturellen Erbe entwickelt wurde.
 >
-> Sie bietet einen gemeinsamen konzeptuellen Rahmen zur Beschreibung von:
+> Es beschreibt zentrale Elemente wie:
 >
-> **Objekten · Akteur:innen · Ereignissen · Orten · Zeiträumen · Beziehungen**
+> **Objekte · Personen und Organisationen · Ereignisse · Orte · Zeiträume**
 >
-> Ziel ist es, Informationen zum kulturellen Erbe explizit, verständlich und über verschiedene Sammlungen und Systeme hinweg interoperabel zu machen.
->
-> **Wichtig:** CIDOC CRM definiert ein konzeptuelles Modell. Für technische Anwendungen werden maschinenlesbare Implementierungen des Modells verwendet, beispielsweise OWL-Repräsentationen.
+> Diese Elemente werden durch **semantisch definierte Beziehungen** miteinander verknüpft. So lässt sich nicht nur beschreiben, welche Informationen über ein Sammlungsobjekt vorliegen, sondern auch, wie diese inhaltlich zusammenhängen.
+
+---
+
+### Fachlicher Hintergrund
 
 [CIDOC CRM](https://cidoc-crm.org/) ist eine **ISO-zertifizierte Ontologie (ISO 21127)**, die vom **CIDOC-Komitee des ICOM (International Council of Museums)** entwickelt wurde.
 
@@ -89,14 +91,15 @@ Es ist eine **formale Repräsentation** grundlegender Konzepte, Begriffe und ihr
 
 Es dient als **theoretisches und praktisches Werkzeug**, um **evidenzbasierte Phänomene** im Bereich des kulturellen Erbes zu strukturieren, darzustellen und zu verstehen (CIDOC, 2024a, S. 9).
 
-CIDOC CRM umfasst:
+---
 
-- Ereignisse
-- Personen
-- Objekte
-- Orte
-- Zeiträume
-- und deren semantische Beziehungen
+### Von der Modellskizze zu CIDOC CRM
+
+In Ihrer Modellskizze haben Sie bereits zentrale Elemente des Wissensbereichs Computerspiele und deren Beziehungen identifiziert.
+
+**CIDOC CRM bietet nun ein formal definiertes Vokabular**, mit dem sich diese Elemente und Zusammenhänge einheitlich und präzise beschreiben lassen.
+
+Damit bildet das Modell die Grundlage für den nächsten Schritt: die Übertragung Ihrer konzeptionellen Überlegungen in eine Modellierung mit CIDOC CRM.
 
 ---
 
@@ -110,10 +113,10 @@ So können Informationen über die Herstellung eines physischen Spieleexemplars 
 
 CIDOC CRM definiert **Klassen und Properties**, um solche Beziehungen auszudrücken. In einer maschinenlesbaren Implementierung können diese Beziehungen beispielsweise mithilfe von **Resource Description Framework (RDF)** als Aussagen dargestellt werden (Cyganiak et al., 2014).
 
-**Die Unterscheidung ist wichtig:**
-
-- Die ereigniszentrierte Modellierung beschreibt, wie Informationen konzeptuell organisiert werden.
-- RDF beschreibt eine Möglichkeit, diese Informationen technisch darzustellen.
+> **Die Unterscheidung ist wichtig:**
+>
+> - Die ereigniszentrierte Modellierung beschreibt, wie Informationen konzeptuell organisiert werden.
+> - RDF beschreibt eine Möglichkeit, diese Informationen technisch darzustellen.
 
 ---
 
@@ -168,9 +171,9 @@ Für die praktische Modellierung ist es wichtig, die **Klassen und Properties de
 
 Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
-- **Was sie ausdrückt**
-- **Welche Bedeutung und Grenzen sie hat**
-- **Wann sie verwendet werden sollte**
+- **was sie ausdrückt**.
+- **welche Bedeutung und Grenzen sie hat**.
+- **wann sie verwendet werden sollte**.
 
 **Achtung: Nicht entscheidend sind:**
 
@@ -208,7 +211,7 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 > Ein Begriff aus einer Domäne und eine CIDOC-CRM-Klasse können ähnliche Bezeichnungen haben, ohne dass sie dieselbe Art von Entität beschreiben.
 >
-> Bevor Sie eine Klasse auswählen, fragen Sie:
+> Bevor Sie eine CIDOC CRM Klasse auswählen, fragen Sie:
 >
 > - Worauf bezieht sich der Begriff in unserem Sammlungskontext?
 > - Bezeichnet er ein Objekt, ein Informationsobjekt, eine:n Akteur:in, ein Ereignis, eine Bezeichnung oder einen Typ?
@@ -221,15 +224,35 @@ Die **Scope Note** einer CIDOC CRM-Klasse legt fest:
 
 ## Bedeutung ausdrücken mit CIDOC CRM
 
-CIDOC CRM ist **ereigniszentriert**, d. h., es beschreibt nicht nur, *was etwas ist*, sondern **was mit ihm passiert** (CIDOC, 2024a, S. 33).
+CIDOC CRM ist **ereigniszentriert**, d.h., 
+
+> **CIDOC CRM ist ereigniszentriert**
+>
+> CIDOC CRM beschreibt nicht nur, es beschreibt nicht nur, *was etwas ist*, sondern **was mit ihm passiert** (CIDOC, 2024a, S. 33), wer daran beteiligt war, wo und wann es stattgefunden hat.
+>
+> Ereignisse verbinden Objekte mit Akteur:innen, Orten und Zeiträumen.
+>
+> Beispiel: Objekt → Ereignis ← Akteur:in
 
 Aussagen über Ressourcen können in Form von **Triples: Subjekt–Prädikat–Objekt** dargestellt werden. Triples bilden die **syntaktische Grundlage** für die formalisierte semantische Datenmodellierung und ermöglichen es, Ontologien wie CIDOC CRM in maschinenlesbarer Form zu repräsentieren.
 
-Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Beschreibung von Aussagen über Ressourcen in Form von Triples, der auch in WissKI verwendet wird (W3C, 2014).
+Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Beschreibung von maschinenlesbaren Aussagen über Ressourcen in Form von Triples, der auch in WissKI verwendet wird (W3C, 2014).
 
-> **Beispiel: Zelda-Spiel (SNES)**
+> **Bedeutung kann durch Triples ausgedrückt werden**
+>
+> Subjekt → Prädikat → Objekt
+>
+> Beispiel: Herstellung → durchgeführt von → Nintendo
 >
 > *Das Videospiel „The Legend of Zelda: A Link to the Past“ wurde 1991 von Nintendo in Kyoto, Japan entwickelt.* (Wikio.D.zelda)
+
+**Unterscheidung zwischen Klassenzuordnung und Beziehungen**
+
+> **Klassenzuordnung:** Beispielsweise „Das Spiel ist ein Objekt.“ → E22 Human-Made Object; Spiel → Instanz von → E22 Human-Made Object.
+>
+> **Beziehung:** Beispielsweise „Der Titel lautet …“ → E22 → hat Titel → E35 Title; Spiel → hat Titel → Titel.
+
+**Beispiel: Zelda-Spiel (SNES)**
 
 | Natürliche Aussage | CIDOC-CRM-Repräsentation |
 |---|---|
@@ -239,32 +262,6 @@ Das **RDF (Resource Description Framework)** ist ein Standard zur formalen Besch
 | Entwickler und Verleger ist Nintendo. | **E12 Production** → *carried out by* → **E74 Group (Nintendo)** |
 | Produktionsort ist Kyoto. | *took place at* → **E53 Place (Kyoto)** |
 | Veröffentlichungsjahr ist: 1991 | *has time-span* → **E52 Time-Span (1991)** |
-
----
-
-> **CIDOC CRM ist ereigniszentriert**
->
-> CIDOC CRM beschreibt nicht nur, was etwas ist, sondern auch, was geschehen ist, wer daran beteiligt war, wo und wann es stattgefunden hat.
->
-> Ereignisse verbinden Objekte mit Akteur:innen, Orten und Zeiträumen.
->
-> Beispiel: Objekt → Ereignis ← Akteur:in
-
-> **Bedeutung kann durch Triples ausgedrückt werden**
->
-> Semantische Aussagen können folgendermaßen dargestellt werden:
->
-> Subjekt → Prädikat → Objekt
->
-> Beispiel: Herstellung → durchgeführt von → Nintendo
->
-> RDF (Resource Description Framework) stellt einen Standard bereit, um Aussagen über Ressourcen maschinenlesbar als Triples darzustellen.
-
-> **Unterscheidung zwischen Klassenzuordnung und Beziehungen**
->
-> **Klassenzuordnung:** Beispielsweise „Das Spiel ist ein Objekt.“ → E22 Human-Made Object; Spiel → Instanz von → E22 Human-Made Object.
->
-> **Beziehung:** Beispielsweise „Der Titel lautet …“ → E22 → hat Titel → E35 Title; Spiel → hat Titel → Titel.
 
 ---
 
@@ -278,7 +275,7 @@ In einer projekt- oder anwendungsspezifischen Umsetzung werden die für die Dom�
 
 | Top-Level-Ontologie (Grundstruktur) | Domänenontologie (Fachspezifik) |
 |---|---|
-| z. B. **CIDOC CRM** | Erweiterungen, WissKI-Flavors etc. |
+| z.B. **CIDOC CRM** | Erweiterungen, WissKI-Flavors etc. |
 | definiert grundlegende Konzepte | beschreibt fachspezifische Konzepte |
 | sorgt für Interoperabilität | erhöht die Präzision |
 | ist langfristig stabil | ist an Forschungsbedarfe anpassbar |
@@ -320,15 +317,18 @@ WissKI nutzt CIDOC CRM, weil es …
 
 ## Ausblick
 
-CIDOC CRM ist eine ISO-zertifizierte, international entwickelte und etablierte Top-Level-Ontologie für den Bereich des kulturellen Erbes. Als formale Repräsentation grundlegender Konzepte, Eigenschaften und ihrer Beziehungen bietet CIDOC CRM ein wertvolles theoretisches und praktisches Werkzeug, um evidenzbasierte Phänomene des kulturellen Erbes zu strukturieren, darzustellen und zu verstehen. Die Ontologie ist erweiterbar und semantisch ausdifferenzierbar und damit anschlussfähig an Domänenontologien, die aus anwendungs- und projektspezifischen Kontexten der Forschungs- und Sammlungsarbeit hervorgehen (CIDOC, 2024a; Schwenk & Fischer, 2025).
+CIDOC CRM ist eine ISO-zertifizierte, international entwickelte und etablierte Top-Level-Ontologie für den Bereich des kulturellen Erbes. Als formale Repräsentation grundlegender Konzepte, Eigenschaften und ihrer Beziehungen bietet CIDOC CRM ein wertvolles theoretisches und praktisches Werkzeug, um evidenzbasierte Phänomene des kulturellen Erbes zu strukturieren, darzustellen und zu verstehen. 
+
+Die Ontologie ist erweiterbar und semantisch ausdifferenzierbar und damit anschlussfähig an Domänenontologien, die aus anwendungs- und projektspezifischen Kontexten der Forschungs- und Sammlungsarbeit hervorgehen (CIDOC, 2024a; Schwenk & Fischer, 2025).
 
 In der nächsten Einheit wird die Wissenschaftliche Kommunikationsinfrastruktur WissKI vorgestellt. WissKI wurde speziell für die semantische Erzeugung und Verwaltung von Daten im Kulturerbebereich entwickelt. Die Infrastruktur ist ontologieagnostisch, bietet jedoch eine besondere Unterstützung für die Arbeit mit CIDOC CRM (WissKI, n.d.-b).
 
 > **Wie geht es weiter?**
 >
-> Sie haben nun ein Referenzmodell kennengelernt, mit dem sich Konzepte, Ereignisse und Beziehungen im Bereich des kulturellen Erbes formal beschreiben lassen.
+> Sie haben nun das CIDOC CRM Referenzmodell kennengelernt, mit dem sich Konzepte, Ereignisse und Beziehungen im Bereich des kulturellen Erbes formal beschreiben lassen.
 >
-> In der nächsten Einheit lernen Sie WissKI kennen und erfahren, wie ontologiebasierte Strukturen die Verwaltung und Nutzung von Forschungsdaten unterstützen können.
+> In der nächsten Einheit [**M1E4: FAIR-Konformität mit WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E4_FAIR-WissKI.md#1) lernen Sie die Wissenschaftliche Kommunikationsinfrastruktur WissKI kennen und erfahren Sie, wie sich ontologiebasierte Strukturen mit WissKI praktisch umsetzen und für die Verwaltung und Nutzung von Forschungsdaten einsetzen lassen. 
+> WissKI wurde speziell für die semantische Erfassung und Verwaltung von Forschungsdaten im Kulturerbebereich entwickelt. WissKI ist ontologieagnostisch, bietet jedoch eine besondere Unterstützung für die Arbeit mit CIDOC CRM (WissKI, n.d.-b).
 
 ---
 
