@@ -98,7 +98,7 @@ Die Identifikation und Strukturierung dieser Elemente bildet die Grundlage der *
 
 Der **semantischen Modellierung** geht die Konzeptualisierung eines Wissensbereichs voraus. In diesem Schritt werden relevante Begriffe, Konzepte und Beziehungen identifiziert, strukturiert und in ihrer fachlichen Bedeutung bestimmt. Die anschließende **semantische Modellierung** stellt diese konzeptuelle Wissensstruktur in einem formalisierten Modell dar (Rehbein, 2017, S. 164; Schwenk & Fischer, 2025, S. 23). Sie erfordert somit sowohl ein Verständnis des jeweiligen Fachgebiets als auch Kompetenzen in der formalen Modellierung (Fichtner, 2025, S. 86).
 
-Das Ergebnis dieses Prozesses ist ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Spasojevic, 2025; Schwenk & Fischer, 2025, S. 21). Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben (Fichtner, 2025, S. 58).
+Das Ergebnis der konzeptuellen Wissensmodellierung ist dann ein **semantisches Datenmodell**. Es bildet nicht die einzelnen konkreten Forschungsdaten ab, sondern beschreibt als konzeptueller und formaler Rahmen, wie Daten einer Domäne verstanden, interpretiert und miteinander in Beziehung gesetzt werden (Spasojevic, 2025; Schwenk & Fischer, 2025, S. 21). Indem es die Bedeutung der Daten explizit macht und formal beschreibt, schafft es die Voraussetzung dafür, dass diese auch langfristig inhaltlich interpretierbar und nachnutzbar bleiben (Fichtner, 2025, S. 58).
 
 > **Merksatz**
 >
@@ -122,55 +122,59 @@ Um ein konzeptuelles Modell zu entwickeln, fragen wir, worauf sich diese Informa
 - Ein Publisher ist eine Organisation.
 - Eine Veröffentlichung kann als Ereignis betrachtet werden.
 
-Anschließend untersuchen wir, wie diese Elemente mit dem Spiel und miteinander in Beziehung stehen.
+Anschließend untersuchen wir, wie die Merkmale des Spiels miteinander in Beziehung stehen.
 
-Das entstehende Modell bildet den Sammlungsdatensatz nicht einfach ab. Es macht **ausgewählte Konzepte und Beziehungen explizit**, sodass ihre Bedeutung diskutiert und weiter präzisiert werden kann.
+Das entstehende Modell bildet den Sammlungsdatensatz nicht einfach ab. Es macht **ausgewählte Konzepte und Beziehungen explizit**, sodass ihre Bedeutung sichtbar wird, diskutiert und weiter präzisiert werden kann.
 
 ---
 
 ## Wissen einer Sammlung konzeptuell ordnen
 
-**Arbeitsform:** Kurze Plenumsdiskussion
+**Arbeitsform:** Kurze Diskussion im Plenum oder individuelle Reflexion
 
 **Zeit:** 5 Min.
 
-> **Reflektieren Sie Ihre Modellskizze**
->
-> Wählen Sie eine Beziehung aus Ihrer Modellskizze aus und lesen Sie diese als vollständige Aussage.
->
-> - Welche Elemente sind Konzepte?
-> - Welche Elemente stellen Ereignisse dar?
-> - Welche Verknüpfungen sind Beziehungen?
->
-> Überarbeiten Sie bei Bedarf die Bezeichnung der Beziehung in Ihrer Modellskizze.
+**Reflektieren Sie Ihre Modellskizze**
 
----
+Überprüfen Sie, wie Konzepte, Ereignisse und Beziehungen in Ihrer Modellskizze dargestellt werden und welche Bedeutung die Verknüpfungen haben.
 
-> **Schritt 1: Erneut betrachten**
+> **Schritt 1: Modellskizze betrachten**
 >
-> Betrachten Sie die Modellskizze, die Sie bereits erstellt haben.
+> Betrachten Sie die Ihre Modellskizze.
 >
-> **Schritt 2: Einordnen**
+> **Schritt 2: Elemente einordnen**
 >
 > Identifizieren Sie Beispiele für **Konzepte, Ereignisse und Beziehungen**.
 >
-> **Schritt 3: Reflektieren**
+> **Schritt 3: Beziehungen reflektieren**
 >
-> Wählen Sie eine Beziehung aus und fragen Sie sich:
+> Wählen Sie eine Beziehung aus und formulieren Sie diese als vollständige Aussage.
 >
 > - Könnten dieselben beiden Konzepte durch unterschiedliche Beziehungen miteinander verbunden werden, wenn eine andere Bedeutung ausgedrückt werden soll?
+> 
+> Überlegen Sie anschließend:
+> 
+> - Welche Bedeutung drückt die Beziehung aus?
+> - Könnten dieselben Elemente auch durch eine andere Beziehung miteinander verknüpft werden und dadurch eine andere Aussage ergeben?
 
 ---
 
 ## Erwartetes Ergebnis
 
-Sie haben **Konzepte, Ereignisse und Beziehungen** in Ihrer eigenen Modellskizze identifiziert und erläutert, wie diese zur konzeptuellen Ordnung des Domänenwissens beitragen.
+Sie haben in Ihrer Modellskizze **Konzepte, Ereignisse und Beziehungen** identifiziert und reflektiert, welche Bedeutung die Beziehungen für die konzeptionelle Ordnung des Wissens über Computerspiele haben.
 
-**Konzepte, Ereignisse und Beziehungen können beispielsweise sein:**
+Zur Orientierung:
 
-- **Konzepte** bezeichnen beispielsweise Objekte, Personen, Organisationen, Orte oder andere zentrale Bausteine einer Domäne und repräsentieren relevante Elemente des Wissensbereichs.
+- **Konzepte** bezeichnen beispielsweise Objekte, Personen, Organisationen, Orte oder andere zentrale Bausteine einer Domäne und repräsentieren relevante Elemente des Wissensbereichs. 
 - **Ereignisse** bezeichnen Geschehnisse oder Prozesse, beispielsweise Entwicklung, Herstellung, Veröffentlichung oder Ausstellung.
 - **Beziehungen** verbinden Konzepte miteinander oder Konzepte mit Ereignissen und drücken aus, wie diese Elemente inhaltlich zusammenhängen.
+
+Vergleichen Sie Ihre Modellskizze mit der Musterlösung aus M1E0A. 
+
+![Konzeptuelle Modellskizze aus Modul 1](../assets/mindmap.png)
+
+Überprüfen Sie insbesondere, ob die Beziehungen die beabsichtigten Aussagen verständlich wiedergeben, und präzisieren Sie deren Bezeichnungen bei Bedarf.
+
 
 ---
 
@@ -215,7 +219,7 @@ Durch die konzeptuelle Wissensmodellierung haben Sie in einem ersten Schritt her
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit untersuchen Sie, wie Ontologien formale Strukturen bereitstellen, um dieses Wissen maschinenlesbar darzustellen.
+> In der nächsten Einheit [**M1E2: Grundlagen von Ontologien**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1) untersuchen Sie, wie Ontologien formale Strukturen bereitstellen, um Wissen maschinenlesbar darzustellen.
 
 ---
 

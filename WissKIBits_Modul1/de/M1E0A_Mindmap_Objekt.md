@@ -220,7 +220,7 @@ Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes
 
 ![Beispiel einer konzeptionellen Modellskizze](../assets/mindmap.png)
 
->**Abbildung:** Beispiel einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.
+>**Abbildung:** Beispiel-Musterlösung einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.
 
 ---
 
