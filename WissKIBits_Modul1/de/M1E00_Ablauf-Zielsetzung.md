@@ -73,7 +73,7 @@ Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weiter
 ## Warum semantisch modellieren?
 
 - Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
-- Während Tabellen einzelne Eigenschaften und Informationen abbilden, bleiben die Bedeutung und Zusammenhänge der Daten häufig implizit.
+- Während Tabellen einzelne Eigenschaften und Informationen abbilden, bleiben die Bedeutung und Zusammenhänge der Daten häufig **implizit**.
 - Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, müssen ihre Bedeutungszusammenhänge **explizit** gemacht und formal beschrieben werden.
 
 > Forschungs- und Sammlungsdaten bestehen aus mehr als einzelnen Fakten.
@@ -127,7 +127,7 @@ Am Ende des Moduls sind Sie in der Lage,
 
 Nach Abschluss von Modul 1 können die Teilnehmenden…
 
-### E0. Anwendungsbeispiel: Objektsammlung
+### E0A. Anwendungsbeispiel: Objektsammlung
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Methode der konzeptuellen Wissensmodellierung zur Beschreibung eines Forschungsobjektes anwenden. (LZ-ID SODa\_03\_007\_0856)
@@ -200,27 +200,27 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 
 Das Modul folgt einem schrittweisen Ansatz: Ausgehend von einem konkreten Sammlungsobjekt werden nach und nach grundlegende Konzepte der semantischen Modellierung eingeführt.
 
-**Sammlungsobjekt erkunden (M1U0A):**  
+**Sammlungsobjekt erkunden (M1E0A und M1E1):**  
 Relevante Informationen identifizieren und eine erste Modellskizze erstellen.
 
 ↓
 
-**Ontologien kennenlernen (M1U2):**  
+**Ontologien kennenlernen (M1E2):**  
 Sich mit den grundlegenden Bestandteilen von Ontologien und ihrer Rolle in der semantischen Modellierung vertraut machen.
 
 ↓
 
-**CIDOC CRM kennenlernen (M1U3):**  
+**CIDOC CRM kennenlernen (M1E3):**  
 Verstehen, wie eine Referenzontologie die Beschreibung von Informationen zum kulturellen Erbe unterstützen kann.
 
 ↓
 
-**FAIR-Konformität mit WissKI erkunden (M1U4):**  
+**FAIR-Konformität mit WissKI erkunden (M1E4):**  
 Verstehen, wie semantische Modellierung und WissKI die FAIR-Prinzipien und die Nachnutzung von Forschungsdaten unterstützen können.
 
 ↓
 
-**CIDOC CRM anwenden (M1UE):**  
+**CIDOC CRM anwenden (M1EÜ):**  
 Die eigene Modellskizze erneut betrachten, mögliche Zuordnungen zu CIDOC CRM untersuchen und ausgewählte Modellierungsentscheidungen begründen.
 
 
@@ -233,20 +233,20 @@ Ihr Ergebnis: Eine konzeptionelle Modellskizze mit ersten dokumentierten CIDOC-C
 Das Modul verbindet kurze fachliche Inputs mit Analyse, Diskussion und Modellierungsaktivitäten:
 
 - Begriffe werden anhand typischer Informationen aus Sammlungen eingeführt.
-- Modellierungsentscheidungen werden gemeinsam diskutiert und begründet.
+- Modellierungsentscheidungen werden diskutiert und begründet.
 - Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** dient als roter Faden.
 - In der Übung entwickeln die Teilnehmenden eine kleine Modellskizze und gleichen ausgewählte Konzepte mit CIDOC CRM ab.
-- Die Ergebnisse werden im Plenum gesichert und auf die eigene Sammlungspraxis übertragen.
+- Die Ergebnisse werden gesichert und können auf die eigene Sammlungspraxis übertragen werden.
 
 Das Ziel ist kein vollständiges Datenmodell. Entscheidend ist ein **kleiner, konsistenter und begründbarer Modellentwurf**, der später erweitert und technisch umgesetzt werden kann.
 
 > **So arbeiten Sie**
 >
-> Wir beginnen mit einer kurzen Aktivierungsübung anhand eines konkreten Sammlungsobjekts.
+> Wir beginnen mit einer kurzen Aktivierungsübung anhand des konkreten Sammlungsobjekts.
 >
 > Nach den fachlichen Einführungseinheiten greifen Sie das Beispiel erneut auf und entwickeln eine kleine, konsistente und begründete Modellskizze.
 >
-> Unser gemeinsames Beispiel ist **The Legend of Zelda: A Link to the Past**.
+> Unser gemeinsames Beispiel ist das Sammlungsobjekt **The Legend of Zelda: A Link to the Past**.
 
 ---
 
@@ -285,9 +285,7 @@ Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wir
 
 > **Wie geht es weiter?**
 >
-> Sie wissen nun, was Sie in diesem Modul entwickeln werden.
->
-> Als Nächstes beginnen Sie mit einem konkreten Sammlungsobjekt und erstellen eine erste **konzeptuelle Modellskizze**, indem Sie relevante Konzepte, Ereignisse und Beziehungen identifizieren.
+> In der nächsten Einheit [M1EA0: Mindmap Objekt](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) beginnen Sie mit dem konkreten Sammlungsobjekt „Zelda“ und erstellen eine erste **konzeptuelle Modellskizze**, indem Sie relevante Konzepte, Ereignisse und Beziehungen identifizieren.
 
 ---
 
