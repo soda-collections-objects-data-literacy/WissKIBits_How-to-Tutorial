@@ -67,15 +67,17 @@ Teilnehmende können...
 
 ## Grundlagen von Ontologien
 
-Die **konzeptuelle Wissensmodellierung** (M1E1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert. **Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein, 2017, S. 164) und in einer maschinenlesbaren Form darzustellen.
+Die [Grundbegriffe der konzeptuellen Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert.
+
+**Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein, 2017, S. 164) und in einer maschinenlesbaren Form darzustellen.
 
 In dieser Einheit wird erläutert, **warum Ontologien genutzt werden und welchen Nutzen sie für die Sammlungsdokumentation haben.** Dazu werden die wichtigsten **Begriffe** und **Bausteine von Ontologien** definiert und erläutert sowie ihre **Funktion** für die strukturierte und semantische Beschreibung von Sammlungsinformationen erklärt.
 
 > **Vom konzeptuellen Wissen zur Ontologie**
 >
-> Die konzeptuelle Wissensmodellierung identifiziert und ordnet die relevanten Konzepte, Ereignisse und Beziehungen innerhalb einer Domäne.
+> Die **konzeptuelle Wissensmodellierung** identifiziert und ordnet die relevanten Konzepte, Ereignisse und Beziehungen innerhalb einer Domäne.
 >
-> Eine Ontologie geht einen Schritt weiter: Sie stellt diese konzeptuelle Struktur formal und maschinenlesbar dar.
+> Eine **Ontologie** geht einen Schritt weiter: Sie stellt diese konzeptuelle Struktur formal und maschinenlesbar dar.
 
 ---
 
@@ -115,9 +117,9 @@ Bei der Modellierung von Forschungsdaten aus den Geistes- und Kulturwissenschaft
 
 ---
 
-Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **„formale, schematische Abbildung[] eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung.“** (Weller, 2013, S. 207)
+Eine Ontologie ist eine **formale Beschreibung eines Ausschnitts der Welt** bzw. eine **„formale, schematische Abbildung eines Wissensbereichs, bestehend aus einem Vokabular und Regeln zu seiner Zusammensetzung.“** (Weller, 2013, S. 207)
 
-Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d. h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen (Gruber, 1993, S. 200).
+Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale Spezifikation einer Konzeptualisierung, d.h. sie beschreibt strukturierend, welche Konzepte in einem bestimmten Fachgebiet oder Gegenstandsbereich relevant sind und welche Beziehungen zwischen ihnen bestehen (Gruber, 1993, S. 200).
 
 **Eine Ontologie legt fest, ...**
 
@@ -130,13 +132,17 @@ Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale
 
 > **Ontologien bestehen typischerweise aus folgenden Bausteinen:**
 >
-> **Klassen (Classes)** → Welche Arten von Dingen gibt es? Beispiele: Spiel, Person, Organisation. Klassen repräsentieren allgemeine Konzepte innerhalb einer Domäne und sind typischerweise hierarchisch strukturiert (Weller, 2013, S. 208).
+> **Klassen (Classes)** → Welche Arten von Dingen gibt es? 
+> Beispiele: Spiel, Person, Organisation. Klassen repräsentieren allgemeine Konzepte innerhalb einer Domäne und sind typischerweise hierarchisch strukturiert (Weller, 2013, S. 208).
 >
-> **Instanzen (Instances)** → Von welchen konkreten Dingen sprechen wir? Beispiel: *The Legend of Zelda: A Link to the Past*. Instanzen repräsentieren einzelne Vertreter von Klassen (Weller, 2013, S. 208).
+> **Instanzen (Instances)** → Von welchen konkreten Dingen sprechen wir? 
+> Beispiel: *The Legend of Zelda: A Link to the Past*. Instanzen repräsentieren einzelne Vertreter von Klassen (Weller, 2013, S. 208).
 >
-> **Eigenschaften (Properties)** → Wie werden Dinge beschrieben oder miteinander in Beziehung gesetzt? Beispiel: Ein Spiel hat einen Titel. Eigenschaften beschreiben Merkmale oder drücken semantische Beziehungen zwischen Elementen einer Domäne aus (Weller, 2013, S. 208).
+> **Eigenschaften (Properties)** → Wie werden Dinge beschrieben oder miteinander in Beziehung gesetzt? 
+> Beispiel: Ein Spiel hat einen Titel. Eigenschaften beschreiben Merkmale oder drücken semantische Beziehungen zwischen Elementen einer Domäne aus (Weller, 2013, S. 208).
 >
-> **Bedingungen (Constraints)** → Welche Regeln gelten für die Verwendung von Klassen und Eigenschaften? Bedingungen helfen dabei, die logische Konsistenz der Ontologie sicherzustellen, beispielsweise indem festgelegt wird, welche Klassen durch eine bestimmte Eigenschaft miteinander verbunden werden dürfen (Rehbein, 2017, S. 164).
+> **Bedingungen (Constraints)** → Welche Regeln gelten für die Verwendung von Klassen und Eigenschaften? 
+> Bedingungen helfen dabei, die logische Konsistenz der Ontologie sicherzustellen, beispielsweise indem festgelegt wird, welche Klassen durch eine bestimmte Eigenschaft miteinander verbunden werden dürfen (Rehbein, 2017, S. 164).
 
 ---
 
@@ -167,13 +173,11 @@ So schaffen Ontologien eine Grundlage dafür, komplexe Forschungs- und Sammlungs
 
 ## Ausblick
 
-Sie haben gelernt, wie Ontologien mithilfe von Klassen und Eigenschaften Konzepte und Beziehungen strukturiert beschreiben.
-
 Ontologien bieten die Grundlage, Wissen über Sammlungsobjekte strukturiert und semantisch zu modellieren. Doch wie lässt sich dies konkret auf Informationen zum kulturellen Erbe anwenden?
 
 > **Wie geht es weiter?**
 >
-> In Einheit 3 lernen Sie **CIDOC CRM** als Referenzontologie für Kulturerbeinformationen kennen. Sie erfahren, wie dessen Klassen, Eigenschaften und Scope Notes dabei helfen können, die in Ihrer Modellskizze identifizierten Konzepte zu untersuchen und weiter zu präzisieren.
+> In der nächsten Einheit [**M1E3: Einführung in CIDOC CRM**]([Grundbegriffe der konzeptuellen Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) lernen Sie das Referenzontologie für Kulturerbeinformationen kennen. Sie erfahren, wie dessen Klassen, Eigenschaften und Scope Notes dabei helfen können, die in Ihrer Modellskizze identifizierten Konzepte zu untersuchen und weiter zu präzisieren.
 
 ---
 
