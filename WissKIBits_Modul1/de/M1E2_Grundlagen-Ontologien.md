@@ -177,7 +177,7 @@ Ontologien bieten die Grundlage, Wissen über Sammlungsobjekte strukturiert und 
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M1E3: Einführung in CIDOC CRM**]([Grundbegriffe der konzeptuellen Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) lernen Sie das Referenzontologie für Kulturerbeinformationen kennen. Sie erfahren, wie dessen Klassen, Eigenschaften und Scope Notes dabei helfen können, die in Ihrer Modellskizze identifizierten Konzepte zu untersuchen und weiter zu präzisieren.
+> In der nächsten Einheit [**M1E3: Einführung in CIDOC CRM**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1) lernen Sie das Referenzontologie für Kulturerbeinformationen kennen. Sie erfahren, wie dessen Klassen, Eigenschaften und Scope Notes dabei helfen können, die in Ihrer Modellskizze identifizierten Konzepte zu untersuchen und weiter zu präzisieren.
 
 ---
 
