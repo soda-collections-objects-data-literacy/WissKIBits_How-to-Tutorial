@@ -66,15 +66,15 @@ Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weiter
 >
 > Sie strukturieren diese Informationen in einer ersten **konzeptionellen Modellskizze**, präzisieren ihre Bedeutung und lernen, wie ausgewählte Elemente mithilfe von **CIDOC CRM** beschrieben werden können.
 >
-> Die entstandene Modellskizze dient als Ausgangspunkt für die weitere Formalisierung in Modul 2.
+> Die entstandene Modellskizze dient als Ausgangspunkt für die weitere Formalisierung in **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden**.
 
 ---
 
 ## Warum semantisch modellieren?
 
 - Forschungs- und Sammlungsdaten sind komplexe Objekt- und Kontextdaten. Sie beschreiben nicht nur Objekte und ihre Eigenschaften. Sie entstehen im Kontext fachwissenschaftlicher Forschung und sind mit historischen, kulturellen und sozialen Bedeutungen und Zusammenhängen verbunden.
-- Tabellen bilden einzelne Eigenschaften und Informationen ab, während die Bedeutung und Zusammenhänge der Daten häufig implizit bleiben.
-- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, muss ihre Bedeutung **explizit** gemacht und formal beschrieben werden.
+- Während Tabellen einzelne Eigenschaften und Informationen abbilden, bleiben die Bedeutung und Zusammenhänge der Daten häufig implizit.
+- Damit Daten langfristig inhaltlich interpretierbar und nachnutzbar bleiben, müssen ihre Bedeutungszusammenhänge **explizit** gemacht und formal beschrieben werden.
 
 > Forschungs- und Sammlungsdaten bestehen aus mehr als einzelnen Fakten.
 >
@@ -88,13 +88,13 @@ Die entstehende konzeptionelle Modellskizze bildet die Grundlage für die weiter
 
 Die Leitfrage, die uns durch dieses Modul begleitet, lautet:
 
-> **Wie können Informationen über ein Objekt in ein transparentes, interoperables semantisches Datenmodell überführt werden, das in WissKI implementiert werden kann?**
+> **Wie können Informationen über ein Objekt in ein interoperables Datenmodell überführt werden, das in WissKI implementiert werden kann?**
 
 ---
 
 ## Zielsetzung des Moduls
 
-In diesem Modul lernen Sie, wie Sie ausgehend von Informationen über ein Sammlungsobjekt ein konzeptionelles Modell des zugehörigen Fachbereichs entwickeln können.
+In diesem Modul lernen Sie, wie Sie auf Grundlage von Informationen zum Sammlungsobjekt „Zelda“ ein konzeptionelles Modell zur Beschreibung von Computerspielmerkmalen entwickeln.
 
 Am Ende des Moduls sind Sie in der Lage,
 
@@ -102,7 +102,7 @@ Am Ende des Moduls sind Sie in der Lage,
 - zwischen fachspezifischen Begriffen und den Bedeutungen, die sie ausdrücken sollen, zu unterscheiden, um eine schlüssige Domänenlogik zu entwickeln und zu begründen,
 - zu untersuchen, wie ausgewählte Konzepte mithilfe von **CIDOC-CRM-Klassen und -Eigenschaften** dargestellt werden können,
 - erste Modellierungsentscheidungen zu erläutern und
-- eine **konzeptionelle Modellskizze** zu entwickeln, die in Modul 2 weiter ausgearbeitet und formalisiert werden kann.
+- eine **konzeptionelle Modellskizze** zu entwickeln, die in **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** weiter ausgearbeitet und formalisiert werden kann.
 
 ---
 
@@ -112,13 +112,13 @@ Am Ende des Moduls sind Sie in der Lage,
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| M1E00 | Willkommen, Lernziele und Ablauf | 5 Min. |
-| M1E0A | Aktivierung: Sammlungsobjekt „Zelda“ | 15 Min. |
-| M1E1 | Grundbegriffe der konzeptuellen Wissensmodellierung | 10 Min. |
-| M1E2 | Grundlagen von Ontologien | 10 Min. |
-| M1E3 | Einführung in CIDOC CRM | 15 Min. |
-| M1E4 | FAIR-Konformität mit WissKI | 15 Min. |
-| M1EÜ | Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf | 20 Min. |
+| M1E00 | [Willkommen, Lernziele und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#5) | 5 Min. |
+| M1E0A | [Aktivierung: Sammlungsobjekt Zelda](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) | 15 Min. |
+| M1E1 | [Grundbegriffe der konzeptuellen Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) | 10 Min. |
+| M1E2 | [Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1) | 10 Min. |
+| M1E3 | [Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1) | 15 Min. |
+| M1E4 | [FAIR-Konformität mit WissKI](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E4_FAIR-WissKI.md#1) | 15 Min. |
+| M1EÜ | [Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) | 20 Min. |
 | | **Gesamt** | **90 Min.** |
 
 ---
