@@ -153,7 +153,9 @@ Drupal stellt das zugrunde liegende Webanwendungs-Framework bereit, während Wis
 
 Entscheidend ist, dass WissKI ein semantisches Modell mit der Art und Weise verbindet, wie Forschungsinformationen im System organisiert und bearbeitet werden.
 
-### Zusammenspiel: Drupal stellt das Anwendungs-Framework bereit, WissKI ergänzt die semantische Datenebene.
+### Zusammenspiel
+
+Drupal stellt das Anwendungs-Framework bereit, WissKI ergänzt die semantische Datenebene.
 
 **Drupal stellt bereit …**
 
@@ -175,40 +177,7 @@ Entscheidend ist, dass WissKI ein semantisches Modell mit der Art und Weise verb
 
 ## Der WissKI Pathbuilder
 
-> **Was macht der Pathbuilder?**
->
-> Der WissKI Pathbuilder verbindet Elemente einer Ontologie mit der Struktur, über die Informationen in WissKI organisiert und bearbeitet werden.
->
-> Er verwendet **Gruppen** und **Pfade** innerhalb der Ontologie, um die für bestimmte Datenstrukturen relevanten Klassen und Properties festzulegen. Dadurch ermöglicht er eine strukturierte Datenerfassung:
->
-> **Gruppen** organisieren semantische Entitäten, beispielsweise Objekte, Personen, Orte oder Ereignisse.
->
-> **Pfade** definieren semantische Beziehungen zwischen diesen Entitäten.
->
-> **Widgets / Felder** stellen nutzerfreundliche Oberflächen bereit, um Daten auf Grundlage dieser Strukturen einzugeben und zu verwalten.
->
-> Für den Moment genügt es zu verstehen, dass der Pathbuilder auf einem bestehenden semantischen Modell aufbaut. Er ersetzt nicht den Prozess, dieses Modell zu entwickeln oder zu definieren.
-
----
-
 Der **Pathbuilder** ist das **Herzstück von WissKI**.
-
-Die im Pathbuilder modellierten semantischen Strukturen werden in WissKI technisch als RDF-Wissensgraph gespeichert. Damit verbindet WissKI die nutzerfreundliche Modellierung mit den Standards des Semantic Web.
-
-Der Pathbuilder definiert:
-
-- **Gruppen** → semantische Entitäten, z. B. Objekt, Person, Ort, Ereignis
-- **Pfade** → Beziehungen zwischen diesen Entitäten, z. B. Objekt → wurde geschaffen von → Person
-- **Widgets** → automatisch generierte Eingabeformulare, deren Struktur aus der Semantik abgeleitet wird
-
-So ist es möglich, in WissKI **nicht mit Tabellen**, sondern mit **ontologiebasierten Strukturen** zu arbeiten.
-
-Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und unterstützt die Nutzenden bestmöglich bei der Datenpflege.
-
-![Pathbuilder](../assets/pathbuilder.jpg)
-
-
-
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
@@ -217,6 +186,24 @@ Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und unte
 ![Pathbuilder](../assets/pathbuilder_new.JPG)
 
 > **Abbildung:** Pathbuilder in WissKI mit Pfadgruppen, Pfaden und Feldeinstellungen zur semantischen Modellierung der Domäne Computerspiele ab WissKI (version 8.X-4.9) und ab Drupal (version 11.4.11). 
+
+> **Was macht der Pathbuilder?**
+>
+> Die im Pathbuilder modellierten semantischen Strukturen werden in WissKI technisch als RDF-Wissensgraph gespeichert. Damit verbindet WissKI die nutzerfreundliche Modellierung mit den Standards des Semantic Web.
+>
+> Der Pathbuilder definiert **Gruppen** und **Pfade** innerhalb der Ontologie, und legt die für bestimmte Datenstrukturen relevanten Klassen und Properties fest. Dadurch ermöglicht er eine strukturierte Datenerfassung:
+>
+> - **Gruppen** organisieren semantische Entitäten, z.B. Objekte, Personen, Orte oder Ereignisse.
+>
+> - **Pfade** definieren semantische Beziehungen zwischen diesen Entitäten, z.B. Objekt → wurde geschaffen von → Person.
+>
+> - **Widgets/Felder** stellen nutzerfreundliche Oberflächen bereit, um Daten auf Grundlage dieser Strukturen einzugeben und zu verwalten.
+>
+> Für den Moment genügt es zu verstehen, dass der Pathbuilder auf einem bestehenden semantischen Modell aufbaut. Er ersetzt nicht den Prozess, dieses Modell zu entwickeln oder zu definieren.
+
+So ist es möglich, in WissKI **nicht mit Tabellen**, sondern mit **ontologiebasierten Strukturen** zu arbeiten.
+
+Gleichzeitig bleibt WissKI flexibel, ermöglicht semantische Konsistenz und unterstützt die Nutzenden bestmöglich bei der Datenpflege.
 
 ---
 
@@ -249,14 +236,6 @@ Anstatt diese Angaben als voneinander unabhängige Fakten zu behandeln, macht di
 
 Grundlage dafür ist das **ereigniszentrierte Modellierungsprinzip des CIDOC CRM**.
 
-Objekte werden nicht isoliert beschrieben, sondern über **Ereignisse** (z. B. Herstellung, Nutzung, Erwerb) und die daran beteiligten Akteur:innen, Orte und Zeiten in einen nachvollziehbaren Zusammenhang gesetzt.
-
-Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF). Informationen werden dabei als sogenannte Tripel gespeichert:
-
-- **Subjekt** – die beschriebene Ressource
-- **Prädikat** – ihre Eigenschaft oder Beziehung
-- **Objekt** – ein Wert oder eine weitere Ressource
-
 Eine Aussage wie:
 
 > „Das Selbstbildnis wurde von Albrecht Dürer geschaffen.“
@@ -275,11 +254,17 @@ Pfadgruppen entsprechen dabei Entitäten, Pfade definieren Beziehungen und die d
 
 Ein zentrales Prinzip des CIDOC CRM ist die ereigniszentrierte Modellierung.
 
-Objekte, Personen und Orte werden nicht nur anhand isolierter Eigenschaften beschrieben. Stattdessen bieten **Ereignisse und Aktivitäten** – beispielsweise Geburt, Herstellung, Nutzung oder Erwerb – einen Kontext, in dem Akteur:innen, Objekte, Orte und Zeiten miteinander in Beziehung gesetzt werden können.
+Objekte, Personen und Orte werden nicht nur anhand isolierter Eigenschaften beschrieben. Stattdessen bieten **Ereignisse und Aktivitäten** – z.B. Geburt, Herstellung, Nutzung oder Erwerb – einen Kontext, in dem Akteur:innen, Objekte, Orte und Zeiten miteinander in Beziehung gesetzt werden können.
 
 So kann die Entstehung eines Selbstbildnisses von Albrecht Dürer als Herstellungsereignis modelliert werden, an dem der Künstler und das Kunstwerk beteiligt sind und dem ein Zeitraum zugeordnet ist.
 
 Dieser Ansatz hilft uns, nicht nur zu beschreiben, **was** über ein Objekt bekannt ist, sondern auch, **wie** es mit anderen Entitäten zusammenhängt.
+
+Technisch basiert dieser Wissensgraph auf dem Resource Description Framework (RDF) [siehe M1E3: Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#10). Informationen werden dabei als sogenannte Tripel gespeichert:
+
+- **Subjekt** – die beschriebene Ressource
+- **Prädikat** – ihre Eigenschaft oder Beziehung
+- **Objekt** – ein Wert oder eine weitere Ressource
 
 ---
 
@@ -311,33 +296,24 @@ Pfadgruppen organisieren zusammengehörige Pfade, während einzelne Pfade Abfolg
 
 Wenn Nutzende Informationen über diese Strukturen eingeben, kann WissKI die daraus entstehenden Aussagen entsprechend dem konfigurierten semantischen Modell als RDF-Daten speichern.
 
-In **Modul 3** werden Sie erkunden, wie sich ein Diagramm mit ausgewählten Ontologiepfaden in eine WissKI-Pathbuilder-Konfiguration überführen lässt.
+In **Modul 3 (M3): Vom Diagramm zu Pfaden – erläutern und anwenden** können Sie erkunden, wie sich ein Diagramm mit ausgewählten Ontologiepfaden in eine WissKI-Pathbuilder-Konfiguration überführen lässt.
 
 ---
 
 ## Relevanz von WissKI
 
-WissKI …
-
-- ermöglicht **wissensbasierte Modellierung** statt starrer Tabellenschemata
-- stellt **Interoperabilität** durch etablierte Ontologien wie **CIDOC CRM** sicher
-- unterstützt die **FAIR-Prinzipien**
-- generiert **Eingabeformulare automatisch** auf Basis semantischer Pfade
-- publiziert Daten als **Linked Open Data**
-- bietet **leistungsfähige SPARQL-Abfragen**
-- verbindet **konzeptionelle Klarheit** mit **technischer Umsetzung**.
-
 > **Warum ist WissKI relevant?**
 >
-> WissKI verbindet konzeptionelle Modellierung mit technischer Umsetzung.
->
-> Es unterstützt:
->
-> - ontologiebasierte Datenstrukturen anstelle rein tabellenbasierter Datenstrukturen,
-> - semantische Konsistenz durch gemeinsame Ontologien,
-> - strukturierte Dateneingabe auf Grundlage semantischer Pfade,
-> - maschinenlesbare Daten und semantische Abfragen sowie
-> - interoperable und nachnutzbare Forschungsdaten.
+> WissKI verbindet **konzeptionelle Modellierung mit technischer Umsetzung** und unterstützt die strukturierte Erfassung, Verwaltung und Nachnutzung von Forschungsdaten im Kulturerbebereich.
+
+WissKI …
+
+- ermöglicht **ontologiebasierte Datenmodellierung** anstelle starrer Tabellenschemata,
+- fördert **semantische Konsistenz und Interoperabilität** durch etablierte Ontologien wie **CIDOC CRM**,
+- unterstützt die **FAIR-Prinzipien** zur Auffindbarkeit, Zugänglichkeit, Interoperabilität und Nachnutzbarkeit von Forschungsdaten,
+- generiert **Eingabeformulare** auf Grundlage semantischer Pfade,
+- ermöglicht die Veröffentlichung von Daten als **Linked Open Data** und
+- unterstützt **semantische Abfragen mit SPARQL**.
 
 ---
 
@@ -389,7 +365,7 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 >
 > Sie haben nun gesehen, wie WissKI die semantische Modellierung mit dem technischen Forschungsdatenmanagement verbindet.
 >
-> In der folgenden Praxiseinheit kehren Sie zu Ihrem Beispielobjekt zurück und entwickeln dessen semantisches Domänenmodell Schritt für Schritt mithilfe der in diesem Modul vorgestellten Konzepte.
+> In der nächsten, das Modul 1 abschließenden Praxiseinheit [**M1EÜ: Anwendungsbeispiel Objektsammlungen**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) kehren Sie zu Ihrem Beispielobjekt und Ihrer Modellskizze zurück und entwickeln Schritt für Schritt dessen semantisches Domänenmodell.
 
 ---
 
