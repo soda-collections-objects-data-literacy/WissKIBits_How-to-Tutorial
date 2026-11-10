@@ -58,7 +58,7 @@ Teilnehmende können...
 
 ## Ziel und Szenario
 
-Dies ist eine Praxiseinheit.
+Dies ist die abschließende Praxiseinheit von Modul 1.
 
 In dieser Übung greifen Sie die **konzeptuelle Modellskizze** aus der Aktivierungsübung wieder auf.
 
@@ -75,11 +75,11 @@ Am Ende können die Teilnehmenden:
 - die Zuordnungen als **Modellierungsentscheidungen** beschreiben und begründen,
 - eine erste **begründete CIDOC-CRM-Zuordnung** für einen kleinen Ausschnitt ihrer konzeptuellen Modellskizze entwickeln.
 
-Die Modellskizze wird in den folgenden Modulen 2 und 3 schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
+Die Modellskizze wird in den **Modulen 2: Modellieren mit CIDOC CRM – verstehen und anwenden** und **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
 
 > **Transfer: Vom konzeptuellen Modell zu CIDOC CRM**
 >
-> Die in der Aktivierungsübung (M1E0A) entstandene Modellskizze wird nun weiterentwickelt.
+> Ihre in der Aktivierungsübung (M1E0A) entstandene Modellskizze oder die [Musterlösung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10) wird nun weiterentwickelt.
 >
 > Ausgewählte Konzepte und Ereignisse werden mithilfe von CIDOC CRM beschrieben.
 >
@@ -89,17 +89,20 @@ Die Modellskizze wird in den folgenden Modulen 2 und 3 schrittweise weiterentwic
 >
 > **Was meinen wir mit einem Begriff – und welche CIDOC-CRM-Klasse beschreibt diese Bedeutung möglichst passend?**
 >
-> Ziel ist es, erste Modellierungsentscheidungen zu treffen, zu überprüfen und zu begründen.
+> Ziel ist es, erste Modellierungsentscheidungen zu treffen, diese zu überprüfen und zu begründen.
 
 ---
 
 ## Ausgangspunkt: Modellskizze zu „Zelda“
 
-Ausgangspunkt ist die **Modellskizze zu „The Legend of Zelda: A Link to the Past“**, die in der Aktivierungsübung entwickelt wurde.
+Ausgangspunkt ist die **Modellskizze zu „The Legend of Zelda: A Link to the Past“**, die in der Aktivierungsübung dieses Moduls entwickelt wurde.
 
-An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können. Die Modellskizze hält diese zunächst in eigenen Begriffen fest, einschließlich möglicher Beziehungen, bei denen noch Unsicherheiten bestehen.
+Verwenden Sie nun Ihre Modellskizze oder die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
 
-Halten Sie Ihre ursprüngliche Modellskizze bereit, damit Sie Ihre ersten Überlegungen mit den Modellierungsentscheidungen vergleichen können, die Sie im Verlauf dieser Übung treffen.
+![Konzeptuelle Modellskizze aus Modul 1](../assets/mindmap.png)
+
+An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können. Die Modellskizze hält diese zunächst in eigenen Begriffen fest, einschließlich möglicher Beziehungen, bei denen noch Unsicherheiten bestehen können.
+
 
 > **Von der Modellskizze zu einem ersten CIDOC-CRM-Entwurf**
 >
@@ -116,7 +119,6 @@ Halten Sie Ihre ursprüngliche Modellskizze bereit, damit Sie Ihre ersten Überl
 >
 > In dieser Phase wird noch kein vollständiges oder formal implementiertes CIDOC-CRM-Modell erwartet. Ziel ist es, **eine erste, am CIDOC CRM orientierte Version des konzeptuellen Modells** zu entwickeln, die in Modul 2 weiter ausgearbeitet und formalisiert wird.
 
-![Concept mind map](../WissKIBits_Modul1/assets/mindmap.png)
 
 ---
 
@@ -128,9 +130,9 @@ Halten Sie Ihre ursprüngliche Modellskizze bereit, damit Sie Ihre ersten Überl
 >
 > Für die Modellierung bedeutet das:
 >
-> Domänenkonzept → Bedeutung klären → CIDOC CRM prüfen → Modellierungsentscheidung treffen
+> **Domänenkonzept → Bedeutung klären → CIDOC CRM prüfen → Modellierungsentscheidung treffen**
 >
-> Die Bezeichnung einer Klasse allein reicht für die Auswahl nicht aus. Entscheidend ist, ob ihre Scope Note zur beabsichtigten Bedeutung des Domänenkonzepts passt.
+> **Merke:** Die Bezeichnung einer Klasse allein reicht für die Auswahl nicht aus. Entscheidend ist, ob ihre Scope Note zur beabsichtigten Bedeutung des Domänenkonzepts passt.
 
 ---
 
@@ -181,11 +183,12 @@ Beispielsweise können folgende Fragen gestellt werden:
 
 ### Ausgangspunkt: Ihre Modellskizze
 
-![Konzept-Mindmap](../WissKIBits_Modul1/assets/mindmap.png)
+![Konzept-Mindmap](../assets/mindmap.png)
 
 > **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels **The Legend of Zelda: A Link to the Past**. Eigene Darstellung, erstellt mit ChatGPT (OpenAI), 2026.
 
-Nutzen Sie Ihre Modellskizze aus der Aktivierungsübung als Ausgangspunkt. Untersuchen Sie nun **die beiden ausgewählten Elemente** und prüfen Sie, wie sich deren Bedeutung mithilfe des **CIDOC CRM** ausdrücken lässt.
+In der Übung werden in zwei Aufgaben jeweils Schritt-für-Schritt untersucht wie für **die beiden ausgewählten Elemente** deren Bedeutung mithilfe des **CIDOC CRM** ausdrücken lässt.
+
 
 ---
 
@@ -260,11 +263,11 @@ Dies sind mögliche Ausgangspunkte und keine vorgegebenen Lösungen. Prüfen Sie
 
 ### Aufgabe 2: Modellierungsentscheidungen vergleichen und diskutieren
 
-Vergleichen Sie Ihre vorgeschlagenen CIDOC-CRM-Zuordnungen mit denen anderer Teilnehmender oder mit dem folgenden Musterbeispiel.
+Vergleichen Sie Ihre vorgeschlagenen CIDOC-CRM-Zuordnungen mit denen anderer Teilnehmenden oder mit dem folgenden durch CIDOC CRM Klassen repräsentierte Musterbeispiel.
 
-![Konzept-Mindmap](../WissKIBits_Modul1/assets/Mindmap.png)
+![CIDOC CRM Musterbeispiel](../assets/Mindmap.png)
 
-> **Abbildung:** Beispiel einer Modellskizze zum Computerspiel **„The Legend of Zelda: A Link to the Past“**. Die Darstellung dient als Ausgangspunkt für die Diskussion von Modellierungsentscheidungen und ist nicht als einzig richtige Lösung zu verstehen.
+> **Abbildung:** Beispiel eines CIDOC CRM Mappings zum Computerspiel **„The Legend of Zelda: A Link to the Past“**. Die Darstellung dient als Ausgangspunkt für die Diskussion von Modellierungsentscheidungen und ist nicht als die einzig richtige Lösung zu verstehen.
 
 **Diskutieren Sie die folgenden Fragen:**
 
@@ -363,9 +366,9 @@ Durch das Nachschlagen der **Scope Notes**, die Prüfung möglicher Klassenzuord
 >
 > Sie haben Ihre konzeptuelle Modellskizze um erste **CIDOC-CRM-Zuordnungen** und **begründete Modellierungsentscheidungen** erweitert.
 >
-> **Modul 2:** Sie werden diese Entscheidungen überprüfen und weiterentwickeln sowie ausgewählte Teile des Modells mithilfe von **Protégé** als maschinenlesbare **OWL-Ontologie** formalisieren.
+> **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** Sie werden diese Entscheidungen überprüfen und weiterentwickeln sowie ausgewählte Teile des Modells mithilfe von **Protégé** als maschinenlesbare **OWL-Ontologie** formalisieren.
 >
-> **Modul 3:** Sie werden das semantische Modell nutzen, um eine **WissKI-Pathbuilder-Konfiguration** vorzubereiten und in WissKI zu importieren.
+> **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** Sie werden das semantische Modell nutzen, um eine **WissKI-Pathbuilder-Konfiguration** vorzubereiten und in WissKI zu importieren.
 >
 > Ihre Modellskizze bildet damit den **Ausgangspunkt für die weitere Modellierung**. Sie stellt noch keine vollständige formale Ontologie dar.
 
