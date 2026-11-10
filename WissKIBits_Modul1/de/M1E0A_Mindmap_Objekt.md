@@ -83,23 +83,24 @@ Anhand der verfügbaren Informationen über das Objekt und seinen Kontext unters
 
 > **Vom Objekt ausgehend**
 >
-> Denken Sie zunächst noch nicht an Klassen und Eigenschaften von CIDOC CRM, sondern beginnen Sie mit dem Objekt und seinem fachlichen Kontext.
+> Machen Sie sich zunächst mit dem Objekt und seinem fachlichen Kontext vertraut.
 >
 > Orientieren Sie sich an folgenden Fragen:
 >
-> - Was ist das Objekt?
-> - Welche Personen, Organisationen oder anderen Objekte stehen damit in Verbindung?
-> - Welche Ereignisse sind für das Objekt relevant?
-> - Welche Orte und Zeitangaben spielen eine Rolle?
-> - Wie hängen diese Elemente miteinander zusammen?
+> - Objekt: Um was für ein Objekt handelt es sich?
+> - Merkmale und Eigenschaften: Welche charakteristischen Merkmale und Eigenschaften weist das Objekt auf?
+> - Beziehungen: Welche Personen, Organisationen oder anderen Objekte stehen mit ihm in Verbindung?
+> - Ereignisse: Welche Ereignisse sind für das Objekt von Bedeutung?
+> - Ort und Zeit: Welche Orte und Zeitangaben sind für die Beschreibung des Objekts relevant?
+> - Zusammenhänge: In welchen Beziehungen stehen diese Elemente zueinander?
 
-**Ziel ist es nicht**, ein vollständiges Datenmodell für Computerspiele zu entwickeln. Stattdessen erstellen Sie eine **erste Skizze eines konzeptionellen Modells**, die
+Ziel ist es, ein grundlegendes Verständnis des Objekts und seines fachlichen Kontexts zu entwickeln und darauf aufbauend eine **erste Skizze eines konzeptionellen Modells für den Bereich Computerspiele** zu erstellen.
 
-- zentrale Konzepte und Ereignisse auf verständliche Weise unterscheidet,
-- die Beziehungen zwischen diesen Elementen sichtbar macht und
-- als Grundlage für die anschließende Modellierung mit **CIDOC CRM** dient.
+Das Modell soll
 
-Konzentrieren Sie sich zunächst auf die Informationen und Zusammenhänge, die für das Verständnis und die Beschreibung des Objekts wesentlich sind.
+- zentrale Konzepte und Ereignisse identifizieren und voneinander unterscheiden,
+- die Beziehungen zwischen diesen Elementen sichtbar machen und
+- als Grundlage für die anschließende Modellierung mit CIDOC CRM dienen.
 
 ---
 
@@ -139,6 +140,8 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 
 > **Über das Objekt nachdenken**
 >
+> Ziel ist es, die Informationen zu strukturieren und ihre Beziehungen sichtbar zu machen.
+>
 > Orientieren Sie sich an folgenden Fragen:
 >
 > - Welchen **Titel** trägt das Spiel?
@@ -148,8 +151,6 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 > - Welche **Ereignisse** sind für das Spiel relevant?
 > - Mit welchen **Orten und Zeiten** sind diese Ereignisse verbunden?
 > - Wie hängen diese Informationen miteinander zusammen?
-
-Ziel ist es, die verschiedenen Informationen zu strukturieren und ihre Beziehungen sichtbar zu machen. Eine Zuordnung zu CIDOC-CRM-Klassen und -Eigenschaften ist in diesem Schritt noch nicht erforderlich.
 
 ---
 
@@ -163,12 +164,14 @@ Ziel ist es, die verschiedenen Informationen zu strukturieren und ihre Beziehung
 
 > **Vorbereitung**
 >
-> 1. Öffnen Sie [Draw.io](https://app.diagrams.net/).
+> 1. Öffnen Sie [Draw.io](https://app.diagrams.net/) in ihrem Browser.
 > 2. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden. 
 > 3. Öffnen Sie anschließend die heruntergeladene Puzzle-Datei in Draw.io.
 > 4. Machen Sie sich mit den vorgegebenen Elementen (Konzepten, Ereignissen und Beziehungen) vertraut.
 >
-> **Aufgabe:** Erstellen Sie mithilfe der Vorlage eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
+> **Aufgabe:** 
+> 
+> Erstellen Sie mithilfe der Vorlage eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
 
 ### Schritt 1 · Identifizieren
 
@@ -223,6 +226,6 @@ Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes
 
 > **Wie geht es weiter?**
 >
-> Erhalten Sie Ihre Modellskizze. In **Lerneinheit 1** lernen Sie die grundlegenden Begriffe der konzeptuellen Wissensmodellierung kennen. Mithilfe dieser Begriffe betrachten Sie anschließend, was Sie in Ihrer Skizze bereits modelliert haben: **Konzepte, Ereignisse und Beziehungen**.
->
-> Wenn Sie sich später mit **CIDOC CRM** beschäftigen, greifen Sie erneut auf Ihre Modellskizze zurück.
+> Speichern Sie Ihre Modellskizze. Sie findet in späteren Einheiten erneut Anwendung.
+> 
+> In der nächsten Einheit [**M1E1: Grundbegriffe konzeptueller Wissensmodellierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) lernen Sie die grundlegende Begriffe kennen. Mithilfe dieser Begriffe reflektieren Sie Ihre Skizze mit Blick auf die **Konzepte, Ereignisse und Beziehungen**.
