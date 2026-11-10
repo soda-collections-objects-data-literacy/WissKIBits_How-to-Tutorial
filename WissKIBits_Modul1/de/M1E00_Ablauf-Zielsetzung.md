@@ -285,8 +285,10 @@ Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wir
 
 ---
 
-## Wie geht es weiter?
+## Ausblick
 
+> **Wie geht es weiter?**
+>
 > In der nächsten Einheit [M1EA0: Mindmap Objekt](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) beginnen Sie mit dem konkreten Sammlungsobjekt „Zelda“ und erstellen eine erste **konzeptuelle Modellskizze**, indem Sie relevante Konzepte, Ereignisse und Beziehungen identifizieren.
 
 ---

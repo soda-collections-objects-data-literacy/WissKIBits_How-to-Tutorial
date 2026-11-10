@@ -224,9 +224,10 @@ Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes
 
 ---
 
-## Wie geht es weiter?
+## Ausblick
 
-
+> **Wie geht es weiter?**
+>
 > Speichern Sie Ihre Modellskizze. Sie findet in späteren Einheiten erneut Anwendung.
 > 
 > In der nächsten Einheit [**M1E1: Grundbegriffe konzeptueller Wissensmodellierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) lernen Sie die grundlegende Begriffe kennen. Mithilfe dieser Begriffe reflektieren Sie Ihre Skizze mit Blick auf die **Konzepte, Ereignisse und Beziehungen**.
