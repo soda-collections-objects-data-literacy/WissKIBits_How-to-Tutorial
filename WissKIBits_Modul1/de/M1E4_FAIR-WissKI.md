@@ -131,11 +131,11 @@ WissKI wird u. a. am [**Germanischen Nationalmuseum (GNM)**](https://www.gnm.de/
 
 WissKI wird am Germanischen Nationalmuseum (GNM) in Nürnberg als Teil seiner digitalen Forschungsinfrastruktur eingesetzt. Dies veranschaulicht, wie semantische Technologien das Management von Forschungs- und Sammlungsdaten in einem institutionellen Kontext unterstützen können.
 
-![GNM](../WissKIBits_Modul1/assets/gnm.jpg)
+![GNM](../assets/gnm.jpg)
 
 > **Abbildung:** [Überblicksseite der Forschungsprojekte Archiv am GNM](https://www.gnm.de/forschung/forschungsprojekte-archiv) (GNM, n.d.-a)
 
-![GNM innen](../WissKIBits_Modul1/assets/gnm_2.JPG)
+![GNM innen](../assets/gnm_2.JPG)
 
 > **Abbildung:** [Überblicksseite Sammlungen am GNM](https://www.gnm.de/sammlungen/ueberblick-sammlungen) (GNM, n.d.-b)
 
