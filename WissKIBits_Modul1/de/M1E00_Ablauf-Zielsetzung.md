@@ -118,7 +118,7 @@ Am Ende des Moduls sind Sie in der Lage,
 | M1E2 | [Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1) | 10 Min. |
 | M1E3 | [Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1) | 15 Min. |
 | M1E4 | [FAIR-Konformität mit WissKI](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E4_FAIR-WissKI.md#1) | 15 Min. |
-| M1EÜ | [Übung: ](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) | 20 Min. |
+| M1EÜ | [Übung: CIDOC CRM Formalisierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) | 20 Min. |
 | | **Gesamt** | **90 Min.** |
 
 ---
@@ -189,7 +189,7 @@ Nach Abschluss von Modul 1 können die Teilnehmenden…
 - Resource Description Framework (RDF) als Standard zur Beschreibung von Ressourcen benennen. (LZ-ID SODa\_03\_007\_0843)
 - Nutzen der Wissenschaftlichen Kommunikationsinfrastruktur WissKI benennen (LZ-ID SODa\_01\_010\_0204)
 
-### EÜ. Anwendungsbeispiel Objektsammlungen
+### EÜ. CIDOC CRM Formalisierung
 
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808)
@@ -223,9 +223,6 @@ Verstehen, wie semantische Modellierung und WissKI die FAIR-Prinzipien und die N
 **CIDOC CRM anwenden (M1EÜ):**  
 Die eigene Modellskizze erneut betrachten, mögliche Zuordnungen zu CIDOC CRM untersuchen und ausgewählte Modellierungsentscheidungen begründen.
 
-
-Ihr Ergebnis: Eine konzeptionelle Modellskizze mit ersten dokumentierten CIDOC-CRM-Zuordnungen, die in Modul 2 weiter ausgearbeitet werden kann.
-
 ---
 
 ## Arbeitsweise und Beispiel
@@ -234,11 +231,11 @@ Das Modul verbindet kurze fachliche Inputs mit Analyse, Diskussion und Modellier
 
 - Begriffe werden anhand typischer Informationen aus Sammlungen eingeführt.
 - Modellierungsentscheidungen werden diskutiert und begründet.
-- Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** dient als roter Faden.
+- Das Beispielobjekt **The Legend of Zelda: A Link to the Past** dient als roter Faden.
 - In der Übung entwickeln die Teilnehmenden eine kleine Modellskizze und gleichen ausgewählte Konzepte mit CIDOC CRM ab.
 - Die Ergebnisse werden gesichert und können auf die eigene Sammlungspraxis übertragen werden.
 
-Das Ziel ist kein vollständiges Datenmodell. Entscheidend ist ein **kleiner, konsistenter und begründbarer Modellentwurf**, der später erweitert und technisch umgesetzt werden kann.
+Das Ziel ist kein vollständiges Datenmodell. Entscheidend ist eine **kleiner, konsistenter und begründbarer Modellskizze**, der später erweitert und technisch umgesetzt werden kann.
 
 > **So arbeiten Sie**
 >
@@ -260,18 +257,18 @@ Erfahrungen im Umgang mit Sammlungs-, Objekt- oder Forschungsdaten sind hilfreic
 
 ## Ergebnis des Moduls
 
-Am Ende von Modul 1 liegt eine erste **konzeptuelle Modellskizze** vor, die relevante **Konzepte und Ereignisse, ihre Beziehungen** sowie **erste Zuordnungen zu CIDOC CRM** zeigt.
+Am Ende von Modul 1 liegt eine erste **CIDOC CRM Formalisierung** der konzeptuellen Modellskizze vor.
 
 > **Was nehmen Sie aus dem Modul mit?**
 >
-> Am Ende des Moduls liegt eine erste konzeptuelle Modellskizze der Domänenlogik (Computerspiele) vor. Sie zeigt:
+> Am Ende des Moduls liegt eine erste CIDOC CRM-basierte Formalisierung der Domänenlogik (Computerspiele) vor. Sie zeigt:
 >
 > - die für das Beispiel relevanten Konzepte und Ereignisse,
 > - ihre semantischen Beziehungen,
 > - erste Zuordnungen zu Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM,
 > - sowie begründete Modellierungsentscheidungen.
 >
-> Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung und Implementierung in WissKI.
+> Diese Skizze dient als Ausgangspunkt für die weitere Formalisierung mit OWL und Implementierung in WissKI.
 
 ---
 
@@ -279,9 +276,9 @@ Am Ende von Modul 1 liegt eine erste **konzeptuelle Modellskizze** vor, die rele
 
 In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt und diese als Grundlage der semantischen Datenmodellierung präsentiert.
 
-Anschließend führt das Modul von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zur konzeptuellen Modellskizze der Domänenlogik.
+Anschließend führt das Modul 1 von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zum formalisierten Modell einer Domänenlogik ein.
 
-Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wird in den weiterführenden Modulen behandelt.
+Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wird in den weiterführenden Modul 2 und Modul 3 behandelt.
 
 > **Wie geht es weiter?**
 >

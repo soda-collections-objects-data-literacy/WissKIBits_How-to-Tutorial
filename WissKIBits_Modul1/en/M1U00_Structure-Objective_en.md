@@ -119,7 +119,7 @@ By the end of the module, you will be able to:
 | M1U2 | [Fundamentals of ontologies](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U2_Fundamentals-Ontology_en.md#1) | 10 min. |
 | M1U3 | [Introduction to CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md#1) | 15 min. |
 | M1U4 | [FAIR compliance with WissKI](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1) | 15 min. |
-| M1UE | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
+| M1UE | [Exercise: CIDOC CRM Formalisation](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md#1) | 20 min. |
 |  | **Total** | **90 min.** |
 
 ---
@@ -190,7 +190,7 @@ After completing module 1, participants will be able to...
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
-### UE. Mindmap of the Application Example from Object Collections
+### UE. CIDOC CRM Formalisation
 
 - apply the core entities (object/person/place/time/event) of an object collection. (LO-ID SODa\_03\_007\_0811)
 - name datatype properties of the CIDOC CRM reference model. (LO-ID SODa\_03\_007\_0808)
@@ -224,8 +224,6 @@ Understand how semantic modelling and WissKI can support the FAIR principles and
 **Apply CIDOC CRM (M1UE):** 
 Revisit your model sketch, examine possible CIDOC CRM mappings, and justify selected modelling decisions. 
 
-Your result: A conceptual model sketch with initial, documented CIDOC CRM mappings that can be refined in module 2.
-
 ---
 
 ## Working Method and Example
@@ -234,7 +232,7 @@ The module combines short inputs with analysis, discussion, and modelling activi
 
 - Terms are introduced using typical information from collections.
 - Modelling decisions are discussed and justified collaboratively.
-- The example object **“The Legend of Zelda: A Link to the Past”** serves as a common thread.
+- The example object **The Legend of Zelda: A Link to the Past** serves as a common thread.
 - In the exercise, participants develop a small model sketch and align selected concepts with CIDOC CRM.
 - The results are consolidated in the plenary session and transferred to participants’ own collection practices.
 
@@ -264,14 +262,14 @@ At the end of module 1, you will have developed a first **conceptual model sketc
 
 > **What will you take away**
 >
-> By the end of the module you will have an **initial conceptual model sketch of the domain logic** (Computer Games) that includes:
+> By the end of the module you will have an **initial CIDOC CRM formalised domain model** (Computer Games) that includes:
 >
 > - the concepts and events relevant to the example,
 > - their semantic relationships,
-> - initial mappings to classes (entities) and properties (properties) of CIDOC CRM,
+> - mappings to classes (entities) and properties (properties) of CIDOC CRM,
 > - as well as justified modelling decisions.
 >
-> This sketch serves as the starting point for further formalisation and implementation in WissKI.
+> This sketch serves as the starting point for further OWL-formalisation and implementation in WissKI.
 
 ---
 

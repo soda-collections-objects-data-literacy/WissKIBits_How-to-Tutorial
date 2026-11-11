@@ -357,7 +357,7 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 **WissKI** bietet eine technische Umgebung, in der semantische Datenmodelle umgesetzt und für die Arbeit mit Sammlungs- und Forschungsdaten nutzbar gemacht werden können.
 
-In der folgenden Einheit wird dieser **Modellierungsprozess anhand eines konkreten Beispiels praktisch nachvollzogen**. Ausgangspunkt ist ein **Beispielobjekt aus der Domäne Computerspiele**, das schrittweise semantisch modelliert wird. Dabei werden die bisher im Modul vorgestellten Schritte zusammengeführt: von der **konzeptuellen Mindmap** über die **formalisierte Darstellung** der relevanten Konzepte, Eigenschaften und Beziehungen mit **CIDOC CRM** bis hin zum daraus resultierenden **Domänenmodell** auf Grundlage des CIDOC CRM.
+In der folgenden Einheit wird dieser **Modellierungsprozess anhand eines konkreten Beispiels praktisch nachvollzogen**. Ausgangspunkt ist ein **Beispielobjekt aus der Domäne Computerspiele**, das schrittweise semantisch modelliert wird. Dabei werden die bisher im Modul vorgestellten Schritte zusammengeführt: von der **konzeptuellen Modellskizze** über die **formalisierte Darstellung** der relevanten Konzepte, Eigenschaften und Beziehungen mit **CIDOC CRM** bis hin zum daraus resultierenden **Domänenmodell** auf Grundlage des CIDOC CRM.
 
 Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt eine formale semantische Modellierung entwickelt und ein **CIDOC CRM-basiertes formalisiertes Modell** entsteht.
 
@@ -365,7 +365,7 @@ Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt
 >
 > Sie haben nun gesehen, wie WissKI die semantische Modellierung mit dem technischen Forschungsdatenmanagement verbindet.
 >
-> In der nächsten, das Modul 1 abschließenden Praxiseinheit [**M1EÜ: Anwendungsbeispiel Objektsammlungen**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) kehren Sie zu Ihrem Beispielobjekt und Ihrer Modellskizze zurück und entwickeln Schritt für Schritt dessen semantisches Domänenmodell.
+> In der nächsten, das Modul 1 abschließenden Praxiseinheit [**M1EÜ: CIDOC CRM Formalisierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) kehren Sie zu Ihrem Beispielobjekt und Ihrer Modellskizze zurück und entwickeln Schritt für Schritt dessen semantisches Domänenmodell.
 
 ---
 

@@ -22,7 +22,7 @@ title: WissKI Bits Ontology-Based Modelling of Research Data
 
 module: From collection to modelling decisions to diagram – understand and explain
 
-unit: Mindmap of the Application Example from Object Collections
+unit: CIDOC CRM Formalisation
 
 description: The SODa how-to tutorial uses a computer game collection as an example to teach the fundamentals and practical steps of ontology-based modelling of research data. Learners develop a semantic data model based on CIDOC CRM and implement it step by step using Protégé, Draw.io, and WissKI.
 
@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 1 (M1): **From Collection to Modelling Decisions to Diagram – Understand and Explain**
 
-Unit Exercise (UE): **Mindmap of the Application Example from Object Collections**  
+Unit Exercise (UE): **CIDOC CRM Formalisation**  
 
 **Duration:** ~ 20 min.
 
