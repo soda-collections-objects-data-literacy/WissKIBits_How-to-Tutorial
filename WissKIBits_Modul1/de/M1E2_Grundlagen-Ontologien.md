@@ -67,7 +67,7 @@ Teilnehmende können...
 
 ## Grundlagen von Ontologien
 
-Die [Grundbegriffe der konzeptuellen Wissensmodellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert.
+Die [**Grundbegriffe der konzeptuellen Wissensmodellierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E1_Grundbegriffe-konzeptuelle-Wissensmodellierung.md#1) bildet eine wichtige Grundlage für die strukturierte Beschreibung von Wissen innerhalb einer Domäne. Dabei werden in einem fachlichen Zusammenhang zentrale Konzepte und Begriffe, Eigenschaften und Beziehungen identifiziert.
 
 **Ontologien** helfen dabei, diese konzeptuellen Strukturen formal auszudrücken (Rehbein, 2017, S. 164) und in einer maschinenlesbaren Form darzustellen.
 
@@ -128,6 +128,7 @@ Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale
 - und welche **Regeln** gelten, damit **Aussagen** über sie sinnvoll und widerspruchsfrei modelliert werden können.
 
 ---
+
 ### Aspekte von Ontologien
 
 > **Ontologien bestehen typischerweise aus folgenden Bausteinen:**
@@ -136,7 +137,7 @@ Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale
 > Beispiele: Spiel, Person, Organisation. Klassen repräsentieren allgemeine Konzepte innerhalb einer Domäne und sind typischerweise hierarchisch strukturiert (Weller, 2013, S. 208).
 >
 > **Instanzen (Instances)** → Von welchen konkreten Dingen sprechen wir? 
-> Beispiel: *The Legend of Zelda: A Link to the Past*. Instanzen repräsentieren einzelne Vertreter von Klassen (Weller, 2013, S. 208).
+> Beispiel: **The Legend of Zelda: A Link to the Past**. Instanzen repräsentieren einzelne Vertreter von Klassen (Weller, 2013, S. 208).
 >
 > **Eigenschaften (Properties)** → Wie werden Dinge beschrieben oder miteinander in Beziehung gesetzt? 
 > Beispiel: Ein Spiel hat einen Titel. Eigenschaften beschreiben Merkmale oder drücken semantische Beziehungen zwischen Elementen einer Domäne aus (Weller, 2013, S. 208).
@@ -162,6 +163,8 @@ Die bekannteste Definition beschreibt eine Ontologie als eine explizite, formale
 > Diese Vorteile hängen davon ab, wie eine Ontologie entwickelt, dokumentiert und verwendet wird. Allein die Verwendung einer Ontologie macht Daten nicht automatisch konsistent oder interoperabel.
 
 ---
+
+## Relevanz von Ontologien
 
 Ontologien sind eine Form der Wissensrepräsentation mit einem hohen Abstraktionsniveau. Sie haben **„einen an mathematische Logik angelehnten (...) Formalisierungsgrad, durch den Informationen in ihrem Bedeutungskontext präzise erfasst und maschinell“** (Herv. d. A.) verarbeitet werden können. Damit sind Ontologien vor allem für die Integration heterogener Datenquellen, den Austausch und die Wiederverwendung von Wissenselementen sowie die Ermöglichung logischer Schlussfolgerungen relevant (Rehbein, 2017, S. 162).
 

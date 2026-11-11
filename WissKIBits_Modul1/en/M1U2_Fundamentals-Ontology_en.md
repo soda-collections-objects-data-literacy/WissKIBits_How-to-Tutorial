@@ -69,7 +69,7 @@ Participants will be able to...
 
 ## Fundamentals of Ontologies
 
-**Conceptual knowledge modelling** (M1E1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein, 2017, p. 164) and represent them in a machine-readable form.
+[**Conceptual knowledge modelling**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1) provides an important foundation for the structured description of knowledge within a domain. In this process, central concepts and terms, properties, and relationships are identified within a subject-specific context. **Ontologies** help to express these conceptual structures formally (Rehbein, 2017, p. 164) and represent them in a machine-readable form.
 
 This unit explains **why ontologies are used and what benefits they offer for collection documentation.** To this end, the most important **terms** and **building blocks of ontologies** are defined and explained, as is their **function** in the structured and semantic description of collection information.
 
@@ -132,46 +132,11 @@ The best-known definition describes an ontology as an explicit, formal specifica
 >
 > **Classes** → What kinds of things are there? Examples: Game, Person, Organisation. Classes represent general concepts within a domain and are typically organised hierarchically (Weller, 2013, p. 208).
 >
-> **Instances** → Which concrete things are you talking about? Example: *The Legend of Zelda: A Link to the Past*. Instances represent individual members of classes (Weller, 2013, p. 208).
+> **Instances** → Which concrete things are you talking about? Example: **The Legend of Zelda: A Link to the Past**. Instances represent individual members of classes (Weller, 2013, p. 208).
 >
 > **Properties** → How are things described or related? Example: A game has a title. Properties describe characteristics or express semantic relationships between elements of a domain (Weller, 2013, p. 208).
 >
 > **Constraints** → What rules govern the use of classes and properties? Constraints help ensure the logical consistency of the ontology, for example by specifying which classes may be connected through a particular property (Rehbein, 2017, p. 164).
-
----
-
-**Four building blocks of ontologies in detail**
-
-**Classes (Classes/Concepts)**  
-
-“Classes (Classes/Concepts) represent general terms, i.e. concepts within a domain of interest that are intended to group real-world objects according to shared properties. They are usually organised in a basic hierarchical structure.” (Weller, 2013, p. 208)
-
-Example: Game, Person, Organisation
-
-**Instances**    
-
-“Instances represent individual terms, i.e. concrete representatives of the individual classes.” (Weller, 2013, p. 208)
-
-Example: The game "The Legend of Zelda: A Link to the Past"
-
-**Properties**  
-
-Classes (Classes/Concepts) and instances can be further specified in their meaning using properties.
-
-Properties model class characteristics through semantic relations. There are two basic ways to implement this:
-
-- A property establishes a relationship between two classes (Classes/Concepts)
-- A property describes a single class (Class/Concept) without connecting it to other classes (Classes/Concepts). (Weller, 2013, p. 208)
-
-Example: The game has the title "The Legend of Zelda: A Link to the Past"
-
-A property can be restricted to connect only certain types of classes or values.
-
-**Constraints**  
-
-“For attributes and relations, an ontology can define **constraints** that specify their use in greater detail and are intended to ensure that the ontology is logically consistent in itself.” (Rehbein, 2017, p. 164)
-
-Example: A release date must be represented as a date value rather than as a person or organisation.
 
 ---
 
@@ -192,6 +157,8 @@ Example: A release date must be represented as a date value rather than as a per
 
 ---
 
+## Relevance of Ontologies
+
 Ontologies are a form of knowledge representation with a high level of abstraction. They have **“a degree of formalisation based on mathematical logic (...) through which information can be captured precisely in its semantic context and processed by machines”** (emphasis by the author). Ontologies are therefore particularly relevant for integrating heterogeneous data sources, exchanging and reusing knowledge elements, and enabling logical inference. (Rehbein, 2017, p. 162)
 
 The particular benefit of ontologies lies in their ability to describe concepts and terms, properties and relationships, and their meaning within a domain of knowledge **formally and unambiguously**. This makes it possible to relate and jointly analyse data across individual collections, projects, or systems. The formal description also enables machine processing of the data. 
@@ -202,13 +169,11 @@ Ontologies therefore provide a foundation for not only documenting complex resea
 
 ## Outlook
 
-You have learned how ontologies use classes and properties to describe concepts and relationships in a structured way.
+Ontologies provide the foundation for modeling knowledge about collection objects in a structured and semantic way. But how can this be applied in practice to cultural heritage information?
 
-Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied specifically to information about cultural heritage?
-
-> **Next:**
-> 
->  In unit 3, you will explore **CIDOC CRM**, a reference ontology for cultural heritage information. You will see how its classes, properties, and scope notes can help you examine and refine the concepts identified in your model sketch.
+> **What's Next?**
+>
+> In the next unit, [**M1U3: Introduction to CIDOC CRM**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md#1), you will be introduced to the reference ontology for cultural heritage information. You will learn how its classes, properties, and scope notes can help you examine and further refine the concepts identified in your model sketch.
 
 ---
 
