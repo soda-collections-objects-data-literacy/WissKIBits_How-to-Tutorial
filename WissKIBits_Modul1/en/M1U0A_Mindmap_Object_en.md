@@ -76,21 +76,30 @@ Your task is to explore what knowledge is relevant for describing the object and
 
 ## Starting Point: Example Object “Zelda”
 
-Your starting point is the computer game **The Legend of Zelda: A Link to the Past**.
+Your starting point is the computer game [**The Legend of Zelda: A Link to the Past**](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past).
 
 Use the available information about the object and its context to decide **what should become part of your conceptual model**.
 
 > **Starting from the object**
 >
-> Do not think about CIDOC CRM classes yet.
+> First, familiarise yourself with the object and its domain-specific context.
 >
 > Start with the domain itself:
 >
-> - What is the object?
-> - Who or what is connected to it?
-> - What happened to or around it?
-> - Which places and times are relevant?
-> - How are these elements related?
+> - **Object:** What kind of object is it?
+> - **Characteristics and Properties:** What distinctive characteristics and properties does the object have?
+> - **Relationships:** Which people, organizations, or other objects are associated with it?
+> - **Events:** Which events are significant for the object?
+> - **Place and Time:** Which locations and dates are relevant to describing the object?
+> - **Connections:** How are these elements related to one another?
+
+The aim is to develop a basic understanding of the object and its domain-specific context and, on this basis, to create an **initial sketch of a conceptual model for the domain of computer games**.
+
+The model should:
+
+- identify and distinguish key concepts and events,
+- visualize the relationships between these elements, and
+- serve as a basis for subsequent modeling with CIDOC CRM.
 
 ---
 
@@ -100,37 +109,37 @@ Computer games are a useful example for conceptual modelling because they can be
 
 Depending on the research question, a collection may focus on a **physical game copy**, the game as **digital content**, its **production** and **publication history**, or its **narrative** and technical **characteristics**.
 
-The following overview highlights some of the elements that may become relevant when developing a conceptual model.
+The following information may be relevant, for example:
 
-This makes the domain a clear starting point for recognising different perspectives on an object and deriving initial **modelling decisions** from them.
+- **Objects:** physical storage media, packaging, and digital games
+- **Actors:** developers, publishers, and other individuals or organizations involved
+- **Events:** development, release, porting, or re-release
+- **Versions and Editions:** different releases, platforms, and versions of a game
+- **Names and Identifiers:** title variants and product codes
+- **Places and Times:** development locations, countries of release, and dates
+- **Content and Properties:** genre, storyline, game world, and technical characteristics
 
-> **Why computer games?**
->
-> Computer games provide a useful modelling example because they combine:
->
-> - physical and digital objects
-> - actors
-> - events
-> - versions and genre
-> - identifiers
-> - places and times
-> - narratives and characteristics
->
-> This makes it possible to explore different perspectives on a collection object.
+Which of these aspects are included in a conceptual model depends on **which questions the collection data are intended to answer**.
+
+Computer games thus provide an illustrative starting point for recognising different perspectives on a collection object, selecting relevant information, and deriving initial **modeling decisions**.
 
 ---
 
 ## Focus of this Activation Exercise
 
-For the model sketch, you consider selected information about the example object. You focus on three areas:
+For the conceptual model sketch, you consider selected information about the example object. You focus on three areas:
 
-- **Game title** 
+- **Game title** (Names and possible title variants of the game)
 - **Game characteristics** (e.g. genre, such as action-adventure or RPG, and platform, such as Nintendo 64, PlayStation, PC)
 - **Narrative elements** (e.g. description, perspective, such as first-person, third-person, and characters such as Zelda)
 
 These areas serve as the starting point for recognising different types of **concepts and events** and formulating their **relationships**.
 
 > **Think about the object**
+>
+> The aim is to structure the information and make the relationships between its elements visible.
+>
+> Use the following questions as a guide:
 >
 > - What **title** does the game have?
 > - Which **genre** or **platform** is it assigned to?
@@ -140,11 +149,11 @@ These areas serve as the starting point for recognising different types of **con
 
 ---
 
-## Activation Puzzle – Create a Mini Sketch Model of "Zelda"
+## Activation Puzzle – Create a Sketch Model of "Zelda"
 
 **Working format:** Individual work or small groups (2–5 people); breakout rooms may be used in facilitated online sessions
 
-**Material:** Paper & pen (or digital whiteboard)  
+**Material:** Draw.io (diagrams.net) and puzzle template
 
 **Time:** 10 min.
 

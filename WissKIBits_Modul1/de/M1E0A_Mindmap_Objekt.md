@@ -133,8 +133,8 @@ Für die erste konzeptionelle Modellskizze betrachten Sie ausgewählte Informati
 Im Mittelpunkt stehen zunächst drei Bereiche:
 
 - **Spieletitel:** Bezeichnungen und mögliche Titelvarianten des Spiels
-- **Spieleigenschaften:** beispielsweise Genre (Action-Adventure) und Plattform (Super Nintendo Entertainment System, SNES)
-- **Narrative Elemente:** beispielsweise Handlung, Spielwelt, Erzählperspektive und Spielfiguren wie Zelda
+- **Spieleigenschaften:** z.B. Genre (Action-Adventure) und Plattform (Super Nintendo Entertainment System, SNES)
+- **Narrative Elemente:** z.B. Handlung, Spielwelt, Erzählperspektive und Spielfiguren wie Zelda
 
 Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und Beziehungen** zu erkennen. Dabei können weitere Aspekte wichtig werden, etwa beteiligte Personen und Organisationen, Veröffentlichungen sowie zugehörige Orte und Zeiten.
 
@@ -154,7 +154,7 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 
 ---
 
-## Aktivierungsübung – Eine Mini-Modellskizze zu „Zelda“ erstellen
+## Aktivierungsübung – Eine Modellskizze zu „Zelda“ erstellen
 
 **Arbeitsformat:** Einzelarbeit oder Kleingruppen (2–5 Personen); in betreuten Online-Veranstaltungen können Breakout-Rooms genutzt werden
 
