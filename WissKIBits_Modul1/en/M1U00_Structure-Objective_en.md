@@ -275,15 +275,15 @@ At the end of module 1, you will have developed a first **conceptual model sketc
 
 ## Outlook
 
-The following unit first clarifies the basic concepts of conceptual knowledge modelling and presents them as a foundation for semantic data modeling. 
+The following unit first clarifies the basics of conceptual knowledge modelling and presents them as a foundation for semantic data modeling. 
+
 The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
+
 The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
 
 > **Next:**
 >
-> You now know what you will develop in this module.
->
-> Next, you will start with a concrete collection object and create a first **conceptual model sketch** by identifying relevant concepts, events, and relationships.
+> In the next unit, [Activation: Collection object "Zelda"](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) , you will start with the specific collection object “Zelda” and create an initial **conceptual model sketch** by identifying relevant concepts, events, and relationships.
 
 ---
 
