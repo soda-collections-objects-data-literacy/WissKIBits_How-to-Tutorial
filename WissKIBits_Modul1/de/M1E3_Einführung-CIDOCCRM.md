@@ -67,7 +67,7 @@ Teilnehmende können...
 
 **Kurz gesagt:**
 
-CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um Informationen zum kulturellen Erbe verständlich, strukturiert und interoperabel zu beschreiben.
+CIDOC CRM bietet einen **gemeinsamen konzeptuellen Rahmen**, um Informationen zum kulturellen Erbe verständlich, strukturiert, interoperabel und formalisiert zu beschreiben.
 
 > **CIDOC CRM**
 >
@@ -321,14 +321,12 @@ CIDOC CRM ist eine ISO-zertifizierte, international entwickelte und etablierte T
 
 Die Ontologie ist erweiterbar und semantisch ausdifferenzierbar und damit anschlussfähig an Domänenontologien, die aus anwendungs- und projektspezifischen Kontexten der Forschungs- und Sammlungsarbeit hervorgehen (CIDOC, 2024a; Schwenk & Fischer, 2025).
 
-In der nächsten Einheit wird die Wissenschaftliche Kommunikationsinfrastruktur WissKI vorgestellt. WissKI wurde speziell für die semantische Erzeugung und Verwaltung von Daten im Kulturerbebereich entwickelt. Die Infrastruktur ist ontologieagnostisch, bietet jedoch eine besondere Unterstützung für die Arbeit mit CIDOC CRM (WissKI, n.d.-b).
-
 > **Wie geht es weiter?**
 >
 > Sie haben nun das CIDOC CRM Referenzmodell kennengelernt, mit dem sich Konzepte, Ereignisse und Beziehungen im Bereich des kulturellen Erbes formal beschreiben lassen.
 >
 > In der nächsten Einheit [**M1E4: FAIR-Konformität mit WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E4_FAIR-WissKI.md#1) lernen Sie die Wissenschaftliche Kommunikationsinfrastruktur WissKI kennen und erfahren Sie, wie sich ontologiebasierte Strukturen mit WissKI praktisch umsetzen und für die Verwaltung und Nutzung von Forschungsdaten einsetzen lassen. 
-> WissKI wurde speziell für die semantische Erfassung und Verwaltung von Forschungsdaten im Kulturerbebereich entwickelt. WissKI ist ontologieagnostisch, bietet jedoch eine besondere Unterstützung für die Arbeit mit CIDOC CRM (WissKI, n.d.-b).
+
 
 ---
 

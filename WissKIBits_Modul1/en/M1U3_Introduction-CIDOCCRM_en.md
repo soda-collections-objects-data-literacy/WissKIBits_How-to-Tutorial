@@ -67,37 +67,35 @@ Participants will be able to...
 
 **In short:**  
 
-CIDOC CRM provides a **common conceptual framework** for describing cultural information in an **understandable and interoperable** way.
-
 > **CIDOC CRM**
 >
-> ...is an ISO-certified ontology (ISO 21127) developed for the documentation and integration of cultural heritage information.
+> … is a **conceptual reference model and a formal ontology** developed for the documentation and integration of cultural heritage information.
 >
-> It provides a common conceptual framework for describing:
+> It describes key elements such as:
 >
-> **objects · actors · events · places · time-spans · relationships**
+> **Objects · People and Organizations · Events · Places · Time Periods**
 >
-> Its purpose is to make cultural heritage information explicit, understandable, and interoperable across different collections and systems.
->
-> **Important:** CIDOC CRM defines a conceptual model. Machine-readable implementations of the model, such as OWL representations, are used for technical applications.
+> These elements are connected through **semantically defined relationships**. This makes it possible to describe not only what information is available about a collection object, but also how that information is meaningfully related.
 
+### Domain-Specific Background
 
 [CIDOC CRM](https://cidoc-crm.org/) is an **ISO-certified ontology (ISO 21127)** developed by the **CIDOC Committee of ICOM (International Council of Museums)**.
 
-It is **not a technical standard**, but a **paper document** ([Release Version 7.1.3, February 2024](https://cidoc-crm.org/get-last-official-release)) and was developed specifically for the **documentation of cultural heritage**. 
+It is **not a technical implementation standard**, but rather a **conceptual reference model specified in a document** ([Release Version 7.1.3, as of February 2024](https://cidoc-crm.org/get-last-official-release)). CIDOC CRM was developed specifically for **cultural heritage documentation**.
 
-It is a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
+It provides a **formal representation** of fundamental concepts, terms, and their relationships in the field of cultural heritage.
 
-It is a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage. (CIDOC, 2024a, p. 9)
+It serves as a **theoretical and practical tool** for structuring, representing, and understanding **evidence-based phenomena** in the field of cultural heritage (CIDOC, 2024a, p. 9).
 
-CIDOC CRM includes:
+---
 
-- events  
-- persons  
-- objects  
-- places  
-- time-spans  
-- and their semantic relationships
+### From the Model Sketch to CIDOC CRM
+
+In your model sketch, you have already identified key elements of the domain of computer games and their relationships.
+
+**CIDOC CRM now provides a formally defined vocabulary** that allows these elements and relationships to be described consistently and precisely.
+
+The model thus provides the foundation for the next step: translating your conceptual ideas into a model using CIDOC CRM.
 
 ---
 
@@ -132,27 +130,17 @@ The official documentation provides a comprehensive introduction:
 
 ## Exploring classes and properties
 
-For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
+For practical modeling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
-- **[CIDOC CRM Navigator Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)** (CIDOC, 2024b)
-  The official representation of **Version 7.1.3** enables interactive exploration of 81 classes and 160 properties, including translations. It contains definitions and scope notes as well as information on class hierarchies and properties.
+- **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41)**  
+  The official documentation of **Version 7.1.3** serves as a reference for looking up specific information. It contains definitions and scope notes, as well as information on class hierarchies and properties.
 
-- **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)** (RemoGrillo & claude, 2026)
-  The interactive representation provides a **visual and exploratory approach** to classes, properties, and their relationships.
+- **[CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)**  
+  This interactive resource provides a **visual and exploratory approach** to understanding classes, properties, and their relationships.
 
-**Note:** The CIDOC CRM Periodic Table is based on **CIDOC CRM 7.1** and therefore does not fully correspond to **Version 7.1.3** used here.
-
-Use it for orientation and for exploring the model. For the precise definition and use of classes and properties, the official documentation for Version 7.1.3 is authoritative.
-
-> **Where to look up CIDOC CRM classes and properties**
+> **Note:** The CIDOC CRM Periodic Table is based on **CIDOC CRM 7.1** and therefore does not fully correspond to **Version 7.1.3** used here.
 >
-> **Official CIDOC CRM documentation Version 7.1.3**: Use this to read authoritative definitions, scope notes, and information about classes and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (CIDOC, 2024a)
->
-> **CIDOC CRM web-based HTML navigator**: Use this to browse the model and follow links between related classes and properties. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
-> 
-> **CIDOC CRM Periodic Table**: Use these as additional orientation aids when you want to explore the overall structure. [link](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
->
-> Always check the scope note before deciding whether a class or property represents the intended meaning of a domain concept.
+> Use it as a guide to explore and navigate the model. For precise definitions and the correct use of classes and properties, the official documentation of Version 7.1.3 is authoritative.
 
 ---
 
@@ -230,47 +218,46 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ---
 
-CIDOC CRM is **event-centered**, meaning that it describes not only *what something is*, but also **what happens to it**. (CIDOC, 2024a, p. 33)
-
-Statements about resources take the form of **triples: subject–predicate–object**. Triples form the **syntactic basis** for formalised semantic data modeling and the technological basis for representing ontologies (such as CIDOC CRM) in machine-readable form. 
-
-**RDF (Resource Description Framework)** is a standard for the formal description of statements about resources in the form of triples in WissKI. (W3C, 2014)
-
- Example: Zelda game (SNES) *The computer game “The Legend of Zelda: A Link to the Past” was developed by Nintendo in Kyoto, Japan, in 1991.* (Wikio.D.zelda)
-
-| Natural-language statement | CIDOC CRM representation |
-|-----------------------------|--------------------------|
-| The game is an object. | **E22 Human-Made Object** |
-| The game was produced. | **E12 Production** |
-| The developer and publisher is Nintendo. | **E12 Production** → *carried out by* → **E74 Group (Nintendo)** |
-| The place of production is Kyoto. | *took place at* → **E53 Place (Kyoto)** |
-| The year of publication is: 1991 | *has time-span* → **E52 Time-Span (1991)** |
-
----
-
 ## Expressing Meaning with CIDOC CRM
+
+CIDOC CRM is **event-centered**, meaning that:
 
 > **CIDOC CRM is event-centered**
 >
-> CIDOC CRM describes not only what something is, but also what happened, who was involved, where it happened, and when.
+> CIDOC CRM describes not only *what something is*, but also **what happens to it** (CIDOC, 2024a, p. 33), who was involved, and where and when it took place.
 >
-> Events connect objects with actors, places, and time-spans.
+> Events connect objects with actors, places, and time periods.
 >
 > Example: Object → Event ← Actor
 
-> **Meaning can be expressed as triples**
->
-> Semantic statements can be represented as: Subject → Predicate → Object
->
-> For example: Production → carried out by → Nintendo
->
-> RDF (Resource Description Framework) provides a standard for representing statements about resources as triples in machine-readable form.
+Statements about resources can be represented in the form of **triples: Subject–Predicate–Object**. Triples provide the **syntactic foundation** for formalized semantic data modeling and make it possible to represent ontologies such as CIDOC CRM in machine-readable form.
 
-> You have to decide between **Class assignment vs. relationships**
+**RDF (Resource Description Framework)** is a standard for formally describing machine-readable statements about resources in the form of triples. It is also used in WissKI (W3C, 2014).
+
+> **Meaning can be expressed through triples**
 >
-> Classification: e.g. “The game is an object.” → E22 Human-Made Object, Game → instance of → E22 Human-Made Object
+> Subject → Predicate → Object
 >
-> Relationship: e.g. “The title is…” → E22 → has title → E35 Title, Game → has title → Title
+> Example: Production → carried out by → Nintendo
+>
+> *The video game "The Legend of Zelda: A Link to the Past" was developed by Nintendo in Kyoto, Japan, in 1991.* (Wikio.D.zelda)
+
+**Distinguishing Between Class Assignment and Relationships**
+
+> **Class Assignment:** For example, "The game is an object." → E22 Human-Made Object; Game → instance of → E22 Human-Made Object.
+>
+> **Relationship:** For example, "The title is …" → E22 → has title → E35 Title; Game → has title → Title.
+
+**Example: Zelda Game (SNES)**
+
+| Natural Language Statement | CIDOC CRM Representation |
+|---|---|
+| The game is an object. | **E22 Human-Made Object** |
+| The title is: *The Legend of Zelda: A Link to the Past* | **E22** → *has title* → **E35 Title** |
+| The game was produced. | **E12 Production** |
+| The developer and publisher is Nintendo. | **E12 Production** → *carried out by* → **E74 Group (Nintendo)** |
+| The place of production is Kyoto. | *took place at* → **E53 Place (Kyoto)** |
+| The year of release is 1991. | *has time-span* → **E52 Time-Span (1991)** |
 
 ---
 
@@ -326,15 +313,15 @@ WissKI uses CIDOC CRM because it …
 
 ## Outlook
 
-CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the cultural heritage domain. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena of cultural heritage. The ontology can be extended and semantically differentiated, making it compatible with domain ontologies that emerge from application- and project-specific contexts of research and collection work. (CIDOC, 2024a; Schwenk & Fischer, 2025)
+CIDOC CRM is an ISO-certified, internationally developed and established top-level ontology for the field of cultural heritage. As a formal representation of fundamental concepts, properties, and their relationships, CIDOC CRM provides a valuable theoretical and practical tool for structuring, representing, and understanding evidence-based phenomena in the field of cultural heritage.
 
-The next unit introduces the Scientific Communication Infrastructure WissKI. WissKI was developed specifically for the semantic creation and management of data in the cultural heritage domain. The infrastructure is ontology-agnostic, but provides particular support for working with CIDOC CRM (WissKI, n.d.-b). 
+The ontology is extensible and allows for further semantic differentiation, making it compatible with domain ontologies that emerge from application- and project-specific contexts in research and collection management (CIDOC, 2024a; Schwenk & Fischer, 2025).
 
-> **Next:**
+> **What's Next?**
 >
->  You now have a reference model for formally describing concepts, events, and relationships in the cultural heritage domain.
+> You have now been introduced to the CIDOC CRM reference model, which enables the formal description of concepts, events, and relationships in the field of cultural heritage.
 >
-> In the next unit, you get introduced to WissKI and you explore how ontology-based structures can support the management and use of research data.
+> In the next unit, [**M1E4: FAIR Compliance with WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1), you will be introduced to WissKI (Scientific Communication Infrastructure) and learn how ontology-based structures can be implemented in practice using WissKI to manage and utilize research data.
 
 ---
 
