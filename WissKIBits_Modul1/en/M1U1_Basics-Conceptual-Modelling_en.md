@@ -203,10 +203,6 @@ Check in particular whether the relationships clearly convey the intended meanin
 >
 > This conceptual structure provides the foundation for developing a semantic data model.
 
-Conceptual knowledge modelling structures the relevant domain knowledge using concepts, events, and relationships. 
-
-In [M1U0A: Mindmap of the Application Example from Object Collections](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) you created a first conceptual model sketch from information about a collection object.
-
 In this unit, you have introduced the terminology needed to describe what happened during this process:
 
 - **concepts** represent relevant elements of the domain.
@@ -234,9 +230,9 @@ Through conceptual knowledge modelling, you have taken a first step in determini
 
 > **Next:**
 >
->  You have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
+> You have conceptually organised domain knowledge and can now describe this structure in terms of concepts, events, and relationships.
 >
-> In unit 2, you explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
+> In [U2 Fundamentals of Ontologies](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U2_Fundamentals-Ontology_en.md#1), you explore how ontologies provide formal structures for representing this knowledge in a machine-readable way.
 
 ---
 

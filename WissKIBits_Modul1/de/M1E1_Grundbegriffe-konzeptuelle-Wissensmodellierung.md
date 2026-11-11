@@ -180,9 +180,13 @@ Vergleichen Sie Ihre Modellskizze mit der Musterlösung aus M1E0A.
 
 ## Ergebnis und Zusammenfassung
 
-Die konzeptuelle Wissensmodellierung strukturiert das relevante Fachwissen einer Domäne anhand von Konzepten, Ereignissen und Beziehungen.
-
-In Einheit [M1E0A: Anwendungsbeispiel: Objektsammlung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) haben Sie aus Informationen über ein Sammlungsobjekt eine erste konzeptuelle Modellskizze erstellt.
+> **Was wurde gelernt?**
+>
+> Sie haben eine **erste konzeptuelle Modellskizze** erstellt, indem Sie relevante Informationen über ein Sammlungsobjekt identifiziert und miteinander verbunden haben.
+>
+> Sie können diesen Prozess nun als **konzeptuelle Wissensmodellierung** beschreiben: die Ordnung von Domänenwissen anhand von Konzepten, Ereignissen und Beziehungen.
+>
+> Diese konzeptuelle Struktur bildet die Grundlage für die Entwicklung eines semantischen Datenmodells.
 
 In dieser Einheit haben Sie die Begriffe kennengelernt, mit denen sich dieser Prozess beschreiben lässt:
 
@@ -202,14 +206,6 @@ Forschungsfragen im Sammlungskontext können beispielsweise sein:
 - **Ort & Zeit:** Wie verlässlich lassen sich die geografischen und zeitlichen Angaben der Objekthistorie belegen?
 - **Unsicherheiten:** Wie lassen sich widersprüchliche Hypothesen oder vage Zuschreibungen im Datenmodell abbilden?
 - **Identifikation:** Wie lässt sich das Objekt über eindeutige Merkmale wie Inventarnummern exakt identifizieren und referenzieren?
-
-> **Was wurde gelernt?**
->
-> Sie haben eine **erste konzeptuelle Modellskizze** erstellt, indem Sie relevante Informationen über ein Sammlungsobjekt identifiziert und miteinander verbunden haben.
->
-> Sie können diesen Prozess nun als **konzeptuelle Wissensmodellierung** beschreiben: die Ordnung von Domänenwissen anhand von Konzepten, Ereignissen und Beziehungen.
->
-> Diese konzeptuelle Struktur bildet die Grundlage für die Entwicklung eines semantischen Datenmodells.
 
 ---
 
