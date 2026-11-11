@@ -140,7 +140,7 @@ Das entstehende Modell bildet den Sammlungsdatensatz nicht einfach ab. Es macht 
 
 > **Schritt 1: Modellskizze betrachten**
 >
-> Betrachten Sie die Ihre Modellskizze.
+> Betrachten Sie die Ihre konzeptuelle Modellskizze oder die Musterlösung.
 >
 > **Schritt 2: Elemente einordnen**
 >

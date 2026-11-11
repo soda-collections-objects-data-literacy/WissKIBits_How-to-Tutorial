@@ -146,15 +146,9 @@ The resulting model does not simply reproduce the collection record. It makes **
 
 **Time:** 5 min.
 
-> **Reflect on your model sketch**
->
-> Choose one relationship from your sketch and read it as a complete statement.
->
-> - Which elements are concepts?
-> - Which elements represent events?
-> - Which connections are relationships?
-> 
-> If necessary, revise the label of the relationship in your sketch.
+**Reflect on your model sketch**
+
+Review how concepts, events, and relationships are represented in your model sketch and what the connections between them mean.
 
 ---
 
@@ -166,11 +160,16 @@ The resulting model does not simply reproduce the collection record. It makes **
 >
 > You identify examples of **concepts, events, and relationships**.
 >
-> **Step 3 · Reflect**
+> **Step 3: Reflect**
 >
-> You choose one relationship and ask:
-> 
-> - Could the same two concepts be connected with different relationships if you want to express another meaning?
+> Select a relationship and express it as a complete statement.
+>
+> - Could the same two concepts be connected by different relationships to express a different meaning?
+>
+> Then consider:
+>
+> - What meaning does the relationship convey?
+> - Could the same elements also be linked by a different relationship, resulting in a different statement?
 
 ---
 
@@ -186,9 +185,23 @@ You identified **concepts, events, and relationships** in your own model sketch 
   
 - **Relationships** connect concepts with concepts or concepts with events to express how these elements are meaningfully connected.
 
+Compare your model sketch with the sample solution from M1U0A.
+
+![Conceptual model sketch](../assets/mindmap_en.png)
+
+Check in particular whether the relationships clearly convey the intended meaning, and refine their labels if necessary.
+
 ---
 
 ## Result and Summary
+
+> **What you have learned**
+>
+> You created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
+>
+> You can now describe this process as **conceptual knowledge modelling**: organising domain knowledge through concepts, events, and relationships.
+>
+> This conceptual structure provides the foundation for developing a semantic data model.
 
 Conceptual knowledge modelling structures the relevant domain knowledge using concepts, events, and relationships. 
 
@@ -212,15 +225,6 @@ Collection-related research questions may concern, for example:
 - **Place & time:** How reliably can the geographical and temporal information in the object’s history be substantiated?
 - **Uncertainties:** How can contradictory hypotheses or vague attributions be represented in the data model?
 - **Identification:** How can the object be precisely identified and referenced using unique characteristics such as inventory numbers?
-
-
-> **What you have learned**
->
-> You created a **first conceptual model sketch** by identifying and connecting relevant information about a collection object.
->
-> You can now describe this process as **conceptual knowledge modelling**: organising domain knowledge through concepts, events, and relationships.
->
-> This conceptual structure provides the foundation for developing a semantic data model.
 
 ---
 
