@@ -65,7 +65,7 @@ In dieser **abschließenden Praxisübung von Modul 1** greifen Sie Ihre konzeptu
 Sie untersuchen am Beispiel von **The Legend of Zelda: A Link to the Past**, wie ausgewählte Konzepte und Ereignisse mithilfe des **CIDOC CRM** beschrieben werden könnten. Dabei geht es noch nicht darum, eine vollständige Ontologie zu erstellen oder technische Pfade zu implementieren. Vielmehr soll sichtbar werden, dass die Überführung von Domänenwissen in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
 
 
-> **TRANSFER · Von der konzeptuellen Modellskizze zur CIDOC-CRM-Zuordnung**
+> **Transfer:** Von der konzeptuellen Modellskizze zur CIDOC-CRM-Zuordnung
 >
 > **Leitfrage:**
 >
@@ -84,6 +84,10 @@ Verwenden Sie Ihre eigene Modellskizze aus M1E0A oder die dort bereitgestellte M
 ![Konzeptuelle Modellskizze aus Modul 1](../assets/mindmap.png)
 
 In der Aktivierungsübung haben Sie Konzepte, Ereignisse und Beziehungen zunächst in eigenen Worten festgehalten. 
+
+---
+
+### Mapping auf CIDOC CRM
 
 Nun betrachten Sie diese aus Sicht eines **Referenzmodells**, dem CIDOC CRM.
 
@@ -155,19 +159,23 @@ Sie können auch Personen, Organisationen, Ereignisse oder physische Sammlungsob
 >
 > 1. Öffnen Sie Ihre konzeptuelle Modellskizze oder die [Musterlösung aus M1E0A](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10).
 > 2. Öffnen Sie die [CIDOC-CRM-Dokumentation (Version 7.1.3)](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html). Optional können Sie die [CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table) zur Orientierung nutzen.
->
 
-### Aufgabe:  Erste CIDOC-CRM-Zuordnungen untersuchen und begründen
+
+**Aufgabe:**  Erste CIDOC-CRM-Zuordnungen untersuchen und begründen
 
 Untersuchen Sie **zwei Konzepte oder Ereignisse** aus Ihrer Modellskizze. Ordnen Sie ihnen **vorläufig** geeignete CIDOC-CRM-Klassen zu und begründen Sie Ihre Wahl mithilfe der Scope Notes.
 
-**Schritt 1 · Auswählen und Bedeutung klären**
+---
+
+### Schritt 1 · Auswählen und Bedeutung klären
 
 Wählen Sie **zwei Elemente** aus Ihrer Modellskizze aus. Beschreiben Sie jeweils in einem Satz, **was genau gemeint ist**.
 
 Beispiel: „Spieletitel“ bezeichnet die Benennung des Spiels, **nicht** das physische Spielemodul.
 
-***Schritt 2 · Zuordnen und überprüfen**
+---
+
+### Schritt 2 · Zuordnen und überprüfen
 
 Suchen Sie für jedes Element eine mögliche CIDOC-CRM-Klasse und lesen Sie ihre **Scope Note**.
 
@@ -194,7 +202,9 @@ Nutzen Sie dazu folgende Ressourcen:
 - **Webbasierter HTML-Navigator für CIDOC CRM:** Die offizielle Darstellung der **Version 7.1.3** eignet sich zum gezielten Nachschlagen. [Link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
 - **CIDOC CRM Periodic Table:** Eine visuelle Orientierungshilfe, um Klassen, Eigenschaften und ihre Beziehungen zu erkunden. [Link](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
 
-**Schritt 3 · Begründen und dokumentieren**
+---
+
+### Schritt 3 · Begründen und dokumentieren**
 
 Dokumentieren Sie Ihre Modellierungsentscheidungen:
 
@@ -205,7 +215,9 @@ Dokumentieren Sie Ihre Modellierungsentscheidungen:
 
 Ergänzen Sie die Klassenkandidaten in Ihrer Modellskizze. Markieren Sie unsichere Zuordnungen mit einem **Fragezeichen (?)**.
 
-**Schritt 4 · Vergleichen und überarbeiten**
+---
+
+### Schritt 4 · Vergleichen und überarbeiten**
 
 Vergleichen Sie Ihre Ergebnisse mit denen anderer Teilnehmender oder mit dem Musterbeispiel und überprüfen Sie sie nochmals anhand der Scope Notes.
 
