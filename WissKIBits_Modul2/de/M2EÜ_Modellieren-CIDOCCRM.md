@@ -40,7 +40,7 @@ LearningResourceType: How-to-Tutorial
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
-Modul 2: **Modllieren mit CIDCO CRM – verstehen und anwenden**
+Modul 2: **Modellieren mit CIDCO CRM – verstehen und anwenden**
 
 Übungseinheit (EÜ): **Semantische Modellierung mit CIDOC CRM**  
 

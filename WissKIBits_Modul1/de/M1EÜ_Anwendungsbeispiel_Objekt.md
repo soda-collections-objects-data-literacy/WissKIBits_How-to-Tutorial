@@ -53,161 +53,140 @@ Teilnehmende können...
 - Kernentitäten (Objekt/Person/Ort/Zeit/Ereignis) einer Objektsammlung anwenden. (LZ-ID SODa\_03\_007\_0811)
 - Datentyp-Eigenschaften des Referenzmodells CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0808) 
 
+*Redaktioneller Hinweis: Die Zuordnung dieser kompetenzorientierten Lernziele zu den bestehenden SODa-Lernziel-IDs ist noch abzustimmen. Das ursprüngliche Lernziel zu Datentyp-Eigenschaften wird hier nicht geprüft und sollte einer späteren Einheit zugeordnet werden.*
+
 
 ---
 
 ## Ziel und Szenario
 
-Dies ist die abschließende Praxiseinheit von Modul 1.
+In dieser **abschließenden Praxisübung von Modul 1** greifen Sie Ihre konzeptuelle Modellskizze aus der [Aktivierungsübung M1E0A](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#1) wieder auf.
 
-In dieser Übung greifen Sie die **konzeptuelle Modellskizze** aus der Aktivierungsübung wieder auf.
+Sie untersuchen am Beispiel von **The Legend of Zelda: A Link to the Past**, wie ausgewählte Konzepte und Ereignisse mithilfe des **CIDOC CRM** beschrieben werden könnten. Dabei geht es noch nicht darum, eine vollständige Ontologie zu erstellen oder technische Pfade zu implementieren. Vielmehr soll sichtbar werden, dass die Überführung von Domänenwissen in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
 
-Am Beispiel von **„The Legend of Zelda: A Link to the Past“** werden ausgewählte Konzepte aus der Domäne Computerspiele untersucht und probeweise Klassen des **CIDOC CRM** zugeordnet.
 
-Dabei geht es nicht darum, bereits ein vollständiges oder formal implementiertes CIDOC-CRM-Modell zu erstellen.
-
-Vielmehr soll sichtbar werden, dass die Überführung von Domänenwissen in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
-
-Am Ende können die Teilnehmenden:
-
-- ausgewählte Konzepte möglichen **CIDOC-CRM-Klassen (Entities)** zuordnen,
-- die zugehörigen **Scope Notes** nachschlagen und prüfen,
-- die Zuordnungen als **Modellierungsentscheidungen** beschreiben und begründen,
-- eine erste **begründete CIDOC-CRM-Zuordnung** für einen kleinen Ausschnitt ihrer konzeptuellen Modellskizze entwickeln.
-
-Die Modellskizze wird in den 
-
-- **Modulen 2: Modellieren mit CIDOC CRM – verstehen und anwenden** und 
-- **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** 
-
-schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
-
-> **Transfer: Vom konzeptuellen Modell zu CIDOC CRM**
+> **TRANSFER · Von der konzeptuellen Modellskizze zur CIDOC-CRM-Zuordnung**
 >
-> Ihre in der Aktivierungsübung (M1E0A) entstandene Modellskizze oder die Musterlösung wird nun weiterentwickelt.
+> **Leitfrage:**
 >
-> Ausgewählte Konzepte und Ereignisse werden mithilfe von CIDOC CRM beschrieben.
+> Was meinen wir mit einem Begriff – und welche CIDOC-CRM-Klasse beschreibt diese Bedeutung möglichst passend?
 >
-> Dabei geht es nicht darum, bereits ein vollständiges oder endgültiges CIDOC-CRM-Modell zu entwickeln.
+> Wählen Sie **zwei Elemente** aus Ihrer Modellskizze aus, prüfen Sie mögliche Klassen anhand der **Scope Notes** und begründen Sie Ihre Entscheidungen.
 >
-> Entscheidend ist die Frage:
->
-> **Was meinen wir mit einem Begriff – und welche CIDOC-CRM-Klasse beschreibt diese Bedeutung möglichst passend?**
->
-> Ziel ist es, erste Modellierungsentscheidungen zu treffen, diese zu überprüfen und zu begründen.
+> Ziel ist eine **erste, überprüfbare CIDOC-CRM-orientierte Erweiterung** Ihrer Modellskizze.
 
 ---
 
 ## Ausgangspunkt: Modellskizze zu „Zelda“
 
-Ausgangspunkt ist Ihre **konzeptuelle Modellskizze zu „The Legend of Zelda: A Link to the Past“** oder die [Musterlösung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10), die in der Aktivierungsübung (M1E0A) dieses **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** entwickelt wurde.
+Verwenden Sie Ihre eigene Modellskizze aus M1E0A oder die dort bereitgestellte Musterlösung.
 
 ![Konzeptuelle Modellskizze aus Modul 1](../assets/mindmap.png)
 
-An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehungen** für die Beschreibung eines Sammlungsobjekts und seines Kontextes relevant sein können. Die Modellskizze hält diese zunächst in eigenen Begriffen fest, einschließlich möglicher Beziehungen, bei denen noch Unsicherheiten bestehen können.
+In der Aktivierungsübung haben Sie Konzepte, Ereignisse und Beziehungen zunächst in eigenen Worten festgehalten. 
 
+Nun betrachten Sie diese aus Sicht eines **Referenzmodells**, dem CIDOC CRM.
 
-> **Von der Modellskizze zu einem ersten CIDOC-CRM-Entwurf**
+> **Von der eigenen Bezeichnung zur Bedeutung**
 >
-> Relevante Konzepte, Ereignisse und Beziehungen für das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** wurden in der Aktivierungsübung (M1E0A) identifiziert.
+> Orientieren Sie sich an folgenden Fragen:
 >
-> Nun betrachten Sie diese Modellskizze aus einer neuen Perspektive – **aus Sicht des CIDOC CRM**:
->
-> - Welche Bedeutung haben die identifizierten Konzepte und Ereignisse im Kontext der Domäne?
-> - Welche CIDOC-CRM-Klassen könnten diese Bedeutung ausdrücken?
-> - Lassen sich die frei formulierten Beziehungen mithilfe von CIDOC-CRM-Properties ausdrücken?
-> - Welche **Modellierungsentscheidungen** sind noch offen?
->
-> Denken Sie daran: **Eine ähnliche Bezeichnung bedeutet nicht automatisch dieselbe Bedeutung.**
->
-> In dieser Phase wird noch kein vollständiges oder formal implementiertes CIDOC-CRM-Modell erwartet. Ziel ist es, **eine erste, am CIDOC CRM orientierte Version des konzeptuellen Modells** zu entwickeln, die in Modul 2 weiter ausgearbeitet und formalisiert wird.
+> - Bezeichnet „Spiel“ den **Informationsinhalt**, eine **bestimmte Fassung** oder ein **physisches Spieleexemplar**?
+> - Handelt es sich bei „Titel“ um eine **Benennung** oder bei einer Inventarnummer um einen **Identifikator**?
+> - Beschreibt „Genre“ eine **Klassifikation**?
+> - Welche Zuordnungen lassen sich anhand einer **Scope Note** begründen?
+> - Wo sind mehrere Modellierungen denkbar?
 
+**Merke:** Eine ähnlich klingende Klassenbezeichnung ist noch kein Beleg dafür, dass die Klasse die gemeinte Bedeutung trifft.
 
 ---
 
-## CIDOC CRM als Referenzmodell
+## Warum CIDOC CRM?
 
-> **CIDOC CRM als Orientierung**
->
-> CIDOC CRM stellt allgemeine Klassen und Eigenschaften für die Beschreibung von Kulturerbeinformationen bereit.
->
-> Für die Modellierung bedeutet das:
->
-> **Domänenkonzept → Bedeutung klären → CIDOC CRM prüfen → Modellierungsentscheidung treffen**
->
-> **Merke:** Die Bezeichnung einer Klasse allein reicht für die Auswahl nicht aus. Entscheidend ist, ob ihre Scope Note zur beabsichtigten Bedeutung des Domänenkonzepts passt.
+Das **CIDOC Conceptual Reference Model (CIDOC CRM)** stellt Klassen und Eigenschaften für die semantische Beschreibung von Kulturerbeinformationen bereit. Es hilft, Begriffe aus unterschiedlichen Sammlungen und Forschungszusammenhängen auf nachvollziehbare Weise zu interpretieren.
 
----
+Die Zuordnung folgt einem einfachen Denkweg:
 
-## Fokus dieser Modellierungsübung
+**Domänenbegriff → gemeinte Bedeutung klären → CIDOC-CRM-Klasse nachschlagen → Scope Note prüfen → Entscheidung begründen**
 
-Arbeiten Sie an den Themenbereichen weiter, die bereits in der Aktivierungsübung eingeführt wurden:
+Ein Beispiel zeigt, warum das wichtig ist:
 
-- **Spieltitel**
-- **Spielmerkmale** (z.B. Genre, wie Action-Adventure oder RPG, oder Plattform, wie Nintendo 64, PlayStation oder PC)
-- **Narrative Elemente** (z.B. Beschreibung, Perspektive, wie First-Person oder Third-Person, oder Figuren wie Zelda)
+| Gemeinte Bedeutung | Mögliche CIDOC-CRM-Klasse |
+|---|---|
+| Eine allgemeine Benennung | **E41 Appellation** |
+| Der Titel eines Spiels | **E35 Title** |
+| Eine Inventarnummer eines Sammlungsexemplars | **E42 Identifier** |
 
-Diese Bereiche dienen als Ausgangspunkt, um unterschiedliche Arten von **Konzepten und Ereignissen** zu erkennen und ihre **Beziehungen** zu formulieren.
-
-Wählen Sie **zwei Elemente aus Ihrer Modellskizze** aus, deren Bedeutung interessante Fragen aufwirft.
-
-Überlegen Sie beispielsweise, ob ein Begriff das Spiel als Informationsinhalt, ein physisches Spieleexemplar, eine Bezeichnung oder eine Klassifikation beschreibt.
-
-Mithilfe von CIDOC CRM werden Sie diese Unterschiede genauer untersuchen.
-
-Beispielsweise können folgende Fragen gestellt werden:
-
-- Welchen **Titel** hat das Spiel?
-- Welchem **Genre** oder welcher **Plattform** wird es zugeordnet?
-- Welche **Personen oder Organisationen** waren beteiligt?
-- Welche **Ereignisse** sind für das Spiel relevant?
-- An welchen **Orten** und zu welchen **Zeiten** fanden diese Ereignisse statt?
-
-> **Die Bedeutung festlegen**
->
-> Wählen Sie aus Ihrer Modellskizze einige zentrale Elemente aus und fragen Sie:
->
-> - Was genau bezeichnet unser Begriff?
-> - Handelt es sich um ein Objekt, einen Informationsinhalt, eine Person, eine Gruppe, ein Ereignis, eine Benennung oder einen Typ?
-> - Welche CIDOC-CRM-Klasse könnte dazu passen?
-> - Was sagt die Scope Note dieser Klasse?
-> - Entspricht sie tatsächlich der Bedeutung, die wir ausdrücken möchten?
-> - Wo bleiben Unsicherheiten oder alternative Modellierungen?
+**E35 Title** und **E42 Identifier** sind speziellere Formen von **E41 Appellation**. Ein Titel ist jedoch nicht mit dem Spiel selbst gleichzusetzen. Welche Entität den Titel trägt und über welche Property sie damit verbunden ist, wird in den folgenden Modulen genauer modelliert.
 
 ---
 
-## Übung – Orientierung mit CIDOC CRM
+## Schwerpunkt dieser Praxisübung
 
-**Arbeitsform:** Einzelarbeit oder Kleingruppen (2–5 Personen)
+Arbeiten Sie mit den drei Bereichen weiter, die Sie aus der Aktivierungsübung kennen:
 
-**Material:** Modellskizze aus der Aktivierungsübung, Papier und Stift oder ein digitales Whiteboard sowie Zugang zur CIDOC-CRM-Dokumentation
+- **Spieletitel:** Benennungen und mögliche Titelvarianten;
+- **Spieleigenschaften:** beispielsweise Genre (Action-Adventure) und Plattform (Super Nintendo Entertainment System, SNES);
+- **Narrative Elemente:** beispielsweise Handlung, Spielwelt und Spielfiguren wie Zelda.
 
-**Zeit:** 20 Minuten
+Sie können auch Personen, Organisationen, Ereignisse oder physische Sammlungsobjekte aus Ihrer Skizze auswählen. Entscheidend ist, dass Sie **zwei Elemente** hinsichtlich ihrer Bedeutung genau untersuchen und nicht möglichst viele Klassen sammeln.
 
-### Ausgangspunkt: Ihre Modellskizze
-
-![Konzept-Mindmap](../assets/mindmap.png)
-
-> **Abbildung:** Die Abbildung zeigt ein Musterbeispiel zur schrittweisen konzeptuellen Erschließung eines Sammlungs- oder Forschungsobjekts am Beispiel des Spiels **The Legend of Zelda: A Link to the Past**. Eigene Darstellung, erstellt mit ChatGPT (OpenAI), 2026.
-
-In der Übung werden in zwei Aufgaben jeweils Schritt-für-Schritt untersucht wie für **die beiden ausgewählten Elemente** deren Bedeutung mithilfe des **CIDOC CRM** ausdrücken lässt.
-
+> **Modellierungsentscheidung vorbereiten und Bedeutung festlegen**
+>
+> Prüfen Sie bei jedem Element:
+>
+> - Was genau bezeichnet der Begriff im Kontext der Sammlung?
+> - Ist ein Objekt, Informationsinhalt, Akteur, Ereignis, eine Benennung oder ein Typ gemeint?
+> - Welche Klasse kommt infrage?
+> - Passt ihre Scope Note zu dieser Bedeutung?
+> - Welche Frage bleibt offen?
 
 ---
 
-### Aufgabe 1: Erste CIDOC-CRM-Zuordnungen untersuchen und begründen
+## Praxisübung – Arbeiten mit CIDOC CRM
 
-Wählen Sie **zwei Konzepte oder Ereignisse** aus Ihrer Modellskizze aus. Gehen Sie für jedes ausgewählte Element die folgenden vier Schritte durch.
+**Arbeitsformat:** Einzelarbeit oder Kleingruppen (2–5 Personen); anschließend kurzer Vergleich oder Selbstreflexion
 
-**Schritt 1 · Auswählen**
+**Material:** Eigene Modellskizze aus M1E0A oder Musterlösung, Zugang zur CIDOC-CRM-Dokumentation, Papier/Stift oder digitales Whiteboard
 
-Wählen Sie ein Konzept oder Ereignis aus Ihrer Modellskizze aus, z.B. Spiel, Person, Organisation, Titel, Genre oder Produktion.
+**Zeit:**20 Minuten 
 
-Klären Sie kurz, was der ausgewählte Begriff im Kontext Ihres Sammlungsobjekts genau bezeichnet.
+> **Vorbereitung**
+>
+> 1. Öffnen Sie Ihre konzeptuelle Modellskizze oder die [Musterlösung aus M1E0A](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10).
+> 2. Öffnen Sie die [CIDOC-CRM-Dokumentation (Version 7.1.3)](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html). Optional können Sie die [CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table) zur Orientierung nutzen.
+>
 
-**Schritt 2 · Zuordnen**
+### Aufgabe:  Erste CIDOC-CRM-Zuordnungen untersuchen und begründen
 
-Suchen Sie für jedes ausgewählte Element eine CIDOC-CRM-Klasse, die zu seiner beabsichtigten Bedeutung passen könnte.
+Untersuchen Sie **zwei Konzepte oder Ereignisse** aus Ihrer Modellskizze. Ordnen Sie ihnen **vorläufig** geeignete CIDOC-CRM-Klassen zu und begründen Sie Ihre Wahl mithilfe der Scope Notes.
+
+**Schritt 1 · Auswählen und Bedeutung klären**
+
+Wählen Sie **zwei Elemente** aus Ihrer Modellskizze aus. Beschreiben Sie jeweils in einem Satz, **was genau gemeint ist**.
+
+Beispiel: „Spieletitel“ bezeichnet die Benennung des Spiels, **nicht** das physische Spielemodul.
+
+***Schritt 2 · Zuordnen und überprüfen**
+
+Suchen Sie für jedes Element eine mögliche CIDOC-CRM-Klasse und lesen Sie ihre **Scope Note**.
+
+Als erste Orientierung können folgende Klassen dienen:
+
+| CIDOC-CRM-Klasse | Möglicher Anwendungsfall |
+|---|---|
+| **E73 Information Object** | Spiel als identifizierbarer Informationsinhalt |
+| **E22 Human-Made Object** | Konkretes physisches Spieleexemplar |
+| **E21 Person** | Beteiligte Einzelperson |
+| **E74 Group** | Organisation oder Entwicklergruppe |
+| **E12 Production** | Herstellung eines materiellen Exemplars |
+| **E35 Title** | Spieletitel als Benennung |
+| **E42 Identifier** | Inventarnummer oder anderer Identifikator |
+| **E55 Type** | Genre als Klassifikation |
+
+**Wichtig:** Diese Beispiele sind **Prüfkandidaten, keine Musterlösung**. 
+
+Die Entwicklung eines digitalen Spiels ist nicht automatisch eine **E12 Production**. Auch eine „Plattform“ kann einen Typ, eine technische Umgebung oder ein konkretes Gerät meinen; **E55 Type** ist daher nicht immer passend.
 
 Nutzen Sie dazu folgende Ressourcen:
 
@@ -215,165 +194,66 @@ Nutzen Sie dazu folgende Ressourcen:
 - **Webbasierter HTML-Navigator für CIDOC CRM:** Die offizielle Darstellung der **Version 7.1.3** eignet sich zum gezielten Nachschlagen. [Link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
 - **CIDOC CRM Periodic Table:** Eine visuelle Orientierungshilfe, um Klassen, Eigenschaften und ihre Beziehungen zu erkunden. [Link](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
 
-**Beispiele für mögliche Ausgangspunkte:**
+**Schritt 3 · Begründen und dokumentieren**
 
-- E73 Information Object → Spiel als Informationsinhalt
-- E22 Human-Made Object → physisches Spieleexemplar
-- E21 Person → beteiligte Person
-- E74 Group → Organisation oder Gruppe
-- E12 Production → Produktionsereignis
-- E35 Title → Titel
-- E42 Identifier → Identifikator
-- E55 Type → kontrollierte Klassifikation
+Dokumentieren Sie Ihre Modellierungsentscheidungen:
 
-**Schritt 3 · Überprüfen**
+| Domänenkonzept | Gemeinte Bedeutung | Mögliche CIDOC-CRM-Klasse | Begründung anhand der Scope Note | Offene Frage |
+|---|---|---|---|---|
+| 1. … | … | E… | … | … |
+| 2. … | … | E… | … | … |
 
-Lesen Sie die Scope Note der ausgewählten CIDOC-CRM-Klasse.
+Ergänzen Sie die Klassenkandidaten in Ihrer Modellskizze. Markieren Sie unsichere Zuordnungen mit einem **Fragezeichen (?)**.
 
-Fragen Sie sich:
+**Schritt 4 · Vergleichen und überarbeiten**
 
-- Beschreibt diese Klasse tatsächlich das, was wir mit unserem Begriff meinen?
-- Stützt die Definition die vorgeschlagene Zuordnung?
-- Gibt es alternative Klassen, die möglicherweise besser geeignet wären?
-
-**Schritt 4 · Begründen**
-
-Ergänzen Sie die vorgeschlagene CIDOC-CRM-Klasse in Ihrer Modellskizze und notieren Sie kurz, warum Sie diese Zuordnung gewählt haben.
-
-Markieren Sie unsichere Zuordnungen mit einem Fragezeichen (?) und halten Sie fest, was noch unklar ist.
-
-**Tipp:** Es geht nicht darum, möglichst viele CIDOC-CRM-Klassen zuzuordnen. Entscheidend ist, dass Sie wenige Modellierungsentscheidungen nachvollziehbar erklären und begründen können.
-
-### Mini-Demo: CIDOC CRM als Baukastensystem
-
-Die folgenden Klassen können als erste Orientierung für Ihre Untersuchung dienen.
-
-| CIDOC-CRM-Klasse (Entity) | Bedeutung im Beispiel |
-|---|---|
-| **E73 Information Object** | Spiel als identifizierbarer Informationsinhalt |
-| **E22 Human-Made Object** | Physisches Spieleexemplar (Modul, Disc, Verpackung …) |
-| **E21 Person** | Beteiligte Person (z.B. Designer:in, Musiker:in) |
-| **E74 Group** | Organisation oder Gruppe (z.B. Entwicklungsstudio, Publisher, Team) |
-| **E12 Production** | Herstellung eines physischen Exemplars |
-| **E42 Identifier** | Identifikatoren (z.B. Inventarnummern, Produktcodes) |
-| **E35 Title** | Titel als eigenständige Benennung |
-| **E41 Appellation** | Benennung, mit der etwas identifiziert oder bezeichnet wird |
-| **E55 Type** | Kontrollierte Klassifikation (z.B. Genre, Plattform) |
-
-Dies sind mögliche Ausgangspunkte und keine vorgegebenen Lösungen. Prüfen Sie immer die jeweiligen **Scope Notes**, bevor Sie entscheiden, ob eine Klasse für Ihre Modellierung geeignet ist.
-
----
-
-### Aufgabe 2: Modellierungsentscheidungen vergleichen und diskutieren
-
-Vergleichen Sie Ihre vorgeschlagenen CIDOC-CRM-Zuordnungen mit denen anderer Teilnehmenden oder mit dem folgenden durch CIDOC CRM Klassen repräsentierte Musterbeispiel.
+Vergleichen Sie Ihre Ergebnisse mit denen anderer Teilnehmender oder mit dem Musterbeispiel und überprüfen Sie sie nochmals anhand der Scope Notes.
 
 ![CIDOC CRM Musterbeispiel](../assets/Mindmap.png)
 
 > **Abbildung:** Beispiel eines CIDOC CRM Mappings zum Computerspiel **„The Legend of Zelda: A Link to the Past“**. Die Darstellung dient als Ausgangspunkt für die Diskussion von Modellierungsentscheidungen und ist nicht als die einzig richtige Lösung zu verstehen.
 
-**Diskutieren Sie die folgenden Fragen:**
+Fragen Sie sich:
 
-- Haben Sie für ähnliche Begriffe dieselben CIDOC-CRM-Klassen ausgewählt?
-- Falls sich Ihre Zuordnungen unterscheiden: Wie haben Sie die Bedeutung des ursprünglichen Begriffs jeweils interpretiert?
-- Wie haben Ihnen die **Scope Notes** bei Ihren Entscheidungen geholfen?
-- Welche Zuordnungen sind weiterhin unsicher?
-- Würden Sie Konzepte oder Beziehungen in Ihrer ursprünglichen Modellskizze überarbeiten?
+- Haben wir bei einem ähnlichen Begriff **dieselbe Bedeutung** vorausgesetzt?
+- Welche Aussage der **Scope Note** stützt unsere Entscheidung?
+- Wäre bei einer anderen Interpretation eine **andere Klasse** geeigneter?
+- Welche Beziehungen unserer Modellskizze müssen später noch genauer geprüft werden?
 
-Überarbeiten Sie Ihre Modellskizze, wo dies sinnvoll erscheint, und halten Sie offene Fragen fest.
+Überarbeiten Sie bei Bedarf Ihre Begründungen. Es ist ausdrücklich erlaubt, eine Zuordnung als **vorläufig** zu kennzeichnen.
 
-**Musterbeispiel: Vom Domänenmodell zur CIDOC-CRM-Modellierung**
-
-Die in der Aktivierungsübung entstandene Modellskizze beschreibt zunächst die Konzepte, Ereignisse und Beziehungen der Beispieldomäne. Im nächsten Schritt können diese Elemente mithilfe von Klassen (Entities) und Eigenschaften (Properties) des CIDOC CRM weiter formalisiert werden.
-
-Die Abbildung zeigt beispielhaft, wie aus einer solchen Modellskizze ein stärker formalisiertes semantisches Modell entstehen kann.
-
-Dabei werden die zunächst frei formulierten Elemente und Beziehungen schrittweise auf CIDOC-CRM-Klassen und -Eigenschaften bezogen. Die Abbildung ist daher nicht als einzig mögliche Lösung zu verstehen, sondern als Modellierungsvorschlag, der überprüft und weiterentwickelt werden kann.
-
-> **Zentrale Erkenntnis: Bedeutung modellieren**
->
-> Semantische Modellierung bedeutet mehr, als Klassen mit ähnlichen Bezeichnungen zu finden.
->
-> Eine geeignete CIDOC-CRM-Zuordnung hängt von der **beabsichtigten Bedeutung eines Begriffs**, den **Definitionen der ausgewählten Klassen** und den **Beziehungen, die ausgedrückt werden sollen**, ab.
->
-> In dieser Phase entwickeln Sie eine erste, am CIDOC CRM orientierte Version Ihres konzeptuellen Modells – noch keine vollständige formale Ontologie.
+**Tipp:** Entscheidend ist nicht die Anzahl der zugeordneten Klassen, sondern die Nachvollziehbarkeit und Begründung Ihrer Modellierungsentscheidungen. Sie sollten Ihre Modellierung und die getroffenen Entscheidungen erklären und begründen können.
 
 ---
 
-### Ergebnis
+## Ergebnis
 
-Sie haben Ihre ursprüngliche konzeptuelle Modellskizze erneut betrachtet und ausgewählte Elemente mithilfe des **CIDOC CRM** untersucht.
+Sie haben Ihre konzeptuelle Modellskizze aus der Aktivierungsübung um eine **erste CIDOC-CRM-orientierte Perspektive** erweitert.
 
-**Ihre überarbeitete Modellskizze enthält nun:**
+Ihre Skizze und Ihre Dokumentation enthalten nun:
 
-- relevante Domänenkonzepte und Ereignisse,
-- erste Zuordnungen ausgewählter Elemente zu CIDOC-CRM-Klassen,
-- explizite semantische Beziehungen,
-- kurze Begründungen auf Grundlage der beabsichtigten Bedeutung und der jeweiligen Scope Notes,
-- Hinweise auf unsichere oder noch offene Modellierungsentscheidungen.
+- **zwei ausgewählte Domänenkonzepte oder Ereignisse** mit geklärter Bedeutung,
+- **zwei vorläufige CIDOC-CRM-Klassenzuordnungen**,
+- **kurze Begründungen** anhand der jeweiligen Scope Notes und
+- gegebenenfalls **offene Fragen oder alternative Zuordnungen**.
 
-Dies ist eine erste **CIDOC-CRM-orientierte Version Ihres konzeptuellen Modells**, noch keine vollständige formale Ontologie.
-
-In **Modul 2** werden Sie diese Modellierungsentscheidungen überprüfen, weiterentwickeln und beginnen, ausgewählte Teile des Modells mithilfe von **Protégé** zu formalisieren.
-
----
-
-## Von der Benennung zur Appellation
-
-In unserer ersten Modellskizze können wir zunächst einfach formulieren:
-
-> Spiel → hat eine Benennung → „The Legend of Zelda: A Link to the Past“
-
-CIDOC CRM ermöglicht es, zwischen verschiedenen Formen der Benennung genauer zu unterscheiden.
-
-**E41 Appellation** bezeichnet eine Benennung, mit der eine Instanz einer CRM-Klasse identifiziert oder bezeichnet werden kann.
-
-Zwei speziellere Klassen sind in diesem Zusammenhang besonders relevant:
-
-- **E35 Title:** Ein Titel, der einer Entität zugewiesen wurde oder für sie verwendet wird, beispielsweise der Titel eines Computerspiels.
-- **E42 Identifier:** Ein Identifikator, der dazu dient, eine Entität innerhalb eines bestimmten Identifikationskontextes eindeutig zu unterscheiden, beispielsweise eine Inventarnummer.
-
-Sowohl **E35 Title** als auch **E42 Identifier** sind Unterklassen von **E41 Appellation**. Sie beschreiben jedoch unterschiedliche Arten von Benennungen.
-
-### Modellierbeispiel · Nicht jede Benennung ist dasselbe
-
-In der konzeptuellen Modellskizze können wir zunächst formulieren:
-
-> Spiel → hat eine Benennung → „The Legend of Zelda: A Link to the Past“
-
-**Unterscheidung im CIDOC CRM:**
-
-- **E41 Appellation** → allgemeine Benennung
-- **E35 Title** → besondere Form einer Appellation: ein Titel
-- **E42 Identifier** → besondere Form einer Appellation: ein Identifikator
-
-Damit wird deutlich: Begriffe wie Benennung, Titel und Identifikator sind in CIDOC CRM nicht dasselbe, stehen aber in einem gemeinsamen konzeptionellen Zusammenhang.
-
-> **Merksatz:**
+> **Selbstcheck · Bedeutung statt bloßer Bezeichnung**
 >
-> Ähnliche Bezeichnungen drücken nicht automatisch dieselbe Bedeutung aus. Prüfen Sie vor der Auswahl einer CIDOC-CRM-Klasse immer, ob ihre **Scope Note** der beabsichtigten Bedeutung des Konzepts in Ihrem Domänenmodell entspricht.
-
-In dieser Übung geht es darum, diese Unterschiede zu erkennen und die entsprechenden **Modellierungsentscheidungen zu begründen**.
-
-Die technische Darstellung von Appellationen, ihren Zeicheninhalten und den zugehörigen Datentyp-Eigenschaften wird in den folgenden Modulen, insbesondere in **Modul 3**, behandelt.
+> Können Sie für beide Elemente erklären, **was** Sie modellieren möchten, **warum** die ausgewählte Klasse passt und **welche Frage** noch offen ist?
+>
+> Die Skizze ist **noch keine vollständig formalisierte Ontologie**.
 
 ---
 
 ## Ausblick
 
-In dieser Praxiseinheit haben Sie Ihre **konzeptuelle Modellskizze zur Domäne Computerspiele** erneut aufgegriffen und untersucht, wie ausgewählte Konzepte und Ereignisse mithilfe des **CIDOC CRM** beschrieben werden können.
-
-Durch das Nachschlagen der **Scope Notes**, die Prüfung möglicher Klassenzuordnungen und die Diskussion von **Modellierungsentscheidungen** haben Sie einen ersten Schritt hin zu einem präziseren semantischen Modell unternommen. Am Beispiel von **E41 Appellation**, **E35 Title** und **E42 Identifier** wurde außerdem deutlich, weshalb die Bedeutung eines Begriffs für seine Zuordnung entscheidend ist.
-
 > **Wie geht es weiter?**
 >
-> Sie haben Ihre konzeptuelle Modellskizze um erste **CIDOC-CRM-Zuordnungen** und **begründete Modellierungsentscheidungen** erweitert.
+> Speichern Sie Ihre überarbeitete Modellskizze und die dokumentierten Entscheidungen. Sie bilden den Ausgangspunkt für die weitere Modellierung.
 >
-> **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** Sie werden diese Entscheidungen überprüfen und weiterentwickeln sowie ausgewählte Teile des Modells mithilfe von **Protégé** als maschinenlesbare **OWL-Ontologie** formalisieren.
+> In **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** prüfen und präzisieren Sie Ihre Zuordnungen und formalisieren einen kleinen Ontologieausschnitt in Protégé.
 >
-> **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** Sie werden das semantische Modell nutzen, um eine **WissKI-Pathbuilder-Konfiguration** vorzubereiten und in WissKI zu importieren.
->
-> Ihre Modellskizze bildet damit den **Ausgangspunkt für die weitere Modellierung**. Sie stellt noch keine vollständige formale Ontologie dar.
+> In **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** nutzen Sie die Klassen und Beziehungen zur Vorbereitung eines Diagramms und einer WissKI-Pathbuilder-Konfiguration.
 
 ---
 
