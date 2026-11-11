@@ -73,7 +73,7 @@ Sie untersuchen am Beispiel von **The Legend of Zelda: A Link to the Past**, wie
 >
 > Wählen Sie **zwei Elemente** aus Ihrer Modellskizze aus, prüfen Sie mögliche Klassen anhand der **Scope Notes** und begründen Sie Ihre Entscheidungen.
 >
-> Ziel ist eine **erste, überprüfbare CIDOC-CRM-orientierte Erweiterung** Ihrer Modellskizze.
+> Ziel ist eine **erste, überprüfbare CIDOC-CRM-basierte Formalisierung** Ihrer Modellskizze.
 
 ---
 

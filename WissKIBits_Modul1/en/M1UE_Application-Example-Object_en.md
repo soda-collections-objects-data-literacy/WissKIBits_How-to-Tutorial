@@ -55,59 +55,31 @@ Participants will be able to...
 
 ---
 
-## Objective and Scenario
+## Aim and Scenario
 
-In this exercise, you return to the conceptual model sketch developed during the activation exercise.
+In this **final practical exercise of Module 1**, you will revisit your conceptual model sketch from the [Activation Unit M1U0A](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1).
 
-Using **"The Legend of Zelda: A Link to the Past"** as an example, you examine selected domain concepts and explore how their meanings can be represented using **CIDOC CRM**.
+Using **The Legend of Zelda: A Link to the Past** as an example, you will explore how selected concepts and events can be described using **CIDOC CRM**. At this stage, the aim is not to create a complete ontology or implement technical paths. Instead, the exercise is intended to demonstrate that translating domain knowledge into a reference model requires **modelling decisions**.
 
-You will... 
-
-- identify possible CIDOC CRM classes, 
-- consult their scope notes, and 
-- explain your modelling decisions.
-
-The aim is to develop an initial, justified CIDOC CRM mapping for a small part of your model sketch. 
-
-You are not expected to create a complete or formally implemented ontology at this stage.
-
-> **Transfer: From conceptual model to CIDOC CRM**
+> **Transfer:** From the conceptual model sketch to a formalised model based on CIDOC CRM
 >
-> You will now further develop the model sketch created during the activation exercise of this module (M1U0A).
+> **Guiding Question:**
 >
-> Selected concepts and events are described using CIDOC CRM.
+> What do we mean by a particular term – and which CIDOC CRM class best represents that meaning?
 >
-> The aim here is not to develop a complete or final CIDOC CRM model at this stage.
+> Select **two elements** from your model sketch, examine possible classes using their **scope notes**, and justify your decisions.
 >
-> The crucial question is:
-> 
-> **What do you mean by a specific term—and which CIDOC CRM class best captures that meaning?**
->
-> The goal is to make, review, and justify initial modelling decisions.
+> The aim is to develop an **initial, verifiable formalisation based on CIDOC CRM** of your model sketch.
 
 ---
 
-## Starting Point: Your Model Sketch from UA0
+## Starting Point: Model Sketch of "Zelda"
 
-Return to the model sketch you created during the activation exercise. It contains concepts, events, and relationships expressed in your own terminology, including any connections you marked as uncertain.
+Use your own model sketch from M1E0A or the sample solution provided there.
 
-Keep your original sketch available so that you can compare your initial ideas with the modelling decisions made during this exercise.
+![Conceptual model sketch](../assets/mindmap_en.png)
 
-**From conceptual model to a first CIDOC CRM draft**
-
-Your sketch describes the collection object and its context using your own terminology. The next step is to examine how selected elements could be represented using CIDOC CRM.
-
-Now, look at the same model from a **CIDOC CRM perspective**:
-
-- What do the identified concepts and events mean in the context of the domain?
-- Which CIDOC CRM classes could represent this meaning?
-- Can the relationships in your sketch be expressed using CIDOC CRM properties?
-- Which **modelling decisions** remain open?
-
-Remember: **A similar label does not necessarily imply the same meaning.**
-
-At this stage, you are not expected to create a complete or formally implemented CIDOC CRM model. The goal is to develop **a first CIDOC CRM-informed version of your conceptual model**, which you will refine and formalise in module 2.
-
+In the introductory exercise, you initially identified concepts, events and relationships in your own words.
 ---
 
 ## CIDOC CRM as a Reference Model
@@ -122,217 +94,185 @@ The name of a class alone is not sufficient for selection. The decisive factor i
 
 ---
 
-## Focus of this Modelling Exercise
+### Mapping to CIDOC CRM
 
-Continue working with the three areas introduced in the activation exercise:
+Now examine these elements from the perspective of a **reference model**, CIDOC CRM.
 
-- **Game title**
-- **Game characteristics** (e.g., genre, such as action-adventure, RPG, or platform, such as Nintendo 64, PlayStation, PC)
-- **Narrative elements** (e.g., description, perspective - such as first-person or third-person - or characters like Zelda)
+> **From Your Own Terms to Their Meaning**
+>
+> Use the following questions as a guide:
+>
+> - Does "game" refer to the **information content**, a **specific version**, or a **physical copy of the game**?
+> - Is "title" a **name**, while an inventory number is an **identifier**?
+> - Does "genre" represent a **classification**?
+> - Which class assignments can be justified based on a **scope note**?
+> - Where are multiple modelling approaches possible?
 
-These areas serve as a starting point for identifying various types of **concepts and events** and formulating the **relationships** between them.
-
-Select two elements from your model sketch that raise interesting questions about their meaning.
-
-For example, consider whether a term refers to the game as information content, a physical copy, a designation, or a classification.
-
-You will use CIDOC CRM to examine these distinctions.
-
-For example, the following questions might be asked:
-
-- What is the **title** of the game?
-- To which **genre** or **platform** is it assigned?
-- Which **people or organizations** were involved?
-- Which **events** are relevant to the game?
-- At which **locations** and **times** did these events take place?
+**Remember:** A class name that sounds similar to your term does not necessarily mean that the class accurately represents the intended meaning.
 
 ---
 
-## Exercise – Getting Oriented with CIDOC CRM
+## Why CIDOC CRM?
 
-**Format:** Individual work or small groups (2–5 people)
+The **CIDOC Conceptual Reference Model (CIDOC CRM)** provides classes and properties for the semantic description of cultural heritage information. It helps to interpret terms from different collections and research contexts in a transparent and understandable way.
 
-**Materials:** Your model sketch from the activation exercise, paper and pen or a digital whiteboard, and access to the CIDOC CRM documentation
+The mapping process follows a simple sequence of steps:
 
-**Time:** 20 min.
+**Domain term → clarify the intended meaning → look up the CIDOC CRM class → examine the scope note → justify the decision**
 
-### Starting Point: Your Model Sketch
+The following example illustrates why this is important:
 
-![Concept Mind Map](../WissKIBits_Modul1/assets/mindmap_en.png)
+| Intended Meaning | Possible CIDOC CRM Class |
+|---|---|
+| A general designation | **E41 Appellation** |
+| The title of a game | **E35 Title** |
+| An inventory number of a collection item | **E42 Identifier** |
 
-> **Figure:** The figure shows an example of the step-by-step conceptual analysis of a collection or research object, using the game *The Legend of Zelda: A Link to the Past* as a case study. Author's own illustration, created with ChatGPT (OpenAI), 2026.
-
-Use your model sketch from the activation exercise as the starting point. You will now examine selected elements and explore how their meanings could be represented using CIDOC CRM.
+**E35 Title** and **E42 Identifier** are more specific forms of **E41 Appellation**. However, a title is not the same as the game itself. Which entity bears the title and which property connects them will be modelled in greater detail in the following modules.
 
 ---
 
-### Task 1: Explore and Justify Initial CIDOC CRM Mapping
+## Focus of This Practical Exercise
 
-Select **two concepts or events** from your model sketch. For each selected element, follow the four steps below.
+Continue working with the three areas you are already familiar with from the introductory exercise:
 
-**Step 1 · Select**
+- **Game Title:** names and possible title variants;
+- **Game Properties:** for example, genre (action-adventure) and platform (Super Nintendo Entertainment System, SNES);
+- **Narrative Elements:** for example, storyline, game world and characters such as Zelda.
 
-Choose a concept or event from your model sketch, such as a game, person, organisation, title, genre, or production event.
+You may also select people, organisations, events or physical collection objects from your sketch. The important thing is to examine the meaning of **two elements** in detail rather than trying to identify as many classes as possible.
 
-Briefly clarify what the selected term refers to in your collection context.
+> **Preparing a Modelling Decision and Defining the Intended Meaning**
+>
+> For each element, consider:
+>
+> - What exactly does the term refer to in the context of the collection?
+> - Does it refer to an object, information content, an actor, an event, a name or a type?
+> - Which class might be appropriate?
+> - Does its scope note match the intended meaning?
+> - What questions remain unanswered?
 
-**Step 2 · Assign**
+---
 
-Look for a CIDOC CRM class that could represent the intended meaning.
+## Practical Exercise – Modelling with CIDOC CRM
+
+**Working format:** Individual work or small groups (2–5 people), followed by a brief comparison or self-reflection
+
+**Materials:** Your own model sketch from M1E0A or the model solution, access to the CIDOC CRM documentation, pen and paper or a digital whiteboard
+
+**Time:** ~ 20 min.
+
+> **Preparation**
+>
+> 1. Open your conceptual model sketch or the [model solution from M1U0A](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1)
+> 2. Open the [CIDOC CRM documentation (version 7.1.3)](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html). You may also use the [CIDOC CRM Periodic Table](https://remogrillo.github.io/cidoc-crm_periodic_table) for guidance.
+
+
+**Task:**  Explore and justify initial CIDOC CRM mappings
+
+Examine **two concepts or events** from your model sketch. Assign suitable CIDOC CRM classes to them **provisionally** and justify your choices using the Scope Notes.
+
+---
+
+### Step 1 · Select and clarify the meaning
+
+Select **two elements** from your model sketch. For each element, describe in one sentence **exactly what is meant**.
+
+Example: "Game title" refers to the name of the game, **not** the physical game cartridge.
+
+---
+
+### Step 2 · Map and verify
+
+Find a possible CIDOC CRM class for each element and read its **Scope Note**.
+
+The following classes may serve as an initial guide:
+
+| CIDOC CRM class | Possible use case |
+---|---|
+| **E73 Information Object** | Game as identifiable information content |
+| **E22 Human-Made Object** | A specific physical copy of a game |
+| **E21 Person** | Individual person involved |
+| **E74 Group** | Organisation or development team |
+| **E12 Production** | Production of a physical copy |
+| **E35 Title** | Game title as a name |
+| **E42 Identifier** | Inventory number or other identifier |
+| **E55 Type** | Genre as a classification |
+
+**Important:** These examples are **candidates for consideration, not a model solution**.&#x20;
+
+The development of a digital game is not automatically an instance of **E12 Production**. Similarly, a "platform" may refer to a type, a technical environment or a specific device; **E55 Type** is therefore not always appropriate.
 
 Use the following resources:
- 
-**Official CIDOC CRM documentation Version 7.1.3**: A document for authoritative definitions, scope notes, class hierarchies, and properties. [link](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (CIDOC, 2024a)
 
-**CIDOC CRM web-based HTML navigator**: The official representation of **Version 7.1.3** serves as a reference for targeted lookup. [link](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
- 
-**CIDOC CRM Periodic Table**: Use it as a visual tool for exploring classes, properties, and their relationships. [link](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
-
-**Examples of possible starting points:**
- 
-- E73 Information Object → Game as information content
-- E22 Human-Made Object → Physical copy
-- E21 Person → Participating person
-- E74 Group → Organization or group
-- E12 Production → Production event
-- E35 Title → Title
-- E42 Identifier → Identifier
-- E55 Type → Controlled classification
-
-**Step 3 · Review**
-
-Read the scope note of the selected CIDOC CRM class.
-
-Ask yourself:
-
-- Does the class describe what I mean by my term?
-- Does the definition support my proposed assignment?
-- Are there alternative classes that might be more appropriate?
-
-**Step 4 · Justify**
-
-Add the proposed CIDOC CRM class to your model sketch and briefly explain your choice.
-
-Mark uncertain assignments with a question mark (?) and note what remains unclear.
-
-**Remember:** The goal is not to assign as many CIDOC CRM classes as possible. What matters is whether you can explain and justify a small number of modelling decisions.
-
-**Mini-Demo: CIDOC CRM as a building-block system**
-
-The following classes may provide useful starting points for your exploration.
-
-| CIDOC CRM class (entity) | Meaning in the example |
-|--------------------------|------------------------|
-| **E73 Information Object** | Game as identifiable information content |
-| **E22 Human-Made Object** | Physical copy (cartridge, disc, box…) |
-| **E21 Person** | Participating person / contributor (designer, musician) |
-| **E74 Group** | Organization or group (development studio, publisher, team) |
-| **E12 Production** | Production / (production of a physical copy as an event) |
-| **E42 Identifier** | Identifiers (inventory numbers, product codes …) |
-| **E35 Title** | Title of the object as a separate entity |
-| **E41 Appellation** | Name by which something is identified or designated |
-| **E55 Type** | Controlled characteristics (e.g. genre, platform) |
-
-These are possible starting points, not predefined solutions. Always check the relevant scope notes before deciding whether a class is suitable.
-
---- 
-
-### Task 2: Compare and Discuss Modelling Decisions
-
-Compare your proposed CIDOC CRM mappings with those of other participants or with the example below.
-
-![Concept Mind Map](../WissKIBits_Modul1/assets/Mindmap.png)
-
-> **Figure:** Example of a model sketch for **The Legend of Zelda: A Link to the Past.** The illustration provides a starting point for discussing modelling decisions rather than a single correct solution.
-
-**Discuss the following questions:**
-
-- Did you select the same CIDOC CRM classes for similar terms?
-- If your choices differ, how did you interpret the meaning of the original term?
-- How did the scope notes help you make your decisions?
-- Which assignments remain uncertain?
-- Would you revise any concepts or relationships in your original model sketch?
-
-Revise your sketch where necessary and record any open questions.
-
-**Key takeaway: Modelling meaning**
-
-Semantic modelling involves more than finding classes with similar names.
-
-A suitable CIDOC CRM mapping depends on the **intended meaning of a term**, the **definitions of the selected classes**, and **the relationships you want to express**.
-
-At this stage, you are developing a first CIDOC-CRM-informed version of your conceptual model — not a complete formal ontology.
+- **Official CIDOC CRM documentation, version 7.1.3:** This document contains the authoritative definitions, Scope Notes, class hierarchies and properties. [**Link**]([https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)) (CIDOC, 2024a)
+- **Web-based HTML navigator for CIDOC CRM:** The official presentation of **version 7.1.3** is suitable for looking up specific information. [**Link**]([https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)) (CIDOC, 2024b)
+- **CIDOC CRM Periodic Table:** A visual reference tool for exploring classes, properties and their relationships. [**Link**]([https://remogrillo.github.io/cidoc-crm_periodic_table](https://remogrillo.github.io/cidoc-crm_periodic_table)) (RemoGrillo & claude, 2026)
 
 ---
 
-### Result
+### Step 3 · Justify and document
 
-You have revisited your initial conceptual model sketch and examined selected elements using CIDOC CRM.
+Document your modelling decisions:
 
-**Your revised sketch now contains:**
+| Domain concept | Intended meaning | Possible CIDOC CRM class | Justification based on the Scope Note | Open question |
+|---|---|---|---|---|
+| 1. … | … | E… | … | … |
+| 2. … | … | E… | … | … |
 
-- relevant domain concepts and events,
-- initial mappings of selected elements to CIDOC-CRM classes,
-- explicit semantic relationships,
-- brief justifications based on the intended meaning and the corresponding scope notes,
-- notes on uncertain or unresolved modelling decisions.
-
-This is a first CIDOC-CRM-informed version of your conceptual model, not yet a complete formal ontology.
-
-In module 2, you will review and refine these decisions and begin formalising selected parts of the model using Protégé.
+Add the candidate classes to your model sketch. Mark uncertain mappings with a **question mark (?)**.
 
 ---
 
-## From Designation to Appellation
+### Step 4 · Compare and revise
 
-In our initial model sketch, you can state simply:
+Compare your results with those of other participants or with the model example, and check them again against the Scope Notes.
 
-> Game → has a designation → “The Legend of Zelda: A Link to the Past”
+![CIDOC CRM model example](../assets/Mindmap.png)
 
-CIDOC CRM allows us to distinguish more precisely between different forms of designation:
+> **Figure:** Example of a CIDOC CRM mapping for the video game **"The Legend of Zelda: A Link to the Past"**. The diagram is intended as a starting point for discussing modelling decisions and should not be regarded as the only correct solution.
 
- **E41 Appellation** represents a designation used to identify or refer to an instance of a CRM class. 
- 
- Two more specific classes are particularly relevant here:
+Ask yourselves:
 
-- **E35 Title:** A title assigned to or used for an entity, such as the title of a game.
-- **E42 Identifier:** An identifier used to distinguish an entity within a particular identification context, such as an inventory number.
+- Have we assumed **the same meaning** for similar terms?
+- Which statement in the **Scope Note** supports our decision?
+- Would **a different class** be more appropriate if the element were interpreted differently?
+- Which relationships in our model sketch will need to be examined more closely at a later stage?
 
-Both E35 Title and E42 Identifier are subclasses of E41 Appellation, but they express different kinds of designation.
+Revise your justifications if necessary. You are explicitly encouraged to mark a mapping as **provisional** where appropriate.
 
-**Modelling Example · Not All Designations Are the Same**
+**Tip:** What matters is not the number of classes assigned, but how clearly your modelling decisions can be understood and justified. You should be able to explain and justify your model and the decisions you have made.
 
-Initial model sketch: 
+---
 
-Game  →  has designation  →  "The Legend of Zelda: A Link to the Past"
+## Result
 
-**CIDOC CRM distinction:** 
+You have translated your conceptual model sketch from the introductory exercise into a **model formalised using CIDOC CRM**.
 
-- E41 Appellation → general designation
-- E35 Title → specific form of an appellation: a title
-- E42 Identifier → specific form of an appellation: an identifier
+Your sketch and documentation now include:
 
-**Key Point:** Similar labels do not necessarily express the same meaning. Always check the CIDOC CRM scope note before selecting a class.
+- **two selected domain concepts or events** with clearly defined meanings,
+- **two provisional CIDOC CRM class assignments**,
+- **brief justifications** based on the respective scope notes, and
+- where applicable, **open questions or alternative class assignments**.
 
-In this exercise, the aim is to recognise and justify these distinctions. The technical representation of appellations and their literal values will be addressed in later modules.
+> **Self-Check · Meaning Rather Than Just Labels**
+>
+> Can you explain for both elements **what** you want to model, **why** the selected class is appropriate and **which question** remains unanswered?
+>
+> The sketch is **not yet a fully formalised OWL ontology**.
 
 ---
 
 ## Outlook
 
-In this exercise, you revisited your conceptual model sketch and explored how selected concepts and events can be represented using CIDOC CRM.
-
-By consulting scope notes and discussing possible mappings, you have taken a first step towards a more precise semantic model.
-
-> **Next**
+> **What's Next?**
 >
-> You have extended your conceptual model sketch with initial CIDOC CRM mappings and justified modelling decisions.
+> Save your revised model sketch and the documented decisions. They will serve as the starting point for further modelling.
 >
-> Module 2: You will review and refine these decisions and formalise selected parts of the model as a machine-readable OWL ontology using Protégé.
+> In **Module 2: Modelling with CIDOC CRM – Understanding and Applying**, you will review and refine your class assignments and formalise a small section of an ontology in Protégé.
 >
-> Module 3: You will use the semantic model to prepare and import a WissKI Pathbuilder configuration.
->
-> Your model is therefore a starting point for further development, not yet a complete formal ontology.
+> In **Module 3: From Diagrams to Paths – Explaining and Applying**, you will use the classes and relationships to prepare a diagram and a WissKI Pathbuilder configuration.
 
 ---
 
