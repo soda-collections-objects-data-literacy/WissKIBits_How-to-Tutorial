@@ -75,11 +75,16 @@ Am Ende können die Teilnehmenden:
 - die Zuordnungen als **Modellierungsentscheidungen** beschreiben und begründen,
 - eine erste **begründete CIDOC-CRM-Zuordnung** für einen kleinen Ausschnitt ihrer konzeptuellen Modellskizze entwickeln.
 
-Die Modellskizze wird in den **Modulen 2: Modellieren mit CIDOC CRM – verstehen und anwenden** und **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
+Die Modellskizze wird in den 
+
+- **Modulen 2: Modellieren mit CIDOC CRM – verstehen und anwenden** und 
+- **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** 
+
+schrittweise weiterentwickelt und für die Arbeit mit **Protégé** und **WissKI** formalisiert.
 
 > **Transfer: Vom konzeptuellen Modell zu CIDOC CRM**
 >
-> Ihre in der Aktivierungsübung (M1E0A) entstandene Modellskizze oder die [Musterlösung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10) wird nun weiterentwickelt.
+> Ihre in der Aktivierungsübung (M1E0A) entstandene Modellskizze oder die Musterlösung wird nun weiterentwickelt.
 >
 > Ausgewählte Konzepte und Ereignisse werden mithilfe von CIDOC CRM beschrieben.
 >
@@ -95,9 +100,7 @@ Die Modellskizze wird in den **Modulen 2: Modellieren mit CIDOC CRM – verstehe
 
 ## Ausgangspunkt: Modellskizze zu „Zelda“
 
-Ausgangspunkt ist die **Modellskizze zu „The Legend of Zelda: A Link to the Past“**, die in der Aktivierungsübung dieses Moduls entwickelt wurde.
-
-Verwenden Sie nun Ihre Modellskizze oder die Musterlösung **konzeptuelle Modellskizze aus Modul 1**:
+Ausgangspunkt ist Ihre **konzeptuelle Modellskizze zu „The Legend of Zelda: A Link to the Past“** oder die [Musterlösung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E0A_Mindmap_Objekt.md#10), die in der Aktivierungsübung (M1E0A) dieses **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** entwickelt wurde.
 
 ![Konzeptuelle Modellskizze aus Modul 1](../assets/mindmap.png)
 
@@ -138,11 +141,11 @@ An diesem Beispiel wurde untersucht, welche **Konzepte, Ereignisse und Beziehung
 
 ## Fokus dieser Modellierungsübung
 
-Arbeiten Sie mit den drei Bereichen weiter, die bereits in der Aktivierungsübung eingeführt wurden:
+Arbeiten Sie an den Themenbereichen weiter, die bereits in der Aktivierungsübung eingeführt wurden:
 
 - **Spieltitel**
-- **Spielmerkmale** (z. B. Genre, wie Action-Adventure oder RPG, oder Plattform, wie Nintendo 64, PlayStation oder PC)
-- **Narrative Elemente** (z. B. Beschreibung, Perspektive, wie First-Person oder Third-Person, oder Figuren wie Zelda)
+- **Spielmerkmale** (z.B. Genre, wie Action-Adventure oder RPG, oder Plattform, wie Nintendo 64, PlayStation oder PC)
+- **Narrative Elemente** (z.B. Beschreibung, Perspektive, wie First-Person oder Third-Person, oder Figuren wie Zelda)
 
 Diese Bereiche dienen als Ausgangspunkt, um unterschiedliche Arten von **Konzepten und Ereignissen** zu erkennen und ihre **Beziehungen** zu formulieren.
 
@@ -198,7 +201,7 @@ Wählen Sie **zwei Konzepte oder Ereignisse** aus Ihrer Modellskizze aus. Gehen 
 
 **Schritt 1 · Auswählen**
 
-Wählen Sie ein Konzept oder Ereignis aus Ihrer Modellskizze aus, z. B. Spiel, Person, Organisation, Titel, Genre oder Produktion.
+Wählen Sie ein Konzept oder Ereignis aus Ihrer Modellskizze aus, z.B. Spiel, Person, Organisation, Titel, Genre oder Produktion.
 
 Klären Sie kurz, was der ausgewählte Begriff im Kontext Ihres Sammlungsobjekts genau bezeichnet.
 
