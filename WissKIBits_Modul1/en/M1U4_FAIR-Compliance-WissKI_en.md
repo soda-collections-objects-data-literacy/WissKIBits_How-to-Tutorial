@@ -153,7 +153,7 @@ Drupal provides the underlying web application framework, while WissKI supports 
 
 The important point is that WissKI connects a semantic model with the way research information is organised and edited in the system.
 
-### Together: Drupal provides the application framework; WissKI adds the semantic data layer.
+###  How Drupal and WissKI Work Together
 
  **Drupal provides:**
  
@@ -175,85 +175,94 @@ The important point is that WissKI connects a semantic model with the way resear
 
 ## The WissKI Pathbuilder
 
-> **What does the Pathbuilder do?**
->
-> The WissKI Pathbuilder connects elements of an ontology with the structure used to organise and edit information in WissKI.
->
-> It uses **groups** and **paths** within the ontology to specify the classes and properties relevant for particular data structures, enabling strucutured data ingestion:
-> 
-> **Groups** organise semantic entities, such as objects, persons, places, or events.
-> **Paths** define semantic relationships between these entities.
-> **Widgets / fields** provide user-friendly interfaces for entering and managing data based on these structures.
->
-> 
-> For now, it is sufficient to understand that the Pathbuilder builds on an existing semantic model. It does not replace the process of developing or defining that model. 
-
----
-
-The **Pathbuilder** is the **core of WissKI**.
-
-The semantic structures modelled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modelling with Semantic Web standards.
-
-The Pathbuilder defines:
-
-- **Groups** → semantic entities, e.g. object, person, place, event
-- **Paths** → relationships between these entities, e.g. object → was created by → person
-- **Widgets** → automatically generated input forms whose structure is derived from the semantics
-
-This makes it possible to work in WissKI **not with tables**, but with **ontology-based structures**. 
-
-At the same time, WissKI remains flexible, enables semantic consistency, and provides the best possible support for users in data maintenance.
+The **Pathbuilder** is the **core component of WissKI**.
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain until WissKI (version 8.x-3.16) and Drupal (version 11.3.13)
+> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modeling of the computer games domain up to WissKI (version 8.x-3.16) and Drupal (version 11.3.13).
 
 ![Pathbuilder](../assets/pathbuilder_new.JPG)
 
-> **Figure:** Pathbuilder in WissKI with path groups, paths, and field settings for the semantic modelling of the computer games domain from up to WissKI (version 8.X-4.9) and Drupal (version 11.4.11) 
+> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modeling of the computer games domain from WissKI (version 8.x-4.9) and Drupal (version 11.4.11) onward.
+
+> **What Does the Pathbuilder Do?**
+>
+> The semantic structures modeled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modeling with Semantic Web standards.
+>
+> The Pathbuilder defines **groups** and **paths** within the ontology and specifies the classes and properties relevant to particular data structures. This enables structured data entry:
+>
+> - **Groups** organise semantic entities, such as objects, people, places, or events.
+>
+> - **Paths** define semantic relationships between these entities, e.g., Object → was created by → Person.
+>
+> - **Widgets/Fields** provide user-friendly interfaces for entering and managing data based on these structures.
+>
+> For now, it is sufficient to understand that the Pathbuilder builds on an existing semantic model. It does not replace the process of developing or defining that model.
+
+This makes it possible to work in WissKI **not with tables**, but with **ontology-based structures**.
+
+At the same time, WissKI remains flexible, enables semantic consistency, and provides users with effective support for data management and maintenance.
 
 ---
 
-## Semantic Modelling the *WissKI way*
+## Semantic Modelling the *WissKI Way*
 
-In WissKI, **not only data** are stored and recorded; **meaning** is modelled.
+In WissKI, **not only data** is recorded and stored, but **meaning** is modelled.
 
-This means, research data are not simply recorded as isolated pieces of information. Their meaning and relationships are described using a semantic model.
+This means that research data is not simply recorded as isolated pieces of information. Instead, their meaning and relationships to one another are described using a semantic model.
 
-The guiding question is: 
+The guiding questions are:
 
-- **How are the things you want to describe related to one another?**
-- **What real-world relationship exists between the things?**
+- **How are the things we want to describe related to one another?**
+- **What real-world relationships exist between these things?**
 
 !?[Video](../assets/semanticModelling.mp4)
 
-> **Video:** How statements about people, objects, places, and events form a network of connected information in WissKI.
+> **Video:** How statements about people, objects, places and events form a network of interconnected information in WissKI.
 
-Consider the example of the person **Albrecht Dürer**. Information about him may include:
+Consider the example of **Albrecht Dürer**. Information about him may include:
 
-- his birth in → **Nuremberg** (Place)  
-- his date of birth → **a specific point in time**  (Date)
-- his relationship to his mother → **Barbara Dürer** (Person)  
-- the creation of a → **Self-Portrait** (Object)
-- the **time of creation** mentioned in a historical **source** documenting these events (Date and Object)
-- during → **his artistic creative period**  (Time-Span)
-- and place of its creation → **Nuremberg** (Place)
+- his birth in → **Nuremberg** (Place)
+- his date of birth → **a specific point in time** (Date)
+- his relationship to his mother → **Barbara Dürer** (Person)
+- the creation of a → **self-portrait** (Object)
+- the **date of creation** documented in a historical **source** (Date and Object)
+- during → **his period of artistic activity** (Time Period)
+- and the place of creation → **Nuremberg** (Place)
 
-Rather than treating these details as unrelated facts, semantic modelling makes their relationships explicit.
+Rather than treating these details as independent facts, semantic modelling makes their relationships explicit.
 
-The documentation follows the **event-centered modelling principle of CIDOC CRM**.
+The foundation for this is the **event-centred modelling principle of CIDOC CRM**.
+
+A statement such as:
+
+> "The self-portrait was created by Albrecht Dürer."
+
+is thus stored as an individual, unambiguously referenceable relationship. Many such statements are connected to form a directed graph that represents complex relationships in machine-readable form.
+
+Together, these triples form the knowledge graph managed by WissKI.
+
+The WissKI Pathbuilder translates ontological models based on CIDOC CRM into corresponding RDF structures.
+
+Path groups represent entities, paths define relationships, and the forms generated from them enable users to create consistent statements in the knowledge graph during data entry.
 
 ---
 
-## Event-Centred Modelling with CIDOC CRM
+## Event-centered Modelling with CIDOC CRM
 
-A central principle of CIDOC CRM is event-centred modelling.
+A key principle of CIDOC CRM is event-centred modelling.
 
-Objects, people, and places are not described only through isolated attributes. Instead, **events and activities** - such as birth, production, use, or acquisition - provide a context in which actors, objects, places, and times can be related.
+Objects, people and places are not described solely in terms of isolated properties. Instead, **events and activities** – such as birth, production, use or acquisition – provide a context in which actors, objects, places and time periods can be related to one another.
 
-For example, the creation of Dürer's self-portrait can be modelled as a production activity involving the artist, the artwork, and a time-span.
+For example, the creation of a self-portrait by Albrecht Dürer can be modelled as a production event involving both the artist and the artwork, with an associated time-span.
 
-This approach helps us describe not only **what** is known about an object, but also **how** it is connected to other entities.
+This approach helps us describe not only **what** is known about an object, but also **how** it is related to other entities.
+
+Technically, this knowledge graph is based on the Resource Description Framework (RDF) [see M1E3: Introduction to CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#10). Information is stored in the form of so-called triples:
+
+- **Subject** – the resource being described
+- **Predicate** – its property or relationship
+- **Object** – a value or another resource
 
 ---
 
@@ -269,7 +278,7 @@ RDF expresses information as statements consisting of three parts, known as trip
 
 For example, the statement such as: **“Albrecht Dürer created a self-portrait.”** can be expressed as a relationship between the artist and the artwork.
 
-In an event-centred CIDOC CRM model, this relationship can be described more precisely through a **production event** connecting the artist with the artwork.
+In an event-centered CIDOC CRM model, this relationship can be described more precisely through a **production event** connecting the artist with the artwork.
 
 Many interconnected RDF statements form a **knowledge graph**. This graph makes relationships between resources explicit and allows information to be connected and processed by software.
 
@@ -285,33 +294,24 @@ Path groups organise related paths, while individual paths specify sequences of 
 
 When users enter information through these structures, WissKI can store the resulting statements as RDF data in accordance with the configured semantic model.
 
-In module 3, you will explore how a diagram representing selected ontology paths can be transformed into a WissKI Pathbuilder configuration.
+In module **M3 From Diagram to Paths – Explain and Apply**, you will explore how a diagram representing selected ontology paths can be transformed into a WissKI Pathbuilder configuration.
 
 ---
 
 ## Relevance of WissKI
 
-WissKI...
-
-- enables **knowledge-based modelling** instead of rigid table schemas
-- ensures **interoperability** through established ontologies such as **CIDOC CRM**
-- supports the **FAIR principles**
-- automatically generates **input forms** based on semantic paths
-- publishes data as **Linked Open Data**
-- provides **powerful SPARQL queries**
-- combines **conceptual clarity** with **technical implementation**.
-
-> **Why is WissKI relevant?**
+> **Why Is WissKI Relevant?**
 >
-> WissKI connects conceptual modelling with technical implementation.
-> 
-> It supports:
-> 
-> - ontology-based data rather than purely table-based data structures,
-> - semantic consistency through shared ontologies,
-> - structured data entry based on semantic paths,
-> - machine-readable data and semantic queries, and
-> - interoperable and reusable research data.
+> WissKI combines **conceptual modelling with technical implementation** and supports the structured collection, management and reuse of research data in the cultural heritage sector.
+
+WissKI …
+
+- enables **ontology-based data modelling** instead of rigid table schemas,
+- promotes **semantic consistency and interoperability** through established ontologies such as **CIDOC CRM**,
+- supports the **FAIR principles** to make research data findable, accessible, interoperable and reusable,
+- generates **data entry forms** based on semantic paths,
+- enables the publication of data as **Linked Open Data**, and
+- supports **semantic queries using SPARQL**.
 
 ---
 
@@ -368,7 +368,7 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 >
 > You have seen how WissKI connects semantic modelling with technical research data management.
 >
-> In the following practical unit, you return to your example object and develop its semantic domain model step by step using the concepts introduced in this module.
+> In the next practical unit, [**M1EÜ CIDOC CRM Formalisation**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md#1), which concludes Module 1, you will return to your example object and model sketch and develop its semantic domain model step by step.
 
 ---
 

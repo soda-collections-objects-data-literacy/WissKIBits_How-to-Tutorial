@@ -153,7 +153,7 @@ Drupal stellt das zugrunde liegende Webanwendungs-Framework bereit, während Wis
 
 Entscheidend ist, dass WissKI ein semantisches Modell mit der Art und Weise verbindet, wie Forschungsinformationen im System organisiert und bearbeitet werden.
 
-### Zusammenspiel
+### Zusammenspiel von Drupal und WissKI
 
 Drupal stellt das Anwendungs-Framework bereit, WissKI ergänzt die semantische Datenebene.
 
