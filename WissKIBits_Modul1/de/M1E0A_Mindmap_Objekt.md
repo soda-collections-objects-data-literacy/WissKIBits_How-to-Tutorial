@@ -171,7 +171,9 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 >
 > **Aufgabe:** 
 > 
-> Erstellen Sie mithilfe der Vorlage eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
+> Erstellen Sie mithilfe der Puuzle-Datei eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
+
+---
 
 ### Schritt 1 · Identifizieren
 
@@ -180,6 +182,8 @@ Betrachten Sie die vorgegebenen Elemente der Puzzle-Vorlage.
 Wählen Sie **3–5 relevante Konzepte und Ereignisse** aus, die für die Beschreibung des Beispielobjekts wichtig sind.
 
 Dies können beispielsweise ein Objekt, eine Person oder Organisation, ein Ort, eine Zeitangabe oder ein Ereignis sein. Nicht alle Kategorien müssen vertreten sein.
+
+---
 
 ### Schritt 2 · Verbinden
 
@@ -192,6 +196,8 @@ Formulieren Sie die Verbindungen so, dass sie als verständliche Aussagen über 
 - Spiel → hat → Titel
 - Nintendo → war beteiligt an → Entwicklung
 - Entwicklung → brachte hervor → Spiel
+
+---
 
 ### Schritt 3 · Überprüfen
 
@@ -218,7 +224,7 @@ Sie haben nun eine erste **konzeptionelle Modellskizze** erstellt, die Folgendes
 - Ereignisse und
 - aussagekräftige Beziehungen zwischen diesen Elementen.
 
-![Beispiel einer konzeptionellen Modellskizze](../assets/mindmap.png)
+![Musterlösung einer konzeptionellen Modellskizze](../assets/mindmap.png)
 
 >**Abbildung:** Beispiel-Musterlösung einer konzeptionellen Modellskizze zum Computerspiel „The Legend of Zelda: A Link to the Past“. Die Darstellung veranschaulicht, wie relevante Konzepte, Ereignisse und Beziehungen eines Sammlungs- oder Forschungsobjekts miteinander verknüpft werden können. Illustration erstellt mit ChatGPT (OpenAI), 2026.
 

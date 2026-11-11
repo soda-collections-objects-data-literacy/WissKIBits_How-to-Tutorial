@@ -157,51 +157,55 @@ These areas serve as the starting point for recognising different types of **con
 
 **Time:** 10 min.
 
-
 > **Preparation**
 >
-> Open [Draw.io](https://app.diagrams.net/)
+> 1. Open [Draw.io](https://app.diagrams.net/) in your browser.
+> 2. Right-click the link to the [**Puzzle Template**](../assets/puzzle.drawio_en.xml) and select **"Save link as…"** to download the provided puzzle file.
+> 3. Then open the downloaded puzzle file in Draw.io.
+> 4. Familiarize yourself with the provided elements (concepts, events, and relationships).
 >
-> Right-click the link and "Save link As…" to download the file: [puzzle template](../assets/puzzle.drawio_en.xml)
+> **Task:**
 >
-> Open "puzzle template" in Draw.io
+> Use the puzzle template to create an initial conceptual model sketch of the example object **The Legend of Zelda: A Link to the Past**.
 
-**Note: You use the provided elements (concepts, events, and relationships) in the template to create the mini sketch model**
+---
 
+### Step 1 · Identify
 
-> **Step 1 · Identify**
-> 
 > Identify relevant concepts and events related to the example object domain.
 > 
 > These may include person or organisation, place, time, or event and more. 
 
+---
 
-> **Step 2 · Connect**
->
-> Connect the relevant elements using meaningful relationships.
-> 
-> Use each connection to formulate a meaningful statement about the example object, such as...
-> 
-> **Examples**
-> 
-> Game → has → Title
-> 
-> Nintendo → participated in → Development
-> 
-> Development → created → Game
+### Step 2 · Connect
 
+Connect the relevant elements using meaningful relationships.
+ 
+Use each connection to formulate a meaningful statement about the example object, such as...
 
-> **Step 3 · Check**
->
-> Read connections as statements and ask: 
-> - **Does each connection express what you actually want to describe?**
-> - **Is the relationship clear and meaningful?**
-> - **Which statements are supported by the available information about the object?**
-> - **Which connections are assumptions or possible interpretations?**
->
-> Mark uncertain connections with a question mark (?).
->
-> At this stage, you do not need to resolve every uncertainty. You will return to these questions when you explore semantic modelling and CIDOC CRM.
+**Examples**
+ 
+- Game → has → Title
+- Nintendo → participated in → Development
+- Development → created → Game
+
+---
+
+### Step 3 · Check
+
+Read connections as statements and ask: 
+
+- **Does each connection express what you actually want to describe?**
+- **Is the relationship clear and meaningful?**
+- **Which statements are supported by the available information about the object?**
+- **Which connections are assumptions or possible interpretations?**
+
+Mark uncertain connections with a question mark (?).
+
+At this stage, you do not need to resolve every uncertainty. You will return to these questions when you explore semantic modelling and **CIDOC CRM**.
+
+**Tip:** Less is more. Focus on a few elements and relationships that are particularly relevant to understanding the object.
 
 ---
 
@@ -213,15 +217,17 @@ You now have a first conceptual model sketch containing:
 - events, and
 - meaningful relationships.
 
-![Concept mind map](../assets/mindmap_en.png)
+![Sample Solution: Conceptual Model Sketch](../assets/mindmap_en.png)
 
 > **Figure:** The figure shows a sample example of the step-by-step conceptual analysis of a collection or research object using the game “The Legend of Zelda: A Link to the Past” as an example. Original illustration created with ChatGPT (OpenAI), 2026.
 
 ---
 
+## Outlook
+
 > **Next:**
 >
-> Keep your conceptual model sketch. In **Unit 1**, you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
+> Keep your conceptual model sketch. In [**Basic concepts of conceptual knowledge modelling**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1), you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
 >
 > You will return to this sketch later when you explore **CIDOC CRM**.
 
