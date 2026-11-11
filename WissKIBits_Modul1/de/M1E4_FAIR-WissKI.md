@@ -357,9 +357,9 @@ Dadurch werden Sammlungsdaten nicht nur dokumentiert, sondern semantisch so stru
 
 **WissKI** bietet eine technische Umgebung, in der semantische Datenmodelle umgesetzt und für die Arbeit mit Sammlungs- und Forschungsdaten nutzbar gemacht werden können.
 
-In der folgenden Einheit wird dieser **Modellierungsprozess anhand eines konkreten Beispiels praktisch nachvollzogen**. Ausgangspunkt ist ein **Beispielobjekt aus der Domäne Computerspiele**, das schrittweise semantisch modelliert wird. Dabei werden die bisher im Modul vorgestellten Schritte zusammengeführt: von der **konzeptuellen Wissensmodellierung** und der Entwicklung einer **Modellskizze** über die **formalisierte Darstellung** der relevanten Konzepte, Eigenschaften und Beziehungen mit **CIDOC CRM** bis hin zum daraus resultierenden **Domänenmodell** auf Grundlage des CIDOC CRM.
+In der folgenden Einheit wird dieser **Modellierungsprozess anhand eines konkreten Beispiels praktisch nachvollzogen**. Ausgangspunkt ist ein **Beispielobjekt aus der Domäne Computerspiele**, das schrittweise semantisch modelliert wird. Dabei werden die bisher im Modul vorgestellten Schritte zusammengeführt: von der **konzeptuellen Mindmap** über die **formalisierte Darstellung** der relevanten Konzepte, Eigenschaften und Beziehungen mit **CIDOC CRM** bis hin zum daraus resultierenden **Domänenmodell** auf Grundlage des CIDOC CRM.
 
-Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt eine formale semantische Modellierung entwickelt und anschließend in einen strukturierten Modellierungsansatz überführt werden kann.
+Die Praxiseinheit zeigt damit, wie ausgehend von einem konkreten Sammlungsobjekt eine formale semantische Modellierung entwickelt und ein **CIDOC CRM-basiertes formalisiertes Modell** entsteht.
 
 > **Wie geht es weiter?**
 >

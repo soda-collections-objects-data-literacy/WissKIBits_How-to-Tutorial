@@ -52,13 +52,13 @@ Unit 0 (U00): **Welcome, Structure and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In module 1, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
+In module 1 **(M1) From Collection to Modelling Decisions to Diagram – Understand and Explain**, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
 
 Using an example from a **computer games collection**, you move from the collection perspective to the modelling perspective. 
 
 You then relate selected elements of your conceptual model to **CIDOC CRM**.
 
-The resulting conceptual model provides the basis for further **formalisation** in module 2 and later **technical implementation in WissKI** in module 3.
+The resulting conceptual model provides the basis for further **formalisation** in module 2 **(M2) Modelling with CIDOC CRM – Understand and Apply** and later **technical implementation in WissKI** in module 3 **(M3) From Diagram to Paths – Explain and Apply**.
 
 
 > **What is the module about?**
@@ -67,15 +67,15 @@ The resulting conceptual model provides the basis for further **formalisation** 
 >
 > You then explore how selected elements can be represented using **CIDOC CRM** and make initial modelling decisions.
 >
-> The resulting model sketch serves as the starting point for further formalisation in module 2.
+> The resulting model sketch serves as the starting point for further formalisation in module 2 **(M2) Modelling with CIDOC CRM – Understand and Apply**.
 
 ---
 
 ## Why Do We Model Semantically?
 
 - Research and collection data are complex object and contextual data. They describe not only objects and their properties. They arise in the context of scholarly research and are connected with historical, cultural, and social meanings and relationships.
-- Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain implicit.
-- To ensure that data remain interpretable and reusable in the long term, their meaning must be made explicit and formally described.
+- Tables represent individual properties and pieces of information, while the meaning and relationships of the data often remain **implicit**.
+- To ensure that data remain interpretable and reusable in the long term, their meaning must be made **explicit** and formally described.
 
 > Collection and research data consist of more than individual facts.
 >
@@ -95,7 +95,7 @@ Our guiding question through this module is:
 
 ## Module Objectives
 
-In this module, you learn how to move from information about a collection object towards a conceptual model of its domain.
+In this module, you learn how to move from information about a collection object "Zelda" towards a conceptual model of its domain.
 
 By the end of the module, you will be able to:
 
@@ -103,7 +103,7 @@ By the end of the module, you will be able to:
 - distinguish between domain-specific terms and the meanings they are intended to express, to develop and justify a coherent domain logic,
 - explore how selected concepts can be represented using **CIDOC CRM classes and properties**,
 - explain initial modelling decisions, and
-- develop a **conceptual model sketch** that can be refined and formalised in module 2.
+- develop a **conceptual model sketch** that can be refined and formalised in module 2 **(M2) Modelling with CIDOC CRM – Understand and Apply**.
 
 ---
 
@@ -113,12 +113,12 @@ By the end of the module, you will be able to:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| M1U00 | Welcome, objectives and structure | 5 min. |
-| M1U0A | Activation: Collection object "Zelda" | 15 min. |
-| M1U1 | Basic concepts of conceptual knowledge modelling | 10 min. |
-| M1U2 | Fundamentals of ontologies | 10 min. |
-| M1U3 | Introduction to CIDOC CRM | 15 min. |
-| M1U4 | FAIR compliance with WissKI | 15 min. |
+| M1U00 | [Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1) | 5 min. |
+| M1U0A | [Activation: Collection object "Zelda"](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) | 15 min. |
+| M1U1 | [Basic concepts of conceptual knowledge modelling](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1) | 10 min. |
+| M1U2 | [Fundamentals of ontologies](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U2_Fundamentals-Ontology_en.md#1) | 10 min. |
+| M1U3 | [Introduction to CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md#1) | 15 min. |
+| M1U4 | [FAIR compliance with WissKI](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1) | 15 min. |
 | M1UE | Exercise: Conceptual structure and first CIDOC CRM draft| 20 min. |
 |  | **Total** | **90 min.** |
 

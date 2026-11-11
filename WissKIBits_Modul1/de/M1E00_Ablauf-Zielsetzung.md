@@ -118,7 +118,7 @@ Am Ende des Moduls sind Sie in der Lage,
 | M1E2 | [Grundlagen von Ontologien](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E2_Grundlagen-Ontologien.md#1) | 10 Min. |
 | M1E3 | [Einführung in CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#1) | 15 Min. |
 | M1E4 | [FAIR-Konformität mit WissKI](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E4_FAIR-WissKI.md#1) | 15 Min. |
-| M1EÜ | [Übung: Konzeptionelle Struktur und erster CIDOC-CRM-Entwurf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) | 20 Min. |
+| M1EÜ | [Übung: ](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) | 20 Min. |
 | | **Gesamt** | **90 Min.** |
 
 ---

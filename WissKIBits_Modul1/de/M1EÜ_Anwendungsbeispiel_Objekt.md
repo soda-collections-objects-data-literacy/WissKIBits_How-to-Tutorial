@@ -65,7 +65,7 @@ In dieser **abschließenden Praxisübung von Modul 1** greifen Sie Ihre konzeptu
 Sie untersuchen am Beispiel von **The Legend of Zelda: A Link to the Past**, wie ausgewählte Konzepte und Ereignisse mithilfe des **CIDOC CRM** beschrieben werden könnten. Dabei geht es noch nicht darum, eine vollständige Ontologie zu erstellen oder technische Pfade zu implementieren. Vielmehr soll sichtbar werden, dass die Überführung von Domänenwissen in ein Referenzmodell **Modellierungsentscheidungen** erfordert.
 
 
-> **Transfer:** Von der konzeptuellen Modellskizze zur CIDOC-CRM-Zuordnung
+> **Transfer:** Von der konzeptuellen Modellskizze zum CIDOC CRM-basierten formalisierten Modell
 >
 > **Leitfrage:**
 >
@@ -147,7 +147,7 @@ Sie können auch Personen, Organisationen, Ereignisse oder physische Sammlungsob
 
 ---
 
-## Praxisübung – Arbeiten mit CIDOC CRM
+## Praxisübung – Modellieren mit CIDOC CRM
 
 **Arbeitsformat:** Einzelarbeit oder Kleingruppen (2–5 Personen); anschließend kurzer Vergleich oder Selbstreflexion
 
@@ -240,7 +240,7 @@ Fragen Sie sich:
 
 ## Ergebnis
 
-Sie haben Ihre konzeptuelle Modellskizze aus der Aktivierungsübung um eine **erste CIDOC-CRM-orientierte Perspektive** erweitert.
+Sie haben Ihre konzeptuelle Modellskizze aus der Aktivierungsübung in ein mit CIDOC CRM **formalisiertes Modell** überführt.
 
 Ihre Skizze und Ihre Dokumentation enthalten nun:
 
@@ -253,7 +253,7 @@ Ihre Skizze und Ihre Dokumentation enthalten nun:
 >
 > Können Sie für beide Elemente erklären, **was** Sie modellieren möchten, **warum** die ausgewählte Klasse passt und **welche Frage** noch offen ist?
 >
-> Die Skizze ist **noch keine vollständig formalisierte Ontologie**.
+> Die Skizze ist **noch keine vollständig formalisierte OWL-Ontologie**.
 
 ---
 
