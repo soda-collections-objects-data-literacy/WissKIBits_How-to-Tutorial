@@ -63,9 +63,9 @@ Teilnehmende können...
 
 Die Entwicklung einer Domänenontologie folgt typischerweise einem methodischen, mehrstufigen und iterativen Vorgehen. Sie umfasst mehr als die bloße Übertragung domänenspezifischer Begriffe in Ontologieklassen.
 
-Dazu zählen unter anderem die Erhebung zentraler Begriffe und Definitionen (sogenanntes „Ontology Capture“) (Uschold & King, 1995, S. 3), die Strukturierung von Konzepten in Klassen und Eigenschaften beziehungsweise Relationen sowie die kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit (Gruber, 1993).
+Dazu zählen unter anderem die **Erhebung zentraler Begriffe und Definitionen (sogenanntes „Ontology Capture“)** (Uschold & King, 1995, S. 3), die **Strukturierung von Konzepten in Klassen und Eigenschaften beziehungsweise Relationen** sowie die **kontinuierliche Prüfung und Überarbeitung des Domänenmodells im Hinblick auf Konsistenz und Nutzbarkeit** (Gruber, 1993).
 
-In **Modul 1** haben Sie eine konzeptuelle Modellskizze entwickelt und mögliche Zuordnungen zu CIDOC CRM untersucht. Diese ersten Modellierungsentscheidungen werden nun überprüft, präzisiert und schrittweise formalisiert.
+In Modul 1 **(M1) Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** haben Sie eine konzeptuelle Modellskizze entwickelt und mögliche Zuordnungen zu CIDOC CRM untersucht. Diese ersten Modellierungsentscheidungen werden nun überprüft, präzisiert und schrittweise formalisiert.
 
 Die praktische Ontologieentwicklung integriert sowohl **Domänenwissen** als auch **Anwendungsanforderungen** und überführt diese schrittweise in eine formal nutzbare Wissensstruktur.
 
@@ -79,7 +79,7 @@ Die praktische Ontologieentwicklung integriert sowohl **Domänenwissen** als auc
 
 ## Ansätze und Methoden der Ontologieentwicklung
 
-Bei der Entwicklung von Ontologien werden häufig verschiedene Modellierungsansätze miteinander kombiniert (Noy & McGuinness, 2001, S. 4 ff.):
+Bei der Entwicklung von Ontologien werden häufig **verschiedene Modellierungsansätze miteinander kombiniert** (Noy & McGuinness, 2001, S. 4 ff.):
 
 **Bottom-up-Modellierung:**
 
@@ -91,7 +91,7 @@ Ausgangspunkt ist eine bestehende Ontologie oder ein konzeptuelles Referenzmodel
 
 **Competency Questions:**
 
-Typische Analyse- und Forschungsfragen verdeutlichen, welche Anforderungen die Ontologie erfüllen soll. Sie helfen, den Gegenstandsbereich und die beabsichtigte Nutzung einzugrenzen, beispielsweise: *„Welche Spiele weisen das Merkmal X auf?“*
+Typische Analyse- und Forschungsfragen verdeutlichen, welche Anforderungen die Ontologie erfüllen soll. Sie helfen, den Gegenstandsbereich und die beabsichtigte Nutzung einzugrenzen, beispielsweise: **„Welche Spiele weisen das Merkmal X auf?“**
 
 **Iteratives Prototyping:**
 
@@ -105,7 +105,7 @@ Diese Ansätze verfolgen unterschiedliche Zwecke und schließen sich nicht gegen
 
 ## Der praktische Modellierungsworkflow
 
-Der folgende Workflow bildet die Grundlage für die praktische Übung in diesem Modul:
+Der folgende Workflow bildet die Grundlage für die praktische Übung (M2EÜ) in diesem Modul:
 
 **1. Konzeptuelles Modell überprüfen:** Wählen Sie relevante Konzepte und Beziehungen aus Ihrer Modellskizze aus.
 
@@ -154,14 +154,14 @@ Mögliche Strategien sind:
 > - **Scope Notes prüfen**, um neue Unterklassen geeigneten CIDOC-CRM-Klassen zuzuordnen.
 > - **Modellierungsentscheidungen dokumentieren**, damit die resultierende Ontologie verständlich und wiederverwendbar bleibt.
 
-> **Beispiel**
->
+### Beispiel: Leichtgewichtige Erweiterungsstrategie
+
 > - **Domänenkonzept:** *Spielgenre* → eine domänenspezifische Unterklasse einer geeigneten CIDOC-CRM-Klasse anlegen.
 > - **Beziehung:** *hat Typ* → eine bestehende CIDOC-CRM-Eigenschaft wie **P2 has type** wiederverwenden, sofern sie die beabsichtigte Beziehung angemessen beschreibt, statt eine neue Eigenschaft einzuführen.
->
-> **Leitprinzip: CIDOC CRM durch domänenspezifische Unterklassen erweitern und die bestehende Eigenschaftsstruktur wiederverwenden.**
->
-> Dieser bewusst eingeschränkte Ansatz hält die praktische Übung überschaubar und ermöglicht es, sich auf Klassenhierarchien, semantische Bedeutungen und die Wiederverwendung einer etablierten Referenzontologie zu konzentrieren.
+
+**Leitprinzip: CIDOC CRM durch domänenspezifische Unterklassen erweitern und die bestehende Eigenschaftsstruktur wiederverwenden.**
+
+Dieser bewusst eingeschränkte Ansatz hält die praktische Übung überschaubar und ermöglicht es, sich auf Klassenhierarchien, semantische Bedeutungen und die Wiederverwendung einer etablierten Referenzontologie zu konzentrieren.
 
 Die Strategie **fördert Interoperabilität und Kompatibilität mit CIDOC CRM**, reduziert die Modellierungskomplexität und macht zugleich domänenspezifische Erweiterungen sichtbar.
 
