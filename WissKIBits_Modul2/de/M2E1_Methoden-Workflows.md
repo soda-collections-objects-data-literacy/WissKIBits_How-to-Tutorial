@@ -154,24 +154,16 @@ Mögliche Strategien sind:
 > - **Scope Notes prüfen**, um neue Unterklassen geeigneten CIDOC-CRM-Klassen zuzuordnen.
 > - **Modellierungsentscheidungen dokumentieren**, damit die resultierende Ontologie verständlich und wiederverwendbar bleibt.
 
-### Beispiel: Leichtgewichtige Erweiterungsstrategie
+### Beispiel: Leichtgewichtiges Modellieren
 
 > - **Domänenkonzept:** *Spielgenre* → eine domänenspezifische Unterklasse einer geeigneten CIDOC-CRM-Klasse anlegen.
 > - **Beziehung:** *hat Typ* → eine bestehende CIDOC-CRM-Eigenschaft wie **P2 has type** wiederverwenden, sofern sie die beabsichtigte Beziehung angemessen beschreibt, statt eine neue Eigenschaft einzuführen.
 
 **Leitprinzip: CIDOC CRM durch domänenspezifische Unterklassen erweitern und die bestehende Eigenschaftsstruktur wiederverwenden.**
 
-Dieser bewusst eingeschränkte Ansatz hält die praktische Übung überschaubar und ermöglicht es, sich auf Klassenhierarchien, semantische Bedeutungen und die Wiederverwendung einer etablierten Referenzontologie zu konzentrieren.
+Dieser bewusst eingeschränkte Ansatz hält die praktische Übung (M2EÜ: Semantische Modellierung mit CIDOC CRM) überschaubar und ermöglicht es, sich auf Klassenhierarchien, semantische Bedeutungen und die Wiederverwendung einer etablierten Referenzontologie, z.B. CIDOC CRM zu konzentrieren.
 
 Die Strategie **fördert Interoperabilität und Kompatibilität mit CIDOC CRM**, reduziert die Modellierungskomplexität und macht zugleich domänenspezifische Erweiterungen sichtbar.
-
----
-
-## Ausblick
-
-Die hier vorgestellten **Methoden und Workflows der semantischen Modellierung** bilden zusammen mit der erläuterten **Modellierungsstrategie** die Grundlage für die praktische Umsetzung der bisher entwickelten Konzepte und Modelle.
-
-In der folgenden Einheit lernen Sie **Protégé** als Editor zur Ontologiemodellierung kennen. Anhand eines konkreten Beispiels entwickeln Sie auf Grundlage des **CIDOC CRM** eine **maschinenlesbare Domänenontologie**, beschreiben diese formal und bereiten sie für die maschinelle Verarbeitung vor.
 
 **Hinweis zur Benennung domänenspezifischer Klassen:**
 
@@ -181,9 +173,17 @@ Die Kennung im Klassennamen ersetzt jedoch nicht die **formale Unterklassenbezie
 
 Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem über einen **eigenen Namespace** eindeutig identifiziert. Ein Beispiel hierfür bietet die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
 
+---
+
+## Ausblick
+
+Die hier vorgestellten **Methoden und Workflows der semantischen Modellierung** bilden zusammen mit der erläuterten **Modellierungsstrategie** die Grundlage für die praktische Umsetzung der bisher entwickelten Konzepte und Modelle.
+
+Anhand des konkreten Beispiels "Zelda" entwickeln Sie auf Grundlage des **CIDOC CRM** eine **maschinenlesbare Domänenontologie**, beschreiben diese formal und bereiten sie für die maschinelle Verarbeitung vor.
+
 > **Wie geht es weiter?**
 >
-> In der folgenden Einheit richten Sie Ihre Arbeitsumgebung mit **Protégé** ein.
+> In der folgenden Einheit [**M2E1A: Protégé einrichten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1) bereiten Sie Ihre Arbeitsumgebung mit **Protégé** vor. Sie lernen **Protégé** als Editor zur Ontologiemodellierung kennen.
 
 ---
 
