@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 2 (M2): **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
-Einheit 0 (E0): **Willkommen, Zielsetzung und Ablauf**  
+Einheit 00 (E00): **Willkommen, Zielsetzung und Ablauf**  
 
 **Dauer:** ~ 10 Min.
 
@@ -53,11 +53,11 @@ Einheit 0 (E0): **Willkommen, Zielsetzung und Ablauf**
 
 In **Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden** lernen Sie, wie eine konzeptuelle Modellskizze schrittweise in eine **formale Ontologiestruktur** überführt werden kann.
 
-Ausgehend von der in **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** entwickelten Modellskizze überprüfen und präzisieren Sie Ihre bisherigen Modellierungsentscheidungen.
+Ausgehend von der in **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** entwickelten Modellskizze überprüfen, präzisieren und implementieren Sie Ihre bisherigen Modellierungsentscheidungen.
 
 Anhand des Beispiels aus der **Computerspielsammlung** untersuchen Sie, welche Klassen und Eigenschaften des Referenzmodells **CIDOC CRM** für die Beschreibung der ausgewählten Konzepte, Ereignisse und Beziehungen geeignet sind.
 
-Dabei lernen Sie, wie Sie bestehende Ontologieelemente wiederverwenden, bei Bedarf domänenspezifische Erweiterungen entwickeln und Ihre Modellierungsentscheidungen anhand der Scope Notes des CIDOC CRM fachlich begründen können.
+Dabei lernen Sie, wie Sie bestehende Ontologieelemente wieder verwenden, bei Bedarf domänenspezifische Erweiterungen entwickeln und Ihre Modellierungsentscheidungen anhand der Scope Notes des CIDOC CRM fachlich begründen können.
 
 Anschließend setzen Sie ausgewählte Teile Ihrer Modellskizze mithilfe des Ontologie-Editors **Protégé** und einer OWL-Implementierung des CIDOC CRM formal um.
 
@@ -122,11 +122,11 @@ Am Ende des Moduls sind Sie in der Lage,
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| M2E0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| M2E0A | [Aktivierung: Arbeitsumgebung mit Protégé vorbereiten]()| 15 Min. |
-| M2E1 | [Methoden und Workflows semantischer Modellierung]() | 5 Min. |
-| M2E2 | [Einführung in Protégé] | 10 Min. |
-| M2EÜ | Übung: [Semantische Modellierung mit CIDOC CRM] | 50 Min. |
+| M2E00 | [Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E00_Ablauf-Zielsetzung.md#1) | 10 Min. |
+| M2E0A | [Aktivierung: Arbeitsumgebung mit Protégé vorbereiten](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md#1) | 15 Min. |
+| M2E1 | [Methoden und Workflows semantischer Modellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md#1) | 5 Min. |
+| M2E2 | [Einführung in Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md#1) | 10 Min. |
+| M2EÜ | Übung: [Semantische Modellierung mit CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#1) | 50 Min. |
 | | **Gesamt** | **90 Min.** |
   
 ---
@@ -134,6 +134,12 @@ Am Ende des Moduls sind Sie in der Lage,
 ## Lernziele des Moduls
 
 Nach Abschluss von Modul 2 können die Teilnehmenden…
+
+### E0A. Arbeitsumgebung mit Protégé vorbereiten
+
+- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
+- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
+- die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
 
 ### E1. Methoden und Workflows semantischer Modellierung
 
@@ -143,13 +149,6 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 - einen Workflow für die semantische Modellierung als Datendokumentation erläutern. (LZ-ID SODa\_03\_001\_0853)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM benennen. (LZ-ID SODa\_03\_007\_0784a)
 - Methoden zur Modellierung einer Domänenontologie mit dem Referenzmodell CIDOC CRM erläutern. (LZ-ID SODa\_03\_007\_0785a)
-
-### E1A. Arbeitsumgebung mit Protégé vorbereiten
-
-- Software zur Erstellung von Ontologien benennen. (LZ-ID SODa\_03\_007\_0809)
-- Software zur Erstellung von Ontologien anwenden. (LZ-ID SODa\_03\_007\_0840)
-- die eigene Erfahrung mit Software zur Erstellung für Ontologien analysieren. (LZ-ID SODa\_03\_007\_0857)
-
 
 ### E2. Einführung in Protégé
 
