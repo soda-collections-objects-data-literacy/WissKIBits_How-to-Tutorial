@@ -207,7 +207,7 @@ Das Modul verbindet kurze fachliche und methodische Inputs mit Demonstrationen, 
 
 - Methoden und Workflows der Ontologieentwicklung werden anhand typischer Modellierungsaufgaben eingeführt.
 - Die Bedienoberfläche und die zentralen Bereiche von Protégé werden anhand einer Demonstration vorgestellt.
-- Die OWL-Implementierung **[Erlangen CRM](https://erlangen-crm.org/current-version)** wird geladen und anhand ihrer Klassen, Objekteigenschaften und Datentyp-Eigenschaften erkundet.
+- - Die OWL-Implementierung **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) wird geladen und anhand ihrer Klassen, Objekteigenschaften und Datentyp-Eigenschaften erkundet.
 - Das Beispielobjekt **The Legend of Zelda: A Link to the Past** und die in Modul 1 entwickelte Modul 1 [CIDOC CRM Formalisierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) der konzeptuellen Modellskizze dient erneut als roter Faden.
 
 In der Übung:
@@ -249,7 +249,7 @@ Für die praktische Anwendung werden benötigt:
 - ein Computer mit installiertem **Protégé Desktop** oder Zugang zu **WebProtégé**,
 - die im Tutorial verwendete **OWL-Implementierung des CIDOC CRM (Erlangen CRM)**, die lokal verfügbar oder über eine Webadresse erreichbar sein muss.
 
-Informationen zu Protégé Desktop und WebProtégé finden sich auf der Webseite der [Stanford University](https://protege.stanford.edu/software) (Stanford, o. D., Protégé).
+Informationen zu Protégé Desktop und WebProtégé finden sich auf der Webseite der [Stanford University](https://protege.stanford.edu/software) (Stanford, 2026a).
 
 ---
  
@@ -286,6 +286,13 @@ Die Visualisierung der Ontologiestruktur, ihre Einbindung in WissKI und die Konf
 > Sie erfahren, wie ein systematischer und iterativer Modellierungsworkflow die Entwicklung einer Domänenontologie auf Grundlage von CIDOC CRM unterstützen kann.
 
 ---
+
+## Bibliografie
+
+(Schiemann, 2024) Schiemann, B., Oischinger, M., Görz, G., Hohmann, G., Merges, J., Fichtner, M., & Scholz, M. (n.d.). Erlangen CRM OWL. University of Erlangen-Nuremberg, Department of Computer Science, Chair of Artificial Intelligence. Retrieved 27 August 2026, from https://erlangen-crm.org/current-version
+
+(Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
+
 
 ## Redaktionelle Hinweise
 
