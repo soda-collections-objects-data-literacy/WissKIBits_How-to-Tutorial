@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Modul 2 (M2): **Modellieren mit CIDOC CRM – verstehen und anwenden**
 
-Einheit 2 (E2A): **Arbeitsumgebung mit Protégé vorbereiten**
+Einheit 2 (E0A): **Arbeitsumgebung mit Protégé vorbereiten**
 
 **Dauer:** ~  15 Min.
 
@@ -64,35 +64,13 @@ Einige von Ihnen haben möglicherweise bereits Erfahrungen mit Ontologie-Editore
 
 Für die praktische Arbeit können Sie entweder **Protégé Desktop** oder **WebProtégé** nutzen.
 
-Diese kurze Aktivierung hilft Ihnen dabei,
-
-- Ihre bisherigen Erfahrungen mit Protégé zu reflektieren,
-- sich für **Protégé Desktop** oder **WebProtégé** zu entscheiden,
-- und **sicherzustellen, dass Ihre Arbeitsumgebung für die praktischen Aufgaben in diesem Modul vorbereitet ist**.
+> Diese kurze Aktivierung hilft Ihnen dabei,
+>
+> - Ihre bisherigen Erfahrungen mit Protégé zu reflektieren,
+> - sich für **Protégé Desktop** oder **WebProtégé** zu entscheiden,
+> - und **sicherzustellen, dass Ihre Arbeitsumgebung für die praktischen Aufgaben in diesem Modul vorbereitet ist**.
 
 Vorkenntnisse im Umgang mit Protégé sind nicht erforderlich.
-
----
-
-## Aktivierung – Ihre Ausgangssituation
-
-**Format:** Individuelle Reflexion oder kurze Gruppendiskussion
-
-**Zeit:** ca. 5 Min.
-
-Bevor Sie Ihre Arbeitsumgebung einrichten, denken Sie über Ihre bisherigen Erfahrungen mit Ontologie-Editoren nach.
-
-**Frage: Welche Aussage beschreibt Ihre bisherigen Erfahrungen mit Protégé oder anderen Ontologie-Editoren am besten?**
-
-- Sie haben Protégé bisher **noch nicht verwendet**.
-- Sie haben Protégé bereits **erkundet**, aber noch keine Ontologie selbst erstellt oder bearbeitet.
-- Sie haben Protégé bereits **aktiv genutzt**, um eine Ontologie zu erstellen oder zu bearbeiten.
-- Sie verwenden Protégé oder einen anderen Ontologie-Editor **regelmäßig**.
-
-**Reflexion**
-
-- Wenn Ontologie-Editoren für Sie neu sind, überlegen Sie, bei welchen Aufgaben diese Software Sie unterstützen könnte.
-- Wenn Sie bereits Erfahrungen gesammelt haben, überlegen Sie, welche Aufgaben Sie schon durchgeführt haben und welche Funktionen Sie noch näher kennenlernen möchten.
 
 ---
 
@@ -104,8 +82,22 @@ Bevor Sie Ihre Arbeitsumgebung einrichten, denken Sie über Ihre bisherigen Erfa
 
 **Zeit:** ca. 10 Min.
 
-> **Schritt 1: Protégé-Arbeitsumgebung einrichten**
->
+**Frage: Welche Aussage beschreibt Ihre bisherigen Erfahrungen mit Protégé oder anderen Ontologie-Editoren?**
+
+- Sie haben Protégé bisher **noch nicht verwendet**.
+- Sie haben Protégé bereits **erkundet**, aber noch keine Ontologie selbst erstellt oder bearbeitet.
+- Sie haben Protégé bereits **aktiv genutzt**, um eine Ontologie zu erstellen oder zu bearbeiten.
+- Sie verwenden Protégé oder einen anderen Ontologie-Editor **regelmäßig**.
+
+**Reflexion**
+
+- Wenn Ontologie-Editoren für Sie neu sind, überlegen Sie, bei welchen Aufgaben diese Sie unterstützen könnte.
+- Wenn Sie bereits Erfahrungen gesammelt haben, überlegen Sie, welche Aufgaben Sie schon durchgeführt haben und welche Funktionen Sie noch näher kennenlernen möchten.
+
+---
+
+### Schritt 1: Protégé-Arbeitsumgebung einrichten
+
 > Für die praktischen Modellierungsaufgaben in diesem Modul benötigen Sie entweder:
 >
 > - [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege) oder
@@ -113,49 +105,56 @@ Bevor Sie Ihre Arbeitsumgebung einrichten, denken Sie über Ihre bisherigen Erfa
 >
 > Beide Varianten sind über die [**offizielle Protégé-Webseite**](https://protege.stanford.edu/) zugänglich. (Stanford, 2026a)
 >
-> Wählen Sie die Arbeitsumgebung aus, mit der Sie arbeiten möchten, und stellen Sie sicher, dass diese für die folgenden Aufgaben bereitsteht. Folgen Sie dazu den Installations- beziehungsweise Registrierungsanweisungen auf der Webseite.
+> Wählen Sie die Arbeitsumgebung aus, mit der Sie arbeiten möchten und stellen Sie sicher, dass diese für die folgenden Aufgaben bereitsteht. 
 
-> **Schritt 2: Protégé-Arbeitsumgebung überprüfen**
->
-> Stellen Sie sicher, dass der gewählte Ontologie-Editor einsatzbereit ist.
->
+Folgen Sie dazu den Installations- beziehungsweise Registrierungsanweisungen auf der [**offizielle Protégé-Webseite**](https://protege.stanford.edu/).
+
+---
+
+###Schritt 2: Protégé-Arbeitsumgebung überprüfen
+
+Stellen Sie sicher, dass der gewählte Ontologie-Editor einsatzbereit ist.
+
 > Wenn Sie **Protégé Desktop** verwenden (Stanford, 2026b):
 >
 > - Überprüfen Sie, ob Sie Protégé Desktop heruntergeladen und installiert haben.
 > - Starten Sie die Anwendung.
 > - Prüfen Sie, ob Sie auf die Arbeitsoberfläche zur Bearbeitung von Ontologien zugreifen können.
->
+
 > Wenn Sie **WebProtégé** verwenden (Stanford, 2026b):
 >
 > - Öffnen Sie WebProtégé in Ihrem Browser.
 > - Überprüfen Sie, ob Sie ein Benutzerkonto besitzen und sich erfolgreich anmelden können.
 > - Prüfen Sie, ob Sie auf die Arbeitsoberfläche zur Bearbeitung von Ontologien zugreifen können.
 
-**Erwartetes Ergebnis:** Ihre gewählte Protégé-Arbeitsumgebung ist für die folgenden Übungen vorbereitet.
-
-Sie müssen zu diesem Zeitpunkt noch keine Ontologie erstellen oder bearbeiten.
 
 ---
 
 ## Ergebnis
 
-Am Ende dieser Einheit haben Sie:
+Am Ende dieser Einheit haben Sie die **Arbeitsumgebung für die praktische Modellierung mit Protégé** vorbereitet.
 
-- **Protégé Desktop oder WebProtégé** als Arbeitsumgebung ausgewählt,
-- die erforderliche Anwendung installiert beziehungsweise ein Benutzerkonto eingerichtet,
-- und überprüft, ob Sie auf den Ontologie-Editor zugreifen können.
+> **Was nehmen Sie aus der Einheit mit?**
+>
+> Sie haben:
+>
+> - **Protégé Desktop oder WebProtégé** als Arbeitsumgebung ausgewählt,
+> - die erforderliche Anwendung installiert beziehungsweise ein Benutzerkonto eingerichtet,
+> - sowie überprüft, ob Sie auf den Ontologie-Editor zugreifen können.
+>
+> Damit sind die technischen Voraussetzungen für die weitere praktische Arbeit mit Ontologien in Modul 2 geschaffen.
 
 ---
 
 ## Ausblick
 
+Als nächstes lernen Sie die grundlegenden Funktionen des Ontologie-Editor Protégé kennen. Sie erkunden anhand einer OWL-Implementierung des CIDOC CRM die Struktur einer bestehenden Ontologie und lernen, wie ausgewählte Ontologieelemente ergänzt werden können.
+
+Diese Kenntnisse bilden die Grundlage für die praktische Modellierungsübung im weiteren Verlauf von Modul 2 (**M2: Modellieren mit CIDOC CRM – verstehen und anwenden**).
+
 > **Wie geht es weiter?**
 >
-> In der folgenden Einheit lernen Sie den Ontologie-Editor und seine grundlegenden Funktionen kennen.
->
-> Sie erfahren, wie Sie eine bestehende OWL-Ontologie öffnen, ihre Struktur erkunden und eine domänenspezifische Subklasse anlegen.
->
-> Diese Kenntnisse bereiten Sie auf die praktische Modellierungsübung im weiteren Verlauf von Modul 2 vor.
+> In der nächsten Einheit [**M2E2: Einführung in Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md#1) lernen Sie im Umgang mit Protégé, wie eine bestehende OWL-Ontologie geöffnet, ihre Klassen und Eigenschaften erkundet und **domänenspezifischen Subklasse** angelegt werden können.
 
 ---
 

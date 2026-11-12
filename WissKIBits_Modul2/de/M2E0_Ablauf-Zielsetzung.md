@@ -123,10 +123,10 @@ Am Ende des Moduls sind Sie in der Lage,
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
 | M2E0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| M2E1 | [Methoden und Workflows semantischer Modellierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md#1) ]| 5 Min. |
-| M2E1A | Aktivierung: Arbeitsumgebung mit Protégé vorbereiten | 15 Min. |
-| M2E2 | Einführung in Protégé | 10 Min. |
-| M2EÜ | Übung: Semantische Modellierung mit CIDOC CRM | 50 Min. |
+| M2E0A | [Aktivierung: Arbeitsumgebung mit Protégé vorbereiten]()| 15 Min. |
+| M2E1 | [Methoden und Workflows semantischer Modellierung]() | 5 Min. |
+| M2E2 | [Einführung in Protégé] | 10 Min. |
+| M2EÜ | Übung: [Semantische Modellierung mit CIDOC CRM] | 50 Min. |
 | | **Gesamt** | **90 Min.** |
   
 ---
@@ -281,7 +281,7 @@ Die Visualisierung der Ontologiestruktur, ihre Einbindung in WissKI und die Konf
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2E1: Methoden und Workflows semantischer Modellierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md#1) lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
+> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**]() lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
 >
 > Sie erfahren, wie ein systematischer und iterativer Modellierungsworkflow die Entwicklung einer Domänenontologie auf Grundlage von CIDOC CRM unterstützen kann.
 
