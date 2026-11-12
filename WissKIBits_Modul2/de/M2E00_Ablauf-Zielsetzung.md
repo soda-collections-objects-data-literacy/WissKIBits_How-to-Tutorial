@@ -176,13 +176,13 @@ Nach Abschluss von Modul 2 können die Teilnehmenden…
 
 Ausgehend von der konzeptuellen Modellskizze aus Modul 1 durchlaufen die Teilnehmenden folgende Schritte:
 
-**Modellierungsmethoden kennenlernen (M2E1):** 
-Unterschiedliche Ansätze und einen iterativen Workflow zur Entwicklung von Ontologien kennenlernen.
+**Arbeitsumgebung vorbereiten (M2E0A):** 
+Protégé Desktop oder WebProtégé für die praktische Arbeit einrichten.
 
 ↓
 
-**Arbeitsumgebung vorbereiten (M2E1A):** 
-Protégé Desktop oder WebProtégé für die praktische Arbeit einrichten.
+**Modellierungsmethoden kennenlernen (M2E1):** 
+Unterschiedliche Ansätze und einen iterativen Workflow zur Entwicklung von Ontologien kennenlernen.
 
 ↓
 
