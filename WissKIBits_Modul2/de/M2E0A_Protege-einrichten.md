@@ -111,7 +111,7 @@ Folgen Sie dazu den Installations- beziehungsweise Registrierungsanweisungen auf
 
 ---
 
-###Schritt 2: Protégé-Arbeitsumgebung überprüfen
+### Schritt 2: Protégé-Arbeitsumgebung überprüfen
 
 Stellen Sie sicher, dass der gewählte Ontologie-Editor einsatzbereit ist.
 
