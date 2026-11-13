@@ -202,12 +202,22 @@ Ausgewählte Zuordnungen zu CIDOC CRM überprüfen, fachlich begründete Erweite
 
 ## Arbeitsweise und Beispiel
 
+> **So arbeiten Sie**
+>
+> Wir beginnen mit einer kurzen Einführung in Methoden und Workflows der Ontologieentwicklung und bereiten anschließend die Arbeitsumgebung mit Protégé vor.
+>
+> Nach der Einführung in Protégé greifen Sie die konzeptuelle Modellskizze aus Modul 1 [**CIDOC CRM Formalisierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) erneut auf. Sie überprüfen ausgewählte Modellierungsentscheidungen anhand des CIDOC CRM und setzen diese formal um.
+>
+> Unser gemeinsames Beispiel ist weiterhin das Sammlungsobjekt **The Legend of Zelda: A Link to the Past**.
+>
+> Die Ergebnisse Ihrer Modellierungsarbeit dokumentieren und speichern Sie als Grundlage für die weitere Arbeit in Modul 3 **(M3): Vom Diagramm zu Pfaden – erläutern und anwenden**.
+
 Das Modul verbindet kurze fachliche und methodische Inputs mit Demonstrationen, Analyse, Diskussion und praktischen Modellierungsaktivitäten:
 
 - Methoden und Workflows der Ontologieentwicklung werden anhand typischer Modellierungsaufgaben eingeführt.
 - Die Bedienoberfläche und die zentralen Bereiche von Protégé werden anhand einer Demonstration vorgestellt.
 - - Die OWL-Implementierung **[Erlangen CRM](https://erlangen-crm.org/current-version)** (Schiemann, 2024) wird geladen und anhand ihrer Klassen, Objekteigenschaften und Datentyp-Eigenschaften erkundet.
-- Das Beispielobjekt **The Legend of Zelda: A Link to the Past** und die in Modul 1 entwickelte Modul 1 [CIDOC CRM Formalisierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) der konzeptuellen Modellskizze dient erneut als roter Faden.
+- Das Beispielobjekt **The Legend of Zelda: A Link to the Past** und CIDOC CRM Formalisierung der konzeptuellen Modellskizze dient erneut als roter Faden.
 
 In der Übung:
 
@@ -218,21 +228,11 @@ In der Übung:
 
 Das Ziel ist keine vollständige Domänenontologie. Entscheidend ist ein **kleiner, konsistenter und begründbarer Modellausschnitt**, der formal beschrieben ist und später erweitert und technisch implementiert werden kann.
 
-> **So arbeiten Sie**
->
-> Wir beginnen mit einer kurzen Einführung in Methoden und Workflows der Ontologieentwicklung und bereiten anschließend die Arbeitsumgebung mit Protégé vor.
->
-> Nach der Einführung in Protégé greifen Sie die konzeptuelle Modellskizze aus Modul 1 [CIDOC CRM Formalisierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) erneut auf. Sie überprüfen ausgewählte Modellierungsentscheidungen anhand des CIDOC CRM und setzen diese formal um.
->
-> Unser gemeinsames Beispiel ist weiterhin das Sammlungsobjekt **The Legend of Zelda: A Link to the Past**.
->
-> Die Ergebnisse Ihrer Modellierungsarbeit dokumentieren und speichern Sie als Grundlage für die weitere Arbeit in Modul 3 **(M3): Vom Diagramm zu Pfaden – erläutern und anwenden**.
-
 ---
 
 ## Voraussetzungen
 
-Vorausgesetzt werden die Inhalte aus **Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären** oder vergleichbare Grundkenntnisse der semantischen Modellierung.
+Vorausgesetzt werden die Inhalte aus [**Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md) oder vergleichbare Grundkenntnisse der semantischen Modellierung.
 
 Die Teilnehmenden sollten…
 
@@ -242,7 +242,7 @@ Die Teilnehmenden sollten…
 - Scope Notes als Grundlage für Modellierungsentscheidungen kennen,
 - sowie wenigstens eine erste konzeptuelle Modellskizze, idealerweise ein CIDOC-CRM-basiertes semantisches Domänenmodell, mitbringen.
 
-Für die praktische Anwendung werden benötigt:
+Für die praktische Anwendung werden benötigt und im Laufe des Moduls bereitgestellt:
 
 - Ihre **CIDOC CRM formalisierte konzeptuelle Modellskizze** aus Modul 1 oder aus einem eigenen Modellierungskontext,
 - ein Computer mit installiertem **Protégé Desktop** oder Zugang zu **WebProtégé**,
@@ -254,11 +254,11 @@ Informationen zu Protégé Desktop und WebProtégé finden sich auf der Webseite
  
 ## Ergebnis des Moduls
 
-Am Ende von Modul 2 liegt eine erste **formale Ontologiestruktur in OWL** vor, die ausgewählte Teile der konzeptuellen Modellskizze aus Modul 1 auf Grundlage von CIDOC CRM repräsentiert.
+Am Ende von Modul 2 liegt eine erste **formale Ontologiestruktur in OWL** ausgehend von der konzeptuellen Modellskizze aus Modul 1 vor.
 
 > **Was nehmen Sie aus dem Modul mit?**
 >
-> Am Ende des Moduls liegt ein erster formal umgesetzter Ausschnitt des semantischen Domänenmodells für Computerspiele vor. Er umfasst:
+> Am Ende des Moduls liegt ein erster formal umgesetzter Ausschnitt des **semantischen Domänenmodells für Computerspiele** vor. Er umfasst:
 >
 > - ausgewählte Klassen und Eigenschaften des CIDOC CRM,
 > - bei Bedarf ergänzte domänenspezifische Ontologieelemente,
@@ -272,15 +272,13 @@ Am Ende von Modul 2 liegt eine erste **formale Ontologiestruktur in OWL** vor, d
 
 ## Ausblick
 
-In der folgenden Einheit werden zunächst grundlegende Methoden und Workflows der Ontologieentwicklung vorgestellt und als Grundlage für die weitere semantische Modellierung erläutert.
-
-Anschließend führt Modul 2 von der Vorbereitung der Arbeitsumgebung über die Erkundung einer OWL-Implementierung des CIDOC CRM in Protégé bis zur formalen Umsetzung ausgewählter Teile des semantischen Domänenmodells.
+Dieses Modul 2 führt von der Vorbereitung der Arbeitsumgebung über die Erkundung einer OWL-Implementierung des CIDOC CRM in Protégé bis zur formalen Umsetzung ausgewählter Teile des semantischen Domänenmodells.
 
 Die Visualisierung der Ontologiestruktur, ihre Einbindung in WissKI und die Konfiguration semantischer Pfade im WissKI Pathbuilder werden in **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** behandelt.
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**]() lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
+> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md) lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
 >
 > Sie erfahren, wie ein systematischer und iterativer Modellierungsworkflow die Entwicklung einer Domänenontologie auf Grundlage von CIDOC CRM unterstützen kann.
 
