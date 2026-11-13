@@ -58,7 +58,7 @@ Using an example from a **computer games collection**, you move from the collect
 
 You then relate selected elements of your conceptual model to **CIDOC CRM**.
 
-The resulting conceptual model provides the basis for further **formalisation** in module 2 **(M2) Modelling with CIDOC CRM – Understand and Apply** and later **technical implementation in WissKI** in module 3 **(M3) From Diagram to Paths – Explain and Apply**.
+The resulting conceptual model provides the basis for further **formalisation** in **module 2: Modelling with CIDOC CRM – Understand and Apply** and later **technical implementation in WissKI** in **module 3: From Diagram to Paths – Explain and Apply**.
 
 
 > **What is the module about?**
@@ -67,7 +67,7 @@ The resulting conceptual model provides the basis for further **formalisation** 
 >
 > You then explore how selected elements can be represented using **CIDOC CRM** and make initial modelling decisions.
 >
-> The resulting model sketch serves as the starting point for further formalisation in module 2 **(M2) Modelling with CIDOC CRM – Understand and Apply**.
+> The resulting model sketch serves as the starting point for further formalisation in **module 2: Modelling with CIDOC CRM – Understand and Apply**.
 
 ---
 
