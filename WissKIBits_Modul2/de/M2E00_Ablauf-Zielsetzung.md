@@ -278,7 +278,7 @@ Die Visualisierung der Ontologiestruktur, ihre Einbindung in WissKI und die Konf
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md) lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
+> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md#1) lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
 >
 > Sie erfahren, wie ein systematischer und iterativer Modellierungsworkflow die Entwicklung einer Domänenontologie auf Grundlage von CIDOC CRM unterstützen kann.
 
