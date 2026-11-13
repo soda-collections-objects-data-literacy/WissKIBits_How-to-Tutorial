@@ -171,7 +171,9 @@ Bei der Erweiterung von CIDOC CRM ist es sinnvoll, die **CIDOC-CRM-Kennung im Na
 
 Die Kennung im Klassennamen ersetzt jedoch nicht die **formale Unterklassenbeziehung** über `rdfs:subClassOf`.
 
-Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem über einen **eigenen Namespace** eindeutig identifiziert. Ein Beispiel hierfür bietet die [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
+Für die Veröffentlichung einer Domänenontologie werden die Klassen zudem über einen **eigenen Namespace** eindeutig identifiziert. 
+
+Ein Beispiel hierfür bietet die [**MEGA Game Characteristics Domain Ontology**](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
 
 ---
 
@@ -183,7 +185,7 @@ Anhand des konkreten Beispiels "Zelda" entwickeln Sie auf Grundlage des **CIDOC 
 
 > **Wie geht es weiter?**
 >
-> In der folgenden Einheit [**M2E1A: Protégé einrichten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2A_Protege-einrichten.md#1) bereiten Sie Ihre Arbeitsumgebung mit **Protégé** vor. Sie lernen **Protégé** als Editor zur Ontologiemodellierung kennen.
+> In der folgenden Einheit [**M2E1A: Protégé einrichten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md#1) bereiten Sie Ihre Arbeitsumgebung mit **Protégé** vor. Sie lernen **Protégé** als Editor zur Ontologiemodellierung kennen.
 
 ---
 
