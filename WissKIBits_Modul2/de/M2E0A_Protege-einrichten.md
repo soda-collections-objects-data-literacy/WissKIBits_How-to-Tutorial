@@ -154,7 +154,7 @@ Diese Kenntnisse bilden die Grundlage für die praktische Modellierungsübung im
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2E2: Einführung in Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md#1) lernen Sie im Umgang mit Protégé, wie eine bestehende OWL-Ontologie geöffnet, ihre Klassen und Eigenschaften erkundet und **domänenspezifischen Subklasse** angelegt werden können.
+> In der nächsten Einheit [**M2E1: Methoden und Workflows semantischer Modellierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E1_Methoden-Workflows.md#1) lernen Sie im Umgang mit Protégé, wie eine bestehende OWL-Ontologie geöffnet, ihre Klassen und Eigenschaften erkundet und **domänenspezifischen Subklasse** angelegt werden können.
 
 ---
 
