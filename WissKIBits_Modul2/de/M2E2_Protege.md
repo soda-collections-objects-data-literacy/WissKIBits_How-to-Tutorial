@@ -113,7 +113,7 @@ Weitere Informationen und Anleitungen finden Sie auf der [**offiziellen Protég�
 Das Video stellt drei grundlegende Arbeitsschritte in Protégé vor:
 
 - **Starten:** Sie ihre Protégé Arbeitsumgebung.
-- **Öffnen:** Sie eine bestehende OWL-Ontologie, z.B. Erlangen CRM 240920 basierend auf CIDOC-CRM 7.1.3 [http://erlangen-crm.org/240920](http://erlangen-crm.org/240920).
+- **Öffnen:** Sie eine bestehende OWL-Ontologie, z.B. Erlangen CRM 240920 basierend auf CIDOC-CRM 7.1.3 [https://erlangen-crm.org/current-version](https://erlangen-crm.org/current-version).
 - **Erkunden:** Sie die Klassenhierarchie und Ontologieelemente.
 - **Erweitern:** Sie die bestehende Ontologiestruktur durch domänenspezifische Sub-klassen.
 
@@ -127,13 +127,20 @@ Achten Sie beim Ansehen darauf, wie im Editor zwischen bestehenden Ontologieelem
 
 ## Ausblick
 
-Sie haben gelernt, wie Sie eine Ontologie in Protégé öffnen und erkunden.
+In dieser Einheit haben Sie den Ontologie-Editor Protégé kennengelernt und erfahren, wie Sie eine bestehende OWL-Ontologie öffnen, ihre Struktur erkunden und eine domänenspezifische Subklasse anlegen können.
+
+Diese Kenntnisse wenden Sie nun auf die konzeptuelle Modellskizze aus Modul 1 an. Dabei überprüfen Sie ausgewählte Modellierungsentscheidungen anhand der Scope Notes des CIDOC CRM und setzen diese in Protégé formal um.
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit wenden Sie diese Arbeitsschritte auf die **Domäne der Computerspiele** an: Sie wählen geeignete CIDOC-CRM-Klassen und -Eigenschaften aus, ergänzen domänenspezifische Subklassen und modellieren deren Beziehungen.
+> In der nächsten Einheit [M2EÜ: Semantische Modellierung mit CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#1) arbeiten Sie die mit Protégé und legen Subklassen an.
+>
+> Sie wählen geeignete Klassen und Eigenschaften des CIDOC CRM aus, ergänzen bei Bedarf domänenspezifische Ontologieelemente und modellieren deren Beziehungen.
+>
+> Dabei begründen und dokumentieren Sie Ihre Modellierungsentscheidungen und überführen ausgewählte Teile Ihrer konzeptuellen Modellskizze in eine **maschinenlesbare Ontologiestruktur in OWL**.
 
 ---
+
 
 ## Bibliografie
 
