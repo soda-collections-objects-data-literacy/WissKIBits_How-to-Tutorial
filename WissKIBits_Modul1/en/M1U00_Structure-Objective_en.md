@@ -52,7 +52,7 @@ Unit 0 (U00): **Welcome, Structure and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In module 1 **(M1) From Collection to Modelling Decisions to Diagram – Understand and Explain**, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
+In **module 1: From Collection to Modelling Decisions to Diagram – Understand and Explain**, you explore how  information about a collection object can be tranformed into a **conceptual model**. 
 
 Using an example from a **computer games collection**, you move from the collection perspective to the modelling perspective. 
 
