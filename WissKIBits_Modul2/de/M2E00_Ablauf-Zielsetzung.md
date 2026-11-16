@@ -232,7 +232,7 @@ Das Ziel ist keine vollständige Domänenontologie. Entscheidend ist ein **klein
 
 ## Voraussetzungen
 
-Vorausgesetzt werden die Inhalte aus [**Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md) oder vergleichbare Grundkenntnisse der semantischen Modellierung.
+Vorausgesetzt werden die Inhalte aus [**Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1) oder vergleichbare Grundkenntnisse der semantischen Modellierung.
 
 Die Teilnehmenden sollten…
 

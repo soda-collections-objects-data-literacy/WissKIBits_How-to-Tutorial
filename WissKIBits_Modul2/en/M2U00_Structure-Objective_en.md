@@ -232,7 +232,7 @@ The goal is not a complete domain ontology. What matters is a **small, consisten
 
 ## Prerequisites
 
-The content of [**Module 1: From the Collection via Modelling Decisions to the Diagram – Understand and Explain**](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md) or equivalent basic knowledge of semantic modelling is assumed.
+The content of [**Module 1: From the Collection via Modelling Decisions to the Diagram – Understand and Explain**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1) or equivalent basic knowledge of semantic modelling is assumed.
 
 Participants should…
 
