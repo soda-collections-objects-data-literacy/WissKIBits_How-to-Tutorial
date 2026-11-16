@@ -123,8 +123,8 @@ By the end of the module, you will be able to:
 
 | Unit | Content | Duration |
 |---|---|---:|
-| M2U00 | [Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U0_Structure-Objective_en.md#1) | 10 min. |
-| M2U0A | [Activation: Preparing your working environment with Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md#1) | 15 min. |
+| M2U00 | [Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U00_Structure-Objective_en.md#1) | 10 min. |
+| M2U0A | [Activation: Preparing your working environment with Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U0A_Setup-Protege_en.md#1) | 15 min. |
 | M2U1 | [Methods and workflows of semantic modelling](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md#1) | 5 min. |
 | M2U2 | [Introduction to Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U2_Protege_en.md#1) | 10 min. |
 | M2UE | Exercise: [Semantic modelling with CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2UE_Modelling-CIDOCCRM_en.md#1) | 50 min. |
@@ -278,7 +278,7 @@ Visualising the ontology structure, integrating it into WissKI, and configuring 
 
 > **What comes next?**
 >
-> In the next unit, [**M2U0A: Preparing your working environment with Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U2A_Setup-Protege_en.md#1), you will prepare Protégé Desktop or WebProtégé for the practical activities.
+> In the next unit, [**M2U0A: Activation: Preparing your working environment with Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U0A_Setup-Protege_en.md#1), you will prepare Protégé Desktop or WebProtégé for the practical activities.
 >
 > In the following unit, **M2U1: Methods and workflows of semantic modelling**, you will learn about different approaches to ontology development and how a systematic, iterative modelling workflow can support the development of a domain ontology based on CIDOC CRM.
 
