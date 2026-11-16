@@ -201,7 +201,7 @@ After completing module 1, participants will be able to...
 
 The module follows a step-by-step approach, starting with a concrete collection object and gradually introducing semantic modelling concepts.
 
-**Explore the collection object (M1U0A):** 
+**Explore the collection object (M1U0A and M1U1):** 
 Identify relevant information and create an initial model sketch.
 
 ↓  
