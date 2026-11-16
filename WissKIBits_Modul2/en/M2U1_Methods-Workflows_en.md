@@ -171,7 +171,7 @@ When publishing a domain ontology, classes are also uniquely identified using a 
 
 > **What's next?**
 >
-> In the following unit, you will become familiar with **Protégé** as an ontology editor. Using a concrete example, you will develop a **machine-readable domain ontology** based on **CIDOC CRM**, formally describe it, and prepare it for machine processing. In doing so, you will put the methods and strategies of semantic modelling introduced so far into practice.
+> In the following unit, you will become an [**M2U2: Introduction to Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U2_Protege_en.md#1) as an ontology editor. 
 
 ---
 

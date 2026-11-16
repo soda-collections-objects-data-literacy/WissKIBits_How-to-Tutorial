@@ -153,7 +153,7 @@ This knowledge provides the basis for the practical modelling exercise later in 
 
 > **What comes next?**
 >
-> In the next unit, [**M2U1: Methods and Workflows of Semantic Modellingg**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md#1), you will learn about different approaches to ontology development and how a systematic, iterative workflow can support semantic modelling.
+> In the next unit, [**M2U1: Methods and Workflows of Semantic Modelling**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md#1), you will learn about different approaches to ontology development and how a systematic, iterative workflow can support semantic modelling.
 >
 > In the following unit, **M2U2: Introduction to Protégé**, you will learn how to open an existing OWL ontology, explore its classes and properties, and create a **domain-specific subclass**.
 

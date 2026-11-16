@@ -185,7 +185,7 @@ Anhand des konkreten Beispiels "Zelda" entwickeln Sie auf Grundlage des **CIDOC 
 
 > **Wie geht es weiter?**
 >
-> In der folgenden Einheit [**M2E1A: Protégé einrichten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md#1) bereiten Sie Ihre Arbeitsumgebung mit **Protégé** vor. Sie lernen **Protégé** als Editor zur Ontologiemodellierung kennen.
+> In der folgenden Einheit bekommen Sie eine [**M2E2: Einführung in Protégé**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E2_Protege.md#1) und lernen **Protégé** als Editor zur Ontologiemodellierung kennen bevor Sie anschließend .
 
 ---
 
