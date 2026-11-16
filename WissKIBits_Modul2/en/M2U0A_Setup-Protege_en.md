@@ -42,7 +42,7 @@ LearningResourceType: How-to-Tutorial
 
 Module 2 (M2): **Modelling with CIDOC CRM – Understand and Apply**
 
-Activation Unit (U1A): **Preparing to work with Protégé**  
+Activation Unit (U0A): **Preparing to work with Protégé**  
 
 **Duration:** ~ 15 min.
 
@@ -74,17 +74,15 @@ No previous experience with Protégé is required.
 
 ---
 
-## Activation – Your Starting Point
+## Activation – Setting Up Protégé
 
-**Format:**  Individual reflection or short group discussion
+**Format:**  Individual setup
+
+**Materials:** Computer with internet access
 
 **Time:** ~ 5 min.   
 
-Before setting up your working environment, consider your previous experience with ontology editors.
-
-**Question: Which statement best describes your experience with Protégé or other ontology editors?**
-
-**Which statement best describes your experience?**
+**Question: Which statement best describes your previous experience with Protégé or other ontology editors?**
 
 - You have **not used** Protégé before.
 - You have **explored** Protégé, but have not created or edited an ontology yourself.
@@ -93,78 +91,76 @@ Before setting up your working environment, consider your previous experience wi
 
 **Reflection**
 
-- If ontology editors are new to you, consider what you expect them to help you do.
+- If ontology editors are new to you, consider which tasks they could help you with.
 - If you have previous experience, think about which tasks you have already performed and which functions you would like to explore further.
-- No previous experience with Protégé is required for this module.
 
 ---
 
-## Activation – Setting Up Protégé
+### Step 1: Set Up Your Protégé Working Environment
 
-**Format:** Individual setup    
-
-**Materials:** Computer with internet access 
-
-**Time:** ~ 10 min   
-
-
-> **Step 1: Set up your Protégé working environment**
->
 > For the practical modelling activities in this module, you need either:
-> 
+>
 > - [**Protégé Desktop**](https://protege.stanford.edu/software/#desktop-protege), or
 > - [**WebProtégé**](https://protege.stanford.edu/software/#web-protege).
 >
 > Both are available via the [**official Protégé website**](https://protege.stanford.edu/). (Stanford, 2026a)
 >
-> Choose the environment you want to use and make sure it is ready before continuing. Follow the installation or registration instructions provided on the website.
+> Choose the working environment you want to use and make sure it is ready for the following activities.
 
-> **Step 2: Check Your Protégé Working Environment**
->
-> Make sure that your chosen ontology editor is ready to use.
-> 
+Follow the installation or registration instructions on the [**official Protégé website**](https://protege.stanford.edu/).
+
+---
+
+### Step 2: Check Your Protégé Working Environment
+
+Make sure that your chosen ontology editor is ready to use.
+
 > If you are using **Protégé Desktop** (Stanford, 2026b):
-> 
-> - Confirm that you have downloaded and installed Protégé Desktop.
+>
+> - Check that you have downloaded and installed Protégé Desktop.
 > - Start the application.
 > - Check that you can access the ontology editing environment.
-> 
+
 > If you are using **WebProtégé** (Stanford, 2026b):
-> 
-> - Open WebProtégé in your browser. 
-> - Confirm that you have an account and can sign in successfully.
+>
+> - Open WebProtégé in your browser.
+> - Check that you have a user account and can sign in successfully.
 > - Check that you can access the ontology editing environment.
-
-**Expected result:** Your chosen Protégé environment is ready for the following exercises.
-
-You do not need to create or edit an ontology at this stage.
 
 ---
 
 ## Outcome
 
-At the end of this unit, you have:
+At the end of this unit, you have prepared your **working environment for practical modelling with Protégé**.
 
-- selected **Protégé Desktop or WebProtégé** as your working environment,
-- set up the required application or account,
-- and checked that you can access the ontology editor.
+> **What will you take away from this unit?**
+>
+> You have:
+>
+> - selected **Protégé Desktop or WebProtégé** as your working environment,
+> - installed the required application or set up a user account, and
+> - checked that you can access the ontology editor.
+>
+> The technical prerequisites for further practical work with ontologies in Module 2 are now in place.
 
 ---
 
 ## Outlook
 
-> **Next:**
->
-> In the next unit, you will become familiar with the ontology editor and its basic functions.
-> 
-> You will learn how to open an existing OWL ontology, explore its structure, and create a domain-specific subclass.
-> 
-> These skills will prepare you for the practical modelling exercise later in module 2.
+Next, you will learn about methods and workflows for ontology development. You will then become familiar with the basic functions of the ontology editor Protégé. Using an OWL implementation of CIDOC CRM, you will explore the structure of an existing ontology and learn how to add selected ontology elements.
 
+This knowledge provides the basis for the practical modelling exercise later in Module 2 (**M2: Modelling with CIDOC CRM – Understand and Apply**).
+
+> **What comes next?**
+>
+> In the next unit, [**M2U1: Methods and Workflows of Semantic Modellingg**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md#1), you will learn about different approaches to ontology development and how a systematic, iterative workflow can support semantic modelling.
+>
+> In the following unit, **M2U2: Introduction to Protégé**, you will learn how to open an existing OWL ontology, explore its classes and properties, and create a **domain-specific subclass**.
+
+---
 
 ## Bibliography
 
 (Stanford, 2026a) Stanford Center for Biomedical Informatics Research. (2026a). Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/
 
-(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026c). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
-
+(Stanford, 2026b) Stanford Center for Biomedical Informatics Research. (2026b). Software Protégé. Retrieved 15 October 2026, from https://protege.stanford.edu/software/
