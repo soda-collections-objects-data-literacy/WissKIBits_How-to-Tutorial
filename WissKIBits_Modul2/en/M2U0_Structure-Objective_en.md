@@ -124,10 +124,10 @@ By the end of the module, you will be able to:
 | Unit | Content | Duration |
 |---|---|---:|
 | M2U00 | [Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U0_Structure-Objective_en.md#1) | 10 min. |
-| M2U0A | [Activation: Preparing your working environment with Protégé]() | 15 min. |
-| M2U1 | [Methods and workflows of semantic modelling]() | 5 min. |
-| M2U2 | [Introduction to Protégé]() | 10 min. |
-| M2UE | Exercise: [Semantic modelling with CIDOC CRM]() | 50 min. |
+| M2U0A | [Activation: Preparing your working environment with Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md#1) | 15 min. |
+| M2U1 | [Methods and workflows of semantic modelling](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md#1) | 5 min. |
+| M2U2 | [Introduction to Protégé](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U2_Protege_en.md#1) | 10 min. |
+| M2UE | Exercise: [Semantic modelling with CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2UE_Modelling-CIDOCCRM_en.md#1) | 50 min. |
 | | **Total** | **90 min.** |
   
 ---
