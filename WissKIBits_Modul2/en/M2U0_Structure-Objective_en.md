@@ -52,73 +52,83 @@ Unit 0 (U0): **Welcome, Structure and Objectives**
 
 ## Welcome
 
-Welcome to **WissKI Bits: Ontology-Based Modelling of Research Data**.
+In **Module 2: Modelling with CIDOC CRM – Understand and Apply**, you will learn how a conceptual model sketch can be transformed step by step into a **formal ontology structure**.
 
-In module 1, you developed a conceptual model sketch and explored how selected concepts and relationships could be represented using CIDOC CRM.
+Building on the model sketch developed in **Module 1: From the Collection via Modelling Decisions to the Diagram – Understand and Explain**, you will review, refine, and implement your previous modelling decisions.
 
-Module 2 takes the next step: You will review these initial modelling decisions and learn how to formalise selected parts of the model using **Protégé and an OWL implementation of CIDOC CRM**.
+Using the example from the **computer game collection**, you will examine which classes and properties of the **CIDOC CRM** reference model are suitable for describing the selected concepts, events, and relationships.
 
-Following a learning-by-doing approach, you will continue working with the computer game example **The Legend of Zelda: A Link to the Past.**
+You will learn how to reuse existing ontology elements, develop domain-specific extensions where needed, and justify your modelling decisions using the CIDOC CRM scope notes.
 
-> **What is the module about?**
+You will then formalise selected parts of your model sketch using the ontology editor **Protégé** and an OWL implementation of CIDOC CRM.
+
+The resulting machine-readable ontology structure provides the basis for further visualisation and technical implementation in **Module 3: From the Diagram to Paths – Explain and Apply**.
+
+> **What is this module about?**
 >
-> In this module, you move from a **conceptual model sketch** towards a **formal, machine-readable ontology structure** using **OWL implementation of CIDOC CRM in Protégé**.
+> Starting from a conceptual model sketch, you will examine how selected concepts, events, and relationships can be formally described using CIDOC CRM.
 >
-> You will:
-> - use **CIDOC CRM scope notes** to review and justify modelling decisions,
-> - explore an OWL implementation of CIDOC CRM using Protégé,
-> - reuse existing ontology elements and introduce selected domain-specific extensions where needed.
+> You will review and justify your modelling decisions, reuse existing ontology elements, and add domain-specific elements where needed.
 >
->**Outcome:**A small, documented selected part of an OWL ontology that provides a basis for the visualisation and Pathbuilder workflow in module 3. 
+> Using **Protégé**, you will transform selected parts of your model sketch into a **machine-readable formal ontology structure in OWL**.
+>
+> The resulting ontology structure is the starting point for visualisation and technical implementation in **Module 3: From the Diagram to Paths – Explain and Apply**.
+
+---
+
+## Why Model Ontologies Formally?
+
+- Conceptual model sketches make domain concepts, events, and relationships and their semantic connections visible and understandable.
+- For computer systems to process these semantic connections and use them in different application contexts, they need to be described formally and in a machine-readable form.
+- Reusing existing ontologies such as CIDOC CRM supports a shared semantic foundation and thus the interoperability of research and collection data.
+- Domain-specific extensions make it possible to represent additional domain requirements that cannot be adequately described by the reference model alone.
+- Formally describing and documenting modelling decisions provides a basis for the technical implementation and long-term reuse of a data model.
+
+> A conceptual model sketch makes semantic connections within a domain understandable.
+>
+> A formal ontology in OWL/RDF describes these connections in a machine-readable form.
+>
+> **Formal modelling provides a basis for representing domain knowledge interoperably and using it in technical systems.**
 
 ---
 
 ## Guiding Question
 
-> **How does a conceptual model sketch become a domain-informed and machine-readable ontology structure based on CIDOC CRM?**
+The guiding question throughout this module is:
 
-This guiding question accompanies all units of the module. Three interconnected steps can be distinguished:
-
-| Step | Guiding Question | Outcome |
-|---|---|---|
-| Plan methodologically and review the conceptual model | Which steps and modelling decisions are required? Which concepts and relationships can be represented using CIDOC CRM? | Modelling workflow and reviewed conceptual model sketch |
-| Justify modelling decisions | Do the selected CIDOC CRM elements correspond to the intended meaning according to their scope notes? Which domain-specific extensions are needed? | Documented and domain-informed modelling decisions |
-| Formalise the model | How can classes (entities) and properties be reused or extended in Protégé? | Documented, machine-readable ontology structure in OWL |
-
-Formal ontology development in Protégé must be distinguished from subsequent **technical implementation in WissKI**. The integration of the ontology and the configuration of semantic paths in the WissKI Pathbuilder take place in module 3.
+> **How can a conceptual model sketch be transformed into an ontology structure based on CIDOC CRM that is justified in terms of the domain and machine-readable?**
 
 ---
 
 ## Objectives of this Module
 
-In module 2, selected parts of the conceptual domain model developed in module 1 are formalised using CIDOC CRM and Protégé.
+In this module, you will learn how to formally implement selected parts of a semantic data model using CIDOC CRM and Protégé, building on the conceptual model sketch for the collection object “Zelda”.
 
-In this module, you will learn how to:
+By the end of the module, you will be able to:
 
-- apply a systematic **workflow for semantic modelling**,
-- use **Protégé** to explore and edit an OWL ontology,
-- select suitable **CIDOC CRM classes (entities) and properties** based on their scope notes,
+- explain a systematic **workflow for semantic modelling** and apply it under guidance,
+- examine selected **CIDOC CRM classes and properties** using their scope notes and select them for modelling,
 - distinguish between reusing existing ontology elements and introducing domain-specific extensions,
-- represent selected **domain-specific concepts** within an existing ontology structure,
-- justify, formalise, and document selected modelling decisions,
-- save the resulting ontology structure in a machine-readable **OWL format**, and
-- prepare it for further technical implementation in **WissKI** in module 3.
+- use the ontology editor **Protégé** to explore and edit an OWL ontology,
+- integrate selected **domain-specific concepts and relationships** into an existing ontology structure,
+- justify modelling decisions in terms of the domain, implement them formally, and document them,
+- save a selected section of the model in a machine-readable **OWL format**, and
+- prepare the resulting ontology structure for further visualisation and technical implementation in **Module 3: From the Diagram to Paths – Explain and Apply**.
 
 ---
 
 ## Structure of this Module
 
-**Total duration of module 2: approx. 90 min.**
+**Total duration of Module 2: approx. 90 min.**
 
 | Unit | Content | Duration |
 |---|---|---:|
-| M2U0 | Welcome, structure and objectives | 10 min. |
-| M2U1 | Methods and workflows of semantic modelling | 5 min. |
-| M2U2A | Activation: Preparing to work with Protégé| 15 min. |
-| M2U2 | Introduction to Protégé | 10 min. |
-| M2UE | Exercise: Semantic modelling with CIDOC CRM | 55 min. |
-|  | **Total** | **90 min.** |
-
+| M2U00 | [Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U0_Structure-Objective_en.md#1) | 10 min. |
+| M2U0A | [Activation: Preparing your working environment with Protégé]() | 15 min. |
+| M2U1 | [Methods and workflows of semantic modelling]() | 5 min. |
+| M2U2 | [Introduction to Protégé]() | 10 min. |
+| M2UE | Exercise: [Semantic modelling with CIDOC CRM]() | 50 min. |
+| | **Total** | **90 min.** |
   
 ---
 
