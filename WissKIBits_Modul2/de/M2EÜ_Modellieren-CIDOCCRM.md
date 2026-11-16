@@ -69,7 +69,7 @@ Am Beispiel von **„The Legend of Zelda: A Link to the Past“** überprüfen S
 
 Dazu untersuchen Sie relevante Klassen und Eigenschaften, ziehen deren Scope Notes heran und entscheiden, ob die bestehenden Ontologieelemente ausreichen oder domänenspezifische Erweiterungen erforderlich sind.
 
-Ihr Ziel ist es, einen kleinen Modellausschnitt in OWL formal abzubilden und zu dokumentieren – nicht, eine vollständige Ontologie für die Domäne der Computerspiele zu entwickeln.
+Ihr Ziel ist es, einen **kleinen Modellausschnitt in OWL formal abzubilden** und zu dokumentieren – nicht, eine vollständige Ontologie für die Domäne der Computerspiele zu entwickeln.
 
 ---
 
@@ -287,11 +287,11 @@ Dokumentieren Sie die Modellierungsentscheidungen, die Sie während der Übung g
 
 Halten Sie für jede domänenspezifische Erweiterung ihre beabsichtigte Bedeutung, ihre Beziehung zu CIDOC CRM und den Grund für ihre Einführung fest.
 
-**Das Ziel besteht nicht darin, eine einzige „richtige“ Lösung zu finden.** Entscheidend ist, dass die Modellierungsentscheidung aus fachlicher Sicht nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
-
-Speichern Sie Ihre Ontologie im OWL-Format und stellen Sie sicher, dass Sie die Datei erneut öffnen können.
-
-**Erwartetes Ergebnis:** Ein kleiner, dokumentierter OWL-Modellausschnitt auf Basis von CIDOC CRM, der für die weitere Verwendung in Modul 3 vorbereitet ist.
+> **Das Ziel besteht nicht darin, eine einzige „richtige“ Lösung zu finden.** Entscheidend ist, dass die Modellierungsentscheidung aus fachlicher Sicht nachvollziehbar und mit dem verwendeten Referenzmodell vereinbar ist.
+>
+> Speichern Sie Ihre Ontologie im OWL-Format und stellen Sie sicher, dass Sie die Datei erneut öffnen können.
+>
+> **Erwartetes Ergebnis:** Ein kleiner, dokumentierter OWL-Modellausschnitt auf Basis von CIDOC CRM, der für die weitere Verwendung in Modul 3 vorbereitet ist.
 
 ---
 
