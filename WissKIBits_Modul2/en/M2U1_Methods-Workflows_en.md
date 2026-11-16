@@ -61,21 +61,19 @@ Participants will be able to...
 
 ## Methods and Workflows of Semantic Modelling
 
-Developing a domain ontology typically follows a methodological, multi-stage, and iterative approach and involves more than translating domain terms into ontology classes. 
+Developing a domain ontology typically follows a methodological, multi-stage, and iterative approach. It involves more than simply translating domain-specific terms into ontology classes.
 
-This includes, among other things, identifying central terms and definitions (so-called “ontology capture”) (Uschold & King, 1995, p. 3), structuring concepts into classes and properties/relations, and continuously reviewing and revising the domain model with regard to consistency and usability. (Gruber, 1993)
+This includes **identifying central terms and definitions (known as “ontology capture”)** (Uschold & King, 1995, p. 3), **structuring concepts into classes and properties or relations**, and **continuously reviewing and revising the domain model for consistency and usability** (Gruber, 1993).
 
-In module 1, you created a conceptual model sketch and explored possible CIDOC CRM mappings. These initial decisions now need to be reviewed, refined, and represented more formally.
+In **Module 1 (M1): From the Collection via Modelling Decisions to the Diagram – Understand and Explain**, you developed a conceptual model sketch and explored possible mappings to CIDOC CRM. These initial modelling decisions will now be reviewed, refined, and gradually formalised.
 
-Practical ontology development is often understood as a process that integrates both domain knowledge and application requirements and gradually transforms them into a formally usable knowledge structure.
+Practical ontology development integrates both **domain knowledge** and **application requirements**, gradually transforming them into a formally usable knowledge structure.
 
 > **Semantic modelling is an iterative process**
 >
 > - Semantic modelling combines **domain knowledge, application requirements, ontology definitions, and explicit modelling decisions**.
->
 > - A model is developed and refined through repeated steps of analysis, implementation, and review rather than in a strictly linear sequence.
->
-> - The aim is not simply to create classes and properties, but to represent the intended meaning consistently and transparently.
+> - The aim is not simply to create classes and properties, but to represent the intended meaning **consistently and transparently**.
 
 ---
 

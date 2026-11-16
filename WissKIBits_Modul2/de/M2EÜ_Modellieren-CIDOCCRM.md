@@ -93,7 +93,7 @@ Das folgende Beispiel veranschaulicht **eine mögliche Zuordnung** ausgewählter
 
 Vergleichen Sie diesen Vorschlag mit Ihren eigenen Modellierungsentscheidungen. Achten Sie dabei insbesondere auf die ausgewählten Klassen, die Beziehungen zwischen ihnen und mögliche Unterschiede bei der Interpretation der Domänenkonzepte.
 
-![Konzeptuelle Mindmap](../assets/Mindmap.png)
+![Formalisierung in CIDOC CRM](../assets/Mindmap.png)
 
 > **Abbildung:** Die Grafik zeigt die Zuordnung zu den übergeordneten Klassen von CIDOC CRM sowie die Aussagen zur Beschreibung der Domäne.
 
