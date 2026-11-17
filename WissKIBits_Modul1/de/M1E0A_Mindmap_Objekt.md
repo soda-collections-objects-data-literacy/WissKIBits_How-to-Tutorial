@@ -87,12 +87,12 @@ Anhand der verfügbaren Informationen über das Objekt und seinen Kontext unters
 >
 > Orientieren Sie sich an folgenden Fragen:
 >
-> - Objekt: Um was für ein Objekt handelt es sich?
-> - Merkmale und Eigenschaften: Welche charakteristischen Merkmale und Eigenschaften weist das Objekt auf?
-> - Beziehungen: Welche Personen, Organisationen oder anderen Objekte stehen mit ihm in Verbindung?
-> - Ereignisse: Welche Ereignisse sind für das Objekt von Bedeutung?
-> - Ort und Zeit: Welche Orte und Zeitangaben sind für die Beschreibung des Objekts relevant?
-> - Zusammenhänge: In welchen Beziehungen stehen diese Elemente zueinander?
+> - **Objekt:** Um was für ein Objekt handelt es sich?
+> - **Merkmale und Eigenschaften:** Welche charakteristischen Merkmale und Eigenschaften weist das Objekt auf?
+> - **Beziehungen:** Welche Personen, Organisationen oder anderen Objekte stehen mit ihm in Verbindung?
+> - **Ereignisse:** Welche Ereignisse sind für das Objekt von Bedeutung?
+> - **Ort und Zeit:** Welche Orte und Zeitangaben sind für die Beschreibung des Objekts relevant?
+> - **Zusammenhänge:** In welchen Beziehungen stehen diese Elemente zueinander?
 
 Ziel ist es, ein grundlegendes Verständnis des Objekts und seines fachlichen Kontexts zu entwickeln und darauf aufbauend eine **erste Skizze eines konzeptionellen Modells für den Bereich Computerspiele** zu erstellen.
 
@@ -165,13 +165,13 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 > **Vorbereitung**
 >
 > 1. Öffnen Sie [Draw.io](https://app.diagrams.net/) in ihrem Browser.
-> 2. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden. 
+> 2. Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](../assets/puzzle.drawio_en.xml) und wählen Sie **„Ziel speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden. 
 > 3. Öffnen Sie anschließend die heruntergeladene Puzzle-Datei in Draw.io.
 > 4. Machen Sie sich mit den vorgegebenen Elementen (Konzepten, Ereignissen und Beziehungen) vertraut.
 >
 > **Aufgabe:** 
 > 
-> Erstellen Sie mithilfe der Puuzle-Datei eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
+> Erstellen Sie mithilfe der Puzzle-Datei eine erste konzeptionelle Modellskizze zum Beispielobjekt **The Legend of Zelda: A Link to the Past**.
 
 ---
 
@@ -179,9 +179,9 @@ Diese Bereiche bilden den Ausgangspunkt, um relevante **Konzepte, Ereignisse und
 
 Betrachten Sie die vorgegebenen Elemente der Puzzle-Vorlage.
 
-Wählen Sie **3–5 relevante Konzepte und Ereignisse** aus, die für die Beschreibung des Beispielobjekts wichtig sind.
+Wählen Sie relevante Konzepte und Ereignisse aus, die für die Beschreibung des Beispielobjekts wichtig sind.
 
-Dies können beispielsweise ein Objekt, eine Person oder Organisation, ein Ort, eine Zeitangabe oder ein Ereignis sein. Nicht alle Kategorien müssen vertreten sein.
+Dies können beispielsweise ein Objekt, eine Person oder Organisation, ein Ort, eine Zeitangabe oder ein Ereignis sein.
 
 ---
 
