@@ -274,11 +274,13 @@ Am Ende von Modul 1 liegt eine erste **CIDOC CRM Formalisierung** der konzeptuel
 
 ## Ausblick
 
-In der folgenden Einheit werden zunächst die Grundbegriffe der konzeptuellen Wissensmodellierung geklärt und diese als Grundlage der semantischen Datenmodellierung präsentiert.
+Modul 1 beginnt mit einer Aktivierungsübung und klärt in Einheit 1 die Grundbegriffe der konzeptuellen Wissensmodellierung als Grundlage der semantischen Datenmodellierung.
 
-Anschließend führt das Modul 1 von Ontologien und ihren Bausteinen über CIDOC CRM und FAIR bis zum formalisierten Modell einer Domänenlogik ein.
+Die Einheiten 2-4 führen anschließend in die Grundlagen von Ontologien, CIDOC CRM und WissKI ein. 
 
-Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wird in den weiterführenden Modul 2 und Modul 3 behandelt.
+In einer abschließenden Praxiseinheit wird das in der Aktivierungsübung erarbeitete konzeptuelle Modell einer Domäne auf Basis von CIDOC CRM in Teilen formalisiert.
+
+Aufbauend darauf widmen sich Modul 2 und 3 der technischen Umsetzung des weiter ausgearbeiteten Domänenmodells mit Protégé und im WissKI Pathbuilder.
 
 > **Wie geht es weiter?**
 >
@@ -288,5 +290,5 @@ Die technische Umsetzung des Modells mit CIDOC CRM und im WissKI Pathbuilder wir
 
 ## Redaktionelle Hinweise
 
-- Die Zeitplanung ist auf insgesamt 90 Minuten abgestimmt und kann je nach Gruppengröße angepasst werden.
+- Die Zeitplanung ist auf insgesamt 90 Minuten angelegt und kann je nach Gruppengröße angepasst werden.
 
