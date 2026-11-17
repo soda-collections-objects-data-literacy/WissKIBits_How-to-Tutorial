@@ -275,11 +275,13 @@ At the end of module 1, you will have developed a first **conceptual model sketc
 
 ## Outlook
 
-The following unit first clarifies the basics of conceptual knowledge modelling and presents them as a foundation for semantic data modeling. 
+Module 1 begins with an activation unit and, in unit 1, clarifies the basic concepts of conceptual knowledge modelling as a foundation for semantic modelling.
 
-The module then progresses from ontologies and their building blocks through CIDOC CRM and FAIR to the conceptual model sketch of the domain logic. 
+Units 2-4 then introduce the fundamentals of ontologies, CIDOC CRM and WissKI.
 
-The technical implementation of the model using CIDOC CRM and the WissKI Pathbuilder is covered in the subsequent modules.
+In a concluding practical session, the conceptual model of a domain developed during the activation unit is partially formalised on the basis of CIDOC CRM.
+
+Building on this, modules 2 and 3 focus on the technical implementation of the further developed domain model in Protégé and the WissKI Pathbuilder.
 
 > **Next:**
 >
