@@ -285,7 +285,7 @@ Building on this, modules 2 and 3 focus on the technical implementation of the f
 
 > **Next:**
 >
-> In the next unit, [Activation: Collection object "Zelda"](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) , you will start with the specific collection object “Zelda” and create an initial **conceptual model sketch** by identifying relevant concepts, events, and relationships.
+> In the next unit, [M1U0A: Activation: Collection object "Zelda"](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U0A_Mindmap_Object_en.md#1) , you will start with the specific collection object “Zelda” and create an initial **conceptual model sketch** by identifying relevant concepts, events, and relationships.
 
 ---
 
