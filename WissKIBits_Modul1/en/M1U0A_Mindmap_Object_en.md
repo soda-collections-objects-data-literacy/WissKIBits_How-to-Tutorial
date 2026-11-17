@@ -64,9 +64,9 @@ Your task is to explore what knowledge is relevant for describing the object and
 
 > **Activation: From object to conceptual model**
 >
-> Your guiding question is:
+> **Your guiding question is:**
 >
-> **What do you need to know about this object – and how is this knowledge connected?**
+> What do you need to know about this object – and how is this knowledge connected?
 >
 > Using **The Legend of Zelda: A Link to the Past** as an example, you identify relevant **concepts, events, and relationships**.
 >
@@ -84,7 +84,7 @@ Use the available information about the object and its context to decide **what 
 >
 > First, familiarise yourself with the object and its domain-specific context.
 >
-> Start with the domain itself:
+> Please use the following question as a guide:
 >
 > - **Object:** What kind of object is it?
 > - **Characteristics and Properties:** What distinctive characteristics and properties does the object have?
@@ -98,21 +98,21 @@ The aim is to develop a basic understanding of the object and its domain-specifi
 The model should:
 
 - identify and distinguish key concepts and events,
-- visualize the relationships between these elements, and
+- visualise the relationships between these elements, and
 - serve as a basis for subsequent modeling with CIDOC CRM.
 
 ---
 
 ## The Domain Computer Games
 
-Computer games are a useful example for conceptual modelling because they can be described from several perspectives. 
+Computer games are a useful example for conceptual knowledge modelling because they can be described from several perspectives. 
 
 Depending on the research question, a collection may focus on a **physical game copy**, the game as **digital content**, its **production** and **publication history**, or its **narrative** and technical **characteristics**.
 
 The following information may be relevant, for example:
 
 - **Objects:** physical storage media, packaging, and digital games
-- **Actors:** developers, publishers, and other individuals or organizations involved
+- **Actors:** developers, publishers, and other individuals or organisations involved
 - **Events:** development, release, porting, or re-release
 - **Versions and Editions:** different releases, platforms, and versions of a game
 - **Names and Identifiers:** title variants and product codes
@@ -127,13 +127,15 @@ Computer games thus provide an illustrative starting point for recognising diffe
 
 ## Focus of this Activation Exercise
 
-For the conceptual model sketch, you consider selected information about the example object. You focus on three areas:
+For the conceptual model sketch, you consider selected information about the example object **The Legend of Zelda: A Link to the Past.** 
 
-- **Game title** (Names and possible title variants of the game)
-- **Game characteristics** (e.g. genre, such as action-adventure or RPG, and platform, such as Nintendo 64, PlayStation, PC)
-- **Narrative elements** (e.g. description, perspective, such as first-person, third-person, and characters such as Zelda)
+You focus on three areas:
 
-These areas serve as the starting point for recognising different types of **concepts and events** and formulating their **relationships**.
+- **Game title:** Names and possible title variants of the game
+- **Game characteristics:** e.g. genre, such as action-adventure or RPG, and platform, such as Nintendo 64, PlayStation, PC
+- **Narrative elements:** e.g. description, perspective, such as first-person, third-person, and characters such as Zelda
+
+These areas serve as the starting point for recognising different types of **concepts and events** and formulating their **relationships**. In this context, further aspects may become important, such as people and organisations involved, publications, and related places and times.
 
 > **Think about the object**
 >
@@ -142,14 +144,15 @@ These areas serve as the starting point for recognising different types of **con
 > Use the following questions as a guide:
 >
 > - What **title** does the game have?
-> - Which **genre** or **platform** is it assigned to?
+> - Which **properties** describe the game, for example its **genre** or **platform**?
+> - Which **narrative elements** are relevant to its description?
 > - Which **persons or organisations** were involved?
 > - Which **events** are relevant to the game?
 > - At which **places** and at what **times** did these events take place?
-
+> - How are these pieces of information related to one another?
 ---
 
-## Activation Puzzle – Create a Sketch Model of "Zelda"
+## Activation Exercise – Create a Sketch Model of "Zelda"
 
 **Working format:** Individual work or small groups (2–5 people); breakout rooms may be used in facilitated online sessions
 
@@ -162,7 +165,7 @@ These areas serve as the starting point for recognising different types of **con
 > 1. Open [Draw.io](https://app.diagrams.net/) in your browser.
 > 2. Right-click the link to the [**Puzzle Template**](../assets/puzzle.drawio_en.xml) and select **"Save link as…"** to download the provided puzzle file.
 > 3. Then open the downloaded puzzle file in Draw.io.
-> 4. Familiarize yourself with the provided elements (concepts, events, and relationships).
+> 4. Familiarise yourself with the provided elements (concepts, events, and relationships).
 >
 > **Task:**
 >
@@ -172,9 +175,11 @@ These areas serve as the starting point for recognising different types of **con
 
 ### Step 1 · Identify
 
-> Identify relevant concepts and events related to the example object domain.
-> 
-> These may include person or organisation, place, time, or event and more. 
+Look at the elements provided in the puzzle template.
+
+Identify relevant concepts and events related to the example object domain.
+
+These may include person or organisation, place, time, or event and more. 
 
 ---
 
@@ -201,7 +206,7 @@ Read connections as statements and ask:
 - **Which statements are supported by the available information about the object?**
 - **Which connections are assumptions or possible interpretations?**
 
-Mark uncertain connections with a question mark (?).
+Mark uncertain connections with a **question mark (?)**.
 
 At this stage, you do not need to resolve every uncertainty. You will return to these questions when you explore semantic modelling and **CIDOC CRM**.
 
@@ -211,7 +216,7 @@ At this stage, you do not need to resolve every uncertainty. You will return to 
 
 ## Result
 
-You now have a first conceptual model sketch containing:
+You now have a first **conceptual model sketch** containing:
 
 - relevant concepts,
 - events, and
@@ -227,7 +232,9 @@ You now have a first conceptual model sketch containing:
 
 > **Next:**
 >
-> Keep your conceptual model sketch. In [**Basic concepts of conceptual knowledge modelling**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1), you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
+> Keep your conceptual model sketch.
+>
+> In the next unit [**M1U1: Basic concepts of conceptual knowledge modelling**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U1_Basics-Conceptual-Modelling_en.md#1), you will use the terminology of conceptual knowledge modelling to examine what you have just modelled: **concepts, events, and relationships**.
 >
 > You will return to this sketch later when you explore **CIDOC CRM**.
 
