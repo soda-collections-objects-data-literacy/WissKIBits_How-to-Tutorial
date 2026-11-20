@@ -75,13 +75,13 @@ Starting with the **example object:** **The Legend of Zelda: A Link to the Past*
 
 | Activity | Time |
 |---|---:|
-| Preparation and orientation | 5 min |
-| 1. Examine a collection object and create a conceptual model sketch | 10 min |
-| 2. Map selected concepts to CIDOC CRM | 15 min |
-| 3. Implement and formalise a section of the model in Protégé | 15 min |
-| 4. Complete a Draw.io diagram | 15 min |
-| 5. Import and review the WissKI Pathbuilder configuration | 20 min |
-| 6. Review data entry fields and enter data | 10 min |
+| Preparation and orientation | 5 min. |
+| 1. Examine a collection object and create a conceptual model sketch | 10 min. |
+| 2. Map selected concepts to CIDOC CRM | 15 min. |
+| 3. Implement and formalise a section of the model in Protégé | 15 min. |
+| 4. Complete a Draw.io diagram | 15 min. |
+| 5. Import and review the WissKI Pathbuilder configuration | 20 min. |
+| 6. Review data entry fields and enter data | 10 min. |
 | **Total** | **90 min** |
 
 The schedule assumes that you are familiar with the fundamentals of semantic modelling and have access to the **tools, sample data and model solutions**.
@@ -89,13 +89,13 @@ The schedule assumes that you are familiar with the fundamentals of semantic mod
 Relevant supplementary materials are linked where appropriate. 
 
 The complete modules are available in English and German:
-- [Module 1: From Collection to Modelling Decisions to Diagram – Understand and Explain](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul1)
-- [Module 2: Modelling with CIDOC CRM – Understand and Apply](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul2)
-- [Module 3: From Diagram to Paths – Explain and Apply](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
+- [Module 1: From Collection to Modelling Decisions to Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1)
+- [Module 2: Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U00_Structure-Objective_en.md#1)
+- [Module 3: From Diagram to Paths – Explain and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3E0_Workflow-Objectives.md#1)
 
 ---
 
-### Before You Start - 5 min
+### Before You Start - 5 min.
 
 Set up your working environment:
 
@@ -194,7 +194,7 @@ Now use the model solution **conceptual model sketch from Module 1** for your se
 Next, you will implement your modelling decisions in Protégé by defining **domain-specific subclasses** of existing CIDOC CRM classes, thereby formalising a section of your semantic model.
 
 > **For further information, see Module 1, including:**
-> - [M1U3: Introduction to CIDOC CRM](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md)
+> - [M1U00: Welcome, objectives and structure](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1) | 5 min. |
 
 ---
 
@@ -211,10 +211,6 @@ Now use the model solution **semantic model sketch from Module 2** for your mode
 > Open [Erlangen CRM 240307 OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl) in Protégé.
 
 !?[Video Demonstration: Getting Started with Protégé](assets/Short_Protege_Intro.mp4)
-
-> **For further information, see Module 2, including:**
-> - [M2U1A: Setting Up the Working Environment with Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1A_Setup-Protege_en.md)
-> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
 
 ---
 
@@ -262,6 +258,23 @@ The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among o
 | `Computer_Game` | `P2 has type` | `Game_Genre_Type` | A game is assigned to a genre type. |
 | `Computer_Game` | `P2 has type` | `Game_Platform_Type` | A game is assigned to a platform type. |
 
+
+
+> **Note on Modeling:**
+>
+> The table describes possible **semantic relationships** between the selected domain concepts. These have not yet been formally implemented in OWL.
+>
+> **In this step, you will create only domain-specific subclasses.** The existing CIDOC CRM properties will be examined, and the intended relationships will be documented.
+>
+> **Note on Naming:**
+>
+> The class names `Computer_Game` und `Game_Title` are simplified names used for the practical exercise.
+>
+> In a published domain ontology, classes can be uniquely identified using a dedicated namespace. One example is the [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf), in which the class `E35_Game_Title` is defined as a subclass of `E35 Title` definiert ist.
+> 
+> It is useful to retain the CIDOC CRM identifier in the name of a domain-specific class, as this makes the mapping to the reference ontology explicit and facilitates the traceability of the modeling process. However, this does not replace the formal subclass relationship expressed through `rdfs:subClassOf`. The formal subclass relationship is expressed using `rdfs:subClassOf`.
+
+
 ---
 
 ### Step 5: Review, Document and Save
@@ -275,9 +288,8 @@ The WissKI Bits how-to tutorial uses the following CIDOC CRM properties, among o
 
 **Transition to the next exercise:** In the next exercise, you will use the **prepared Draw.io diagram with missing elements** from Module 3. You will complete the diagram according to the conventions required by the GNM Service transformation tool.
 
-> **For further information, see Module 2, including:**
-> - [M2U1: Methods and Workflows of Semantic Modelling](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U1_Methods-Workflows_en.md)
-> - [M2U2: Introduction to Protégé](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul2/en/M2U2_Protege_en.md)
+> **For further information, see Module 2:**
+> - [M2U00: Modelling with CIDOC CRM - Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U00_Structure-Objective_en.md#1)
 
 ---
 
@@ -320,12 +332,12 @@ You will now work with a **prepared Draw.io diagram with missing elements**, whi
 
 ![Model solution of the ontology diagram](assets/WissKIBits.drawio.png)
 
-> **For further information, see Module 3, including:**
+> **For further information, see Module 3:**
 > - [M3UE1: Visualising a Semantic Domain Ontology](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1)
 
 ---
 
-## 5. Convert and Import WissKI Paths - 20 min
+## 5. Convert and Import WissKI Paths - 20 min.
 
 **Starting Point**
 
@@ -347,7 +359,7 @@ You will now continue working with the [**GNM Service**](https://isl.ics.forth.g
 
 ---
 
-## 6. Create a WissKI Pathbuilder - 10 min
+## 6. Create a WissKI Pathbuilder - 10 min.
 
 **Starting Point**
 
@@ -355,6 +367,9 @@ You will now continue working in your **WissKI test instance in the SCS**.
 
 If you don't have your own WissKI instance yet, you can request one here: **https://manager.scs.sammlungen.io**
 
+In the video demonstration the following stept 1 an 2 are presented: 
+
+!?[Video Pathbuilder in WissKI importieren](assets/pathbuilder-in-WissKI.mp4)
 ---
 
 ### Step 1: Load the Games Ontology into WissKI and Update the SALZ Adapter
@@ -382,11 +397,7 @@ If you don't have your own WissKI instance yet, you can request one here: **http
 >    - Under **Pathbuilder Definition Import**, paste the copied URL of [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml).
 >    - Click **Import**.
 > 4. Once the import is successful, the root node **Computer Game** of your Pathbuilder will appear.
->    - Under **Operations**, click **Edit**.
->    - The **Computer Game** path group will open.
->    - Click **Save** without making any changes.
->    - Click **Save** again to return to the root node **Computer Game** of your Pathbuilder.
-
+>    - Submit again **Save and generate bundles and fields**
 To display the complete Pathbuilder structure, click the expand arrow **>** next to the **Computer Game** node.
 
 ![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
@@ -404,7 +415,7 @@ To display the complete Pathbuilder structure, click the expand arrow **>** next
 
 **Result:** A generated, imported, and **verified WissKI Pathbuilder configuration**. This is a configuration import, not an ontology import.
 
-> **For further information, see Module 3, including:**
+> **For further information, see Module 3:**
 > - [M3UE2: Transforming Semantic Models into WissKI Paths](https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md)
 
 ---
@@ -413,11 +424,17 @@ To display the complete Pathbuilder structure, click the expand arrow **>** next
 
 After reviewing the Pathbuilder, you can generate the **structure and fields** required for data entry.
 
-> Navigate to **Configuration → WissKI → Pathbuilders**.
-> Edit your Pathbuilder and select **Save and generate bundles and fields**.
+> Check the generated bundles and fields
+>   - Navigate to **Structure → WissKI Entities and Bundles**.
+>   - Your bundles **Computer Game**, **Game Characteristics** and **Game Narrative** should be available here.
+>   - Select **Recreate WissKI Menues and Views**.
 > You can then enter data on your WissKI site under **Create**.
+>   - Navigate to **WissKi → create**, then **Computer Game**
+>   - Enter your data into the fields.
 
 **Result:** We provide a [Pathbuilder export](assets/games_ontology_20261020T220812) containing some data relating to the **example object: The Legend of Zelda: A Link to the Past**.
+
+!?[Video Dateneingabe](assets/data-entry.mp4)
 
 ---
 
