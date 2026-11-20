@@ -389,9 +389,12 @@ Sie arbeiten nun in Ihrer **WissKI-Test-Instanz im SCS** weiter.
 
 Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantragen: [SODa Semantic Co-Working Space](https://manager.scs.sammlungen.io)
 
+Das folgende Video zeigt die Schritte 1 und 2: 
+
+!?[Video Pathbuilder in WissKI importieren](assets/pathbuilder-in-WissKI.mp4)
+
 ---
 
-<!-- 
 ### Schritt 1: Games-Ontologie in WissKI laden und SALZ Adapter aktualisieren
 
 > 1. Loggen Sie sich in Ihre WissKI-Test-Instanz ein.
@@ -415,16 +418,13 @@ Wenn Sie noch keine eigene WissKI Instanz haben, können Sie diese hier beantrag
 > 3. Gehen Sie zu **Import Templates**
 >    - Öffnen Sie den **[GNM-Service**](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/) und den **output Pathbuilder XML** in einem neuen Browser-Tab um die URL des [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) zu kopieren.
 >    - Fügen Sie hier **Pathbuilder Definition Import** die kopierte URL des [DrawioPathBuilderExampleOutput_WissKIBits.xml](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) ein.
+>    - Wählen Sie den default mode **Create new fields and bundles**
 >    - Klicken Sie **Import**
-> 5. Bei erfolgreichem Import sehen Sie den Startknoten **Computer Game** Ihres Pathbuilders. 
->    - Gehen Sie bei **Operations** auf **Edit**
->    - Die Pfadgruppe **Computer Game** öffnet sich.
->    - Klicken Sie **Save** ohne Änderungen vorzunehmen.
->    - Klicken Sie erneut **Save** um auf den Startknoten **Computer Game** Ihres Pathbuilders zurückzukehren.
-
+> 5. Bei erfolgreichem Import sehen Sie den Startknoten **Computer Game** Ihres Pathbuilders (Abbildung). 
+>    - Klicken Sie hier erneut auf **Save and generate bundles and fields**
 Um den vollsändigen Pathbuilder anzuzeigen klicken Sie auf das Aufklappdreieck **>**
 
-![Example of the WissKI Pathbuilder](assets/pathbuilder_new.JPG)
+![Abbildung Pfadstruktur im Pathbuilder](assets/pathbuilder_new.JPG)
 
 ---
 
@@ -441,23 +441,28 @@ Um den vollsändigen Pathbuilder anzuzeigen klicken Sie auf das Aufklappdreieck 
 **Ergebnis:** Eine erzeugte, importierte und **überprüfte WissKI-Pathbuilder-Konfiguration**. Dabei handelt es sich um einen Konfigurationsimport, nicht um einen Ontologieimport.
 
 > **Zur Vertiefung, siehe Modul 3, u.a.:**
-- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/tree/main/WissKIBits_Modul3)
+- [Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E0_Ablauf-Zielsetzung.md#1)
 
 ---
 
-### Schritt 4: Eingabefelder generieren und Daten eingeben
+### Schritt 4: Eingabestruktur und -felder prüfen und erste Dateneingabe
 
 Nach der Überprüfung des Pathbuilders können Sie die Struktur und -felder für die Dateneingabe erstellen.
 
-> 6. Generieren Sie nun die **Bundles and fields**
->   - Wenn Sie nicht im Pathbuilder sind, navigieren Sie zu **Configuration → WissKI → Pathbuilders**.
->   - Klicken Sie auf **Save and generate bundles and fields**
->   - Gehen Sie bei Startknoten **Computer Game** Ihres Pathbuilders zu **Operations** und auf **Edit**.
->    - Klicken Sie **Save** ohne Änderungen vorzunehmen.
+> 6. Prüfen Sie die **Bundles und Fields**
+>   - Navigieren Sie zu **Structure → WissKI Entities and Bundles**.
+>   - Hier sollten bereits ihre Bundles **Computer Game**, **Game Characteristics** und **Game Narrative** erscheinen.
+>   - Klicken Sie auf **Recreate WissKI Menues and Views**
+> 7. Daten eingeben
+>   - Navigieren Sie zu **WissKi → create** und **Computer Game**
+>   - Füllen Sie nun die Formularfelder aus.
+
+
+!?[Video Dateneingabe](assets/data-entry.mp4)
+
 
 **Ergebnis:** Hier stellen wir Ihnen einen [Pathbuilder Export](assets/games_ontology_20261020T220812) mit einigen Daten zum **Beispielobjekt: The Legend of Zelda: A Link to the Past** zur Verfügung.
 
--->
 
 ---
 
