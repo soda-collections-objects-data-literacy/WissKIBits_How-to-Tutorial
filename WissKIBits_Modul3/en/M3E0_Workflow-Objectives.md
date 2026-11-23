@@ -48,9 +48,7 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 ---
 
-## Welcome
-
-Welcome to **SODa WissKI Bits: Ontology-Based Modelling of Research Data**.
+## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
 In module 1, you developed a conceptual model sketch. In module 2, you reviewed selected CIDOC CRM mappings and formalised part of your domain model in Protégé.
 

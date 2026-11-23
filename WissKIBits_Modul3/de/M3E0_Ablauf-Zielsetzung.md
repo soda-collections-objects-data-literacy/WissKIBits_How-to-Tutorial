@@ -48,49 +48,46 @@ Einheit 0 (E0): **Willkommen, Zielsetzung und Ablauf**
 
 ---
 
-## Begrüßung
+## Willkommen bei WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten
 
-> Willkommen zu **WissKI Bits: Ontologiebasierte Modellierung von Forschungsdaten**.
->
-> Dieses How-to-Tutorial führt praxisorientiert in die ontologiegestützte Modellierung von Forschungsdaten ein. Ausgehend von Informationen zu einem Sammlungsobjekt wird schrittweise ein semantisch aussagekräftiges Datenmodell entwickelt und für die Nutzung in WissKI implementiert.
->
-> In Modul 1 wurde aus Objektdaten und Kontextinformationen eine konzeptuelle Modellskizze entwickelt. In Modul 2 wurde diese Skizze methodisch überprüft und mit CIDOC CRM und Protégé als formale Ontologiestruktur umgesetzt.
->
-> Modul 3 **„Vom Diagramm zu Pfaden – erläutern und anwenden“** führt diesen Lernweg in die technische Implementierung: Das semantische Datenmodell wird in Draw.io als formal strukturiertes Diagramm visualisiert. Anschließend wird das Diagramm mithilfe des Webdienstes **„Draw.io diagrams to WissKI pathbuilders“** geprüft und in eine WissKI-Pathbuilder-XML-Datei transformiert.
->
-> Die erzeugte Datei wird in WissKI importiert. Dort werden die Pfade und Pfadgruppen analysiert und als Grundlage für die strukturierte Erfassung, Speicherung und Abfrage von Forschungsdaten vorbereitet.
->
-> Das Modul folgt dem Prinzip **Learning by Doing**. Am Beispiel aus der Domäne Computerspiele vollziehen die Teilnehmenden die gesamte Verarbeitungskette vom semantischen Diagramm über die Dateikonvertierung bis zur importierten Pfadstruktur im WissKI Pathbuilder nach.
+In [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1) haben Sie eine konzeptuelle Modellskizze entwickelt und diese in [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E00_Ablauf-Zielsetzung.md#1) formal mit CIDOC CRM und in Protégé umgesetzt.
 
----
+In **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** bereiten Sie dieses Modell für die Nutzung in WissKI vor. Sie überführen die formale Ontologiestruktur schrittweise in eine **technisch nutzbare Struktur aus semantischen Pfaden und Pfadgruppen**. Am Beispiel der Computerspielsammlung vervollständigen Sie ein semantisches Diagramm in Draw.io, transformieren dieses in eine WissKI-Pathbuilder-XML-Datei und untersuchen die importierten Pfade und Pfadgruppen in WissKI.
 
-## Zielsetzung des Moduls
+Anhand eines Sammlungsobjektes aus einer **Computerspielsammlung** untersuchen Sie, wie Klassen, Eigenschaften und deren Beziehungen als vollständige semantische Pfade in einem Diagramm dargestellt werden können.
 
-In Modul 3 wird die in Modul 2 formalisierte Domänenontologie in eine für WissKI nutzbare Pfadstruktur überführt.
+Im Mittelpunkt steht ein nachvollziehbarer und wiederholbarer Workflow, nicht die vollständige technische Konfiguration einer WissKI-Instanz.
 
-* Die Domänenontologie wird in Draw.io als semantisches Diagramm visualisiert.
-* Klassen (Entities), Eigenschaften (Properties) und vollständige semantische Pfade werden nach festgelegten Modellierungsregeln dargestellt.
-* Für die Konvertierung benötigte Attributwerte werden an den relevanten Diagrammelementen ergänzt und geprüft.
-* Das Diagramm wird als Draw.io-XML-Datei für die weitere Verarbeitung bereitgestellt.
-* Der Webdienst **„Draw.io diagrams to WissKI pathbuilders“** wird zur Prüfung und Konvertierung des Diagramms eingesetzt.
-* Aus dem Diagramm wird eine WissKI-Pathbuilder-XML-Datei erzeugt.
-* Die domänenspezifische Ontologie und die erzeugte Pfadstruktur werden in WissKI eingebunden.
-* Die importierten Pfade und Pfadgruppen werden analysiert und auf ihre fachliche und strukturelle Plausibilität geprüft.
+> Worum geht es in dem Modul?
+>
+> In diesem Modul überführen Sie eine formale Ontologiestruktur in eine technisch nutzbare Pfadstruktur in WissKI.
+> 
+> Ontologie → Draw.io-Diagramm → Pathbuilder-XML → Pfade und Pfadgruppen in WissKI
+>
+> Sie lernen, wie ein semantisches Diagramm für die Transformation vorbereitet, die benötigte XML-Datei erzeugt und die importierte Pfadstruktur anhand des Ausgangsmodells überprüft werden kann.
 
 ---
 
 ## Leitfrage
 
-> **Wie wird aus einem semantischen Datenmodell eine valide und in WissKI nutzbare Struktur aus Pfaden und Pfadgruppen?**
+Die Leitfrage, die uns durch dieses Modul begleitet, lautet:
 
-Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Verarbeitungsschritten unterschieden:
+> **Wie kann ein semantisches Datenmodell in eine valide und in WissKI nutzbare Struktur aus Pfaden und Pfadgruppen überführt werden?**
 
-| Verarbeitungsschritt | Leitfrage | Ergebnis |
-|---|---|---|
-| visualisieren | Wie werden Klassen (Entities), Eigenschaften (Properties) und Pfade eindeutig in Draw.io dargestellt? | formalisiertes Diagramm |
-| transformieren | Wie wird das Diagramm geprüft und in das Pathbuilder-Format konvertiert? | Pathbuilder-XML-Datei |
-| implementieren und prüfen | Wie wird die Datei in WissKI importiert und die erzeugte Pfadstruktur analysiert? | nutzbarer WissKI Pathbuilder |
+---
 
+## Zielsetzung des Moduls
+
+In diesem Modul lernen Sie, wie ausgewählte Teile der in Modul 2 formal umgesetzten Domänenontologie für die Nutzung in WissKI aufbereitet werden können.
+
+Am Ende des Moduls sind Sie in der Lage,
+
+- einen ausgewählten Modellausschnitt mithilfe von Draw.io nach vorgegebenen Modellierungsregeln zu visualisieren,
+- die für die Konvertierung benötigte Diagrammstruktur und die zugehörigen Attributwerte anzuwenden,
+- eine Draw.io-XML-Datei bereitzustellen und mithilfe des Webdienstes „Draw.io diagrams to WissKI pathbuilders“ in eine WissKI-Pathbuilder-XML-Datei zu transformieren,
+- die benötigten Ontologien und die erzeugte Pfadstruktur in WissKI einzubinden sowie
+- die importierten Pfade und Pfadgruppen zu analysieren und mit dem Ausgangsmodell abzugleichen.
+ 
 ---
 
 ## Ablauf des Moduls
@@ -99,9 +96,9 @@ Diese Leitfrage begleitet alle Einheiten des Moduls. Dabei wird zwischen drei Ve
 
 | Einheit | Inhalt | Dauer |
 |---|---|---:|
-| M3E0 | Willkommen, Zielsetzung und Ablauf | 10 Min. |
-| M3EÜ1 | Semantische Datenmodelle visualisieren | 35 Min. |
-| M3EÜ2 | Transformation semantischer Modelle in WissKI-Pfade | 45 Min. |
+| M3E0 | [Willkommen, Zielsetzung und Ablauf](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E0_Ablauf-Zielsetzung.md#1) | 10 Min. |
+| M3EÜ1 | [Semantische Datenmodelle visualisieren](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C1_Dom%C3%A4nenontologie-Diagramm.md#1) | 35 Min. |
+| M3EÜ2 | [Transformation semantischer Modelle in WissKI-Pfade](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C2_Drawio-to-WissKI-Paths.md#1) | 45 Min. |
 |  | **Gesamt** | **90 Min.** |
 
 ---
@@ -137,62 +134,66 @@ Nach Abschluss von Modul 3 können die Teilnehmenden…
 
 ## Lernweg im Modul
 
-**Formale Ontologiestruktur aus Modul 2**
+Ausgehend von der formalen Ontologiestruktur aus Modul 2 durchlaufen die Teilnehmenden folgende Schritte:
+
+**Semantisches Datenmodell visualisieren (M3EÜ1):** 
+Ausgewählte Klassen und Eigenschaften der Domänenontologie in einem strukturierten Draw.io-Diagramm darstellen.
  
 ↓
- 
-**Semantisches Diagramm in Draw.io**
- 
+
+**Diagramm überprüfen (M3EÜ1):** 
+Verbindungen und Attributwerte überprüfen, die für die Transformation benötigt werden. 
+
 ↓
   
-**Diagramm und Attributwerte prüfen**
- 
+**Pathbuilder-XML erzeugen (M3EÜ2):**
+ Die Draw.io-XML-Datei in eine WissKI-Pathbuilder-XML-Datei transformieren. 
+
 ↓
  
-**Pathbuilder-XML erzeugen**
- 
+**Ontologie und Pfadstruktur in WissKI einbinden (M3EÜ2):** 
+Die benötigten Ontologien einbinden und die erzeugte Datei in den WissKI Pathbuilder importieren.
+
 ↓
- 
-**Datei in WissKI importieren**
- 
+   
+**Pfade und Pfadgruppen analysieren (M3EÜ2):** 
+Die importierte Pfadstruktur untersuchen und mit dem Ausgangsdiagramm vergleichen.
+
 ↓
-  
-**Pfade und Pfadgruppen analysieren**
 
-
-
-> **Abbildung:** Die Grafik veranschaulicht den Lernweg des Moduls.
+**Ergebnis:**
+Ein ausgewählter Teil des semantischen Domänenmodells liegt als nutzbare Pfadstruktur in WissKI vor.
 
 ---
 
 ## Arbeitsweise und Beispiel
 
-Das Modul verbindet Aktivierung, angeleitete Modellierung, technische Transformation und Ergebniskontrolle:
+Das Modul verbindet kurze fachliche und methodische Inputs mit Demonstrationen und angeleiteten praktischen Übungen. Entscheidend ist eine nachvollziehbare und wiederholbare Verarbeitungskette vom semantischen Datenmodell zur Pfadstruktur in WissKI.
 
-- Zu Beginn werden Forschungs- und Abfragefragen aus der Sammlungsperspektive aufgegriffen: Welche Informationen sollen später über semantische Pfade auffindbar und abfragbar sein?
-- Das Beispielobjekt **„The Legend of Zelda: A Link to the Past“** und die in den vorherigen Modulen entwickelte Domänenontologie dienen erneut als roter Faden.
-- In Draw.io vervollständigen die Teilnehmenden ein vorbereitetes Diagramm um fehlende Klassen (Entities) und Eigenschaften (Properties).
-- Sie prüfen vollständige Pfade, Knoten-Kanten-Verbindungen, Benennungen und die für die Konvertierung benötigten Attributwerte.
-- Das Diagramm wird als XML-Datei an den Konvertierungsdienst übergeben.
-- Die erzeugte Pathbuilder-XML-Datei wird in WissKI importiert.
-- Abschließend werden Pfade und Pfadgruppen mit dem Ausgangsdiagramm und den fachlichen Abfragewünschen verglichen.
-
-Das Ziel ist nicht die vollständige technische Konfiguration einer WissKI-Instanz. Entscheidend ist eine **nachvollziehbare und wiederholbare Verarbeitungskette**, die das semantische Modell in eine nutzbare WissKI-Pfadstruktur überführt.
+- Unser gemeinsames Beispiel ist weiterhin das Sammlungsobjekt **The Legend of Zelda: A Link to the Past** und das in den Modulen 1 und 2 entwickelte semantische Domänenmodell.
+- Sie arbeiten mit einem vorbereiteten Draw.io-Diagramm, ergänzen fehlende Klassen und Eigenschaften und überprüfen die für die Transformation benötigten Verbindungen und Attributwerte.
+- Anschließend transformieren Sie das Diagramm mithilfe des GNM Webservice **Draw.io diagrams to WissKI pathbuilders** und importieren die erzeugte Datei in WissKI.
+- Abschließend vergleichen Sie die importierten Pfade und Pfadgruppen mit dem Ausgangsdiagramm und den fachlichen Informations- und Abfrageanforderungen.
 
 ---
 
 ## Voraussetzungen
 
-Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse und Arbeitsergebnisse. Die Teilnehmenden sollten …
+Vorausgesetzt werden die Inhalte und Arbeitsergebnisse aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse der semantischen Modellierung.
+
+Vorausgesetzt werden die Inhalte und Arbeitsergebnisse aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse der semantischen Modellierung.
+
+Die Teilnehmenden sollten …
 
 - Konzepte, Ereignisse und Beziehungen einer Domäne identifizieren können,
-- mit dem ereigniszentrierten Modellierungsprinzip und ausgewählten Elementen des CIDOC CRM vertraut sein,
-- Scope Notes für Modellierungsentscheidungen nutzen können,
-- eine formal umgesetzte Domänenontologie beziehungsweise Ontologieerweiterung kennen,
-- sowie das Grundprinzip von semantischen Pfaden verstanden haben.
+- das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
+- mit Klassen, Eigenschaften und Scope Notes des CIDOC CRM vertraut sein,
+- wissen, wie domänenspezifische Konzepte als Subklassen bestehender CIDOC-CRM-Klassen modelliert werden können,
+- sowie Zugriff auf die in Modul 2 [M2EÜ: Semantische Modellellierung mit CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#1) entwickelte Ontologiestruktur oder die bereitgestellte Beispielontologie haben.
 
+Vorkenntnisse im Umgang mit dem WissKI Pathbuilder sind nicht erforderlich. Seine grundlegenden Funktionen werden im Laufe des Moduls eingeführt.
 
-**Für die praktische Anwendung werden benötigt:**
+Für die praktische Anwendung werden bereitgestellt:
 
 - ein Computer mit Internetzugang,
 - Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
@@ -201,27 +202,33 @@ Vorausgesetzt werden die Inhalte aus Modul 1 und Modul 2 oder vergleichbare Grun
 - Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
 - sowie die im Tutorial verwendete [Games Charcteristics Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
+---
 
 ## Ergebnis des Moduls
 
-Am Ende von Modul 3 liegen folgende Arbeitsergebnisse vor:
+Am Ende von Modul 3 haben Sie den Workflow vom semantischen Datenmodell zu einer nutzbaren Pfadstruktur in WissKI durchlaufen.
 
-- ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../assets/GamesDrawioDiagramm.png),
-- eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml),
-- eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml),
-- eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
-- sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
+> **Was nehmen Sie aus dem Modul mit?**
+> 
+> - ein nach den vorgegebenen Regeln vervollständigtes semantisches [Draw.io-Diagramm](../assets/GamesDrawioDiagramm.png),
+> - eine exportierte [Draw.io-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml),
+> - eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml),
+> - eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
+> - sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
 
-Die importierte Pfadstruktur bildet die Grundlage für die Generierung von Drupal-Bundles, Feldern und Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter Forschungsdaten in WissKI.
+Die importierte Pfadstruktur bildet die Grundlage für die Generierung von sogenannten Drupal-Bundles, -Feldern und -Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter graphenbasierter Forschungsdaten in WissKI.
 
 ---
 
 ## Ausblick
 
-Im nächsten Schritt werden aus den importierten Pfaden und Pfadgruppen Eingabestrukturen in WissKI generiert. Anschließend können Beispieldaten erfasst und anhand der zu Beginn formulierten Forschungs- und Abfragefragen geprüft werden. So wird sichtbar, ob das entwickelte Modell die vorgesehenen Informationsbedarfe tatsächlich unterstützt.
+Mit Modul 3 wird der Lernweg von der konzeptuellen Modellskizze über die formale Ontologiestruktur bis zur technischen Implementierung ausgewählter Teile des semantischen Datenmodells fortgeführt.
 
-Für weiterführende News, Informationen zu WissKI, die WissKI Dokumentation und WissKI Community (Stand: August 2026) verweisen wir auf die Webseite: https://wiss-ki.eu/de. 
+In weiterführenden Arbeitsschritten können aus den importierten Pfaden und Pfadgruppen Dateneingabestrukturen in WissKI generiert und Beispieldaten anhand der ursprünglichen Forschungs- und Abfragefragen untersucht werden.
 
+> **Wie geht es weiter?**
+>
+> In der nächsten Einheit [M3EÜ1: Semantische Datenmodelle visualisieren](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C1_Dom%C3%A4nenontologie-Diagramm.md#1) lernen Sie, wie ausgewählte Teile einer Domänenontologie mithilfe von Draw.io visualisiert und für die anschließende Transformation vorbereitet werden können.
 
 ---
 
