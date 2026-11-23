@@ -67,7 +67,7 @@ Participants will be able to...
 
 ## Visualising a Domain Ontology as a Diagram with Draw.io
 
-In this unit, you will use **Draw.io** to visualise selected classes and properties from the domain ontology developed in modules 1 and 2 (draw.io AG, 2026). 
+In this unit, you will use **Draw.io** (draw.io AG, 2026) to visualise selected classes and properties from the domain ontology developed in Module 1 [From the Collection via Modelling Decisions to the Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1) and Module 2 [Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md#1)
 
 The diagram helps you examine semantic relationships, discuss modelling decisions, and develop a shared understanding of the ontology structure.
 
@@ -186,7 +186,7 @@ In this exercise, you will complete a prepared Draw.io diagram using selected cl
 
 Your completed diagram should represent connected semantic paths and contain the attribute values required for the subsequent XML transformation.
 
-**Modelling rules and checks**
+### Modelling rules and checks
 
 > - Use the domain-specific subclasses already defined in the domain ontology.
 >
@@ -230,7 +230,7 @@ Check the required attributes of the end nodes against the prepared diagram and 
 
 The transformation depends on consistent connections, labels, and attribute values in the source diagram.
 
-**Resources**
+### Resources
 
 - Computer games domain ontology: [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 - CIDOC CRM documentation, Version 7.1.3 (PDF): [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
@@ -254,9 +254,9 @@ The transformation depends on consistent connections, labels, and attribute valu
 
 ## Outlook
 
-> **Next**
+> **What comes next?**
 >
-> In the next unit, you will export the completed Draw.io diagram as XML, transform it into WissKI Pathbuilder XML, and import the generated paths and path groups into WissKI.
+> In the next unit [M2UE2:  Visualising a Semantic Domain Ontology](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1), you will export the completed Draw.io diagram as XML, transform it into WissKI Pathbuilder XML, and import the generated paths and path groups into WissKI.
 
 ---
 

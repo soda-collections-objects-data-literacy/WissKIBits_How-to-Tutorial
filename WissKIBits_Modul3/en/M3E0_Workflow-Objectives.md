@@ -50,7 +50,7 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In Module 1 [From the Collection via Modelling Decisions to the Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1), you developed a conceptual model sketch. In Module 2 [Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E00_Ablauf-Zielsetzung.md#1), you reviewed selected CIDOC CRM mappings and formalised parts of your domain model using Protégé.
+In Module 1 [From the Collection via Modelling Decisions to the Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1), you developed a conceptual model sketch. In Module 2 [Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md#1), you reviewed selected CIDOC CRM mappings and formalised parts of your domain model using Protégé.
 
 In **Module 3: From Diagram to Paths – Explain and Apply**, you will prepare this model for use in WissKI. Using a **computer game collection as an example**, you will complete a semantic diagram in Draw.io, transform it into a WissKI Pathbuilder XML file, and examine the imported paths and path groups in WissKI.
 
@@ -87,20 +87,6 @@ In this module, you will learn how to:
 - inspect and verify the resulting **paths and path groups**.
 
 The goal is to understand and complete the workflow from a semantic model to a usable Pathbuilder configuration.
-
----
-
-## Module Objectives
-
-In this module, you will learn how to prepare selected parts of the domain ontology formalised in module 2 for use in WissKI.
-
-By the end of the module, you will be able to:
-
-- visualise a selected part of the model in Draw.io according to defined modelling rules,
-- apply the diagram structure and attribute values required for conversion,
-- export a Draw.io XML file and transform it into a WissKI Pathbuilder XML file using the service “Draw.io diagrams to WissKI pathbuilders”,
-- integrate the required ontologies and import the generated path structure into WissKI, and
-- analyse the imported paths and path groups and compare them with the original model.
 
 ---
 

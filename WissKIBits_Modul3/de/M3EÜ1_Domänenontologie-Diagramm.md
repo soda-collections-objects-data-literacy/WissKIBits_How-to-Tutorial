@@ -67,7 +67,7 @@ Teilnehmende können...
 
 ## Visualisierung einer Domänenontologie als Diagramm mit Draw.io
 
-In dieser Einheit wird das in Modul 1 und Modul 2 entwickelte Datenmodell als Diagramm in Draw.io (Ltd2026drawio) visualisiert. 
+In dieser Einheit wird das in [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1) und [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E00_Ablauf-Zielsetzung.md#1) entwickelte Datenmodell als Diagramm in Draw.io (Draw.io LTD., 2026) visualisiert. 
 
 Das entwickelte Draw.io-Diagramm bildet die **Voraussetzung für die (halb-)automatisierte Pipeline** zur Erstellung eines **WissKI Pathbuilders**.
 
@@ -81,11 +81,12 @@ Das Visualisieren in Draw.io ist somit nicht nur eine **Visualisierungsübung**,
 
 Visualisierungen sind bildliche Darstellungen von Sachverhalten, die deren Verständnis befördern sollen. 
 
-"In den Geisteswissenschaften werden Visualisierungen als Illustrationen, als Gedächtnisstützen für bekannte Sachverhalte, bei der Organisation von Wissen, sowie als Erkenntnismittel in der Vermittlung und Erzeugung von (neuem) Wissen eingesetzt." (Freyberg2023visual)
+"In den Geisteswissenschaften werden Visualisierungen als Illustrationen, als Gedächtnisstützen für bekannte Sachverhalte, bei der Organisation von Wissen, sowie als Erkenntnismittel in der Vermittlung und Erzeugung von (neuem) Wissen eingesetzt." (Freyberg, 2023) 
 
-"Zum Lernen sind Visualisierungen insbesondere dann geeignet, wenn der zu vermittelnde Gegenstand verbal nur schwer vermittelbare Eigenschaften aufweist." (Scheiter2021visual)
+"Zum Lernen sind Visualisierungen insbesondere dann geeignet, wenn der zu vermittelnde Gegenstand verbal nur schwer vermittelbare Eigenschaften aufweist." (Scheiter, 2021)
 
-Sie werden daher begleitend zum  Wissenserwerb eingesetzt, um Inhalte konkreter und besser verständlich zu machen und Strukturen zu verdeutlichen. (Levin1987visual)
+Sie werden daher begleitend zum  Wissenserwerb eingesetzt, um Inhalte konkreter und besser verständlich zu machen und Strukturen zu verdeutlichen. (Levin et al., 1987)
+
 
 ---
 
@@ -131,7 +132,6 @@ Dazu wird das konzeptionelle Domänenmodell nun **visuell und formal in Draw.io*
 Welche zentralen Konzepte sind im Kontext von Spielemerkmalen und narrativen Elemeten für das Beispielobjekt relevant?
 
 Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal zu aktivieren und helfen die anschließende Modellierungsaufgabe besser einzuordnen:
-
 
 ### Welches Beispielobjekt wird im Modul verwendet? 
 
@@ -185,22 +185,11 @@ Entfernee Sie anschließend alle temporären Platzhalter `(???)`.
 - P190 has symbolic content
 - mega:E41\_Game\_Character\_Name
 
-**Workflow**
-
-| Schritt | Aktion |
-|---:|---|
-| 1 | Das vorbereitete XML-Lücken-Diagramm runterladen|
-| 2 | Die heruntergeladene Datei in Draw.io importieren|
-| 3 | Das Domänenontologie-Diagramm vervollständigen  |
-| 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
-| 5 | Die Knoten-Kanten-Verbindungen prüfen  |
-
-
 **Hinweis:**
 
 Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/Gruppe_B.drawio.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
 
-**Regeln zur Visualisierung mit Draw.io**
+### Regeln zur Visualisierung mit Draw.io
 
 > - Die Knoten und Kanten müssen korrekt verbunden sein.
 > 
@@ -219,8 +208,29 @@ Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/
 > - Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
 > - Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
 
+**Erforderliche Attributwerte prüfen**
 
-**Ressourcen**
+Das Diagramm muss außerdem die Attributwerte enthalten, die für die Konvertierung in eine WissKI-Pathbuilder-XML-Datei benötigt werden.
+
+Prüfen Sie für den zentralen Startknoten, jeden Gruppenknoten und jeden Endknoten die folgenden Attribute:
+
+- **element_id**,
+- **group_name** und
+- **name**.
+
+**Beispiel:**
+
+- `element_id = Computer_Game`
+- `group_name = Computer_Game`
+- `name = Computer_Game`
+
+Überprüfen Sie die erforderlichen Attributwerte der Endknoten anhand des vorbereiteten Diagramms und der Anforderungen für die Transformation.
+
+Die Transformation setzt voraus, dass die Verbindungen, Beschriftungen und Attributwerte im Ausgangsdiagramm konsistent sind.
+
+---
+
+### Ressourcen
 
 > - Domänenontologie: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf]
 > 
@@ -232,23 +242,35 @@ Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/
 
 ---
 
+### Workflow
+
+| Schritt | Aktion |
+|---:|---|
+| 1 | Das vorbereitete XML-Lücken-Diagramm runterladen|
+| 2 | Die heruntergeladene Datei in Draw.io importieren|
+| 3 | Das Domänenontologie-Diagramm vervollständigen  |
+| 4 | Attributwerte an Startknoten, jedem Gruppenknoten und Endknoten prüfen |
+| 5 | Die Knoten-Kanten-Verbindungen prüfen  |
+
+---
+
 ## Ausblick
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit wird das erstellte Draw.io-Diagramm automatisch in einen WissKI Pathbuilder konvertiert und die erzeugte Pfadstruktur in WissKI importiert.
+> In der nächsten Einheit [M3EÜ2: Transformation semantischer Modelle in WissKI-Pfade](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/de/M3E%C3%9C2_Drawio-to-WissKI-Paths.md#1) wird das erstellte Draw.io-Diagramm automatisch in einen WissKI Pathbuilder konvertiert und die erzeugte Pfadstruktur in WissKI importiert.
 
 ---
 
 ## Bibliographie
 
-[Freyberg2023visual] Freyberg, Linda (2023) Visualisierung. In: AG Digital Humanities Theorie des Verbandes Digital Humanities im deutschsprachigen Raum e. V. (Hg.): Begriffe der Digital Humanities. Ein diskursives Glossar (= Zeitschrift für digitale Geisteswissenschaften / Working Papers, 2). DOI: 10.17175/wp_2023_014_v2
+(Freyberg, 2023) Freyberg, Linda (2023) Visualisierung. In: AG Digital Humanities Theorie des Verbandes Digital Humanities im deutschsprachigen Raum e. V. (Hg.): Begriffe der Digital Humanities. Ein diskursives Glossar (= Zeitschrift für digitale Geisteswissenschaften / Working Papers, 2). DOI: 10.17175/wp_2023_014_v2
 
-[Scheiter2021visual] Scheiter, Katharina (2021). Visualisierung. Dorsch - Lexikon der Psychologie. https://dorsch.hogrefe.com/stichwort/visualisierung
+(Scheiter, 2021) )Scheiter, Katharina (2021). Visualisierung. Dorsch - Lexikon der Psychologie. https://dorsch.hogrefe.com/stichwort/visualisierung
 
-[Levin1987visual] Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating fuctions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
+(Levin, 1087) Levin, J.R. , Anglin, G.J., & Carney, R.N. (1987). On empirically validating fuctions of pictures in prose. In D.M. Willows & H.A. Houghton (Hrsg.), The psychology of illustration. Vol. I Basic Research (S. c) New York: Springer.
 
-[Ltd2026drawio] Draw.io LTD. (2026). draw.io. https://www.drawio.com/
+(Draw.io LTD., 2026) Draw.io LTD. (2026). draw.io. https://www.drawio.com/
 
 
 
