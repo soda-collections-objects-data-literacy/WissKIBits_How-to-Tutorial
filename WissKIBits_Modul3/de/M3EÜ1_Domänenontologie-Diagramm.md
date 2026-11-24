@@ -191,6 +191,8 @@ Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/
 
 ### Regeln zur Visualisierung mit Draw.io
 
+Die Transformation setzt voraus, dass die Verbindungen, Beschriftungen und Attributwerte im Ausgangsdiagramm konsistent sind.
+
 > - Die Knoten und Kanten müssen korrekt verbunden sein.
 > 
 > - Die Kantenbeschriftung muss mit der Kante verbunden sein.
@@ -205,28 +207,23 @@ Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/
 > 
 > - Es sind vollständige Pfade zu erstellen. (z.B. mega:E73\_Computer\_Game -> P102\_has\_title -> mega:E35\_Game\_Title -> P190 has symbolic content -> E62\_String)
 > 
-> - Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element\_id**, **group\_name** und **name** zugewiesen. (z.B. element\_id=Computer\_Game; group\_name=Computer\_Game; name=Computer\_Game)
 > - Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
 
-**Erforderliche Attributwerte prüfen**
-
-Das Diagramm muss außerdem die Attributwerte enthalten, die für die Konvertierung in eine WissKI-Pathbuilder-XML-Datei benötigt werden.
-
-Prüfen Sie für den zentralen Startknoten, jeden Gruppenknoten und jeden Endknoten die folgenden Attribute:
-
-- **element_id**,
-- **group_name** und
-- **name**.
-
-**Beispiel:**
-
-- `element_id = Computer_Game`
-- `group_name = Computer_Game`
-- `name = Computer_Game`
-
-Überprüfen Sie die erforderlichen Attributwerte der Endknoten anhand des vorbereiteten Diagramms und der Anforderungen für die Transformation.
-
-Die Transformation setzt voraus, dass die Verbindungen, Beschriftungen und Attributwerte im Ausgangsdiagramm konsistent sind.
+> **Erforderliche Attributwerte prüfen**
+> 
+> Das Diagramm muss außerdem die Attributwerte enthalten, die für die Konvertierung in eine WissKI-Pathbuilder-XML-Datei benötigt werden.
+> 
+> Prüfen Sie für den zentralen Startknoten, jeden Gruppenknoten und jeden Endknoten die folgenden Attribute:
+> 
+> - **element_id**,
+> - **group_name** und
+> - **name**.
+> 
+> **Beispiel:**
+> 
+> - `element_id = Computer_Game`
+> - `group_name = Computer_Game`
+> - `name = Computer_Game`
 
 ---
 

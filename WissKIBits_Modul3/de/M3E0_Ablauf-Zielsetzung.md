@@ -52,11 +52,9 @@ Einheit 0 (E0): **Willkommen, Zielsetzung und Ablauf**
 
 In [Modul 1: Von der Sammlung über Modellierentscheidungen zum Diagramm – verstehen und erklären](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E00_Ablauf-Zielsetzung.md#1) haben Sie eine konzeptuelle Modellskizze entwickelt und diese in [Modul 2: Modellieren mit CIDOC CRM – verstehen und anwenden](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E00_Ablauf-Zielsetzung.md#1) formal mit CIDOC CRM und in Protégé umgesetzt.
 
-In **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** bereiten Sie dieses Modell für die Nutzung in WissKI vor. Sie überführen die formale Ontologiestruktur schrittweise in eine **technisch nutzbare Struktur aus semantischen Pfaden und Pfadgruppen**. Am Beispiel der Computerspielsammlung vervollständigen Sie ein semantisches Diagramm in Draw.io, transformieren dieses in eine WissKI-Pathbuilder-XML-Datei und untersuchen die importierten Pfade und Pfadgruppen in WissKI.
+In diesem **Modul 3: Vom Diagramm zu Pfaden – erläutern und anwenden** bereiten Sie dieses Modell für die Nutzung in WissKI vor. Sie überführen die formale Ontologiestruktur schrittweise in eine **technisch nutzbare Struktur aus semantischen Pfaden und Pfadgruppen**. Am Beispiel der Computerspielsammlung vervollständigen Sie ein semantisches Diagramm in Draw.io, transformieren dieses in eine WissKI-Pathbuilder-XML-Datei und untersuchen die importierten Pfade und Pfadgruppen in WissKI.
 
-Anhand eines Sammlungsobjektes aus einer **Computerspielsammlung** untersuchen Sie, wie Klassen, Eigenschaften und deren Beziehungen als vollständige semantische Pfade in einem Diagramm dargestellt werden können.
-
-Im Mittelpunkt steht ein nachvollziehbarer und wiederholbarer Workflow, nicht die vollständige technische Konfiguration einer WissKI-Instanz.
+Anhand des Sammlungsobjektes **Zelda** untersuchen Sie, wie Klassen, Eigenschaften und deren Beziehungen als vollständige semantische Pfade in einem Diagramm dargestellt werden können.
 
 > Worum geht es in dem Modul?
 >
@@ -181,9 +179,7 @@ Das Modul verbindet kurze fachliche und methodische Inputs mit Demonstrationen u
 
 Vorausgesetzt werden die Inhalte und Arbeitsergebnisse aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse der semantischen Modellierung.
 
-Vorausgesetzt werden die Inhalte und Arbeitsergebnisse aus Modul 1 und Modul 2 oder vergleichbare Grundkenntnisse der semantischen Modellierung.
-
-Die Teilnehmenden sollten …
+Die Teilnehmenden sollten…
 
 - Konzepte, Ereignisse und Beziehungen einer Domäne identifizieren können,
 - das Grundprinzip der ereigniszentrierten Modellierung mit CIDOC CRM verstanden haben,
@@ -193,14 +189,14 @@ Die Teilnehmenden sollten …
 
 Vorkenntnisse im Umgang mit dem WissKI Pathbuilder sind nicht erforderlich. Seine grundlegenden Funktionen werden im Laufe des Moduls eingeführt.
 
-Für die praktische Anwendung werden bereitgestellt:
-
-- ein Computer mit Internetzugang,
-- Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
-- die vorbereitete [Draw.io-XML-Lücken-Diagramm](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml),
-- Zugriff auf den Konvertierungsdienst [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
-- Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
-- sowie die im Tutorial verwendete [Games Charcteristics Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
+> **Für die praktische Anwendung werden bereitgestellt:**
+>
+> - ein Computer mit Internetzugang,
+> - Zugriff auf [diagrams.net (Draw.io)](https://app.diagrams.net/),
+> - die vorbereitete [Draw.io-XML-Lücken-Diagramm](https://github.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/blob/main/WissKIBits_Modul3/assets/Gruppe_A.drawio.xml),
+> - Zugriff auf den Konvertierungsdienst [Draw.io diagrams to WissKI pathbuilders](https://isl.ics.forth.gr/gnm_services),
+> - Zugang zu einer WissKI-Instanz über den [SODa Semantic Co-Working Space (SCS)](https://manager.scs.sammlungen.io/de),
+> - sowie die im Tutorial verwendete [Games Charcteristics Domänenontologie](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf) und Referenzontologie [Erlangen CRM / OWL](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl).
 
 ---
 
