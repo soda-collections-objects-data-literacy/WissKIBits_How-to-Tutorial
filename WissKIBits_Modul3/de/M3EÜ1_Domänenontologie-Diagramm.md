@@ -173,23 +173,38 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 
 **Zeit:** 20 Min.
 
+**Aufgabe:** Vervollständigen Sie das Diagramm, indem Sie die fehlenden **Knoten und Kanten** mit geeigneten Klassen (Entities) und passenden Beziehungen (Properties) ergänzen.
 
-Vervollständigen Sie das Diagramm, indem Sie die fehlenden **Knoten und Kanten** mit geeigneten Klassen (Entities) und passenden Beziehungen (Properties) ergänzen.
+---
 
-Entfernee Sie anschließend alle temporären Platzhalter `(???)`.
+### Das vorbereitete Diagramm vervollständigen
 
-**Verwenden Sie dafür die folgenden Klassen und Properties:**
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](assets/Gruppe_B.drawio.xml) und wählen Sie **„Ziel speichern unter …“**, um die vorbereitete Datei **Gruppe_B.drawio.xml** herunterzuladen.
+> 2. Öffnen Sie die heruntergeladene XML-Datei in **[Draw.io](https://app.diagrams.net/)**.
+> 3. Suchen Sie nach **vier** Platzhaltern `(???)`.
+> 4. Ersetzen Sie diese Platzhalter `(???)` durch folgende Klassen und Beziehungen:
+>    - `P102_has_title`,
+>    - `P1 is identified by`,
+>    - `P190 has symbolic content`,
+>    - `mega:E41_Game_Character_Name`.
+> 5. Prüfen Sie, ob die Klassen und Beziehungen **vollständige semantische Pfade** bilden, siehe hierfür **Modellierregeln in Draw.io**.
+> 6. Untersuchen Sie die **Attribute** des zentralen Startknotens, der Gruppenknoten und Endknoten des Diagramm. Wählen Sie dazu jeweils einen Knoten aus und öffnen Sie mit **Strg + M** (Windows) den Attributdialog. Prüfen Sie die folgenden Attribute:
+>    - `element_id`,
+>    - `group_name` und
+>    - `name`.
+>    - `element_id`,
+>    - `group_name` und
+>    - `name` sowie
+> 7. Setzen Sie die **Attributwerte**, z.B. die Attributwerte des **Gruppenknoten** mega:E89_Game_Characteristic wäre `Game_Characteristic`.
+> 8. Exportieren Sie Ihr Diagramm als **Draw.io XML** und speichern Sie es lokal.
 
-- P102\_has\_title
-- P1 is identified by
-- P190 has symbolic content
-- mega:E41\_Game\_Character\_Name
+**Ergebnis:** Ein [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) basierend auf dem vervollständigten Draw.io-Diagramm:
 
-**Hinweis:**
+![Musterlösung des Ontologie-Diagramms](assets/WissKIBits.drawio.png) 
 
-Klicken Sie mit der rechten Maustaste auf den Link [**Puzzle-Vorlage**](/assets/Gruppe_B.drawio.xml) und wählen Sie **„Link speichern unter …“** um die bereitgestellte Puzzle-Datei herunter zu laden.
+---
 
-### Regeln zur Visualisierung mit Draw.io
+### Modellierregeln in Draw.io
 
 Die Transformation setzt voraus, dass die Verbindungen, Beschriftungen und Attributwerte im Ausgangsdiagramm konsistent sind.
 
@@ -209,10 +224,12 @@ Die Transformation setzt voraus, dass die Verbindungen, Beschriftungen und Attri
 > 
 > - Die Transformation kann nur Strukturen verarbeiten, die im Ausgangsdiagramm eindeutig und konsistent dargestellt sind
 
-> **Erforderliche Attributwerte prüfen**
-> 
-> Das Diagramm muss außerdem die Attributwerte enthalten, die für die Konvertierung in eine WissKI-Pathbuilder-XML-Datei benötigt werden.
-> 
+---
+
+### Erforderliche Attributwerte prüfen
+
+Die zentralen Startknoten, jeder Gruppenknoten und jeder Endknoten im Diagramm muss Attributwerte enthalten. Diese werden für die Konvertierung in eine WissKI-Pathbuilder-XML-Datei benötigt.
+
 > Prüfen Sie für den zentralen Startknoten, jeden Gruppenknoten und jeden Endknoten die folgenden Attribute:
 > 
 > - **element_id**,
