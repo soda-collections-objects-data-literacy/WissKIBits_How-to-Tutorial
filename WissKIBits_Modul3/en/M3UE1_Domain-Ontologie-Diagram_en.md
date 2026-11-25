@@ -139,7 +139,7 @@ The following questions help you recall the concepts and classifications used in
 * [( )] A PlayStation console: *PS1*
 * [( )] An arcade machine: *Pac-Man*
 
-### Which Title Is Assigned to the Example Game?
+### Which Semantic Assumption Is Explicitly Made in the Example?
 
 * [( )] The game is “Open World”
 * [(x)] The title of the object is defined as *The Legend of Zelda: A Link to the Past*

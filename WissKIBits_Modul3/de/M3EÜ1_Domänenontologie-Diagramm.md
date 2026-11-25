@@ -136,7 +136,7 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 ### Welches Beispielobjekt wird im Modul verwendet? 
 
 * [( )] Ein PC-Spiel: *Minecraft*
-* [(x)] Ein SNES-Spiel: *The Legend of Zelda*
+* [(x)] Ein SNES-Spiel: *The Legend of Zelda: A Link to the Past*
 * [( )] Eine PlayStation-Konsole: *PS1*
 * [( )] Ein Arcade-Automat: *Pac-Man*
 
@@ -179,7 +179,7 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 
 ### Das vorbereitete Diagramm vervollständigen
 
-> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](assets/Gruppe_B.drawio.xml) und wählen Sie **„Ziel speichern unter …“**, um die vorbereitete Datei **Gruppe_B.drawio.xml** herunterzuladen.
+> 1. Klicken Sie mit der rechten Maustaste auf den Link [**Draw.io-Lückendiagramm**](../assets/Gruppe_B.drawio.xml) und wählen Sie **„Ziel speichern unter …“**, um die vorbereitete Datei **Gruppe_B.drawio.xml** herunterzuladen.
 > 2. Öffnen Sie die heruntergeladene XML-Datei in **[Draw.io](https://app.diagrams.net/)**.
 > 3. Suchen Sie nach **vier** Platzhaltern `(???)`.
 > 4. Ersetzen Sie diese Platzhalter `(???)` durch folgende Klassen und Beziehungen:
@@ -192,15 +192,12 @@ Die folgenden Fragen dienen dazu, die zentralen Konzepte der Domäne noch einmal
 >    - `element_id`,
 >    - `group_name` und
 >    - `name`.
->    - `element_id`,
->    - `group_name` und
->    - `name` sowie
 > 7. Setzen Sie die **Attributwerte**, z.B. die Attributwerte des **Gruppenknoten** mega:E89_Game_Characteristic wäre `Game_Characteristic`.
 > 8. Exportieren Sie Ihr Diagramm als **Draw.io XML** und speichern Sie es lokal.
 
 **Ergebnis:** Ein [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) basierend auf dem vervollständigten Draw.io-Diagramm:
 
-![Musterlösung des Ontologie-Diagramms](assets/WissKIBits.drawio.png) 
+![Musterlösung des Ontologie-Diagramms](../assets/WissKIBits.drawio.png)
 
 ---
 

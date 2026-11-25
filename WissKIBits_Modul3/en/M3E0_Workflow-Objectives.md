@@ -136,12 +136,12 @@ After completing module 3, participants will be able to…
 
 Starting from the formal ontology structure developed in Module 2, participants complete the following steps:
 
-**Visualise the semantic data model (M3EU1):**  
+**Visualise the semantic data model (M3UE1):**
 Represent selected classes and properties of the domain ontology in a structured Draw.io diagram.
 
 ↓
 
-**Review the diagram (M3EUE):**  
+**Review the diagram (M3UE1):**
 Verify the connections and attribute values required for the transformation.
 
 ↓
@@ -214,7 +214,7 @@ By the end of Module 3, you will have completed the workflow from a semantic dat
  
 > **What will you take away from this module?**
 > 
-> - a semantic [Draw.io diagram](../WissKIBits_Modul3/assets/GamesDrawioDiagramm.png) completed according to the specified rules,
+> - a semantic [Draw.io diagram](../assets/GamesDrawioDiagramm.png) completed according to the specified rules,
 > - an exported [Draw.io XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml),
 > - a [WissKI Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) generated using the conversion service “Draw.io diagrams to WissKI pathbuilders”,
 > - a structure of paths and path groups imported into WissKI,

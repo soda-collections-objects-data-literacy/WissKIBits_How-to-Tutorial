@@ -124,7 +124,7 @@ Auf dieser Grundlage können später **Bundles und Eingabefelder** für die Date
 </table>
 
 
-![Abbildung Pfadstruktur im Pathbuilder](assets/pathbuilder_new.JPG)
+![Abbildung Pfadstruktur im Pathbuilder](../assets/pathbuilder_new.JPG)
 
 
 > **Abbildung:**  Die Benutzeroberfläche des WissKI Pathbuilders zeigt die Organisation von Pfaden und Pfadgruppen - Die Ansicht kann je nach Version etwas abweichen.
