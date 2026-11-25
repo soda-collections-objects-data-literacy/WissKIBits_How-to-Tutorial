@@ -244,7 +244,7 @@ Die zentralen Startknoten, jeder Gruppenknoten und jeder Endknoten im Diagramm m
 
 ---
 
-### Ressourcen
+### Ressourcen und Ergebnis
 
 > - Domänenontologie: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf]
 > 
@@ -253,6 +253,10 @@ Die zentralen Startknoten, jeder Gruppenknoten und jeder Endknoten im Diagramm m
 > - Offizielle CIDOC-CRM-Dokumentation als HTML-Darstellung: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 > 
 > - Visueller und explorativer Zugang: [CIDOC CRM Periodic Table Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
+
+**Ergebnis:** Ein [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) basierend auf dem vervollständigten Draw.io-Diagramm:
+
+![Musterlösung des Ontologie-Diagramms](../assets/WissKIBits.drawio.png) 
 
 ---
 

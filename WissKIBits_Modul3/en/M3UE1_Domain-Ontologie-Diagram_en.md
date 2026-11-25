@@ -240,7 +240,7 @@ The central start node, every group node and every end node in the diagram must 
 
 ---
 
-### Resources
+### Resources and Result
 
 > - Domain ontology: [https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf)
 >
@@ -249,6 +249,10 @@ The central start node, every group node and every end node in the diagram must 
 > - Official CIDOC CRM documentation in HTML: [CIDOC CRM – Classes & Properties, Version 7.1.3](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 >
 > - Visual and exploratory access: [CIDOC CRM Periodic Table, Version 7.1](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1)
+
+**Result:** A [Draw.io XML export](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/WissKIBits.drawio.xml) based on the completed Draw.io diagram:
+
+![Model solution of the ontology diagram](../assets/WissKIBits.drawio.png)
 
 ---
 
