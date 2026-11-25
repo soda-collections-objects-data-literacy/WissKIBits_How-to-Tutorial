@@ -50,7 +50,7 @@ Unit 0 (U0): **Welcome, Workflow and Objectives**
 
 ## Welcome to WissKI Bits: Ontology-Based Modelling of Research Data
 
-In Module 1 [From the Collection via Modelling Decisions to the Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE1_Domain-Ontologie-Diagram_en.md#1), you developed a conceptual model sketch. In Module 2 [Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul3/en/M3UE2_Drawio-to-WissKI-Paths_en.md#1), you reviewed selected CIDOC CRM mappings and formalised parts of your domain model using Protégé.
+In Module 1 [From Collection to Modelling Decisions to Diagram – Understand and Explain](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U00_Structure-Objective_en.md#1), you developed a conceptual model sketch. In Module 2 [Modelling with CIDOC CRM – Understand and Apply](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/en/M2U00_Structure-Objective_en.md#1), you reviewed selected CIDOC CRM mappings and formalised parts of your domain model using Protégé.
 
 In **Module 3: From Diagram to Paths – Explain and Apply**, you will prepare this model for use in WissKI. Using a **computer game collection as an example**, you will complete a semantic diagram in Draw.io, transform it into a WissKI Pathbuilder XML file, and examine the imported paths and path groups in WissKI.
 
@@ -226,9 +226,9 @@ The imported path structure provides the basis for generating Drupal bundles, fi
 
 ## Outlook
 
-Module 3 continues the learning journey from the conceptual model sketch through the formal ontology structure to the technical implementation of selected parts of the semantic data model.
+Module 3 continues the learning journey from the conceptual model sketch through the formal ontology structure to the implementation of selected parts of the semantic data model as paths and path groups in WissKI.
 
-In subsequent steps, data entry structures can be generated in WissKI from the imported paths and path groups, and sample data can be examined in relation to the original research and query questions.
+In subsequent steps, data entry structures can be generated from the imported paths and path groups. Sample data can then be entered and queried in relation to the original research and query questions.
 
 > **What comes Next?**
 >
