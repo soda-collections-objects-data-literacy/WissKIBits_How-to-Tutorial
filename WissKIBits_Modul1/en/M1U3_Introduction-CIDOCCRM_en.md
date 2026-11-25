@@ -321,7 +321,7 @@ The ontology is extensible and allows for further semantic differentiation, maki
 >
 > You have now been introduced to the CIDOC CRM reference model, which enables the formal description of concepts, events, and relationships in the field of cultural heritage.
 >
-> In the next unit, [**M1E4: FAIR Compliance with WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1), you will be introduced to WissKI (Scientific Communication Infrastructure) and learn how ontology-based structures can be implemented in practice using WissKI to manage and utilize research data.
+> In the next unit, [**M1U4: FAIR Compliance with WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1), you will be introduced to WissKI (Scientific Communication Infrastructure) and learn how ontology-based structures can be implemented in practice using WissKI to manage and utilize research data.
 
 ---
 

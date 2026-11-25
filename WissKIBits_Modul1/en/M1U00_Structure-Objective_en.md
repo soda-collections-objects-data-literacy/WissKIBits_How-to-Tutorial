@@ -234,7 +234,7 @@ The module combines short inputs with analysis, discussion, and modelling activi
 - Modelling decisions are discussed and justified collaboratively.
 - The example object **The Legend of Zelda: A Link to the Past** serves as a common thread.
 - In the exercise, participants develop a small model sketch and align selected concepts with CIDOC CRM.
-- The results are consolidated in the plenary session and transferred to participants’ own collection practices.
+- The results are consolidated through individual reflection or plenary discussion and can be transferred to participants’ own collection practices.
 
 The goal is not a complete data model. What matters is a **small, consistent, and justifiable model draft** that can later be expanded and technically implemented.
 

@@ -132,7 +132,7 @@ For the conceptual model sketch, you consider selected information about the exa
 You focus on three areas:
 
 - **Game title:** Names and possible title variants of the game
-- **Game characteristics:** e.g. genre, such as action-adventure or RPG, and platform, such as Nintendo 64, PlayStation, PC
+- **Game characteristics:** for example, genre (action-adventure) and platform (Super Nintendo Entertainment System, SNES)
 - **Narrative elements:** e.g. description, perspective, such as first-person, third-person, and characters such as Zelda
 
 These areas serve as the starting point for recognising different types of **concepts and events** and formulating their **relationships**. In this context, further aspects may become important, such as people and organisations involved, publications, and related places and times.

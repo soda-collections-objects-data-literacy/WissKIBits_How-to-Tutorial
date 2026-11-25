@@ -142,7 +142,7 @@ The resulting model does not simply reproduce the collection record. It makes **
 
 ## Conceptually Organising Knowledge from a Collection
 
-**Working format:** Short plenum discussion 
+**Working format:** Brief plenary discussion or individual reflection
 
 **Time:** 5 min.
 

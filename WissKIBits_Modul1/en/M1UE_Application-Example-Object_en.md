@@ -75,7 +75,7 @@ Using **The Legend of Zelda: A Link to the Past** as an example, you will explor
 
 ## Starting Point: Model Sketch of "Zelda"
 
-Use your own model sketch from M1E0A or the sample solution provided there.
+Use your own model sketch from M1U0A or the sample solution provided there.
 
 ![Conceptual model sketch](../assets/mindmap_en.png)
 
@@ -158,7 +158,7 @@ You may also select people, organisations, events or physical collection objects
 
 **Working format:** Individual work or small groups (2–5 people), followed by a brief comparison or self-reflection
 
-**Materials:** Your own model sketch from M1E0A or the model solution, access to the CIDOC CRM documentation, pen and paper or a digital whiteboard
+**Materials:** Your own model sketch from M1U0A or the model solution, access to the CIDOC CRM documentation, pen and paper or a digital whiteboard
 
 **Time:** ~ 20 min.
 
@@ -205,9 +205,9 @@ The development of a digital game is not automatically an instance of **E12 Prod
 
 Use the following resources:
 
-- **Official CIDOC CRM documentation, version 7.1.3:** This document contains the authoritative definitions, Scope Notes, class hierarchies and properties. [**Link**]([https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)) (CIDOC, 2024a)
-- **Web-based HTML navigator for CIDOC CRM:** The official presentation of **version 7.1.3** is suitable for looking up specific information. [**Link**]([https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)) (CIDOC, 2024b)
-- **CIDOC CRM Periodic Table:** A visual reference tool for exploring classes, properties and their relationships. [**Link**]([https://remogrillo.github.io/cidoc-crm_periodic_table](https://remogrillo.github.io/cidoc-crm_periodic_table)) (RemoGrillo & claude, 2026)
+- **Official CIDOC CRM documentation, version 7.1.3:** This document contains the authoritative definitions, Scope Notes, class hierarchies and properties. [**Link**]([**Link**](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (CIDOC, 2024a)
+- **Web-based HTML navigator for CIDOC CRM:** The official presentation of **version 7.1.3** is suitable for looking up specific information. [**Link**](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html) (CIDOC, 2024b)
+- **CIDOC CRM Periodic Table:** A visual reference tool for exploring classes, properties and their relationships. [**Link**](https://remogrillo.github.io/cidoc-crm_periodic_table) (RemoGrillo & claude, 2026)
 
 ---
 

@@ -110,7 +110,7 @@ As a **semantic data management system**, it supports Linked Open Data (LOD) and
 
 The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm, et al., 2022) explains the **FAIR principles** and shows concrete areas of action for implementing them in research projects. (Reichert & Hastik, 2025) 
 
-An introduction to LOD is provided by the [**5-star model** for open data](https://5stardata.info/de/), which describes the path from digital documents to linked, machine-readable data (Hausenblas, 2012).
+An introduction to LOD is provided by the [**5-star model** for open data](https://5stardata.info/en/), which describes the path from digital documents to linked, machine-readable data (Hausenblas, 2012).
 
 Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (W3C, 2014) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
 
@@ -258,7 +258,7 @@ For example, the creation of a self-portrait by Albrecht Dürer can be modelled 
 
 This approach helps us describe not only **what** is known about an object, but also **how** it is related to other entities.
 
-Technically, this knowledge graph is based on the Resource Description Framework (RDF) [see M1E3: Introduction to CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E3_Einf%C3%BChrung-CIDOCCRM.md#10). Information is stored in the form of so-called triples:
+Technically, this knowledge graph is based on the Resource Description Framework (RDF) [see M1U3: Introduction to CIDOC CRM](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U3_Introduction-CIDOCCRM_en.md#1). Information is stored in the form of so-called triples:
 
 - **Subject** – the resource being described
 - **Predicate** – its property or relationship
@@ -368,7 +368,7 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 >
 > You have seen how WissKI connects semantic modelling with technical research data management.
 >
-> In the next practical unit, [**M1EÜ CIDOC CRM Formalisation**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md#1), which concludes Module 1, you will return to your example object and model sketch and develop its semantic domain model step by step.
+> In the next practical unit, [**M1UE: CIDOC CRM Formalisation**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1UE_Application-Example-Object_en.md#1), which concludes Module 1, you will return to your example object and model sketch and develop its semantic domain model step by step.
 
 ---
 
@@ -386,7 +386,7 @@ The practical unit thus demonstrates how, starting from a concrete collection ob
 
 (Harm, et al., 2022) Harm Buss, M. C., Bayle Deutz, D., Flindt Holmstrand, K., Væring Larsen, A., & Vlachos E. (2022). How to FAIR. https://howtofair.dk/what-is-fair/
 
-(Hausenblas, 2012) Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/de/
+(Hausenblas, 2012) Hausenblas, M. (2012, Januar 22). *5-star open data* (M. Findeisen, Übers.). https://5stardata.info/en
 
 (knurg, 2025) knurg (2025). Drupal Modul WissKI. https://www.drupal.org/project/wisski
 
