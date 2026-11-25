@@ -133,7 +133,7 @@ Diese Kenntnisse wenden Sie nun auf die konzeptuelle Modellskizze aus Modul 1 an
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2EÜ: Semantische Modellierung mit CIDOC CRM**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#1) arbeiten Sie die mit Protégé und legen Subklassen an.
+> In der nächsten Einheit [**M2EÜ: Semantische Modellierung mit CIDOC CRM**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E%C3%9C_Modellieren-CIDOCCRM.md#1) … arbeiten Sie mit Protégé und legen domänenspezifische Subklassen an.
 >
 > Sie wählen geeignete Klassen und Eigenschaften des CIDOC CRM aus, ergänzen bei Bedarf domänenspezifische Ontologieelemente und modellieren deren Beziehungen.
 >

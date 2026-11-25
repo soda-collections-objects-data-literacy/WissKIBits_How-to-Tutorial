@@ -44,7 +44,7 @@ Modul 2: **Modellieren mit CIDCO CRM – verstehen und anwenden**
 
 Übungseinheit (EÜ): **Semantische Modellierung mit CIDOC CRM**  
 
-**Dauer:** ~ 55 Min.
+**Dauer:** ~ 50 Min.
 
 **Lernziele:**
 

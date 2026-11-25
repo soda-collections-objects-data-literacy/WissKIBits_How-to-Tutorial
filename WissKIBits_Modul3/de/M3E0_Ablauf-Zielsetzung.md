@@ -85,6 +85,8 @@ Am Ende des Moduls sind Sie in der Lage,
 - eine Draw.io-XML-Datei bereitzustellen und mithilfe des Webdienstes „Draw.io diagrams to WissKI pathbuilders“ in eine WissKI-Pathbuilder-XML-Datei zu transformieren,
 - die benötigten Ontologien und die erzeugte Pfadstruktur in WissKI einzubinden sowie
 - die importierten Pfade und Pfadgruppen zu analysieren und mit dem Ausgangsmodell abzugleichen.
+- die erzeugten Bundles und Fields zu prüfen und erste Daten zum Beispielobjekt zu erfassen,
+- den Zusammenhang zwischen semantischem Pfad, Eingabefeld und konkretem Datenwert an einem Beispiel zu erläutern.
  
 ---
 
@@ -159,6 +161,11 @@ Die importierte Pfadstruktur untersuchen und mit dem Ausgangsdiagramm vergleiche
 
 ↓
 
+**Eingabestrukturen prüfen und erste Daten erfassen (M3EÜ2):**
+Die erzeugten Bundles und Fields prüfen, einen ersten Datensatz zum Beispielobjekt speichern und den Titelwert mit dem zugehörigen semantischen Pfad vergleichen.
+
+↓
+
 **Ergebnis:**
 Ein ausgewählter Teil des semantischen Domänenmodells liegt als nutzbare Pfadstruktur in WissKI vor.
 
@@ -211,6 +218,8 @@ Am Ende von Modul 3 haben Sie den Workflow vom semantischen Datenmodell zu einer
 > - eine durch den Konvertierungsdienst "Draw.io diagrams to WissKI pathbuilders" erzeugte [WissKI-Pathbuilder-XML-Datei](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml),
 > - eine in WissKI importierte Struktur aus Pfaden und Pfadgruppen,
 > - sowie eine dokumentierte Prüfung der importierten Struktur anhand des Ausgangsmodells und ausgewählter fachlicher Abfragefragen.
+> - geprüfte Bundles und Fields für die Datenerfassung,
+> - einen ersten gespeicherten Datensatz zum Beispielobjekt.
 
 Die importierte Pfadstruktur bildet die Grundlage für die Generierung von sogenannten Drupal-Bundles, -Feldern und -Dateneingabeformularen sowie für die anschließende Erfassung und Abfrage semantisch strukturierter graphenbasierter Forschungsdaten in WissKI.
 
@@ -221,6 +230,8 @@ Die importierte Pfadstruktur bildet die Grundlage für die Generierung von sogen
 Mit Modul 3 wird der Lernweg von der konzeptuellen Modellskizze über die formale Ontologiestruktur bis zur technischen Implementierung ausgewählter Teile des semantischen Datenmodells fortgeführt.
 
 In weiterführenden Arbeitsschritten können aus den importierten Pfaden und Pfadgruppen Dateneingabestrukturen in WissKI generiert und Beispieldaten anhand der ursprünglichen Forschungs- und Abfragefragen untersucht werden.
+
+In weiterführenden Arbeitsschritten können Sie zusätzliche Konzepte und Pfade ergänzen, Eingabestrukturen anpassen und weitere Forschungs- und Sammlungsdaten erfassen. Die systematische Abfrage der Daten kann anschließend vertieft werden.
 
 > **Wie geht es weiter?**
 >

@@ -85,6 +85,8 @@ In this module, you will learn how to:
 - export and transform the Draw.io XML into a **WissKI Pathbuilder XML**,
 - import the generated strucconfiguration into **WissKI**, and
 - inspect and verify the resulting **paths and path groups**.
+- check the generated **bundles and fields** and enter initial data about the example object,
+- explain the relationship between a semantic path, an input field and an actual data value using an example.
 
 The goal is to understand and complete the workflow from a semantic model to a usable Pathbuilder configuration.
 
@@ -161,6 +163,11 @@ Examine the imported path structure and compare it with the original diagram.
 
 ↓
 
+**Check data entry structures and enter initial data (M3UE2):**
+Check the generated bundles and fields, save an initial record about the example object and compare the title value with its associated semantic path.
+
+↓
+
 **Result:**  
 A selected part of the semantic domain model is available as a usable path structure in WissKI.
 
@@ -219,6 +226,8 @@ By the end of Module 3, you will have completed the workflow from a semantic dat
 > - a [WissKI Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput_WissKIBits.xml) generated using the conversion service “Draw.io diagrams to WissKI pathbuilders”,
 > - a structure of paths and path groups imported into WissKI,
 > - and a documented review of the imported structure based on the original model and selected domain-specific query questions.
+> - checked bundles and fields for data entry,
+> - an initial saved record about the example object.
 
 The imported path structure provides the basis for generating Drupal bundles, fields, and data entry forms, as well as for the subsequent creation and querying of semantically structured, graph-based research data in WissKI.
 
@@ -229,6 +238,8 @@ The imported path structure provides the basis for generating Drupal bundles, fi
 Module 3 continues the learning journey from the conceptual model sketch through the formal ontology structure to the implementation of selected parts of the semantic data model as paths and path groups in WissKI.
 
 In subsequent steps, data entry structures can be generated from the imported paths and path groups. Sample data can then be entered and queried in relation to the original research and query questions.
+
+In further work, you can add concepts and paths, adapt the data entry structures and enter additional research and collection data. Systematic querying can then be explored in greater depth.
 
 > **What comes Next?**
 >
