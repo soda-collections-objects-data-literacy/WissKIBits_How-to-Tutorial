@@ -73,7 +73,7 @@ Participants will be able to...
 >
 > It describes key elements such as:
 >
-> **Objects · People and Organizations · Events · Places · Time Periods**
+> **Objects · People and Organisations · Events · Places · Time Periods**
 >
 > These elements are connected through **semantically defined relationships**. This makes it possible to describe not only what information is available about a collection object, but also how that information is meaningfully related.
 
@@ -130,7 +130,7 @@ The official documentation provides a comprehensive introduction:
 
 ## Exploring classes and properties
 
-For practical modeling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
+For practical modelling, it is important to become familiar with the **classes and properties of CIDOC CRM**. In addition to the official documentation, the following web-based resources can be used:
 
 - **[CIDOC CRM – Classes & Properties](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41)**  
   The official documentation of **Version 7.1.3** serves as a reference for looking up specific information. It contains definitions and scope notes, as well as information on class hierarchies and properties.
@@ -220,9 +220,9 @@ The **scope note** of a CIDOC CRM class specifies:
 
 ## Expressing Meaning with CIDOC CRM
 
-CIDOC CRM is **event-centered**, meaning that:
+CIDOC CRM is **event-centred**, meaning that:
 
-> **CIDOC CRM is event-centered**
+> **CIDOC CRM is event-centred**
 >
 > CIDOC CRM describes not only *what something is*, but also **what happens to it** (CIDOC, 2024a, p. 33), who was involved, and where and when it took place.
 >
@@ -230,7 +230,7 @@ CIDOC CRM is **event-centered**, meaning that:
 >
 > Example: Object → Event ← Actor
 
-Statements about resources can be represented in the form of **triples: Subject–Predicate–Object**. Triples provide the **syntactic foundation** for formalized semantic data modeling and make it possible to represent ontologies such as CIDOC CRM in machine-readable form.
+Statements about resources can be represented in the form of **triples: Subject–Predicate–Object**. Triples provide the **syntactic foundation** for formalised semantic data modeling and make it possible to represent ontologies such as CIDOC CRM in machine-readable form.
 
 **RDF (Resource Description Framework)** is a standard for formally describing machine-readable statements about resources in the form of triples. It is also used in WissKI (W3C, 2014).
 
@@ -280,7 +280,7 @@ In a project- or application-specific implementation, the concepts, events, and 
 >
 > A general **reference ontology** provides a shared conceptual framework.
 >
-> A **domain ontology** adapts and specializes this framework for the concepts and requirements of a particular research domain.
+> A **domain ontology** adapts and specialises this framework for the concepts and requirements of a particular research domain.
 >
 > **Note**: CIDOC CRM provides general concepts that can be reused across different cultural heritage domains. A domain-specific model builds on this shared framework to describe the particular information relevant to a collection or research context.
 
@@ -321,7 +321,7 @@ The ontology is extensible and allows for further semantic differentiation, maki
 >
 > You have now been introduced to the CIDOC CRM reference model, which enables the formal description of concepts, events, and relationships in the field of cultural heritage.
 >
-> In the next unit, [**M1U4: FAIR Compliance with WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1), you will be introduced to WissKI (Scientific Communication Infrastructure) and learn how ontology-based structures can be implemented in practice using WissKI to manage and utilize research data.
+> In the next unit, [**M1U4: FAIR Compliance with WissKI**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/en/M1U4_FAIR-Compliance-WissKI_en.md#1), you will be introduced to WissKI (Scientific Communication Infrastructure) and learn how ontology-based structures can be implemented in practice using WissKI to manage and utilise research data.
 
 ---
 

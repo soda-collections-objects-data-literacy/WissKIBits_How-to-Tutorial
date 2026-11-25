@@ -186,7 +186,7 @@ After completing module 1, participants will be able to...
 - name the capabilities and efficiency of IT infrastructures for collection-related research data management (RDM) using the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0202)
 - name the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0803)
 - explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0849)
-- explain the event-centered modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
+- explain the event-centred modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 

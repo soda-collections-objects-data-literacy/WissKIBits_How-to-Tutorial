@@ -83,7 +83,7 @@ This unit explains **why ontologies are used and what benefits they offer for co
 
 ## Why Do We Use Ontologies?
 
-When modelling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardized way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
+When modelling research data from the humanities and cultural studies, the aim is to describe and document relevant knowledge within a domain in a standardised way, make it available and shareable, and ensure that it remains technically and semantically usable over the long term.
 
 > **Why ontologies?**
 >
@@ -116,7 +116,7 @@ When modelling research data from the humanities and cultural studies, the aim i
 
 An ontology is a **formal description of a part of the world**, or a **“formal, schematic representation of a domain of knowledge, consisting of a vocabulary and rules for its composition.”** (Weller, 2013, p. 207)
 
-The best-known definition describes an ontology as an explicit, formal specification of a conceptualization; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber, 1993, p. 200)
+The best-known definition describes an ontology as an explicit, formal specification of a conceptualisation; that is, it provides a structured description of which concepts are relevant in a particular subject area or domain and which relationships exist between them. (Gruber, 1993, p. 200)
 
 **An ontology specifies...**
 
@@ -169,7 +169,7 @@ Ontologies therefore provide a foundation for not only documenting complex resea
 
 ## Outlook
 
-Ontologies provide the foundation for modeling knowledge about collection objects in a structured and semantic way. But how can this be applied in practice to cultural heritage information?
+Ontologies provide the foundation for modelling knowledge about collection objects in a structured and semantic way. But how can this be applied in practice to cultural heritage information?
 
 > **What's Next?**
 >

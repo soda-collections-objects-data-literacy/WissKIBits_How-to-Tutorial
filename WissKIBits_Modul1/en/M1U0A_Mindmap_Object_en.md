@@ -88,7 +88,7 @@ Use the available information about the object and its context to decide **what 
 >
 > - **Object:** What kind of object is it?
 > - **Characteristics and Properties:** What distinctive characteristics and properties does the object have?
-> - **Relationships:** Which people, organizations, or other objects are associated with it?
+> - **Relationships:** Which people, organisations, or other objects are associated with it?
 > - **Events:** Which events are significant for the object?
 > - **Place and Time:** Which locations and dates are relevant to describing the object?
 > - **Connections:** How are these elements related to one another?
@@ -99,7 +99,7 @@ The model should:
 
 - identify and distinguish key concepts and events,
 - visualise the relationships between these elements, and
-- serve as a basis for subsequent modeling with CIDOC CRM.
+- serve as a basis for subsequent modelling with CIDOC CRM.
 
 ---
 
@@ -121,7 +121,7 @@ The following information may be relevant, for example:
 
 Which of these aspects are included in a conceptual model depends on **which questions the collection data are intended to answer**.
 
-Computer games thus provide an illustrative starting point for recognising different perspectives on a collection object, selecting relevant information, and deriving initial **modeling decisions**.
+Computer games thus provide an illustrative starting point for recognising different perspectives on a collection object, selecting relevant information, and deriving initial **modelling decisions**.
 
 ---
 

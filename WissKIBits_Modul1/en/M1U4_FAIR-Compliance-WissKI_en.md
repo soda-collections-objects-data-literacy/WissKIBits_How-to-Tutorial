@@ -61,7 +61,7 @@ Participants will be able to...
 - name the capabilities and efficiency of IT infrastructures for collection-related research data management (RDM) using the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0202)
 - name the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0803)
 - explain the WissKI Pathbuilder as a tool for defining an ontology structure. (LO-ID SODa\_03\_007\_0804)
-- explain the event-centered modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
+- explain the event-centred modelling principle using CIDOC CRM with an example. (LO-ID SODa\_03\_007\_0850)
 - name the Resource Description Framework (RDF) as a standard for describing resources. (LO-ID SODa\_03\_007\_0843)
 - name the benefits of the Scientific Communication Infrastructure WissKI. (LO-ID SODa\_01\_010\_0204)
 
@@ -112,7 +112,7 @@ The [**How to FAIR**](https://howtofair.dk/what-is-fair/) website (Harm, et al.,
 
 An introduction to LOD is provided by the [**5-star model** for open data](https://5stardata.info/en/), which describes the path from digital documents to linked, machine-readable data (Hausenblas, 2012).
 
-Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (W3C, 2014) and the W3C-standardized [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
+Technologies such as the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) (W3C, 2014) and the W3C-standardised [**Web Ontology Language (OWL)**](https://www.w3.org/OWL/) (W3C, 2001) make it possible to represent knowledge formally and in machine-readable form and to semantically link data.
 
 As part of its technical foundation, WissKI uses the current version of **[Erlangen CRM / OWL](https://erlangen-crm.org/current-version)** (Schiemann, 2024), an OWL implementation of the current version of the CIDOC Conceptual Reference Model (CIDOC CRM). (CIDOC, 2024a)
 
@@ -179,15 +179,15 @@ The **Pathbuilder** is the **core component of WissKI**.
 
 ![Pathbuilder](../assets/pathbuilder.jpg)
 
-> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modeling of the computer games domain up to WissKI (version 8.x-3.16) and Drupal (version 11.3.13).
+> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modelling of the computer games domain up to WissKI (version 8.x-3.16) and Drupal (version 11.3.13).
 
 ![Pathbuilder](../assets/pathbuilder_new.JPG)
 
-> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modeling of the computer games domain from WissKI (version 8.x-4.9) and Drupal (version 11.4.11) onward.
+> **Figure:** Pathbuilder in WissKI showing path groups, paths, and field settings for the semantic modelling of the computer games domain from WissKI (version 8.x-4.9) and Drupal (version 11.4.11) onward.
 
 > **What Does the Pathbuilder Do?**
 >
-> The semantic structures modeled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modeling with Semantic Web standards.
+> The semantic structures modelled in the Pathbuilder are technically stored in WissKI as an RDF knowledge graph. In this way, WissKI combines user-friendly modelling with Semantic Web standards.
 >
 > The Pathbuilder defines **groups** and **paths** within the ontology and specifies the classes and properties relevant to particular data structures. This enables structured data entry:
 >
@@ -248,7 +248,7 @@ Path groups represent entities, paths define relationships, and the forms genera
 
 ---
 
-## Event-centered Modelling with CIDOC CRM
+## Event-centred Modelling with CIDOC CRM
 
 A key principle of CIDOC CRM is event-centred modelling.
 
@@ -278,7 +278,7 @@ RDF expresses information as statements consisting of three parts, known as trip
 
 For example, the statement such as: **“Albrecht Dürer created a self-portrait.”** can be expressed as a relationship between the artist and the artwork.
 
-In an event-centered CIDOC CRM model, this relationship can be described more precisely through a **production event** connecting the artist with the artwork.
+In an event-centred CIDOC CRM model, this relationship can be described more precisely through a **production event** connecting the artist with the artwork.
 
 Many interconnected RDF statements form a **knowledge graph**. This graph makes relationships between resources explicit and allows information to be connected and processed by software.
 
