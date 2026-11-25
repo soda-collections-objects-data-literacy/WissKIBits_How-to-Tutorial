@@ -157,10 +157,6 @@ Possible strategies include:
 > 
 > This deliberately restricted approach keeps the practical exercise manageable and allows us to focus on class hierarchies, semantic meaning, and the reuse of an established reference ontology.
 
----
-
-## Outlook
-
 **Note on naming domain-specific classes:**
 
 When extending CIDOC CRM, it is useful to **retain the CIDOC CRM class identifier in the name of a domain-specific subclass**, for example, `E73_Computer_Game` or `E35_Game_Title`. This makes the relationship to the corresponding CIDOC CRM class visible and helps make modelling decisions easier to trace.
@@ -168,6 +164,10 @@ When extending CIDOC CRM, it is useful to **retain the CIDOC CRM class identifie
 However, including the CIDOC CRM identifier in the class name does not replace the **formal subclass relationship** expressed through `rdfs:subClassOf`.
 
 When publishing a domain ontology, classes are also uniquely identified using a **dedicated namespace**. An example is provided by the [MEGA Game Characteristics Domain Ontology](https://games.m-e-g-a.org/ontology/game_characteristics/1.0/Game_characteristics_v1.0.3.rdf).
+
+---
+
+## Outlook
 
 > **What's next?**
 >

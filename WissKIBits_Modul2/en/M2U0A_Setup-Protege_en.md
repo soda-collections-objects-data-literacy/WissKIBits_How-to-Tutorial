@@ -80,7 +80,7 @@ No previous experience with Protégé is required.
 
 **Materials:** Computer with internet access
 
-**Time:** ~ 5 min.   
+**Time:** ~ 10 min.   
 
 **Question: Which statement best describes your previous experience with Protégé or other ontology editors?**
 

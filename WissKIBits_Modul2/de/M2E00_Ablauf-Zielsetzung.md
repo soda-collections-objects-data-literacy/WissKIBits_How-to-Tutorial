@@ -204,7 +204,7 @@ Ausgewählte Zuordnungen zu CIDOC CRM überprüfen, fachlich begründete Erweite
 
 > **So arbeiten Sie**
 >
-> Wir beginnen mit einer kurzen Einführung in Methoden und Workflows der Ontologieentwicklung und bereiten anschließend die Arbeitsumgebung mit Protégé vor.
+> Wir beginnen mit der Vorbereitung der Arbeitsumgebung mit Protégé. Anschließend folgt eine kurze Einführung in Methoden und Workflows der Ontologieentwicklung.
 >
 > Nach der Einführung in Protégé greifen Sie die konzeptuelle Modellskizze aus Modul 1 [**CIDOC CRM Formalisierung**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul1/de/M1E%C3%9C_Anwendungsbeispiel_Objekt.md#1) erneut auf. Sie überprüfen ausgewählte Modellierungsentscheidungen anhand des CIDOC CRM und setzen diese formal um.
 >
@@ -278,9 +278,9 @@ Die Visualisierung der Ontologiestruktur, ihre Einbindung in WissKI und die Konf
 
 > **Wie geht es weiter?**
 >
-> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md#1) lernen Sie unterschiedliche Ansätze zur Entwicklung von Ontologien kennen.
+> In der nächsten Einheit [**M2E0A: Arbeitsumgebung mit Protégé vorbereiten**](https://liascript.github.io/course/?https://raw.githubusercontent.com/soda-collections-objects-data-literacy/WissKIBits_How-to-Tutorial/refs/heads/main/WissKIBits_Modul2/de/M2E0A_Protege-einrichten.md#1) richten Sie Protégé Desktop oder WebProtégé für die praktischen Aufgaben ein.
 >
-> Sie erfahren, wie ein systematischer und iterativer Modellierungsworkflow die Entwicklung einer Domänenontologie auf Grundlage von CIDOC CRM unterstützen kann.
+> In der darauffolgenden Einheit **M2E1: Methoden und Workflows semantischer Modellierung** lernen Sie unterschiedliche Ansätze der Ontologieentwicklung kennen und erfahren, wie ein systematischer, iterativer Workflow die semantische Modellierung unterstützt.
 
 ---
 

@@ -158,7 +158,7 @@ Beide Varianten sind über die [**offizielle Protégé-Webseite**](https://prote
 
 [**Erlangen CRM / OWL**](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl): https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl (Schiemann, 2024)
 
-> **Hinweis:** Orientieren Sie sich an den in M2E3 gezeigten Arbeitsschritten und dem zugehörigen Video:
+> **Hinweis:** Orientieren Sie sich an den in M2E2 gezeigten Arbeitsschritten und dem zugehörigen Video:
 
 !?[Videodemonstration: Erste Schritte mit Protégé](../assets/Short_Protege_Intro.mp4)
 
@@ -218,7 +218,7 @@ Fragen Sie sich:
 
 **Schritt 4: Domänenspezifische Subklassen anlegen**
 
-Entsprechend der in M2U1 vorgestellten Strategie zur schlanken Erweiterung legen Sie nun domänenspezifische Subklassen in Protégé an.
+Entsprechend der in M2E1 vorgestellten Strategie zur schlanken Erweiterung legen Sie nun domänenspezifische Subklassen in Protégé an.
 
 **Beispiel:** Domänenspezifische Subklassen
 
