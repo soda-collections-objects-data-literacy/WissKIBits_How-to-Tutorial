@@ -1,6 +1,6 @@
 # WissKI Bits How-to-Tutorial Module 1 Bibliography
 
-(CiDOC, 2024a)                  CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (2024a). CIDOC CRM Special Interest Group. Retrieved 15 October 2026, from https://cidoc-crm.org/get-last-official-release
+(CIDOC, 2024a)                  CIDOC CRM.  Release Version 7.1.3 Stand Februar 2024. (2024a). CIDOC CRM Special Interest Group. Retrieved 15 October 2026, from https://cidoc-crm.org/get-last-official-release
 
 (CIDOC, 2024b)                  CIDOC CRM Special Interest Group. (2024b). Classes & Properties Declarations of CIDOC-CRM version: 7.1.3. Retrieved 15 October 2026, from https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
                     
